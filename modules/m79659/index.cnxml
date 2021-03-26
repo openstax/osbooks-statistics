@@ -1,0 +1,240 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Confidence Interval (Women's Heights)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m79659</md:content-id>
+  <md:title>Confidence Interval (Women's Heights)</md:title>
+  <md:abstract/>
+  <md:uuid>7c350725-ae7a-461d-b432-1d45fd62e7f9</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id1169831939276">
+<note id="fs-id1164807092370" class="statistics lab"><label/><title>Confidence Interval (Women's Heights)</title>
+<list id="id8761076" list-type="bulleted">
+<title>Student Learning Outcomes</title>
+<item>The student will calculate a 90 percent confidence interval using the given data.</item>
+<item>The student will determine the relationship between the confidence level and the percentage of constructed intervals that contain the population mean. </item>
+</list>
+<para id="fs-idp195589104"><title>Given:</title></para>
+<table id="id1319758f0167" summary="Table presenting women's heights in 100 cells."><title>Heights of 100 Women (in Inches)</title>
+<tgroup cols="8"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<tbody>
+<row>
+<entry>59.4</entry>
+<entry>71.6</entry>
+<entry>69.3</entry>
+<entry>65.0</entry>
+<entry>62.9</entry>
+<entry>66.5</entry>
+<entry>61.7</entry>
+<entry>55.2</entry>
+</row>
+<row>
+<entry>67.5</entry>
+<entry>67.2</entry>
+<entry>63.8</entry>
+<entry>62.9</entry>
+<entry>63.0</entry>
+<entry>63.9</entry>
+<entry>68.7</entry>
+<entry>65.5</entry>
+</row>
+<row>
+<entry>61.9</entry>
+<entry>69.6</entry>
+<entry>58.7</entry>
+<entry>63.4</entry>
+<entry>61.8</entry>
+<entry>60.6</entry>
+<entry>69.8</entry>
+<entry>60.0</entry>
+</row>
+<row>
+<entry>64.9</entry>
+<entry>66.1</entry>
+<entry>66.8</entry>
+<entry>60.6</entry>
+<entry>65.6</entry>
+<entry>63.8</entry>
+<entry>61.3</entry>
+<entry>59.2</entry>
+</row>
+<row>
+<entry>64.1</entry>
+<entry>59.3</entry>
+<entry>64.9</entry>
+<entry>62.4</entry>
+<entry>63.5</entry>
+<entry>60.9</entry>
+<entry>63.3</entry>
+<entry>66.3</entry>
+</row>
+<row>
+<entry>61.5</entry>
+<entry>64.3</entry>
+<entry>62.9</entry>
+<entry>60.6</entry>
+<entry>63.8</entry>
+<entry>58.8</entry>
+<entry>64.9</entry>
+<entry>65.7</entry>
+</row>
+<row>
+<entry>62.5</entry>
+<entry>70.9</entry>
+<entry>62.9</entry>
+<entry>63.1</entry>
+<entry>62.2</entry>
+<entry>58.7</entry>
+<entry>64.7</entry>
+<entry>66.0</entry>
+</row>
+<row>
+<entry>60.5</entry>
+<entry>64.7</entry>
+<entry>65.4</entry>
+<entry>60.2</entry>
+<entry>65.0</entry>
+<entry>64.1</entry>
+<entry>61.1</entry>
+<entry>65.3</entry>
+</row>
+<row>
+<entry>64.6</entry>
+<entry>59.2</entry>
+<entry>61.4</entry>
+<entry>62.0</entry>
+<entry>63.5</entry>
+<entry>61.4</entry>
+<entry>65.5</entry>
+<entry>62.3</entry>
+</row>
+<row>
+<entry>65.5</entry>
+<entry>64.7</entry>
+<entry>58.8</entry>
+<entry>66.1</entry>
+<entry>64.9</entry>
+<entry>66.9</entry>
+<entry>57.9</entry>
+<entry>69.8</entry>
+</row>
+<row>
+<entry>58.5</entry>
+<entry>63.4</entry>
+<entry>69.2</entry>
+<entry>65.9</entry>
+<entry>62.2</entry>
+<entry>60.0</entry>
+<entry>58.1</entry>
+<entry>62.5</entry>
+</row>
+<row>
+<entry>62.4</entry>
+<entry>59.1</entry>
+<entry>66.4</entry>
+<entry>61.2</entry>
+<entry>60.4</entry>
+<entry>58.7</entry>
+<entry>66.7</entry>
+<entry>67.5</entry>
+</row>
+<row>
+<entry>63.2</entry>
+<entry>56.6</entry>
+<entry>67.7</entry>
+<entry>62.5</entry>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list id="fs-idp7345344" list-type="enumerated">
+<item><link target-id="id1319758f0167" document=""/> lists the heights of 100 women. Use a random number generator to select 10 data values randomly.</item>
+<item>Calculate the sample mean and the sample standard deviation. Assume that the population standard deviation is known to be 3.3 in. With these values, construct a 90 percent confidence interval for your sample of 10 values. Write the confidence interval you obtained in the first space of <link target-id="element-838" document=""/>.</item>
+<item>Now write your confidence interval on the board. As others in the class write their confidence intervals on the board, copy them into <link target-id="element-838" document=""/>.
+<table id="element-838" summary="Blank table of 40 empty cells.">
+<title>90 percent Confidence Intervals</title>
+<tgroup cols="5"><tbody>
+<row>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________	</entry>
+</row>
+<row>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________	</entry>
+</row>
+<row>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________	</entry>
+</row>
+<row>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________	</entry>
+</row>
+<row>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________	</entry>
+</row>
+<row>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________	</entry>
+</row>
+<row>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________	</entry>
+</row>
+<row>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________ </entry>
+<entry>__________	</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item></list>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-563" list-type="enumerated"><title>Discussion Questions</title><item>The actual population mean for the 100 heights given in <link target-id="id1319758f0167" document=""/> is <emphasis effect="italics">μ</emphasis> = 63.4. Using the class listing of confidence intervals, count how many of them contain the population mean <emphasis effect="italics">μ</emphasis>; i.e., for how many intervals does the value of <emphasis effect="italics">μ</emphasis> lie between the endpoints of the confidence interval?</item>
+<item>Divide this number by the total number of confidence intervals generated by the class to determine the percentage of confidence intervals that contain the mean <emphasis effect="italics">μ</emphasis>. Write that percentage here: _____________.</item>
+<item>Is the percentage of confidence intervals that contain the population mean <emphasis effect="italics">μ</emphasis> close to 90 percent? </item>
+<item>Suppose we had generated 100 confidence intervals. What do you think would happen to the percentage of confidence intervals that contained the population mean?</item>
+<item>When we construct a 90 percent confidence interval, we say that we are <emphasis effect="italics">90 percent confident that the true population mean lies within the confidence interval. </emphasis>Using complete sentences, explain what we mean by this phrase.</item>
+<item>Some students think that a 90 percent confidence interval contains 90 percent of the data. Use the list of data given (the heights of women) and count how many of the data values lie within the confidence interval that you generated based on that data. How many of the 100 data values lie within your confidence interval? What percentage is this? Is this percentage close to 90 percent?</item>
+<item>Explain why it does not make sense to count data values that lie in a confidence interval. Think about the random variable that is being used in the problem.</item>
+<item>Suppose you obtained the heights of 10 women and calculated a confidence interval from this information. Without knowing the population mean <emphasis effect="italics">μ</emphasis>, would you have any way of knowing <emphasis effect="italics">for certain</emphasis> whether your interval actually contained the value of <emphasis effect="italics">μ</emphasis>? Explain.</item>
+</list></note></section> </content>
+
+</document>

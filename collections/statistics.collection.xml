@@ -1,0 +1,382 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:cnx="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col30309</md:content-id>
+    <md:title>Statistics</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>394a1101-fd8f-4875-84fa-55f15b06ba66</md:uuid>
+<md:slug>statistics</md:slug>
+</metadata>
+  <col:parameters>
+    <col:param name="print-style" value="statistics-prod"/>
+  </col:parameters>
+  <col:content>
+    <col:module document="m79619" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.6">
+      <md:title>Preface</md:title>
+    </col:module>
+    <col:subcollection>
+      <md:title>Sampling and Data</md:title>
+      <col:content>
+        <col:module document="m79592" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79593" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Definitions of Statistics, Probability, and Key Terms</md:title>
+        </col:module>
+        <col:module document="m79594" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.8">
+          <md:title>Data, Sampling, and Variation in Data and Sampling</md:title>
+        </col:module>
+        <col:module document="m79595" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.6">
+          <md:title>Frequency, Frequency Tables, and Levels of Measurement</md:title>
+        </col:module>
+        <col:module document="m79596" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Experimental Design and Ethics</md:title>
+        </col:module>
+        <col:module document="m79597" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Data Collection Experiment</md:title>
+        </col:module>
+        <col:module document="m79598" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Sampling Experiment</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Descriptive Statistics</md:title>
+      <col:content>
+        <col:module document="m79599" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79600" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs</md:title>
+        </col:module>
+        <col:module document="m79601" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Histograms, Frequency Polygons, and Time Series Graphs</md:title>
+        </col:module>
+        <col:module document="m79602" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Measures of the Location of the Data</md:title>
+        </col:module>
+        <col:module document="m79603" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Box Plots</md:title>
+        </col:module>
+        <col:module document="m79604" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Measures of the Center of the Data</md:title>
+        </col:module>
+        <col:module document="m79605" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Skewness and the Mean, Median, and Mode</md:title>
+        </col:module>
+        <col:module document="m79606" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Measures of the Spread of the Data</md:title>
+        </col:module>
+        <col:module document="m79608" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Descriptive Statistics</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Probability Topics</md:title>
+      <col:content>
+        <col:module document="m79609" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79611" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.6">
+          <md:title>Terminology</md:title>
+        </col:module>
+        <col:module document="m79612" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Independent and Mutually Exclusive Events</md:title>
+        </col:module>
+        <col:module document="m79614" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Two Basic Rules of Probability</md:title>
+        </col:module>
+        <col:module document="m79616" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Contingency Tables</md:title>
+        </col:module>
+        <col:module document="m79617" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Tree and Venn Diagrams</md:title>
+        </col:module>
+        <col:module document="m79618" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Probability Topics</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Discrete Random Variables</md:title>
+      <col:content>
+        <col:module document="m79620" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79621" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Probability Distribution Function (PDF) for a Discrete Random Variable</md:title>
+        </col:module>
+        <col:module document="m79623" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Mean or Expected Value and Standard Deviation</md:title>
+        </col:module>
+        <col:module document="m79624" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Binomial Distribution (Optional)</md:title>
+        </col:module>
+        <col:module document="m79625" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Geometric Distribution (Optional)</md:title>
+        </col:module>
+        <col:module document="m79626" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Hypergeometric Distribution (Optional)</md:title>
+        </col:module>
+        <col:module document="m79627" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Poisson Distribution (Optional)</md:title>
+        </col:module>
+        <col:module document="m79628" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Discrete Distribution (Playing Card Experiment)</md:title>
+        </col:module>
+        <col:module document="m79629" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Discrete Distribution (Lucky Dice Experiment)</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Continuous Random Variables</md:title>
+      <col:content>
+        <col:module document="m79631" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79632" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Continuous Probability Functions</md:title>
+        </col:module>
+        <col:module document="m79633" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>The Uniform Distribution</md:title>
+        </col:module>
+        <col:module document="m79635" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>The Exponential Distribution (Optional)</md:title>
+        </col:module>
+        <col:module document="m79637" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Continuous Distribution</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>The Normal Distribution</md:title>
+      <col:content>
+        <col:module document="m79640" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79641" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>The Standard Normal Distribution</md:title>
+        </col:module>
+        <col:module document="m79643" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Using the Normal Distribution</md:title>
+        </col:module>
+        <col:module document="m79644" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Normal Distribution—Lap Times</md:title>
+        </col:module>
+        <col:module document="m79645" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Normal Distribution—Pinkie Length</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>The Central Limit Theorem</md:title>
+      <col:content>
+        <col:module document="m79647" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79648" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>The Central Limit Theorem for Sample Means (Averages)</md:title>
+        </col:module>
+        <col:module document="m79649" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>The Central Limit Theorem for Sums (Optional)</md:title>
+        </col:module>
+        <col:module document="m79650" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Using the Central Limit Theorem</md:title>
+        </col:module>
+        <col:module document="m79651" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Central Limit Theorem (Pocket Change)</md:title>
+        </col:module>
+        <col:module document="m79652" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Central Limit Theorem (Cookie Recipes)</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Confidence Intervals</md:title>
+      <col:content>
+        <col:module document="m79653" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79654" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>A Single Population Mean Using the Normal Distribution</md:title>
+        </col:module>
+        <col:module document="m79655" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>A Single Population Mean Using the Student's t-Distribution</md:title>
+        </col:module>
+        <col:module document="m79656" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>A Population Proportion</md:title>
+        </col:module>
+        <col:module document="m79657" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Confidence Interval (Home Costs)</md:title>
+        </col:module>
+        <col:module document="m79658" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Confidence Interval (Place of Birth)</md:title>
+        </col:module>
+        <col:module document="m79659" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Confidence Interval (Women's Heights)</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Hypothesis Testing with One Sample</md:title>
+      <col:content>
+        <col:module document="m79660" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79661" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Null and Alternative Hypotheses</md:title>
+        </col:module>
+        <col:module document="m79662" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Outcomes and the Type I and Type II Errors</md:title>
+        </col:module>
+        <col:module document="m79663" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Distribution Needed for Hypothesis Testing</md:title>
+        </col:module>
+        <col:module document="m79664" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Rare Events, the Sample, and the Decision and Conclusion</md:title>
+        </col:module>
+        <col:module document="m79665" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Additional Information and Full Hypothesis Test Examples</md:title>
+        </col:module>
+        <col:module document="m79666" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Hypothesis Testing of a Single Mean and Single Proportion</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Hypothesis Testing with Two Samples</md:title>
+      <col:content>
+        <col:module document="m79667" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79668" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Two Population Means with Unknown Standard Deviations</md:title>
+        </col:module>
+        <col:module document="m79669" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Two Population Means with Known Standard Deviations</md:title>
+        </col:module>
+        <col:module document="m79670" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Comparing Two Independent Population Proportions</md:title>
+        </col:module>
+        <col:module document="m79672" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Matched or Paired Samples (Optional)</md:title>
+        </col:module>
+        <col:module document="m79671" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Hypothesis Testing for Two Means and Two Proportions</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>The Chi-Square Distribution</md:title>
+      <col:content>
+        <col:module document="m79673" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79674" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Facts About the Chi-Square Distribution</md:title>
+        </col:module>
+        <col:module document="m79675" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.6">
+          <md:title>Goodness-of-Fit Test</md:title>
+        </col:module>
+        <col:module document="m79676" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Test of Independence</md:title>
+        </col:module>
+        <col:module document="m79678" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Test for Homogeneity</md:title>
+        </col:module>
+        <col:module document="m79679" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Comparison of the Chi-Square Tests</md:title>
+        </col:module>
+        <col:module document="m79682" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Test of a Single Variance</md:title>
+        </col:module>
+        <col:module document="m79683" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Lab 1: Chi-Square Goodness-of-Fit</md:title>
+        </col:module>
+        <col:module document="m79685" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Lab 2: Chi-Square Test of Independence</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Linear Regression and Correlation</md:title>
+      <col:content>
+        <col:module document="m79700" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79686" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Linear Equations</md:title>
+        </col:module>
+        <col:module document="m79689" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>The Regression Equation</md:title>
+        </col:module>
+        <col:module document="m79691" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Testing the Significance of the Correlation Coefficient (Optional)</md:title>
+        </col:module>
+        <col:module document="m79692" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Prediction (Optional)</md:title>
+        </col:module>
+        <col:module document="m79694" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+          <md:title>Outliers</md:title>
+        </col:module>
+        <col:module document="m79695" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Regression (Distance from School) (Optional)</md:title>
+        </col:module>
+        <col:module document="m79697" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Regression (Textbook Cost) (Optional)</md:title>
+        </col:module>
+        <col:module document="m79699" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Regression (Fuel Efficiency) (Optional)</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>F Distribution and One-way Anova</md:title>
+      <col:content>
+        <col:module document="m79701" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>Introduction</md:title>
+        </col:module>
+        <col:module document="m79703" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+          <md:title>One-Way ANOVA</md:title>
+        </col:module>
+        <col:module document="m79704" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>The F Distribution and the F Ratio</md:title>
+        </col:module>
+        <col:module document="m79705" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Facts About the F Distribution</md:title>
+        </col:module>
+        <col:module document="m79706" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Test of Two Variances</md:title>
+        </col:module>
+        <col:module document="m79708" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+          <md:title>Lab: One-Way ANOVA</md:title>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m79709" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+      <md:title>Appendix A Review Exercises (Ch 3–13)</md:title>
+    </col:module>
+    <col:module document="m79711" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+      <md:title>Appendix B Practice Tests (1–4) and Final Exams</md:title>
+    </col:module>
+    <col:module document="m79712" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+      <md:title>Data Sets</md:title>
+    </col:module>
+    <col:module document="m79713" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.5">
+      <md:title>Group and Partner Projects</md:title>
+    </col:module>
+    <col:module document="m79714" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+      <md:title>Solution Sheets</md:title>
+    </col:module>
+    <col:module document="m79715" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.3">
+      <md:title>Mathematical Phrases, Symbols, and Formulas</md:title>
+    </col:module>
+    <col:module document="m79717" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+      <md:title>Notes for the TI-83, 83+, 84, 84+ Calculators</md:title>
+    </col:module>
+    <col:module document="m79718" version="latest" repository="https://legacy.cnx.org/content" cnxorg:version-at-this-collection-version="1.4">
+      <md:title>Tables</md:title>
+    </col:module>
+  </col:content>
+</col:collection>

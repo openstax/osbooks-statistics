@@ -1,0 +1,3793 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+  <title>Mean or Expected Value and Standard Deviation</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m79623</md:content-id>
+  <md:title>Mean or Expected Value and Standard Deviation</md:title>
+  <md:abstract/>
+  <md:uuid>bf185b31-e927-4045-a639-060acdbca033</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id1164967836938">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567985407">The <term>expected value</term> of a discrete random variable  <emphasis effect="italics">X</emphasis>, symbolized as <emphasis effect="italics">E(X)</emphasis>, is often referred to as the <emphasis effect="italics">long-term average or <term>mean</term></emphasis> (symbolized as <emphasis effect="italics">μ</emphasis>). This means that over the long term of doing an experiment over and over, you would expect this average. For example, let <emphasis effect="italics">X</emphasis> = the number of heads you get when you toss three fair coins. If you repeat this experiment (toss three fair coins) a large number of times, the expected value of <emphasis effect="italics">X</emphasis> is the number of heads you expect to get for each three tosses on average.</para><note xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8737934"><label/><title>NOTE</title>
+<para id="fs-id1164567101270">To find the expected value, <emphasis effect="italics">E(X)</emphasis>,  or mean <emphasis effect="italics">μ</emphasis> of a discrete random variable  <emphasis effect="italics">X</emphasis>, simply multiply each value of the random variable by its probability and add the products. The formula is given as
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true">
+    <m:mo>∑</m:mo> <m:mrow>
+     <m:mi>x</m:mi><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+   </m:mstyle>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para>
+<para id="fs-id1164565562429">Here <emphasis effect="italics">x</emphasis> represents values of the random variable <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) represents the corresponding probability, and symbol <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mstyle displaystyle="true">
+    <m:mo>∑</m:mo> <m:mrow/>
+   </m:mstyle>
+  </m:mrow>
+ </m:semantics>
+</m:math> represents the sum of all products <emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). Here we use symbol <emphasis effect="italics">μ</emphasis> for the mean because it is a parameter. It represents the mean of a population.</para></note><example id="fs-idp56252608">
+<para id="fs-idm190895152">A men's soccer team plays soccer zero, one, or two days a week. The probability that they play zero days is .2, the probability that they play one day is .5, and the probability that they play two days is .3. Find the long-term average or expected value, <emphasis effect="italics">μ</emphasis>, of the number of days per week the men's soccer team plays soccer.</para>
+
+<para id="element-126">To do the problem, first let the random variable <emphasis effect="italics">X</emphasis> = the number of days the men's soccer team plays soccer per week. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2. Construct a PDF table adding a column <emphasis effect="italics">x*P(x)</emphasis>, the product of the value <emphasis effect="italics">x</emphasis> with the corresponding probability <emphasis effect="italics">P(x)</emphasis>. In this column, you will multiply each <emphasis effect="italics">x</emphasis> value by its probability.</para>
+
+<table id="element-749" summary="The PDF table contains the number of days a men's soccer team plays soccer per week and thir probabilities."><title>Expected Value Table</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+    <entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>.2</entry>
+    <entry>(0)(.2) = 0</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>.5</entry>
+    <entry>(1)(.5) = .5</entry>
+  </row>
+<row>
+    <entry>2</entry>
+    <entry>.3</entry>
+    <entry>(2)(.3) = .6</entry>
+  </row>
+</tbody>
+</tgroup>
+<caption>This table is called an expected value table. The table helps you calculate the expected value or long-term average.</caption>
+</table>
+
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564181939">Add the last column <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>*</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> to get the expected value/mean of the random variable <emphasis effect="italics">X</emphasis>.</para><equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" class="unnumbered" id="fs-id1164568074384"><label/><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>=</m:mo><m:mo>∑</m:mo><m:mi>x</m:mi><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mn>.5</m:mn><m:mo>+</m:mo><m:mn>.6</m:mn><m:mo>=</m:mo><m:mn>1.1</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></equation><para id="element-353">The expected value/mean is 1.1. The men's soccer team would, on the average, expect to play soccer 1.1 days per week. The number 1.1 is the long-term average or expected value if the men's soccer team plays soccer week after week after week.</para>
+</example>
+
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567592732">As you learned in <link document="m79609">Chapter 3</link>, if you toss a fair coin, the probability that the result is heads is 0.5. This probability is a theoretical probability, which is what we expect to happen. This probability does not describe the short-term results of an experiment. If you flip a coin two times, the probability does not tell you that these flips will result in one head and one tail. Even if you flip a coin 10 times or 100 times, the probability does not tell you that you will get half tails and half heads. The probability gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. The relative frequency of heads is 12,012/24,000 = .5005, which is very close to the theoretical probability .5. In his experiment, Pearson illustrated the law of large numbers.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164566050803"><emphasis>The law of large numbers</emphasis> states that, as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency approaches zero (the theoretical probability and the relative frequency get closer and closer together). The relative frequency is also called the experimental probability, a term that means what actually happens.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164566365166">In the next example, we will demonstrate how to find the expected value and <term>standard deviation of a discrete probability distribution</term> by using relative frequency.</para><para id="fs-id1164565605314">Like data, probability distributions have variances and standard deviations. The variance of a probability distribution is symbolized as <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> and the standard deviation of a probability distribution is symbolized as <emphasis effect="italics">σ</emphasis>. Both are parameters since they summarize information about a population. To find the variance <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> of a discrete probability distribution, find each deviation from its expected value, square it, multiply it by its probability, and add the products. To find the standard deviation <emphasis effect="italics">σ</emphasis> of a probability distribution, simply take the square root of variance <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>. The formulas are given as below.</para>
+<note xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565502913"><label/><title>NOTE</title>
+<para id="fs-id1164567841793">The formula of the variance <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> of a discrete random variable <emphasis effect="italics">X</emphasis> is</para>
+<equation id="fs-id1164566961828">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mo>∑</m:mo><m:msup>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mi>x</m:mi>
+   <m:mo>)</m:mo></m:mrow>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</equation>
+<para id="fs-id1164565487202">Here <emphasis effect="italics">x</emphasis> represents values of the random variable <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">μ</emphasis> is the mean of <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) represents the corresponding probability, and symbol <emphasis effect="italics">∑</emphasis> represents the sum of all products <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+  </m:mrow>
+
+ </m:semantics>
+</m:math></para><para id="fs-id1164566020731">To find the standard deviation, <emphasis effect="italics">σ</emphasis>, of a discrete random variable <emphasis effect="italics">X</emphasis>, simply take the square root of the variance <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>.</para>
+<equation class="unnumbered" id="fs-id1164565390355"><label/><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+    <m:mrow>
+     <m:msup>
+      <m:mi>σ</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>=</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mo>∑</m:mo><m:msup>
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+      <m:mi>x</m:mi>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+   </m:msqrt>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></equation>
+</note><example id="fs-idm82770544">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567289766">A researcher conducted a study to investigate how a newborn babys crying after midnight affects the sleep of the baby's mother. The researcher randomly selected 50 new mothers and asked how many times they were awakened by their newborn baby's crying after midnight per week. Two mothers were awakened zero times, 11 mothers were awakened one time, 23 mothers were awakened two times, nine mothers were awakened three times, four mothers were awakened four times, and one mother was awakened five times. Find the expected value of the number of times a newborn baby's crying wakes its mother after midnight per week. Calculate the standard deviation of the variable as well.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567389383">To do the problem, first let the random variable <emphasis effect="italics">X</emphasis> = the number of times a mother is awakened by her newborns crying after midnight per week. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, 4, 5. Construct a PDF table as below. The column of <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)  gives the experimental probability of each <emphasis effect="italics">x</emphasis> value.  We will use the relative frequency to get the probability. For example, the probability that a mother wakes up zero times is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math> since there are two mothers out of 50 who were awakened zero times. The third column of the table is the product of a value and its probability, <emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>).</para><table id="fs-id1164567284598" summary="A three column, seven row table is shown. The header row contains the following column titles: x, P opening parenthesis x closing parenthesis, and x P opening parenthesis x closing parenthesis. The first data row contains, 0, P opening parenthesis x = 0 closing parenthesis equals two fiftieths, and opening parenthesis 0 closing parenthesis opening parenthesis two fiftieths closing parenthesis equals 0.  The second data row contains, 1, P opening parenthesis x = 1 closing parenthesis equals eleven fiftieths, and opening parenthesis 1 closing parenthesis opening parenthesis eleven fiftieths closing parenthesis equals eleven fiftieths. The third data row contains, 2, P opening parenthesis x = 2 closing parenthesis equals twenty-three fiftieths, and opening parenthesis 2 closing parenthesis opening parenthesis twenty-three fiftieths closing parenthesis equals forty-six fiftieths. The fourth data row contains, 3, P opening parenthesis x = 3 closing parenthesis equals nine fiftieths, and opening parenthesis 3 closing parenthesis opening parenthesis nine fiftieths closing parenthesis equals twenty-seven fiftieths. The fifth data row contains, 4, P opening parenthesis x = 4 closing parenthesis equals four fiftieths, and opening parenthesis 4 closing parenthesis opening parenthesis four fiftieths closing parenthesis equals sixteen fiftieths. The sixth data row contains, 5, P opening parenthesis x = 5 closing parenthesis equals one fiftieth, and opening parenthesis 05closing parenthesis opening parenthesis one fiftieth closing parenthesis equals five fiftieths.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry align="center"><emphasis effect="italics">x</emphasis></entry>
+<entry align="center"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry align="center"><emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">0</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>0</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">1</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>1</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mn>11</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">2</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>23</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>2</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mn>23</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>46</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">3</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>3</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>9</m:mn>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>27</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</entry>
+</row>
+<row>
+<entry align="center">4</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> 4</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>4</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>16</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">5</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>5</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565545501">We then add all the products in the third column to get the mean/expected value of <emphasis effect="italics">X</emphasis>.</para><equation id="fs-id1164567354993">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>E</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mi>X</m:mi>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>=</m:mo><m:mo>∑</m:mo><m:mi>x</m:mi><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mi>x</m:mi>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>46</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>27</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>16</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>105</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>2.1</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></equation>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567577800">Therefore, we expect a newborn to wake its mother after midnight 2.1 times per week, on the average.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567878100">To calculate the standard deviation <emphasis effect="italics">σ</emphasis>, we add the fourth column (<emphasis effect="italics">x-μ</emphasis>)<sup>2</sup> and the fifth column <m:math><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>∙</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:math> to get the following table:</para><table id="fs-id1164567849065" summary="A five column, six row table is shown. The header row contains the following column titles: x, P opening parenthesis x closing parenthesis, x P opening parenthesis x closing parenthesis, opening parenthesis x minus mu closing parenthesis superscript two, and opening parenthesis x minus mu closing parenthesis superscript 2 multiplication dot P opening parenthesis x closing parenthesis. The first data row contains 0; P opening parenthesis x equals 0 closing parenthesis equals two fiftieths; opening parenthesis 0 closing parenthesis opening parenthesis two fiftieths closing parenthesis equals 0; opening parenthesis 0 minus 2.1 closing parenthesis superscript two equals 4.41; and 4.41 multiplication dot two fiftieths = 0.1764. The second data row contains 1; P opening parenthesis x equals 1 closing parenthesis equals eleven fiftieths; opening parenthesis 1 closing parenthesis opening parenthesis eleven fiftieths closing parenthesis equals eleven fiftieths; opening parenthesis 1 minus 2.1 closing parenthesis superscript two equals 1.21; and 1.21 multiplication dot eleven fiftieths = 0.2662. The third data row contains 2; P opening parenthesis x equals 2 closing parenthesis equals twenty-three fiftieths; opening parenthesis 2 closing parenthesis opening parenthesis twenty-three fiftieths closing parenthesis equals forty-six fiftieths; opening parenthesis 2 minus 2.1 closing parenthesis superscript two equals 0.01; and 0.01 multiplication dot twenty-three fiftieths = 0.0046. The fourth data row contains 3; P opening parenthesis x equals 3 closing parenthesis equals nine fiftieths; opening parenthesis 3 closing parenthesis opening parenthesis nine fiftieths closing parenthesis equals twenty-seven fiftieths; opening parenthesis 3 minus 2.1 closing parenthesis superscript two equals 0.81; and 0.81 multiplication dot nine fiftieths = 0.1458. The fifth data row contains 4; P opening parenthesis x equals 4 closing parenthesis equals four fiftieths; opening parenthesis 4 closing parenthesis opening parenthesis four fiftieths closing parenthesis equals sixteen fiftieths; opening parenthesis 4 minus 2.1 closing parenthesis superscript two equals 3.61; and 3.61 multiplication dot four fiftieths = 0.2888. The sixth data row contains 5; P opening parenthesis x equals 5 closing parenthesis equals one fiftieth; opening parenthesis 5 closing parenthesis opening parenthesis one fiftieth closing parenthesis equals five fiftieths; opening parenthesis 5 minus 2.1 closing parenthesis superscript two equals 8.41; and 8.41 multiplication dot one fiftieth = 0.1682.">
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry align="center"><emphasis effect="italics">x</emphasis></entry>
+<entry align="center"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry align="center"><emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry align="center">(<emphasis effect="italics">x-µ</emphasis>)<sup>2</sup></entry>
+<entry align="center">(<emphasis effect="italics">x-µ</emphasis>)<sup>2</sup>•<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">0</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>0</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mn>2.1</m:mn><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mn>4.41</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4.41</m:mn><m:mo>•</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>.1764</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">1</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>11</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>1</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mn>11</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+</entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2.1</m:mn><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mn>1.21</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1.21</m:mn><m:mo>•</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>.2662</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">2</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>23</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>2</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mn>23</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>46</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>2.1</m:mn><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mn>.01</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>.01</m:mn><m:mo>•</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>23</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>.0046</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">3</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>3</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>9</m:mn>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>27</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2.1</m:mn><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mn>.81</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>.81</m:mn><m:mo>•</m:mo><m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>.1458</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">4</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>4</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>16</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2.1</m:mn><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mn>3.61</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3.61</m:mn><m:mo>•</m:mo><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>.2888</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+<row>
+<entry align="center">5</entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>5</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+       <m:mn>50</m:mn>
+      </m:mrow>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2.1</m:mn><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mn>8.41</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+<entry align="center"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>8.41</m:mn><m:mo>•</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>.1682</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="fs-id1164567469151">We then add all the products in the 5<sup>th</sup> column to get the variance of <emphasis effect="italics">X</emphasis>.</para>
+<equation id="fs-id1164567289888">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mn>.1764</m:mn><m:mo>+</m:mo><m:mn>.2662</m:mn><m:mo>+</m:mo><m:mn>.0046</m:mn><m:mo>+</m:mo><m:mn>.1458</m:mn><m:mo>+</m:mo><m:mn>.2888</m:mn><m:mo>+</m:mo><m:mn>.1682</m:mn><m:mo>=</m:mo><m:mn>1.05</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math></equation>
+<para id="fs-id1164567233541">To get the standard deviation <emphasis effect="italics">σ</emphasis>, we simply take the square root of variance <emphasis effect="italics">σ</emphasis><sup>2</sup>.</para>
+<equation id="fs-id1164567558892">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+    <m:mrow>
+     <m:msup>
+      <m:mi>σ</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>=</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mn>1.05</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>≈</m:mo><m:mn>1.0247</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</equation>
+</example>
+
+<note id="fs-idm80414512" class="statistics try"><label/><title>Try It</title>
+<exercise id="fs-idm131173600">
+<problem id="fs-idm112686784">
+<para id="fs-idm86997008">A hospital researcher is interested in the number of times the average post-op patient will ring the nurse during a 12-hour shift. For a random sample of 50 patients, the following information was obtained. What is the expected value?</para>
+<table id="fs-idm56815952" summary="The number of times the average post-op patient will ring the nurse during a 12-hour shift">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry><emphasis effect="italics">x</emphasis></entry>	<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 0) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>4</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>1</entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 1) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>8</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry></row>
+<row>
+<entry>2</entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>16</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>3</entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>50</m:mn>
+</m:mrow>
+</m:mfrac></m:mrow></m:math>
+</entry></row>
+<row>
+<entry>4</entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>6</m:mn>
+<m:mrow>
+<m:mn>50</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mrow>
+<m:mn>50</m:mn>
+</m:mrow>
+</m:mfrac></m:mrow>
+</m:math>
+</entry></row>
+</tbody>
+
+</tgroup>
+</table></problem>
+<solution id="fs-idm108561760" class="solutions">
+<label/>
+<para id="fs-idm49996960">The expected value is 2.24</para>
+<para id="fs-idm133987296">(0)<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>4</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + (1)<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>4</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + (2)<m:math>
+ <m:mrow>
+<m:mfrac>
+   <m:mrow>
+    <m:mn>16</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + (3)<m:math>
+ <m:mrow>
+<m:mfrac>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + (4)<m:math>
+ <m:mrow>
+<m:mfrac>
+   <m:mn>6</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + (5)<m:math>
+ <m:mrow>
+<m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = 0 + <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>8</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>32</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> +<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>42</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>24</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>10</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>116</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = 2.24</para>
+</solution>
+</exercise></note><example id="element-116">
+<para id="element-117">Suppose you play a game of chance in which five numbers are chosen from 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. A computer randomly selects five numbers from zero to nine with replacement. You pay $2 to play and could profit $100,000 if you match all five numbers in order (you get your $2 back plus $100,000). Over the long term, what is your <emphasis effect="italics">expected</emphasis> profit of playing the game?</para>
+<para id="fs-id1164564484850">To do this problem, set up a PDF table for the amount of money you can profit.</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567242944">Let <emphasis effect="italics">X</emphasis> = the amount of money you profit. If your five numbers match in order, you will win the game and will get your $2 back plus $100,000. That means your profit is $100,000. If your five numbers do not match in order, you will lose the game and lose your $2. That means your profit is -$2. Therefore, X takes on the values $100,000 and –$2. That is the second column <emphasis effect="italics">x</emphasis> in the PDF table below.</para><para id="fs-id1164567272570">To win, you must get all five numbers correct, in order. The probability of choosing the correct first number is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ because there are 10 numbers (from zero to nine) and only one of them is correct. The probability of choosing the correct second number is also <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ because the selection is done with replacement and there are still 10 numbers (from zero to nine) for you to choose. Due to the same reason, the probability of choosing the correct third number, the correct fourth number, and the correct fifth number are also <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+
+  </m:mrow>
+ </m:semantics>
+</m:math>
+. The selection of one number does not affect the selection of another number. That means the five selections are independent. The probability of choosing all five correct numbers and in order is equal to the product of the probabilities of choosing each number correctly. </para>
+<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" class="unnumbered" id="fs-id1164568063039"><label/><m:math>
+ <m:semantics>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+   <m:mtext>P</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>choosing all five numbers correctly</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>•</m:mo><m:mtext>P</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+       <m:mtext>choosing 1st number correctly</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>•</m:mo>
+</m:mtd></m:mtr>
+<m:mtr><m:mtd>
+<m:mtext> P</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+       <m:mtext>choosing 2nd number correctly</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>•</m:mo><m:mtext> P</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+       <m:mtext>choosing 5th number correctly</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+</m:mtd></m:mtr>
+<m:mtr>
+<m:mtd><m:mo>=</m:mo>
+<m:mo stretchy="false">(</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo stretchy="false">)</m:mo><m:mo>•</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo stretchy="false">)</m:mo><m:mo>•</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo stretchy="false">)</m:mo><m:mo>•</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo stretchy="false">)</m:mo><m:mo>•</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo stretchy="false">)</m:mo>
+</m:mtd></m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo>=</m:mo><m:mn>.00001</m:mn></m:mtd></m:mtr></m:mtable>
+ </m:semantics>
+</m:math>
+</equation><para id="fs-id1164564477521">Therefore, the probability of winning is .00001 and the probability of losing is 1 − .00001 = .99999. That is how we get the third column <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) in the PDF table below.</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565764618">To get the fourth column <emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) in the table, we simply multiply the value <emphasis effect="italics">x</emphasis> with the corresponding probability <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565532486">The PDF table is as follows:</para><table id="element-480" summary="In the table, to find the expected value, add the last column.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry/>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+    <entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Loss</entry>
+    <entry>–2</entry>
+    <entry>.99999</entry>
+    <entry>(–2)(.99999) = –1.99998</entry>
+  </row>
+  <row>
+    <entry>Profit</entry>
+    <entry>100,000</entry>
+    <entry>.00001</entry>
+    <entry>(100000)(.00001) = 1</entry>
+  </row>
+</tbody>
+
+</tgroup><caption/>
+</table>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164566177364">We then add all the products in the last column to get the mean/expected value of <emphasis effect="italics">X</emphasis>.</para><equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" class="unnumbered" id="fs-id1164566177703"><label/><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mo> </m:mo><m:mi>E</m:mi><m:mo stretchy="false">(</m:mo><m:mi>X</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true">
+    <m:mo>∑</m:mo> <m:mrow>
+     <m:mi>x</m:mi><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.99998</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>.9998</m:mn>
+    </m:mrow>
+   </m:mstyle>
+<m:mtext>.</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></equation><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-406">Since –.99998 is about –1, you would, on average, expect to lose approximately $1 for each game you play. However, each time you play, you either lose $2 or profit $100,000. The $1 is the average or expected <emphasis>loss</emphasis> per game after playing this game over and over.</para></example>
+
+<note id="fs-idm7487840" class="statistics try"><label/><title>Try It</title>
+<exercise id="fs-idm58858880"><problem id="fs-idm58346384">
+<para id="fs-idm147804448">You are playing a game of chance in which four cards are drawn from a standard deck of 52 cards. You guess the suit of each card before it is drawn. The cards are replaced in the deck on each draw. You pay $1 to play. If you guess the right suit every time, you get your money back and $256. What is your expected profit of playing the game over the long term?</para></problem>
+
+<solution id="fs-idm14692032" class="solutions">
+<label/>
+<para id="fs-idm127713904">Let <emphasis effect="italics">X</emphasis> = the amount of money you profit. The <emphasis effect="italics">x</emphasis>-values are –$1 and $256.</para><para id="fs-idm112707632">The probability of guessing the right suit each time is <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>256</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = 0.0039</para>
+<para id="fs-idm50024064">The probability of losing is 1 – <m:math>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>256</m:mn>
+    </m:mrow>
+   </m:mfrac>
+</m:mrow>
+</m:math> = <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>255</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>256</m:mn>
+    </m:mrow>
+   </m:mfrac>  </m:mrow>
+ </m:semantics>
+</m:math> = 0.9961</para><para id="fs-idm108269184">(0.0039)256 + (0.9961)(–1) = 0.9984 + (–0.9961) = 0.0023 or 0.23 cents.</para></solution>
+</exercise></note><example id="element-341">
+<para id="element-408">Suppose you play a game with a biased coin. You play each game by tossing the coin once. <emphasis effect="italics">P</emphasis>(heads) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> and <emphasis effect="italics">P</emphasis>(tails) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math>. If you toss a head, you pay $6. If you toss a tail, you win $10. If you play this game many times, will you come out ahead?<newline count="2"/>
+</para><exercise id="element-193">
+<problem id="id14631763">
+<para id="element-653">a. Define a random variable <emphasis effect="italics">X</emphasis>.</para>
+</problem>
+<solution id="id14631784">
+  <para id="element-548">a. <emphasis effect="italics">X</emphasis> = amount of profit<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-483"><problem id="id14631817">
+<para id="element-597">b. Complete the following expected value table.</para><table id="element-644" summary="Problem 2 Table">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+  <row>
+    <entry/>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry>____</entry>
+    <entry>____</entry>
+  </row>
+</thead>
+<tbody>
+<row>
+    <entry>WIN</entry>
+    <entry>10</entry>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry>____</entry>
+  </row>
+  <row>
+    <entry>LOSE</entry>
+    <entry>____</entry>
+    <entry>____</entry>
+    <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+
+<solution id="id7273882"><para id="fs-idm44109456">b.
+<table id="element-644s" summary="In the PDF table, the outcomes (money you win or lose) of a game played with a biased coin are recorded. There is a column to record the probability and a column to record the outcome multiplied by its probability.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+  <row>
+    <entry/>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+    <entry><emphasis effect="italics">xP</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>WIN</entry>
+    <entry>10</entry>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry> <entry><m:math><m:mfrac><m:mn>10</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>LOSE</entry>
+    <entry>–6</entry>
+    <entry><m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+<newline count="2"/></para></solution>
+</exercise><exercise id="element-737">
+<problem id="id10943564">
+  <para id="element-847">c. What is the expected value, <emphasis effect="italics">μ</emphasis>? Do you come out ahead?</para>
+</problem>
+
+<solution id="id10943588">
+<!-- <para id="element-535">c. Add the last column of the table. The expected value <emphasis effect="italics">&#956;</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>&#8211;</m:mtext><m:mn>2</m:mn>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math>. You lose, on average, about 67 cents each time you play the game so you do not come out ahead.</para> -->
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565965260">c. Add the last column of the table. The expected value <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mi>E</m:mi><m:mo>(</m:mo>
+    <m:mi>X</m:mi>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mfrac>
+      <m:mrow>
+       <m:mn>12</m:mn>
+      </m:mrow>
+      <m:mn>3</m:mn>
+     </m:mfrac>
+
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>.67</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>. You lose, on average, about 67 cents each time you play the game, so you do not come out ahead.</para></solution>
+</exercise></example>
+
+<note id="fs-idp157498240" class="statistics try"><label/><title>Try It</title>
+
+<exercise id="fs-idm123810544"><problem id="fs-idm43455984">
+<para id="fs-idm133743184">Suppose you play a game with a spinner. You play each game by spinning the spinner once. <emphasis effect="italics">P</emphasis>(red) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math>, <emphasis effect="italics">P</emphasis>(blue) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>, and <emphasis effect="italics">P</emphasis>(green) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>. If you land on red, you pay $10. If you land on blue, you don't pay or win anything. If you land on green, you win $10. Complete the following expected value table.</para>
+<table id="fs-idm71508016" summary="Exercise 3 Table 1">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry/>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry/></row>
+</thead>
+<tbody>
+<row>
+<entry>Red</entry>
+<entry/>
+<entry/>
+<entry><m:math>
+ <m:mrow>
+  <m:mtext>–</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>20</m:mn>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>Blue</entry>
+<entry/>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+<entry/>
+</row>
+<row>
+<entry>Green</entry>
+<entry>10</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></problem>
+<solution id="fs-idm149175888" class="solutions">
+<label/>
+<table id="fs-idm141334512" summary="value table">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry/>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Red</entry>
+<entry>–10</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mo>–</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>20</m:mn>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>Blue</entry>
+<entry>0</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>0</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>Green</entry>
+<entry>10</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry></row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise></note>
+<!-- <para id="element-903">Like data, probability distributions have standard deviations. To calculate the standard deviation (<emphasis effect="italics">&#963;</emphasis>) of a probability distribution, find each deviation from its expected value, square it, multiply it by its probability, add the products, and take the square root. To understand how to do the calculation, look at the table for the number of days per week a men's soccer team plays soccer. To find the standard deviation, add the entries in the column labeled (<emphasis effect="italics">x</emphasis> &#8211; <emphasis effect="italics">&#956;</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) and take the square root.
+
+<table id="element-226" summary="PDF table with the added columns for expected value and variance.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+    <entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+    <entry>(<emphasis effect="italics">x</emphasis> &#8211; <emphasis effect="italics">&#956;</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+    <row>
+    <entry>0</entry>
+    <entry>0.2</entry>
+    <entry>(0)(0.2) = 0</entry>
+    <entry>(0 &#8211; 1.1)<sup>2</sup>(0.2) = 0.242</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>0.5</entry>
+    <entry>(1)(0.5) = 0.5</entry>
+    <entry>(1 &#8211; 1.1)<sup>2</sup>(0.5) = 0.005</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>0.3</entry>
+    <entry>(2)(0.3) = 0.6</entry>
+    <entry>(2 &#8211; 1.1)<sup>2</sup>(0.3) = 0.243</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table></para><para id="eip-127">Add the last column in the table. 0.242 + 0.005 + 0.243 = 0.490. The standard deviation is the square root of 0.49, or <emphasis effect="italics">&#963;</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mn>0.49</m:mn>
+   </m:mrow>
+  </m:msqrt>
+ </m:mrow>
+</m:math> = 0.7.</para> -->
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-873" class="finger">Generally for probability distributions, we use a calculator or a computer to calculate <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis> to reduce rounding errors. For some probability distributions, there are shortcut formulas for calculating <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>.</para><example id="fs-idp4384592"><exercise id="fs-idm87291728"><problem id="fs-idm69882560">
+
+<para id="fs-idm82328592">Toss a fair, six-sided die twice. Let <emphasis effect="italics">X</emphasis> = the number of faces that show an even number. Construct a table like <link target-id="fs-idm71508016" document=""/> and calculate the mean <emphasis effect="italics">μ</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis> of <emphasis effect="italics">X</emphasis>.</para></problem>
+<solution id="fs-idm46332752">
+<para id="fs-idm86008592">Tossing one fair six-sided die twice has the same sample space as tossing two fair six-sided dice. The sample space has 36 outcomes.</para>
+<table id="fs-idm21999584" summary="A six column, six row table is shown. Each cell contains an ordered pair contained within parentheses, and separated by a comma. From left to right, the first row contains the following ordered pairs: 1 and 1; 1 and 2; 1 and 3; 1 and 4; 1 and 5; and 1 and 6. The second row contains the following ordered pairs: 2 and 1; 2 and 2; 2 and 3; 2 and 4; 2 and 5; and 2 and 6. The third row contains the following ordered pairs: 3 and 1; 3 and 2; 3 and 3; 3 and 4; 3 and 5; and 3 and 6. The fourth row contains the following ordered pairs: 4 and 1; 4 and 2; 4 and 3; 4 and 4; 4 and 5; and 4 and 6. The fifth row contains the following ordered pairs: 5 and 1; 5 and 2; 5 and 3; 5 and 4; 5 and 5; and 5 and 6. The final row contains the following ordered pairs: 6 and 1; 6 and 2; 6 and 3; 6 and 4; 6 and 5; and 6 and 6.">
+<tgroup cols="6">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<tbody>
+<row><entry>(1, 1)</entry><entry>(1, 2)</entry><entry>(1, 3)</entry><entry>(1, 4)</entry><entry>(1, 5)</entry><entry>(1, 6)</entry></row>
+<row><entry>(2, 1)</entry><entry>(2, 2)</entry><entry>(2, 3)</entry><entry>(2, 4)</entry><entry>(2, 5)</entry><entry>(2, 6)</entry></row>
+<row><entry>(3, 1)</entry><entry>(3, 2)</entry><entry>(3, 3)</entry><entry>(3, 4)</entry><entry>(3, 5)</entry><entry>(3, 6)</entry></row>
+<row><entry>(4, 1)</entry><entry>(4, 2)</entry><entry>(4, 3)</entry><entry>(4, 4)</entry><entry>(4, 5)</entry><entry>(4, 6)</entry></row>
+<row><entry>(5, 1)</entry><entry>(5, 2)</entry><entry>(5, 3)</entry><entry>(5, 4)</entry><entry>(5, 5)</entry><entry>(5, 6)</entry></row>
+<row><entry>(6, 1)</entry><entry>(6, 2)</entry><entry>(6, 3)</entry><entry>(6, 4)</entry><entry>(6, 5)</entry><entry>(6, 6)</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="fs-idm130208640">Use the sample space to complete the following table.</para>
+<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp385088" summary="A four column, four row table is shown. The header row contains the following column titles: x, p opening parenthesis x closing parenthesis, x p opening parenthesis x closing parenthesis, and opening parenthesis x minus mu closing parenthesis superscript 2 times p opening parenthesis x closing parenthesis. The first data row contains 0, nine thirty-sixths, 0, and opening parenthesis 0 minus 1 closing parenthesis superscript 2 times nine thirty-sixths equals nine thirty-sixths. The second data row contains 1, eighteen thirty-sixths, eighteen thirty-sixths, and opening parenthesis 1 minus 1 closing parenthesis superscript 2 times eighteen thirty-sixths equals 0. The final row contains 2, nine thirty-sixths, eighteen thirty sixths, and opening parenthesis 1 minus 1 closing parenthesis superscript 2 times nine thirty-sixths equals nine thirty-sixths.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry>(<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup> <m:math>
+ <m:mo>⋅</m:mo>
+</m:math> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+<entry>0</entry>
+<entry>(0 – 1)<sup>2</sup> ⋅ <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>1</entry>	<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>	<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+<entry>(1 – 1)<sup>2</sup> ⋅ <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math> = 0</entry></row>
+<row>
+<entry>2</entry>	<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>	<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>18</m:mn>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry>(2 – 1)<sup>2</sup> ⋅ <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>9</m:mn>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry></row>
+</tbody>
+
+</tgroup><caption>Calculating <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>.</caption>
+</table><para id="fs-idm8206048">Add the values in the third column to find the expected value: <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = 1. Use this value to complete the fourth column.</para>
+
+<para id="fs-idm151081888">Add the values in the fourth column and take the square root of the sum: σ = <m:math><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow> </m:math> ≈ .7071.</para></solution>
+</exercise></example>
+<para id="element-1">Some of the more common discrete probability functions are binomial, geometric, hypergeometric, and Poisson. Most elementary courses do not cover the geometric, hypergeometric, and Poisson. Your instructor will let you know if he or she wishes to cover these distributions.</para>
+
+<para id="element-428">A probability distribution function is a pattern. You try to fit a probability problem into a <emphasis>pattern</emphasis> or distribution in order to perform the necessary calculations. These distributions are tools to make solving probability problems easier. Each distribution has its own special characteristics. Learning the characteristics enables you to distinguish among the different distributions.</para></section>
+
+<section id="fs-idp138592560" class="references">
+<title>References</title>
+<!--<para id="fs-idp181053488">Class Catalogue at the Florida State University. Available online at https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy (accessed May 15, 2013).</para>
+<para id="fs-idp218399840">&#8220;World Earthquakes: Live Earthquake News and Highlights,&#8221; World Earthquakes, 2012. http://www.world-earthquakes.com/index.php?option=ethq_prediction (accessed May 15, 2013).</para>-->
+
+<!-- <para id="fs-id1169830660130">Florida State University. Retrieved from https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy.</para>
+<para id="fs-id1169833253378">World Earthquakes. Retrieved from http://www.worldearthquakes.com/index.php?option=ethq_prediction.</para> -->
+
+<para id="fs-id1164967857565">Florida State University. (n.d.). <emphasis effect="italics">Class catalogue at the Florida State University</emphasis>. Retrieved from https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy</para>
+
+<para id="fs-id1164965581425">World Earthquakes. (2012). <emphasis effect="italics">World earthquakes: Live earthquake news and highlights</emphasis>. Retrieved from http://www.worldearthquakes.com/index.php?option=ethq_prediction</para>
+
+
+
+</section>
+
+
+<section id="fs-idp17559008" class="summary">
+<title>Chapter Review</title>
+<para id="fs-idm56942800">The expected value, or mean, of a discrete random variable predicts the long-term results of a statistical experiment that has been repeated many times. The standard deviation of a probability distribution is used to measure the variability of possible outcomes.</para></section>
+
+<section id="fs-idp161572768" class="formula-review">
+<title>Formula Review</title>
+<para id="fs-idm6265952">Mean or Expected Value: <m:math>
+ <m:mrow>
+  <m:mi>μ</m:mi><m:mo>=</m:mo><m:munder>
+   <m:mrow>
+    <m:msup>
+     <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+     <m:mtext>​</m:mtext>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>∈</m:mo><m:mi>X</m:mi>
+   </m:mrow>
+  </m:munder>
+  <m:mi>x</m:mi><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></para><para id="fs-idm133403024">Standard Deviation: <m:math>
+ <m:mrow>
+  <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:munder>
+     <m:mrow>
+      <m:msup>
+       <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+       <m:mtext>​</m:mtext>
+      </m:msup>
+
+     </m:mrow>
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>∈</m:mo><m:mi>X</m:mi>
+     </m:mrow>
+    </m:munder>
+    <m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+   <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math></para></section>
+
+
+<section id="fs-idm82465552" class="practice">
+<exercise id="fs-idm139526544"><problem id="fs-idm130140768">
+<para id="fs-idm42698096">Complete the expected value table.</para>
+<table id="fs-idp12281248" summary="A three column, five row table is shown. The header row contains the following column titles: x, p opening parenthesis x closing parenthesis, and x superscript asterisk p opening parenthesis x closing parenthesis. The first data row contains 0, 0.2, and blank. The second data row contains 1, 0.2, and blank. The third data row contains 2, 0.4, and blank. The final data row contains 3, 0.2, and blank.">
+<tgroup cols="3">
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row></thead>
+<tbody>
+<row><entry>0</entry><entry>.2</entry><entry/></row>
+<row><entry>1</entry><entry>.2</entry><entry/></row>
+<row><entry>2</entry><entry>.4</entry><entry/></row>
+<row><entry>3</entry><entry>.2</entry><entry/></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+
+<!-- <solution id="fs-idm67031296">
+<table id="fs-idm70030416" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
+<tbody>
+<row><entry>0</entry>	<entry>0.2</entry>	<entry>0(0.2) = 0</entry></row>
+<row><entry>1</entry>	<entry>0.2</entry>	<entry>1(0.2) = 0.2</entry></row>
+<row><entry>2</entry>	<entry>0.4</entry>	<entry>2(0.4) = 0.8</entry></row>
+<row><entry>3</entry>	<entry>0.2</entry>	<entry>3(0.2) = 0.6</entry></row>
+</tbody>
+</tgroup>
+</table>
+</solution> -->
+</exercise><exercise id="fs-idm146513696"><problem id="fs-idm87572704">
+<para id="fs-idp41672272">Find the expected value from the expected value table.</para>
+<table id="fs-idm121788096" summary="A three column, five row table is shown. The header row contains the following column titles: x, p opening parenthesis x closing parenthesis, and x superscript asterisk p opening parenthesis x closing parenthesis. The first data row contains 2, 0.1, and 2 opening parenthesis 0.1 closing parenthesis equals 0.2. The second data row contains 4, 0.3, and 4 opening parenthesis 0.3 closing parenthesis equals 1.2. The third data row contains 6, 0.4, and 6 opening parenthesis 0.4 closing parenthesis equals 2.4. The final row contains 8, 0.2, and 8 opening parenthesis 0.2 closing parenthesis equals 1.6.">
+<tgroup cols="3">
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
+<tbody>
+<row><entry>2</entry><entry>.1</entry><entry>2(.1) = .2</entry></row>
+<row><entry>4</entry><entry>.3</entry><entry>4(.3) = 1.2</entry></row>
+<row><entry>6</entry><entry>.4</entry><entry>6(.4) = 2.4</entry></row>
+<row><entry>8</entry><entry>.2</entry><entry>8(.2) = 1.6</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp8231488">
+<para id="fs-idm57490144">.2 + 1.2 + 2.4 + 1.6 = 5.4</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp39629888"><problem id="fs-idm40222912">
+<para id="fs-idm134246528">Find the standard deviation.</para>
+<table id="fs-idm133091552" summary="table of standard deviation">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry>(<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
+<tbody>
+<row>
+<entry>2</entry>
+<entry>0.1</entry>
+<entry>2(.1) = .2</entry>
+<entry>(2–5.4)<sup>2</sup>(.1) = 1.156</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>0.3</entry>
+<entry>4(.3) = 1.2</entry>
+<entry>(4–5.4)<sup>2</sup>(.3) = .588</entry></row>
+<row>
+<entry>6</entry>
+<entry>0.4</entry>
+<entry>6(.4) = 2.4</entry>
+<entry>(6–5.4)<sup>2</sup>(.4) = .144</entry></row>
+<row>
+<entry>8</entry>
+<entry>0.2</entry>
+<entry>8(.2) = 1.6</entry>
+<entry>(8–5.4)<sup>2</sup>(.2) = 1.352</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+
+<!-- <solution id="fs-idm40043568">
+<para id="fs-idm56071952"><m:math>
+ <m:mrow>
+  <m:mi>&#963;</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>1.156</m:mn><m:mo>+</m:mo><m:mn>0.588</m:mn><m:mo>+</m:mo><m:mn>0.144</m:mn><m:mo>+</m:mo><m:mn>1.352</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>3.24</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:mn>1.8</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution> -->
+</exercise><exercise id="fs-idm1819872">
+<problem id="fs-idm39411248">
+<para id="fs-idm54877632">Identify the mistake in the probability distribution table.</para>
+<table id="fs-idm39458912" summary="A three column, six row table is shown. The header row contains the following column titles: x, p opening parenthesis x closing parenthesis, and x superscript asterisk p opening parenthesis x closing parenthesis. The first data row contains 1, 0.15, and 0.15. The second data row contains 2, 0.25, and 0.50. The third data row contains 3, 0.30, and 0.90. The fourth data row contains 4, 0.20, and 0.80. The final data row contains 5, 0.15, and 0.75.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row><entry>1</entry><entry>.15</entry><entry>.15</entry></row>
+<row><entry>2</entry><entry>.25</entry><entry>.50</entry></row>
+<row><entry>3</entry><entry>.30</entry><entry>.90</entry></row>
+<row><entry>4</entry><entry>.20</entry><entry>.80</entry></row>
+<row><entry>5</entry><entry>.15</entry><entry>.75</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-idp2651008">
+<para id="fs-idm60042160">The values of <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) do not sum to one.</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp10316752"><problem id="fs-idm56968336">
+<para id="fs-idm15847472">Identify the mistake in the probability distribution table.</para>
+<table id="fs-idp41547808" summary="A three column, six row table is shown. The header row contains the following column titles: x, p opening parenthesis x closing parenthesis, and x superscript asterisk p opening parenthesis x closing parenthesis. The first data row contains 1, 0.15, and 0.15. The second data row contains 2, 0.25, and 0.40. The third data row contains 3, 0.25, and 0.65. The fourth data row contains 4, 0.20, and 0.85. The final data row contains 5, 0.15, and 1.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row><entry>1</entry><entry>.15</entry><entry>.15</entry></row>
+<row><entry>2</entry><entry>.25</entry><entry>.40</entry></row>
+<row><entry>3</entry><entry>.25</entry><entry>.65</entry></row>
+<row><entry>4</entry><entry>.20</entry><entry>.85</entry></row>
+<row><entry>5</entry><entry>.15</entry><entry>1</entry></row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<!-- <solution id="fs-idp3065552">
+<para id="fs-idm54222496">The values of <emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) are not correct.</para>
+</solution> -->
+</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp88127600"><emphasis effect="italics">Use the following information to answer the next five exercises:</emphasis> A physics professor wants to know what percent of physics majors will spend the next several years doing postgraduate research. He has the following probability distribution:</para><table id="fs-idm82264048" summary="A three column, seven row table is shown. The header row contains the following column titles: x, p opening parenthesis x closing parenthesis, and x superscript asterisk p opening parenthesis x closing parenthesis. The first data row contains 1, 0.35, and blank. The second data row contains 2, 0.20, and blank. The third data row contains 3, 0.15, and blank. The fourth data row contains 4, blank, and blank. The fifth data row contains 5, 0.10, and blank. The final data row contains 6, 0.05, and blank.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row><entry>1</entry><entry>.35</entry><entry/></row>
+<row><entry>2</entry><entry>.20</entry><entry/></row>
+<row><entry>3</entry><entry>.15</entry><entry/></row>
+<row><entry>4</entry><entry/><entry/></row>
+<row><entry>5</entry><entry>.10</entry><entry/></row>
+<row><entry>6</entry><entry>.05</entry><entry/></row>
+</tbody>
+</tgroup>
+</table>
+
+<exercise id="fs-idp57624976">
+<problem id="fs-idm62879680">
+<para id="fs-idm88304064">Define the random variable <emphasis effect="italics">X</emphasis>.</para></problem>
+<solution id="fs-idp77077680">
+<para id="fs-idp108818960">Let <emphasis effect="italics">X</emphasis> = the number of years a physics major will spend doing postgraduate research.</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp12372960"><problem id="fs-idm279920">
+<para id="fs-idp35057888">Define <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>), or the probability of <emphasis effect="italics">x</emphasis>.</para>
+</problem>
+<!-- <solution id="fs-idm55979056">
+<para id="fs-idm47302544">Let <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = the probability that a physics major will do postgraduate research for <emphasis effect="italics">x</emphasis> years.</para>
+</solution> -->
+</exercise><exercise id="fs-idp33661936">
+<problem id="fs-idp81310336">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp110219840">Find the probability that a physics major will do postgraduate research for four years. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = ________</para></problem>
+<solution id="fs-idm6915408">
+<para id="fs-idm41700928">1 – .35 – .20 – .15 – .10 – .05 = .15</para></solution>
+</exercise>
+
+<exercise id="fs-idm517184"><problem id="fs-idp85965280">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp41023008">Find the probability that a physics major will do postgraduate research for at most three years. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = ________</para></problem>
+<!-- <solution id="fs-idp5192912">
+<para id="fs-idp40928416">0.35 + 0.20 + 0.15 = 0.70</para>
+</solution> -->
+</exercise><exercise id="fs-idp96964736">
+<problem id="fs-idp69281968">
+<para id="fs-idm16085360">On average, how many years would you expect a physics major to spend doing postgraduate research?</para>
+</problem>
+<solution id="fs-idp76360432">
+<para id="fs-idm21541632">1(.35) + 2(.20) + 3(.15) + 4(.15) + 5(.10) + 6(.05) = .35 + .40 + .45 + .60 + .50 + .30 = 2.6 years</para>
+</solution>
+</exercise>
+
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp155133792"><newline/><emphasis effect="italics">Use the following information to answer the next seven exercises:</emphasis> A ballet instructor is interested in knowing what percent of each year's class will continue on to the next so that she can plan what classes to offer. Over the years, she has established the following probability distribution:</para><list id="list-24215" list-type="bulleted">
+<item>Let <emphasis effect="italics">X</emphasis> = the number of years a student will study ballet with the teacher.</item>
+<item>Let <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = the probability that a student will study ballet <emphasis effect="italics">x</emphasis> years.</item>
+</list>
+
+<exercise id="fs-idp129333088">
+<problem id="fs-idm75363680">
+<para id="fs-idp78893136">Complete <link target-id="M02_Ch04_tbl021" document=""/> using the data provided.</para>
+<table id="M02_Ch04_tbl021" summary="PDF table for the number of years a student will study ballet with the teacher. It contains columns for the number of years and their probabilities with third column for each number multiplied by its probability.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+	<row>
+		<entry><emphasis effect="italics">x</emphasis></entry>
+		<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+		<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+	</row>
+</thead>
+<tbody>
+	<row>
+		<entry>1</entry>
+		<entry>.10</entry>
+		<entry/>
+	</row>
+	<row>
+		<entry>2</entry>
+		<entry>.05</entry>
+		<entry/>
+	</row>
+	<row>
+		<entry>3</entry>
+		<entry>.10</entry>
+		<entry/>
+	</row>
+	<row>
+		<entry>4</entry>
+		<entry/>
+		<entry/>
+	</row>
+	<row>
+		<entry>5</entry>
+		<entry>.30</entry>
+		<entry/>
+	</row>
+	<row>
+		<entry>6</entry>
+		<entry>.20</entry>
+		<entry/>
+	</row>
+	<row>
+		<entry>7</entry>
+		<entry>.10</entry>
+		<entry/>
+	</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+</exercise>
+
+<exercise id="exerciseone"><problem id="id7565778">
+<para id="prob_1">In words, define the random variable <emphasis effect="italics">X</emphasis>.</para>
+</problem>
+
+<solution id="fs-idp118291792">
+<para id="fs-idp92658144"><emphasis effect="italics">X</emphasis> is the number of years a student studies ballet with the teacher.</para></solution>
+</exercise><exercise id="exercisetwo"><problem id="id26516605">
+<para id="prob_2"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = ________</para>
+</problem>
+
+<!-- <solution id="fs-idp93530752">
+<para id="fs-idp93531008">1 &#8211; 0.10 &#8211; 0.05 &#8211; 0.10 &#8211; 0.30 &#8211; 0.20 &#8211; 0.10 = 0.15</para></solution> -->
+</exercise><exercise id="exercisethree">
+<problem id="id17831251">
+<para id="prob_3"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 4) = ________</para></problem>
+<solution id="fs-idp138936192">
+<para id="fs-idp138936448">.10 + .05 + .10 = .25</para>
+</solution>
+</exercise>
+
+<exercise id="exercisefour"><problem id="id11755417">
+<para id="prob_4">On average, how many years would you expect a child to study ballet with this teacher?</para>
+</problem>
+
+<!-- <solution id="fs-idp209095920">
+<para id="fs-idp209096176">1(0.10) + 2(0.05) + 3(0.10) + 4(0.15) + 5(0.30) + 6(0.20) + 7(0.10) = 4.5 years</para></solution> -->
+</exercise><exercise id="exercisefive">
+<problem id="id10416606">
+<para id="prob_5">What does the column <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) sum to and why?</para></problem>
+<solution id="fs-idp101715328">
+<para id="fs-idp101715584">The sum of the probabilities sum to one because it is a probability distribution.</para>
+</solution>
+</exercise>
+
+<exercise id="exercisesix"><problem id="id26246789">
+<para id="prob_6">What does the column <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) sum to and why?</para></problem>
+
+<!-- <solution id="fs-idp175794960">
+<para id="fs-idp53244176">The sum of <emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = 4.5; it is the mean of the distribution.</para>
+</solution> -->
+</exercise><exercise id="fs-idm7617472">
+<problem id="fs-idm79058544">
+<para id="fs-idm77353440">You are playing a game by drawing a card from a standard deck and replacing it. If the card is a face card, you win $30. If it is not a face card, you pay $2. There are 12 face cards in a deck of 52 cards. What is the expected value of playing the game?</para></problem>
+<solution id="fs-idm10944544">
+<para id="fs-idm57969456"><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>40</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>30</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.54</m:mn><m:mo>+</m:mo><m:mn>6.92</m:mn><m:mo>=</m:mo><m:mn>5.38</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-idm132715600"><problem id="fs-idm79958464">
+<para id="fs-idm11733600">You are playing a game by drawing a card from a standard deck and replacing it. If the card is a face card, you win $30. If it is not a face card, you pay $2. There are 12 face cards in a deck of 52 cards. Should you play the game?</para></problem>
+
+<!-- <solution id="fs-idm123320016">
+<para id="fs-idm9382032">Yes, because there is a positive expected value, and the more you play, the more likely you are to get closer to the expected value.</para></solution> -->
+</exercise></section>
+
+<section id="fs-idm60120304" class="free-response"><title>HOMEWORK</title><exercise id="fs-idp10277168"><problem id="fs-idm105952656">
+  <para id="fs-idp1332192">A theater group holds a fund-raiser. It sells 100 raffle tickets for $5 apiece. Suppose you purchase four tickets. The prize is two passes to a Broadway show, worth a total of $150.</para>
+<list id="element-762" list-type="enumerated" number-style="lower-alpha">
+<item>What are you interested in here?</item>
+<item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<item>List the values that <emphasis effect="italics">X</emphasis> may take on.</item>
+<item>Construct a PDF.</item>
+<item>If this fund-raiser is repeated often and you always purchase four tickets, what would be your expected average winnings per raffle?</item>
+</list></problem>
+<!-- <solution id="fs-idp146807296">
+<list id="fs-idp146807552" list-type="enumerated" number-style="lower-alpha"><item>I am interested in the average profit or loss.</item>
+<item>Let <emphasis effect="italics">X</emphasis> = the return from the raffle</item>
+<item>Win($150) or Lose ($0)</item>
+<item>
+<table id="fs-idp121516080" summary="">
+<tgroup cols="2">
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row>
+</thead>
+<tbody>
+<row>
+<entry>150</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>0</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>99</m:mn>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+
+<item><m:math>
+ <m:mrow>
+  <m:mn>150</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>100</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>0</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>99</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>&#8722;</m:mo><m:mn>20</m:mn><m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mtext>$</m:mtext><m:mn>18.50</m:mn>
+ </m:mrow>
+</m:math></item>
+</list></solution> -->
+</exercise><exercise id="eip-254"><problem id="eip-id1164884114007">
+  <para id="eip-id1164893406210">A game involves selecting a card from a regular 52-card deck and tossing a coin. The coin is a fair coin and is equally likely to land on heads or tails.</para>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1164886929394" list-type="bulleted"><item>If the card is a face card, and the coin lands on heads, you win $6.</item>
+<item>If the card is a face card, and the coin lands on tails, you win $2.</item>
+<item>If the card is not a face card, you lose $2, no matter what the coin shows.</item>
+</list><list id="eip-idm175700160" list-type="enumerated" number-style="lower-alpha">
+<item>Find the expected value for this game (expected net gain or loss).</item>
+<item>Explain what your calculations indicate about your long-term average profits and losses on this game.</item>
+<item>Should you play this game to win money?</item>
+</list>
+</problem>
+
+<solution id="eip-id1164886786848">
+  <para id="eip-id1164900324701">The variable of interest is <emphasis effect="italics">X</emphasis>, or the gain or loss, in dollars.</para><para id="eip-id1164893101611">The face cards jack, queen, and king. There are (3)(4) = 12 face cards and 52 – 12 = 40 cards that are not face cards.</para><para id="eip-id1164889621862">We first need to construct the probability distribution for <emphasis effect="italics">X</emphasis>. We use the card and coin events to determine the probability for each outcome, but we use the monetary value of <emphasis effect="italics">X</emphasis> to determine the expected value.</para>
+
+<table id="eip-id1164878717794" summary="Table..">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+    <entry>Card Event</entry>
+    <entry><emphasis effect="italics">X</emphasis> net gain/loss</entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Face Card and Heads</entry>
+    <entry>6</entry>
+    <entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>6</m:mn>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</entry>
+  </row>
+  <row>
+    <entry>Face Card and Tails</entry>
+    <entry>2</entry>
+    <entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>6</m:mn>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</entry>
+  </row>
+  <row>
+    <entry>(Not Face Card) and (H or T)</entry>
+    <entry>–2</entry>
+    <entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>40</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mn>1</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>40</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+
+<list id="eip-id1164900807448" list-type="bulleted"><item><m:math>
+ <m:mrow>
+  <m:mtext>Expected value</m:mtext><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>6</m:mn>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>6</m:mn>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>40</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>52</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>32</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>52</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></item>
+<item>Expected value = –$0.62, rounded to the nearest cent</item>
+<item>If you play this game repeatedly, over a long string of games, you would expect to lose 62 cents per game, on average.</item>
+<item>You should not play this game to win money because the expected value indicates an expected average loss.</item>
+</list></solution>
+</exercise><exercise id="eip-945"><problem id="eip-id1170608817668">
+<para id="eip-id1170601642785">You buy a ticket to a raffle that costs $10 per ticket. There are only 100 tickets available to be sold in this raffle. In this raffle there are one $500 prize, two $100 prizes, and four $25 prizes. Find your expected gain or loss.</para></problem>
+
+<!-- <solution id="eip-id1170585488797">
+  <para id="eip-id1170602988471">Start by writing the probability distribution. <emphasis effect="italics">X</emphasis> is net gain or loss = prize (if any) less $10 cost of ticket</para>
+<table id="eip-id1170611110640" summary="">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry><emphasis effect="italics">X</emphasis> = $ net gain or loss</entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>$500 &#8211; $10 = $490</entry>
+    <entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math></entry>
+  </row>
+  <row>
+    <entry>$100 &#8211; $10 = $90</entry>
+    <entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+  </row>
+  <row>
+    <entry>$25 &#8211; $10 = $15</entry>
+    <entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>4</m:mn>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+  </row>
+  <row>
+    <entry>$0 &#8211; $10 = -$10</entry>
+    <entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>93</m:mn>
+   <m:mrow>
+    <m:mn>100</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="eip-id1170593354722"><m:math>
+ <m:mrow>
+  <m:mtext>Expected&#160;Value&#160;</m:mtext><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>490</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>100</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>90</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>2</m:mn>
+     <m:mrow>
+      <m:mn>100</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>4</m:mn>
+     <m:mrow>
+      <m:mn>100</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>&#8722;</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>93</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mi>$</m:mi><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math> There is an expected loss of $2 per ticket, on average.</para></solution> -->
+</exercise><exercise id="fs-idm153056144"><problem id="fs-idm153056016">
+  <para id="element-640">Complete the PDF and answer the questions.</para>
+<table id="id4858kj4983" summary="A three column, five row table is shown. The header row contains the following column titles: x, p opening parenthesis x closing parenthesis, and x P opening parenthesis x closing parenthesis. The first data row contains 0, 0.3, and blank. The second data row contains 1, 0.2, and blank. The third data row contains 2, blank, and blank. The final data row contains 3, 0.4, and blank.">
+<tgroup cols="3">
+ <colspec colnum="1" colname="c1"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>.3</entry>
+<entry/>
+</row>
+<row>
+<entry>1</entry>
+<entry>.2</entry>
+<entry/>
+</row>
+<row>
+<entry>2</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>3</entry>
+<entry>.4</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list id="element-229" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that <emphasis effect="italics">x</emphasis> = 2.</item>
+<item>Find the expected value.</item></list></problem>
+
+<solution id="fs-idm10292512">
+  <list id="list1" list-type="enumerated" number-style="lower-alpha">
+<item>.1</item>
+<item>1.6</item></list>
+</solution>
+</exercise><exercise id="element-360"><problem id="id18132670">
+  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-6">Suppose that you are offered the following deal: You roll a die. If you roll a six, you win $10. If you roll a four or five, you win $5. If you roll a one, two, or three, you pay $6.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-615" list-type="enumerated" number-style="lower-alpha"><item>What are you ultimately interested in here (the value of the roll or the money you win)?</item>
+<item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<item>List the values that <emphasis effect="italics">X</emphasis> may take on.</item>
+<item>Construct a PDF.</item>
+<item>Over the long run of playing this game, what are your expected average winnings per game?</item>
+<item>Based on numerical values, should you take the deal? Explain your decision in complete sentences.</item></list></problem>
+
+<!-- <solution id="fs-idp133159792">
+<list id="fs-idp133160048" list-type="enumerated" number-style="lower-alpha"><item>the money won</item>
+<item><emphasis effect="italics">X</emphasis> = the amount of money won or lost</item>
+<item>$5, &#8211;$6, $10</item>
+<item>
+<table id="fs-idp41914528" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Roll</entry>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>6</entry>
+<entry>10</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>4 or 5</entry>
+<entry>5</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry>1, 2, or 3</entry>
+<entry>&#8211;6</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+<item>Expected&#160;Value = (10)<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> + (5)<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> &#8211; (6)<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = 0.33</item>
+<item>Yes, the expected value is 33 cents</item>
+</list></solution> -->
+</exercise><exercise id="element-725"><problem id="id19288031">
+  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-866">A venture capitalist, willing to invest $1,000,000, has three investments to choose from: The first investment, a software company, has a 10 percent chance of returning $5,000,000 profit, a 30 percent chance of returning $1,000,000 profit, and a 60 percent chance of losing the million dollars. The second company, a hardware company, has a 20 percent chance of returning $3,000,000 profit, a 40 percent chance of returning $1,000,000 profit, and a 40 percent chance of losing the million dollars. The third company, a biotech firm, has a 10 percent chance of returning $6,000,000 profit, a 70 percent of no profit or loss, and a 20 percent chance of losing the million dollars.</para><list id="element-723" list-type="enumerated" number-style="lower-alpha">
+<item>Construct a PDF for each investment.</item>
+<item>Find the expected value for each investment.</item>
+<item>Which is the safest investment? Why do you think so?</item>
+<item>Which is the riskiest investment? Why do you think so?</item>
+<item>Which investment has the highest expected return, on average?</item></list>
+</problem>
+
+<solution id="id19291349">
+  <list id="element-751" list-type="enumerated" number-style="lower-alpha"><item><table id="fs-idp178643952" summary="A two column, five row table is shown. The header row is merged and says Software Company. The next row contains x, and p opening parenthesis x closing parenthesis. The first data row contains, 5,000,000, and 0.10. the second data row contains 1,000,000, and 0.30. The final data row contains 1,000,000, and 0.60.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry namest="c1" nameend="c2">Software Company</entry></row>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>5,000,000</entry><entry>.10</entry></row>
+<row><entry>1,000,000</entry><entry>.30</entry></row>
+<row><entry>–1,000,000</entry><entry>.60</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<table id="fs-idp140742016" summary="A two column, five row table is shown. The header row is merged and says Hardware Company. The next row contains x, and p opening parenthesis x closing parenthesis. The first data row contains 3,000,000, and 0.20. The second data row contains 1,000,000, and 0.40. The final data row contains 1,000,000, and 0.40.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry namest="c1" nameend="c2">Hardware Company</entry></row>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>3,000,000</entry><entry>.20</entry></row>
+<row><entry>1,000,000</entry><entry>.40</entry></row>
+<row><entry>–1,000,00</entry><entry>.40</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<table id="fs-idp135856704" summary="A two column, five row table is shown. The header row is merged and says Biotech Firm. The next row contains x, and p opening parenthesis x closing parenthesis. The first data row contains 6,000,000, and 0.10. The second data row contains 0, and 0.70. The final data row contains 1.000,000, and 0.20.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry namest="c1" nameend="c2">Biotech Firm</entry></row>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>6,000,000</entry><entry>.10</entry></row>
+<row><entry>0</entry><entry>.70</entry></row>
+<row><entry>–1,000,000</entry><entry>.20</entry></row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>$200,000; $600,000; $400,000</item>
+<item>third investment because it has the lowest probability of loss</item>
+<item>first investment because it has the highest probability of loss</item>
+<item>second investment</item></list></solution>
+</exercise>
+
+
+<exercise id="fs-idm21991696"><problem id="eip-idm5350592">
+<para id="element-150">Suppose that 20,000 married adults in the United States were randomly surveyed as to the number of children they have. The results are compiled and are used as theoretical probabilities. Let <emphasis effect="italics">X</emphasis> = the number of children married people have.
+<table id="id48895k006" summary="A three column, eight row table is shown. The header row contains the following column titles: x, p opening parenthesis x closing parenthesis, and x P opening parenthesis x closing parenthesis. The first data row contains 0, 0.10, and blank. The second data row contains 1, 0.20, and blank. The third data row contains 2, 0.30, and blank. The fourth data row contains 3, blank, and blank. The fifth data row contains 4, 0.10, and blank. The sixth data row contains 5, 0.05, and blank. The final data row contains, 6 (or more), 0.05, and blank.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>.10</entry>
+<entry/>
+</row>
+<row>
+<entry>1</entry>
+<entry>.20</entry>
+<entry/>
+</row>
+<row>
+<entry>2</entry>
+<entry>.30</entry>
+<entry/>
+</row>
+<row>
+<entry>3</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>4</entry>
+<entry>.10</entry>
+<entry/>
+</row>
+<row>
+<entry>5</entry>
+<entry>.05</entry>
+<entry/>
+</row>
+<row>
+<entry>6 (or more)</entry>
+<entry>.05</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para><list id="eip-idm15856832" list-type="enumerated" number-style="lower-alpha">
+<item>Find the probability that a married adult has three children.</item>
+<item>In words, what does the expected value in this example represent?</item>
+<item>Find the expected value.</item>
+<item>Is it more likely that a married adult will have two to three children or four to six children? How do you know?</item>
+</list></problem>
+
+<!-- <solution id="eip-idp44220400">
+<list id="eip-idp44220656" list-type="enumerated" number-style="lower-alpha">
+<item>0.2</item>
+<item>The average number of children married adults have.</item>
+<item>2.35</item>
+<item>two of three children</item>
+</list></solution> -->
+</exercise><exercise id="fs-idp33692128"><problem id="fs-idm139132608">
+  <para id="fs-idp13631152">Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given as in <link target-id="id488jhjhj72479" document=""/>.</para>
+
+<table id="id488jhjhj72479" summary="A two column, six row table is shown. The header row contains x, and p opening parenthesis x closing parenthesis. The first data row contains 3 and 0.05. The second data row contains 4 and 0.40. The third data row contains 5 and 0.30. The fourth data row contains 6 and 0.15. The final data row contains 7 and 0.10.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>3</entry>
+<entry>.05</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>.40</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>.30</entry>
+</row>
+<row>
+<entry>6</entry>
+<entry>.15</entry>
+</row>
+<row>
+<entry>7</entry>
+<entry>.10</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="eip-idp142551264">On average, how many years do you expect it to take for an individual to earn a B.S.?</para>
+</problem>
+<solution id="fs-idp175439088">
+<para id="fs-idp126181696">4.85 years</para>
+</solution>
+</exercise><exercise id="fs-idp126182336"><problem id="fs-idp126182592">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp126182848">People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given in the following table. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.</para><table id="fs-idp126183520" summary="A two column, seven row table is shown. The header row contains x, and p opening parenthesis x closing parenthesis. The first data row contains 0 and 0.03. The second data row contains 1 and 0.50. The third data row contains 2 and 0.24. The fourth data row contains 3 and blank. The fifth data row contains 4 and 0.70. The final data row contains 5 and 0.04.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead><row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row></thead>
+<tbody>
+<row><entry>0</entry><entry>.03</entry></row>
+<row><entry>1</entry><entry>.50</entry></row>
+<row><entry>2</entry><entry>.24</entry></row>
+<row><entry>3</entry><entry/></row>
+<row><entry>4</entry><entry>.70</entry></row>
+<row><entry>5</entry><entry>.04</entry></row>
+</tbody>
+</tgroup>
+</table>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp118390688" list-type="enumerated" number-style="lower-alpha"><item>Describe the random variable <emphasis effect="italics">X</emphasis> in words.</item>
+<item>Find the probability that a customer rents three DVDs.</item>
+<item>Find the probability that a customer rents at least four DVDs.</item>
+<item>Find the probability that a customer rents at most two DVDs. <newline/>Another shop, Entertainment Headquarters, rents DVDs and video games. The probability distribution for DVD rentals per customer at this shop is given as follows. They also have a five-DVD limit per customer.
+<table id="fs-idp138577888" summary="A two column, seven row table is shown. The header row contains x, and p opening parenthesis x closing parenthesis. The first data row contains 0 and 0.35. The second data row contains 1 and 0.25. The third data row contains 2 and 0.20. The fourth data row contains 3 and 0.10. The fifth data row contains 4 and 0.05. The final data row contains 5 and 0.05.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>0</entry><entry>.35</entry></row>
+<row><entry>1</entry><entry>.25</entry></row>
+<row><entry>2</entry><entry>.20</entry></row>
+<row><entry>3</entry><entry>.10</entry></row>
+<row><entry>4</entry><entry>.05</entry></row>
+<row><entry>5</entry><entry>.05</entry></row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>At which store is the expected number of DVDs rented per customer higher?</item>
+<item>If Video to Go estimates that they will have 300 customers next week, how many DVDs do they expect to rent next week? Answer in sentence form.</item>
+<item>If Video to Go expects 300 customers next week, and Entertainment Headquarters projects that they will have 420 customers, for which store is the expected number of DVD rentals for next week higher? Explain.</item>
+<item>Which of the two video stores experiences more variation in the number of DVD rentals per customer? How do you know that?</item>
+</list></problem>
+
+<!-- <solution id="fs-idp138954192">
+<list id="fs-idp138954448" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the number of video rentals per costumer</item>
+<item>0.12</item>
+<item>0.11</item>
+<item>0.77</item>
+<item>Video To Go (1.82 expected value vs. 1.4 for Entertainment Headquarters)</item>
+<item>The expected number of videos rented to 300 Video To Go customers is 546.</item>
+<item>The expected number of videos rented to 420 Entertainment Headquarters customers is 588. Entertainment Headquarters will rent more videos.</item>
+<item>The standard deviation for the number of videos rented at Video To Go is 1.1609. The standard deviation for the number of videos rented at Entertainment Headquarters is 1.4293. Entertainment Headquarters has more variation.</item>
+</list></solution> -->
+</exercise><!--Review Questions??-->
+<exercise id="element-134"><problem id="id18734941">
+  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-633">A “friend” offers you the following deal: For a $10 fee, you may pick an envelope from a box containing 100 seemingly identical envelopes. However, each envelope contains a coupon for a free gift.</para><list id="element-982" list-type="bulleted"><item>Ten of the coupons are for a free gift worth $6.</item>
+<item>Eighty of the coupons are for a free gift worth $8.</item>
+<item>Six of the coupons are for a free gift worth $12.</item>
+<item>Four of the coupons are for a free gift worth $40.</item>
+</list><para id="element-380">Based upon the financial gain or loss over the long run, should you play the game?
+<list id="eip-idp53219808" list-type="enumerated" number-style="lower-alpha">
+<item>Yes, I expect to come out ahead in money.</item>
+<item>No, I expect to come out behind in money.</item>
+<item>It doesn’t matter. I expect to break even.</item>
+</list></para></problem>
+<solution id="id7842142">
+<para id="element-970">b</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm63057856"><problem id="fs-idp361456"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm71157472">A university has 14 statistics classes scheduled for its Summer 2013 term. One class has space available for 30 students, eight classes have space for 60 students, one class has space for 70 students, and four classes have space for 100 students.</para><list id="fs-idm80083648" list-type="enumerated" number-style="lower-alpha"><item>What is the average class size assuming each class is filled to capacity?</item>
+<item>Space is available for 980 students. Suppose that each class is filled to capacity and select a statistics student at random. Let the random variable <emphasis effect="italics">X</emphasis> equal the size of the student’s class. Define the PDF for <emphasis effect="italics">X</emphasis>.</item>
+<item>Find the mean of <emphasis effect="italics">X</emphasis>.</item>
+<item>Find the standard deviation of <emphasis effect="italics">X</emphasis>.</item>
+</list>
+</problem>
+
+<!-- <solution id="fs-idm42546736">
+<list id="eip-idp11236384" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mrow>
+  <m:mtext>The&#160;average&#160;class&#160;size&#160;is:&#160;</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>30</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>60</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>70</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>70</m:mn>
+ </m:mrow>
+</m:math></item>
+<item><m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mn>14</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>60</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+       <m:mn>8</m:mn>
+       <m:mrow>
+        <m:mn>14</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>70</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mn>14</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+       <m:mn>4</m:mn>
+       <m:mrow>
+        <m:mn>14</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</item>
+</list><para id="eip-idm12004320">Complete the following table to find the mean and standard deviation of <emphasis effect="italics">X</emphasis>.</para>
+<table id="fs-idp893824" summary="Table...">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">(Px)</emphasis></entry>
+<entry>(<emphasis effect="italics">x</emphasis> &#8211; <emphasis effect="italics">&#956;</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row></thead>
+
+<tbody>
+<row>
+<entry>30</entry>
+<entry><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>14</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>30</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:mfrac>
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mo>&#8722;</m:mo><m:mn>70</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>14</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>114.2857</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+
+<row>
+<entry>60</entry>
+<entry><m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>8</m:mn>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>480</m:mn>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</entry>
+<entry>
+<m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>60</m:mn><m:mo>&#8722;</m:mo><m:mn>70</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>8</m:mn>
+     <m:mrow>
+      <m:mn>14</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>57.1429</m:mn>
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>70</entry>
+<entry><m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>70</m:mn>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>70</m:mn><m:mo>&#8722;</m:mo><m:mn>70</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>14</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>100</entry>
+<entry><m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>4</m:mn>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>400</m:mn>
+<m:mrow>
+<m:mn>14</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</entry>
+<entry>
+<m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mo>&#8722;</m:mo><m:mn>70</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>400</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>14</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>257.1429</m:mn>
+ </m:mrow>
+</m:math></entry></row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><list id="eip-idp36440080" mark-suffix="." list-type="labeled-item"><item><label>c</label> <m:math>
+ <m:mrow>
+  <m:mtext>Mean&#160;of&#160;</m:mtext><m:mi>X</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>30</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>480</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>70</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>400</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>980</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>70</m:mn>
+ </m:mrow>
+</m:math></item>
+<item><label>d</label> <m:math>
+ <m:mrow>
+  <m:mtext>Standard&#160;Deviation&#160;of&#160;</m:mtext><m:mi>X</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>114.2857</m:mn><m:mo>+</m:mo><m:mn>57.1429</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mn>257.1429</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:mn>20.702</m:mn>
+ </m:mrow>
+</m:math></item>
+</list></solution> -->
+</exercise><exercise id="fs-idp29002528"><problem id="fs-idp10512912">
+<para id="fs-idm46146656">In a raffle, there are 250 prizes of $5, 50 prizes of $25, and 10 prizes of $100. Assuming that 10,000 tickets are to be issued and sold, what is a fair price to charge to break even?</para></problem>
+<solution id="fs-idp37641408">
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp31192112">Let <emphasis effect="italics">X</emphasis> = the amount of money to be won on a ticket. The following table shows the PDF for <emphasis effect="italics">X</emphasis>:
+<table id="fs-idm110559056" summary="A two column, five row table is shown. The header row contains x, and p opening parenthesis x closing parenthesis. The first data row contains 0 and 0.969. The second data row contains 5 and two hundred fifth over ten thousand equals 0.025. The third data row contains 25 and fifth over ten thousand equals 0.005. The final data row contains 100 and 10 over ten thousand equals 0.001.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>0</entry><entry>.969</entry></row>
+<row><entry>5</entry><entry>
+<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>250</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>10,000</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = .025</entry></row>
+<row><entry>25</entry><entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>50</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>10,000</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = .005</entry></row>
+<row><entry>100</entry><entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>10</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>10,000</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> = .001</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para><para id="fs-idm41233712">Calculate the expected value of <emphasis effect="italics">X</emphasis>.</para>
+<para id="fs-idm86179776">0(.969) + 5(.025) + 25(.005) + 100(.001) = .35</para>
+<para id="fs-idm45715696">A fair price for a ticket is $0.35. Any price over $0.35 will enable the lottery to raise money.</para>
+</solution>
+</exercise>
+
+</section> </content>
+<glossary>
+<definition id="expectedv">
+<term>expected value</term>
+<meaning id="id10864394">expected arithmetic average when an experiment is repeated many times; also called the mean; notations <emphasis effect="italics">μ</emphasis>; for a discrete random variable (RV) with probability distribution function <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>),the definition can also be written in the form <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mstyle displaystyle="true">
+   <m:mo>∑</m:mo> <m:mrow/>
+  </m:mstyle>
+ </m:mrow>
+</m:math><emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</meaning></definition>
+<definition id="mean">
+    <term>mean</term>
+    <meaning id="id10578364">a number that measures the central tendency; a common name for mean is <emphasis effect="italics">average</emphasis>
+<newline/>The term <emphasis effect="italics">mean</emphasis> is a shortened form of <emphasis effect="italics">arithmetic mean</emphasis>. By definition, the mean for a sample (denoted by <m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+</m:math>) is <m:math>
+ <m:mrow>
+  <m:mover accent="true">
+   <m:mi>x</m:mi>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+<m:mi>Sum</m:mi><m:mo> </m:mo><m:mi>of</m:mi><m:mo> </m:mo><m:mi>all</m:mi><m:mo> </m:mo><m:mi>values</m:mi><m:mo> </m:mo><m:mi>in</m:mi><m:mo> </m:mo><m:mi>the</m:mi><m:mo> </m:mo><m:mi>sample</m:mi></m:mrow><m:mrow><m:mi>Number</m:mi><m:mo> </m:mo><m:mi>of</m:mi><m:mo> </m:mo><m:mi>values</m:mi><m:mo> </m:mo><m:mi>in</m:mi><m:mo> </m:mo><m:mi>the</m:mi><m:mo> </m:mo><m:mi>sample</m:mi></m:mrow></m:mfrac></m:mrow></m:math> and the mean for a population (denoted by <emphasis effect="italics">μ</emphasis>) is <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>    <m:mi>Sum</m:mi><m:mo> </m:mo><m:mi>of</m:mi><m:mo> </m:mo><m:mi>all</m:mi><m:mo> </m:mo><m:mi>values</m:mi><m:mo> </m:mo><m:mi>in</m:mi><m:mo> </m:mo><m:mi>the</m:mi><m:mo> </m:mo><m:mi>population</m:mi></m:mrow>
+<m:mrow>    <m:mi>Number</m:mi><m:mo> </m:mo><m:mi>of</m:mi><m:mo> </m:mo><m:mi>values</m:mi><m:mo> </m:mo><m:mi>in</m:mi><m:mo> </m:mo><m:mi>the</m:mi><m:mo> </m:mo><m:mi>population</m:mi></m:mrow></m:mfrac>
+ </m:mrow>
+</m:math>.</meaning>
+  </definition>
+
+<definition id="fs-idm144391840">
+<term>mean of a probability distribution</term>
+<meaning id="fs-idp39061776">the long-term average of many trials of a statistical experiment</meaning>
+</definition>
+
+<definition id="fs-idm82850224">
+<term>standard deviation of a probability distribution</term>
+<meaning id="fs-idm7483264">a number that measures how far the outcomes of a statistical experiment are from the mean of the distribution</meaning>
+</definition>
+
+<definition id="fs-idm140669088">
+<term>the law of large numbers</term>
+<meaning id="fs-idp31486048">as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency probability approaches zero</meaning>
+</definition>
+</glossary>
+</document>

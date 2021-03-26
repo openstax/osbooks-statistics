@@ -1,0 +1,140 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Data Collection Experiment</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m79597</md:content-id>
+  <md:title>Data Collection Experiment</md:title>
+  <md:abstract/>
+  <md:uuid>80840d09-8141-40df-b8d8-a9c20e675230</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id1164567617265">
+
+<note id="fs-id1170942442486" class="statistics lab"><label/><title>Data Collection Experiment</title>
+<list id="element-293" list-type="bulleted"><title>Student Learning Outcomes</title><item>The student will demonstrate the systematic sampling technique.</item>
+<item>The student will construct relative frequency tables.</item>
+<item>The student will interpret results and their differences from different data groupings.</item></list>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567996867"><title>Movie Survey</title>Get a class roster/list. Randomly mark a persons name, and then mark every fourth name on the list until you get 12 names. You may have to go back to the start of the list. For each name marked, record the number of movies they saw at the theater last month.</para><para id="element-6"><title>Order the Data</title>Complete the two relative frequency tables below using your class data.</para><table id="id9610791234" summary="This table provides a blank template for recording the results of the previously conducted survey. The first column contains the exact number of movies watched, the second column contains the frequency, the third column contains the relative frequency, and the fourth column contains the cumulative relative frequency. Only the first column is completed."><title>Frequency of Number of Movies Viewed</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry align="center">Number of Movies</entry>
+<entry align="center">Frequency</entry>
+<entry align="center">Relative Frequency</entry>
+<entry align="center">Cumulative Relative Frequency</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center"><emphasis effect="normal">0</emphasis></entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">1</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">2</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">3</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">4</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">5</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">6</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">7+</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="id10778923248" summary="Similar to the previous table, this is a blank template for recording the results of the previously conducted survey. The first column presents a range of number of movies watched, the second column contains the frequency, the third column contains the relative frequency, and the fourth column contains the cumulative relative frequency. Only the first column is completed."><title>Frequency of Number of Movies Viewed</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry align="center">Number of Movies</entry>
+<entry align="center">Frequency</entry>
+<entry align="center">Relative Frequency</entry>
+<entry align="center">Cumulative Relative Frequency</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">0–1</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">2–3</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">4–5</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry align="center">6–7+</entry>
+<entry/>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list id="list-2349875" list-type="enumerated">
+<item>Using the tables, find the percent of data that is at most two. Which table did you use and why?</item>
+<item>Using the tables, find the percent of data that is at most three. Which table did you use and why?</item>
+<item>Using the tables, find the percent of data that is more than two. Which table did you use and why?</item>
+<item>Using the tables, find the percent of data that is more than three. Which table did you use and why?</item>
+</list>
+
+<list id="list-23497695" list-type="enumerated"><title>Discussion Questions</title><item>Is one of the tables <emphasis effect="italics">more correct</emphasis> than the other? Why or why not?</item>
+<item>In general, how could you group the data differently? Are there any advantages to either way of grouping the data?</item>
+<item>Why did you switch between tables, if you did, when answering the question above?</item>
+</list></note>
+</section>
+ </content>
+
+</document>

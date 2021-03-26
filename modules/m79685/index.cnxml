@@ -1,0 +1,84 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Lab 2: Chi-Square Test of Independence</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m79685</md:content-id>
+  <md:title>Lab 2: Chi-Square Test of Independence</md:title>
+  <md:abstract/>
+  <md:uuid>461b1e97-0b78-4f98-a04b-d0c0b0b9420d</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id1164564745888">
+<note id="fs-id1170238033322" class="statistics lab"><label/><title>Lab 2: Chi-Square Test of Independence</title>
+
+  <list id="id3831121" list-type="bulleted">
+       <title>Student Learning Outcome</title>
+    <item>The student will evaluate if there is a significant relationship between favorite type of snack and gender. </item>
+   </list>
+  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-8652384" list-type="enumerated"><title>Collect the Data</title><item>Using your class as a sample, complete the following chart. Ask one another what your favorite snack is, then total the results.
+    <note id="eip-998"><label/><title>Note</title>You may need to combine two food categories so that each cell has an expected value of at least five.</note><table id="id89871qw3984l8" summary="This table presents the favorite type of snack in columns 2-5 and the total in the sixth column. The first row is male, the second row is female, and the third row is total.">
+     <title>Favorite Type of Snack</title>
+     <tgroup cols="6"><colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <colspec colnum="6" colname="c6"/>
+      <thead>
+       <row>
+        <entry/>
+        <entry>Sweets (candy &amp; baked goods)</entry>
+        <entry>Ice Cream</entry>
+        <entry>Chips &amp; Pretzels</entry>
+        <entry>Fruits &amp; Vegetables</entry>
+        <entry>Total</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry><emphasis effect="bold">Male</emphasis></entry>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry><emphasis effect="bold">Female</emphasis></entry>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+       </row>
+       <row>
+        <entry><emphasis effect="bold">Total</emphasis></entry>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+        <entry/>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></item>
+   <item>Looking at <link target-id="id89871qw3984l8"/>, does it appear to you that there is a dependence between gender and favorite type of snack food? Why or why not?</item>
+  </list><para id="element-52">
+     <title>Hypothesis Test</title>
+   Conduct a hypothesis test to determine if the factors are independent:</para>
+   <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-76474" list-type="enumerated"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: ________</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: ________</item>
+    <item>What distribution should you use for a hypothesis test?</item>
+    <item>Why did you choose this distribution?</item>
+    <item>Calculate the test statistic.</item>
+    <item>Find the <emphasis effect="italics">p</emphasis> value.</item>
+    <item>Sketch a graph of the situation. Label and scale the <emphasis effect="italics">x</emphasis> axis. Shade the area corresponding to the <emphasis effect="italics">p</emphasis> value. <figure id="id3390530"><media id="id3497794" alt="Blank graph with vertical and horizontal axes."><image src="../../media/fig-ch11_16_01.png" mime-type="image/png" width="380"/></media></figure></item>
+    <item>State your decision.</item>
+    <item>State your conclusion in a complete sentence.</item>
+   </list><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-87578324" list-type="enumerated"><title>Discussion Questions</title><item> Is the conclusion of your study the same as or different from your answer to answer to Question 2 under <link target-id="list-8652384">Collect the Data</link>?</item>
+    <item> Why do you think that occurred?</item>
+     </list></note>
+</section> </content>
+
+</document>

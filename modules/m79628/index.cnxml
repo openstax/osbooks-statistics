@@ -1,0 +1,374 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Discrete Distribution (Playing Card Experiment)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m79628</md:content-id>
+  <md:title>Discrete Distribution (Playing Card Experiment)</md:title>
+  <md:abstract/>
+  <md:uuid>5a9454c4-4ac9-4f30-b058-171654ab15cd</md:uuid>
+</metadata>
+
+<content><section id="fs-idm303895136">
+  <note id="fs-id1167902738757" class="statistics lab"><label/>
+<title>Discrete Distribution (Playing Card Experiment)</title>
+
+
+<list id="id11235020" list-type="bulleted">
+<title>Student Learning Outcomes</title><item>The student will compare empirical data and a theoretical distribution to determine if an everyday experiment fits a discrete distribution.</item>
+<item>The student will compare technology-generated simulation and a theoretical distribution.</item>
+<item>The student will demonstrate an understanding of long-term probabilities.</item>
+</list>
+<list id="id3383537" list-type="bulleted"><title>Supplies</title><item>One full deck of playing cards</item>
+<item>Programmable calculator</item></list><para id="proceduresec"><title>Procedure for Empirical Data</title>The experimental procedure for empirical data is to pick one card from a deck of shuffled cards.</para><list id="list-982763895" list-type="enumerated">
+<item>The theoretical probability of picking a diamond from a deck is ________.</item>
+<item>Shuffle a deck of cards.</item>
+<item>Pick one card from it.</item>
+<item>Record whether it was a diamond or not a diamond.</item>
+<item>Put the card back and reshuffle.</item>
+<item>Do this a total of 10 times.</item>
+<item>Record the number of diamonds picked.</item>
+<item>Let <emphasis effect="italics">X</emphasis> = number of diamonds. Theoretically, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(_____,_____)</item>
+</list>
+<para id="fs-id1170307086131"><title>Procedure for Simulation</title>Repeat the experimental procedure using a programmable calculator.</para>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-23562621" list-type="enumerated"><item>Use the randInt function to generate data. Consider 1 to be spades, 2 to be hearts, 3 to be diamonds, and 4 to be clubs. Generate 10 draws of cards with four suits with randInt(1,4,10).</item>
+<item>Let <m:math>
+
+  <m:mrow>
+   <m:mi>X</m:mi><m:mo>=</m:mo><m:mtext> number of diamonds</m:mtext>
+  </m:mrow>
+
+</m:math>. Theoretically, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(_____,_____).</item>
+</list><list id="fs-id1170309371687" list-type="enumerated"><title id="OrgData">Organize the Empirical Data</title><item>Record the number of diamonds picked for your class with playing cards in <link target-id="lab1_tbl001" document=""/>. Then calculate the relative frequency.
+<table id="lab1_tbl001" summary="Table for recording values with. The first column is for number of diamonds picked (x) from 0-10, blank second column is for frequency, and the blank third column is for relative frequency.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry>Frequency</entry>
+<entry>Relative Frequency</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>6</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>7</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>8</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>9</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>10</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+<item>Calculate the following:
+<list id="list-2356" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> = ________</item>
+<item><emphasis effect="italics">s</emphasis> = ________</item>
+</list></item>
+<item>Construct a histogram of the empirical data.
+<figure id="figreld">
+<media id="id5973001" alt="This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Relative frequency.">
+<image src="../../media/fig-ch04_17_01.png" mime-type="image/png" width="400" print-width="4in"/></media>
+</figure>
+</item>
+</list>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309765409" list-type="enumerated"><title id="OrgSim">Organize the Simulation Data</title><item>Use <link target-id="lab1_tbl002" document=""/> to record the number of diamonds picked for your class using the calculator simulation. Calculate the relative frequency.
+<table id="lab1_tbl002" summary="This blank table contains two columns. The left column is titled Frequency and the right column is titled Relative Frequency. Each row is numbered sequentially, with the top-most row being 0 and the bottom-most row being 10.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">X</emphasis></entry>
+<entry>Frequency</entry>
+<entry>Relative Frequency</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>6</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>7</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>8</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>9</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+<row>
+<entry>10</entry>
+<entry>__________</entry>
+<entry align="center">__________</entry>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+<item>Calculate the following:
+<list id="fs-id1170309271751" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+
+</m:math> = ________</item>
+<item><emphasis effect="italics">s</emphasis> = ________</item>
+</list></item>
+<item>Construct a histogram of the simulation data.
+<figure id="fs-id1170309657759">
+<media id="fs-id1170309477866" alt="This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Relative frequency.">
+<image src="../../media/fig-ch04_17_01.png" mime-type="image/png" width="400" print-width="4in"/></media>
+</figure>
+</item>
+</list><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-742309876" list-type="enumerated" number-style="lower-alpha"><title id="TheoDist">Theoretical Distribution</title><item>Build the theoretical PDF chart based on the distribution in the <link target-id="proceduresec" document="">Procedure</link> section.
+<table id="lab1_tbl003" summary="The experiment is for each class member or group to shuffle a 52-card deck of cards, pick one card and record if it is a diamond. This is done 10 times. The table shows the results of the number of diamonds picked and the relative frequency.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry/>
+</row>
+<row>
+<entry>1</entry>
+<entry/>
+</row>
+<row>
+<entry>2</entry>
+<entry/>
+</row>
+<row>
+<entry>3</entry>
+<entry/>
+</row>
+<row>
+<entry>4</entry>
+<entry/>
+</row>
+<row>
+<entry>5</entry>
+<entry/>
+</row>
+<row>
+<entry>6</entry>
+<entry/>
+</row>
+<row>
+<entry>7</entry>
+<entry/>
+</row>
+<row>
+<entry>8</entry>
+<entry/>
+</row>
+<row>
+<entry>9</entry>
+<entry/>
+</row>
+<row>
+<entry>10</entry>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>Calculate the following:
+<list id="element-11885" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">μ</emphasis> = ____________</item>
+<item><emphasis effect="italics">σ</emphasis> = ____________</item></list></item>
+<item>Construct a histogram of the theoretical distribution.
+<figure id="id5962835">
+<media id="id5962839" alt="This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Probability.">
+<image src="../../media/fig-ch04_17_02.png" mime-type="image/png" width="400"/></media>
+</figure></item>
+</list><para id="fs-idp120856768"><title>Using the Data</title></para>
+<note id="id5378437"><label/><title>NOTE</title>
+<para id="eip-idp140551535389872"><emphasis effect="italics">RF</emphasis> = relative frequency</para>
+</note><para id="element-982735">Use the table from the <link target-id="TheoDist" document="">Theoretical Distribution</link> section to calculate the following answers. Round your answers to four decimal places.</para>
+
+<list id="list-928735" list-type="bulleted">
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = ________</item>
+<item><emphasis effect="italics">P</emphasis>(1 &lt; <emphasis effect="italics">x</emphasis> &lt; 4) = ________</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 8) = ________</item>
+</list>
+
+<para id="fs-id1170307020840">Use the data from the <link target-id="OrgData" document="">Organize the Empirical Data</link> section to calculate the following answers. Round your answers to four decimal places.
+<list id="fs-id1170309340495" list-type="bulleted">
+<item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = ________</item>
+<item><emphasis effect="italics">RF</emphasis>(1 &lt; <emphasis effect="italics">x</emphasis> &lt; 4) = ________</item>
+<item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 8) = ________</item>
+</list></para>
+<para id="element-806">Use the data from the <link target-id="OrgSim" document="">Organize the Simulation Data</link> section to calculate the following answers. Round your answers to four decimal places.
+<list id="list-92763594" list-type="bulleted"><item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = ________</item>
+<item><emphasis effect="italics">RF</emphasis>(1 &lt; <emphasis effect="italics">x</emphasis> &lt; 4) = ________</item>
+<item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 8) = ________</item>
+</list></para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-420"><title>Discussion Questions</title>For Questions 1 and 2, think about the shapes of the two graphs, the probabilities, the relative frequencies, the means, and the standard deviations.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-23526" list-type="enumerated"><item id="q1">Knowing that data vary, describe three similarities between the graphs and distributions of the theoretical, empirical, and simulation distributions. Use complete sentences.</item>
+<item id="q2">Describe the three most significant differences between the graphs or distributions of the theoretical, empirical, and simulation distributions.</item>
+<item id="q3">Using your answers from Questions 1 and 2, does it appear that the two sets of data fit the theoretical distribution? In complete sentences, explain why or why not.</item>
+<item id="q4">Suppose that the experiment had been repeated 500 times. Would you expect <link target-id="lab1_tbl001" document=""/>, <link target-id="lab1_tbl002" document=""/>, or <link target-id="lab1_tbl003" document=""/> to change, and how would it change? Why? Why wouldn’t the other table(s) change?</item>
+</list></note></section>
+<section id="fs-id1170309339367" class="free-response">
+<title>HOMEWORK</title>
+<exercise id="fs-id1170309353533">
+<problem id="fs-id1170309263824">
+<para id="fs-id1170309709192">Use a programmable calculator to simulate a binomial distribution.</para>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170307158875" list-type="enumerated" number-style="lower-alpha"><item>How would you use the randInt function to simulate the number of successes in five trials of an experiment with two outcomes, each of which has a .5 probability of occurring?</item>
+<item>Use the randInt function to simulate 10 observations of the random variable in Part A.</item>
+<item>Find the sample mean and sample standard deviation.</item>
+<item>Compare the sample mean and sample standard deviation to the theoretical mean and the theoretical standard deviation.</item>
+</list></problem>
+<solution id="fs-id1170309472424">
+<list id="fs-id1170309285213" list-type="enumerated" number-style="lower-alpha">
+<item>You can use randInt (0,1,5) to generate five trials of the experiment. Count the number of 1s generated to determine the number of successes.</item>
+<item>Student answers may vary.</item>
+<item>Student answers may vary.</item>
+<item>The theoretical mean is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mn>5</m:mn>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mn>.5</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2.5</m:mn>
+  </m:mrow>
+  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=feaagyart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0de9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaeWaaeaacaaI1aaacaGLOaGaayzkaaWaaeWaaeaacaaIWaGaaiOlaiaaiwdaaiaawIcacaGLPaaacqGH9aqpcaaIYaGaaiOlaiaaiwdaaaa@3E95@</m:annotation>
+ </m:semantics>
+</m:math>. The theoretical standard deviation is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mn>5</m:mn>
+     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>.5</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>0.5</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>=</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mn>1.25</m:mn>
+    </m:mrow>
+   </m:msqrt>
+
+  </m:mrow>
+  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=feaagyart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0de9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaOaaaeaadaqadaqaaiaaiwdaaiaawIcacaGLPaaadaqadaqaaiaaicdacaGGUaGaaGynaaGaayjkaiaawMcaamaabmaabaGaaGimaiaac6cacaaI1aaacaGLOaGaayzkaaaaleqaaOGaeyypa0ZaaOaaaeaacaaIXaGaaiOlaiaaikdacaaI1aaaleqaaaaa@4344@</m:annotation>
+ </m:semantics>
+</m:math>. </item>
+</list>
+</solution>
+</exercise>
+</section>
+ </content>
+</document>

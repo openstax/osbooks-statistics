@@ -1,0 +1,53 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7" class="introduction">
+  <title>Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m79609</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>2be062aa-bc0a-4ba0-8edf-b9c24b2a57ed</md:uuid>
+</metadata>
+
+<content>
+       <figure id="fs-idm115405360" class="splash">
+<media id="fs-idm115166448" alt="This is a photo taken of the night sky. A meteor and its tail are shown entering the earth's atmosphere.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C03_CO.jpg" width="500"/>
+</media>
+<caption>Meteor showers are rare, but the probability of them occurring can be calculated. (credit: Navicore/flickr)</caption>
+</figure>
+<note id="fs-idm7161872" class="chapter-objectives">
+<label/>
+<title>Chapter Objectives</title>
+<para id="fs-idm75575520">By the end of this chapter, the student should be able to do the following:</para>
+<list id="list1523423">
+<item>Understand and use the terminology of probability</item>
+<item>Determine whether two events are mutually exclusive and whether two events are independent</item>
+<item>Calculate probabilities using the addition rules and multiplication
+rules</item>
+<item>Construct and interpret contingency tables</item>
+<item>Construct and interpret Venn diagrams</item>
+<item>Construct and interpret tree diagrams</item>
+</list>
+</note>
+<para id="intro01">It is often necessary to <emphasis effect="italics">guess</emphasis> about the outcome of an event in order to make a decision. Politicians study polls to guess their likelihood of winning an election. Teachers choose a particular course of study based on what they think students can comprehend. Doctors choose the treatments needed for various diseases based on their assessment of likely results. You may have visited a casino where people play games chosen because of the belief that the likelihood of winning is good. You may have chosen your course of study based on the probable availability of jobs.</para>
+<para id="element-209">You have, more than likely, used probability. In fact, you probably have an intuitive sense of probability. Probability deals with the chance of an event occurring. Whenever you weigh the odds of whether or not to do your homework or to study for an exam, you are using probability. In this chapter, you will learn how to solve probability problems using a systematic approach.<newline/><newline/></para>
+<note id="fs-idm8566848" class="statistics collab">
+<label/>
+<title>Collaborative Exercise</title>
+<para id="fs-id1164561098426">How likely is it that a randomly chosen person in your class has change in his or her pocket? Would you say that it is very likely? Somewhat likely? Not likely?</para>
+<para id="fs-id1164566905695">How likely is it that a randomly chosen person in your class has ridden a bus in the past month?</para>
+<para id="fs-id1164566824652">If a person is chosen at random from your classroom and you know that he or she has ridden a bus in the past month, do you think that person is more likely or less likely to have change?</para>
+<para id="fs-id1164560917284">Probability theory allows us to measure how likelyor unlikelya given result is.</para>
+<para id="element-663">Your instructor will survey your class. Count the number of students in the class today.</para>
+<list id="element-577" list-type="bulleted">
+<item>Raise your hand if you have any change in your pocket or purse. Record the number of raised hands.</item>
+<item>Raise your hand if you rode a bus within the past month. Record the number of raised hands.</item>
+<item>Raise your hand if you answered <emphasis effect="italics">yes</emphasis> to BOTH of the first two questions. Record the number of raised hands.</item>
+</list>
+<para id="element-352">Use the class data as estimates of the following probabilities. <emphasis effect="italics">P</emphasis>(change) means the probability that a randomly chosen person in your class has change in his/her pocket or purse. <emphasis effect="italics">P</emphasis>(bus) means the probability that a randomly chosen person in your class rode a bus within the last month and so on. Discuss your answers.</para>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-204" list-type="bulleted"><item>Find <emphasis effect="italics">P</emphasis>(change).</item>
+<item>Find <emphasis effect="italics">P</emphasis>(bus).</item>
+<item>Find <emphasis effect="italics">P</emphasis>(change AND bus). Find the probability that a randomly chosen student in your class has change in his/her pocket or purse and rode a bus within the last month.</item>
+<item>Find <emphasis effect="italics">P</emphasis>(change|bus). Find the probability that a randomly chosen student has change given that he or she rode a bus within the last month. Count all the students who rode a bus. From the group of students who rode a bus, count those who have change. The probability is equal to those who have change and rode a bus divided by those who rode a bus.</item>
+</list></note>
+ </content> 
+</document>

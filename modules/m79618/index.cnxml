@@ -1,0 +1,227 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+
+<title>Probability Topics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m79618</md:content-id>
+  <md:title>Probability Topics</md:title>
+  <md:abstract/>
+  <md:uuid>7b8ff282-2891-4589-8bac-be044ea72eca</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id1164557702360">
+<note id="fs-id1172778073391" class="statistics lab"><label/><title>Probability Topics</title>
+<para id="fs-idp7760432"><title>Student Learning Outcomes</title></para>
+<list id="element-180" list-type="bulleted"><item>The student will use theoretical and empirical methods to estimate probabilities.</item>
+<item>The student will appraise the differences between the two estimates.</item>
+<item>The student will demonstrate an understanding of long-term relative frequencies.</item></list>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-410"><title>Do the Experiment</title>Count out 40 mixed-color candies, which is approximately one small bag’s worth. Record the number of each color in <link target-id="M05_ch03-tbl009"/>. Use the information from this table to complete <link target-id="M05_ch03-tbl010"/>. Next, put the candies in a cup. The experiment is to pick two candies, one at a time. Do <emphasis>not</emphasis> look into the cup as you pick them. The first time through, replace the first candy before picking the second one. Record the results in the With Replacement column of <link target-id="M05_ch03-tbl011"/>. Do this 24 times. The second time through, after picking the first candy, do <emphasis>not</emphasis> replace it before picking the second one. Then, pick the second one. Record the results in the Without Replacement column section of <link target-id="M05_ch03-tbl012"/>. After you record the pick, put <emphasis>both</emphasis> candies back. Do this a total of 24 times, also. Use the data from <link target-id="M05_ch03-tbl012"/> to calculate the empirical probability questions. Leave your answers in unreduced fractional form. Do <emphasis>not</emphasis> multiply out any fractions.
+</para><table id="M05_ch03-tbl009" summary="Partially filled theoretical data table. The first column lists the color (6 rows) and the blank second column lists the quantity values.">
+<title>Population</title>
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Color</entry>
+    <entry>Quantity</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Yellow (<emphasis effect="italics">Y</emphasis>)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Green (<emphasis effect="italics">G</emphasis>)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Blue (<emphasis effect="italics">BL</emphasis>)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Brown (<emphasis effect="italics">B</emphasis>)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Orange (<emphasis effect="italics">O</emphasis>)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Red (<emphasis effect="italics">R</emphasis>)</entry>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table>
+<table id="M05_ch03-tbl010" summary="A three column, eight row table is shown. The header row contains the following column titles: blank, With Replacement, and Without Replacement. The second and third columns are otherwise blank. The first column contains the following values in rows two through eight: P opening parenthesis 2 reds closing parenthesis; P opening parenthesis R subscript 1 B subscript 2 O R B subscript 1 R subscript 2 closing parenthesis; P opening parenthesis, R subscript 1 AND G subscript 2 closing parenthesis; P opening parenthesis G subscript 2 IR subscript 1 closing parenthesis; P opening parenthesis no yellows closing parenthesis; P opening parenthesis doubles closing parenthesis; P opening parenthesis no doubles closing parenthesis.">
+<title>Theoretical Probabilities</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry/>
+    <entry>With Replacement</entry>
+    <entry>Without Replacement</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(2 reds)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><sub>1</sub><emphasis effect="italics">B</emphasis><sub>2</sub> OR <emphasis effect="italics">B</emphasis><sub>1</sub><emphasis effect="italics">R</emphasis><sub>2</sub>)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><sub>1</sub> AND <emphasis effect="italics">G</emphasis><sub>2</sub>)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis><sub>2</sub>|<emphasis effect="italics">R</emphasis><sub>1</sub>)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(no yellows)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(doubles)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(no doubles)</entry>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table>
+<note id="fs-idp15354112"><label/><title>Note</title>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp27436528"><emphasis effect="italics">G</emphasis><sub>2</sub> = green on second pick, <emphasis effect="italics">R</emphasis><sub>1</sub> = red on first pick, <emphasis effect="italics">B</emphasis><sub>1</sub> = brown on first pick, <emphasis effect="italics">B</emphasis><sub>2</sub> = brown on second pick, <newline/>doubles = both picks are the same color.</para></note><table id="M05_ch03-tbl011" summary="Blank empirical results table with the first column designated for with replacement and the second column listed for without replacement. 24 empty cells.">
+<title>Empirical Results</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+  <row>
+    <entry>With Replacement</entry>
+    <entry>Without Replacement</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>( __ , __ ) ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+<table id="M05_ch03-tbl012" summary="A three column, eight row table is shown. The header row contains the following column titles: blank, With Replacement, and Without Replacement. The second and third columns are otherwise blank. The first column contains the following values in rows two through eight: P opening parenthesis 2 reds closing parenthesis; P opening parenthesis R subscript 1 B subscript 2 O R B subscript 1 R subscript 2 closing parenthesis; P opening parenthesis, R subscript 1 AND G subscript 2 closing parenthesis; P opening parenthesis G subscript 2 IR subscript 1 closing parenthesis; P opening parenthesis no yellows closing parenthesis; P opening parenthesis doubles closing parenthesis; P opening parenthesis no doubles closing parenthesis.">
+<title>Empirical Probabilities</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry/>
+    <entry>With Replacement</entry>
+    <entry>Without Replacement</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(2 reds)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><sub>1</sub><emphasis effect="italics">B</emphasis><sub>2</sub> OR <emphasis effect="italics">B</emphasis><sub>1</sub><emphasis effect="italics">R</emphasis><sub>2</sub>)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><sub>1</sub> AND <emphasis effect="italics">G</emphasis><sub>2</sub>)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis><sub>2</sub>|<emphasis effect="italics">R</emphasis><sub>1</sub>)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(no yellows)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(doubles)</entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><emphasis effect="italics">P</emphasis>(no doubles)</entry>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-idp8995504">
+<title>Discussion Questions</title></para>
+<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-148" list-type="enumerated"><item>Why are the With Replacement and Without Replacement probabilities different?</item>
+<item>Convert <emphasis effect="italics">P</emphasis>(no yellows) to decimal format for both Theoretical With Replacement and for Empirical With Replacement.  Round to four decimal places.
+<list id="sublist1" list-type="enumerated" number-style="lower-alpha"><item>Theoretical <emphasis effect="italics">With Replacement</emphasis>: <emphasis effect="italics">P</emphasis>(no yellows) = _______</item>
+<item>Empirical With Replacement: <emphasis effect="italics">P</emphasis>(no yellows) = _______</item>
+<item>Are the decimal values <emphasis effect="italics">close</emphasis>? Did you expect them to be closer together or farther apart? Why?</item></list></item>
+<item>If you increased the number of times you picked two candies to 240 times, why would empirical probability values change?</item>
+<item>Would this change (see Question 3) cause the empirical probabilities and theoretical probabilities to be closer together or farther apart?  How do you know? </item>
+<item>Explain the differences in what <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis><sub>1</sub> AND <emphasis effect="italics">R</emphasis><sub>2</sub>) and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis><sub>1</sub>|<emphasis effect="italics">G</emphasis><sub>2</sub>) represent. Hint: Think about the sample space for each probability.</item>
+</list></note></section> </content>
+
+</document>

@@ -1,0 +1,30 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7" class="introduction">
+  <title>Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>m79701</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>8a81df53-84cb-4e66-b311-1dd736c0c2e6</md:uuid>
+</metadata>
+
+<content>
+<figure id="fs-idm12990704" class="splash">
+<media id="fs-idp104097120" alt="This is a photo of magazine spines. The magazines cover various topics like plants, food, and architecture.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C13_CO.jpg" width="380"/>
+</media>
+<caption>One-way ANOVA is used to measure information from several groups.</caption>
+</figure>
+
+<note id="fs-idp90615904" class="chapter-objectives">
+<label/>
+<title>Chapter Objectives</title>
+<para id="element-672"> By the end of this chapter, the student should be able to do the following:</para>
+<list id="fs-idp124304720">
+<item>Interpret the <emphasis effect="italics">F</emphasis> probability distribution as the number of groups and the sample size change</item>
+<item>Discuss two uses for the <emphasis effect="italics">F</emphasis> distribution: one-way ANOVA and the test of two variances</item>
+<item>Conduct and interpret one-way ANOVA</item>
+<item>Conduct and interpret hypothesis tests of two variances</item>
+</list>
+</note>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp61515728">Many statistical applications in psychology, social science, business administration, and the natural sciences involve several groups. For example, an environmentalist is interested in knowing if the average amount of pollution varies among several bodies of water. A sociologist is interested in knowing if the amount of income a person earns varies according to his or her upbringing. A consumer looking for a new car might compare the average gas mileage of several models.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp105761984">For hypothesis tests comparing averages across more than two groups, statisticians have developed a method called <emphasis effect="italics">analysis of variance</emphasis> (abbreviated ANOVA). In this chapter, you will study the simplest form of ANOVA called single factor or one-way ANOVA. You will also study the <emphasis effect="italics">F</emphasis> distribution, used for one-way ANOVA, and the test of two variances. This is a very brief overview of one-way ANOVA. You will study this topic in much greater detail in future statistics courses. One-way ANOVA, as it is presented here, relies heavily on a calculator or computer.</para> </content>
+</document>
