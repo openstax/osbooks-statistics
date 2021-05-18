@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Lab: One-Way ANOVA</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79708</md:content-id>
   <md:title>Lab: One-Way ANOVA</md:title>
   <md:abstract/>
@@ -10,7 +10,7 @@
 
 <content>
 <section id="fs-id1164565008077">
-<note xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164890505043" class="statistics lab"><label/><title>One-Way ANOVA </title>
+<note id="fs-id1164890505043" class="statistics lab"><label/><title>One-Way ANOVA </title>
 
 
 <list id="id11393471" list-type="bulleted">

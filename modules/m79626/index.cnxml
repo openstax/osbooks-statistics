@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Hypergeometric Distribution (Optional)</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79626</md:content-id>
   <md:title>Hypergeometric Distribution (Optional)</md:title>
   <md:abstract/>
@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164965624812">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-408">There are five characteristics of a <emphasis>hypergeometric</emphasis> experiment:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-999" list-type="enumerated"><item>You take samples from <emphasis effect="italics">two</emphasis> groups.</item>
+<para id="element-408">There are five characteristics of a <emphasis>hypergeometric</emphasis> experiment:</para><list id="element-999" list-type="enumerated"><item>You take samples from <emphasis effect="italics">two</emphasis> groups.</item>
 <item>You are concerned with a group of interest, called the first group.</item>
 <item>You sample <emphasis effect="italics">without replacement</emphasis> from the combined groups. For example, you want to choose a softball team from a combined group of 11 men and 13 women. The team consists of 10 players.</item>
 <item>Each pick is <emphasis effect="italics">not</emphasis> independent, since sampling is without replacement. In the softball example, the probability of picking a woman first is <m:math>
@@ -52,7 +52,7 @@
 
 <note id="fs-idm112699744" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm3161264"><problem id="fs-idp72756304">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp107407200">A bag contains letter tiles. 44 of the tiles are vowels, and 56 are consonants. Seven tiles are picked at random. You want to know the probability that four of the seven tiles are vowels. What is the group of interest, the size of the group of interest, and the size of the sample?</para></problem>
+<para id="fs-idp107407200">A bag contains letter tiles. 44 of the tiles are vowels, and 56 are consonants. Seven tiles are picked at random. You want to know the probability that four of the seven tiles are vowels. What is the group of interest, the size of the group of interest, and the size of the sample?</para></problem>
 <solution id="fs-idp36651984" class="solutions">
 <label/>
 <para id="fs-idp8803120">The group of interest is the vowel letter tiles. The size of the group of interest is 44. The size of the sample is seven.</para></solution>
@@ -134,7 +134,7 @@
 <para id="element-870"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">H</emphasis>(<emphasis effect="italics">r</emphasis>, <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">n</emphasis>)</para>
 
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-869">Read this as <emphasis effect="italics">X is a random variable with a hypergeometric distribution</emphasis>. The parameters are <emphasis effect="italics">r</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">n</emphasis>: <emphasis effect="italics">r</emphasis> = the size of the group of interest (first group), <emphasis effect="italics">b</emphasis> = the size of the second group, <emphasis effect="italics">n</emphasis> = the size of the chosen sample.</para></section>
+<para id="element-869">Read this as <emphasis effect="italics">X is a random variable with a hypergeometric distribution</emphasis>. The parameters are <emphasis effect="italics">r</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">n</emphasis>: <emphasis effect="italics">r</emphasis> = the size of the group of interest (first group), <emphasis effect="italics">b</emphasis> = the size of the second group, <emphasis effect="italics">n</emphasis> = the size of the chosen sample.</para></section>
 
 <example id="element-180">
 <para id="element-874">A school site committee is to be chosen randomly from six men and five women. If the committee consists of four members chosen randomly, what is the probability that two of them are men? How many men do you expect to be on the committee?</para>
@@ -149,7 +149,7 @@
 </note><para id="element-879">The probability that there are two men on the committee is about .45.</para>
 
 <para id="element-136">The graph of <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">H</emphasis>(6, 5, 4) is</para>
-<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp36734864"><media id="id43780967" alt="This figure has the following on the X axis, P (uppercase X is equal to lowercase x). The Y axis ranges from point 00 to point 20. The x axis ranges from 0 to 20. The bars of the graph show a bell-shaped pattern, ranging from 2 to 14 with the highest bar at 8."><image src="../../media/OSX_HS_Statistics_Figure_04_03_08_01.jpg" mime-type="image/jpg" width="400"/></media>
+<figure id="fs-idp36734864"><media id="id43780967" alt="This figure has the following on the X axis, P (uppercase X is equal to lowercase x). The Y axis ranges from point 00 to point 20. The x axis ranges from 0 to 20. The bars of the graph show a bell-shaped pattern, ranging from 2 to 14 with the highest bar at 8."><image src="../../media/OSX_HS_Statistics_Figure_04_03_08_01.jpg" mime-type="image/jpg" width="400"/></media>
 
 </figure><para id="element-704">The <emphasis effect="italics">y</emphasis>-axis contains the probability of <emphasis effect="italics">X</emphasis>, where <emphasis effect="italics">X</emphasis> = the number of men on the committee.</para>
 
@@ -196,7 +196,7 @@
 <item>You are not dealing with Bernoulli trials</item>
 </list>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm39657744">The outcomes of a hypergeometric experiment fit a hypergeometric probability distribution. The random variable <emphasis effect="italics">X</emphasis> = the number of items from the group of interest. The distribution of <emphasis effect="italics">X</emphasis> is denoted <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">H</emphasis>(<emphasis effect="italics">r</emphasis>, <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">n</emphasis>), where <emphasis effect="italics">r</emphasis> = the size of the group of interest (first group), <emphasis effect="italics">b</emphasis> = the size of the second group, and <emphasis effect="italics">n</emphasis> = the size of the chosen sample. It follows that <emphasis effect="italics">n</emphasis> ≤ <emphasis effect="italics">r</emphasis> + <emphasis effect="italics">b</emphasis>. The mean of <emphasis effect="italics">X</emphasis> is <emphasis effect="italics">μ</emphasis> = <m:math>
+<para id="fs-idm39657744">The outcomes of a hypergeometric experiment fit a hypergeometric probability distribution. The random variable <emphasis effect="italics">X</emphasis> = the number of items from the group of interest. The distribution of <emphasis effect="italics">X</emphasis> is denoted <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">H</emphasis>(<emphasis effect="italics">r</emphasis>, <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">n</emphasis>), where <emphasis effect="italics">r</emphasis> = the size of the group of interest (first group), <emphasis effect="italics">b</emphasis> = the size of the second group, and <emphasis effect="italics">n</emphasis> = the size of the chosen sample. It follows that <emphasis effect="italics">n</emphasis> ≤ <emphasis effect="italics">r</emphasis> + <emphasis effect="italics">b</emphasis>. The mean of <emphasis effect="italics">X</emphasis> is <emphasis effect="italics">μ</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -373,7 +373,7 @@
 <title>HOMEWORK</title>
 
 <exercise id="element-194"><problem id="id5899812">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-438">A group of martial arts students is planning on participating in an upcoming demonstration. Six are students of tae kwon do, and seven are students of shotokan karate. Suppose that eight students are randomly picked to be in the first demonstration. We are interested in the number of shotokan karate students in that first demonstration.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-803" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+  <para id="element-438">A group of martial arts students is planning on participating in an upcoming demonstration. Six are students of tae kwon do, and seven are students of shotokan karate. Suppose that eight students are randomly picked to be in the first demonstration. We are interested in the number of shotokan karate students in that first demonstration.</para><list id="element-803" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item>List the values that <emphasis effect="italics">X</emphasis> may take on.</item>
 <item>Give the distribution of <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
 <item>How many shotokan karate students do we expect to be in that first demonstration?</item>
@@ -387,7 +387,7 @@
 <item>4.31</item>
 </list></solution> -->
 </exercise><exercise id="fs-idm49012784"><problem id="fs-idm49012656">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm22644768">In one of its spring catalogs, a retailer advertised footwear on 29 of its 192 catalog pages. Suppose we randomly survey 20 pages. We are interested in the number of pages that advertise footwear. Each page may be picked at most once.</para><list id="fs-idp38152128" list-type="enumerated" number-style="lower-alpha">
+  <para id="fs-idm22644768">In one of its spring catalogs, a retailer advertised footwear on 29 of its 192 catalog pages. Suppose we randomly survey 20 pages. We are interested in the number of pages that advertise footwear. Each page may be picked at most once.</para><list id="fs-idp38152128" list-type="enumerated" number-style="lower-alpha">
 <item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item>List the values that <emphasis effect="italics">X</emphasis> may take on.</item>
 <item>Give the distribution of <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
@@ -396,7 +396,7 @@
 </list>
 </problem>
 <solution id="eip-idp25780992">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp90664864" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the number of pages that advertise footwear</item>
+<list id="eip-idp90664864" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the number of pages that advertise footwear</item>
 <item>0, 1, 2, 3, ..., 20</item>
 <item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">H</emphasis>(29, 163, 20),  <emphasis effect="italics">r</emphasis> = 29, <emphasis effect="italics">b</emphasis> = 163, <emphasis effect="italics">n</emphasis> = 20</item>
 <item>3.03</item>
@@ -404,7 +404,7 @@
 </list></solution></exercise>
 
 <exercise id="fs-idp106306576"><problem id="id11679086">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-416">Suppose that a technology task force is being formed to study technology awareness among instructors. Assume that 10 people will be randomly chosen to be on the committee from a group of 28 volunteers, 20 who are technically proficient and eight who are not. We are interested in the number on the committee who are <emphasis>not</emphasis> technically proficient.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-211" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<para id="element-416">Suppose that a technology task force is being formed to study technology awareness among instructors. Assume that 10 people will be randomly chosen to be on the committee from a group of 28 volunteers, 20 who are technically proficient and eight who are not. We are interested in the number on the committee who are <emphasis>not</emphasis> technically proficient.</para><list id="element-211" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item>List the values that <emphasis effect="italics">X</emphasis> may take on.</item>
 <item>Give the distribution of <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
 <item>How many instructors do you expect on the committee who are <emphasis>not</emphasis> technically proficient?</item>

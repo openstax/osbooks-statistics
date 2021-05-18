@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Central Limit Theorem (Pocket Change)</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79651</md:content-id>
   <md:title>Central Limit Theorem (Pocket Change)</md:title>
   <md:abstract/>
@@ -24,7 +24,7 @@
 
 <para id="fs-idm68262064">This lab works best when sampling from several classes and combining data.</para></note>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-9099999888" list-type="enumerated"><title id="CollectData">Collect the Data</title><item>Count the change in your pocket. (Do not include bills.)</item>
+<list id="list-9099999888" list-type="enumerated"><title id="CollectData">Collect the Data</title><item>Count the change in your pocket. (Do not include bills.)</item>
 <item>Randomly survey 30 classmates. Record the values of the change in <link target-id="Ch07_lab1_tbl001" document=""/>.
 <table id="Ch07_lab1_tbl001" summary="Blank table with 30 empty cells.">
 <tgroup cols="5">
@@ -89,7 +89,7 @@
 <item><emphasis effect="italics">s</emphasis> = _______</item>
 </list></item>
 <item>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-509"><title>Collecting Averages of Pairs:</title>Repeat steps one through five of the section <link target-id="CollectData" document="">Collect the Data</link> with one exception. Instead of recording the change of 30 classmates, record the average change of 30 pairs.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-9759443" list-type="enumerated"><item>Randomly survey 30 <emphasis effect="italics">pairs</emphasis> of classmates.</item>
+</list><para id="element-509"><title>Collecting Averages of Pairs:</title>Repeat steps one through five of the section <link target-id="CollectData" document="">Collect the Data</link> with one exception. Instead of recording the change of 30 classmates, record the average change of 30 pairs.</para><list id="list-9759443" list-type="enumerated"><item>Randomly survey 30 <emphasis effect="italics">pairs</emphasis> of classmates.</item>
 <item>Record the values of the average of their change in <link target-id="Ch07_lab1_tbl002" document=""/>.
 <table id="Ch07_lab1_tbl002" summary="Blank table containing 30 blank cells.">
 <tgroup cols="5">
@@ -158,7 +158,7 @@
 <item><emphasis effect="italics">s</emphasis> = _______</item>
 </list></item>
 <item>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-505436759"><title>Collecting Averages of Groups of Five:</title>Repeat steps one through five (of the section titled <link target-id="CollectData" document="">Collect the Data</link>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-9735659975974443" list-type="enumerated" number-style="arabic"><item>Randomly survey 30 <emphasis effect="italics">groups of five</emphasis> classmates.</item>
+</list><para id="element-505436759"><title>Collecting Averages of Groups of Five:</title>Repeat steps one through five (of the section titled <link target-id="CollectData" document="">Collect the Data</link>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</para><list id="list-9735659975974443" list-type="enumerated" number-style="arabic"><item>Randomly survey 30 <emphasis effect="italics">groups of five</emphasis> classmates.</item>
 <item>Record the values of the averages of their change.<table id="Ch07_lab1_tbl003" summary="Blank table containing 30 blank cells.">
 <tgroup cols="5">
 <tbody>
@@ -223,7 +223,7 @@
 <item><emphasis effect="italics">s</emphasis> = _______</item>
 </list></item>
 <item>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</item>
-</list><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-441" list-type="enumerated"><title>Discussion Questions</title><item>Why did the shape of the distribution of the data change, as <emphasis effect="italics">n</emphasis> changed? Use one to two complete sentences to explain what happened.</item>
+</list><list id="element-441" list-type="enumerated"><title>Discussion Questions</title><item>Why did the shape of the distribution of the data change, as <emphasis effect="italics">n</emphasis> changed? Use one to two complete sentences to explain what happened.</item>
 <item>In the section titled <link target-id="CollectData" document="">Collect the Data</link>, what was the approximate distribution of the data?</item>
 <item><emphasis effect="italics">X</emphasis> ~ _____(_____, _____)</item>
 <item>In the section titled <link target-id="element-505436759" document="">Collecting Averages of Groups of Five</link>, what was the approximate distribution of the averages? <m:math>

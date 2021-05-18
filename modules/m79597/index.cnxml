@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml">
 
 <title>Data Collection Experiment</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79597</md:content-id>
   <md:title>Data Collection Experiment</md:title>
   <md:abstract/>
@@ -15,7 +15,7 @@
 <list id="element-293" list-type="bulleted"><title>Student Learning Outcomes</title><item>The student will demonstrate the systematic sampling technique.</item>
 <item>The student will construct relative frequency tables.</item>
 <item>The student will interpret results and their differences from different data groupings.</item></list>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567996867"><title>Movie Survey</title>Get a class roster/list. Randomly mark a persons name, and then mark every fourth name on the list until you get 12 names. You may have to go back to the start of the list. For each name marked, record the number of movies they saw at the theater last month.</para><para id="element-6"><title>Order the Data</title>Complete the two relative frequency tables below using your class data.</para><table id="id9610791234" summary="This table provides a blank template for recording the results of the previously conducted survey. The first column contains the exact number of movies watched, the second column contains the frequency, the third column contains the relative frequency, and the fourth column contains the cumulative relative frequency. Only the first column is completed."><title>Frequency of Number of Movies Viewed</title>
+<para id="fs-id1164567996867"><title>Movie Survey</title>Get a class roster/list. Randomly mark a persons name, and then mark every fourth name on the list until you get 12 names. You may have to go back to the start of the list. For each name marked, record the number of movies they saw at the theater last month.</para><para id="element-6"><title>Order the Data</title>Complete the two relative frequency tables below using your class data.</para><table id="id9610791234" summary="This table provides a blank template for recording the results of the previously conducted survey. The first column contains the exact number of movies watched, the second column contains the frequency, the third column contains the relative frequency, and the fourth column contains the cumulative relative frequency. Only the first column is completed."><title>Frequency of Number of Movies Viewed</title>
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>

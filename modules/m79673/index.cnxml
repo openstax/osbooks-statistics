@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7" class="introduction">
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
   <title>Introduction</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79673</md:content-id>
   <md:title>Introduction</md:title>
   <md:abstract/>
@@ -32,6 +32,6 @@ tests</item>
 <item>The test of independence, which determines if events are independent, such as in the movie example</item>
 <item>The test of a single variance, which tests variability, such as in the coffee example</item>
 </list></para><note id="id17641525" class="finger"><label/><title>NOTE</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm100257904">Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <link document="m79717"/>). TI-83+ and TI-84 calculator instructions are included in the text.</para></note><note id="fs-idm94608208" class="statistics collab"><label/><title>Collaborative Classroom Exercise</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-747">Look in the sports section of a newspaper or on the internet for some sports data: baseball averages, basketball scores, golf tournament scores, football odds, swimming times, and the like. Plot a histogram and a boxplot using your data. See if you can determine a probability distribution that your data fits. Have a discussion with the class about your choice.</para></note> </content>
+<para id="fs-idm100257904">Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <link document="m79717"/>). TI-83+ and TI-84 calculator instructions are included in the text.</para></note><note id="fs-idm94608208" class="statistics collab"><label/><title>Collaborative Classroom Exercise</title>
+<para id="element-747">Look in the sports section of a newspaper or on the internet for some sports data: baseball averages, basketball scores, golf tournament scores, football odds, swimming times, and the like. Plot a histogram and a boxplot using your data. See if you can determine a probability distribution that your data fits. Have a discussion with the class about your choice.</para></note> </content>
 </document>

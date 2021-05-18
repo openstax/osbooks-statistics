@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Outliers</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79694</md:content-id>
   <md:title>Outliers</md:title>
   <md:abstract/>
@@ -12,24 +12,24 @@
 <!--<para id="delete_me">In some data sets, there are values <emphasis>(observed data points)</emphasis> called <term>outliers</term>. <emphasis>Outliers are observed data points that are far from the least squares line.</emphasis> They have large "errors", where the "error" or residual is the vertical distance from the line to the point. </para>
 <para id="eip-502">Outliers need to be examined closely. Sometimes, for some reason or another, they should not be included in the analysis of the data. It is possible that an outlier is a result of erroneous data. Other times, an outlier may
 hold valuable information about the population under study and should remain included in the data. The key is to examine carefully what causes a data point to be an outlier.</para>-->
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567107088">In some data sets, there are values (observed data points) called <emphasis>outliers</emphasis>. Outliers are observed data points that are far from the least-squares line. They have large errors, where the error or residual is not very close to the best-fit line.</para><!--(insert a graph like figure 12.6 (b))-->
+<para id="fs-id1164567107088">In some data sets, there are values (observed data points) called <emphasis>outliers</emphasis>. Outliers are observed data points that are far from the least-squares line. They have large errors, where the error or residual is not very close to the best-fit line.</para><!--(insert a graph like figure 12.6 (b))-->
 <para id="fs-id1164567612309">Outliers need to be examined closely. Sometimes, they should not be included in the analysis of the data, like if it is possible that an outlier is a result of incorrect data. Other times, an outlier may hold valuable information about the population under study and should remain included in the data. The key is to examine carefully what causes a data point to be an outlier.</para>
 <para id="eip-224">Besides outliers, a sample may contain one or a few points that are called influential points. Influential points are observed data points that are far from the other observed data points in the horizontal direction. These points may have a big effect on the slope of the regression line. To begin to identify an influential point, you can remove it from the data set and determine whether the slope of the regression line is changed significantly.</para>
 <!--<para id="fs-id1170308342299">You will also want to examine how the correlation coefficient, <emphasis effect="italics">r</emphasis>, has changed. Sometimes, it is difficult to discern a significant change in slope, so you need to look at how the strength of the linear relationship has changed. Computers and many calculators can be used to identify outliers and influential points. Regression analysis is very helpful during this identification process. The output of a linear regression <emphasis effect="italics">t</emphasis> test, such as that provided on a graphing calculator, will show the slope, <emphasis effect="italics">a</emphasis>, and the correlation coefficient, <emphasis effect="italics">r</emphasis>. The slope and <emphasis effect="italics">r</emphasis>-value for the new linear regression, resulting from omission of the outlier from the data, can then be compared to the values for the original linear regression. This will determine if the outlier is indeed an influential point. In either case, the new regression will show how omitting the outlier will affect the correlation among the variables as well as the fit of the line. A graph showing both regression lines helps determine how removing an outlier will affect the fit of the model.</para>-->
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565308294">You also want to examine how the correlation coefficient, <emphasis effect="italics">r</emphasis>, has changed. Sometimes, it is difficult to discern a significant change in slope, so you need to look at how the strength of the linear relationship has changed. Computers and many calculators can be used to identify outliers and influential points. Regression analysis can determine if an outlier is, indeed, an influential point. The new regression will show how omitting the outlier will affect the correlation among the variables, as well as the fit of the line. A graph showing both regression lines helps determine how removing an outlier affects the fit of the model.</para><!--<para id="eip-755">Computers and many calculators can be used to identify outliers from the data. Computer output for regression analysis will often identify both outliers and influential points so that you can examine them.</para>-->
+<para id="fs-id1164565308294">You also want to examine how the correlation coefficient, <emphasis effect="italics">r</emphasis>, has changed. Sometimes, it is difficult to discern a significant change in slope, so you need to look at how the strength of the linear relationship has changed. Computers and many calculators can be used to identify outliers and influential points. Regression analysis can determine if an outlier is, indeed, an influential point. The new regression will show how omitting the outlier will affect the correlation among the variables, as well as the fit of the line. A graph showing both regression lines helps determine how removing an outlier affects the fit of the model.</para><!--<para id="eip-755">Computers and many calculators can be used to identify outliers from the data. Computer output for regression analysis will often identify both outliers and influential points so that you can examine them.</para>-->
 
 </section>
 <section id="fs-idm49430544">
 <title>Identifying Outliers</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-511">We could guess at outliers by looking at a graph of the scatter plot and best-fit line. However, we would like some guideline regarding how far away a point needs to be to be considered an outlier. <emphasis effect="italics">As a rough rule of thumb, we can flag as an outlier any point that is located farther than two standard deviations above or below the best-fit line</emphasis>. The standard deviation used is the standard deviation of the residuals or errors.</para><para id="eip-526" class="finger">We can do this visually in the scatter plot by drawing an extra pair of lines that are two standard deviations above and below the best-fit line. Any data points outside this extra pair of lines are flagged as potential outliers. Or, we can do this numerically by calculating each residual and comparing it with twice the standard deviation. With regard to the TI-83, 83+, or 84+ calculators, the graphical approach is easier. The graphical procedure is shown first, followed by the numerical calculations. You would generally need to use only one of these methods.</para><example id="eip-837"><exercise id="element-12987">
+<para id="eip-511">We could guess at outliers by looking at a graph of the scatter plot and best-fit line. However, we would like some guideline regarding how far away a point needs to be to be considered an outlier. <emphasis effect="italics">As a rough rule of thumb, we can flag as an outlier any point that is located farther than two standard deviations above or below the best-fit line</emphasis>. The standard deviation used is the standard deviation of the residuals or errors.</para><para id="eip-526" class="finger">We can do this visually in the scatter plot by drawing an extra pair of lines that are two standard deviations above and below the best-fit line. Any data points outside this extra pair of lines are flagged as potential outliers. Or, we can do this numerically by calculating each residual and comparing it with twice the standard deviation. With regard to the TI-83, 83+, or 84+ calculators, the graphical approach is easier. The graphical procedure is shown first, followed by the numerical calculations. You would generally need to use only one of these methods.</para><example id="eip-837"><exercise id="element-12987">
 <problem id="id1170949520848">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-631">In the <link document="m79689" target-id="element-22">third exam/final exam example</link>, you can determine whether there is an outlier. If there is an outlier, as an exercise, delete it and fit the remaining data to a new line. For this example, the new line ought to fit the remaining data better. This means the SSE (sum of the squared errors) should be smaller and the correlation coefficient ought to be closer to 1 or –1.</para></problem>
+<para id="element-631">In the <link document="m79689" target-id="element-22">third exam/final exam example</link>, you can determine whether there is an outlier. If there is an outlier, as an exercise, delete it and fit the remaining data to a new line. For this example, the new line ought to fit the remaining data better. This means the SSE (sum of the squared errors) should be smaller and the correlation coefficient ought to be closer to 1 or –1.</para></problem>
 
 <solution id="id1170917505276">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-435" class="finger"><title>Graphical Identification of Outliers</title>With the TI-83, 83+, or 84+ graphing calculators, it is easy to  identify the outliers graphically and visually.  If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance were equal to 2<emphasis effect="italics">s</emphasis> or more, then we would consider the data point to be too far from the line of best fit. We need to find and graph the lines that are two standard deviations below and above the regression line.  Any points that are outside these two lines are outliers. Let’s call these lines Y2 and Y3.</para><para id="element-20965">As we did with the equation of the regression line and the correlation coefficient, we will use technology to calculate this standard deviation for us.  Using the LinRegTTest with these data, scroll down through the output screens to find <emphasis effect="italics">s</emphasis> = 16.412.</para>
+<para id="element-435" class="finger"><title>Graphical Identification of Outliers</title>With the TI-83, 83+, or 84+ graphing calculators, it is easy to  identify the outliers graphically and visually.  If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance were equal to 2<emphasis effect="italics">s</emphasis> or more, then we would consider the data point to be too far from the line of best fit. We need to find and graph the lines that are two standard deviations below and above the regression line.  Any points that are outside these two lines are outliers. Let’s call these lines Y2 and Y3.</para><para id="element-20965">As we did with the equation of the regression line and the correlation coefficient, we will use technology to calculate this standard deviation for us.  Using the LinRegTTest with these data, scroll down through the output screens to find <emphasis effect="italics">s</emphasis> = 16.412.</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-208">Line Y2 = –173.5 + 4.83<emphasis effect="italics">x</emphasis> – 2(16.4), and line Y3 = –173.5 + 4.83<emphasis effect="italics">x</emphasis> + 2(16.4),<newline/>where <emphasis effect="italics">ŷ</emphasis> = –173.5 + 4.83<emphasis effect="italics">x</emphasis> is the line of best fit. Y2 and Y3 have the same slope as the line of best fit.</para><!--<para id="element-129853">Graph the scatterplot with the best fit line in equation Y1, then enter the two extra lines as Y2 and Y3 in the "Y="equation editor and press ZOOM 9. You will find that the only data point that is not between lines Y2 and Y3 is the point <emphasis effect="italics">x</emphasis> = 65, <emphasis effect="italics">y</emphasis> = 175. On the calculator screen it is just barely outside these lines. The outlier is the student who had a grade of 65 on the third exam and 175 on the final exam; this point is further than two standard deviations away from the best-fit line.</para>-->
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567027731">Graph the scatter plot with the best-fit line in equation Y1, then enter the two extra lines as Y2 and Y3 in the <emphasis effect="italics">Y</emphasis>= equation editor. Press ZOOM-9 to get a good view. You will see that the only point that is not between Y2 and Y3 is the point (65, 175). On the calculator screen, it is barely outside these lines, but it is considered an outlier because it is more than two standard deviations away from the best-fit line. The outlier is the student who had a grade of 65 on the third exam and 175 on the final exam.</para><para id="element-664">Sometimes a point is so close to the lines used to flag outliers on the graph that it is difficult to tell whether the point is between or outside the lines.  On a computer, enlarging the graph may help;  on a small calculator screen, zooming in may make the graph clearer.  Note that when the graph does not give a clear enough picture, you can use the numerical comparisons to identify outliers. </para>
+<para id="element-208">Line Y2 = –173.5 + 4.83<emphasis effect="italics">x</emphasis> – 2(16.4), and line Y3 = –173.5 + 4.83<emphasis effect="italics">x</emphasis> + 2(16.4),<newline/>where <emphasis effect="italics">ŷ</emphasis> = –173.5 + 4.83<emphasis effect="italics">x</emphasis> is the line of best fit. Y2 and Y3 have the same slope as the line of best fit.</para><!--<para id="element-129853">Graph the scatterplot with the best fit line in equation Y1, then enter the two extra lines as Y2 and Y3 in the "Y="equation editor and press ZOOM 9. You will find that the only data point that is not between lines Y2 and Y3 is the point <emphasis effect="italics">x</emphasis> = 65, <emphasis effect="italics">y</emphasis> = 175. On the calculator screen it is just barely outside these lines. The outlier is the student who had a grade of 65 on the third exam and 175 on the final exam; this point is further than two standard deviations away from the best-fit line.</para>-->
+<para id="fs-id1164567027731">Graph the scatter plot with the best-fit line in equation Y1, then enter the two extra lines as Y2 and Y3 in the <emphasis effect="italics">Y</emphasis>= equation editor. Press ZOOM-9 to get a good view. You will see that the only point that is not between Y2 and Y3 is the point (65, 175). On the calculator screen, it is barely outside these lines, but it is considered an outlier because it is more than two standard deviations away from the best-fit line. The outlier is the student who had a grade of 65 on the third exam and 175 on the final exam.</para><para id="element-664">Sometimes a point is so close to the lines used to flag outliers on the graph that it is difficult to tell whether the point is between or outside the lines.  On a computer, enlarging the graph may help;  on a small calculator screen, zooming in may make the graph clearer.  Note that when the graph does not give a clear enough picture, you can use the numerical comparisons to identify outliers. </para>
 
 <figure id="eip-idp140675136"><media id="id1170917557779" alt="The scatter plot of exam scores with a line of best fit.Two yellow dashed lines run parallel to the line of best fit. The dashed lines run above and below the best fit line at equal distances. One data point falls outside the boundary created by the dashed lines—it is an outlier."><image src="../../media/fig-ch12_09_01.jpg" mime-type="image/jpeg" width="380"/></media></figure></solution>
 </exercise>
@@ -39,7 +39,7 @@ hold valuable information about the population under study and should remain inc
 
 <exercise id="eip-365">
 <problem id="eip-801">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-145">Identify the potential outlier in the scatter plot. The standard deviation of the residuals, or errors, is approximately 8.6.</para><figure id="fs-idp117757200"><media id="eip-idp189014800" alt="Figure 2 shows a graph that is labeled 0 through 100 on the Y axis going up by 20, and 0 though 14 on the X axis going up by 2. The plotted spots on the graph show (y0,x66)" display="block">
+  <para id="eip-145">Identify the potential outlier in the scatter plot. The standard deviation of the residuals, or errors, is approximately 8.6.</para><figure id="fs-idp117757200"><media id="eip-idp189014800" alt="Figure 2 shows a graph that is labeled 0 through 100 on the Y axis going up by 20, and 0 though 14 on the X axis going up by 2. The plotted spots on the graph show (y0,x66)" display="block">
   <image mime-type="image/png" src="../../media/CNX_Stats_C012_M09_item001.png" width="380"/>
 </media>
 </figure></problem>
@@ -199,7 +199,7 @@ On the TI-83, TI-83+, TI-84+ calculators, delete the outlier from L1 and L2. Usi
 <para id="fs-id1170308127519">Numerically and graphically, we have identified point (65, 175) as an outlier. Recall that recalculation of the least-squares regression line and summary statistics, following deletion of an outlier, may be used to determine whether an outlier is also an influential point. This process also allows you to compare the strength of the correlation of the variables and possible changes in the slope both before and after the omission of any outliers.</para>
 <para id="fs-id1170308323296">Compute a new best-fit line and correlation coefficient using the 10 remaining points.</para>
 <para id="fs-id1170308127084">On the TI-83, TI-83+, or TI-84+ calculators, delete the outlier from L1 and L2. Using the LinRegTTest, found under Stat and Tests, the new line of best fit and correlation coefficient are the following:</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170308267883"><m:math>
+<para id="fs-id1170308267883"><m:math>
  <m:mrow>
    <m:mi>ŷ</m:mi>
   <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>355.19</m:mn><m:mo>+</m:mo><m:mn>7.39</m:mn><m:mi>x</m:mi>
@@ -208,7 +208,7 @@ On the TI-83, TI-83+, TI-84+ calculators, delete the outlier from L1 and L2. Usi
  <m:mrow>
   <m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.9121</m:mn>
  </m:mrow>
-</m:math>.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170308219326">The slope is now 7.39, compared to the previous slope of 4.83. This seems significant, but we need to look at the change in <emphasis effect="italics">r</emphasis>-values as well. The new line shows <m:math>
+</m:math>.</para><para id="fs-id1170308219326">The slope is now 7.39, compared to the previous slope of 4.83. This seems significant, but we need to look at the change in <emphasis effect="italics">r</emphasis>-values as well. The new line shows <m:math>
  <m:mrow>
   <m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0.9121</m:mn>
  </m:mrow>
@@ -248,7 +248,7 @@ First, square each |<emphasis effect="italics">y</emphasis> – <emphasis effect
 </para>
 <para id="eip-912">Then, add (sum) all the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| squared terms using the formula</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-187"><m:math>
+<para id="eip-187"><m:math>
  <m:mrow>
 
    <m:mrow>
@@ -305,7 +305,7 @@ First, square each |<emphasis effect="italics">y</emphasis> – <emphasis effect
   </m:msup>
 
  </m:mrow>
-</m:math> (Recall that <emphasis effect="italics">y</emphasis><sub>i</sub> – <emphasis effect="italics">ŷ</emphasis><sub>i</sub> = <emphasis effect="italics">ε</emphasis><sub>i</sub>).</para><para id="eip-977">= 35<sup>2</sup> + 17<sup>2</sup> + 16<sup>2</sup> + 6<sup>2</sup> + 19<sup>2</sup> + 9<sup>2</sup> + 3<sup>2</sup> + 1<sup>2</sup> + 10<sup>2</sup> + 9<sup>2</sup> + 1<sup>2</sup></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-684">= 2,440 =  SSE.</para><para id="fs-id1164567859793">The result, <emphasis>SSE</emphasis>, is the sum of squared errors.</para>
+</m:math> (Recall that <emphasis effect="italics">y</emphasis><sub>i</sub> – <emphasis effect="italics">ŷ</emphasis><sub>i</sub> = <emphasis effect="italics">ε</emphasis><sub>i</sub>).</para><para id="eip-977">= 35<sup>2</sup> + 17<sup>2</sup> + 16<sup>2</sup> + 6<sup>2</sup> + 19<sup>2</sup> + 9<sup>2</sup> + 3<sup>2</sup> + 1<sup>2</sup> + 10<sup>2</sup> + 9<sup>2</sup> + 1<sup>2</sup></para><para id="eip-684">= 2,440 =  SSE.</para><para id="fs-id1164567859793">The result, <emphasis>SSE</emphasis>, is the sum of squared errors.</para>
 
 <para id="eip-961">Next, calculate <emphasis effect="italics">s</emphasis>, the standard deviation of all the <emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">ε</emphasis>-values where <emphasis effect="italics">n</emphasis> = the total number of data points.</para>
 
@@ -331,7 +331,7 @@ First, square each |<emphasis effect="italics">y</emphasis> – <emphasis effect
 
 <para id="eip-799">Next, multiply <emphasis effect="italics">s</emphasis> by 2:
 <newline/>(2)(16.47) = 32.94
-<newline/>32.94 is two standard deviations away from the mean of the <emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis> values.</para><para id="eip-28">If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance is at least 2<emphasis effect="italics">s</emphasis>, then we would consider the data point to be too far from the line of best fit. We call that point a <term>potential outlier</term>.</para><para id="eip-130">For the example, if any of the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| values are <emphasis effect="italics">at least</emphasis> 32.94, the corresponding (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) data point is a potential outlier.</para><para id="eip-696">For the third exam/final exam example, all the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| values are less than 31.29 except for the first one, which is 35:</para><para id="eip-994">35 &gt; 31.29. That is, |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| ≥ (2)(<emphasis effect="italics">s</emphasis>).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-980">The point that corresponds to |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| = 35 is (65, 175). <emphasis effect="italics">Therefore, the data point (65, 175) is a potential outlier.</emphasis> For this example, we will delete it. (Remember, we do not always delete an outlier.)
+<newline/>32.94 is two standard deviations away from the mean of the <emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis> values.</para><para id="eip-28">If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance is at least 2<emphasis effect="italics">s</emphasis>, then we would consider the data point to be too far from the line of best fit. We call that point a <term>potential outlier</term>.</para><para id="eip-130">For the example, if any of the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| values are <emphasis effect="italics">at least</emphasis> 32.94, the corresponding (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) data point is a potential outlier.</para><para id="eip-696">For the third exam/final exam example, all the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| values are less than 31.29 except for the first one, which is 35:</para><para id="eip-994">35 &gt; 31.29. That is, |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| ≥ (2)(<emphasis effect="italics">s</emphasis>).</para><para id="eip-980">The point that corresponds to |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| = 35 is (65, 175). <emphasis effect="italics">Therefore, the data point (65, 175) is a potential outlier.</emphasis> For this example, we will delete it. (Remember, we do not always delete an outlier.)
 
 <note id="fs-idp12863088"><label/><title>Note</title>
 <para id="fs-idp101044864">When outliers are deleted, the researcher should either record that data were deleted, and why, or the researcher should provide results both with and without the deleted data. If data are erroneous and the correct values are known (e.g., student 1 actually scored a 70 instead of a 65), then this correction can be made to the data.</para></note><newline/><newline/>The next step is to compute a new best-fit line using the 10 remaining points. The new line of best fit and the correlation coefficient are</para><para id="eip-451"><emphasis effect="italics">ŷ</emphasis> = –355.19 + 7.39<emphasis effect="italics">x</emphasis> and <emphasis effect="italics">r</emphasis> = .9121.</para>
@@ -340,9 +340,9 @@ First, square each |<emphasis effect="italics">y</emphasis> – <emphasis effect
 <example id="element-824">
 <exercise id="element-12623">
 <problem id="id1171155161094">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-802">Using this new line of best fit (based on the remaining 10 data points  in the <link target-id="element-22" document="m79689">third exam/final exam example</link>), what would a student who receives a 73 on the third exam expect to receive on the final exam? Is this the same as the prediction made using the original line?</para></problem>
+<para id="element-802">Using this new line of best fit (based on the remaining 10 data points  in the <link target-id="element-22" document="m79689">third exam/final exam example</link>), what would a student who receives a 73 on the third exam expect to receive on the final exam? Is this the same as the prediction made using the original line?</para></problem>
 <solution id="id1171158788502">
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-12623s">Using the new line of best fit, <emphasis effect="italics">ŷ</emphasis> = –355.19 + 7.39(73) = 184.28. A student who scored 73 points on the third exam would expect to earn 184 points on the final exam.
+ <para id="element-12623s">Using the new line of best fit, <emphasis effect="italics">ŷ</emphasis> = –355.19 + 7.39(73) = 184.28. A student who scored 73 points on the third exam would expect to earn 184 points on the final exam.
 <newline/><newline/>
 The original line predicted that <emphasis effect="italics">ŷ</emphasis> = –173.51 + 4.83(73) = 179.08, so the prediction using the new line with the outlier eliminated differs from the original prediction.
  </para></solution>
@@ -354,15 +354,15 @@ The original line predicted that <emphasis effect="italics">ŷ</emphasis> = –1
 <title>Try It</title>
 
 <exercise id="eip-846"><problem id="eip-372">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-353">The data points for the graph from the <link target-id="element-22" document="m79689">third exam/final exam example</link> are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of <emphasis effect="italics">ŷ</emphasis> when <emphasis effect="italics">x</emphasis> = 10.</para></problem>
+  <para id="eip-353">The data points for the graph from the <link target-id="element-22" document="m79689">third exam/final exam example</link> are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of <emphasis effect="italics">ŷ</emphasis> when <emphasis effect="italics">x</emphasis> = 10.</para></problem>
 
 <solution id="eip-398">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-945"><emphasis effect="italics">ŷ</emphasis> = 1.04 + 2.96<emphasis effect="italics">x</emphasis> = 30.64.</para></solution>
+  <para id="eip-945"><emphasis effect="italics">ŷ</emphasis> = 1.04 + 2.96<emphasis effect="italics">x</emphasis> = 30.64.</para></solution>
 </exercise>
 </note>
 
 <example id="element-986">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-719">The consumer price index (CPI) measures the average change over time in prices paid by urban consumers for consumer goods and services. The CPI affects nearly all Americans because of the many ways it is used. One of its biggest uses is as a measure of inflation. By providing information about price changes in the nation’s economy to government, businesses, and labor forces, the CPI helps them make economic decisions. The president, U.S. Congress, and the Federal Reserve Board use CPI trends to form monetary and fiscal policies.  In the following table, <emphasis effect="italics">x</emphasis> is the year and <emphasis effect="italics">y</emphasis> is the CPI.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-127" summary="Table 2 shows plot points for an X and Y axis. (X: 1915 Y: 10.1), (X: 1926 Y: 17.7), (X: 1935 Y: 13.7), (X:1940 Y:14.7),  (X: 1947 Y: 24.1), (X:1952 Y:26.5), (X:1964 Y:31.0), (X: 1969 Y: 36.7), (X: 1975 Y: 72.6), (X: 1980 Y: 82.4), (X:1986 Y:109.6), (X:1991 Y:130.7), (X:1999 Y: 166.6)">
+<para id="element-719">The consumer price index (CPI) measures the average change over time in prices paid by urban consumers for consumer goods and services. The CPI affects nearly all Americans because of the many ways it is used. One of its biggest uses is as a measure of inflation. By providing information about price changes in the nation’s economy to government, businesses, and labor forces, the CPI helps them make economic decisions. The president, U.S. Congress, and the Federal Reserve Board use CPI trends to form monetary and fiscal policies.  In the following table, <emphasis effect="italics">x</emphasis> is the year and <emphasis effect="italics">y</emphasis> is the CPI.</para><table id="element-127" summary="Table 2 shows plot points for an X and Y axis. (X: 1915 Y: 10.1), (X: 1926 Y: 17.7), (X: 1935 Y: 13.7), (X:1940 Y:14.7),  (X: 1947 Y: 24.1), (X:1952 Y:26.5), (X:1964 Y:31.0), (X: 1969 Y: 36.7), (X: 1975 Y: 72.6), (X: 1980 Y: 82.4), (X:1986 Y:109.6), (X:1991 Y:130.7), (X:1999 Y: 166.6)">
 <tgroup cols="4"><thead>
   <row>
     <entry align="center"><emphasis effect="italics">x</emphasis></entry>
@@ -427,7 +427,7 @@ The original line predicted that <emphasis effect="italics">ŷ</emphasis> = –1
 </list></problem>
 
 <solution id="id1171157206888">
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-298" list-type="enumerated" number-style="lower-alpha"><!--<item>See <link target-id="eip-idp35936320"/>.</item>
+  <list id="element-298" list-type="enumerated" number-style="lower-alpha"><!--<item>See <link target-id="eip-idp35936320"/>.</item>
 <item><emphasis effect="italics">&#375;</emphasis> = &#8211;3204 + 1.662<emphasis effect="italics">x</emphasis> is the equation of the line of best fit.</item>
 <item><emphasis effect="italics">r</emphasis> = 0.8694</item>
 <item>The number of data points is <emphasis effect="italics">n</emphasis> = 14. Use the 95% Critical Values of the Sample Correlation Coefficient table at the end of Chapter 12. <emphasis effect="italics">n</emphasis> &#8211; 2 = 12. The corresponding critical value is 0.532. Since 0.8694 &gt; 0.532, <emphasis effect="italics">r</emphasis> is significant.
@@ -446,14 +446,14 @@ The original line predicted that <emphasis effect="italics">ŷ</emphasis> = –1
 </solution>
 </exercise><note id="eip-413"><label/><title>Note</title><para id="fs-idp122850352">In the example, notice the pattern of the points compared with the line.  Although the correlation coefficient is significant, the pattern in the scatter plot indicates that a curve would be a more appropriate model to use than a line.  In this example, a statistician would prefer to use other methods to fit a curve to these data, rather than model the data with the line we found. In addition to doing the calculations, it is always important to look at the scatter plot when deciding whether a linear model is appropriate.</para></note>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-983">If you are interested in seeing more years of data, visit the Bureau of Labor Statistics CPI website (ftp://ftp.bls.gov/pub/special.requests/cpi/cpiai.txt). Our data are taken from the column Annual Avg. (third column from the right). For example, you could add more current years of data. Try adding the more recent years: 2004, CPI = 188.9; 2008, CPI = 215.3; and 2011, CPI = 224.9. See how this affects the model. (Check: <emphasis effect="italics">ŷ</emphasis> = –4436 + 2.295<emphasis effect="italics">x</emphasis>; <emphasis effect="italics">r</emphasis> = 0.9018. Is <emphasis effect="italics">r</emphasis> significant? Is the fit better with the addition of the new points?)</para></example>
+<para id="eip-983">If you are interested in seeing more years of data, visit the Bureau of Labor Statistics CPI website (ftp://ftp.bls.gov/pub/special.requests/cpi/cpiai.txt). Our data are taken from the column Annual Avg. (third column from the right). For example, you could add more current years of data. Try adding the more recent years: 2004, CPI = 188.9; 2008, CPI = 215.3; and 2011, CPI = 224.9. See how this affects the model. (Check: <emphasis effect="italics">ŷ</emphasis> = –4436 + 2.295<emphasis effect="italics">x</emphasis>; <emphasis effect="italics">r</emphasis> = 0.9018. Is <emphasis effect="italics">r</emphasis> significant? Is the fit better with the addition of the new points?)</para></example>
 
 <note id="fs-idm58078240" class="statistics try">
 <label/>
 <title>Try It</title>
 
 <exercise id="eip-298"><problem id="eip-109">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-987">The following table shows economic development measured in per capita income (PCINC).</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm147482064" summary="Table three shows years and PCINC numbers from the years 1870  1960 by tens. The numbers go as follows 1870  340, 1880  499, 1890  592, 1900  757, 1910  927, 1920  1050, 1930  1170, 1940  1263, 1950  1836, 1950  1836, 1950  1836, 1960  2132.">
+  <para id="eip-987">The following table shows economic development measured in per capita income (PCINC).</para><table id="eip-idm147482064" summary="Table three shows years and PCINC numbers from the years 1870  1960 by tens. The numbers go as follows 1870  340, 1880  499, 1890  592, 1900  757, 1910  927, 1920  1050, 1930  1170, 1940  1263, 1950  1836, 1950  1836, 1950  1836, 1960  2132.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -526,7 +526,7 @@ The original line predicted that <emphasis effect="italics">ŷ</emphasis> = –1
 
 <para id="eip-idp33946688">c. <emphasis effect="italics">ŷ</emphasis> = 18.61x – 34574; <emphasis effect="italics">r</emphasis> = 0.9732</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp37361104">d. At <emphasis effect="italics">df</emphasis> = 8, the critical value is 0.632. The <emphasis effect="italics">r</emphasis>-value is significant because it is greater than the critical value.</para><para id="eip-idp111920">e. There does appear to be a linear relationship between the variables.</para>
+<para id="eip-idp37361104">d. At <emphasis effect="italics">df</emphasis> = 8, the critical value is 0.632. The <emphasis effect="italics">r</emphasis>-value is significant because it is greater than the critical value.</para><para id="eip-idp111920">e. There does appear to be a linear relationship between the variables.</para>
 <para id="eip-idp192766048">f. The coefficient of determination is 0.947, which means that 94.7% of the variation in PCINC is explained by the variation in the years.</para>
 <para id="eip-idp38718368">g. and h. The slope of the regression equation is 18.61, and it means that per capita income increases by $18.61 for each passing year. <emphasis effect="italics">ŷ</emphasis> = 785 when the year is 1900, and <emphasis effect="italics">ŷ</emphasis> = 2,646 when the year is 2000.</para>
 <para id="eip-idm51151920">i. There do not appear to be any outliers.</para>
@@ -537,7 +537,7 @@ The original line predicted that <emphasis effect="italics">ŷ</emphasis> = –1
 
 
 <section id="eip-518">
-<title xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute">95 Percent Critical Values of the Sample Correlation Coefficient Table</title><table id="eip-idm31993488" summary="This table presents the 95% Critical Values of the Sample Correlation Coefficient with Degrees of Freedom in the first column and Critical Values in the second column.">
+<title>95 Percent Critical Values of the Sample Correlation Coefficient Table</title><table id="eip-idm31993488" summary="This table presents the 95% Critical Values of the Sample Correlation Coefficient with Degrees of Freedom in the first column and Critical Values in the second column.">
 <tgroup cols="2"><thead>
   <row>
     <entry>Degrees of Freedom: <emphasis effect="italics">n</emphasis> – 2</entry>
@@ -715,7 +715,7 @@ The original line predicted that <emphasis effect="italics">ŷ</emphasis> = –1
 </section>
 <section id="eip-380" class="summary"><title>Chapter Review</title><para id="eip-idm88717792">
 To determine whether a point is an outlier, do one of the following:
-        <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp16278896" list-type="enumerated" number-style="arabic"><item class="finger">Input the following equations into the TI 83, 83+, 84, or 84+ calculator:
+        <list id="eip-idp16278896" list-type="enumerated" number-style="arabic"><item class="finger">Input the following equations into the TI 83, 83+, 84, or 84+ calculator:
         <para id="eip-idp42255472"><newline/><m:math display="block">
  <m:mtable columnalign="left">
   <m:mtr>
@@ -761,7 +761,7 @@ To determine whether a point is an outlier, do one of the following:
 <para id="fs-id1170308687982">No, he is not correct. An outlier is only an influential point if it significantly impacts the slope of the least-squares regression line and the correlation coefficient, <emphasis effect="italics">r</emphasis>. If omission of this data point from the calculation of the regression line does not show much impact on the slope or <emphasis effect="italics">r</emphasis>-value, then the outlier is not considered an influential point. For different reasons, it still may be determined that the data point must be omitted from the data set.</para>
 </solution>
 </exercise>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm76852864"><emphasis effect="italics">Use the following information to answer the next four exercises.</emphasis> The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.</para><figure id="fs-idp84808448"><media id="eip-idm82947312" alt="A graph is shown. The y-axis has tick marks at 0, 20, 40, 60, 80, and 100. The x axis has tick marks at 0, 2, 4, 6, 8, 10, 12, 14. The line goes up steadily from 68 and ends around 100." display="block">
+<para id="eip-idm76852864"><emphasis effect="italics">Use the following information to answer the next four exercises.</emphasis> The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.</para><figure id="fs-idp84808448"><media id="eip-idm82947312" alt="A graph is shown. The y-axis has tick marks at 0, 20, 40, 60, 80, and 100. The x axis has tick marks at 0, 2, 4, 6, 8, 10, 12, 14. The line goes up steadily from 68 and ends around 100." display="block">
 <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M09_item001.jpg" width="350"/>
 </media></figure><exercise id="eip-984"><problem id="eip-idm7789920">
 <para id="eip-idp21732640">Do there appear to be any outliers?</para>
@@ -882,7 +882,7 @@ To determine whether a point is an outlier, do one of the following:
 </exercise>
 <exercise id="element-957"><problem id="id44886916">
   <para id="element-678">In Table 12.31, the height (sidewalk to roof) of notable tall buildings in America is compared with the number of stories of the building (beginning at street level).</para>
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id1aa0827143" summary="This table presents building heights (in feet) in the first column and building stories in the second column.">
+<table id="id1aa0827143" summary="This table presents building heights (in feet) in the first column and building stories in the second column.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -948,8 +948,8 @@ To determine whether a point is an outlier, do one of the following:
 </list></problem></exercise><exercise id="fs-idp218993792">
 <problem id="fs-idp218994048">
 <para id="fs-idm23685776">Ornithologists (scientists who study birds) tag sparrow hawks in 13 different colonies to study their population. They gather data for the percentage of new sparrow hawks in each colony and the percentage of those that have returned from migration.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp121962096">Percent return: 74, 66, 81, 52, 73, 62, 52, 45, 62, 46, 60, 46, 38
-<newline/>Percent new: 5, 6, 8, 11, 12, 15, 16, 17, 18, 18, 19, 20, 20</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm19617248" list-type="enumerated" number-style="lower-alpha"><item>Enter the data into a calculator and make a scatter plot.</item>
+<para id="fs-idp121962096">Percent return: 74, 66, 81, 52, 73, 62, 52, 45, 62, 46, 60, 46, 38
+<newline/>Percent new: 5, 6, 8, 11, 12, 15, 16, 17, 18, 18, 19, 20, 20</para><list id="fs-idm19617248" list-type="enumerated" number-style="lower-alpha"><item>Enter the data into a calculator and make a scatter plot.</item>
 <item>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</item>
 <item>Explain what the slope and <emphasis effect="italics">y</emphasis>-intercept of the regression line tell us.</item>
 <item>How well does the regression line fit the data? Explain your response.</item>
@@ -958,13 +958,13 @@ To determine whether a point is an outlier, do one of the following:
 </list></problem>
 <solution id="fs-idm56676800">
 <para id="fs-idp172680496">a. and b. Check student solution.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp172680880">c. The slope of the regression line is 0.3031 with a <emphasis effect="italics">y</emphasis>-intercept of 31.93. In context, the <emphasis effect="italics">y</emphasis>-intercept indicates that when there are no returning sparrow hawks, there will be almost 32 percent new sparrow hawks, which doesn’t make sense, because if there are no returning birds, then the new percentage would have to be 100% (this is an example of why we do not extrapolate). The slope tells us that for each percentage increase in returning birds, the percentage of new birds in the colony decreases by 30.3 percent.</para><para id="fs-idp36047136">d. If we examine <emphasis effect="italics">r</emphasis><sub>2</sub>, we see that only 57.52 percent of the variation in the percentage of new birds is explained by the model and the correlation coefficient, <emphasis effect="italics">r</emphasis> = .7584 only indicates a somewhat strong correlation between returning and new percentages. </para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp137409168">e. The ordered pair (66, 6) generates the largest residual of 6.0. This means that when the observed return percentage is 66 percent, our observed new percentage, 6 percent, is almost 6 percent less than the predicted new value of 11.98 percent. If we remove this data pair, we see only an adjusted slope of 0.2789 and an adjusted intercept of 30.9816. In other words, although these data generate the largest residual, it is not an outlier, nor is the data pair an influential point.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp89140080">f. If there are 70 percent returning birds, we would expect to see <emphasis effect="italics">y</emphasis> = 0.2789(70) + 30.9816 = 0.114 or 11.4 percent new birds in the colony.</para></solution>
+<para id="fs-idp172680880">c. The slope of the regression line is 0.3031 with a <emphasis effect="italics">y</emphasis>-intercept of 31.93. In context, the <emphasis effect="italics">y</emphasis>-intercept indicates that when there are no returning sparrow hawks, there will be almost 32 percent new sparrow hawks, which doesn’t make sense, because if there are no returning birds, then the new percentage would have to be 100% (this is an example of why we do not extrapolate). The slope tells us that for each percentage increase in returning birds, the percentage of new birds in the colony decreases by 30.3 percent.</para><para id="fs-idp36047136">d. If we examine <emphasis effect="italics">r</emphasis><sub>2</sub>, we see that only 57.52 percent of the variation in the percentage of new birds is explained by the model and the correlation coefficient, <emphasis effect="italics">r</emphasis> = .7584 only indicates a somewhat strong correlation between returning and new percentages. </para>
+<para id="fs-idp137409168">e. The ordered pair (66, 6) generates the largest residual of 6.0. This means that when the observed return percentage is 66 percent, our observed new percentage, 6 percent, is almost 6 percent less than the predicted new value of 11.98 percent. If we remove this data pair, we see only an adjusted slope of 0.2789 and an adjusted intercept of 30.9816. In other words, although these data generate the largest residual, it is not an outlier, nor is the data pair an influential point.</para><para id="fs-idp89140080">f. If there are 70 percent returning birds, we would expect to see <emphasis effect="italics">y</emphasis> = 0.2789(70) + 30.9816 = 0.114 or 11.4 percent new birds in the colony.</para></solution>
 </exercise>
 
 
 <exercise id="fs-idp82285104"><problem id="fs-idp127976160">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp127976416">The following table shows data on average per capita coffee consumption and death rate from heart disease in a random sample of 10 countries.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp129320512" summary="Chapter 12 Table 7 has 10 columns and reads from left to right. The first row reads: Yearly Coffee consumption (leters), 2.5, 3.9, 2.9, 2.4, 2.9, 0.8, 9.1, 2.7, 0.8, 0.7. The second row reads: No. of Deaths from heart disease, 221, 167, 131, 191, 220, 297, 71, 172, 211, and 300.">
+<para id="fs-idp127976416">The following table shows data on average per capita coffee consumption and death rate from heart disease in a random sample of 10 countries.</para><table id="fs-idp129320512" summary="Chapter 12 Table 7 has 10 columns and reads from left to right. The first row reads: Yearly Coffee consumption (leters), 2.5, 3.9, 2.9, 2.4, 2.9, 0.8, 9.1, 2.7, 0.8, 0.7. The second row reads: No. of Deaths from heart disease, 221, 167, 131, 191, 220, 297, 71, 172, 211, and 300.">
 <tgroup cols="11"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1007,7 +1007,7 @@ To determine whether a point is an outlier, do one of the following:
 </tbody>
 
 </tgroup>
-</table><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm26943456" list-type="enumerated" number-style="lower-alpha"><item>Enter the data into a calculator and make a scatter plot.</item>
+</table><list id="fs-idm26943456" list-type="enumerated" number-style="lower-alpha"><item>Enter the data into a calculator and make a scatter plot.</item>
 <item>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</item>
 <item>Explain what the slope and <emphasis effect="italics">y</emphasis>-intercept of the regression line tell us.</item>
 <item>How well does the regression line fit the data? Explain your response.</item>
@@ -1071,7 +1071,7 @@ To determine whether a point is an outlier, do one of the following:
 </tgroup>
 </table>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp36234688" list-type="enumerated" number-style="lower-alpha"><item>Enter the data into a calculator and make a scatter plot.</item>
+<list id="fs-idp36234688" list-type="enumerated" number-style="lower-alpha"><item>Enter the data into a calculator and make a scatter plot.</item>
 <item>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</item>
 <item>Explain what the slope and <emphasis effect="italics">y</emphasis>-intercept of the regression line tell us.</item>
 <item>How well does the regression line fit the data? Explain your response.</item>
@@ -1160,7 +1160,7 @@ To determine whether a point is an outlier, do one of the following:
 <item>Use a calculator to construct a scatter plot of the data. What is the independent variable? Why?</item>
 <item>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot.</item>
 <item>Discuss what the following mean in context:
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm37609808" list-type="enumerated" number-style="lower-roman"><item>The slope of the regression equation</item>
+<list id="fs-idm37609808" list-type="enumerated" number-style="lower-roman"><item>The slope of the regression equation</item>
 <item>The <emphasis effect="italics">y</emphasis>-intercept of the regression equation</item>
 <item>The correlation coefficient, <emphasis effect="italics">r</emphasis></item>
 <item>The coefficient of determination, <emphasis effect="italics">r</emphasis><sup>2</sup></item>
@@ -1168,7 +1168,7 @@ To determine whether a point is an outlier, do one of the following:
 <item>Do the data provide convincing evidence that there is a linear relationship between population size and homicide rate? Carry out an appropriate test at a significance level of 0.05 to help answer this question.</item>
 </list>
 </problem></exercise><exercise id="fs-idm81379472"><problem id="fs-idm81379216">
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm81378960" summary="Table 10 shows three columns, school, mid-career salary (in thousands), and Yearly Tution ($). The rows read from left to right. Row one: Princeton, 137, 28,540. Row two: Harvey Mudd, 235, 40,133. Row three: CalTech, 127, 39,900. Row four: US Naval Academy, 122, 0. Row five: West Point, 120, 0. Row six: MIT, 118, 43,050. Row seven: Lehigh University, 118, 42,050. Row eight: NYU-Poly, 117, 39,565. Row nine: Babson College, 117, 40,400. Row ten: Stanford, 114, 54,506.">
+<table id="fs-idm81378960" summary="Table 10 shows three columns, school, mid-career salary (in thousands), and Yearly Tution ($). The rows read from left to right. Row one: Princeton, 137, 28,540. Row two: Harvey Mudd, 235, 40,133. Row three: CalTech, 127, 39,900. Row four: US Naval Academy, 122, 0. Row five: West Point, 120, 0. Row six: MIT, 118, 43,050. Row seven: Lehigh University, 118, 42,050. Row eight: NYU-Poly, 117, 39,565. Row nine: Babson College, 117, 40,400. Row ten: Stanford, 114, 54,506.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1240,7 +1240,7 @@ To determine whether a point is an outlier, do one of the following:
 </exercise><section id="fs-idm85401472" class="bring-together-homework">
 <title>Bring It Together</title>
 <exercise id="element-793"><problem id="id44885338">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-815">The average number of people in a family who attended college for various years is given in <link target-id="id1034sdfa0215"/>.</para><table id="id1034sdfa0215" summary="Table 2 shows two columns: Year and No. of Family Members Attending College. Row one: 1969 / 4.0. Row two: 1973 / 3.6. Row three: 1975 / 3.2. Row four: 1979 / 3.0 Row five: 1983 / 3.0. Row six: 1988 / 3.0 Row seven: 1991 / 2.9.">
+  <para id="element-815">The average number of people in a family who attended college for various years is given in <link target-id="id1034sdfa0215"/>.</para><table id="id1034sdfa0215" summary="Table 2 shows two columns: Year and No. of Family Members Attending College. Row one: 1969 / 4.0. Row two: 1973 / 3.6. Row three: 1975 / 3.2. Row four: 1979 / 3.0 Row five: 1983 / 3.0. Row six: 1988 / 3.0 Row seven: 1991 / 2.9.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -1362,7 +1362,7 @@ To determine whether a point is an outlier, do one of the following:
 
 </tgroup>
 </table>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm78997760" list-type="enumerated" number-style="lower-alpha"><item>Using <emphasis effect="italics">year</emphasis> as the independent variable and <emphasis effect="italics">percent of workers paid hourly rates</emphasis> as the dependent variable, draw a scatter plot of the data. </item>
+<list id="fs-idm78997760" list-type="enumerated" number-style="lower-alpha"><item>Using <emphasis effect="italics">year</emphasis> as the independent variable and <emphasis effect="italics">percent of workers paid hourly rates</emphasis> as the dependent variable, draw a scatter plot of the data. </item>
 <item>Does it appear from inspection that there is a relationship between the variables? Why or why not?</item>
 <item>Does the <emphasis effect="italics">y</emphasis>-intercept, <emphasis effect="italics">a</emphasis>, have any meaning here?</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
@@ -1374,7 +1374,7 @@ To determine whether a point is an outlier, do one of the following:
 <item>What is the slope of the least-squares (best-fit) line? Interpret the slope.</item>
 </list></problem>
 <solution id="fs-idp11469024">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-571" list-type="enumerated" number-style="lower-alpha"><item>Check student's solution.</item>
+<list id="element-571" list-type="enumerated" number-style="lower-alpha"><item>Check student's solution.</item>
 <item>Yes.</item>
 <item>No, the <emphasis effect="italics">y</emphasis>-intercept would occur at year 0, which doesnt exist.</item>
 <item><emphasis effect="italics">ŷ</emphasis> = −266.8863 + 0.1656<emphasis effect="italics">x</emphasis>.</item>
@@ -1426,7 +1426,7 @@ To determine whether a point is an outlier, do one of the following:
 </table>
 
 <exercise id="element-454"><problem id="id44893851">
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-775" list-type="enumerated" number-style="lower-alpha"><item>Using <emphasis effect="italics">size</emphasis> as the independent variable and <emphasis effect="italics">cost</emphasis> as the dependent variable, draw a scatter plot.</item>
+  <list id="element-775" list-type="enumerated" number-style="lower-alpha"><item>Using <emphasis effect="italics">size</emphasis> as the independent variable and <emphasis effect="italics">cost</emphasis> as the dependent variable, draw a scatter plot.</item>
 <item>Does it appear from inspection that there is a relationship between the variables? Why or why not?</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
 <item>Find the correlation coefficient. Is it significant?</item>
@@ -1437,7 +1437,7 @@ To determine whether a point is an outlier, do one of the following:
 <item>Is the least-squares line valid for predicting what a 300 oz. size of the laundry detergent would cost? Why or why not?</item>
 <item>What is the slope of the least-squares (best-fit) line? Interpret the slope.</item>
 </list></problem></exercise><exercise id="element-952"><problem id="id44894852">
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-636" list-type="enumerated" number-style="lower-alpha"><item>Complete <link target-id="id10105430" document=""/> for the cost per ounce of the different sizes of laundry detergent.</item>
+  <list id="element-636" list-type="enumerated" number-style="lower-alpha"><item>Complete <link target-id="id10105430" document=""/> for the cost per ounce of the different sizes of laundry detergent.</item>
 <item>Using <emphasis effect="italics">size</emphasis> as the independent variable and <emphasis effect="italics">cost per ounce</emphasis> as the dependent variable, draw a scatter plot of the data.</item>
 <item>Does it appear from inspection that there is a relationship between the variables? Why or why not?</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
@@ -1562,7 +1562,7 @@ To determine whether a point is an outlier, do one of the following:
 <problem id="id44844693">
 <para id="element-224">The following are advertised sale prices of color televisions at Anderson’s:</para>
 
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id90742asdgfa85" summary="This table presents the size of color televisions in inches in the first column and the sale price in the second column.">
+<table id="id90742asdgfa85" summary="This table presents the size of color televisions in inches in the first column and the sale price in the second column.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -1605,7 +1605,7 @@ To determine whether a point is an outlier, do one of the following:
 
 
 </tgroup>
-</table><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp143667904" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
+</table><list id="fs-idp143667904" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
 <item>Draw a scatter plot of the data.</item>
 <item>Does it appear from inspection that there is a relationship between the variables? Why or why not?</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
@@ -1616,7 +1616,7 @@ To determine whether a point is an outlier, do one of the following:
 <item>What is the slope of the least-squares (best-fit) line? Interpret the slope.</item>
 </list></problem>
 <solution id="fs-idm8083616">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm47882016" list-type="enumerated" number-style="lower-alpha"><item>Size is <emphasis effect="italics">x</emphasis>, the independent variable, and price is <emphasis effect="italics">y</emphasis>, the dependent variable.</item>
+<list id="fs-idm47882016" list-type="enumerated" number-style="lower-alpha"><item>Size is <emphasis effect="italics">x</emphasis>, the independent variable, and price is <emphasis effect="italics">y</emphasis>, the dependent variable.</item>
 <item>Check student solution.</item>
 <item>The relationship does not appear to be linear.</item>
 <item><emphasis effect="italics">ŷ</emphasis> = –745.252 + 54.75569<emphasis effect="italics">x</emphasis>.</item>
@@ -1688,7 +1688,7 @@ To determine whether a point is an outlier, do one of the following:
 </list></problem>
 </exercise><exercise id="element-133">
 <problem id="id44851052">
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp62448384" summary="..">
+<table id="fs-idp62448384" summary="..">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1785,7 +1785,7 @@ To determine whether a point is an outlier, do one of the following:
 
 </tgroup>
 </table><para id="element-564">We are interested in whether there is a relationship between the ranking of a state and the area of the state.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm58683136" list-type="enumerated" number-style="lower-alpha"><item>What are the independent and dependent variables?</item>
+<list id="fs-idm58683136" list-type="enumerated" number-style="lower-alpha"><item>What are the independent and dependent variables?</item>
 <item>What do you think the scatter plot will look like? Make a scatter plot of the data.</item>
 <item>Does it appear from inspection that there is a relationship between the variables? Why or why not?</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
@@ -1801,7 +1801,7 @@ To determine whether a point is an outlier, do one of the following:
 <item>Do you think that, in general, newer states are larger than the original states?</item>
 </list></problem>
 <solution id="fs-idp131481968">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp131482224" list-type="enumerated" number-style="lower-alpha"><item>Rank is the independent variable and area is the dependent variable.</item>
+<list id="fs-idp131482224" list-type="enumerated" number-style="lower-alpha"><item>Rank is the independent variable and area is the dependent variable.</item>
 <item>Check student solution.</item>
 <item>There appears to be a linear relationship, with one outlier.</item>
 <item><emphasis effect="italics">ŷ</emphasis> (area) = 24177.06 + 1010.478<emphasis effect="italics">x</emphasis></item>

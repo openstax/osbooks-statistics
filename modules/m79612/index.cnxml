@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Independent and Mutually Exclusive Events</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79612</md:content-id>
   <md:title>Independent and Mutually Exclusive Events</md:title>
   <md:abstract/>
@@ -20,7 +20,7 @@
 	<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)</item>
 </list>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="delete_me">Two events <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term>independent events</term> if the knowledge that one occurred does not affect the chance the other occurs. For example, the outcomes of two roles of a fair die are independent events. The outcome of the first roll does not change the probability for the outcome of the second roll. To show two events are independent, you must show <emphasis>only one</emphasis> of the above conditions. If two events are <emphasis effect="bold">not</emphasis> independent, then we say that they are <emphasis>dependent events</emphasis>.</para><para id="element-405">Sampling may be done <emphasis>with</emphasis> <term>replacement</term> or <emphasis>without replacement</emphasis>.</para>
+<para id="delete_me">Two events <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term>independent events</term> if the knowledge that one occurred does not affect the chance the other occurs. For example, the outcomes of two roles of a fair die are independent events. The outcome of the first roll does not change the probability for the outcome of the second roll. To show two events are independent, you must show <emphasis>only one</emphasis> of the above conditions. If two events are <emphasis effect="bold">not</emphasis> independent, then we say that they are <emphasis>dependent events</emphasis>.</para><para id="element-405">Sampling may be done <emphasis>with</emphasis> <term>replacement</term> or <emphasis>without replacement</emphasis>.</para>
 <list id="fs-idm1341072" list-type="bulleted"><item><emphasis>With replacement</emphasis>: If each member of a population is replaced after it is picked, then that member has the possibility of being chosen more than once. When sampling is done with replacement, then events are considered to be independent, meaning the result of the first pick will not change the probabilities for the second pick.</item></list>
 <para id="fs-id1164565393344">A bag contains four blue and three white marbles. James draws one marble from the bag at random, records the color, and replaces the marble. The probability of drawing blue is <m:math>
  <m:semantics>
@@ -121,7 +121,7 @@
 </list><para id="fs-idm61714144">Which of a. or b. did you sample with replacement and which did you sample without replacement?</para></problem>
 <solution id="fs-idm4167824">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm4124432">a. Because you do not put any cards back, the deck changes after each draw. These events are dependent, and this is sampling without replacement; b. Because you put each card back before picking the next one, the deck never changes. These events are independent, so this is sampling with replacement.</para></solution>
+<para id="fs-idm4124432">a. Because you do not put any cards back, the deck changes after each draw. These events are dependent, and this is sampling without replacement; b. Because you put each card back before picking the next one, the deck never changes. These events are independent, so this is sampling with replacement.</para></solution>
 </exercise>
 </example>
 
@@ -149,7 +149,7 @@
 
 <example id="element-931">
 <para id="element-482">Flip two fair coins. This is an experiment.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-956">The sample space is {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}, where <emphasis effect="italics">T</emphasis> = tails and <emphasis effect="italics">H</emphasis> = heads. The outcomes are <emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, and <emphasis effect="italics">TT</emphasis>. The outcomes <emphasis effect="italics">HT</emphasis> and <emphasis effect="italics">TH</emphasis> are different. The <emphasis effect="italics">HT</emphasis> means that the first coin showed heads and the second coin showed tails. The <emphasis effect="italics">TH</emphasis> means that the first coin showed tails and the second coin showed heads.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-96" list-type="bulleted"><item>Let <emphasis effect="italics">A</emphasis> = the event of getting <emphasis>at most one tail</emphasis>. At most one tail means zero or one tail. Then <emphasis effect="italics">A</emphasis> can be written as {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>}. The outcome <emphasis effect="italics">HH</emphasis> shows zero tails. <emphasis effect="italics">HT</emphasis> and <emphasis effect="italics">TH</emphasis> each show one tail.</item>
+<para id="element-956">The sample space is {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}, where <emphasis effect="italics">T</emphasis> = tails and <emphasis effect="italics">H</emphasis> = heads. The outcomes are <emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, and <emphasis effect="italics">TT</emphasis>. The outcomes <emphasis effect="italics">HT</emphasis> and <emphasis effect="italics">TH</emphasis> are different. The <emphasis effect="italics">HT</emphasis> means that the first coin showed heads and the second coin showed tails. The <emphasis effect="italics">TH</emphasis> means that the first coin showed tails and the second coin showed heads.</para><list id="element-96" list-type="bulleted"><item>Let <emphasis effect="italics">A</emphasis> = the event of getting <emphasis>at most one tail</emphasis>. At most one tail means zero or one tail. Then <emphasis effect="italics">A</emphasis> can be written as {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>}. The outcome <emphasis effect="italics">HH</emphasis> shows zero tails. <emphasis effect="italics">HT</emphasis> and <emphasis effect="italics">TH</emphasis> each show one tail.</item>
 <item>Let <emphasis effect="italics">B</emphasis> = the event of getting all tails. <emphasis effect="italics">B</emphasis> can be written as {<emphasis effect="italics">TT</emphasis>}. <emphasis effect="italics">B</emphasis> is the <emphasis>complement event</emphasis> of <emphasis effect="italics">A</emphasis>, so <emphasis effect="italics">B</emphasis> = <emphasis effect="italics">A′</emphasis>. Also, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = 1.</item>
 <item>The probabilities for <emphasis effect="italics">A</emphasis> and for <emphasis effect="italics">B</emphasis> are <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>.</item>
 <item>Let <emphasis effect="italics">C</emphasis> = the event of getting all heads. <emphasis effect="italics">C</emphasis> = {<emphasis effect="italics">HH</emphasis>}. Since <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>}, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">C</emphasis>) = 0. <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">C</emphasis> are mutually exclusive. (<emphasis effect="italics">B</emphasis> and <emphasis effect="italics">C</emphasis> have no members in common because you cannot have all tails and all heads at the same time.)</item>
@@ -261,7 +261,7 @@
 <label/>
 <para id="element-032545">No. <emphasis effect="italics">C</emphasis> = {3, 5} and <emphasis effect="italics">E</emphasis> = {1, 2, 3, 4}. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis> AND <emphasis effect="italics">E</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math>. To be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis> AND <emphasis effect="italics">E</emphasis>) must be zero.</para>
 </solution>
-</exercise><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm67063616" list-type="bulleted"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>|<emphasis effect="italics">A</emphasis>). This is a conditional probability. Recall that event <emphasis effect="italics">C</emphasis> is {3, 5} and event <emphasis effect="italics">A</emphasis> is {1, 3, 5}. To find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>|<emphasis effect="italics">A</emphasis>), find the probability of <emphasis effect="italics">C</emphasis> using the sample space <emphasis effect="italics">A</emphasis>. You have reduced the sample space from the original sample space {1, 2, 3, 4, 5, 6} to {1, 3, 5}. So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>|<emphasis effect="italics">A</emphasis>) = <m:math>
+</exercise><list id="fs-idm67063616" list-type="bulleted"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>|<emphasis effect="italics">A</emphasis>). This is a conditional probability. Recall that event <emphasis effect="italics">C</emphasis> is {3, 5} and event <emphasis effect="italics">A</emphasis> is {1, 3, 5}. To find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>|<emphasis effect="italics">A</emphasis>), find the probability of <emphasis effect="italics">C</emphasis> using the sample space <emphasis effect="italics">A</emphasis>. You have reduced the sample space from the original sample space {1, 2, 3, 4, 5, 6} to {1, 3, 5}. So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>|<emphasis effect="italics">A</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -273,7 +273,7 @@
 </list></example><note id="fs-idm51413200" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm3558336">
 <problem id="fs-idm4126272">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm832352">Let event <emphasis effect="italics">A</emphasis> = learning Spanish. Let event <emphasis effect="italics">B</emphasis> = learning German. Then <emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis> = learning Spanish and German. Suppose <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = 0.4 and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = .2. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = .08. Are events <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> independent? Hint—You must show <emphasis effect="bold">one</emphasis> of the following:</para><list id="fs-idm143307488" list-type="bulleted"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)</item>
+<para id="fs-idm832352">Let event <emphasis effect="italics">A</emphasis> = learning Spanish. Let event <emphasis effect="italics">B</emphasis> = learning German. Then <emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis> = learning Spanish and German. Suppose <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = 0.4 and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = .2. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = .08. Are events <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> independent? Hint—You must show <emphasis effect="bold">one</emphasis> of the following:</para><list id="fs-idm143307488" list-type="bulleted"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">A</emphasis>)</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)</item></list></problem>
 <solution id="fs-idm4021072">
@@ -425,7 +425,7 @@
 </list>
 </solution>
 </exercise></note><example id="element-184">
-<para id="example-3-4-para">In a box there are three red cards and five blue cards. The red cards are marked with the numbers 1, 2, and 3, and the blue cards are marked with the numbers 1, 2, 3, 4, and 5. The cards are well-shuffled. You reach into the box (you cannot see into it) and draw one card.</para><para id="fs-idm1909360">Let <emphasis effect="italics">R</emphasis> = red card is drawn, <emphasis effect="italics">B</emphasis> = blue card is drawn, <emphasis effect="italics">E</emphasis> = even-numbered card is drawn.</para><para id="element-541">The sample space <emphasis effect="italics">S</emphasis> = <emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>3, <emphasis effect="italics">B</emphasis>1, <emphasis effect="italics">B</emphasis>2, <emphasis effect="italics">B</emphasis>3, <emphasis effect="italics">B</emphasis>4, <emphasis effect="italics">B</emphasis>5. <emphasis effect="italics">S</emphasis> has eight outcomes.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-131" list-type="bulleted"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>) = <m:math>
+<para id="example-3-4-para">In a box there are three red cards and five blue cards. The red cards are marked with the numbers 1, 2, and 3, and the blue cards are marked with the numbers 1, 2, 3, 4, and 5. The cards are well-shuffled. You reach into the box (you cannot see into it) and draw one card.</para><para id="fs-idm1909360">Let <emphasis effect="italics">R</emphasis> = red card is drawn, <emphasis effect="italics">B</emphasis> = blue card is drawn, <emphasis effect="italics">E</emphasis> = even-numbered card is drawn.</para><para id="element-541">The sample space <emphasis effect="italics">S</emphasis> = <emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>3, <emphasis effect="italics">B</emphasis>1, <emphasis effect="italics">B</emphasis>2, <emphasis effect="italics">B</emphasis>3, <emphasis effect="italics">B</emphasis>4, <emphasis effect="italics">B</emphasis>5. <emphasis effect="italics">S</emphasis> has eight outcomes.</para><list id="element-131" list-type="bulleted"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>3</m:mn>
@@ -496,7 +496,7 @@
 </m:math>, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">G</emphasis>|<emphasis effect="italics">H</emphasis>), which means that <emphasis effect="italics">G</emphasis> and <emphasis effect="italics">H</emphasis> are independent.</item></list></example>
 <note id="fs-idm85337200" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm4149344"><problem id="fs-idm5137744">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm3390208">In a basketball arena,</para><list id="fs-idm626832" list-type="bulleted">
+<para id="fs-idm3390208">In a basketball arena,</para><list id="fs-idm626832" list-type="bulleted">
 <item>70 percent of the fans are rooting for the home team,</item>
 <item>25 percent of the fans are wearing blue,</item>
 <item>20 percent of the fans are wearing blue and are rooting for the away team, and</item>
@@ -539,7 +539,7 @@
 </note>
 <example id="fs-idm4667408"><exercise id="fs-idm4667152">
 <problem id="fs-idm336096">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm335840" list-type="enumerated" number-style="lower-alpha"><item>Toss one fair coin (the coin has two sides, <emphasis effect="italics">H</emphasis> and <emphasis effect="italics">T</emphasis>). The outcomes are ________. Count the outcomes. There are ________ outcomes.</item>
+<list id="fs-idm335840" list-type="enumerated" number-style="lower-alpha"><item>Toss one fair coin (the coin has two sides, <emphasis effect="italics">H</emphasis> and <emphasis effect="italics">T</emphasis>). The outcomes are ________. Count the outcomes. There are ________ outcomes.</item>
 <item>Toss one fair, six-sided die (the die has 1, 2, 3, 4, 5, or 6 dots on a side). The outcomes are ________. Count the outcomes. There are ________ outcomes.</item>
 <item>Multiply the two numbers of outcomes. The answer is ________.</item>
 <item>If you flip one fair coin and follow it with the toss of one fair, six-sided die, the answer in Part c is the number of outcomes (size of the sample space). List the outcomes. Hint—Two of the outcomes are <emphasis effect="italics">H</emphasis>1 and <emphasis effect="italics">T</emphasis>6.</item>
@@ -658,7 +658,7 @@
 <para id="fs-id1169829686342">Gallup Wellbeing. Retrieved from http://www.gallup.com/poll/161516/teachers-love-lives-struggle-workplace.aspx.</para> -->
 <para id="fs-id1164965229002">Gallup. (n.d.). Retrieved from www.gallup.com/</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164967866166">Lopez, S., and Sidhu, P. (2013, March 28). U.S. teachers love their lives, but struggle in the workplace. <emphasis effect="italics">Gallup Wellbeing</emphasis>. http://www.gallup.com/poll/161516/teachers-love-lives-struggle-workplace.aspx</para></section>
+<para id="fs-id1164967866166">Lopez, S., and Sidhu, P. (2013, March 28). U.S. teachers love their lives, but struggle in the workplace. <emphasis effect="italics">Gallup Wellbeing</emphasis>. http://www.gallup.com/poll/161516/teachers-love-lives-struggle-workplace.aspx</para></section>
 
 <section id="fs-idm1912144" class="summary">
 <title>Chapter Review</title>
@@ -668,7 +668,7 @@
 
 <section id="fs-idm4116704" class="formula-review">
 <title>Formula Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm3335456">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are independent, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>), <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>), and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">A</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para><para id="fs-idm2879760">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = 0.</para>
+<para id="fs-idm3335456">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are independent, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>), <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>), and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">A</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para><para id="fs-idm2879760">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = 0.</para>
 </section>
 
 <section id="fs-idp62639840" class="practice">
@@ -688,7 +688,7 @@
 
 <exercise id="element-588">
 <problem id="id43759426">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-226"><emphasis effect="italics">U</emphasis> and <emphasis effect="italics">V</emphasis> are mutually exclusive events. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">U</emphasis>) = .26; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">V</emphasis>) = .37. Find the following:</para><list id="element-896" list-type="enumerated" number-style="lower-alpha">
+<para id="element-226"><emphasis effect="italics">U</emphasis> and <emphasis effect="italics">V</emphasis> are mutually exclusive events. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">U</emphasis>) = .26; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">V</emphasis>) = .37. Find the following:</para><list id="element-896" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">U</emphasis> AND <emphasis effect="italics">V</emphasis>) =</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">U</emphasis>|<emphasis effect="italics">V</emphasis>) =</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">U</emphasis> OR <emphasis effect="italics">V</emphasis>) =</item>
@@ -705,7 +705,7 @@
 </exercise>
 </section>
 
-<section id="fs-idm88736" class="free-response"><title>Homework</title><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp126196880"><emphasis effect="italics">Use the following information to answer the next 12 exercises.</emphasis> The graph shown is based on more than 170,000 interviews that took place from January through December 2012. The sample consists of employed Americans 18 years of age or older. The Health Index Scores are the sample space. We randomly sample one type of Health Index Score, the emotional well-being score.</para><figure id="eip-id1171405227589"><media id="eip-id1171388484061" alt="emotional health index score">
+<section id="fs-idm88736" class="free-response"><title>Homework</title><para id="eip-idp126196880"><emphasis effect="italics">Use the following information to answer the next 12 exercises.</emphasis> The graph shown is based on more than 170,000 interviews that took place from January through December 2012. The sample consists of employed Americans 18 years of age or older. The Health Index Scores are the sample space. We randomly sample one type of Health Index Score, the emotional well-being score.</para><figure id="eip-id1171405227589"><media id="eip-id1171388484061" alt="emotional health index score">
        <image mime-type="image/jpeg" src="../../media/CNX_Stats_C03_RWP_001.jpg" width="500"/>
      </media>
    </figure><exercise id="eip-807"><problem id="eip-85">
@@ -724,12 +724,12 @@
 
 <exercise id="eip-538">
 <problem id="eip-976">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-640">Find the probability that a Health Index Score is more than 81.</para></problem>
+  <para id="eip-640">Find the probability that a Health Index Score is more than 81.</para></problem>
 </exercise>
 
 <exercise id="eip-42">
 <problem id="eip-714">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-674">Find the probability that a Health Index Score is between 80.5 and 82.</para></problem>
+<para id="eip-674">Find the probability that a Health Index Score is between 80.5 and 82.</para></problem>
 <solution id="eip-118">
   <para id="eip-636">.3571</para>
 </solution>
@@ -747,11 +747,11 @@
   <para id="eip-927">.2142</para></solution>
 </exercise>
 <exercise id="eip-197"><problem id="eip-299">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-147">What is the probability that a Health Index Score is less than 80.2 given that it is already less than 81?</para></problem>
+  <para id="eip-147">What is the probability that a Health Index Score is less than 80.2 given that it is already less than 81?</para></problem>
 </exercise>
 
 <exercise id="eip-545"><problem id="eip-62">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-901">What occupation has the highest Health Index Score?</para></problem>
+  <para id="eip-901">What occupation has the highest Health Index Score?</para></problem>
 <solution id="eip-427"><label/>
   <para id="eip-420">Physician (83.7)</para>
 </solution>
@@ -766,9 +766,9 @@
   <para id="eip-37">83.7 − 79.6 = 4.1</para></solution>
 </exercise>
 <exercise id="eip-221"><problem id="eip-432">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-929">Compute the average Health Index Score.</para></problem>
+  <para id="eip-929">Compute the average Health Index Score.</para></problem>
 </exercise><exercise id="eip-743"><problem id="eip-520">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-314">If all occupations are equally likely for a certain individual, what is the probability that he or she will have an occupation with lower than average Health Index Score?</para></problem>
+  <para id="eip-314">If all occupations are equally likely for a certain individual, what is the probability that he or she will have an occupation with lower than average Health Index Score?</para></problem>
 <solution id="eip-983"><label/>
   <para id="eip-466"><emphasis effect="italics">P</emphasis>(Occupation &lt; 81.3) = .5</para>
 </solution>
@@ -827,7 +827,7 @@
 </exercise>
 
 <exercise id="element-750"><problem id="id43570745">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-88">The probability that a male develops some form of cancer in his lifetime is .4567. The probability that a male has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Some of the following questions do not have enough information for you to answer them. Write <emphasis effect="italics">not enough information</emphasis> for those answers. Let <emphasis effect="italics">C</emphasis> = a man develops cancer in his lifetime and <emphasis effect="italics">P</emphasis> = a man has at least one false-positive.
+  <para id="element-88">The probability that a male develops some form of cancer in his lifetime is .4567. The probability that a male has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Some of the following questions do not have enough information for you to answer them. Write <emphasis effect="italics">not enough information</emphasis> for those answers. Let <emphasis effect="italics">C</emphasis> = a man develops cancer in his lifetime and <emphasis effect="italics">P</emphasis> = a man has at least one false-positive.
 <list id="element-196" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>) = ______</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">P</emphasis>|<emphasis effect="italics">C</emphasis>) = ______</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">P</emphasis>|<emphasis effect="italics">C'</emphasis>) = ______</item>
@@ -849,7 +849,7 @@
 </exercise><exercise id="eip-278">
 <problem id="eip-id1164335822550">
   <para id="element-642">Given events <emphasis effect="italics">J</emphasis> and <emphasis effect="italics">K</emphasis>: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">J</emphasis>) = .18; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">K</emphasis>) = .37; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">J</emphasis> OR <emphasis effect="italics">K</emphasis>) = .45</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1164314961072" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">J</emphasis> AND <emphasis effect="italics">K</emphasis>).</item>
+<list id="eip-id1164314961072" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">J</emphasis> AND <emphasis effect="italics">K</emphasis>).</item>
 <item>Find the probability of the complement of event (<emphasis effect="italics">J</emphasis> AND <emphasis effect="italics">K</emphasis>).</item>
 <item>Find the probability of the complement of event (<emphasis effect="italics">J</emphasis> OR <emphasis effect="italics">K</emphasis>).</item>
 </list></problem>

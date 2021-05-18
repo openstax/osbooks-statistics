@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Facts About the F Distribution</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79705</md:content-id>
   <md:title>Facts About the F Distribution</md:title>
   <md:abstract/>
@@ -18,12 +18,12 @@
 <image src="../../media/OSX_Spec_StatisticsTEA_Figure_13_03_01.jpg" mime-type="image/png" width="450"/></media></figure><example id="eip-353">
 <exercise id="eip-334">
 <problem id="eip-98">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-924">Let’s return to the slicing tomato exercise in <link document="m79704" target-id="fs-idp19091024"/>. The means of the tomato yields under the five mulching conditions are represented by <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, <emphasis effect="italics">μ</emphasis><sub>4</sub>, <emphasis effect="italics">μ</emphasis><sub>5</sub>. We will conduct a hypothesis test to determine if all means are the same or at least one is different. Using a significance level of 5 percent, test the null hypothesis that there is no difference in mean yields among the five groups against the alternative hypothesis that at least one mean is different from the rest.</para></problem>
+<para id="eip-924">Let’s return to the slicing tomato exercise in <link document="m79704" target-id="fs-idp19091024"/>. The means of the tomato yields under the five mulching conditions are represented by <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, <emphasis effect="italics">μ</emphasis><sub>4</sub>, <emphasis effect="italics">μ</emphasis><sub>5</sub>. We will conduct a hypothesis test to determine if all means are the same or at least one is different. Using a significance level of 5 percent, test the null hypothesis that there is no difference in mean yields among the five groups against the alternative hypothesis that at least one mean is different from the rest.</para></problem>
 
 <solution id="eip-829">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-573">The null and alternative hypotheses are  as follows:</para><para id="eip-idp93603520"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> = <emphasis effect="italics">μ<sub>2</sub></emphasis> = <emphasis effect="italics">μ<sub>3</sub></emphasis> = <emphasis effect="italics">μ<sub>4</sub></emphasis> = <emphasis effect="italics">μ<sub>5</sub></emphasis></para>
+<para id="eip-573">The null and alternative hypotheses are  as follows:</para><para id="eip-idp93603520"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> = <emphasis effect="italics">μ<sub>2</sub></emphasis> = <emphasis effect="italics">μ<sub>3</sub></emphasis> = <emphasis effect="italics">μ<sub>4</sub></emphasis> = <emphasis effect="italics">μ<sub>5</sub></emphasis></para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp134625200"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>i</sub> ≠ μ<sub>j</sub></emphasis> for some  <emphasis effect="italics">i ≠ j</emphasis></para><para id="eip-idm22822112">The one-way ANOVA results are shown in <link target-id="eip-632"/></para>
+<para id="eip-idp134625200"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>i</sub> ≠ μ<sub>j</sub></emphasis> for some  <emphasis effect="italics">i ≠ j</emphasis></para><para id="eip-idm22822112">The one-way ANOVA results are shown in <link target-id="eip-632"/></para>
 
 <table id="eip-632" summary="..">
 <tgroup cols="5"><thead>
@@ -97,10 +97,10 @@
 <image src="../../media/CNX_Stats_C13_M04_001.jpg" mime-type="image/jpeg" width="380"/>
 </media></figure><para id="eip-idm4421376"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 4.481) = 0.0248</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm4421120"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">p</emphasis>-value = 0.0248</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm141674128"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, we reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm156731472"><emphasis>Conclusion:</emphasis> At the 5 percent significance level, we have reasonably strong evidence that differences in mean yields for slicing tomato plants grown under different mulching conditions are unlikely to be due to chance alone.  We may conclude that at least some of the mulches led to different mean yields.</para><note id="fs-idm170385984" class="statistics calculator">
+<para id="eip-idm4421120"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">p</emphasis>-value = 0.0248</para><para id="eip-idm141674128"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, we reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="eip-idm156731472"><emphasis>Conclusion:</emphasis> At the 5 percent significance level, we have reasonably strong evidence that differences in mean yields for slicing tomato plants grown under different mulching conditions are unlikely to be due to chance alone.  We may conclude that at least some of the mulches led to different mean yields.</para><note id="fs-idm170385984" class="statistics calculator">
 <label/>
 <para id="fs-idp101537296">To find these results on the calculator:</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm156731216">Press <code>STAT</code>. Press <code>1:EDIT</code>. Put the data into the lists <code>L1,L2,L3,L4,L5</code>.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp71266096">Press <code>STAT</code>, arrow over to <code>TESTS</code>, and arrow down to <code>ANOVA</code>. Press ENTER, and then enter (<code>L1,L2,L3,L4,L5</code>). Press <code>ENTER</code>. You will see that the values in the foregoing ANOVA table are easily produced by the calculator, including the test statistic and the <emphasis effect="italics">p</emphasis>-value of the test.</para><para id="fs-idm160236288">The calculator displays:
+<para id="eip-idm156731216">Press <code>STAT</code>. Press <code>1:EDIT</code>. Put the data into the lists <code>L1,L2,L3,L4,L5</code>.</para><para id="eip-idp71266096">Press <code>STAT</code>, arrow over to <code>TESTS</code>, and arrow down to <code>ANOVA</code>. Press ENTER, and then enter (<code>L1,L2,L3,L4,L5</code>). Press <code>ENTER</code>. You will see that the values in the foregoing ANOVA table are easily produced by the calculator, including the test statistic and the <emphasis effect="italics">p</emphasis>-value of the test.</para><para id="fs-idm160236288">The calculator displays:
 <newline/><emphasis effect="italics">F</emphasis> = 4.4810
 <newline/><emphasis effect="italics">p</emphasis> = 0.0248  (<emphasis effect="italics">p</emphasis>-value)
 <newline/>Factor
@@ -120,7 +120,7 @@
 <label/>
 <title>Try It</title>
 <exercise id="eip-746"><problem id="eip-675">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-437">MRSA, or <emphasis effect="italics">Staphylococcus aureus</emphasis>, can cause serious bacterial infections in hospital patients. <link target-id="eip-755"/> shows various colony counts from different patients who may or may not have MRSA. The data from the table is plotted in <link target-id="fs-idm170381520"/>.</para><table id="eip-755" summary="Table 2 has 5 columns. The first column reads from top to buttom: Conc = 0.6, 9 , 66 , 98. Column 2: Conc = 0.8, 16 , 93 , 82. Column 3: Conc = 0.8, 22 , 147 , 120. Column 4: Conc = 1.2, 30 , 199 , 148. Column 5: Conc = 1.4, 27 , 168 , 132. ">
+<para id="eip-437">MRSA, or <emphasis effect="italics">Staphylococcus aureus</emphasis>, can cause serious bacterial infections in hospital patients. <link target-id="eip-755"/> shows various colony counts from different patients who may or may not have MRSA. The data from the table is plotted in <link target-id="fs-idm170381520"/>.</para><table id="eip-755" summary="Table 2 has 5 columns. The first column reads from top to buttom: Conc = 0.6, 9 , 66 , 98. Column 2: Conc = 0.8, 16 , 93 , 82. Column 3: Conc = 0.8, 22 , 147 , 120. Column 4: Conc = 1.2, 30 , 199 , 148. Column 5: Conc = 1.4, 27 , 168 , 132. ">
 <tgroup cols="5">
 <thead>
 <row><entry align="center">Conc = 0.6</entry><entry align="center">Conc = 0.8</entry>	<entry align="center">Conc = 1.0</entry>	<entry align="center">Conc = 1.2</entry>	<entry align="center">Conc = 1.4</entry></row>
@@ -136,7 +136,7 @@
 
 
 <figure id="fs-idm170381520"><media id="eip-idp3797520" alt="This graph is a scatterplot for the data provided. The horizontal axis is labeled 'Colony counts' and extends from 0 - 200. The vertical axis is labeled 'Tryptone concentrations' and extends from 0.6 - 1.4.">
-<image src="../../media/CNX_Stats_C13_M04_003s.png" mime-type="image/png" width="380"/></media></figure><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm75658944" class="finger">Test whether the mean numbers of colonies are the same or are different. Construct the ANOVA table by hand or by using a TI-83, 83+, or 84+ calculator, find the <emphasis effect="italics">p</emphasis>-value, and state your conclusion. Use a 5 percent significance level.</para></problem>
+<image src="../../media/CNX_Stats_C13_M04_003s.png" mime-type="image/png" width="380"/></media></figure><para id="eip-idm75658944" class="finger">Test whether the mean numbers of colonies are the same or are different. Construct the ANOVA table by hand or by using a TI-83, 83+, or 84+ calculator, find the <emphasis effect="italics">p</emphasis>-value, and state your conclusion. Use a 5 percent significance level.</para></problem>
 
 <solution id="eip-174">
 <para id="eip-idp40395248">While there are differences in the spreads between the groups (see <link target-id="fig000"/>), the differences do not appear to be big enough to cause concern.</para>
@@ -229,7 +229,7 @@
 
 <para id="eip-idp2526368"><emphasis>Probability Statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 0.6099) = 0.6649.</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp2527424"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">p</emphasis>-value = 0.669, <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value</para><para id="eip-idp3984016"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, we do not reject <emphasis effect="italics">H</emphasis><sub>0</sub>.</para>
+<para id="eip-idp2527424"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">p</emphasis>-value = 0.669, <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value</para><para id="eip-idp3984016"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, we do not reject <emphasis effect="italics">H</emphasis><sub>0</sub>.</para>
 
 <para id="eip-idm35735392"><emphasis>Conclusion:</emphasis> At the 5% significance level, there is insufficient evidence from these data that different levels of tryptone will cause a significant difference in the mean number of bacterial colonies formed.</para>
 </solution>
@@ -282,7 +282,7 @@
 
 <exercise id="element-508">
 <problem id="id3272914">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-863">Using a significance level of 1 percent, is there a difference in mean grades among the
+<para id="element-863">Using a significance level of 1 percent, is there a difference in mean grades among the
 sororities?  </para></problem>
 
 <solution id="id3301468">
@@ -299,18 +299,18 @@ sororities?  </para></problem>
 <para id="element-309"><emphasis effect="italics">H<sub>a</sub></emphasis>: Not all of the means <emphasis effect="italics">μ<sub>1</sub></emphasis>, <emphasis effect="italics">μ<sub>2</sub></emphasis>, <emphasis effect="italics">μ<sub>3</sub></emphasis>, <emphasis effect="italics">μ<sub>4</sub></emphasis> are equal.</para>
 
 <para id="element-958"><emphasis>Distribution for the test:</emphasis> <emphasis effect="italics">F</emphasis><sub>3,16</sub></para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-673">where <emphasis effect="italics">k</emphasis> = 4 groups and <emphasis effect="italics">n</emphasis> = 20 samples in total.</para><para id="element-925"><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>)= <emphasis effect="italics">k</emphasis> – 1 = 4 – 1 = 3</para>
+<para id="element-673">where <emphasis effect="italics">k</emphasis> = 4 groups and <emphasis effect="italics">n</emphasis> = 20 samples in total.</para><para id="element-925"><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>)= <emphasis effect="italics">k</emphasis> – 1 = 4 – 1 = 3</para>
 <para id="element-41"><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">denom</emphasis>) = <emphasis effect="italics">n</emphasis> – <emphasis effect="italics">k</emphasis> = 20 – 4 = 16</para>
 
 <para id="element-284"><emphasis>Calculate the test statistic:</emphasis> <emphasis effect="italics">F</emphasis> = 2.23</para>
 
 <para id="element-964"><emphasis>Graph</emphasis></para>
 
-<figure id="fs-idm73326896"><media id="id4765799" alt="This graph shows a nonsymmetrical F distribution curve with values of 0 and 2.23 on the x-axis representing the test statistic of sorority grade averages. The curve is slightly skewed to the right, but is approximately normal. A vertical upward line extends from 2.23 to the curve and the area to the right of this is shaded to represent the p-value."><image src="../../media/fig-ch13_04_02N.jpg" mime-type="image/png" width="380"/></media></figure><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-484"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 2.23) = 0.1241</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-849"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.01<newline/> <emphasis effect="italics">p</emphasis>-value = 0.1241<newline/> <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-119"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value, we cannot reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-483"><emphasis>Conclusion:</emphasis> There is not sufficient evidence to conclude that there is a difference among the mean grades for the sororities.</para>
+<figure id="fs-idm73326896"><media id="id4765799" alt="This graph shows a nonsymmetrical F distribution curve with values of 0 and 2.23 on the x-axis representing the test statistic of sorority grade averages. The curve is slightly skewed to the right, but is approximately normal. A vertical upward line extends from 2.23 to the curve and the area to the right of this is shaded to represent the p-value."><image src="../../media/fig-ch13_04_02N.jpg" mime-type="image/png" width="380"/></media></figure><para id="element-484"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 2.23) = 0.1241</para><para id="element-849"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.01<newline/> <emphasis effect="italics">p</emphasis>-value = 0.1241<newline/> <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value</para><para id="element-119"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value, we cannot reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-483"><emphasis>Conclusion:</emphasis> There is not sufficient evidence to conclude that there is a difference among the mean grades for the sororities.</para>
 
 <note id="fs-idm12292144" class="statistics calculator">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-171">Put the data into lists L<sub>1</sub>, L<sub>2</sub>, L<sub>3</sub>, and L<sub>4</sub>. Press <code>STAT</code> and arrow over to <code>TESTS</code>. Arrow down to <code>F:ANOVA</code>. Press <code>ENTER</code> and enter (<code>L1,L2,L3,L4</code>).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm127882432">The calculator displays the F statistic, the <emphasis effect="italics">p</emphasis>-value, and the values for the one-way ANOVA table:
+<para id="element-171">Put the data into lists L<sub>1</sub>, L<sub>2</sub>, L<sub>3</sub>, and L<sub>4</sub>. Press <code>STAT</code> and arrow over to <code>TESTS</code>. Arrow down to <code>F:ANOVA</code>. Press <code>ENTER</code> and enter (<code>L1,L2,L3,L4</code>).</para><para id="fs-idm127882432">The calculator displays the F statistic, the <emphasis effect="italics">p</emphasis>-value, and the values for the one-way ANOVA table:
 <newline/><emphasis effect="italics">F</emphasis> = 2.2303
 <newline/><emphasis effect="italics">p</emphasis> = 0.1241 (<emphasis effect="italics">p</emphasis>-value)
 <newline/>Factor
@@ -330,7 +330,7 @@ sororities?  </para></problem>
 <label/>
 <title>Try It</title>
 <exercise id="eip-935"><problem id="eip-188">
-<para id="eip-668">Four sports teams took a random sample of players regarding their GPAs for the last year. The results are shown in <link target-id="eip-440"/>.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-440" summary="Table 5 shoes the GPAs for four different sports teams in a four column table. The four sports are, basketball, baseball, hockey, and Lacrosse. The scores for basketball going down the column are: 3.6, 2.9, 2.5, 3.3, and 3.8. The scores for baseball going down the column are: 2.1, 2.6, 3.9, 3.1, and 3.4. The scores for Hockey going down the table are: 4.0, 2.0, 2.6, 3.2, and 3.2. The scores fore lacrosse going down the table are: 2.0, 3.6, 3.9, 2.7, 2.5."><title>GPAs for four sports teams</title>
+<para id="eip-668">Four sports teams took a random sample of players regarding their GPAs for the last year. The results are shown in <link target-id="eip-440"/>.</para><table id="eip-440" summary="Table 5 shoes the GPAs for four different sports teams in a four column table. The four sports are, basketball, baseball, hockey, and Lacrosse. The scores for basketball going down the column are: 3.6, 2.9, 2.5, 3.3, and 3.8. The scores for baseball going down the column are: 2.1, 2.6, 3.9, 3.1, and 3.4. The scores for Hockey going down the table are: 4.0, 2.0, 2.6, 3.2, and 3.2. The scores fore lacrosse going down the table are: 2.0, 3.6, 3.9, 2.7, 2.5."><title>GPAs for four sports teams</title>
 <tgroup cols="4"><colspec colnum="1" colname="col1"/>
 <colspec colnum="2" colname="col2"/>
 <colspec colnum="3" colname="col3"/>
@@ -349,15 +349,15 @@ sororities?  </para></problem>
 
 
 </tgroup>
-</table><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-964">Use a significance level of 5 percent and determine if there is a difference in GPA among the teams.</para></problem>
+</table><para id="eip-964">Use a significance level of 5 percent and determine if there is a difference in GPA among the teams.</para></problem>
 
 <solution id="eip-858">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-176">With a <emphasis effect="italics">p</emphasis>-value of 0.9271, we do not reject the null hypothesis. There is not sufficient evidence to conclude that there is a difference among the GPAs for the sports teams.</para></solution>
+<para id="eip-176">With a <emphasis effect="italics">p</emphasis>-value of 0.9271, we do not reject the null hypothesis. There is not sufficient evidence to conclude that there is a difference among the GPAs for the sports teams.</para></solution>
 </exercise></note>
 
 
 <example id="element-349">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-149">A fourth-grade class is studying the environment. One of the assignments is to grow bean plants in different soils. Tommy chose to grow his bean plants in soil found outside his classroom mixed with dryer lint. Tara chose to grow her bean plants in potting soil bought at the local nursery. Nick chose to grow his bean plants in soil from his mother’s garden. No chemicals were used on the plants, only water. They were grown inside the classroom next to a large window. Each child grew five plants. At the end of the growing period, each plant was measured, producing the data in inches in <link target-id="table-234"/>.
+<para id="element-149">A fourth-grade class is studying the environment. One of the assignments is to grow bean plants in different soils. Tommy chose to grow his bean plants in soil found outside his classroom mixed with dryer lint. Tara chose to grow her bean plants in potting soil bought at the local nursery. Nick chose to grow his bean plants in soil from his mother’s garden. No chemicals were used on the plants, only water. They were grown inside the classroom next to a large window. Each child grew five plants. At the end of the growing period, each plant was measured, producing the data in inches in <link target-id="table-234"/>.
 
 <table id="table-234" summary="This table presents Tommy's plant heights in inches in the first column, Tara's plant heights in inches in the second column, and Nick's plant heights in inches in the third column.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
@@ -403,7 +403,7 @@ sororities?  </para></problem>
 </tgroup>
 </table></para><exercise id="element-769">
 <problem id="id13000852">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-952">Does it appear that the three soils in which the bean plants were grown produce the same mean height? Test at a 3 percent level of significance.</para></problem>
+<para id="element-952">Does it appear that the three soils in which the bean plants were grown produce the same mean height? Test at a 3 percent level of significance.</para></problem>
 <solution id="id3319153">
 <para id="element-501">This time, we will perform the calculations that lead to the <emphasis effect="italics">F'</emphasis> statistic. Notice that each group has the same number of plants, so we will use the formula <emphasis effect="italics">F'</emphasis> =   <m:math>
 <m:mrow>
@@ -474,7 +474,7 @@ sororities?  </para></problem>
 </tgroup>
 </table>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-566">Next, calculate the variance of the three group means by calculating the variance of 24.2, 25.4, and 24.4. Variance of the group means = 0.413 =   <m:math>
+<para id="element-566">Next, calculate the variance of the three group means by calculating the variance of 24.2, 25.4, and 24.4. Variance of the group means = 0.413 =   <m:math>
 <m:mrow>
 <m:msub>
 <m:mi>s</m:mi>
@@ -506,7 +506,7 @@ sororities?  </para></problem>
 </m:msup>
 
 </m:mrow>
-</m:math>   = (5)(0.413) where <emphasis effect="italics">n</emphasis> = 5 is the sample size (number of plants each child grew).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-606">Calculate the mean of the three sample variances (11.7, 18.3, and 16.3). Mean of the sample variances = 15.433 = <emphasis effect="italics">s</emphasis><sup>2</sup><sub>pooled</sub>,</para><para id="element-877">then <emphasis effect="italics">MS<sub>within</sub></emphasis> = <emphasis effect="italics">s</emphasis><sup>2</sup><sub><emphasis effect="italics">pooled</emphasis></sub> = 15.433.</para>
+</m:math>   = (5)(0.413) where <emphasis effect="italics">n</emphasis> = 5 is the sample size (number of plants each child grew).</para><para id="element-606">Calculate the mean of the three sample variances (11.7, 18.3, and 16.3). Mean of the sample variances = 15.433 = <emphasis effect="italics">s</emphasis><sup>2</sup><sub>pooled</sub>,</para><para id="element-877">then <emphasis effect="italics">MS<sub>within</sub></emphasis> = <emphasis effect="italics">s</emphasis><sup>2</sup><sub><emphasis effect="italics">pooled</emphasis></sub> = 15.433.</para>
 
 <para id="element-649">The <emphasis effect="italics">F</emphasis> statistic (or <emphasis effect="italics">F</emphasis> ratio) is   <m:math>
 <m:mrow>
@@ -568,14 +568,14 @@ sororities?  </para></problem>
 </m:mrow>
 </m:math>  </para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-81">The <emphasis effect="italics">df</emphasis>s for the numerator = the number of groups – 1 = 3 – 1 = 2.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-691">The <emphasis effect="italics">df</emphasis>s for the denominator = the total number of samples – the number of groups = 15 – 3 = 12.</para><para id="element-174">The distribution for the test is <emphasis effect="italics">F</emphasis><sub>2,12</sub> and the <emphasis effect="italics">F</emphasis> statistic is <emphasis effect="italics">F</emphasis> = 0.134.</para>
+<para id="element-81">The <emphasis effect="italics">df</emphasis>s for the numerator = the number of groups – 1 = 3 – 1 = 2.</para><para id="element-691">The <emphasis effect="italics">df</emphasis>s for the denominator = the total number of samples – the number of groups = 15 – 3 = 12.</para><para id="element-174">The distribution for the test is <emphasis effect="italics">F</emphasis><sub>2,12</sub> and the <emphasis effect="italics">F</emphasis> statistic is <emphasis effect="italics">F</emphasis> = 0.134.</para>
 
 <para id="element-351">The <emphasis effect="italics">p</emphasis>-value is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 0.134) = 0.8759. </para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-528"><emphasis>Decision:</emphasis> Since <emphasis effect="italics">α</emphasis> = 0.03 and the <emphasis effect="italics">p</emphasis>-value = 0.8759, we do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>. Why?</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-886"><emphasis>Conclusion:</emphasis> With a 3 percent level of significance from the sample data, the evidence is not sufficient to conclude that the mean heights of the bean plants are  different.</para><note id="fs-idm97032400" class="statistics calculator">
+<para id="element-528"><emphasis>Decision:</emphasis> Since <emphasis effect="italics">α</emphasis> = 0.03 and the <emphasis effect="italics">p</emphasis>-value = 0.8759, we do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>. Why?</para><para id="element-886"><emphasis>Conclusion:</emphasis> With a 3 percent level of significance from the sample data, the evidence is not sufficient to conclude that the mean heights of the bean plants are  different.</para><note id="fs-idm97032400" class="statistics calculator">
 <label/>
 <para id="fs-idm144926064">To calculate the <emphasis effect="italics">p</emphasis>-value:</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp56648304">•Press <code>2nd DISTR</code>,</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm129639712">•Arrow down to <code>Fcdf</code> and press <code>ENTER</code>,</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp43166464">•Enter <code>0.134</code>, <code>E99</code>, <code>2</code>, <code>12</code>, and</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm129327824">•Press <code>ENTER</code>.</para><para id="fs-idm134176048">The <emphasis effect="italics">p</emphasis>-value is 0.8759.</para>
+<para id="fs-idp56648304">•Press <code>2nd DISTR</code>,</para><para id="fs-idm129639712">•Arrow down to <code>Fcdf</code> and press <code>ENTER</code>,</para><para id="eip-idp43166464">•Enter <code>0.134</code>, <code>E99</code>, <code>2</code>, <code>12</code>, and</para><para id="fs-idm129327824">•Press <code>ENTER</code>.</para><para id="fs-idm134176048">The <emphasis effect="italics">p</emphasis>-value is 0.8759.</para>
 </note></solution>
 </exercise>
 </example>
@@ -587,9 +587,9 @@ sororities?  </para></problem>
 <title>Try It</title>
 <exercise id="element-3252">
 <problem id="id6378299">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-146">Another fourth grader also grew bean plants, but in a jelly-like mass. The heights were (in inches) 24, 28, 25, 30, and 32. Do a one-way ANOVA test on the four groups. Are the heights of the bean plants different? Use the same method as shown in <link target-id="element-349"/>.</para></problem>
+<para id="element-146">Another fourth grader also grew bean plants, but in a jelly-like mass. The heights were (in inches) 24, 28, 25, 30, and 32. Do a one-way ANOVA test on the four groups. Are the heights of the bean plants different? Use the same method as shown in <link target-id="element-349"/>.</para></problem>
 <solution id="id15320576" print-placement="end">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-foo" list-type="bulleted"><item><emphasis effect="italics">F</emphasis> = 0.9496</item>
+<list id="element-foo" list-type="bulleted"><item><emphasis effect="italics">F</emphasis> = 0.9496</item>
 <item><emphasis effect="italics">p</emphasis>-value = 0.4402</item>
 </list><para id="element-bar">From the sample data, the evidence is not sufficient to conclude that the mean heights of the bean plants are  different.</para></solution>
 </exercise>
@@ -599,7 +599,7 @@ sororities?  </para></problem>
 <note id="element-866" class="statistics collab">
 <label/>
 <title>Collaborative Exercise</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-746">From the class, create four groups of the same size as follows: men under 22, men at least 22, women under 22, women at least 22. Have each member of each group record the number of states in the United States he or she has visited. Run an ANOVA test to determine if the average number of states visited in the four groups are the same. Test at a 1 percent level of significance. Use one of the solution sheets in <link document="m79714">Appendix E</link>.</para></note>
+<para id="element-746">From the class, create four groups of the same size as follows: men under 22, men at least 22, women under 22, women at least 22. Have each member of each group record the number of states in the United States he or she has visited. Run an ANOVA test to determine if the average number of states visited in the four groups are the same. Test at a 1 percent level of significance. Use one of the solution sheets in <link document="m79714">Appendix E</link>.</para></note>
 </section>
 <section id="eip-712" class="references">
 <title>References</title><!--<para id="eip-977">Data from a fourth grade classroom in 1994 in a private K &#8211; 12 school in San Jose, CA.</para>
@@ -616,7 +616,7 @@ sororities?  </para></problem>
 
 <para id="fs-id1164567944738">ESPN. (2012). <emphasis effect="italics">MLB standings  2012.</emphasis> Retrieved from http://espn.go.com/mlb/standings/_/year/2012.</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164568049709">Hand, D. J. et al. (1994). <emphasis effect="italics">A Handbook of Small Datasets: Data for Fruitfly Fecundity.</emphasis> London: Chapman &amp; Hall.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164566024579">Hand, D. J. et al. (1994). <emphasis effect="italics">A Handbook of Small Datasets.</emphasis> London: Chapman &amp; Hall, p. 50.</para><para id="fs-id1164565654054">Hand. <emphasis effect="italics">A Handbook of Small Datasets.</emphasis> p. 118.</para>
+<para id="fs-id1164568049709">Hand, D. J. et al. (1994). <emphasis effect="italics">A Handbook of Small Datasets: Data for Fruitfly Fecundity.</emphasis> London: Chapman &amp; Hall.</para><para id="fs-id1164566024579">Hand, D. J. et al. (1994). <emphasis effect="italics">A Handbook of Small Datasets.</emphasis> London: Chapman &amp; Hall, p. 50.</para><para id="fs-id1164565654054">Hand. <emphasis effect="italics">A Handbook of Small Datasets.</emphasis> p. 118.</para>
 
 <para id="fs-id1164565551954">Mackowiak, P. A.,Wasserman, S. S., &amp; Levine, M. M. (1992). A critical appraisal of 98.6 degrees F, the upper limit of the normal body temperature, and other legacies of Carl Reinhold August Wunderlich. <emphasis effect="italics">Journal of the American Medical Association, 268,</emphasis> 15781580.</para>
 
@@ -630,7 +630,7 @@ sororities?  </para></problem>
 <title>Chapter Review</title>
 <para id="eip-684">The graph of the <emphasis effect="italics">F</emphasis> distribution is always positive and skewed right, though the shape can be mounded or exponential depending on the combination of numerator and denominator degrees of freedom. The <emphasis effect="italics">F</emphasis> statistic is the ratio of a measure of the variation in the group means to a similar measure of the variation within the groups. If the null hypothesis is correct, then the numerator should be small compared to the denominator. A small <emphasis effect="italics">F</emphasis> statistic will result, and the area under the <emphasis effect="italics">F</emphasis> curve to the right will be large, representing a large <emphasis effect="italics">p</emphasis>-value. When the null hypothesis of equal group means is incorrect, then the numerator should be large compared to the denominator, giving a large <emphasis effect="italics">F</emphasis> statistic and a small area (small <emphasis effect="italics">p</emphasis>-value) to the right of the statistic under the <emphasis effect="italics">F</emphasis> curve.</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-833">When the data have unequal group sizes (unbalanced data), then techniques from <link document="m79704">The F Distribution and the F Ratio</link> need to be used for hand calculations. In the case of balanced data, where the groups are the same size, simplified calculations based on group means and variances may be used. In practice, software is usually employed in the analysis. As in any analysis, graphs of various sorts should be used in conjunction with numerical techniques. Always look at your data!</para></section>
+<para id="eip-833">When the data have unequal group sizes (unbalanced data), then techniques from <link document="m79704">The F Distribution and the F Ratio</link> need to be used for hand calculations. In the case of balanced data, where the groups are the same size, simplified calculations based on group means and variances may be used. In practice, software is usually employed in the analysis. As in any analysis, graphs of various sorts should be used in conjunction with numerical techniques. Always look at your data!</para></section>
 
 <section id="fs-idp110212080" class="practice">
 
@@ -898,7 +898,7 @@ East
 
 <section id="fs-idp159138080" class="free-response"><title>Homework</title><note id="fs-idm3376448"><label/><title>DIRECTIONS</title>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-660">Use a solution sheet to conduct the following hypothesis tests. The solution sheet can be found in <link document="m79714">Appendix E</link>.</para></note><exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-240"><problem id="id19304316">
+<para id="eip-660">Use a solution sheet to conduct the following hypothesis tests. The solution sheet can be found in <link document="m79714">Appendix E</link>.</para></note><exercise id="element-240"><problem id="id19304316">
 <para id="element-106">Three students, Linda, Tuan, and Javier, are given five laboratory rats each for a nutritional experiment. Each rat’s weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again, and the net gain in grams is recorded. Using a significance level of 10 percent, test the hypothesis that the three formulas produce the same mean weight gain.</para><para id="element-800"><table id="id348a5492" summary="This table presents the net weight in grams of each rat with Linda's rats in the first column, Tuan's rats in the second column, and Javier's rats in the third column.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -955,7 +955,7 @@ East
 <item>Conclusion: There is insufficient evidence to conclude that the means are different.</item>
 </list></solution>
 </exercise><exercise id="element-60"><problem id="id18508281">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-987">A grassroots group opposed to a proposed increase in the gas tax claimed that the increase would hurt working-class people the most since they commute the farthest to work. Suppose that the group randomly surveyed 24 individuals and asked them their daily one-way commuting mileage. The results are in <link target-id="idgh7333173"/>. Using a 5 percent significance level, test the hypothesis that the three mean commuting mileages are the same.</para><para id="element-719">
+<para id="element-987">A grassroots group opposed to a proposed increase in the gas tax claimed that the increase would hurt working-class people the most since they commute the farthest to work. Suppose that the group randomly surveyed 24 individuals and asked them their daily one-way commuting mileage. The results are in <link target-id="idgh7333173"/>. Using a 5 percent significance level, test the hypothesis that the three mean commuting mileages are the same.</para><para id="element-719">
 <table id="idgh7333173" summary="Table 3 shows three columns: Working class, professional (middle incomes), and professional (wealthy). The rows read from left to right: 17.8, 16.5, and 8.5. Row two: 26.7, 17.4, and 6.3. Row three: 49.4, 22.0, 4.6. Row four: 9.4, 7.4, and 12.6. Row five: 65.4, 9.4, 11.0. Row six: 47.1, 2.1, 28.6. Row seven: 19.5, 6.4, and 15.4. Row eight: 51.2, 13.9, 9.3.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
@@ -1235,7 +1235,7 @@ East
 </list></item>
 </list>
 </solution></exercise><exercise id="fs-idm81211824"><problem id="fs-idm81211696">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm81211440">Are the mean number of times a month a person eats out the same for whites, blacks, Hispanics, and Asians? Suppose that <link target-id="fs-idm13269984"/> shows the results of a study.</para><table id="fs-idm13269984" summary="The Table consists of 4 columns: White, Black, Hispanic and Asian. The table entries are the mean number of times a month that people who are White, Black, Hispanic and Asian eat out.">
+<para id="fs-idm81211440">Are the mean number of times a month a person eats out the same for whites, blacks, Hispanics, and Asians? Suppose that <link target-id="fs-idm13269984"/> shows the results of a study.</para><table id="fs-idm13269984" summary="The Table consists of 4 columns: White, Black, Hispanic and Asian. The table entries are the mean number of times a month that people who are White, Black, Hispanic and Asian eat out.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1360,7 +1360,7 @@ East
 </item>
 </list>
 </solution></exercise><exercise id="eip-88"><problem id="eip-730">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-165">Sanjay made identical paper airplanes out of three different weights of paper: light, medium, and heavy. He made four airplanes from each of the weights and launched them himself across the room.  Here are the distances (in meters) that his planes flew.</para><table id="eip-729" summary="Table 18 is a five column table with titles: Paper Type/Trial, Trial 1, Trial 2, Trial 3, and Trial 4. The fist row lists from left to right: Heavy / 5.1 meters / 3.1 meters / 4.7 meters / 5.3 meters. The second row: Medium / 4 meters / 3.5 meters / 3.5 meters / 4.5 meters / 6.1 meters. The last row: Light / 3.1 meters / 3.3 meters/ 2.1 meters/ 19 meters.">
+<para id="eip-165">Sanjay made identical paper airplanes out of three different weights of paper: light, medium, and heavy. He made four airplanes from each of the weights and launched them himself across the room.  Here are the distances (in meters) that his planes flew.</para><table id="eip-729" summary="Table 18 is a five column table with titles: Paper Type/Trial, Trial 1, Trial 2, Trial 3, and Trial 4. The fist row lists from left to right: Heavy / 5.1 meters / 3.1 meters / 4.7 meters / 5.3 meters. The second row: Medium / 4 meters / 3.5 meters / 3.5 meters / 4.5 meters / 6.1 meters. The last row: Light / 3.1 meters / 3.3 meters/ 2.1 meters/ 19 meters.">
 <tgroup cols="3">
 <thead>
 <row>
@@ -1401,7 +1401,7 @@ East
 <image src="../../media/CNX_Stats_C13_M04_100.jpg" mime-type="image/jpeg" width="380"/></media>
 </figure>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp36652720" list-type="enumerated" number-style="lower-alpha"><item>Take a look at the data in the graph. Look at the spread of data for each group (light, medium, heavy). Does it seem reasonable to assume a normal distribution with the same variance for each group?</item>
+<list id="eip-idp36652720" list-type="enumerated" number-style="lower-alpha"><item>Take a look at the data in the graph. Look at the spread of data for each group (light, medium, heavy). Does it seem reasonable to assume a normal distribution with the same variance for each group?</item>
 
 <item>Why is this a balanced design?</item>
 <item>Calculate the sample mean and sample standard deviation for each group.</item>
@@ -1424,7 +1424,7 @@ East
 </item>
 </list></problem></exercise><exercise id="eip-137">
 <problem id="eip-432">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-864">DDT is a pesticide that has been banned from use in the United States and most other areas of the world. It is quite effective but persisted in the environment and over time proved to be harmful to higher-level organisms. Famously, egg shells of eagles and other raptors were believed to be thinner and prone to breakage in the nest because of ingestion of DDT in the food chain of the birds.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp9520752">An experiment was conducted on the number of eggs (fecundity) laid by female fruit flies.  There are three groups of flies.  One group was bred to be resistant to DDT (the RS group).  Another was bred to be especially susceptible to DDT (SS).  The third group was a control line of nonselected or typical fruit flies (NS).  Here are the data:
+<para id="eip-864">DDT is a pesticide that has been banned from use in the United States and most other areas of the world. It is quite effective but persisted in the environment and over time proved to be harmful to higher-level organisms. Famously, egg shells of eagles and other raptors were believed to be thinner and prone to breakage in the nest because of ingestion of DDT in the food chain of the birds.</para><para id="eip-idp9520752">An experiment was conducted on the number of eggs (fecundity) laid by female fruit flies.  There are three groups of flies.  One group was bred to be resistant to DDT (the RS group).  Another was bred to be especially susceptible to DDT (SS).  The third group was a control line of nonselected or typical fruit flies (NS).  Here are the data:
 
 <table id="eip-180" summary="..">
 <tgroup cols="3">
@@ -1548,14 +1548,14 @@ East
 </table>
 
 
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm118691088">The values are the average number of eggs laid daily for each of 75 flies (25 in each group) over the first 14 days of their lives.  Using a 1 percent level of significance, are the mean rates of egg selection for the three strains of fruit fly different?  If so, in what way?  Specifically, the researchers were interested in whether the selectively bred strains were different from the nonselected line, and whether the two selected lines were different from each other.</para><para id="eip-idp20090240">Here is a chart of the three groups:</para>
+</para><para id="eip-idm118691088">The values are the average number of eggs laid daily for each of 75 flies (25 in each group) over the first 14 days of their lives.  Using a 1 percent level of significance, are the mean rates of egg selection for the three strains of fruit fly different?  If so, in what way?  Specifically, the researchers were interested in whether the selectively bred strains were different from the nonselected line, and whether the two selected lines were different from each other.</para><para id="eip-idp20090240">Here is a chart of the three groups:</para>
 
 <figure id="fs-idm5123296"><media id="eip-idp35835920" alt="This graph is a scatterplot which represents the data provided. The horizontal axis is labeled 'Mean eggs laid per day' and extends from 10 - 50. The vertical axis is labeled 'Fruitflies DDT resistant or susceptible, or not selected.' The vertical axis is labeled with the categories NS, RS, SS.">
 <image src="../../media/CNX_Stats_C13_M04_007.jpg" mime-type="image/jpeg" width="380"/></media></figure></problem>
 
 <solution id="eip-601">
 <para id="eip-313">The data appear normally distributed from the chart and of similar spread. There do not appear to be any serious outliers, so we may proceed with our ANOVA calculations, to see if we have good evidence of a difference between the three groups.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp9408976"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub> = <emphasis effect="italics">μ</emphasis><sub>3</sub></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp2303648"><emphasis effect="italics">H</emphasis><sub>a</sub>: <emphasis effect="italics">μ</emphasis><sub>i</sub> ≠ <emphasis effect="italics">μ</emphasis><sub>j</sub> some  <emphasis effect="italics">i</emphasis> ≠ <emphasis effect="italics">j</emphasis></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm63708960">Define <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, as the population mean number of eggs laid by the three groups of fruitflies.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm1853136"><emphasis effect="italics">F</emphasis> statistic = 8.6657</para><para id="eip-idm1852752"><emphasis effect="italics">p</emphasis>-value = 0.0004 </para>
+<para id="eip-idp9408976"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub> = <emphasis effect="italics">μ</emphasis><sub>3</sub></para><para id="eip-idp2303648"><emphasis effect="italics">H</emphasis><sub>a</sub>: <emphasis effect="italics">μ</emphasis><sub>i</sub> ≠ <emphasis effect="italics">μ</emphasis><sub>j</sub> some  <emphasis effect="italics">i</emphasis> ≠ <emphasis effect="italics">j</emphasis></para><para id="eip-idm63708960">Define <emphasis effect="italics">μ</emphasis><sub>1</sub>, <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">μ</emphasis><sub>3</sub>, as the population mean number of eggs laid by the three groups of fruitflies.</para><para id="eip-idm1853136"><emphasis effect="italics">F</emphasis> statistic = 8.6657</para><para id="eip-idm1852752"><emphasis effect="italics">p</emphasis>-value = 0.0004 </para>
 
 <figure id="fs-idm155800880"><media id="eip-idp18660496" alt="This graph shows a nonsymmetrical F distribution curve. This curve does not have a peak, but slopes downward from a maximum value at (0, 1.0) and approaches the horiztonal axis at the right edge of the graph.">
 <image src="../../media/CNX_Stats_C13_M04_008.jpg" mime-type="image/jpeg" width="380"/>
@@ -1568,7 +1568,7 @@ East
 </exercise>
 
 <exercise id="eip-178"><problem id="eip-800"><para id="fs-idp79390240">The data shown is the recorded body temperatures of 130 subjects as estimated from available histograms.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm8674144">Traditionally, we are taught that the normal human body temperature is 98.6 °F. This is not quite correct for everyone. Are the mean temperatures among the four groups different?</para><para id="fs-idm8673568">Calculate 95 percent confidence intervals for the mean body temperature in each group and comment about the confidence intervals.</para>
+<para id="fs-idm8674144">Traditionally, we are taught that the normal human body temperature is 98.6 °F. This is not quite correct for everyone. Are the mean temperatures among the four groups different?</para><para id="fs-idm8673568">Calculate 95 percent confidence intervals for the mean body temperature in each group and comment about the confidence intervals.</para>
 
 <table id="eip-269" summary="..">
 <tgroup cols="4">

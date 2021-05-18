@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>A Population Proportion</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79656</md:content-id>
   <md:title>A Population Proportion</md:title>
   <md:abstract/>
@@ -9,8 +9,8 @@
 
 <content>
 <section id="fs-id1169832959262">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-494">During an election year, we see articles in the newspaper that state <term>confidence intervals</term> in terms of proportions or percentages. For example, a poll for a particular candidate running for president might show that the candidate has 40 percent of the vote within 3 percentage points  (if the sample is large enough). Often, election polls are calculated with 95 percent confidence, so the pollsters would be 95 percent confident that the true proportion of voters who favored the candidate would be between 0.37 and 0.43 (0.40 – 0.03, 0.40 + 0.03).</para><para id="element-292">Investors in the stock market are interested in the true proportion of stocks that go up and down each week. Businesses that sell personal computers are interested in the proportion of households in the United States that own personal computers. Confidence intervals can be calculated for the true proportion of stocks that go up or down each week and for the true proportion of households in the United States that own personal computers.</para>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-918">The procedure to find the confidence interval, the sample size, the <term>error bound</term> <emphasis effect="bold">for a population (<emphasis effect="italics">EBP</emphasis>)</emphasis>, and the <term>confidence level</term> for a proportion is similar to that for the population mean, but the formulas are different.</para><!--<para id="element-574"><emphasis>How do you know you are dealing with a proportion problem?</emphasis> First, the underlying <emphasis>distribution is a</emphasis> <term>binomial distribution</term>. (There is no mention of a mean or average.) If <emphasis effect="italics">X</emphasis> is a binomial random variable, then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>)  where <emphasis effect="italics">n</emphasis> is the number of trials and <emphasis effect="italics">p</emphasis> is the probability of a success. To form a proportion, take <emphasis effect="italics">X</emphasis>, the random variable for the number of successes and divide it by <emphasis effect="italics">n</emphasis>, the number of trials (or the sample size). The random variable <emphasis effect="italics">P&#8242;</emphasis> (read "P prime") is that proportion,
+<para id="eip-494">During an election year, we see articles in the newspaper that state <term>confidence intervals</term> in terms of proportions or percentages. For example, a poll for a particular candidate running for president might show that the candidate has 40 percent of the vote within 3 percentage points  (if the sample is large enough). Often, election polls are calculated with 95 percent confidence, so the pollsters would be 95 percent confident that the true proportion of voters who favored the candidate would be between 0.37 and 0.43 (0.40 – 0.03, 0.40 + 0.03).</para><para id="element-292">Investors in the stock market are interested in the true proportion of stocks that go up and down each week. Businesses that sell personal computers are interested in the proportion of households in the United States that own personal computers. Confidence intervals can be calculated for the true proportion of stocks that go up or down each week and for the true proportion of households in the United States that own personal computers.</para>
+ <para id="element-918">The procedure to find the confidence interval, the sample size, the <term>error bound</term> <emphasis effect="bold">for a population (<emphasis effect="italics">EBP</emphasis>)</emphasis>, and the <term>confidence level</term> for a proportion is similar to that for the population mean, but the formulas are different.</para><!--<para id="element-574"><emphasis>How do you know you are dealing with a proportion problem?</emphasis> First, the underlying <emphasis>distribution is a</emphasis> <term>binomial distribution</term>. (There is no mention of a mean or average.) If <emphasis effect="italics">X</emphasis> is a binomial random variable, then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>)  where <emphasis effect="italics">n</emphasis> is the number of trials and <emphasis effect="italics">p</emphasis> is the probability of a success. To form a proportion, take <emphasis effect="italics">X</emphasis>, the random variable for the number of successes and divide it by <emphasis effect="italics">n</emphasis>, the number of trials (or the sample size). The random variable <emphasis effect="italics">P&#8242;</emphasis> (read "P prime") is that proportion,
   </para>
  <para id="element-771"><m:math>
    <m:mrow>
@@ -145,7 +145,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></para>-->
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567231322"><emphasis>How do you know you are dealing with a proportion problem?</emphasis> First, the data that you are collecting is categorical, consisting of two categories: Success or Failure, Yes or No. Examples of situations where you are the following trying to estimate the true population proportion are the following: What proportion of the population smoke? What proportion of the population will vote for candidate A? What proportion of the population has a college-level education?</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164566243109">The distribution of the sample proportions (based on samples of size <emphasis effect="italics">n</emphasis>) is denoted by <emphasis effect="italics">P′</emphasis> (read “P prime”).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565431840">The central limit theorem for proportions asserts that the sample proportion distribution <emphasis effect="italics">P′</emphasis> follows a normal distribution with mean value <emphasis effect="italics">p</emphasis>, and standard deviation <m:math>
+<para id="fs-id1164567231322"><emphasis>How do you know you are dealing with a proportion problem?</emphasis> First, the data that you are collecting is categorical, consisting of two categories: Success or Failure, Yes or No. Examples of situations where you are the following trying to estimate the true population proportion are the following: What proportion of the population smoke? What proportion of the population will vote for candidate A? What proportion of the population has a college-level education?</para><para id="fs-id1164566243109">The distribution of the sample proportions (based on samples of size <emphasis effect="italics">n</emphasis>) is denoted by <emphasis effect="italics">P′</emphasis> (read “P prime”).</para><para id="fs-id1164565431840">The central limit theorem for proportions asserts that the sample proportion distribution <emphasis effect="italics">P′</emphasis> follows a normal distribution with mean value <emphasis effect="italics">p</emphasis>, and standard deviation <m:math>
  <m:semantics>
   <m:mrow>
    <m:msqrt>
@@ -163,7 +163,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
   </m:mrow>
  </m:semantics>
 </m:math>, where <emphasis effect="italics">p</emphasis> is the population proportion and <emphasis effect="italics">q</emphasis> = 1 - <emphasis effect="italics">p</emphasis>.</para><para id="element-716">The confidence interval has the form (<emphasis effect="italics">p′</emphasis> – <emphasis effect="italics">EBP</emphasis>, <emphasis effect="italics">p′</emphasis> + <emphasis effect="italics">EBP</emphasis>). <emphasis effect="italics">EBP</emphasis> is error bound for the proportion.</para>
- <equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565775223" class="unnumbered"><label/><m:math>
+ <equation id="fs-id1164565775223" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>p</m:mi>
@@ -291,7 +291,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
 
 <para id="element-685">In the error bound formula, the <emphasis effect="italics">sample proportions <emphasis effect="italics">p′</emphasis> and <emphasis effect="italics">q′</emphasis>, are estimates of the unknown population proportions <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis></emphasis>. The estimated proportions <emphasis effect="italics">p′</emphasis> and <emphasis effect="italics">q′</emphasis> are used because <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> are not known. The sample proportions <emphasis effect="italics">p′</emphasis> and <emphasis effect="italics">q′</emphasis> are calculated from the data: <emphasis effect="italics">p′</emphasis> is the estimated proportion of successes, and <emphasis effect="italics">q′</emphasis> is the estimated proportion of failures.</para>
 
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-711">The confidence interval can be used only if the number of successes <emphasis effect="italics">np′</emphasis> and the number of failures <emphasis effect="italics">nq′</emphasis> are both greater than five.</para><para id="fs-id1164565321432">That is, in order to use the formula for confidence intervals for proportions, you need to verify that both <m:math>
+ <para id="eip-711">The confidence interval can be used only if the number of successes <emphasis effect="italics">np′</emphasis> and the number of failures <emphasis effect="italics">nq′</emphasis> are both greater than five.</para><para id="fs-id1164565321432">That is, in order to use the formula for confidence intervals for proportions, you need to verify that both <m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>n</m:mi><m:msup>
@@ -378,7 +378,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
 <item>The first solution is step-by-step (Solution A).</item>
 <item>The second solution uses a function of the TI-83, 83+, or 84 calculators (Solution B).</item>
 </list>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-386">Let <emphasis effect="italics">X</emphasis> = the number of people in the sample who have cell phones. <emphasis effect="italics">X</emphasis> is binomial. <m:math>
+ <para id="element-386">Let <emphasis effect="italics">X</emphasis> = the number of people in the sample who have cell phones. <emphasis effect="italics">X</emphasis> is binomial. <m:math>
  <m:mrow>
   <m:mi>X</m:mi><m:mo>~</m:mo><m:mi>B</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -397,7 +397,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
 </m:math>.</para><para id="element-985">To calculate the confidence interval, you must find <emphasis effect="italics">p′</emphasis>, <emphasis effect="italics">q′</emphasis>, and <emphasis effect="italics">EBP</emphasis>.</para>
  <para id="element-227"><emphasis effect="italics">n</emphasis> = 500</para>
 <para id="eip-idm67964976"><emphasis effect="italics">x</emphasis> = the number of successes = 421</para>
- <equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565679056" class="unnumbered"><label/><m:math>
+ <equation id="fs-id1164565679056" class="unnumbered"><label/><m:math>
   <m:mrow>
    <m:msup>
     <m:mi>p</m:mi>
@@ -420,7 +420,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
  </m:math>
   </equation><para id="fs-idp54910160"><emphasis effect="italics">p′</emphasis> = 0.842 is the sample proportion; this is the point estimate of the population proportion.</para>
 
- <equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164568020872" class="unnumbered"><label/><m:math>
+ <equation id="fs-id1164568020872" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>q</m:mi><m:mtext>′ = 1 – </m:mtext><m:mi>p</m:mi><m:mtext>′ = 1 – 0</m:mtext><m:mtext>.842 = 0</m:mtext><m:mtext>.158</m:mtext>
@@ -440,7 +440,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 0.025.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-838a">Then, <m:math>
+<para id="element-838a">Then, <m:math>
 <m:msub>
 <m:mi>z</m:mi>
 <m:mfrac>
@@ -460,7 +460,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
 <m:mo>=</m:mo>
 <m:mn>1.96</m:mn>
 <m:mtext>.</m:mtext>
-</m:math></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-88" class="finger">Use the TI-83, 83+, or 84+ calculator command invNorm(0.975,0,1) to find <emphasis effect="italics">z</emphasis><sub>0.025</sub>. Remember that the area to the right of <emphasis effect="italics">z</emphasis><sub>0.025</sub>is 0.025, and the area to the left of <emphasis effect="italics">z</emphasis><sub>0.025</sub>is 0.975. This can also be found using appropriate commands on other calculators, using a computer, or using a standard normal probability table.</para><equation id="fs-id1164565682159" class="unnumbered"><label/><m:math>
+</m:math></para><para id="element-88" class="finger">Use the TI-83, 83+, or 84+ calculator command invNorm(0.975,0,1) to find <emphasis effect="italics">z</emphasis><sub>0.025</sub>. Remember that the area to the right of <emphasis effect="italics">z</emphasis><sub>0.025</sub>is 0.025, and the area to the left of <emphasis effect="italics">z</emphasis><sub>0.025</sub>is 0.975. This can also be found using appropriate commands on other calculators, using a computer, or using a standard normal probability table.</para><equation id="fs-id1164565682159" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -512,7 +512,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
  </m:mrow>
 </m:math></equation>
 
- <equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565911853" class="unnumbered"><label/><m:math>
+ <equation id="fs-id1164565911853" class="unnumbered"><label/><m:math>
 <m:mi>p</m:mi>
 <m:mo>′</m:mo>
 <m:mo>–</m:mo>
@@ -543,7 +543,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
 <solution id="fs-idm19757088">
 <note id="fs-idm86739552" class="statistics calculator">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-387">Press <code>STAT</code> and arrow over to <code>TESTS</code>.<newline/>
+<para id="element-387">Press <code>STAT</code> and arrow over to <code>TESTS</code>.<newline/>
 Arrow down to <code>A:1-PropZint</code>. Press <code>ENTER</code>.<newline/>
 Arrow down to <emphasis effect="italics">x</emphasis> and enter 421.<newline/>
 Arrow down to <emphasis effect="italics">n</emphasis> and enter 500.<newline/>
@@ -650,7 +650,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
   </m:mrow>
  </m:semantics>
 </m:math></equation>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-803" class="finger">Use the TI-83, 83+, or 84+ calculator command invNorm(0.95,0,1) to find <emphasis effect="italics">z</emphasis><sub>0.05</sub>. Remember that the area to the right of <emphasis effect="italics">z</emphasis><sub>0.05</sub> is 0.05, and the area to the left of <emphasis effect="italics">z</emphasis><sub>0.05</sub> is 0.95. This can also be found using appropriate commands on other calculators, using a computer, or using a standard normal probability table.</para><equation id="fs-id1164564320358" class="unnumbered"><label/><m:math>
+ <para id="element-803" class="finger">Use the TI-83, 83+, or 84+ calculator command invNorm(0.95,0,1) to find <emphasis effect="italics">z</emphasis><sub>0.05</sub>. Remember that the area to the right of <emphasis effect="italics">z</emphasis><sub>0.05</sub> is 0.05, and the area to the left of <emphasis effect="italics">z</emphasis><sub>0.05</sub> is 0.95. This can also be found using appropriate commands on other calculators, using a computer, or using a standard normal probability table.</para><equation id="fs-id1164564320358" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -719,7 +719,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
     <m:mo>+</m:mo><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>0.60</m:mn><m:mo>+</m:mo><m:mn>0.036</m:mn><m:mo>=</m:mo><m:mn>0.636</m:mn>
    </m:mrow>
  </m:math></equation>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-343">The confidence interval for the true binomial population proportion is (<emphasis effect="italics">p′</emphasis> – <emphasis effect="italics">EBP</emphasis> , <emphasis effect="italics">p′</emphasis> + <emphasis effect="italics">EBP</emphasis>) = (0.564, 0.636).</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-523" list-type="bulleted"><title><emphasis>Interpretation</emphasis></title><item>We estimate with 90 percent confidence that the true percentage of all students who are registered voters is between 56.4 percent and 63.6 percent.</item>
+<para id="element-343">The confidence interval for the true binomial population proportion is (<emphasis effect="italics">p′</emphasis> – <emphasis effect="italics">EBP</emphasis> , <emphasis effect="italics">p′</emphasis> + <emphasis effect="italics">EBP</emphasis>) = (0.564, 0.636).</para><list id="element-523" list-type="bulleted"><title><emphasis>Interpretation</emphasis></title><item>We estimate with 90 percent confidence that the true percentage of all students who are registered voters is between 56.4 percent and 63.6 percent.</item>
 <item>Alternate wording: We estimate with 90 percent confidence that between 56.4 percent and 63.6 percent of all students are registered voters.</item>
  </list><para id="element-828"><title>Explanation of 90 percent Confidence Level</title>Ninety percent of all confidence intervals constructed in this way contain the true value for the population percentage of students who are registered voters.</para>
 </solution>
@@ -727,7 +727,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 <para id="eip-idm56642544"><title>Solution B</title></para>
 <note id="fs-idm49834128" class="statistics calculator">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-833">Press <code>STAT</code> and arrow over to <code>TESTS</code>.
+<para id="eip-833">Press <code>STAT</code> and arrow over to <code>TESTS</code>.
 <newline/>Arrow down to <code>A:1-PropZint</code>. Press <code>ENTER</code>.
 <newline/>Arrow down to <emphasis effect="italics">x</emphasis> and enter 300.
 <newline/>Arrow down to <emphasis effect="italics">n</emphasis> and enter 500.
@@ -740,7 +740,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 <title>Try It</title>
 <exercise id="fs-idm23330928">
 <problem id="eip-165">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-183">A student polls her school to determine whether students in the school district are for or against the new legislation regarding school uniforms. She surveys 600 students and finds that 480 are against the new legislation.<newline count="2"/></para><para id="fs-idp17812400">a. Compute a 90 percent confidence interval for the true percentage of students who are against the new legislation, and interpret the confidence interval.</para>
+<para id="eip-183">A student polls her school to determine whether students in the school district are for or against the new legislation regarding school uniforms. She surveys 600 students and finds that 480 are against the new legislation.<newline count="2"/></para><para id="fs-idp17812400">a. Compute a 90 percent confidence interval for the true percentage of students who are against the new legislation, and interpret the confidence interval.</para>
 </problem>
 <solution id="eip-587">
 <label/>
@@ -751,11 +751,11 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 </exercise>
 <exercise id="fs-idm29038320">
 <problem id="eip-882">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-207">b. In a sample of 300 students, 68 percent said they own an iPod and a smartphone. Compute a 97 percent confidence interval for the true percentage of students who own an iPod and a smartphone.</para></problem>
+<para id="eip-207">b. In a sample of 300 students, 68 percent said they own an iPod and a smartphone. Compute a 97 percent confidence interval for the true percentage of students who own an iPod and a smartphone.</para></problem>
 <solution id="eip-92">
 <label/>
 <title>Solution A</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-763">Sixty-eight percent (68 percent) of students own an iPod and a smartphone.</para><para id="eip-idm4721728"><m:math>
+<para id="eip-763">Sixty-eight percent (68 percent) of students own an iPod and a smartphone.</para><para id="eip-idm4721728"><m:math>
   <m:mrow>
    <m:msup>
     <m:mi>p</m:mi>
@@ -860,13 +860,13 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 
  <para id="eip-idp45164656"><emphasis effect="italics">p</emphasis>′ + <emphasis effect="italics">EPB</emphasis> = 0.68 + 0.0269 = 0.7069</para>
 
-   <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm6937888">We are 97 percent confident that the true proportion of all students who own an iPod and a smartphone is between 0.6531 and 0.7069.</para></solution>
+   <para id="eip-idm6937888">We are 97 percent confident that the true proportion of all students who own an iPod and a smartphone is between 0.6531 and 0.7069.</para></solution>
 <solution id="fs-idp55452768">
 <label/>
 <title>Solution B</title>
 <note id="fs-idm90377968" class="statistics calculator">
 <label/>
-   <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp141818496">Press <code>STAT</code> and arrow over to <code>TESTS</code>.<newline/>
+   <para id="fs-idp141818496">Press <code>STAT</code> and arrow over to <code>TESTS</code>.<newline/>
    Arrow down to <code>A:1-PropZint</code>. Press <code>ENTER</code>.<newline/>
    Arrow down to <emphasis effect="italics">x</emphasis> and enter 300*0.68. <newline/>
    Arrow down to <emphasis effect="italics">n</emphasis> and enter 300.<newline/>
@@ -885,12 +885,12 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 
   <para id="eip-idp9663392">Fortunately, there is a simple adjustment that allows us to produce more accurate confidence intervals: We simply pretend that we have four additional observations. Two of these observations are successes, and two are failures. The new sample size, then, is <emphasis effect="italics">n</emphasis> + 4, and the new count of successes is <emphasis effect="italics">x</emphasis> + 2. </para>
 
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp9663968">Computer studies have demonstrated the effectiveness of the <emphasis effect="bold">plus-four confidence interval for <emphasis effect="italics">p</emphasis> method</emphasis>. It should be used when the confidence level desired is at least 90 percent and the sample size is at least ten.</para></section>
+  <para id="eip-idp9663968">Computer studies have demonstrated the effectiveness of the <emphasis effect="bold">plus-four confidence interval for <emphasis effect="italics">p</emphasis> method</emphasis>. It should be used when the confidence level desired is at least 90 percent and the sample size is at least ten.</para></section>
  <example id="eip-982"><exercise id="eip-152"><problem id="eip-885">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-191">A random sample of 25 statistics students was asked: “Have you used a product in the past week?” Six students reported using the product within the past week. Use the plus-four method to find a 95 percent confidence interval for the true proportion of statistics students who use the product weekly.</para></problem>
+  <para id="eip-191">A random sample of 25 statistics students was asked: “Have you used a product in the past week?” Six students reported using the product within the past week. Use the plus-four method to find a 95 percent confidence interval for the true proportion of statistics students who use the product weekly.</para></problem>
 <solution id="eip-19">
 <label/><title>Solution A</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp35102016">Six students out of 25 reported using a product within the past week, so <emphasis effect="italics">x</emphasis> = 6 and <emphasis effect="italics">n</emphasis> = 25. Because we are using the plus-four method, we will use <emphasis effect="italics">x</emphasis> = 6 + 2 = 8, and <emphasis effect="italics">n</emphasis> = 25 + 4 = 29.</para><equation id="fs-id1164565500426" class="unnumbered"><label/><m:math display="block">
+<para id="eip-idp35102016">Six students out of 25 reported using a product within the past week, so <emphasis effect="italics">x</emphasis> = 6 and <emphasis effect="italics">n</emphasis> = 25. Because we are using the plus-four method, we will use <emphasis effect="italics">x</emphasis> = 6 + 2 = 8, and <emphasis effect="italics">n</emphasis> = 25 + 4 = 29.</para><equation id="fs-id1164565500426" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:msup>
    <m:mi>p</m:mi>
@@ -994,7 +994,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
   <m:mo>≈</m:mo><m:mn>0.163</m:mn>
  </m:mrow>
 </m:math></equation>
- <equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567152972" class="unnumbered"><label/><m:math>
+ <equation id="fs-id1164567152972" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mtable columnalign="left">
    <m:mtr>
@@ -1015,8 +1015,8 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 </solution>
 <solution id="fs-idp68718096">
 <note id="fs-idp48064384" class="statistics calculator"><label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp140335584">Press <code>STAT</code> and arrow over to <code>TESTS</code>.<newline/>
- Arrow down to <code>A:1-PropZint</code>. Press <code>ENTER</code>.<newline/></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm64251984">Arrow down to <emphasis effect="italics">x</emphasis> and enter 8.<newline/>
+<para id="fs-idp140335584">Press <code>STAT</code> and arrow over to <code>TESTS</code>.<newline/>
+ Arrow down to <code>A:1-PropZint</code>. Press <code>ENTER</code>.<newline/></para><para id="fs-idm64251984">Arrow down to <emphasis effect="italics">x</emphasis> and enter 8.<newline/>
  Arrow down to <emphasis effect="italics">n</emphasis> and enter 29.<newline/>
  Arrow down to <code>C-Level</code> and enter 0.95.<newline/>
  Arrow down to <code>Calculate</code> and press <code>ENTER</code>.<newline/>
@@ -1031,7 +1031,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 <title>Try It</title>
       <exercise id="eip-479">
        <problem id="eip-517">
-    <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-987">Out of a random sample of 65 freshmen at State University, 31 students have declared their majors. Use the plus-four method to find a 96 percent confidence interval for the true proportion of freshmen at State University who have declared their majors.</para></problem>
+    <para id="eip-987">Out of a random sample of 65 freshmen at State University, 31 students have declared their majors. Use the plus-four method to find a 96 percent confidence interval for the true proportion of freshmen at State University who have declared their majors.</para></problem>
 
     <solution id="eip-514">
      <label/>
@@ -1153,13 +1153,13 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 </m:math></para>
      <para id="eip-idm36036512"><emphasis effect="italics">p′</emphasis> – <emphasis effect="italics">EPB</emphasis> = 0.478 – 0.124 = 0.354</para>
      <para id="eip-idm110941808"><emphasis effect="italics">p′</emphasis> + <emphasis effect="italics">EPB</emphasis> = 0.478 + 0.124 = 0.602</para>
-     <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm110941168">We are 96 percent confident that between 35.4 percent and 60.2 percent of all freshmen at State University have declared a major.</para></solution>
+     <para id="eip-idm110941168">We are 96 percent confident that between 35.4 percent and 60.2 percent of all freshmen at State University have declared a major.</para></solution>
 <solution id="fs-idp140466544">
 <label/>
 <title>Solution B</title>
 <note id="fs-idp20802432" class="statistics calculator">
 <label/>
-    <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp13187440">Press <code>STAT</code> and arrow over to <code>TESTS</code>.<newline/>
+    <para id="fs-idp13187440">Press <code>STAT</code> and arrow over to <code>TESTS</code>.<newline/>
       Arrow down to <code>A:1-PropZint</code>. Press <code>ENTER</code>.<newline/>
       Arrow down to <emphasis effect="italics">x</emphasis> and enter 33.<newline/>
       Arrow down to <emphasis effect="italics">n</emphasis> and enter 69.<newline/>
@@ -1171,9 +1171,9 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
   </note>
 <example id="eip-251">
 <exercise id="eip-790"><problem id="eip-4">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm57290160">A group of researchers recently conducted a study analyzing the privacy management habits of teen internet users. In a group of 50 teens, 13 reported having more than 500 friends on a social media site. Use the plus four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends.</para></problem>
+  <para id="eip-idm57290160">A group of researchers recently conducted a study analyzing the privacy management habits of teen internet users. In a group of 50 teens, 13 reported having more than 500 friends on a social media site. Use the plus four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends.</para></problem>
 <solution id="eip-598">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp21168352">Using plus-four, we have x = 13 + 2 = 15, and <emphasis effect="italics">n</emphasis> = 50 + 4 = 54.</para><equation id="fs-id1164567616342">
+<para id="eip-idp21168352">Using plus-four, we have x = 13 + 2 = 15, and <emphasis effect="italics">n</emphasis> = 50 + 4 = 54.</para><equation id="fs-id1164567616342">
   <m:math>
  <m:mrow>
   <m:msup>
@@ -1192,7 +1192,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
  </m:mrow>
 </m:math>
 </equation>
-<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567368471" class="unnumbered"><label/><m:math>
+<equation id="fs-id1164567368471" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:msup>
    <m:mi>q</m:mi>
@@ -1281,7 +1281,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
   <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:mn>0.100</m:mn>
  </m:mrow>
 </m:math></equation>
-<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567885422" class="unnumbered"><label/><m:math>
+<equation id="fs-id1164567885422" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mtable columnalign="left">
    <m:mtr>
@@ -1301,7 +1301,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 <solution id="fs-idp141579680">
 <note id="fs-idm93286128" class="statistics calculator">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp57846688"><newline/>Press <code>STAT</code> and arrow over to <code>TESTS</code>.
+<para id="fs-idp57846688"><newline/>Press <code>STAT</code> and arrow over to <code>TESTS</code>.
   <newline/>Arrow down to <code>A:1-PropZint</code>. Press <code>ENTER</code>.
   <newline/>Arrow down to <emphasis effect="italics">x</emphasis> and enter 15.
   <newline/>Arrow down to <emphasis effect="italics">n</emphasis> and enter 54.
@@ -1316,7 +1316,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 <label/>
  <title>Try It</title>
  <exercise id="eip-375"><problem id="eip-391">
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-879">The research group referenced in <link target-id="eip-251" document=""/> talked to teens in smaller focus groups but also interviewed additional teens over the phone. When the study was complete, 588 teens had answered the question about their social media site friends, with 159 saying that they have more than 500 friends. Use the plus-four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends based on this larger sample. Compare the results to those in <link target-id="eip-251" document=""/>.
+ <para id="eip-879">The research group referenced in <link target-id="eip-251" document=""/> talked to teens in smaller focus groups but also interviewed additional teens over the phone. When the study was complete, 588 teens had answered the question about their social media site friends, with 159 saying that they have more than 500 friends. Use the plus-four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends based on this larger sample. Compare the results to those in <link target-id="eip-251" document=""/>.
      </para></problem>
 
      <solution id="eip-291">
@@ -1353,7 +1353,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
   <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mn>0.272</m:mn><m:mo>=</m:mo><m:mn>0.728</m:mn>
  </m:mrow>
 </m:math></para>
-      <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm14921824">Since <emphasis effect="italics">CL</emphasis> = 0.90, we know <emphasis effect="italics">α</emphasis> = 1 – 0.90 = 0.10 and <m:math>
+      <para id="eip-idm14921824">Since <emphasis effect="italics">CL</emphasis> = 0.90, we know <emphasis effect="italics">α</emphasis> = 1 – 0.90 = 0.10 and <m:math>
         <m:mrow>
          <m:mfrac>
           <m:mi>α</m:mi>
@@ -1426,7 +1426,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 <solution id="fs-idp149843920">
 <label/>
 <title>Solution B</title>
-<note xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp87572768" class="statistics calculator"><label/>
+<note id="fs-idp87572768" class="statistics calculator"><label/>
 <para id="eip-idm350727680"><newline/>Press <code>STAT</code> and arrow over to <code>TESTS</code>.
 <newline/>Arrow down to <code>A:1-PropZint</code>. Press <code>ENTER</code>.
 <newline/>Arrow down to <emphasis effect="italics">x</emphasis> and enter 161.
@@ -1442,7 +1442,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
        <para id="element-24">
 If researchers desire a specific margin of error, then they can use the error bound formula to calculate the required sample size.
 </para><para id="element-957">The margin of error formula for a population proportion is
-</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-166" list-type="bulleted"><!--<item>
+</para><list id="element-166" list-type="bulleted"><!--<item>
  <m:math>
  <m:mrow>
   <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
@@ -1580,7 +1580,7 @@ If researchers desire a specific margin of error, then they can use the error bo
 </m:math>, multiplying by the point estimate <emphasis effect="italics">p′</emphasis>, and by <emphasis effect="italics">q′</emphasis> = 1 – <emphasis effect="italics">p′</emphasis> and finally dividing the result by the square of the margin of error. <emphasis effect="italics">Always remember to round up the value of n</emphasis>.</item>
 </list><example id="element-724">
 <exercise id="fs-idp171900368">
-<problem id="fs-idp171900624"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-843">Suppose a mobile phone company wants to determine the current percentage of customers ages 50+ who use text messaging on their cell phones. How many customers ages 50+ should the company survey in order to be 90 percent confident that the estimated (sample) proportion is within 3 percentage points of the true population proportion of customers ages 50+ who use text messaging on their cell phones? Assume that <emphasis effect="italics">p′</emphasis> = 0.5.</para></problem>
+<problem id="fs-idp171900624"><para id="eip-843">Suppose a mobile phone company wants to determine the current percentage of customers ages 50+ who use text messaging on their cell phones. How many customers ages 50+ should the company survey in order to be 90 percent confident that the estimated (sample) proportion is within 3 percentage points of the true population proportion of customers ages 50+ who use text messaging on their cell phones? Assume that <emphasis effect="italics">p′</emphasis> = 0.5.</para></problem>
  <solution id="fs-idp53892304">
 <para id="eip-806">From the problem, we know that <emphasis effect="italics">EBP</emphasis> = 0.03 (3 percent=0.03), and
    <m:math>
@@ -1658,9 +1658,9 @@ If researchers desire a specific margin of error, then they can use the error bo
 <title>Try It</title>
       <exercise id="eip-143">
     <problem id="eip-26">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-803">An internet marketing company wants to determine the current percentage of customers who click on ads on their smartphones. How many customers should the company survey in order to be 90 percent confident that the estimated proportion is within 5 percentage points of the true population proportion of customers who click on ads on their smartphones? Assume that the sample proportion <emphasis effect="italics">p′</emphasis> is 0.50.</para></problem>
+  <para id="eip-803">An internet marketing company wants to determine the current percentage of customers who click on ads on their smartphones. How many customers should the company survey in order to be 90 percent confident that the estimated proportion is within 5 percentage points of the true population proportion of customers who click on ads on their smartphones? Assume that the sample proportion <emphasis effect="italics">p′</emphasis> is 0.50.</para></problem>
 <solution id="eip-599">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-171">271 customers should be surveyed. Check the Real Estate section in your local</para></solution>
+  <para id="eip-171">271 customers should be surveyed. Check the Real Estate section in your local</para></solution>
    </exercise>
  </note>
  </section>
@@ -1674,7 +1674,7 @@ If researchers desire a specific margin of error, then they can use the error bo
 <para id="eip-idm58656656">&#8220;52 percent Say Big-Time College Athletics Corrupt Education Process.&#8221; Rasmussen Reports, 2013. Available online at http://www.rasmussenreports.com/public_content/lifestyle/sports/may_2013/52_say_big_time_college_athletics_corrupt_education_process (accessed July 2, 2013).-->
 <para id="fs-id1164564492750">Jensen, T. (2013). <emphasis effect="italics">Democrats, Republicans divided on opinion of music icons</emphasis>. Retrieved from http://www.publicpolicypolling.com/Day2MusicPoll.pdf</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567496330">Madden, M., et al. (2013). <emphasis effect="italics">Teens, social media, and privacy</emphasis>. Retrieved from http://www.pewinternet.org/Reports/2013/Teens-Social-Media-And-Privacy.aspx</para><para id="fs-id1164567555987">Princeton Survey Research Associates International. (2012). <emphasis effect="italics">2012 teens and privacy management survey</emphasis>. Retrieved from http://www.pewinternet.org/~/media//Files/Questionnaire/2013/Methods%20and%20Questions_Teens%20and%20Social%20Media.pdf</para>
+<para id="fs-id1164567496330">Madden, M., et al. (2013). <emphasis effect="italics">Teens, social media, and privacy</emphasis>. Retrieved from http://www.pewinternet.org/Reports/2013/Teens-Social-Media-And-Privacy.aspx</para><para id="fs-id1164567555987">Princeton Survey Research Associates International. (2012). <emphasis effect="italics">2012 teens and privacy management survey</emphasis>. Retrieved from http://www.pewinternet.org/~/media//Files/Questionnaire/2013/Methods%20and%20Questions_Teens%20and%20Social%20Media.pdf</para>
 
 <para id="fs-id1164564346246">Rasmussen Reports. (2013). <emphasis effect="italics">52% say big-time college athletics corrupt education process</emphasis>. Retrieved from http://www.rasmussenreports.com/public_content/lifestyle/sports/may_2013/52_say_big_time_college_athletics_corrupt_education_process</para>
 
@@ -1685,7 +1685,7 @@ If researchers desire a specific margin of error, then they can use the error bo
 <para id="fs-id1164566062710">Zogby Analytics. (2013). <emphasis effect="italics">New SUNYIT/Zogby analytics poll: Few Americans worry about emergency situations occurring in their community; Only one in three have an emergency plan; 70% support infrastructure investment for national security</emphasis>. Retrieved from http://www.zogbyanalytics.com/news/299-americans-neither-worried-norprepared-in-case-of-a-disaster-sunyit-zogby-analytics-poll</para>
 
 
-</section><section xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-854" class="summary"><title>Chapter Review</title><para id="eip-idm15657920">Some statistical measures, like many survey questions, measure qualitative rather than quantitative data. In this case, the population parameter being estimated is a proportion. It is possible to create a confidence interval for the true population proportion by following procedures similar to those used in creating confidence intervals for population means. The formulas are slightly different, but they follow the same reasoning.</para>
+</section><section id="eip-854" class="summary"><title>Chapter Review</title><para id="eip-idm15657920">Some statistical measures, like many survey questions, measure qualitative rather than quantitative data. In this case, the population parameter being estimated is a proportion. It is possible to create a confidence interval for the true population proportion by following procedures similar to those used in creating confidence intervals for population means. The formulas are slightly different, but they follow the same reasoning.</para>
 
   <para id="eip-idm15657536">Let <emphasis effect="italics">p′</emphasis> represent the sample proportion, <emphasis effect="italics">x/n</emphasis>, where <emphasis effect="italics">x</emphasis> represents the number of successes, and <emphasis effect="italics">n</emphasis> represents the sample size. Let <emphasis effect="italics">q′</emphasis> = 1 – <emphasis effect="italics">p′</emphasis>. Then the confidence interval for a population proportion is given by the following formula:</para>
 <para id="fs-id1164566323014">(lower bound, upper bound) <m:math>
@@ -1767,14 +1767,14 @@ If researchers desire a specific margin of error, then they can use the error bo
  </m:mrow>
 </m:math>, and proceed to find the confidence interval. When sample sizes are small, this method has been demonstrated to provide more accurate confidence intervals than the standard formula used for larger samples.</para></section><section id="eip-826" class="formula-review">
 <title>Formula Review</title>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm44244000"><emphasis effect="italics">p′ = x/n</emphasis>, where <emphasis effect="italics">x</emphasis> represents the number of successes and <emphasis effect="italics">n</emphasis> represents the sample size. The variable <emphasis effect="italics">p</emphasis>′ is the sample proportion and serves as the point estimate for the true population proportion.</para><equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1169833202523" class="unnumbered"><label/><m:math>
+ <para id="eip-idm44244000"><emphasis effect="italics">p′ = x/n</emphasis>, where <emphasis effect="italics">x</emphasis> represents the number of successes and <emphasis effect="italics">n</emphasis> represents the sample size. The variable <emphasis effect="italics">p</emphasis>′ is the sample proportion and serves as the point estimate for the true population proportion.</para><equation id="fs-id1169833202523" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>q</m:mi><m:mtext>′ = 1 – </m:mtext><m:mi>p</m:mi><m:mtext>′</m:mtext>
   </m:mrow>
  </m:semantics>
 </m:math>
-</equation><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm163551632"><m:math>
+</equation><para id="eip-idm163551632"><m:math>
  <m:mrow>
   <m:msup>
    <m:mi>p</m:mi>
@@ -1834,7 +1834,7 @@ If researchers desire a specific margin of error, then they can use the error bo
  </m:semantics>
 </m:math>
 </equation>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm140522368"><emphasis effect="bold">Confidence interval for a proportion:</emphasis></para><para id="eip-idm140521984"><m:math>
+ <para id="eip-idm140522368"><emphasis effect="bold">Confidence interval for a proportion:</emphasis></para><para id="eip-idm140521984"><m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:mtext>lower bound, upper bound)</m:mtext><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msup>
    <m:mi>p</m:mi>
@@ -2036,7 +2036,7 @@ Identify the following:
  <exercise id="eip-839"><problem id="eip-166">
   <para id="eip-idp170819776">List two difficulties the company might have in obtaining random results if this survey were done by email.</para>
 </problem>
-</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-488"><newline/><emphasis effect="italics">Use the following information to answer the next five exercises:</emphasis> Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82 percent of manual laborers preferred trucks, 62 percent of non-manual wage earners preferred trucks, 54 percent of mid-level managers preferred trucks, and 26 percent of executives preferred trucks.
+</exercise><para id="eip-488"><newline/><emphasis effect="italics">Use the following information to answer the next five exercises:</emphasis> Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82 percent of manual laborers preferred trucks, 62 percent of non-manual wage earners preferred trucks, 54 percent of mid-level managers preferred trucks, and 26 percent of executives preferred trucks.
 </para><exercise id="eip-115"><problem id="eip-837">
  <para id="eip-idm93454256">We are interested in finding the 95 percent confidence interval for the percentage of executives who prefer trucks. Define random variables <emphasis effect="italics">X</emphasis> and <emphasis effect="italics">P</emphasis>′ in words.</para>
 </problem>
@@ -2067,7 +2067,7 @@ Identify the following:
 <para id="eip-idp36786320">The sampling error means that the true mean can be 2 percent above or below the sample mean.</para>
 </solution>
 </exercise>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-770"><newline/><emphasis effect="italics">Use the following information to answer the next five exercises:</emphasis> A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered "the economy." We are interested in the population proportion of voters who believe the economy is the most important.</para><exercise id="eip-808"><problem id="eip-294">
+ <para id="eip-770"><newline/><emphasis effect="italics">Use the following information to answer the next five exercises:</emphasis> A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered "the economy." We are interested in the population proportion of voters who believe the economy is the most important.</para><exercise id="eip-808"><problem id="eip-294">
 <para id="eip-idp73640048">Define the random variable <emphasis effect="italics">X</emphasis> in words.</para>
 </problem>
 </exercise><exercise id="eip-94"><problem id="eip-929">
@@ -2095,7 +2095,7 @@ Identify the following:
   <para id="element-79">What is being counted?</para>
 </problem>
  <solution id="fs-idp114007216">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp114007472">the number of girls, ages 8 to 12, in the 5 p.m. Monday night beginning ice-skating class</para></solution>
+  <para id="fs-idp114007472">the number of girls, ages 8 to 12, in the 5 p.m. Monday night beginning ice-skating class</para></solution>
 </exercise>
 <exercise id="element-708"><problem id="id3220390">
   <para id="element-976">In words, define the random variable <emphasis effect="italics">X</emphasis>.</para>
@@ -2118,7 +2118,7 @@ Calculate the following:
 </solution>
 </exercise>
 <exercise id="element-296"><problem id="id8027106">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-99">State the estimated distribution of <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis>~ ________</para></problem>
+  <para id="element-99">State the estimated distribution of <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis>~ ________</para></problem>
 </exercise><exercise id="element-324"><problem id="id3370663">
  <para id="element-84">Define a new random variable <emphasis effect="italics">P</emphasis>′. What is <emphasis effect="italics">p</emphasis>′ estimating?
  </para>
@@ -2130,7 +2130,7 @@ Calculate the following:
 <exercise id="element-257"><problem id="id3304622">
  <para id="element-442">In words, define the random variable <emphasis effect="italics">P</emphasis>′.</para>
 </problem>
-</exercise><exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-759"><problem id="id9812677">
+</exercise><exercise id="element-759"><problem id="id9812677">
  <para id="element-678">State the estimated distribution of <emphasis effect="italics">P</emphasis>′. Construct a 92 percent confidence interval for the true proportion of girls in the ages 8 to 12 beginning ice-skating classes at the Ice Chalet.</para>
 </problem>
 <solution id="fs-idm95519424">
@@ -2296,7 +2296,7 @@ Calculate the following:
    </list>
   </item></list></solution>
  </exercise><exercise id="eip-idp49345824"><problem id="eip-idp49345952">
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp49346080">An article regarding dating and marriage recently appeared in a major newspaper. Of the 1,709 randomly selected adults, 315 identified themselves as ethnicity A, 323 identified themselves as ethnicity B, 254 identified themselves as ethnicity C, and 779 identified themselves as ethnicity D. In this survey, 86 percent of ethnicity B said that they would welcome a person of ethnicity A into their families. Among ethnicity C, 77 percent would welcome a person of ethnicity D into their families, 71 percent would welcome a person of ethnicity A, and 66 percent would welcome a person of ethnicity B.</para><list id="eip-idm65104512" list-type="enumerated" number-style="lower-alpha"><item>We are interested in finding the 95 percent confidence interval for the percent of all ethnicity B adults who would welcome a person of ethnicity D into their families. Define the random variables <emphasis effect="italics">X</emphasis> and <emphasis effect="italics">P</emphasis>′ in words.</item>
+ <para id="eip-idp49346080">An article regarding dating and marriage recently appeared in a major newspaper. Of the 1,709 randomly selected adults, 315 identified themselves as ethnicity A, 323 identified themselves as ethnicity B, 254 identified themselves as ethnicity C, and 779 identified themselves as ethnicity D. In this survey, 86 percent of ethnicity B said that they would welcome a person of ethnicity A into their families. Among ethnicity C, 77 percent would welcome a person of ethnicity D into their families, 71 percent would welcome a person of ethnicity A, and 66 percent would welcome a person of ethnicity B.</para><list id="eip-idm65104512" list-type="enumerated" number-style="lower-alpha"><item>We are interested in finding the 95 percent confidence interval for the percent of all ethnicity B adults who would welcome a person of ethnicity D into their families. Define the random variables <emphasis effect="italics">X</emphasis> and <emphasis effect="italics">P</emphasis>′ in words.</item>
 <item>Which distribution should you use for this problem? Explain your choice.</item>
 <item>Construct a 95 percent confidence interval.
  <list id="eip-idm5084416" list-type="enumerated" number-style="lower-roman">
@@ -2309,7 +2309,7 @@ Calculate the following:
  </exercise><exercise id="exe1"><problem id="id5306840">
    <para id="para37">Refer to  the information in <link target-id="eip-idp49345824"/>.</para><list id="list37" list-type="enumerated" number-style="lower-alpha">
 <item>Construct three 95 percent confidence intervals:
- <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1164398498310" list-type="enumerated" number-style="lower-roman"><item>percentage of all ethnicity C who would welcome a person of ethnicity D into their families</item>
+ <list id="eip-id1164398498310" list-type="enumerated" number-style="lower-roman"><item>percentage of all ethnicity C who would welcome a person of ethnicity D into their families</item>
   <item>percentage of all ethnicity C who would welcome a person of ethnicity A into their families</item>
   <item>percentage of all ethnicity C who would welcome a person of ethnicity B into their families</item>
   </list></item>
@@ -2333,7 +2333,7 @@ Calculate the following:
    </list>
   </solution>
 </exercise><exercise id="exerr1"><problem id="id5266159">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="para41">Stanford University conducted a study of whether running is healthy for men and women over age 50. During the first eight years of the study, 1.5 percent of the 451 members of the 50-Plus Fitness Association died. We are interested in the proportion of people over 50 who ran and died in the same eight year period.</para><list id="list41_5" list-type="enumerated" number-style="lower-alpha">
+<para id="para41">Stanford University conducted a study of whether running is healthy for men and women over age 50. During the first eight years of the study, 1.5 percent of the 451 members of the 50-Plus Fitness Association died. We are interested in the proportion of people over 50 who ran and died in the same eight year period.</para><list id="list41_5" list-type="enumerated" number-style="lower-alpha">
   <item>Define the random variables <emphasis effect="italics">X</emphasis> and <emphasis effect="italics">P</emphasis>′ in words.</item>
       <item>Which distribution should you use for this problem? Explain your choice.</item>
       <item>Construct a 97 percent confidence interval for the population proportion of people over 50 who ran and died in the same 8-year period.
@@ -2347,7 +2347,7 @@ Calculate the following:
 </problem>
 </exercise><para id="id7660223">
 <exercise id="exercise111"><problem id="id5280738">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="para45">A telephone poll of 1,000 adult Americans was reported in an issue of a national magazine. One of the questions asked, “What is the main problem facing the country?” Twenty percent responded "crime". We are interested in the population proportion of adult Americans who believe that crime is the main problem.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list45" list-type="enumerated" number-style="lower-alpha"><item>Define the random variables <emphasis effect="italics">X</emphasis> and <emphasis effect="italics">P</emphasis>′ in words.</item>
+  <para id="para45">A telephone poll of 1,000 adult Americans was reported in an issue of a national magazine. One of the questions asked, “What is the main problem facing the country?” Twenty percent responded "crime". We are interested in the population proportion of adult Americans who believe that crime is the main problem.</para><list id="list45" list-type="enumerated" number-style="lower-alpha"><item>Define the random variables <emphasis effect="italics">X</emphasis> and <emphasis effect="italics">P</emphasis>′ in words.</item>
       <item>Which distribution should you use for this problem? Explain your choice.</item>
   <item>Construct a 95 percent confidence interval for the population proportion of adult Americans who believe that crime is the main problem.
    <list id="list45_5" list-type="enumerated" number-style="lower-roman">
@@ -2394,7 +2394,7 @@ Calculate the following:
   </list></solution>
 </exercise></para>
 <para id="id7660428"><exercise id="exerrrrcise1"><problem id="id5247798">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="para47">Refer to <link target-id="exercise111" document=""/>. Another question in the poll asked, “[How much are] you worried about the quality of education in our schools?” Sixty-three percent responded “a lot”. We are interested in the population proportion of adult Americans who are worried a lot about the quality of education in our schools.</para><list id="list47" list-type="enumerated" number-style="lower-alpha">
+  <para id="para47">Refer to <link target-id="exercise111" document=""/>. Another question in the poll asked, “[How much are] you worried about the quality of education in our schools?” Sixty-three percent responded “a lot”. We are interested in the population proportion of adult Americans who are worried a lot about the quality of education in our schools.</para><list id="list47" list-type="enumerated" number-style="lower-alpha">
    <item>Define the random variables <emphasis effect="italics">X</emphasis> and <emphasis effect="italics">P</emphasis>′ in words.</item>
       <item>Which distribution should you use for this problem? Explain your choice.</item>
       <item>Construct a 95 percent confidence interval for the population proportion of adult Americans who are worried a lot about the quality of education in our schools.
@@ -2455,7 +2455,7 @@ Calculate the following:
 </solution>
     </exercise><exercise id="eip-44"><problem id="eip-123">
   <para id="eip-54">On May 23, 2013, a polling group reported that of the 1,005 people surveyed, 76 percent of U.S. workers believe that they will continue working past retirement age. The confidence level for this study was reported at 95 percent with a ±3 percent margin of error.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp139727584424128" list-type="enumerated" number-style="lower-alpha"><item>Determine the estimated proportion from the sample.</item>
+<list id="eip-idp139727584424128" list-type="enumerated" number-style="lower-alpha"><item>Determine the estimated proportion from the sample.</item>
 	<item>Determine the sample size.</item>
 	<item>Identify <emphasis effect="italics">CL</emphasis> and <emphasis effect="italics">α</emphasis>.</item>
 	<item>Calculate the error bound based on the information provided.</item>
@@ -2466,7 +2466,7 @@ Calculate the following:
 
    </exercise><exercise id="eip-126"><problem id="eip-785">
   <para id="eip-804">A national survey of 1,000 adults was conducted on May 13, 2013, by a group of researchers. It concluded with 95 percent confidence that 49 percent to 55 percent of Americans believe that big-time college sports programs corrupt the process of higher education.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp36043200" list-type="enumerated" number-style="lower-alpha"><item>Find the point estimate and the error bound for this confidence interval.</item>
+<list id="eip-idp36043200" list-type="enumerated" number-style="lower-alpha"><item>Find the point estimate and the error bound for this confidence interval.</item>
 <item>Can we (with 95 percent confidence) conclude that more than half of all American adults believe this?</item>
 <item>Use the point estimate from Part a and <emphasis effect="italics">n</emphasis> = 1,000 to calculate a 75 percent confidence interval for the proportion of American adults who believe that major college sports programs corrupt higher education.</item>
 <item>Can we (with 75 percent confidence) conclude that at least half of all American adults believe this?</item>
@@ -2541,7 +2541,7 @@ Calculate the following:
 </list>
 </problem>
 </exercise><exercise id="eip-934"><problem id="eip-507">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-754">You plan to conduct a survey on your college campus to learn about the political awareness of students. You want to estimate the true proportion of college students on your campus who voted in the 2012 presidential election with 95 percent confidence and a margin of error no greater than 5 percent. How many students must you interview?</para></problem>
+  <para id="eip-754">You plan to conduct a survey on your college campus to learn about the political awareness of students. You want to estimate the true proportion of college students on your campus who voted in the 2012 presidential election with 95 percent confidence and a margin of error no greater than 5 percent. How many students must you interview?</para></problem>
 <solution id="eip-287">
   <para id="eip-938"><emphasis effect="italics">CL</emphasis> = 0.95; <emphasis effect="italics">α</emphasis> = 1 – 0.95 = 0.05; <m:math>
  <m:mrow>
@@ -2631,7 +2631,7 @@ Calculate the following:
 </solution>
 </exercise>
 <exercise id="eip-701"><problem id="eip-710">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-439">In a recent poll, 9 of 48 respondents rated the likelihood of a certain event occurring in their community as <emphasis effect="italics">likely</emphasis> or <emphasis effect="italics">very likely</emphasis>. Use the plus-four method to create a 97 percent confidence interval for the proportion of American adults who believe that the event is likely or very likely. Explain what this confidence interval means in the context of the problem. A local poll in a New England town found that nine of 48 households think winter-proofing their cars is <emphasis effect="italics">very important</emphasis>.  Use the plus-four method to create a 97 percent confidence interval for the proportion of town residents who think winter-proofing their cars is <emphasis effect="italics">very important</emphasis>.  Explain what this confidence interval means in the context of this scenario.</para></problem>
+  <para id="eip-439">In a recent poll, 9 of 48 respondents rated the likelihood of a certain event occurring in their community as <emphasis effect="italics">likely</emphasis> or <emphasis effect="italics">very likely</emphasis>. Use the plus-four method to create a 97 percent confidence interval for the proportion of American adults who believe that the event is likely or very likely. Explain what this confidence interval means in the context of the problem. A local poll in a New England town found that nine of 48 households think winter-proofing their cars is <emphasis effect="italics">very important</emphasis>.  Use the plus-four method to create a 97 percent confidence interval for the proportion of town residents who think winter-proofing their cars is <emphasis effect="italics">very important</emphasis>.  Explain what this confidence interval means in the context of this scenario.</para></problem>
 </exercise></section>
  </content>
 <glossary>

@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>Linear Equations</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79686</md:content-id>
   <md:title>Linear Equations</md:title>
   <md:abstract/>
@@ -10,7 +10,7 @@
 <content>
 <section id="fs-id1164564612243">
 <para id="delete_me">Linear regression for two variables is based on a linear equation with one independent variable. The equation has the form</para>
-<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" class="unnumbered" id="element-987"><label/><m:math display="block">
+<equation class="unnumbered" id="element-987"><label/><m:math display="block">
 <m:mi>y</m:mi>
 <m:mo>=</m:mo>
 <m:mi>a</m:mi>
@@ -18,7 +18,7 @@
 <m:mi>b</m:mi>
 <m:mi>x</m:mi>
 </m:math>
-</equation><para id="eip-743"><newline/>where <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> are constant numbers.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-708">The variable <emphasis effect="italics">x</emphasis> is the <emphasis effect="italics">independent variable</emphasis>; <emphasis effect="italics">y</emphasis> is the <emphasis effect="italics">dependent variable</emphasis>. Typically, you choose a value to substitute for the independent variable and then solve for the dependent variable.</para><example id="element-906">
+</equation><para id="eip-743"><newline/>where <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> are constant numbers.</para><para id="element-708">The variable <emphasis effect="italics">x</emphasis> is the <emphasis effect="italics">independent variable</emphasis>; <emphasis effect="italics">y</emphasis> is the <emphasis effect="italics">dependent variable</emphasis>. Typically, you choose a value to substitute for the independent variable and then solve for the dependent variable.</para><example id="element-906">
 <para id="element-12">The following examples are linear equations.</para>
 <equation class="unnumbered" id="element-12495"><label/><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mtext>2</m:mtext><m:mi>x</m:mi></m:math></equation>
 <equation class="unnumbered" id="element-357238"><label/><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>–0.01</m:mn><m:mo>+</m:mo><m:mtext>1.2</m:mtext><m:mi>x</m:mi></m:math></equation></example>
@@ -59,7 +59,7 @@
 
 </note>
 <example id="element-913">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-292">Aaron’s Word Processing Service does word processing. The rate for services is $32 per hour plus a $31.50 one-time charge. The total cost to a customer depends on the number of hours it takes to complete the job.</para><exercise id="element-455">
+<para id="element-292">Aaron’s Word Processing Service does word processing. The rate for services is $32 per hour plus a $31.50 one-time charge. The total cost to a customer depends on the number of hours it takes to complete the job.</para><exercise id="element-455">
 <problem id="idp59356256">
 <para id="element-60">Find the equation that expresses the total cost in terms of the number of hours required to complete the job.</para></problem>
 <solution id="idp59359008">
@@ -74,14 +74,14 @@
 
 <exercise id="eip-977">
 <problem id="eip-161">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-101">Emma’s Extreme Sports hires hang-gliding instructors and pays them a fee of $50 per class, as well as $20 per student in the class. The total cost Emma pays depends on the number of students in a class. Find the equation that expresses the total cost in terms of the number of students in a class.</para></problem>
+  <para id="eip-101">Emma’s Extreme Sports hires hang-gliding instructors and pays them a fee of $50 per class, as well as $20 per student in the class. The total cost Emma pays depends on the number of students in a class. Find the equation that expresses the total cost in terms of the number of students in a class.</para></problem>
 <solution id="eip-788">
   <para id="eip-611"><emphasis effect="italics">y</emphasis> = 50 + 20<emphasis effect="italics">x</emphasis></para></solution>
 </exercise>
 
 </note>
 </section>
-<section id="fs-idm35899664"><title>Slope and <emphasis effect="italics">y</emphasis>-interceptof a Linear Equation</title><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp15969440">For the linear equation <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>, <emphasis effect="italics">b</emphasis> = slope and <emphasis effect="italics">a</emphasis> = <emphasis effect="italics">y</emphasis>-inttercept. From algebra, recall that the slope is a number that describes the steepness of a line; the <emphasis effect="italics">y</emphasis>-intercept is the <emphasis effect="italics">y</emphasis>-coordinate of the point (0, <emphasis effect="italics">a</emphasis>), where the line crosses the <emphasis effect="italics">y</emphasis>-axis.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564849552">Please note that in previous courses you learned <m:math>
+<section id="fs-idm35899664"><title>Slope and <emphasis effect="italics">y</emphasis>-interceptof a Linear Equation</title><para id="fs-idp15969440">For the linear equation <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>, <emphasis effect="italics">b</emphasis> = slope and <emphasis effect="italics">a</emphasis> = <emphasis effect="italics">y</emphasis>-inttercept. From algebra, recall that the slope is a number that describes the steepness of a line; the <emphasis effect="italics">y</emphasis>-intercept is the <emphasis effect="italics">y</emphasis>-coordinate of the point (0, <emphasis effect="italics">a</emphasis>), where the line crosses the <emphasis effect="italics">y</emphasis>-axis.</para><para id="fs-id1164564849552">Please note that in previous courses you learned <m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
@@ -98,10 +98,10 @@
 
 <exercise id="element-00112">
 <problem id="idp139982000">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-71">What are the independent and dependent variables? What is the <emphasis effect="italics">y</emphasis>-intercept, and what is the slope? Interpret them using complete sentences.</para></problem>
+<para id="element-71">What are the independent and dependent variables? What is the <emphasis effect="italics">y</emphasis>-intercept, and what is the slope? Interpret them using complete sentences.</para></problem>
 <solution id="idp27992816">
 <para id="element-88">The independent variable (<emphasis effect="italics">x</emphasis>) is the number of hours Svetlana tutors each session. The dependent variable (<emphasis effect="italics">y</emphasis>) is the amount, in dollars, Svetlana earns for each session.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-9">The <emphasis effect="italics">y</emphasis>-intercept is 25 (<emphasis effect="italics">a</emphasis> = 25). At the start of the tutoring session, Svetlana charges a one-time fee of $25 (this is when <emphasis effect="italics">x</emphasis> = 0). The slope is 15 (<emphasis effect="italics">b</emphasis> = 15).  For each session, Svetlana earns $15 for each hour she tutors.</para></solution>
+<para id="element-9">The <emphasis effect="italics">y</emphasis>-intercept is 25 (<emphasis effect="italics">a</emphasis> = 25). At the start of the tutoring session, Svetlana charges a one-time fee of $25 (this is when <emphasis effect="italics">x</emphasis> = 0). The slope is 15 (<emphasis effect="italics">b</emphasis> = 15).  For each session, Svetlana earns $15 for each hour she tutors.</para></solution>
 </exercise>
 </example>
 <note id="fs-idp5590144" class="statistics try">
@@ -111,7 +111,7 @@
 <exercise id="eip-972">
 <problem id="eip-854">
   <para id="eip-379">Ethan repairs household appliances such as dishwashers and refrigerators. For each visit, he charges $25 plus $20 per hour of work. A linear equation that expresses the total amount of money Ethan earns per visit is <emphasis effect="italics">y</emphasis> = 25 + 20<emphasis effect="italics">x</emphasis>.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm158116832">What are the independent and dependent variables? What is the <emphasis effect="italics">y</emphasis>-intercept, and what is the slope? Interpret them using complete sentences.</para></problem>
+<para id="eip-idm158116832">What are the independent and dependent variables? What is the <emphasis effect="italics">y</emphasis>-intercept, and what is the slope? Interpret them using complete sentences.</para></problem>
 <solution id="eip-157">
   <para id="eip-962">The independent variable (<emphasis effect="italics">x</emphasis>) is the number of hours Ethan works each visit. The dependent variable (<emphasis effect="italics">y</emphasis>) is the amount, in dollars, Ethan earns for each visit.</para>
 <para id="eip-idm161670288">The <emphasis effect="italics">y</emphasis>-intercept is 25 (<emphasis effect="italics">a</emphasis> = 25). At the start of a visit, Ethan charges a one-time fee of $25 (this is when <emphasis effect="italics">x</emphasis> = 0). The slope is 20 (<emphasis effect="italics">b</emphasis> = 20). For each visit, Ethan earns $20 for each hour he works.</para>
@@ -129,16 +129,16 @@
 </section>
 <section id="eip-645" class="summary">
 <title>Chapter Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm110721248">The most basic type of association is a linear association. This type of relationship can be defined algebraically by the equations used (numerically with actual or predicted data values) or graphically from a plotted curve. Lines are classified as straight curves. Algebraically, a linear equation typically takes the form <emphasis effect="italics">y = mx + b</emphasis>, where <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">b</emphasis> are constants, <emphasis effect="italics">x</emphasis> is the independent variable, and <emphasis effect="italics">y</emphasis> is the dependent variable. In a statistical context, a linear equation is written in the form <emphasis effect="italics">y = a + bx</emphasis>, where <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> are the constants. This form is used to help you distinguish the statistical context from the algebraic context. In the equation <emphasis effect="italics">y = a + bx</emphasis>, the constant <emphasis effect="italics">b</emphasis> that multiplies the <emphasis effect="italics">x</emphasis> variable (<emphasis effect="italics">b</emphasis> is called a <emphasis effect="italics">coefficient</emphasis>) is called the <emphasis effect="italics">slope</emphasis>. The slope describes the rate of change between the independent and dependent variables; in other words, the rate of change describes the change that occurs in the dependent variable as the independent variable is changed. In the equation <emphasis effect="italics">y = a + bx</emphasis>, the constant <emphasis effect="italics">a</emphasis> is called the <emphasis effect="italics">y</emphasis>-intercept. Graphically, the <emphasis effect="italics">y</emphasis>-intercept is the <emphasis effect="italics">y</emphasis>-coordinate of the point where the graph of the line crosses the <emphasis effect="italics">y</emphasis>-axis.  At this point, <emphasis effect="italics">x</emphasis> = 0.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-957">The slope of a line is a value that describes the rate of change between the independent and dependent variables. The slope tells us how the dependent variable (<emphasis effect="italics">y</emphasis>) changes for every one-unit increase in the independent (<emphasis effect="italics">x</emphasis>) variable, on average. The <emphasis effect="italics">y</emphasis>-intercept is used to describe the dependent variable when the independent variable equals zero. Graphically, the slope is represented by three line types in elementary statistics.</para></section>
+<para id="fs-idm110721248">The most basic type of association is a linear association. This type of relationship can be defined algebraically by the equations used (numerically with actual or predicted data values) or graphically from a plotted curve. Lines are classified as straight curves. Algebraically, a linear equation typically takes the form <emphasis effect="italics">y = mx + b</emphasis>, where <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">b</emphasis> are constants, <emphasis effect="italics">x</emphasis> is the independent variable, and <emphasis effect="italics">y</emphasis> is the dependent variable. In a statistical context, a linear equation is written in the form <emphasis effect="italics">y = a + bx</emphasis>, where <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> are the constants. This form is used to help you distinguish the statistical context from the algebraic context. In the equation <emphasis effect="italics">y = a + bx</emphasis>, the constant <emphasis effect="italics">b</emphasis> that multiplies the <emphasis effect="italics">x</emphasis> variable (<emphasis effect="italics">b</emphasis> is called a <emphasis effect="italics">coefficient</emphasis>) is called the <emphasis effect="italics">slope</emphasis>. The slope describes the rate of change between the independent and dependent variables; in other words, the rate of change describes the change that occurs in the dependent variable as the independent variable is changed. In the equation <emphasis effect="italics">y = a + bx</emphasis>, the constant <emphasis effect="italics">a</emphasis> is called the <emphasis effect="italics">y</emphasis>-intercept. Graphically, the <emphasis effect="italics">y</emphasis>-intercept is the <emphasis effect="italics">y</emphasis>-coordinate of the point where the graph of the line crosses the <emphasis effect="italics">y</emphasis>-axis.  At this point, <emphasis effect="italics">x</emphasis> = 0.</para><para id="eip-957">The slope of a line is a value that describes the rate of change between the independent and dependent variables. The slope tells us how the dependent variable (<emphasis effect="italics">y</emphasis>) changes for every one-unit increase in the independent (<emphasis effect="italics">x</emphasis>) variable, on average. The <emphasis effect="italics">y</emphasis>-intercept is used to describe the dependent variable when the independent variable equals zero. Graphically, the slope is represented by three line types in elementary statistics.</para></section>
 
 <section id="eip-190" class="formula-review">
 <title>Formula Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-110"><emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>, where <emphasis effect="italics">a</emphasis> is the <emphasis effect="italics">y</emphasis>-intercept and <emphasis effect="italics">b</emphasis> is the slope. The variable <emphasis effect="italics">x</emphasis> is the independent variable and <emphasis effect="italics">y</emphasis> is the dependent variable.</para></section>
+<para id="eip-110"><emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>, where <emphasis effect="italics">a</emphasis> is the <emphasis effect="italics">y</emphasis>-intercept and <emphasis effect="italics">b</emphasis> is the slope. The variable <emphasis effect="italics">x</emphasis> is the independent variable and <emphasis effect="italics">y</emphasis> is the dependent variable.</para></section>
 
 <section id="eip-178" class="practice">
 <para id="eip-96"><emphasis effect="italics">Use the following information to answer the next three exercises</emphasis>. A vacation resort rents scuba equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.</para>
 
-<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-510"><problem id="eip-230">
+<exercise id="eip-510"><problem id="eip-230">
   <para id="eip-346">What are the dependent and independent variables?</para>
 </problem>
 
@@ -182,7 +182,7 @@
 </exercise>
 
 <exercise id="eip-675"><problem id="eip-297">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-298">Does the graph in <link target-id="fs-idm48879424"/> show a linear equation? Why or why not?</para><figure id="fs-idm48879424"><media id="eip-idp1549088" alt="This is a graph of an equation. The x-axis is labeled in intervals of 1 from -5 to 5; the y-axis is labeled in intervals of 1 from 0 - 8. The equation's graph is a parabola, a u-shaped curve that has a minimum value at (0, 0)." display="block">
+<para id="eip-298">Does the graph in <link target-id="fs-idm48879424"/> show a linear equation? Why or why not?</para><figure id="fs-idm48879424"><media id="eip-idp1549088" alt="This is a graph of an equation. The x-axis is labeled in intervals of 1 from -5 to 5; the y-axis is labeled in intervals of 1 from 0 - 8. The equation's graph is a parabola, a u-shaped curve that has a minimum value at (0, 0)." display="block">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M02_item003.jpg" width="380"/>
 </media></figure>
 </problem></exercise><para id="element-532"><emphasis effect="italics">Use the following information to answer the next exercise.</emphasis> <link target-id="element-806" document=""/> contains real data for the first two decades of flu reporting.</para>
@@ -339,7 +339,7 @@
 
 <exercise id="element-352">
 <problem id="id3310573">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-843">Use the columns <emphasis effect="italics">Year</emphasis> and <emphasis effect="italics">Number of Flu Cases Diagnosed</emphasis>. Why is year the independent variable and number of flu cases diagnosed the dependent variable (instead of the reverse)?</para></problem>
+  <para id="element-843">Use the columns <emphasis effect="italics">Year</emphasis> and <emphasis effect="italics">Number of Flu Cases Diagnosed</emphasis>. Why is year the independent variable and number of flu cases diagnosed the dependent variable (instead of the reverse)?</para></problem>
 <solution id="fs-idm135570288">
 <para id="fs-idm96391920">The number of flu cases depends on the year. Therefore, year becomes the independent variable and the number of flu cases is the dependent variable.</para>
 </solution>
@@ -349,10 +349,10 @@
 <para id="eip-869a">What are the independent and dependent variables?</para>
 </problem></exercise><exercise id="eip-188">
 <problem id="eip-782">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-874">What is the <emphasis effect="italics">y</emphasis>-intercept, and what is the slope? Interpret them using complete sentences.</para></problem>
+  <para id="eip-874">What is the <emphasis effect="italics">y</emphasis>-intercept, and what is the slope? Interpret them using complete sentences.</para></problem>
 
 <solution id="eip-978">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-59">The <emphasis effect="italics">y</emphasis>-intercept is 50 (<emphasis effect="italics">a</emphasis> = 50). At the start of the cleaning, the company charges a one-time fee of $50 (this is when <emphasis effect="italics">x</emphasis> = 0). The slope is 100 (<emphasis effect="italics">b</emphasis> = 100). For each session, the company charges $100 for each hour they clean.</para></solution>
+  <para id="eip-59">The <emphasis effect="italics">y</emphasis>-intercept is 50 (<emphasis effect="italics">a</emphasis> = 50). At the start of the cleaning, the company charges a one-time fee of $50 (this is when <emphasis effect="italics">x</emphasis> = 0). The slope is 100 (<emphasis effect="italics">b</emphasis> = 100). For each session, the company charges $100 for each hour they clean.</para></solution>
 
 </exercise>
 
@@ -366,13 +366,13 @@
 </exercise>
 
 <exercise id="eip-67"><problem id="eip-517">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-924a">What is the <emphasis effect="italics">y</emphasis>-intercept? Interpret its meaning.</para></problem></exercise><para id="eip-120"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises</emphasis>. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is <emphasis effect="italics">y</emphasis> = 15 – 1.5<emphasis effect="italics">x</emphasis>, where <emphasis effect="italics">x</emphasis> is the number of hours passed in an eight-hour day of trading.</para><exercise id="eip-761">
+  <para id="eip-924a">What is the <emphasis effect="italics">y</emphasis>-intercept? Interpret its meaning.</para></problem></exercise><para id="eip-120"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises</emphasis>. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is <emphasis effect="italics">y</emphasis> = 15 – 1.5<emphasis effect="italics">x</emphasis>, where <emphasis effect="italics">x</emphasis> is the number of hours passed in an eight-hour day of trading.</para><exercise id="eip-761">
 <problem id="eip-626">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-88">What are the slope and <emphasis effect="italics">y</emphasis>-intercept? Interpret their meaning.
+  <para id="eip-88">What are the slope and <emphasis effect="italics">y</emphasis>-intercept? Interpret their meaning.
   </para></problem>
 
 <solution id="eip-1000">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-591">The slope is –1.5 (<emphasis effect="italics">b</emphasis> = –1.5). This means the stock is losing value at a rate of $1.50 per hour. The <emphasis effect="italics">y</emphasis>-intercept is $15 (<emphasis effect="italics">a</emphasis> = 15). This means the price of stock before the trading day was $15.</para></solution>
+  <para id="eip-591">The slope is –1.5 (<emphasis effect="italics">b</emphasis> = –1.5). This means the stock is losing value at a rate of $1.50 per hour. The <emphasis effect="italics">y</emphasis>-intercept is $15 (<emphasis effect="italics">a</emphasis> = 15). This means the price of stock before the trading day was $15.</para></solution>
 </exercise>
 
 <exercise id="eip-227"><problem id="eip-417">
@@ -430,6 +430,6 @@
 </tbody>
 </tgroup>
 </table>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm114950432">If a loan officer makes 95 percent of his or her goal, write the linear function that applies based on the incentive plan table. In context, explain the <emphasis effect="italics">y</emphasis>-intercept and slope.</para></problem></exercise></section>
+<para id="fs-idm114950432">If a loan officer makes 95 percent of his or her goal, write the linear function that applies based on the incentive plan table. In context, explain the <emphasis effect="italics">y</emphasis>-intercept and slope.</para></problem></exercise></section>
  </content>
 </document>

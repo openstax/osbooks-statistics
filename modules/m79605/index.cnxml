@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml">
   <title>Skewness and the Mean, Median, and Mode</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79605</md:content-id>
   <md:title>Skewness and the Mean, Median, and Mode</md:title>
   <md:abstract/>
@@ -9,12 +9,12 @@
 
 <content>
 <section id="fs-id1164567466098">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-97">Consider the following data set:
+<para id="element-97">Consider the following data set:
 <newline/>4, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 9, 10</para><para id="element-35965">This data set can be represented by the following histogram. Each interval has width 1, and each value is located in the middle of an interval.</para>
 <figure id="M06_Ch02_fig001"><media id="id16811614" alt="This histogram matches the supplied data. It consists of 7 adjacent bars with the x-axis split into intervals of 1 from 4 to 10. The heighs of the bars peak in the middle and taper symmetrically to the right and left." display="block"><image src="../../media/fig-ch02_08_01.jpg" mime-type="image/jpg" width="350"/></media>
 </figure><para id="element-247">The histogram displays a <emphasis>symmetrical</emphasis> distribution of data. A distribution is symmetrical if a vertical line can be drawn at some point in the histogram such that the shape to the left and the right of the vertical line are mirror images of each other. The mean, the median, and the mode are each seven for these data. <emphasis>In a perfectly symmetrical distribution, the mean and the median are the same.</emphasis> This example has one mode (unimodal), and the mode is the same as the mean and median.  In a symmetrical distribution that has two modes (bimodal), the two modes would be different from the mean and median.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-687">The histogram for the data: 4, 5, 6, 6, 6, 7, 7, 7, 7, 8 is not symmetrical. The right-hand side seems <emphasis effect="italics">chopped off</emphasis> compared to the left-hand side. A distribution of this type is called <emphasis>skewed to the left</emphasis> because it is pulled out to the left. A skewed left distribution has more high values.</para><figure id="M06_Ch02_fig002"><media id="id17014514" alt="This histogram matches the supplied data. It consists of 5 adjacent bars with the x-axis split into intervals of 1 from 4 to 8. The peak is to the right, and the heights of the bars taper down to the left." display="block"><image src="../../media/fig-ch02_08_02.jpg" mime-type="image/jpg" width="350"/></media>
-</figure><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-431">The mean is 6.3, the median is 6.5, and the mode is seven.  <emphasis>Notice that the mean is less than the median, and they are both less than the mode</emphasis>. The mean and the median both reflect the skewing, but the mean reflects it more so. The mean is pulled toward the tail in a skewed distribution.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-391">The histogram for the data: 6, 7, 7, 7, 7, 8, 8, 8, 9, 10 is also not symmetrical. It is <emphasis>skewed to the right</emphasis>. A skewed right distribution has more low values.</para><figure id="M06_Ch02_fig003"><media id="id17014699" alt="This histogram matches the supplied data. It consists of 5 adjacent bars with the x-axis split into intervals of 1 from 6 to 10. The peak is to the left, and the heights of the bars taper down to the right." display="block"><image src="../../media/fig-ch02_08_03.jpg" mime-type="image/jpg" width="350"/></media>
+<para id="element-687">The histogram for the data: 4, 5, 6, 6, 6, 7, 7, 7, 7, 8 is not symmetrical. The right-hand side seems <emphasis effect="italics">chopped off</emphasis> compared to the left-hand side. A distribution of this type is called <emphasis>skewed to the left</emphasis> because it is pulled out to the left. A skewed left distribution has more high values.</para><figure id="M06_Ch02_fig002"><media id="id17014514" alt="This histogram matches the supplied data. It consists of 5 adjacent bars with the x-axis split into intervals of 1 from 4 to 8. The peak is to the right, and the heights of the bars taper down to the left." display="block"><image src="../../media/fig-ch02_08_02.jpg" mime-type="image/jpg" width="350"/></media>
+</figure><para id="element-431">The mean is 6.3, the median is 6.5, and the mode is seven.  <emphasis>Notice that the mean is less than the median, and they are both less than the mode</emphasis>. The mean and the median both reflect the skewing, but the mean reflects it more so. The mean is pulled toward the tail in a skewed distribution.</para><para id="element-391">The histogram for the data: 6, 7, 7, 7, 7, 8, 8, 8, 9, 10 is also not symmetrical. It is <emphasis>skewed to the right</emphasis>. A skewed right distribution has more low values.</para><figure id="M06_Ch02_fig003"><media id="id17014699" alt="This histogram matches the supplied data. It consists of 5 adjacent bars with the x-axis split into intervals of 1 from 6 to 10. The peak is to the left, and the heights of the bars taper down to the right." display="block"><image src="../../media/fig-ch02_08_03.jpg" mime-type="image/jpg" width="350"/></media>
 </figure><para id="element-434">The mean is 7.7, the median is 7.5, and the mode is seven. Of the three statistics, <emphasis>the mean is the largest, while the mode is the smallest</emphasis>. Again, the mean reflects the skewing the most.</para>
 
 <para id="element-524">To summarize, generally if the distribution of data is skewed to the left, the mean is less than the median, which is often less than the mode. If the distribution of data is skewed to the right, the mode is often less than the median, which is less than the mean.</para>
@@ -23,7 +23,7 @@
 
 <example id="fs-idp17640608"><exercise id="eip-idp68426064">
 <problem id="eip-idm58649808">
-    <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm39854688">Statistics are used to compare and sometimes identify authors. The following lists show a simple random sample that compares the letter counts for three authors.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm80542976">Terry: 7, 9, 3, 3, 3, 4, 1, 3, 2, 2</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm41545440">Davis: 3, 3, 3, 4, 1, 4, 3, 2, 3, 1</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp1740640">Maris: 2, 3, 4, 4, 4, 6, 6, 6, 8, 3</para><list id="fs-idm63711472" list-type="enumerated" number-style="lower-alpha"><item>Make a dot plot for the three authors and compare the shapes.</item>
+    <para id="fs-idm39854688">Statistics are used to compare and sometimes identify authors. The following lists show a simple random sample that compares the letter counts for three authors.</para><para id="fs-idm80542976">Terry: 7, 9, 3, 3, 3, 4, 1, 3, 2, 2</para><para id="fs-idm41545440">Davis: 3, 3, 3, 4, 1, 4, 3, 2, 3, 1</para><para id="fs-idp1740640">Maris: 2, 3, 4, 4, 4, 6, 6, 6, 8, 3</para><list id="fs-idm63711472" list-type="enumerated" number-style="lower-alpha"><item>Make a dot plot for the three authors and compare the shapes.</item>
         <item>Calculate the mean for each.</item>
         <item>Calculate the median for each.</item>
         <item>Describe any pattern you notice between the shape and the measures of center.</item>
@@ -105,7 +105,7 @@
 <image mime-type="image/png" src="../../media/CNX_Stats_C02_M08_034.png" width="400"/>
 </media></figure></para></problem>
 <solution id="eip-idp617040">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp17106784" list-type="enumerated" number-style="lower-alpha"><item>mean = 4.25, median = 3.5, mode = 1; the mean &gt; median &gt; mode which indicates skewness to the right. (data are 0, 1, 2, 3, 4, 5, 6, 9, 10, 14 and respective frequencies are 2, 4, 3, 1, 2, 2, 2, 2, 1, 1)</item>
+<list id="eip-idp17106784" list-type="enumerated" number-style="lower-alpha"><item>mean = 4.25, median = 3.5, mode = 1; the mean &gt; median &gt; mode which indicates skewness to the right. (data are 0, 1, 2, 3, 4, 5, 6, 9, 10, 14 and respective frequencies are 2, 4, 3, 1, 2, 2, 2, 2, 1, 1)</item>
 <item>mean = 70.1 , median = 68,  mode = 57, 67 bimodal; the mean and median are close but there is a little skewness to the right which is influenced by the data being bimodal. (data are 46, 49, 53, 56, 57, 57, 57, 58, 60, 60, 63, 63, 64, 64, 65, 66, 67, 67, 67, 68, 70, 71, 71, 72, 73, 74, 77, 78, 78, 79, 80, 81, 83, 85, 88, 90, 90 93, 93).</item>
 <item>These are estimates:  mean =16.095, median = 17.495, mode = 22.495 (there may be no mode); the mean &lt; median &lt; mode which indicates skewness to the left. (data are the midponts of the intervals: 2.495, 7.495, 12.495, 17.495, 22.495 and respective frequencies are 2, 3,  4, 7, 9).</item>
 </list></solution>
@@ -113,23 +113,23 @@
 </section>
 <section id="fs-idm5546880" class="summary">
 <title>Chapter Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm70567904">Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A <emphasis effect="bold">right (or positive) skewed</emphasis> distribution has a shape like <link target-id="M06_Ch02_fig002"/>. A <emphasis effect="bold">left (or negative) skewed</emphasis> distribution has a shape like <link target-id="M06_Ch02_fig003"/>. A <emphasis effect="bold">symmetrical</emphasis> distribution looks like <link target-id="M06_Ch02_fig001"/>.</para></section>
+<para id="fs-idm70567904">Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A <emphasis effect="bold">right (or positive) skewed</emphasis> distribution has a shape like <link target-id="M06_Ch02_fig002"/>. A <emphasis effect="bold">left (or negative) skewed</emphasis> distribution has a shape like <link target-id="M06_Ch02_fig003"/>. A <emphasis effect="bold">symmetrical</emphasis> distribution looks like <link target-id="M06_Ch02_fig001"/>.</para></section>
 
 <section id="fs-idp2369408" class="practice">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-45"><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> State whether the data are symmetrical, skewed to the left, or skewed to the right.</para><exercise id="fs-idm89697712">
+<para id="eip-45"><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> State whether the data are symmetrical, skewed to the left, or skewed to the right.</para><exercise id="fs-idm89697712">
 <problem id="fs-idm18359408">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm47149136">1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5</para></problem>
+<para id="fs-idm47149136">1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5</para></problem>
 <solution id="fs-idm39691376">
 <para id="fs-idp6587296">The data are symmetrical. The median is 3, and the mean is 2.85. They are close, and the mode lies close to the middle of the data, so the data are symmetrical.</para>
 </solution>
 </exercise>
 
 <exercise id="fs-idm125692000">
-<problem id="fs-idm70278192"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm75453168">16, 17, 19, 22, 22, 22, 22, 22, 23</para></problem>
+<problem id="fs-idm70278192"><para id="fs-idm75453168">16, 17, 19, 22, 22, 22, 22, 22, 23</para></problem>
 </exercise>
 
 <exercise id="fs-idm65822528">
-<problem id="fs-idm112226560"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm14558304">87, 87, 87, 87, 87, 88, 89, 89, 90, 91</para></problem>
+<problem id="fs-idm112226560"><para id="fs-idm14558304">87, 87, 87, 87, 87, 88, 89, 89, 90, 91</para></problem>
 <solution id="fs-idm22884848">
 <para id="fs-idm22884720">The data are skewed right. The median is 87.5, and the mean is 88.2. Even though they are close, the mode lies to the left of the middle of the data, and there are many more instances of 87 than any other number, so the data are skewed right.</para></solution>
 </exercise>
@@ -213,14 +213,14 @@
 <exercise id="fs-idm53345552">
 <problem id="fs-idm50126800">
 <para id="fs-idm41982048">The mean and median for the data are the same.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm89655728">3, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7</para><para id="fs-idm81347168">Is the data perfectly symmetrical? Why or why not?</para>
+<para id="fs-idm89655728">3, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7</para><para id="fs-idm81347168">Is the data perfectly symmetrical? Why or why not?</para>
 </problem>
 </exercise>
 
 <exercise id="fs-idm106262320">
 <problem id="fs-idp4116944">
 <para id="fs-idp12626464">Which is the greatest, the mean, the mode, or the median of the data set?</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm22688432">11, 11, 12, 12, 12, 12, 13, 15, 17, 22, 22, 22</para></problem>
+<para id="fs-idm22688432">11, 11, 12, 12, 12, 12, 13, 15, 17, 22, 22, 22</para></problem>
 <solution id="fs-idm67998720">
 <para id="fs-idm56243664">The mode is 12, the median is 13.5, and the mean is 15.1. The mean is the largest.</para>
 </solution>
@@ -229,7 +229,7 @@
 <exercise id="fs-idm77708816">
 <problem id="fs-idm18613792">
 <para id="fs-idm81638640">Which is the least, the mean, the mode, and the median of the data set?</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm78212064">56, 56, 56, 58, 59, 60, 62, 64, 64, 65, 67</para></problem>
+<para id="fs-idm78212064">56, 56, 56, 58, 59, 60, 62, 64, 64, 65, 67</para></problem>
 </exercise>
 
 <exercise id="fs-idm1767264">

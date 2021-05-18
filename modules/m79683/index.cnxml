@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Lab 1: Chi-Square Goodness-of-Fit</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79683</md:content-id>
   <md:title>Lab 1: Chi-Square Goodness-of-Fit</md:title>
   <md:abstract/>
@@ -13,7 +13,7 @@
 <note id="fs-id1170646469482" class="statistics lab"><label/><title>Lab 1: Chi-Square Goodness-of-Fit</title>
 
    <list id="id5380464" list-type="bulleted"><title>Student Learning Outcome</title><item>The student will evaluate data collected to determine if they fit either the uniform or exponential distributions. </item>
-   </list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-875862734"><title>Collect the Data</title>Go to your local supermarket. Ask 30 people as they leave for the total amount on their grocery receipts. Or, ask 3 cashiers for the last 10 amounts. Be sure to include the express lane, if it is open.</para><note id="eip-665"><label/><title>Note</title>You may need to combine two categories so that each cell has an expected value of at least five.</note><list id="list-87585" list-type="enumerated" mark-suffix=".">
+   </list><para id="element-875862734"><title>Collect the Data</title>Go to your local supermarket. Ask 30 people as they leave for the total amount on their grocery receipts. Or, ask 3 cashiers for the last 10 amounts. Be sure to include the express lane, if it is open.</para><note id="eip-665"><label/><title>Note</title>You may need to combine two categories so that each cell has an expected value of at least five.</note><list id="list-87585" list-type="enumerated" mark-suffix=".">
     <item>Record the values.
      <table id="table023865" summary="Blank table with 30 empty cells.">
       <tgroup cols="5">
@@ -65,7 +65,7 @@
      </table>
     </item>
     <item>Construct a histogram of the data. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes. <figure id="id42008923"><media id="id42008927" alt="Blank graph with relative frequency on vertical"><image src="../../media/fig-ch11_15_01.png" mime-type="image/png" width="380"/></media></figure></item>
-    <item> Calculate the following: <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list3242" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+    <item> Calculate the following: <list id="list3242" list-type="enumerated" number-style="lower-alpha"><item><m:math>
       <m:mrow>
        <m:mover accent="true">
         <m:mi>x</m:mi>
@@ -155,7 +155,7 @@
      </m:mrow>
     </m:mfrac>
    </m:math>.</para>
-   <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-86872534" mark-suffix="." list-type="enumerated"><item>Using <m:math>
+   <list id="list-86872534" mark-suffix="." list-type="enumerated"><item>Using <m:math>
      <m:mrow>
       <m:mfrac>
        <m:mn>1</m:mn>

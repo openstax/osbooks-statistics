@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Confidence Interval (Place of Birth)</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79658</md:content-id>
   <md:title>Confidence Interval (Place of Birth)</md:title>
   <md:abstract/>
@@ -51,7 +51,7 @@
 </media>
 </figure></item>
 </list>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-97584" list-type="enumerated"><title>Describe the Confidence Interval</title><item>In two to three complete sentences, explain what a confidence interval means (in general), as though you were talking to someone who has not taken statistics.</item>
+<list id="list-97584" list-type="enumerated"><title>Describe the Confidence Interval</title><item>In two to three complete sentences, explain what a confidence interval means (in general), as though you were talking to someone who has not taken statistics.</item>
 <item>In one to two complete sentences, explain what this confidence interval means for this particular study.</item>
 <item>Construct a confidence interval for each confidence level given.
 <table id="id6699poi200" summary="Partially blank table with confidence level in the first column, EBM/Error Bound in the blank second column, and confidence interval in the blank third column.">

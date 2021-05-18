@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>A Single Population Mean Using the Student's t-Distribution</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79655</md:content-id>
   <md:title>A Single Population Mean Using the Student's t-Distribution</md:title>
   <md:abstract/>
@@ -9,9 +9,9 @@
 
 <content>
 <section id="fs-id1169830931542">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="delete_me">In practice, we rarely know the <emphasis effect="bold">population</emphasis> <term>standard deviation</term>. In the past, when the sample size was large, this unknown number did not present a problem to statisticians. They used the sample standard deviation <emphasis effect="italics">s</emphasis> as an estimate for <emphasis effect="italics">σ</emphasis> and proceeded as before to calculate a <term>confidence interval</term> with close-enough results. However, statisticians ran into problems when the sample size was small. A small sample size caused inaccuracies in the confidence interval. </para><para id="element-643">William S. Gosset (1876–1937) of the Guinness brewery in Dublin, Ireland, ran into this  problem. His experiments with hops and barley produced very few samples. Just replacing <emphasis effect="italics">σ</emphasis> with <emphasis effect="italics">s</emphasis> did not produce accurate results when he tried to calculate a confidence interval. He realized that he could not use a normal distribution for the calculation; he found that the actual distribution depends on the sample size. This problem led him to <emphasis effect="italics">discover</emphasis> what is called the <term>Student's <emphasis effect="italics">t</emphasis>-distribution</term>. The name comes from the fact that Gosset wrote under the pen name <emphasis effect="italics">Student</emphasis>.</para>
+<para id="delete_me">In practice, we rarely know the <emphasis effect="bold">population</emphasis> <term>standard deviation</term>. In the past, when the sample size was large, this unknown number did not present a problem to statisticians. They used the sample standard deviation <emphasis effect="italics">s</emphasis> as an estimate for <emphasis effect="italics">σ</emphasis> and proceeded as before to calculate a <term>confidence interval</term> with close-enough results. However, statisticians ran into problems when the sample size was small. A small sample size caused inaccuracies in the confidence interval. </para><para id="element-643">William S. Gosset (1876–1937) of the Guinness brewery in Dublin, Ireland, ran into this  problem. His experiments with hops and barley produced very few samples. Just replacing <emphasis effect="italics">σ</emphasis> with <emphasis effect="italics">s</emphasis> did not produce accurate results when he tried to calculate a confidence interval. He realized that he could not use a normal distribution for the calculation; he found that the actual distribution depends on the sample size. This problem led him to <emphasis effect="italics">discover</emphasis> what is called the <term>Student's <emphasis effect="italics">t</emphasis>-distribution</term>. The name comes from the fact that Gosset wrote under the pen name <emphasis effect="italics">Student</emphasis>.</para>
 <para id="eip-254">Up until the mid-1970s, some statisticians used the <term>normal distribution</term> approximation for large sample sizes and used the Student's <emphasis effect="italics">t</emphasis>-distribution only for sample sizes of at most 30. With graphing calculators and computers, the practice now is to use the Student's <emphasis effect="italics">t</emphasis>-distribution whenever <emphasis effect="italics">s</emphasis> is used as an estimate for <emphasis effect="italics">σ</emphasis>.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-449">If you draw a simple random sample of size <emphasis effect="italics">n</emphasis> from a population that has an approximately normal distribution with mean <emphasis effect="italics">μ</emphasis> and unknown population standard deviation <emphasis effect="italics">σ</emphasis> and calculate the <emphasis effect="italics">t</emphasis>-score <emphasis effect="italics">t</emphasis> = <m:math>
+<para id="eip-449">If you draw a simple random sample of size <emphasis effect="italics">n</emphasis> from a population that has an approximately normal distribution with mean <emphasis effect="italics">μ</emphasis> and unknown population standard deviation <emphasis effect="italics">σ</emphasis> and calculate the <emphasis effect="italics">t</emphasis>-score <emphasis effect="italics">t</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -55,7 +55,7 @@
   <m:mtext>values</m:mtext><m:mo stretchy="false">)</m:mo>
  </m:mrow>
 </m:math> to calculate <emphasis><emphasis effect="italics">s</emphasis></emphasis>. Because the sum of the deviations is zero, we can find the last deviation once we know the other <emphasis><emphasis effect="italics">n</emphasis> &#8211; 1</emphasis> deviations. The other <emphasis><emphasis effect="italics">n</emphasis> &#8211; 1</emphasis> deviations can change or vary freely. <emphasis>We call the number <emphasis effect="italics">n</emphasis> &#8211; 1 the degrees of freedom (df).</emphasis></para>-->
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567141154">The <emphasis>degrees of freedom (<emphasis effect="italics">df</emphasis>)</emphasis>, <emphasis effect="italics">n</emphasis> - 1, are the sample size minus 1.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-418"><title>Properties of the Student's <emphasis effect="italics">t</emphasis>-distribution</title><item>The graph for the Student's <emphasis effect="italics">t</emphasis>-distribution is similar to the standard normal curve.</item>
+<para id="fs-id1164567141154">The <emphasis>degrees of freedom (<emphasis effect="italics">df</emphasis>)</emphasis>, <emphasis effect="italics">n</emphasis> - 1, are the sample size minus 1.</para><list id="eip-418"><title>Properties of the Student's <emphasis effect="italics">t</emphasis>-distribution</title><item>The graph for the Student's <emphasis effect="italics">t</emphasis>-distribution is similar to the standard normal curve.</item>
 <item>The mean for the Student's <emphasis effect="italics">t</emphasis>-distribution is zero, and the distribution is symmetric about zero.</item>
 <item>The Student's <emphasis effect="italics">t</emphasis>-distribution has more probability in its tails than the standard normal distribution. <link target-id="fs-id1164567593546" document=""/> shows the graphs of the student <emphasis effect="italics">t</emphasis>-distribution for 1, 2 and 5 degrees of freedom: (<emphasis effect="italics">v</emphasis>), compare to the standard normal distribution (in black).
 <figure id="fs-id1164567593546"><media id="fs-id1164564483633" alt="A graph showing a bell shaped curve of normal distribution with two vertical lines to the left and right of center. The vertical line to the left is labeled 6244 and the vertical line to the right is labeled 11014. The area between the vertical lines is shaded purple. The horizontal axis is unlabeled. There are three tick marks on the horizontal axis at the bottom of the vertical lines and at a point equidistant between the lines. The tick mark in the center of the bell curve is labeled 8629.">
@@ -68,12 +68,12 @@
 <item>The underlying population of individual observations is assumed to be normally distributed with unknown population mean <emphasis effect="italics">μ</emphasis> and unknown population standard deviation <emphasis effect="italics">σ</emphasis>. The size of the underlying population is generally not relevant unless it is very small. If it is bell-shaped (normal), then the assumption is met and does not need discussion. Random sampling is assumed, but that is a completely separate assumption from normality.</item>
 </list><para id="eip-231" class="finger">Calculators and computers can easily calculate any Student's <emphasis effect="italics">t</emphasis>-probabilities. The TI-83, 83+, and 84+ have a tcdf function to find the probability for given values of <emphasis effect="italics">t</emphasis>. The grammar for the tcdf command is tcdf(lower bound, upper bound, degrees of freedom). However, for confidence intervals, we need to use inverse probability to find the value of <emphasis effect="italics">t</emphasis> when we know the probability.</para><para id="eip-980">For the TI-84+, you can use the invT command on the DISTRibution menu. The invT command works similarly to the invnorm. The invT command requires two inputs: invT(area to the left, degrees of freedom). The output is the <emphasis effect="italics">t</emphasis>-score that corresponds to the area we specified. <newline/>
 <newline/> The TI-83 and 83+ do not have the invT command. (The TI-89 has an inverse T command.)</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-647">A probability table for the Student's <emphasis effect="italics">t</emphasis>-distribution can also be used.  The table gives critical <emphasis effect="italics">t</emphasis>-values that correspond to the confidence level (column) and degrees of freedom (row). (The TI-86 does not have an invT program or command, so if you are using that calculator, you need to use a probability table for the Student's <emphasis effect="italics">t</emphasis>-distribution.) When using a <emphasis effect="italics">t</emphasis>-table, note that some tables are formatted to show the confidence level in the column headings, while the column headings in some tables may show only corresponding area in one or both tails.<newline/>
+<para id="eip-647">A probability table for the Student's <emphasis effect="italics">t</emphasis>-distribution can also be used.  The table gives critical <emphasis effect="italics">t</emphasis>-values that correspond to the confidence level (column) and degrees of freedom (row). (The TI-86 does not have an invT program or command, so if you are using that calculator, you need to use a probability table for the Student's <emphasis effect="italics">t</emphasis>-distribution.) When using a <emphasis effect="italics">t</emphasis>-table, note that some tables are formatted to show the confidence level in the column headings, while the column headings in some tables may show only corresponding area in one or both tails.<newline/>
 
  <newline/>A Student's <emphasis effect="italics">t</emphasis>-table (see <link document="m79718"/>) gives <emphasis effect="italics">t</emphasis>-scores given the degrees of freedom and the right-tailed probability. The table is very limited. <emphasis effect="italics">Calculators and computers can easily calculate any Student's  t-probabilities.</emphasis><newline/></para><!--<list id="eip-752"><title><emphasis>The notation for the Student's <emphasis effect="italics">t</emphasis>-distribution (using <emphasis effect="italics">T</emphasis> as the random variable) is:</emphasis></title><item><emphasis effect="italics">T ~ t<sub>df</sub></emphasis> where <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> &#8211; 1.</item>
  <item>For example, if we have a sample of size <emphasis effect="italics">n</emphasis> = 20 items, then we calculate the degrees of freedom as <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> - 1 = 20 - 1 = 19 and we write the distribution as <emphasis effect="italics">T ~ t<sub>19</sub></emphasis>.</item></list>-->
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-737"><emphasis effect="italics">If the population standard deviation is  not known</emphasis>,  the error bound for a population mean is</para><list id="eip-168">
+<para id="eip-737"><emphasis effect="italics">If the population standard deviation is  not known</emphasis>,  the error bound for a population mean is</para><list id="eip-168">
 <item><m:math>
  <m:mrow>
   <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
@@ -147,11 +147,11 @@
  </m:mrow>
 </m:math></equation><note id="fs-idm181176784" class="statistics calculator"><label/>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-881">To calculate the confidence interval directly, do the following:
+<para id="eip-881">To calculate the confidence interval directly, do the following:
 <newline/>Press <code>STAT</code>.
 <newline/>Arrow over to <code>TESTS</code>.
 <newline/>Arrow down to <code>8:TInterval</code> and press <code>ENTER</code> (or just press 8).</para></note><example id="eip-51">
-<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-632"><problem id="id1171101195216">
+<exercise id="element-632"><problem id="id1171101195216">
 <para id="element-866">Suppose you do a study of acupuncture to determine how effective it is in relieving pain. You measure sensory rates for 15 subjects with the results given. Use the sample data to construct a 95 percent confidence interval for the mean sensory rate for the population (assumed normal) from which you took the data.
 <newline/>The solution is shown step-by-step and by using the TI-83, 83+, or 84+ calculators.</para><div id="id1171109556457"><list id="set-328" list-type="labeled-item" item-sep="," display="inline"><item>8.6</item>
 			<item>9.4</item>
@@ -459,13 +459,13 @@ The 95 percent confidence interval is (7.30, 9.15).
  <title>Try It</title>
  <exercise id="eip-496"><problem id="eip-247">
   <para id="eip-331">You do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep subjects get each night. You measure hours of sleep for 12 subjects with the following results. Construct a 95 percent confidence interval for the mean number of hours slept for the population (assumed normal) from which you took the data.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm108202576">8.2, 9.1, 7.7, 8.6, 6.9, 11.2, 10.1, 9.9, 8.9, 9.2, 7.5, 10.5</para></problem>
+<para id="eip-idm108202576">8.2, 9.1, 7.7, 8.6, 6.9, 11.2, 10.1, 9.9, 8.9, 9.2, 7.5, 10.5</para></problem>
 <solution id="eip-415"><label/>
   <para id="eip-720">(8.1634, 9.8032)</para></solution>
 </exercise>
 </note>
 <example id="eip-804"><exercise id="eip-821"><problem id="eip-957">
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-645">A group of researchers is working to understand the scope of industrial pollution in the human body. Industrial chemicals may enter the body through pollution or as ingredients in consumer products. In October 2008, the scientists tested cord-blood samples for 20 newborn infants in the United States. The cord blood of the <emphasis effect="italics">in utero/newborn</emphasis> group was tested for 430 industrial compounds, pollutants, and other chemicals, including chemicals linked to brain and nervous-system toxicity, immune-system toxicity, reproductive toxicity, and fertility problems. There are health concerns about the effects of some chemicals on the brain and nervous system. <link target-id="eip-222" document=""/> shows how many of the targeted chemicals were found in each infant’s cord blood.</para><table id="eip-222" summary="A 10 column table is shown. From left to right, the rows contain the following information. First row: 79, 145, 147, 160, 116, 100, 159, 151, 156, 126. Second row: 137, 83, 156, 94, 121, 144, 123, 114, 139, 99. The rows and columns are unlabeled.">
+ <para id="eip-645">A group of researchers is working to understand the scope of industrial pollution in the human body. Industrial chemicals may enter the body through pollution or as ingredients in consumer products. In October 2008, the scientists tested cord-blood samples for 20 newborn infants in the United States. The cord blood of the <emphasis effect="italics">in utero/newborn</emphasis> group was tested for 430 industrial compounds, pollutants, and other chemicals, including chemicals linked to brain and nervous-system toxicity, immune-system toxicity, reproductive toxicity, and fertility problems. There are health concerns about the effects of some chemicals on the brain and nervous system. <link target-id="eip-222" document=""/> shows how many of the targeted chemicals were found in each infant’s cord blood.</para><table id="eip-222" summary="A 10 column table is shown. From left to right, the rows contain the following information. First row: 79, 145, 147, 160, 116, 100, 159, 151, 156, 126. Second row: 137, 83, 156, 94, 121, 144, 123, 114, 139, 99. The rows and columns are unlabeled.">
 <tgroup cols="10"><tbody>
 <row><entry>79</entry>	<entry>145</entry>	<entry>147</entry>	<entry>160</entry>	<entry>116</entry>	<entry>100</entry>	<entry>159</entry>	<entry>151</entry>	<entry>156</entry>	<entry>126</entry></row>
 <row><entry>137</entry>	<entry>83</entry>	<entry>156</entry>	<entry>94</entry>	<entry>121</entry>	<entry>144</entry>	<entry>123</entry>	<entry>114</entry>	<entry>139</entry>	<entry>99</entry></row>
@@ -583,7 +583,7 @@ The 95 percent confidence interval is (7.30, 9.15).
 
 
  There are 20 infants in the sample, so <emphasis effect="italics">n</emphasis> = 20, and <emphasis effect="italics">df</emphasis> = 20 – 1 = 19. </para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm108372720">You are asked to calculate a 90 percent confidence interval: <emphasis effect="italics">CL</emphasis> = 0.90, so <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0.90 = 0.10.
+<para id="eip-idm108372720">You are asked to calculate a 90 percent confidence interval: <emphasis effect="italics">CL</emphasis> = 0.90, so <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0.90 = 0.10.
 <list id="eip-idm108372304" list-type="labeled-item" display="inline">
 <item><m:math>
  <m:mrow>
@@ -686,7 +686,7 @@ The 95 percent confidence interval is (7.30, 9.15).
 <para id="eip-idp189552432">
 <title>Solution B</title></para>
  <note id="fs-idm115636704" class="statistics calculator"><label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm150426592">Enter the data as a list.
+<para id="fs-idm150426592">Enter the data as a list.
 <newline/>Press <code>STAT</code> and arrow over to <code>TESTS</code>.
 <newline/>Arrow down to <code>8:TInterval</code> and press <code>ENTER</code> (or you can just press <code>8</code>). Arrow to Data and press <code>ENTER</code>.
 <newline/>Arrow down to <code>List</code> and enter the list name where you put the data.
@@ -699,7 +699,7 @@ The 95 percent confidence interval is (7.30, 9.15).
 <label/><title>Try It</title>
 <exercise id="eip-467">
 <problem id="eip-272">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-636">A random sample of statistics students was asked to estimate the total number of hours they spend watching television in an average week. The responses are recorded in <link target-id="eip-672" document=""/>. Use the following sample data to construct a 98 percent confidence interval for the mean number of hours statistics students will spend watching television in one week.
+  <para id="eip-636">A random sample of statistics students was asked to estimate the total number of hours they spend watching television in an average week. The responses are recorded in <link target-id="eip-672" document=""/>. Use the following sample data to construct a 98 percent confidence interval for the mean number of hours statistics students will spend watching television in one week.
 <table id="eip-672" summary="A 5 column table is shown. From left to right, the rows contain the following information. First row: 0, 3, 1, 20, 9. Second row: 5, 10, 1, 10, 4. Third row: 14, 2, 4, 4, 5. The rows and columns are unlabeled.">
 <tgroup cols="5"><tbody>
   <row><entry>0</entry>	<entry>3</entry>	<entry>1</entry>	<entry>20</entry>	<entry>9</entry></row>
@@ -858,7 +858,7 @@ Arrow to <code>Data</code> and press <code>ENTER</code>.<newline/>
 
 <para id="fs-id1164567479841">Forbes. (n.d.). Retrieved from http://www.forbes.com/</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567790594">Microsoft Bookshelf. (n.d.).</para></section><section id="eip-447" class="summary">
+<para id="fs-id1164567790594">Microsoft Bookshelf. (n.d.).</para></section><section id="eip-447" class="summary">
 <title>Chapter Review</title>
 <para id="eip-895">In many cases, the researcher does not know the population standard deviation, <emphasis effect="italics">σ</emphasis>, of the measure being studied. In these cases, it is common to use the sample standard deviation, <emphasis effect="italics">s</emphasis>, as an estimate of <emphasis effect="italics">σ</emphasis>. The normal distribution creates accurate confidence intervals when <emphasis effect="italics">σ</emphasis> is known, but it is not as accurate when <emphasis effect="italics">s</emphasis> is used as an estimate. In this case, the Student’s <emphasis effect="italics">t</emphasis>-distribution is much better. Define a <emphasis effect="italics">t</emphasis>-score using the following formula:</para>
  <equation class="unnumbered" id="fs-id1164567141007"><label/><m:math>
@@ -954,7 +954,7 @@ Arrow to <code>Data</code> and press <code>ENTER</code>.<newline/>
 </m:math> for a given <emphasis effect="italics">α</emphasis>.</para></section>
 <section id="eip-428" class="formula-review">
 <title>Formula Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-987"><emphasis effect="italics">s</emphasis> = the standard deviation of sample values
+<para id="eip-987"><emphasis effect="italics">s</emphasis> = the standard deviation of sample values
 </para><para id="eip-11"><m:math>
  <m:mrow>
   <m:mi>t</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
@@ -981,7 +981,7 @@ Arrow to <code>Data</code> and press <code>ENTER</code>.<newline/>
 
  </m:mrow>
 </m:math> is the formula for the <emphasis effect="italics">t</emphasis>-score, which measures how far away a measure is from the population mean in the Student’s <emphasis effect="italics">t</emphasis>-distribution.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-995"><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1; the degrees of freedom for a Student’s <emphasis effect="italics">t</emphasis>-distribution, where <emphasis effect="italics">n</emphasis> represents the size of the sample</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-288"><emphasis effect="italics">T</emphasis>~<emphasis effect="italics">t<sub>df </sub></emphasis> the random variable, <emphasis effect="italics">T</emphasis>, has a Student’s <emphasis effect="italics">t</emphasis>-distribution with <emphasis effect="italics">df</emphasis> degrees of freedom</para><para id="eip-635"><m:math>
+<para id="eip-995"><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1; the degrees of freedom for a Student’s <emphasis effect="italics">t</emphasis>-distribution, where <emphasis effect="italics">n</emphasis> represents the size of the sample</para><para id="eip-288"><emphasis effect="italics">T</emphasis>~<emphasis effect="italics">t<sub>df </sub></emphasis> the random variable, <emphasis effect="italics">T</emphasis>, has a Student’s <emphasis effect="italics">t</emphasis>-distribution with <emphasis effect="italics">df</emphasis> degrees of freedom</para><para id="eip-635"><m:math>
  <m:mrow>
   <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:msub>
    <m:mi>t</m:mi>
@@ -1028,7 +1028,7 @@ Arrow to <code>Data</code> and press <code>ENTER</code>.<newline/>
   <m:mtext>.</m:mtext>
  </m:mrow>
 </m:math></para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm169440128">The general form for a confidence interval for a single mean, population standard deviation unknown, Student's <emphasis effect="italics">t</emphasis> is given by <newline/> (lower bound, upper bound)
+<para id="fs-idm169440128">The general form for a confidence interval for a single mean, population standard deviation unknown, Student's <emphasis effect="italics">t</emphasis> is given by <newline/> (lower bound, upper bound)
 = (point estimate – <emphasis effect="italics">EBM</emphasis>, point estimate + <emphasis effect="italics">EBM</emphasis>)</para><equation class="unnumbered" id="fs-id1164566103182"><label/><m:math>
  <m:mrow>
 <m:mtext>= </m:mtext>
@@ -1392,7 +1392,7 @@ Calculate the following:
 <title>Homework</title>
 <exercise id="exer2">
 <problem id="id6354520">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="para2">In six packages of multicolored fruit snacks, there were five red snack pieces. The total number of snack pieces in the six bags was 68. We wish to calculate a 96 percent confidence interval for the population proportion of red snack pieces.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list5" list-type="enumerated" number-style="lower-alpha"><item>Define the random variables <emphasis effect="italics">X</emphasis> and
+<para id="para2">In six packages of multicolored fruit snacks, there were five red snack pieces. The total number of snack pieces in the six bags was 68. We wish to calculate a 96 percent confidence interval for the population proportion of red snack pieces.</para><list id="list5" list-type="enumerated" number-style="lower-alpha"><item>Define the random variables <emphasis effect="italics">X</emphasis> and
    <emphasis effect="italics">P</emphasis>′ in words.</item>
       <item>Which distribution should you use for this problem? Explain your choice.</item>
   <item>Calculate <emphasis effect="italics">p</emphasis>′.</item>
@@ -1406,7 +1406,7 @@ Calculate the following:
       <item>Do you think that six packages of fruit snacks yield enough data to give accurate results? Why or why not?</item>
  </list></problem>
 </exercise>
-<exercise id="exer3"><problem id="id5182442"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="para7">A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414, 1,550, 2,109, 9,350, 21,828, 4,300, 5,944, 5,722, 2,825, 2,044, 5,481, 5,200, 5,853, 2,750, 10,012, 6,357, 27,000, 9,414, 7,681, 3,200, 17,500, 9,200, 7,380, 18,314, 6,557, 13,713, 17,768, 7,493, 2,771, 2,861, 1,263, 7,285, 28,165, 5,080, 11,622. Assume the underlying population is normal.
+<exercise id="exer3"><problem id="id5182442"><para id="para7">A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414, 1,550, 2,109, 9,350, 21,828, 4,300, 5,944, 5,722, 2,825, 2,044, 5,481, 5,200, 5,853, 2,750, 10,012, 6,357, 27,000, 9,414, 7,681, 3,200, 17,500, 9,200, 7,380, 18,314, 6,557, 13,713, 17,768, 7,493, 2,771, 2,861, 1,263, 7,285, 28,165, 5,080, 11,622. Assume the underlying population is normal.
  <list id="list10" list-type="enumerated" number-style="lower-alpha">
  <item>
   <list id="list9" list-type="enumerated" number-style="lower-roman">
@@ -1522,7 +1522,7 @@ Calculate the following:
 <item>Explain in a complete sentence what the confidence interval means.</item>
  </list>
 </problem>
-</exercise><exercise id="exer10"><problem id="id6300844"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="para21">A pharmaceutical company makes a drug used during surgery. It is assumed that the distribution for the length of time the drug lasts is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the antibiotic drug for each patient (in hours) was as follows: 2.7, 2.8, 3.0, 2.3, 2.3, 2.2, 2.8, 2.1, and 2.4.</para><list id="list21" list-type="enumerated" number-style="lower-alpha">
+</exercise><exercise id="exer10"><problem id="id6300844"><para id="para21">A pharmaceutical company makes a drug used during surgery. It is assumed that the distribution for the length of time the drug lasts is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the antibiotic drug for each patient (in hours) was as follows: 2.7, 2.8, 3.0, 2.3, 2.3, 2.2, 2.8, 2.1, and 2.4.</para><list id="list21" list-type="enumerated" number-style="lower-alpha">
   <item><list id="list21a" list-type="enumerated" number-style="lower-roman">
   <item><m:math>
   <m:mover accent="true">
@@ -1566,7 +1566,7 @@ Calculate the following:
  </list>
 </problem>
 <solution id="fs-idm131198032">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm86189312" list-type="enumerated" number-style="lower-alpha"><item>
+<list id="fs-idm86189312" list-type="enumerated" number-style="lower-alpha"><item>
 <list id="fs-idm33946400" list-type="enumerated" number-style="lower-roman">
 <item><m:math>
  <m:mover accent="true">
@@ -1597,7 +1597,7 @@ Calculate the following:
 <item>If we were to sample many groups of nine patients, 95 percent of the samples would contain the true population mean length of time.</item>
 </list></solution>
 </exercise><exercise id="exer11"><problem id="id5850872">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="para23">Suppose that 14 children who were learning to ride two-wheel bikes were surveyed to determine how long they had to use training wheels. It was revealed that they used them an average of six months, with a sample standard deviation of three months. Assume that the underlying population distribution is normal.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list23_5" list-type="enumerated" number-style="lower-alpha"><item>
+<para id="para23">Suppose that 14 children who were learning to ride two-wheel bikes were surveyed to determine how long they had to use training wheels. It was revealed that they used them an average of six months, with a sample standard deviation of three months. Assume that the underlying population distribution is normal.</para><list id="list23_5" list-type="enumerated" number-style="lower-alpha"><item>
     <list id="list24" list-type="enumerated" number-style="lower-roman"><item><m:math>
       <m:mover accent="true">
        <m:mi>x</m:mi>
@@ -1666,7 +1666,7 @@ Calculate the following:
  </m:mrow>
 </m:math>
 </para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp69132832">Use the sample data to construct a 96 percent confidence interval for the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle. Use the Student's <emphasis effect="italics">t</emphasis>-distribution.</para></problem>
+<para id="eip-idp69132832">Use the sample data to construct a 96 percent confidence interval for the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle. Use the Student's <emphasis effect="italics">t</emphasis>-distribution.</para></problem>
 <solution id="eip-770">
 <para id="fs-idm151956208">
 <m:math>
@@ -1784,7 +1784,7 @@ Calculate the following:
  </m:mrow>
 </m:math> + <emphasis effect="italics">EBM</emphasis> = $251,854.23 + $204,561.66 = $456,415.89.</para>
 <para id="eip-idm43369008">We estimate with 96 percent confidence that the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle lies between $47,292.57 and $456,415.89.<newline/></para><para id="eip-idm19923248">Alternate Solution</para>
-<note xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm33267104" class="statistics calculator"><label/>
+<note id="fs-idm33267104" class="statistics calculator"><label/>
 <newline/>Enter the data as a list.
 <newline/>Press <code>STAT</code> and arrow over to <code>TESTS</code>.
 <newline/>Arrow down to <code>8:TInterval</code>.
@@ -1797,7 +1797,7 @@ Calculate the following:
 <newline/>The 96 percent confidence interval is ($47,262, $456,447).</note><para id="eip-idp167827024">The difference between solutions arises from rounding differences.</para>
 </solution>
 </exercise><exercise id="eip-217"><problem id="eip-975">
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-184">A major business magazine published data on the best small firms in 2012. These were firms that have been publicly traded for at least a year, have a stock price of at least $5 per share, and have reported annual revenue between $5 million and $1 billion. <link target-id="eip-884" document=""/> shows the ages of the corporate CEOs for a random sample of these firms.
+ <para id="eip-184">A major business magazine published data on the best small firms in 2012. These were firms that have been publicly traded for at least a year, have a stock price of at least $5 per share, and have reported annual revenue between $5 million and $1 billion. <link target-id="eip-884" document=""/> shows the ages of the corporate CEOs for a random sample of these firms.
   </para><table id="eip-884" summary="A 5 column table is shown. From left to right, the rows contain the following information. First row: 48, 58, 51, 61, 56. Second row: 59, 74, 63, 53, 50. Third row: 59, 60, 60, 57, 46. Fourth row: 55, 63, 57, 47, 55. Fifth row: 57, 43, 61, 62, 49. Sixth row: 67, 67, 55, 55, 49. The rows and columns are unlabeled.">
 <tgroup cols="5"><tbody>
   <row><entry>48</entry>	<entry>58</entry>	<entry>51</entry>	<entry>61</entry>	<entry>56</entry></row>
@@ -1809,7 +1809,7 @@ Calculate the following:
 </tbody>
 </tgroup>
 </table>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm30943456">Use the sample data to construct a 90 percent confidence interval for the mean age of CEOs for these top small firms. Use the Student's <emphasis effect="italics">t</emphasis>-distribution.</para></problem>
+<para id="eip-idm30943456">Use the sample data to construct a 90 percent confidence interval for the mean age of CEOs for these top small firms. Use the Student's <emphasis effect="italics">t</emphasis>-distribution.</para></problem>
 </exercise><exercise id="eip-392">
 <problem id="eip-190">
   <para id="eip-579">Unoccupied seats on flights cause airlines to lose revenue. Suppose a large airline wants to estimate its mean number of unoccupied seats per flight over the past year. To accomplish this, the records of 225 flights are randomly selected, and the number of unoccupied seats is noted for each of the sampled flights. The sample mean is 11.6 seats, and the sample standard deviation is 4.1 seats.</para>
@@ -1915,7 +1915,7 @@ flight.
 </problem>
 </exercise><exercise id="eip-789">
 <problem id="eip-idp101366832">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp114357168">Six different national brands of chocolate chip cookies were randomly selected at the supermarket. The grams of fat per serving are as follows: 8, 8, 10, 7, 9, 9. Assume the underlying distribution is approximately normal.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp114357792" list-type="enumerated" number-style="lower-alpha"><item>Construct a 90 percent confidence interval for the population mean grams of fat per serving of chocolate chip cookies sold in supermarkets.
+<para id="eip-idp114357168">Six different national brands of chocolate chip cookies were randomly selected at the supermarket. The grams of fat per serving are as follows: 8, 8, 10, 7, 9, 9. Assume the underlying distribution is approximately normal.</para><list id="eip-idp114357792" list-type="enumerated" number-style="lower-alpha"><item>Construct a 90 percent confidence interval for the population mean grams of fat per serving of chocolate chip cookies sold in supermarkets.
  <list id="eip-idm3541392" list-type="enumerated" number-style="lower-roman">
 <item>State the confidence interval.</item>
 <item>Sketch the graph.</item>
@@ -1930,7 +1930,7 @@ flight.
   <solution id="fs-idm144387776">
    <list id="fs-idm144387520" list-type="enumerated" number-style="lower-alpha">
    <item>
-    <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm104467472" list-type="enumerated" number-style="lower-roman"><item>CI: (7.64, 9.36)</item>
+    <list id="fs-idm104467472" list-type="enumerated" number-style="lower-roman"><item>CI: (7.64, 9.36)</item>
      <item><figure id="fs-idm59520752"><media id="mmm3" alt=""><image src="../../media/fig-ch08_12_01-7e54.jpg" mime-type="image/jpeg" width="380"/></media></figure></item>
    <item><emphasis effect="italics">EBM</emphasis>: 0.86</item>
     </list></item>
@@ -1942,7 +1942,7 @@ flight.
   </solution>
  </exercise>
 <exercise id="fs-idm170967312"><problem id="fs-idm181156640">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm181156384">A survey of the mean number of cents off given by coupons was conducted by randomly surveying one coupon per page from the coupons section of a local newspaper. The following data were collected: 20¢, 75¢, 50¢, 65¢, 30¢, 55¢, 40¢, 40¢, 30¢, 55¢, $1.50, 40¢, 65¢, 40¢. Assume the underlying distribution is approximately normal.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm115727600" list-type="enumerated" number-style="lower-alpha"><item>
+<para id="fs-idm181156384">A survey of the mean number of cents off given by coupons was conducted by randomly surveying one coupon per page from the coupons section of a local newspaper. The following data were collected: 20¢, 75¢, 50¢, 65¢, 30¢, 55¢, 40¢, 40¢, 30¢, 55¢, $1.50, 40¢, 65¢, 40¢. Assume the underlying distribution is approximately normal.</para><list id="fs-idm115727600" list-type="enumerated" number-style="lower-alpha"><item>
    <list id="fs-idm158307360" list-type="enumerated" number-style="lower-roman">
     <item><m:math>
      <m:mover accent="true">
@@ -1991,7 +1991,7 @@ flight.
 <solution id="id6215942">
  <para id="solb11">b</para>
 </solution>
-</exercise><exercise id="exxxx"><problem id="id6176057"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="para60">Which of the following is the error bound?</para><list id="list60" list-type="enumerated" number-style="lower-alpha">
+</exercise><exercise id="exxxx"><problem id="id6176057"><para id="para60">Which of the following is the error bound?</para><list id="list60" list-type="enumerated" number-style="lower-alpha">
 <item>0.87</item>
 <item>1.98</item>
 <item>0.99</item>

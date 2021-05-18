@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>Two Population Means with Unknown Standard Deviations</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79668</md:content-id>
   <md:title>Two Population Means with Unknown Standard Deviations</md:title>
   <md:abstract/>
@@ -9,14 +9,14 @@
 
 <content>
 <section id="fs-id1164565295299">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-984" list-type="enumerated"><item>The two independent samples are simple random samples from two distinct populations.</item>
+<list id="element-984" list-type="enumerated"><item>The two independent samples are simple random samples from two distinct populations.</item>
 <item>For the two distinct populations
 <list id="fs-idm39244848" list-type="bulleted"><item>if the sample sizes are small, the distributions are important (should be normal), and</item>
 <item>if the sample sizes are large, the distributions are not important (need not be normal)</item>
 </list></item>
 </list><para id="fs-idm119151424">
-<note xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm107349216"><label>NOTE</label> The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch <emphasis effect="italics">t</emphasis>-test.  The degrees of freedom formula was developed by Aspin-Welch.</note></para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="delete_me">The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. To account for the variation, we take the difference of the sample means,
+<note id="fs-idm107349216"><label>NOTE</label> The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch <emphasis effect="italics">t</emphasis>-test.  The degrees of freedom formula was developed by Aspin-Welch.</note></para>
+<para id="delete_me">The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. To account for the variation, we take the difference of the sample means,
 
 <m:math>
  <m:semantics>
@@ -44,7 +44,7 @@
 
   </m:mrow>
  </m:semantics>
-</m:math>, and divide by the standard error to standardize the difference. The result is a <emphasis effect="italics">t</emphasis>-score test statistic.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-254">Because we do not know the population standard deviations, we estimate them using the two sample standard deviations from our independent samples. For the hypothesis test, we calculate the estimated <term>standard deviation</term>, or <term>standard error</term>, of the difference in sample means,
+</m:math>, and divide by the standard error to standardize the difference. The result is a <emphasis effect="italics">t</emphasis>-score test statistic.</para><para id="element-254">Because we do not know the population standard deviations, we estimate them using the two sample standard deviations from our independent samples. For the hypothesis test, we calculate the estimated <term>standard deviation</term>, or <term>standard error</term>, of the difference in sample means,
 <m:math>
  <m:semantics>
   <m:mrow>
@@ -71,7 +71,7 @@
    <m:mtext>.</m:mtext>
   </m:mrow>
  </m:semantics>
-</m:math></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565009157">The standard error is calculated as follows:</para><equation id="std_err">
+</m:math></para><para id="fs-id1164565009157">The standard error is calculated as follows:</para><equation id="std_err">
 <m:math>
 <m:msqrt>
 <m:mfrac>
@@ -202,7 +202,7 @@
  </m:mrow>
 </m:math></equation>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list1"><title>where</title><item><emphasis effect="italics">s</emphasis><sub>1</sub> and <emphasis effect="italics">s</emphasis><sub>2</sub>, the sample standard deviations, are estimates of <emphasis effect="italics">σ</emphasis><sub>1</sub> and <emphasis effect="italics">σ</emphasis><sub>2</sub>, respectively,</item>
+<list id="list1"><title>where</title><item><emphasis effect="italics">s</emphasis><sub>1</sub> and <emphasis effect="italics">s</emphasis><sub>2</sub>, the sample standard deviations, are estimates of <emphasis effect="italics">σ</emphasis><sub>1</sub> and <emphasis effect="italics">σ</emphasis><sub>2</sub>, respectively,</item>
   <item><emphasis effect="italics">σ</emphasis><sub>1</sub> and <emphasis effect="italics">σ</emphasis><sub>1</sub> are the unknown population standard deviations,</item>
 <item><m:math>
   <m:msub>
@@ -228,7 +228,7 @@ and
 are the sample means, and </item>
 <item><emphasis effect="italics">μ</emphasis><sub>1</sub> and <emphasis effect="italics">μ</emphasis><sub>2</sub> are the population means.</item>
 </list></para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-256" class="finger">The number of <term>degrees of freedom (<emphasis effect="italics">df</emphasis>)</term> requires a somewhat complicated calculation. However, a computer or calculator calculates it easily. The <emphasis effect="italics">df</emphasis> are not always a whole number. The test statistic calculated previously is approximated by the Student’s <emphasis effect="italics">t</emphasis>-distribution with <emphasis effect="italics">df</emphasis> as follows:</para><para id="fs-id1164562359716">Degrees of freedom</para>
+<para id="element-256" class="finger">The number of <term>degrees of freedom (<emphasis effect="italics">df</emphasis>)</term> requires a somewhat complicated calculation. However, a computer or calculator calculates it easily. The <emphasis effect="italics">df</emphasis> are not always a whole number. The test statistic calculated previously is approximated by the Student’s <emphasis effect="italics">t</emphasis>-distribution with <emphasis effect="italics">df</emphasis> as follows:</para><para id="fs-id1164562359716">Degrees of freedom</para>
 <equation class="unnumbered" id="eq_df"><label/><m:math display="block">
  <m:mrow>
   <m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -383,13 +383,13 @@ are the sample means, and </item>
   </m:mfrac>
 
  </m:mrow>
-</m:math></equation><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-316">When both sample sizes <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub> are five or larger, the Student’s <emphasis effect="italics">t</emphasis> approximation is very good. Notice that the sample variances (<emphasis effect="italics">s</emphasis><sub>1</sub>)<sup>2</sup> and (<emphasis effect="italics">s</emphasis><sub>2</sub>)<sup>2</sup> are not pooled. (If the question comes up, do not pool the variances.)
+</m:math></equation><para id="element-316">When both sample sizes <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub> are five or larger, the Student’s <emphasis effect="italics">t</emphasis> approximation is very good. Notice that the sample variances (<emphasis effect="italics">s</emphasis><sub>1</sub>)<sup>2</sup> and (<emphasis effect="italics">s</emphasis><sub>2</sub>)<sup>2</sup> are not pooled. (If the question comes up, do not pool the variances.)
 <note id="fs-idm74088160" class="finger"><label>NOTE</label>It is not necessary to compute this by hand. A calculator or computer easily computes it.</note>
 </para><example id="element-208">
 <title>Independent groups</title>
   <para id="element-687">The average amount of time boys and girls aged 7 to 11 spend playing sports each day is believed to be the same. A study is done and data are collected, resulting in the data in <link target-id="uid888"/>. Each populations has a normal distribution.</para>
 
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="uid888" summary="This table presents the sample size in the second column, average hours a day in the third column, and the sample standard deviation in the fourth column. The first row is for girls and the second row is for boys.">
+<table id="uid888" summary="This table presents the sample size in the second column, average hours a day in the third column, and the sample standard deviation in the fourth column. The first row is for girls and the second row is for boys.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -461,14 +461,14 @@ are the sample means, and </item>
 This is a two-tailed test.</para><para id="element-529"><emphasis>Distribution for the test:</emphasis>
 Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect="italics">df</emphasis> is calculated using the <emphasis effect="italics">df</emphasis> formula for independent groups, two population means. Using a calculator, <emphasis effect="italics">df</emphasis> is approximately 18.8462. <emphasis effect="italics">Do not pool the variances.</emphasis></para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-573"><emphasis>Calculate the <emphasis effect="italics">p</emphasis>-value using a Student’s <emphasis effect="italics">t</emphasis>-distribution:</emphasis> <emphasis effect="italics">p</emphasis>-value = 0.0054</para><para id="element-90"><emphasis>Graph:</emphasis></para>
+<para id="element-573"><emphasis>Calculate the <emphasis effect="italics">p</emphasis>-value using a Student’s <emphasis effect="italics">t</emphasis>-distribution:</emphasis> <emphasis effect="italics">p</emphasis>-value = 0.0054</para><para id="element-90"><emphasis>Graph:</emphasis></para>
 <para id="element-210">
   <figure id="hyptest22_cmp1"><media id="id18963169" alt="This is a normal distribution curve representing the difference in the average amount of time girls and boys play sports all day. The mean is equal to zero, and the values -1.2, 0, and 1.2 are labeled on the horizontal axis. Two vertical lines extend from -1.2 and 1.2 to the curve. The region to the left of x = -1.2 and the region to the right of x = 1.2 are shaded to represent the p-value. The area of each region is 0.0028.">
 <image mime-type="image/jpg" src="../../media/fig-ch10_02_01.jpg" width="380"/>
 </media>
 </figure></para>
 
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-222"><newline/><m:math>
+  <para id="element-222"><newline/><m:math>
     <m:mrow>
       <m:msub>
         <m:mi>s</m:mi>
@@ -512,11 +512,11 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
  </m:mrow>
 </m:math> = 2 – 3.2 = –1.2
-<newline/>Half the <emphasis effect="italics">p</emphasis>-value is below –1.2, and half is above 1.2.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-823"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. This means you reject <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. The means are different.</para><note id="fs-idp61535456" class="statistics calculator">
+<newline/>Half the <emphasis effect="italics">p</emphasis>-value is below –1.2, and half is above 1.2.</para><para id="element-823"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. This means you reject <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. The means are different.</para><note id="fs-idp61535456" class="statistics calculator">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp144406384">Press <code>STAT</code>. Arrow over to <code>TESTS</code> and press <code>4:2-SampTTest</code>. Arrow over to <code>Stats</code> and press <code>ENTER</code>. Arrow down and enter <code>2</code> for the first sample mean, <code>0.866</code> for Sx1, <code>9</code> for n1, <code>3.2</code> for the second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow down to <code>μ1:</code> and arrow to <code>does not equal</code> μ2. Press <code>ENTER</code>. Arrow down to <code>Pooled:</code> and <code>No</code>. Press <code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>. The <emphasis effect="italics">p</emphasis>-value is <emphasis effect="italics">p</emphasis> = 0.0054, the <emphasis effect="italics">df</emphasis>s are approximately 18.8462, and the test statistic is –3.14. Do the procedure again, but instead of <code>Calculate</code> do <code>Draw</code>.</para></note>
+<para id="fs-idp144406384">Press <code>STAT</code>. Arrow over to <code>TESTS</code> and press <code>4:2-SampTTest</code>. Arrow over to <code>Stats</code> and press <code>ENTER</code>. Arrow down and enter <code>2</code> for the first sample mean, <code>0.866</code> for Sx1, <code>9</code> for n1, <code>3.2</code> for the second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow down to <code>μ1:</code> and arrow to <code>does not equal</code> μ2. Press <code>ENTER</code>. Arrow down to <code>Pooled:</code> and <code>No</code>. Press <code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>. The <emphasis effect="italics">p</emphasis>-value is <emphasis effect="italics">p</emphasis> = 0.0054, the <emphasis effect="italics">df</emphasis>s are approximately 18.8462, and the test statistic is –3.14. Do the procedure again, but instead of <code>Calculate</code> do <code>Draw</code>.</para></note>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-914">Conclusion: At the 5 percent level of significance, the sample data show there is sufficient evidence to conclude that the mean number of hours that girls and boys aged 7 to 11 play sports per day is different (mean number of hours  boys aged 7 to 11 play sports per day is greater than the mean number of hours played by girls OR the mean number of hours  girls aged 7 to 11 play sports per day is greater than the mean number of hours played by boys).</para></solution>
+<para id="element-914">Conclusion: At the 5 percent level of significance, the sample data show there is sufficient evidence to conclude that the mean number of hours that girls and boys aged 7 to 11 play sports per day is different (mean number of hours  boys aged 7 to 11 play sports per day is greater than the mean number of hours played by girls OR the mean number of hours  girls aged 7 to 11 play sports per day is greater than the mean number of hours played by boys).</para></solution>
 </exercise>
 </example>
 
@@ -560,7 +560,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 </problem>
 <solution id="fs-idm123264336">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm106908640">The <emphasis effect="italics">p</emphasis>-value is 0.4125, which is much higher than 0.05, so we decline to reject the null hypothesis. There is not sufficient evidence to conclude that the means of the two populations are not the same.</para></solution>
+<para id="fs-idm106908640">The <emphasis effect="italics">p</emphasis>-value is 0.4125, which is much higher than 0.05, so we decline to reject the null hypothesis. There is not sufficient evidence to conclude that the means of the two populations are not the same.</para></solution>
 </exercise>
 
 </note>
@@ -568,9 +568,9 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <note id="fs-idm50414208">
 <label/>
 <title>NOTE</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm204425680">When the sum of the sample sizes is larger than 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> &gt; 30), you can use the normal distribution to approximate the Student’s <emphasis effect="italics">t</emphasis>.</para></note>
+<para id="fs-idm204425680">When the sum of the sample sizes is larger than 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> &gt; 30), you can use the normal distribution to approximate the Student’s <emphasis effect="italics">t</emphasis>.</para></note>
 
-<example id="element-968"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-980">A study is done by a community group in two neighboring colleges to determine which one graduates students with more math classes. College A samples 11 graduates. Their average is 4 math classes with a standard deviation of 1.5 math classes. College B samples nine graduates. Their average is 3.5 math classes with a standard deviation of 1 math class. The community group believes that a student who graduates from College A <emphasis effect="italics">has taken more math classes,</emphasis> on average. Both populations have a normal distribution. Test at a 1 percent significance level. Answer the following questions:<newline count="2"/></para><exercise id="fs-idm178911728"><problem id="fs-idm177203296">
+<example id="element-968"><para id="element-980">A study is done by a community group in two neighboring colleges to determine which one graduates students with more math classes. College A samples 11 graduates. Their average is 4 math classes with a standard deviation of 1.5 math classes. College B samples nine graduates. Their average is 3.5 math classes with a standard deviation of 1 math class. The community group believes that a student who graduates from College A <emphasis effect="italics">has taken more math classes,</emphasis> on average. Both populations have a normal distribution. Test at a 1 percent significance level. Answer the following questions:<newline count="2"/></para><exercise id="fs-idm178911728"><problem id="fs-idm177203296">
 <para id="fs-idm171395200">a. Is this a test of two means or two proportions?</para>
 </problem>
 <solution id="fs-idm36568576">
@@ -585,7 +585,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <exercise id="fs-idm164304912">
 <problem id="fs-idm35318288">
 <para id="fs-idm220657088">c. Which distribution do you use to perform the test?</para></problem>
-<solution id="fs-idm153443152"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm145309056">c. Student’s <emphasis effect="italics">t</emphasis><newline count="2"/></para></solution>
+<solution id="fs-idm153443152"><para id="fs-idm145309056">c. Student’s <emphasis effect="italics">t</emphasis><newline count="2"/></para></solution>
 </exercise>
 <exercise id="fs-idm130995312">
 <problem id="fs-idm143520064">
@@ -614,9 +614,9 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </exercise>
 <exercise id="fs-idm301029872">
 <problem id="fs-idm176701568">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm151272736">e. What are the null and alternate hypotheses? Write the null and alternate hypotheses in symbols.</para></problem>
+<para id="fs-idm151272736">e. What are the null and alternate hypotheses? Write the null and alternate hypotheses in symbols.</para></problem>
 <solution id="fs-idm147502464">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm206451408">e.
+<para id="fs-idm206451408">e.
   <m:math>
     <m:mrow>
       <m:msub>
@@ -666,29 +666,29 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </exercise>
 
 <exercise id="fs-idm146752960">
-<problem id="fs-idm148661808"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm148661680">g. What is the <emphasis effect="italics">p</emphasis>-value?</para></problem>
+<problem id="fs-idm148661808"><para id="fs-idm148661680">g. What is the <emphasis effect="italics">p</emphasis>-value?</para></problem>
 <solution id="fs-idm79675952"><para id="fs-idm106536048">g. 0.1928<newline count="2"/></para></solution>
 </exercise>
 
 <exercise id="fs-idm176691440">
 <problem id="fs-idp29101808"><para id="fs-idp29101936">h. Do you reject or not reject the null hypothesis?</para></problem>
-<solution id="fs-idm36842944"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm36842816">h. do not reject</para></solution>
+<solution id="fs-idm36842944"><para id="fs-idm36842816">h. do not reject</para></solution>
 </exercise>
 
 <exercise id="fs-idm65144592">
 <problem id="fs-idm153855872"><para id="fs-idm41056320">i. <emphasis>Conclusion:</emphasis></para></problem>
-<solution id="fs-idm31976880"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm31976752">i. At the 1 percent level of significance, from the sample data, there is not sufficient evidence to conclude that a student who graduates from College A has taken more math classes, on average, than a student who graduates from College B.</para></solution>
+<solution id="fs-idm31976880"><para id="fs-idm31976752">i. At the 1 percent level of significance, from the sample data, there is not sufficient evidence to conclude that a student who graduates from College A has taken more math classes, on average, than a student who graduates from College B.</para></solution>
 </exercise>
 </example><note id="fs-idp145514592" class="statistics try"><label/><title>Try It</title>
 <exercise id="eip-idp166826064">
 <problem id="eip-idp166826320">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm170467472">A study is done to determine if Company A retains its workers longer than Company B. Company A samples 15 workers, and their average time with the company is 5 years with a standard deviation of 1.2. Company B samples 20 workers, and their average time with the company is 4.5 years with a standard deviation of 0.8. The populations are normally distributed.</para><list id="fs-idp55515664" list-type="enumerated" number-style="lower-alpha">
+  <para id="fs-idm170467472">A study is done to determine if Company A retains its workers longer than Company B. Company A samples 15 workers, and their average time with the company is 5 years with a standard deviation of 1.2. Company B samples 20 workers, and their average time with the company is 4.5 years with a standard deviation of 0.8. The populations are normally distributed.</para><list id="fs-idp55515664" list-type="enumerated" number-style="lower-alpha">
     <item>Are the population standard deviations known?</item>
     <item>Conduct an appropriate hypothesis test. At the 5 percent significance level, what is your conclusion?</item>
 </list>
 </problem>
 <solution id="eip-idp205575392">
-    <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp102022016" list-type="enumerated" number-style="lower-alpha"><item>They are unknown.</item>
+    <list id="fs-idp102022016" list-type="enumerated" number-style="lower-alpha"><item>They are unknown.</item>
   <item>The <emphasis effect="italics">p</emphasis>-value = 0.0878. At the 5 percent level of significance, there is insufficient evidence to conclude that the workers of Company A stay longer with the company.</item>
     </list></solution></exercise></note><example id="fs-idm22935408">
 
@@ -738,7 +738,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </tgroup>
 </table>
 
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm124378288" summary="A 3 row table is shown. The first row reads 77.9, 95.3, 81.2, 74.1, 98.8, 88.2, 85.9, 92.9, 87.1, 88.2. The second row reads 69.4, 57.6, 69.4, 67.1, 97.6, 85.9, 88.2, 91.8, 78.8, 71.8. The third row reads 98.8, 61.2, 92.9, 90.6, 97.6, 100, 95.3, 83.5, 92.9, 89.4."><title>Face-to-Face Class</title>
+<table id="fs-idm124378288" summary="A 3 row table is shown. The first row reads 77.9, 95.3, 81.2, 74.1, 98.8, 88.2, 85.9, 92.9, 87.1, 88.2. The second row reads 69.4, 57.6, 69.4, 67.1, 97.6, 85.9, 88.2, 91.8, 78.8, 71.8. The third row reads 98.8, 61.2, 92.9, 90.6, 97.6, 100, 95.3, 83.5, 92.9, 89.4."><title>Face-to-Face Class</title>
 <tgroup cols="10"><tbody>
 <row>
 <entry>77.9</entry>
@@ -781,7 +781,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </tgroup>
 </table><exercise id="fs-idm298748224">
 <problem id="fs-idm181409216">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm28696464">Is the mean of the final exam scores of the online class lower than the mean of the final exam scores of the face-to-face class? Test at a 5 percent significance level. Answer the following questions:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp180387984" list-type="enumerated" number-style="lower-alpha"><item>Is this a test of two means or two proportions?</item>
+<para id="fs-idm28696464">Is the mean of the final exam scores of the online class lower than the mean of the final exam scores of the face-to-face class? Test at a 5 percent significance level. Answer the following questions:</para><list id="fs-idp180387984" list-type="enumerated" number-style="lower-alpha"><item>Is this a test of two means or two proportions?</item>
   <item>Are the population standard deviations known or unknown?</item>
   <item>Which distribution do you use to perform the test?</item>
   <item>What is the random variable?</item>
@@ -790,13 +790,13 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
   <item>What is the <emphasis effect="italics">p</emphasis>-value?</item>
   <item>Do you reject or not reject the null hypothesis?</item>
   <item>At the _____ level of significance, from the sample data, there ______ (is/is not) sufficient evidence to conclude that ______.</item>
-  </list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp169691824">(See the conclusion in <link target-id="element-968"/>, and write yours in a similar fashion.)</para><note id="fs-idm11616112" class="statistics calculator"><label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm206958928">First put the data for each group into two lists (such as <code>L1</code> and <code>L2</code>). Press <code>STAT</code>. Arrow over to <code>TESTS</code> and press <code>4:2SampTTest</code>. Make sure <code>Data</code> is highlighted and press <code>ENTER</code>. Arrow down and enter <code>L1</code> for the first list and <code>L2</code> for the second list. Arrow down to <code><emphasis effect="italics">μ</emphasis><sub>1</sub>:</code> and arrow to <code>≠ <emphasis effect="italics">μ</emphasis><sub>2</sub></code> (does not equal). Press <code>ENTER</code>. Arrow down to <code>Pooled: No</code>. Press <code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>.</para></note><note id="fs-idm107478368"><label/><title>Note</title>
+  </list><para id="fs-idp169691824">(See the conclusion in <link target-id="element-968"/>, and write yours in a similar fashion.)</para><note id="fs-idm11616112" class="statistics calculator"><label/>
+<para id="fs-idm206958928">First put the data for each group into two lists (such as <code>L1</code> and <code>L2</code>). Press <code>STAT</code>. Arrow over to <code>TESTS</code> and press <code>4:2SampTTest</code>. Make sure <code>Data</code> is highlighted and press <code>ENTER</code>. Arrow down and enter <code>L1</code> for the first list and <code>L2</code> for the second list. Arrow down to <code><emphasis effect="italics">μ</emphasis><sub>1</sub>:</code> and arrow to <code>≠ <emphasis effect="italics">μ</emphasis><sub>2</sub></code> (does not equal). Press <code>ENTER</code>. Arrow down to <code>Pooled: No</code>. Press <code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>.</para></note><note id="fs-idm107478368"><label/><title>Note</title>
 <para id="fs-idm218153776">Be careful not to mix up the information for Group 1 and Group 2!</para>
 </note></problem>
 
 <solution id="fs-idm168184384">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm11713040" list-type="enumerated" number-style="lower-alpha"><item>two means</item>
+<list id="fs-idm11713040" list-type="enumerated" number-style="lower-alpha"><item>two means</item>
 <item>unknown</item>
 <item>Student’s <emphasis effect="italics">t</emphasis></item>
 <item><m:math>
@@ -839,7 +839,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </list></solution>
 </exercise>
 </example>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-358"><title>Cohen’s Standards for Small, Medium, and Large Effect Sizes</title><term>Cohen’s <emphasis effect="italics">d</emphasis></term> is a measure of effect size based on the differences between two means. Cohen’s <emphasis effect="italics">d</emphasis>, named for U.S. statistician Jacob Cohen, measures the relative strength of the differences between the means of two populations based on sample data. The calculated value of effect size is then compared to Cohen’s standards of small, medium, and large effect sizes.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp93235584" summary="A two column table is shown. The first row reads Size of effect, d. The second row reads Small, 0.2. The third row reads medium, 0.5. The fourth row reads Large, 0.8."><title>Cohen’s Standard Effect Sizes</title>
+<para id="eip-358"><title>Cohen’s Standards for Small, Medium, and Large Effect Sizes</title><term>Cohen’s <emphasis effect="italics">d</emphasis></term> is a measure of effect size based on the differences between two means. Cohen’s <emphasis effect="italics">d</emphasis>, named for U.S. statistician Jacob Cohen, measures the relative strength of the differences between the means of two populations based on sample data. The calculated value of effect size is then compared to Cohen’s standards of small, medium, and large effect sizes.</para><table id="fs-idp93235584" summary="A two column table is shown. The first row reads Size of effect, d. The second row reads Small, 0.2. The third row reads medium, 0.5. The fourth row reads Large, 0.8."><title>Cohen’s Standard Effect Sizes</title>
 <tgroup cols="2"><thead>
 <row>
 <entry>Size of Effect</entry>
@@ -863,7 +863,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 
 </tgroup>
-</table><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm52480352">Cohen’s <emphasis effect="italics">d</emphasis> is the measure of the difference between two means divided by the pooled standard deviation: <m:math>
+</table><para id="fs-idm52480352">Cohen’s <emphasis effect="italics">d</emphasis> is the measure of the difference between two means divided by the pooled standard deviation: <m:math>
 <m:mrow>
 <m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -951,7 +951,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </problem>
 
 <solution id="fs-idm42685344">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp179952160"><emphasis effect="italics">μ</emphasis><sub>1</sub> = 4 <emphasis effect="italics">s</emphasis><sub>1</sub> = 1.5 <emphasis effect="italics">n</emphasis><sub>1</sub> = 11
+  <para id="fs-idp179952160"><emphasis effect="italics">μ</emphasis><sub>1</sub> = 4 <emphasis effect="italics">s</emphasis><sub>1</sub> = 1.5 <emphasis effect="italics">n</emphasis><sub>1</sub> = 11
 <newline/><emphasis effect="italics">μ</emphasis><sub>2</sub> = 3.5 <emphasis effect="italics">s</emphasis><sub>2</sub> = 1  <emphasis effect="italics">n</emphasis><sub>2</sub> = 9
 <newline/><emphasis effect="italics">d</emphasis> = 0.384
 <newline/>The effect is small because 0.384 is between Cohen’s value of 0.2 for small effect size and 0.5 for medium effect size. The size of the differences of the means for the two colleges is small, indicating that there is not a significant difference between them.</para></solution>
@@ -960,14 +960,14 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <example id="fs-idm112602048">
 <exercise id="fs-idm163588752">
-<problem id="fs-idm118829104"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm174261728">Calculate Cohen’s <emphasis effect="italics">d</emphasis> for <link target-id="fs-idm22935408"/>. Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.</para></problem>
+<problem id="fs-idm118829104"><para id="fs-idm174261728">Calculate Cohen’s <emphasis effect="italics">d</emphasis> for <link target-id="fs-idm22935408"/>. Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.</para></problem>
 <solution id="fs-idm177693104">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm86592608"><emphasis effect="italics">d</emphasis> = 0.834; large, because 0.834 is greater than Cohen’s 0.8 for a large effect size.  The size of the differences between the means of the final exam scores of online students and students in a face-to-face class is large, indicating a significant difference.</para></solution>
+<para id="fs-idm86592608"><emphasis effect="italics">d</emphasis> = 0.834; large, because 0.834 is greater than Cohen’s 0.8 for a large effect size.  The size of the differences between the means of the final exam scores of online students and students in a face-to-face class is large, indicating a significant difference.</para></solution>
 </exercise>
 </example>
 
 <note id="fs-idp145071264" class="statistics try"><label/><title>Try It</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm62120944">Weighted alpha is a measure of risk-adjusted performance of stocks over a period of a year. A high positive weighted alpha signifies a stock whose price has risen, while a small positive weighted alpha indicates an unchanged stock price during the time period. Weighted alpha is used to identify companies with strong upward or downward trends. The weighted alpha for the top 30 stocks of banks in the Northeast and in the West as identified by Nasdaq on May 24, 2013 are listed in <link target-id="fs-idm242901296"/> and <link target-id="fs-idm167801152"/>, respectively.</para><table id="fs-idm242901296" summary="A three row table is shown. The first row reads 94.2, 75.2, 69.6, 52.0, 48.0, 41.9, 36.4, 33.4, 31.5, 27.6. The second row reads 77.3, 71.9, 67.5, 50.6, 46.2, 38.4, 35.2, 33.0, 28.7, 26.5. The third row reads 76.3, 71.7, 56.3, 48.7, 43.2, 37.6, 33.7, 31.8, 28.5, 26.0.">
+<para id="fs-idm62120944">Weighted alpha is a measure of risk-adjusted performance of stocks over a period of a year. A high positive weighted alpha signifies a stock whose price has risen, while a small positive weighted alpha indicates an unchanged stock price during the time period. Weighted alpha is used to identify companies with strong upward or downward trends. The weighted alpha for the top 30 stocks of banks in the Northeast and in the West as identified by Nasdaq on May 24, 2013 are listed in <link target-id="fs-idm242901296"/> and <link target-id="fs-idm167801152"/>, respectively.</para><table id="fs-idm242901296" summary="A three row table is shown. The first row reads 94.2, 75.2, 69.6, 52.0, 48.0, 41.9, 36.4, 33.4, 31.5, 27.6. The second row reads 77.3, 71.9, 67.5, 50.6, 46.2, 38.4, 35.2, 33.0, 28.7, 26.5. The third row reads 76.3, 71.7, 56.3, 48.7, 43.2, 37.6, 33.7, 31.8, 28.5, 26.0.">
 <title>Northeast</title>
 <tgroup cols="10">
 <tbody>
@@ -1056,7 +1056,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm120507648">
 <problem id="eip-idp51089200">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm100910544">Is there a difference in the weighted alpha of the top 30 stocks of banks in the Northeast and in the West? Test at a 5 percent significance level. Answer the following questions:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp33249296" list-type="enumerated" number-style="lower-alpha"><item>Is this a test of two means or two proportions?</item>
+<para id="fs-idm100910544">Is there a difference in the weighted alpha of the top 30 stocks of banks in the Northeast and in the West? Test at a 5 percent significance level. Answer the following questions:</para><list id="fs-idp33249296" list-type="enumerated" number-style="lower-alpha"><item>Is this a test of two means or two proportions?</item>
 <item>Are the population standard deviations known or unknown?</item>
 <item>Which distribution do you use to perform the test?</item>
 <item>What is the random variable?</item>
@@ -1068,7 +1068,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <item>Calculate Cohen’s <emphasis effect="italics">d</emphasis> and interpret it.</item>
 </list></problem>
   <solution id="fs-idm22340832">
-    <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp226249440" list-type="enumerated" number-style="lower-alpha"><item>two means</item>
+    <list id="fs-idp226249440" list-type="enumerated" number-style="lower-alpha"><item>two means</item>
     <item>unknown</item>
     <item>Student’s-<emphasis effect="italics">t</emphasis></item>
       <item><m:math display="">
@@ -1139,7 +1139,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <section id="fs-idm178063424" class="summary">
 <title>Chapter Review</title>
 <para id="fs-idm116979232">Two population means from independent samples where the population standard deviations are not known</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm111534432" list-type="bulleted"><item>Random variable: <m:math>
+<list id="fs-idm111534432" list-type="bulleted"><item>Random variable: <m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">
@@ -1572,7 +1572,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 
 <section id="fs-idm9464368" class="practice">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm124875168"><emphasis effect="italics">Use the following information to answer the next 15 exercises.</emphasis> Indicate if the hypothesis test is for</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm45665008" list-type="enumerated" number-style="lower-alpha"><item>independent group means, population standard deviations, and/or variances known,</item>
+<para id="fs-idm124875168"><emphasis effect="italics">Use the following information to answer the next 15 exercises.</emphasis> Indicate if the hypothesis test is for</para><list id="fs-idm45665008" list-type="enumerated" number-style="lower-alpha"><item>independent group means, population standard deviations, and/or variances known,</item>
 <item>independent group means, population standard deviations, and/or variances unknown,</item>
 <item>matched or paired samples,</item>
 <item>single mean,</item>
@@ -1580,7 +1580,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <item>single proportion.</item>
 </list><exercise id="fs-idm22935904">
 <problem id="fs-idm124875424">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm84013008">It is believed that 70 percent of males pass their drivers test in the first attempt, while 65 percent of females pass the test in the first attempt. Of interest is whether the proportions are equal.</para></problem>
+<para id="fs-idm84013008">It is believed that 70 percent of males pass their drivers test in the first attempt, while 65 percent of females pass the test in the first attempt. Of interest is whether the proportions are equal.</para></problem>
 <solution id="fs-idm235455488">
 <para id="fs-idm173588752">two proportions</para>
 </solution>
@@ -1622,7 +1622,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idp3576048">
 <problem id="fs-idm27505984">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm27505728">It is believed that the average grade on an English essay in a particular school system is higher for females than for males.  A random sample of 31 females had a mean score of 82 with a standard deviation of 3, and a random sample of 25 males had a mean score of 76 with a standard deviation of 4.</para></problem>
+<para id="fs-idm27505728">It is believed that the average grade on an English essay in a particular school system is higher for females than for males.  A random sample of 31 females had a mean score of 82 with a standard deviation of 3, and a random sample of 25 males had a mean score of 76 with a standard deviation of 4.</para></problem>
 <solution id="fs-idm27710704">
 <para id="fs-idm54785888">independent group means, population standard deviations and/or variances unknown</para>
 </solution>
@@ -1641,7 +1641,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </solution>
 </exercise>
 <exercise id="fs-idm84811344"><problem id="fs-idm84811088">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm16418448">A new medicine is said to help improve sleep. Eight subjects are picked at random and given the medicine. The mean hours slept for each person were recorded before starting the medication and after.</para></problem>
+<para id="fs-idm16418448">A new medicine is said to help improve sleep. Eight subjects are picked at random and given the medicine. The mean hours slept for each person were recorded before starting the medication and after.</para></problem>
 </exercise>
 
 <exercise id="fs-idm111997184">
@@ -1660,7 +1660,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm155074576">
 <problem id="fs-idm187988384">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm187988128">A sample of 12 in-state graduate school programs at School A has a mean tuition of $64,000 with a standard deviation of $8,000. At School B, a sample of 16 in-state graduate programs has a mean tuition of $80,000 with a standard deviation of $6,000.  On average, are the mean tuitions different?</para></problem>
+<para id="fs-idm187988128">A sample of 12 in-state graduate school programs at School A has a mean tuition of $64,000 with a standard deviation of $8,000. At School B, a sample of 16 in-state graduate programs has a mean tuition of $80,000 with a standard deviation of $6,000.  On average, are the mean tuitions different?</para></problem>
 <solution id="fs-idm63313632">
 <para id="fs-idm86332592">independent group means, population standard deviations and/or variances unknown</para>
 </solution>
@@ -1668,12 +1668,12 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm86331952">
 <problem id="fs-idm109695328">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm109695072">A new WiFi range booster is being offered to consumers. A researcher tests the native range of 12 different routers under the same conditions. The ranges are recorded. Then, the researcher uses the new WiFi range booster and records the new ranges. Does the new WiFi range booster do a better job?</para></problem>
+<para id="fs-idm109695072">A new WiFi range booster is being offered to consumers. A researcher tests the native range of 12 different routers under the same conditions. The ranges are recorded. Then, the researcher uses the new WiFi range booster and records the new ranges. Does the new WiFi range booster do a better job?</para></problem>
 </exercise>
 
 <exercise id="fs-idm152397632">
 <problem id="fs-idm187246864">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm187246608">A high school principal claims that 30 percent of student athletes drive themselves to school, while 4 percent of nonathletes drive themselves to school. In a sample of 20 student athletes, 45 percent drive themselves to school. In a sample of 35 nonathlete students, 6 percent drive themselves to school. Is the percent of student athletes who drive themselves to school more than the percent of nonathletes?</para></problem>
+<para id="fs-idm187246608">A high school principal claims that 30 percent of student athletes drive themselves to school, while 4 percent of nonathletes drive themselves to school. In a sample of 20 student athletes, 45 percent drive themselves to school. In a sample of 35 nonathlete students, 6 percent drive themselves to school. Is the percent of student athletes who drive themselves to school more than the percent of nonathletes?</para></problem>
 <solution id="fs-idm178089840">
 <para id="fs-idm174648448">two proportions</para>
 </solution>
@@ -1698,7 +1698,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </problem>
 </exercise>
 
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-356"><emphasis effect="italics">Use the following information to answer the next 12 exercises.</emphasis> The U.S. Centers for Disease Control reports that the mean life expectancy was 47.6 years for whites born in 1900 and 33.0 years for nonwhites. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 whites, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 nonwhites, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for whites and nonwhites.</para><exercise id="fs-idm77134224">
+ <para id="eip-356"><emphasis effect="italics">Use the following information to answer the next 12 exercises.</emphasis> The U.S. Centers for Disease Control reports that the mean life expectancy was 47.6 years for whites born in 1900 and 33.0 years for nonwhites. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 whites, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 nonwhites, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for whites and nonwhites.</para><exercise id="fs-idm77134224">
 <problem id="fs-idm77133968">
 <para id="fs-idm82811296">Is this a test of means or proportions?</para>
 </problem>
@@ -1756,12 +1756,12 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm96874480">
 <problem id="fs-idm96874224">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm263989856">Calculate the test statistic and <emphasis effect="italics">p</emphasis>-value. </para></problem>
+<para id="fs-idm263989856">Calculate the test statistic and <emphasis effect="italics">p</emphasis>-value. </para></problem>
 </exercise>
 
 <exercise id="fs-idm120924688">
 <problem id="fs-idm120924432">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm120924176">Sketch a graph of the situation. Label the horizontal axis. Mark the hypothesized difference and the sample difference. Shade the area corresponding to the <emphasis effect="italics">p</emphasis>-value.</para></problem>
+<para id="fs-idm120924176">Sketch a graph of the situation. Label the horizontal axis. Mark the hypothesized difference and the sample difference. Shade the area corresponding to the <emphasis effect="italics">p</emphasis>-value.</para></problem>
   <solution id="fs-idp104610560">
     <para id="fs-idp104610816">Check student’s solution.</para>
   </solution>
@@ -1769,18 +1769,18 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm47382320">
 <problem id="fs-idm47382064">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm174192304">Find the <emphasis effect="italics">p</emphasis>-value.</para></problem>
+<para id="fs-idm174192304">Find the <emphasis effect="italics">p</emphasis>-value.</para></problem>
 </exercise>
 
 <exercise id="fs-idm129306608">
 <problem id="fs-idm129306352">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm148755040">At a preconceived <emphasis effect="italics">α</emphasis> = 0.05, write the following:
+  <para id="fs-idm148755040">At a preconceived <emphasis effect="italics">α</emphasis> = 0.05, write the following:
 <list id="fs-idp598432" list-type="enumerated" number-style="lower-alpha"><item>Your decision:</item>
    <item>The reason for your decision:</item>
    <item>Your conclusion (write out in a complete sentence):</item>
     </list></para></problem>
 <solution id="fs-idm110404384">
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp229240368" list-type="enumerated" number-style="lower-alpha"><item>Reject the null hypothesis.</item>
+  <list id="fs-idp229240368" list-type="enumerated" number-style="lower-alpha"><item>Reject the null hypothesis.</item>
       <item><emphasis effect="italics">p</emphasis>-value &lt; 0.05</item>
       <item>There is not enough evidence at the 5 percent level of significance to support the claim that life expectancy in the 1900s is different between whites and nonwhites.</item>
   </list></solution>
@@ -1794,18 +1794,18 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <section id="fs-idm173509824" class="free-response">
 <title>Homework</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-747"><emphasis effect="italics">DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in <link document="m79714">Appendix E</link>. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.</emphasis></para><note id="eip-792"><label/>
+<para id="eip-747"><emphasis effect="italics">DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in <link document="m79714">Appendix E</link>. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.</emphasis></para><note id="eip-792"><label/>
 <title>NOTE</title>
-    <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp140444868962512">If you are using a Student’s <emphasis effect="italics">t</emphasis>-distribution for a homework problem in what follows, including for paired data, you may assume that the underlying population is normally distributed. (When using these tests in a real situation, you must first prove that assumption.)</para></note><exercise id="fs-idm164128"><problem id="fs-idm163872">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm163616">The mean number of English courses taken in a two-year period by male and female college students is believed to be about the same. An experiment is conducted and data are collected from 29 males and 16 females. The males took an average of 3 English courses with a standard deviation of 0.8. The females took an average of 4 English courses with a standard deviation of 1.0. Are the means statistically the same?</para></problem>
+    <para id="eip-idp140444868962512">If you are using a Student’s <emphasis effect="italics">t</emphasis>-distribution for a homework problem in what follows, including for paired data, you may assume that the underlying population is normally distributed. (When using these tests in a real situation, you must first prove that assumption.)</para></note><exercise id="fs-idm164128"><problem id="fs-idm163872">
+<para id="fs-idm163616">The mean number of English courses taken in a two-year period by male and female college students is believed to be about the same. An experiment is conducted and data are collected from 29 males and 16 females. The males took an average of 3 English courses with a standard deviation of 0.8. The females took an average of 4 English courses with a standard deviation of 1.0. Are the means statistically the same?</para></problem>
 </exercise>
 
 
 <exercise id="fs-idm8894688">
 <problem id="fs-idm8894432">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm185269312">A student at a four-year college claims that mean enrollment at four-year colleges is higher than at two-year colleges in the United States. Two surveys are conducted. Of the 35 two-year colleges surveyed, the mean enrollment was 5,068 with a standard deviation of 4,777. Of the 35 four-year colleges surveyed, the mean enrollment was 5,466 with a standard deviation of 8,191.</para></problem>
+<para id="fs-idm185269312">A student at a four-year college claims that mean enrollment at four-year colleges is higher than at two-year colleges in the United States. Two surveys are conducted. Of the 35 two-year colleges surveyed, the mean enrollment was 5,068 with a standard deviation of 4,777. Of the 35 four-year colleges surveyed, the mean enrollment was 5,466 with a standard deviation of 8,191.</para></problem>
 <solution id="fs-idp138385488">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm89316432">Subscripts: 1: two-year colleges, 2: four-year colleges</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm89316048" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> ≥ <emphasis effect="italics">μ<sub>2</sub></emphasis></item>
+  <para id="fs-idm89316432">Subscripts: 1: two-year colleges, 2: four-year colleges</para><list id="fs-idm89316048" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> ≥ <emphasis effect="italics">μ<sub>2</sub></emphasis></item>
     <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> &lt; <emphasis effect="italics">μ<sub>2</sub></emphasis></item>
     <item><m:math>
  <m:mrow>
@@ -1845,7 +1845,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm39083984">
 <problem id="fs-idm39083728">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm53880736">At Rachel’s eleventh birthday party, eight girls were timed to see how long (in seconds) they could sit perfectly still in a relaxed position. After a two-minute rest, they timed themselves while jumping. The girls thought that the mean difference between their jumping and relaxed times would be zero. Test their hypothesis.</para><table id="fs-idm53880480" summary="The table presents the first column as the relaxed time in seconds and the second column as the jumping time in seconds.">
+<para id="fs-idm53880736">At Rachel’s eleventh birthday party, eight girls were timed to see how long (in seconds) they could sit perfectly still in a relaxed position. After a two-minute rest, they timed themselves while jumping. The girls thought that the mean difference between their jumping and relaxed times would be zero. Test their hypothesis.</para><table id="fs-idm53880480" summary="The table presents the first column as the relaxed time in seconds and the second column as the jumping time in seconds.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1896,9 +1896,9 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm122985232">
 <problem id="fs-idm122984976">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm122984720">Mean entry-level salaries for college graduates with mechanical engineering degrees and electrical engineering degrees are believed to be approximately the same. A recruiting office thinks that the mean mechanical engineering salary is lower than the mean electrical engineering salary. The recruiting office randomly surveys 50 entry-level mechanical engineers and 60 entry-level electrical engineers. Their mean salaries were $46,100 and $46,700, respectively. Their standard deviations were $3,450 and $4,210, respectively. Conduct a hypothesis test to determine if you agree that the mean entry-level mechanical engineering salary is lower than the mean entry-level electrical engineering salary.</para></problem>
+<para id="fs-idm122984720">Mean entry-level salaries for college graduates with mechanical engineering degrees and electrical engineering degrees are believed to be approximately the same. A recruiting office thinks that the mean mechanical engineering salary is lower than the mean electrical engineering salary. The recruiting office randomly surveys 50 entry-level mechanical engineers and 60 entry-level electrical engineers. Their mean salaries were $46,100 and $46,700, respectively. Their standard deviations were $3,450 and $4,210, respectively. Conduct a hypothesis test to determine if you agree that the mean entry-level mechanical engineering salary is lower than the mean entry-level electrical engineering salary.</para></problem>
 <solution id="fs-idm188189904">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp57225296">Subscripts:  1: mechanical engineering,  2: electrical engineering</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp195702880" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≥ <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
+  <para id="fs-idp57225296">Subscripts:  1: mechanical engineering,  2: electrical engineering</para><list id="fs-idp195702880" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≥ <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
     <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> &lt; <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
     <item><m:math>
  <m:mrow>
@@ -1937,16 +1937,16 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
  <exercise id="fs-idm62206688">
 <problem id="fs-idm62206432">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm105723088">Marketing companies have collected data implying that teenage girls use more ringtones on their smartphones than teenage boys do. In one study of 40 randomly chosen teenage girls and boys (20 of each) with smartphones, the mean number of ringtones for the girls was 3.2 with a standard deviation of 1.5. The mean for the boys was 1.7 with a standard deviation of 0.8. Conduct a hypothesis test to determine if the means are approximately the same or if the girls’ mean is higher than the boys’ mean.</para></problem>
+<para id="fs-idm105723088">Marketing companies have collected data implying that teenage girls use more ringtones on their smartphones than teenage boys do. In one study of 40 randomly chosen teenage girls and boys (20 of each) with smartphones, the mean number of ringtones for the girls was 3.2 with a standard deviation of 1.5. The mean for the boys was 1.7 with a standard deviation of 0.8. Conduct a hypothesis test to determine if the means are approximately the same or if the girls’ mean is higher than the boys’ mean.</para></problem>
   </exercise>
 
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-21"><emphasis effect="italics">Use the information from <link document="m79712">Appendix C</link> to answer the next four exercises.</emphasis></para><exercise id="fs-idm50796704">
+<para id="eip-21"><emphasis effect="italics">Use the information from <link document="m79712">Appendix C</link> to answer the next four exercises.</emphasis></para><exercise id="fs-idm50796704">
 <problem id="fs-idm50796448">
 <para id="fs-idm98236496">Using the data from Lap 1 only, conduct a hypothesis test to determine if the mean time for completing a lap in races is the same as it is in practices.</para>
 </problem>
 <solution id="fs-idm73210192">
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp184583584" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> = <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
+  <list id="fs-idp184583584" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> = <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
       <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≠ <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
     <item><m:math>
  <m:mrow>
@@ -1994,7 +1994,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <problem id="fs-idm54834800">
   <para id="fs-idm54834544">Repeat the test in <link target-id="fs-idm50796704">Exercise 10.83</link>, but this time combine the data from Laps 1 and 5.</para></problem>
 <solution id="fs-idm39528240">
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp172770560" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> = <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
+  <list id="fs-idp172770560" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> = <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
     <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>1</sub></emphasis> ≠ <emphasis effect="italics">µ<sub>2</sub></emphasis></item>
       <item>is the difference between the mean times for completing a lap in races and in practices.</item>
       <item><emphasis effect="italics">t</emphasis><sub>40.94</sub></item>
@@ -2012,13 +2012,13 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm80120272">
 <problem id="fs-idm80120016">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm80119760">In two to three complete sentences, explain in detail how you might use Terri Vogel’s data to answer the following question: Does Terri Vogel drive faster in races than she does in practices?</para></problem>
+<para id="fs-idm80119760">In two to three complete sentences, explain in detail how you might use Terri Vogel’s data to answer the following question: Does Terri Vogel drive faster in races than she does in practices?</para></problem>
 </exercise>
 
 
   <para id="eip-566"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.</para>
 
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-843" summary="Eastern and Western Major League Soccer">
+<table id="eip-843" summary="Eastern and Western Major League Soccer">
 <tgroup cols="2"><thead><row>
     <entry>Western</entry>
     <entry>Eastern</entry>
@@ -2053,7 +2053,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </tgroup>
 </table><para id="eip-549"><emphasis effect="italics">Conduct a hypothesis test to answer the next two exercises.</emphasis></para><exercise id="fs-idm67199056">
 <problem id="fs-idm67198800">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm67198544">The <emphasis>exact</emphasis> distribution for the hypothesis test is</para><list id="fs-idm91569200" list-type="enumerated" number-style="lower-alpha"><item>the normal distribution</item>
+<para id="fs-idm67198544">The <emphasis>exact</emphasis> distribution for the hypothesis test is</para><list id="fs-idm91569200" list-type="enumerated" number-style="lower-alpha"><item>the normal distribution</item>
     <item>the Student’s <emphasis effect="italics">t</emphasis>-distribution</item>
     <item>the uniform distribution</item>
     <item>the exponential distribution</item>
@@ -2063,7 +2063,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <exercise id="fs-idm3207760">
 <problem id="fs-idm104292672">
 <para id="fs-idm104292416">If the level of significance is 0.05, the conclusion is:</para>
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm104292032" list-type="enumerated" number-style="lower-alpha"><item>There is sufficient evidence to conclude that the <emphasis>W</emphasis> Division teams score fewer goals, on average, than the <emphasis>E</emphasis> teams. </item>
+  <list id="fs-idm104292032" list-type="enumerated" number-style="lower-alpha"><item>There is sufficient evidence to conclude that the <emphasis>W</emphasis> Division teams score fewer goals, on average, than the <emphasis>E</emphasis> teams. </item>
     <item>There is insufficient evidence to conclude that the <emphasis>W</emphasis> Division teams score more goals, on average, than the <emphasis>E</emphasis> teams.</item>
     <item>There is insufficient evidence to conclude that the <emphasis>W</emphasis> teams score fewer goals, on average, than the <emphasis>E</emphasis> teams.</item>
     <item>There is not sufficient evidence to determine a conclusion.</item>
@@ -2074,7 +2074,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </exercise>
 
 <exercise id="fs-idm108118736"><problem id="fs-idm122622576">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp273849808">Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. She takes random samples from each of the populations. The mean and standard deviation for 35 statistics day students were 75.86 and 16.91. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The <emphasis effect="italics">day</emphasis> subscript refers to the statistics day students. The <emphasis effect="italics">night</emphasis> subscript refers to the statistics night students. Which of the following is a concluding statement:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm122621936" list-type="enumerated" number-style="lower-alpha"><item>There is sufficient evidence to conclude that  statistics night students’ mean on Exam 2 is better than the statistics day  students’ mean on Exam 2.</item>
+<para id="eip-idp273849808">Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. She takes random samples from each of the populations. The mean and standard deviation for 35 statistics day students were 75.86 and 16.91. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The <emphasis effect="italics">day</emphasis> subscript refers to the statistics day students. The <emphasis effect="italics">night</emphasis> subscript refers to the statistics night students. Which of the following is a concluding statement:</para><list id="fs-idm122621936" list-type="enumerated" number-style="lower-alpha"><item>There is sufficient evidence to conclude that  statistics night students’ mean on Exam 2 is better than the statistics day  students’ mean on Exam 2.</item>
     <item>There is insufficient evidence to conclude that the statistics day  students’ mean on Exam 2 is better than the statistics night students’ mean on Exam 2.</item>
     <item>There is insufficient evidence to conclude that there is a significant difference between the means of the statistics day students and night students on Exam 2.</item>
     <item>There is sufficient evidence to conclude that there is a significant difference between the means of the statistics day students and night students on Exam 2.</item>
@@ -2083,7 +2083,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm81478720">
       <problem id="fs-idp12884432">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp12884688">Researchers interviewed people in a certain industry in Canada and the United States. The mean age of the 100 Canadians upon entering this industry was 18 with a standard deviation of 6. The mean age of the 130 Americans upon entering this industry was 20 with a standard deviation of 8. Is the mean age of entering this industry in Canada lower than the mean age in the United States? Test at a 1 percent significance level.</para></problem>
+        <para id="fs-idp12884688">Researchers interviewed people in a certain industry in Canada and the United States. The mean age of the 100 Canadians upon entering this industry was 18 with a standard deviation of 6. The mean age of the 130 Americans upon entering this industry was 20 with a standard deviation of 8. Is the mean age of entering this industry in Canada lower than the mean age in the United States? Test at a 1 percent significance level.</para></problem>
       <solution id="fs-idm189266736">
         <para id="fs-idm189266480">Test: two independent sample means, population standard deviations unknown.</para>
         <para id="fs-idm7792944">Random variable: <m:math display="block">
@@ -2108,11 +2108,11 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
  </m:mrow>
 </m:math></para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm96995296">Distribution: <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> &lt; <emphasis effect="italics">μ</emphasis><sub>2</sub> <newline/> The mean age of entering the industry in Canada is lower than the mean age in the United States.</para><figure id="fs-idm122708400"><media id="fs-idm5558192" alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0157.">
+<para id="fs-idm96995296">Distribution: <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> &lt; <emphasis effect="italics">μ</emphasis><sub>2</sub> <newline/> The mean age of entering the industry in Canada is lower than the mean age in the United States.</para><figure id="fs-idm122708400"><media id="fs-idm5558192" alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0157.">
           <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M02_005anno.jpg" width="380"/>
         </media>
         </figure><para id="fs-idm95276832">Graph: left-tailed</para>
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm5467280"><emphasis effect="italics">p</emphasis>-value : 0.0151</para><para id="fs-idm171100928">Decision: Do not reject <emphasis effect="italics">H</emphasis><sub>0</sub>.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm125542800">Conclusion: At the 1 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the mean age of entering the industry in Canada is lower than the mean age in the United States.</para></solution>
+        <para id="fs-idm5467280"><emphasis effect="italics">p</emphasis>-value : 0.0151</para><para id="fs-idm171100928">Decision: Do not reject <emphasis effect="italics">H</emphasis><sub>0</sub>.</para><para id="fs-idm125542800">Conclusion: At the 1 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the mean age of entering the industry in Canada is lower than the mean age in the United States.</para></solution>
     </exercise>
 
     <exercise id="fs-idm65734896">
@@ -2123,7 +2123,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
     <exercise id="eip-17">
       <problem id="eip-334">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-853">Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. She takes random samples from each of the populations. The mean and standard deviation for 35 statistics day students were 75.86 and 16.91, respectively. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The <emphasis effect="italics">day</emphasis> subscript refers to the statistics day students. The <emphasis effect="italics">night</emphasis> subscript refers to the statistics night students. An appropriate alternative hypothesis for the hypothesis test is</para><list id="eip-idp47881856" list-type="enumerated" number-style="lower-alpha">
+        <para id="eip-853">Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. She takes random samples from each of the populations. The mean and standard deviation for 35 statistics day students were 75.86 and 16.91, respectively. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The <emphasis effect="italics">day</emphasis> subscript refers to the statistics day students. The <emphasis effect="italics">night</emphasis> subscript refers to the statistics night students. An appropriate alternative hypothesis for the hypothesis test is</para><list id="eip-idp47881856" list-type="enumerated" number-style="lower-alpha">
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> &gt; <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> &lt; <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> = <emphasis effect="italics">μ</emphasis><sub>night</sub></item>

@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7" class="introduction">
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
   <title>Introduction</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79700</md:content-id>
   <md:title>Introduction</md:title>
   <md:abstract/>
@@ -21,6 +21,6 @@
 <item>Calculate and interpret the correlation coefficient</item>
 <item>Calculate and interpret outliers</item></list>
 </note>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="delete_me">Professionals often want to know how two or more numeric variables are related. For example, is there a relationship between the grade on the second math exam a student takes and the grade on the final exam? If there is a relationship, what is the relationship, and how strong is it?</para><para id="element-814">In another example, your income may be determined by your education, your profession, your years of experience, and your ability. The amount you pay a repair person for labor is often determined by an initial amount plus an hourly fee.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-363">The type of data described in the examples is <term>bivariate</term> data—<emphasis effect="italics">bi</emphasis>—for two variables. In reality, statisticians use <term>multivariate</term> data, meaning many variables.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-601">In this chapter, you will study the simplest form of regression—<emphasis effect="italics">linear regression</emphasis>—with one independent variable (<emphasis effect="italics">x</emphasis>). This involves data that fit a line in two dimensions. You will also study correlation, which measures the strength of a relationship.</para> </content>
+<para id="delete_me">Professionals often want to know how two or more numeric variables are related. For example, is there a relationship between the grade on the second math exam a student takes and the grade on the final exam? If there is a relationship, what is the relationship, and how strong is it?</para><para id="element-814">In another example, your income may be determined by your education, your profession, your years of experience, and your ability. The amount you pay a repair person for labor is often determined by an initial amount plus an hourly fee.</para>
+<para id="element-363">The type of data described in the examples is <term>bivariate</term> data—<emphasis effect="italics">bi</emphasis>—for two variables. In reality, statisticians use <term>multivariate</term> data, meaning many variables.</para><para id="element-601">In this chapter, you will study the simplest form of regression—<emphasis effect="italics">linear regression</emphasis>—with one independent variable (<emphasis effect="italics">x</emphasis>). This involves data that fit a line in two dimensions. You will also study correlation, which measures the strength of a relationship.</para> </content>
 </document>

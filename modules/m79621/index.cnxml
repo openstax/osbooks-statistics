@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Probability Distribution Function (PDF) for a Discrete Random Variable</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79621</md:content-id>
   <md:title>Probability Distribution Function (PDF) for a Discrete Random Variable</md:title>
   <md:abstract/>
@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164968721206">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164559071701">There are two types of <term>random variables</term>, discrete random variables and continuous random variables. The values of a <emphasis effect="italics">discrete random variable</emphasis> are countable, which means the values are obtained by counting. All random variables we discussed in previous examples are discrete random variables. We counted the number of red balls, the number of heads, or the number of female children to get the corresponding random variable values. The values of a <emphasis effect="italics">continuous random variable</emphasis> are uncountable, which means the values are not obtained by counting. Instead, they are obtained by measuring. For example, let <emphasis effect="italics">X</emphasis> = temperature of a randomly selected day in June in a city. The value of <emphasis effect="italics">X</emphasis> can be 68°, 71.5°, 80.6°, or 90.32°. These values are obtained by measuring by a thermometer.  Another example of a continuous random variable is the height of a randomly selected high school student. The value of this random variable can be 5'2", 6'1", or 5'8". Those values are obtained by measuring by a ruler.</para><para id="delete_me">A discrete <term>probability distribution function</term> has two characteristics:</para>
+<para id="fs-id1164559071701">There are two types of <term>random variables</term>, discrete random variables and continuous random variables. The values of a <emphasis effect="italics">discrete random variable</emphasis> are countable, which means the values are obtained by counting. All random variables we discussed in previous examples are discrete random variables. We counted the number of red balls, the number of heads, or the number of female children to get the corresponding random variable values. The values of a <emphasis effect="italics">continuous random variable</emphasis> are uncountable, which means the values are not obtained by counting. Instead, they are obtained by measuring. For example, let <emphasis effect="italics">X</emphasis> = temperature of a randomly selected day in June in a city. The value of <emphasis effect="italics">X</emphasis> can be 68°, 71.5°, 80.6°, or 90.32°. These values are obtained by measuring by a thermometer.  Another example of a continuous random variable is the height of a randomly selected high school student. The value of this random variable can be 5'2", 6'1", or 5'8". Those values are obtained by measuring by a ruler.</para><para id="delete_me">A discrete <term>probability distribution function</term> has two characteristics:</para>
 
 <list id="element-yu2" list-type="enumerated" number-style="arabic"><item>Each probability is between zero and one, inclusive.</item>
 <item>The sum of the probabilities is one.</item>
@@ -119,8 +119,8 @@
 </tgroup>
 </table>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-260"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, 4, 5. This is a discrete PDF because we can count the number of values of <emphasis effect="italics">x</emphasis> and also because of the following two reasons:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="enumprac" list-type="enumerated" number-style="lower-alpha"><item>Each <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) is between zero and one, therefore inclusive</item>
-<item>The sum of the probabilities is one, that is, </item></list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm17614256"><equation class="unnumbered" id="fifsum"><label/><m:math display="block">
+<para id="element-260"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, 4, 5. This is a discrete PDF because we can count the number of values of <emphasis effect="italics">x</emphasis> and also because of the following two reasons:</para><list id="enumprac" list-type="enumerated" number-style="lower-alpha"><item>Each <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) is between zero and one, therefore inclusive</item>
+<item>The sum of the probabilities is one, that is, </item></list><para id="fs-idm17614256"><equation class="unnumbered" id="fifsum"><label/><m:math display="block">
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -266,7 +266,7 @@
 
 <exercise id="eip-466">
 <problem id="eip-idp158961632">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164562210687">Describe the random variable in words. Let <emphasis effect="italics">X</emphasis> = the number of days Nancy  ________.</para></problem>
+<para id="fs-id1164562210687">Describe the random variable in words. Let <emphasis effect="italics">X</emphasis> = the number of days Nancy  ________.</para></problem>
 
 <solution id="eip-idp214323360">
 <para id="eip-idp133021120">a. Let <emphasis effect="italics">X</emphasis> = the number of days Nancy attends class per week.<newline count="2"/></para>
@@ -275,7 +275,7 @@
 
 <exercise id="eip-694">
 <problem id="eip-idp2555296">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm52442560">b. In this example, what are possible values of <emphasis effect="italics">X</emphasis>?</para></problem>
+  <para id="eip-idm52442560">b. In this example, what are possible values of <emphasis effect="italics">X</emphasis>?</para></problem>
 <solution id="eip-idm30850864">
   <para id="eip-idm11988624">b. 0, 1, 2, and 3<newline count="2"/></para></solution>
 </exercise>
@@ -321,7 +321,7 @@
 </exercise></example><note id="fs-idm157100592" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idp17767152">
 <problem id="fs-idm59642592">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp10711280">Jeremiah has basketball practice two days a week. 90 percent of the time, he attends both practices. Eight percent of the time, he attends one practice. Two percent of the time, he does not attend either practice. What is <emphasis effect="italics">X</emphasis> and what values does it take on?</para></problem>
+<para id="fs-idp10711280">Jeremiah has basketball practice two days a week. 90 percent of the time, he attends both practices. Eight percent of the time, he attends one practice. Two percent of the time, he does not attend either practice. What is <emphasis effect="italics">X</emphasis> and what values does it take on?</para></problem>
 <solution id="fs-idm40434416" class="solutions">
 <label/>
 <para id="fs-idm3815552"><emphasis effect="italics">X</emphasis> is the number of days Jeremiah attends basketball practice per week. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, and 2.</para>
@@ -339,7 +339,7 @@
 
 <section id="fs-idp69020960" class="practice">
 <title/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm83247344"><emphasis effect="italics">Use the following information to answer the next five exercises:</emphasis> A company wants to evaluate its attrition rate, or in other words, how long new hires stay with the company. Over the years, the company has established the following probability distribution:</para><para id="fs-idm71612400">Let <emphasis effect="italics">X</emphasis> = the number of years a new hire will stay with the company.</para>
+<para id="fs-idm83247344"><emphasis effect="italics">Use the following information to answer the next five exercises:</emphasis> A company wants to evaluate its attrition rate, or in other words, how long new hires stay with the company. Over the years, the company has established the following probability distribution:</para><para id="fs-idm71612400">Let <emphasis effect="italics">X</emphasis> = the number of years a new hire will stay with the company.</para>
 
 <para id="fs-idm48855200">Let <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) = the probability that a new hire will stay with the company <emphasis effect="italics">x</emphasis> years.</para>
 
@@ -409,7 +409,7 @@
 <solution id="fs-idm46445984"><para id="fs-idp107818160">1</para></solution>
 </exercise>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm61093248"><newline/><emphasis effect="italics">Use the following information to answer the next four exercises:</emphasis> A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</para><table id="fs-idm43289680" summary="A two column, five row table is shown. The header row contains the following column titles: x, and P opening parenthesis x closing parenthesis. The first data row contains 1 and 0.15. The second data row contains 2 and 0.35. The third data row contains 3 and 0.40. The final data row contains 4 and 0.10.">
+<para id="fs-idm61093248"><newline/><emphasis effect="italics">Use the following information to answer the next four exercises:</emphasis> A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</para><table id="fs-idm43289680" summary="A two column, five row table is shown. The header row contains the following column titles: x, and P opening parenthesis x closing parenthesis. The first data row contains 1 and 0.15. The second data row contains 2 and 0.35. The third data row contains 3 and 0.40. The final data row contains 4 and 0.10.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -454,7 +454,7 @@ batch? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emp
 </exercise>
 
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp26455296"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises:</emphasis> Ellen has music practice three days a week. She practices for all of the three days 85 percent of the time, two days 8 percent of the time, one day 4 percent of the time, and no days 3 percent of the time. One week is selected at random.</para><exercise id="fs-idp80631856"><problem id="fs-idm38076272">
+<para id="fs-idp26455296"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises:</emphasis> Ellen has music practice three days a week. She practices for all of the three days 85 percent of the time, two days 8 percent of the time, one day 4 percent of the time, and no days 3 percent of the time. One week is selected at random.</para><exercise id="fs-idp80631856"><problem id="fs-idm38076272">
 <para id="fs-idp104793536">Define the random variable <emphasis effect="italics">X</emphasis>.</para>
 </problem>
 
@@ -526,7 +526,7 @@ batch? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emp
 </exercise>
 
 <exercise id="fs-idm51474800"><problem id="fs-idp105026400">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm62777200">Find the probability that Javier volunteers for fewer than three events each month. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) = ________</para></problem>
+<para id="fs-idm62777200">Find the probability that Javier volunteers for fewer than three events each month. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) = ________</para></problem>
 
 <!-- <solution id="fs-idp58199168">
 <para id="fs-idm17855008">0.05 + 0.05 + 0.10 = 0.20</para>
@@ -580,7 +580,7 @@ batch? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emp
 </tbody>
 
 </tgroup>
-</table><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-99" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+</table><list id="element-99" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item>What does it mean that the values 0, 1, and 2 are not included for <emphasis effect="italics">x</emphasis> in the PDF?</item>
 </list></problem>
 </exercise></section> </content>

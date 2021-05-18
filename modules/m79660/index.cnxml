@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7" class="introduction">
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
   <title>Introduction</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79660</md:content-id>
   <md:title>Introduction</md:title>
   <md:abstract/>
@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-  <figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm165993648" class="splash"><media id="fs-idm52702960" alt="This is a picture of a Dalmation dog covered in black spots. He is wearing a red color, appears to be in a nature setting, and there is a spout of water from a water fountain in the foreground.">
+  <figure id="fs-idm165993648" class="splash"><media id="fs-idm52702960" alt="This is a picture of a Dalmation dog covered in black spots. He is wearing a red color, appears to be in a nature setting, and there is a spout of water from a water fountain in the foreground.">
 <image src="../../media/CNX_Stats_C09_CO.jpg" width="380" mime-type="image/jpeg"/>
 </media>
   <caption>You can use a hypothesis test to decide if a dog breeder’s claim that every Dalmatian has 35 spots is statistically sound. (credit: Robert Neff)</caption></figure><note id="fs-idp21504400" class="chapter-objectives">
@@ -36,7 +36,7 @@
 </para>
   <!-- LINK -->
     <note id="id23787041"><label/><title>Note</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm82174448">To do the hypothesis test homework problems for this chapter and later chapters, make copies of the appropriate special solution sheets. See <link document="m79714">Appendix E</link>.</para></note> </content>
+<para id="eip-idm82174448">To do the hypothesis test homework problems for this chapter and later chapters, make copies of the appropriate special solution sheets. See <link document="m79714">Appendix E</link>.</para></note> </content>
  <glossary>
   <definition id="coninter">
     <term>confidence interval (<emphasis effect="italics">CI</emphasis>)</term>

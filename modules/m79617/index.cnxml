@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Tree and Venn Diagrams</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79617</md:content-id>
   <md:title>Tree and Venn Diagrams</md:title>
   <md:abstract/>
@@ -13,10 +13,10 @@
 </section>
 <section id="fs-idp113760352">
 <title>Tree Diagrams</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp119305568">A <term>tree diagram</term> is a special type of graph used to determine the outcomes of an experiment. It consists of <emphasis effect="italics">branches</emphasis> that are labeled with either frequencies or probabilities. Tree diagrams can make some probability problems easier to visualize and solve. The following example illustrates how to use a tree diagram:</para><example id="element-192">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-200">In an urn, there are 11 balls. Three balls are red (<emphasis effect="italics">R</emphasis>) and eight balls are blue (<emphasis effect="italics">B</emphasis>). Draw two balls, one at a time, <emphasis>with replacement</emphasis>. <emphasis effect="italics">With replacement</emphasis> means that you put the first ball back in the urn before you select the second ball. Therefore, you are selecting from exactly the same group each time, so each draw is independent. The tree diagram shows all the possible outcomes.</para><figure id="element-325"><media id="id47069242" alt="This is a tree diagram with branches showing frequencies of each draw. The first branch shows two lines: 8B and 3R. The second branch has a set of two lines (8B and 3R) for each line of the first branch. Multiply along each line to find 64BB, 24BR, 24RB, and 9RR."><image src="../../media/fig-ch03_07_01N.jpg" mime-type="image/jpg" width="400" print-width="4in"/></media>
-<caption>Total = 64 + 24 + 24 + 9 = 121.</caption></figure><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-54">The first set of branches represents the first draw. There are 8 ways to draw a blue marble and 3 ways to draw a red one. The second set of branches represents the second draw. Regardless of the choice on the first draw, there are again eight ways to draw a blue marble and 3 ways to draw a red one. Read down each branch to see the total number of possible outcomes. For example, there are 8 ways to get a blue marble on the first draw, and eight ways to get one on the second draw, so there are 8 × 8 = 64 different ways to draw two blue marbles in succession. Each of the outcomes is distinct. In fact, we can list each red ball as <emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>2, and <emphasis effect="italics">R</emphasis>3 and each blue ball as <emphasis effect="italics">B</emphasis>1, <emphasis effect="italics">B</emphasis>2, <emphasis effect="italics">B</emphasis>3, <emphasis effect="italics">B</emphasis>4, <emphasis effect="italics">B</emphasis>5, <emphasis effect="italics">B</emphasis>6, <emphasis effect="italics">B</emphasis>7, and <emphasis effect="italics">B</emphasis>8. Then the nine <emphasis effect="italics">RR</emphasis> outcomes can be written as follows:</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-1255"><emphasis effect="italics">R</emphasis>1<emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>1<emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>1<emphasis effect="italics">R</emphasis>3, <emphasis effect="italics">R</emphasis>2<emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>2<emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>2<emphasis effect="italics">R</emphasis>3, <emphasis effect="italics">R</emphasis>3<emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>3<emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>3<emphasis effect="italics">R</emphasis>3.</para><para id="element-5235">The other outcomes are similar.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-767">There are a total of 11 balls in the urn. Draw two balls, one at a time, with replacement. There are 11(11) = 121 outcomes, the size of the <term>sample space</term>.<newline/></para><exercise id="element-135">
+<para id="fs-idp119305568">A <term>tree diagram</term> is a special type of graph used to determine the outcomes of an experiment. It consists of <emphasis effect="italics">branches</emphasis> that are labeled with either frequencies or probabilities. Tree diagrams can make some probability problems easier to visualize and solve. The following example illustrates how to use a tree diagram:</para><example id="element-192">
+<para id="element-200">In an urn, there are 11 balls. Three balls are red (<emphasis effect="italics">R</emphasis>) and eight balls are blue (<emphasis effect="italics">B</emphasis>). Draw two balls, one at a time, <emphasis>with replacement</emphasis>. <emphasis effect="italics">With replacement</emphasis> means that you put the first ball back in the urn before you select the second ball. Therefore, you are selecting from exactly the same group each time, so each draw is independent. The tree diagram shows all the possible outcomes.</para><figure id="element-325"><media id="id47069242" alt="This is a tree diagram with branches showing frequencies of each draw. The first branch shows two lines: 8B and 3R. The second branch has a set of two lines (8B and 3R) for each line of the first branch. Multiply along each line to find 64BB, 24BR, 24RB, and 9RR."><image src="../../media/fig-ch03_07_01N.jpg" mime-type="image/jpg" width="400" print-width="4in"/></media>
+<caption>Total = 64 + 24 + 24 + 9 = 121.</caption></figure><para id="element-54">The first set of branches represents the first draw. There are 8 ways to draw a blue marble and 3 ways to draw a red one. The second set of branches represents the second draw. Regardless of the choice on the first draw, there are again eight ways to draw a blue marble and 3 ways to draw a red one. Read down each branch to see the total number of possible outcomes. For example, there are 8 ways to get a blue marble on the first draw, and eight ways to get one on the second draw, so there are 8 × 8 = 64 different ways to draw two blue marbles in succession. Each of the outcomes is distinct. In fact, we can list each red ball as <emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>2, and <emphasis effect="italics">R</emphasis>3 and each blue ball as <emphasis effect="italics">B</emphasis>1, <emphasis effect="italics">B</emphasis>2, <emphasis effect="italics">B</emphasis>3, <emphasis effect="italics">B</emphasis>4, <emphasis effect="italics">B</emphasis>5, <emphasis effect="italics">B</emphasis>6, <emphasis effect="italics">B</emphasis>7, and <emphasis effect="italics">B</emphasis>8. Then the nine <emphasis effect="italics">RR</emphasis> outcomes can be written as follows:</para><para id="element-1255"><emphasis effect="italics">R</emphasis>1<emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>1<emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>1<emphasis effect="italics">R</emphasis>3, <emphasis effect="italics">R</emphasis>2<emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>2<emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>2<emphasis effect="italics">R</emphasis>3, <emphasis effect="italics">R</emphasis>3<emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">R</emphasis>3<emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">R</emphasis>3<emphasis effect="italics">R</emphasis>3.</para><para id="element-5235">The other outcomes are similar.</para>
+<para id="element-767">There are a total of 11 balls in the urn. Draw two balls, one at a time, with replacement. There are 11(11) = 121 outcomes, the size of the <term>sample space</term>.<newline/></para><exercise id="element-135">
 <problem id="id47069535">
   <para id="element-638">a. List the 24 <emphasis effect="italics">BR</emphasis> outcomes: <emphasis effect="italics">B</emphasis>1<emphasis effect="italics">R</emphasis>1, <emphasis effect="italics">B</emphasis>1<emphasis effect="italics">R</emphasis>2, <emphasis effect="italics">B</emphasis>1<emphasis effect="italics">R</emphasis>3, . . . </para></problem>
 <solution id="id47069675" print-placement="end">
@@ -34,7 +34,7 @@
 </exercise>
 
 <exercise id="element-38"><problem id="id47069956">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-909">b. Calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RR</emphasis>).</para></problem>
+  <para id="element-909">b. Calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RR</emphasis>).</para></problem>
 <solution id="id47069979">
   <para id="element-913">b. You can use the tree diagram. There are nine ways to draw two reds and 121 possible outcomes. So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RR</emphasis>) = <m:math>
  <m:semantics>
@@ -92,7 +92,7 @@
 <exercise id="element-492"><problem id="id47070044">
   <para id="element-865">c. Calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis> OR <emphasis effect="italics">BR</emphasis>).</para></problem>
 <solution id="id47070067">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-968">c. The tree diagram shows that there are 24 ways to draw <emphasis effect="italics">RB</emphasis> and 24 ways to draw <emphasis effect="italics">BR</emphasis>. There are 121 possible outcomes, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis> or <emphasis effect="italics">BR</emphasis>) = <m:math>
+  <para id="element-968">c. The tree diagram shows that there are 24 ways to draw <emphasis effect="italics">RB</emphasis> and 24 ways to draw <emphasis effect="italics">BR</emphasis>. There are 121 possible outcomes, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis> or <emphasis effect="italics">BR</emphasis>) = <m:math>
  <m:semantics>
   <m:mrow>
    <m:mfrac>
@@ -181,7 +181,7 @@
   <para id="element-972">d. Using the tree diagram, calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> on 1st draw AND <emphasis effect="italics">B</emphasis> on 2nd draw).</para>
 </problem>
 <solution id="id46124822">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-989">d. Follow the path on the tree. There are three ways to get a red marble on the first draw and eight ways to get a blue on the second draw. There are 3 × 8 = 24 ways to draw red then blue, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis>) = <m:math>
+  <para id="element-989">d. Follow the path on the tree. There are three ways to get a red marble on the first draw and eight ways to get a blue on the second draw. There are 3 × 8 = 24 ways to draw red then blue, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis>) = <m:math>
  <m:semantics>
   <m:mrow>
    <m:mfrac>
@@ -239,9 +239,9 @@
 </problem>
 <solution id="id46124917">
   <para id="element-70">e. Given that a blue marble is selected first, we need only follow the left set of branches on the tree diagram. In this case, there are three ways to obtain red on the second draw and 11 possible outcomes.</para>
-<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565500213"><media id="fs-id1164567994971" alt="Image shows a tree diagram with two levels the first level shows two branches. The first level represents the first draw of a marble. The left branch is labeled eight B and the right branch is labeled three R. The second level represents the second draw, two additional branches extend from the end of first level’s branches. The left branch of each is labeled eight B and the right branch is labeled three R">
+<figure id="fs-id1164565500213"><media id="fs-id1164567994971" alt="Image shows a tree diagram with two levels the first level shows two branches. The first level represents the first draw of a marble. The left branch is labeled eight B and the right branch is labeled three R. The second level represents the second draw, two additional branches extend from the end of first level’s branches. The left branch of each is labeled eight B and the right branch is labeled three R">
 <image src="../../media/prob_tpcs_treedia2.png" mime-type="image/png" width="380"/></media>
-</figure><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565791549"><m:math display="block">
+</figure><para id="fs-id1164565791549"><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
@@ -262,7 +262,7 @@
   </m:mrow>
  </m:semantics>
 </m:math></para><para id="fs-id1164567814108">You can also use the formula</para>
-<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" class="unnumbered" id="fs-id1164567792899"><label/><m:math display="block">
+<equation class="unnumbered" id="fs-id1164567792899"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
@@ -472,7 +472,7 @@
 <label/>
 <title>NOTE</title>
 <para id="eip-idp61215856">If you draw a red on the first draw from the three red possibilities, there are two red marbles left to draw on the second draw. You do not put back or replace the first marble after you have drawn it. You draw <emphasis>without replacement</emphasis>, so that on the second draw there are 10 marbles left in the urn.</para></note>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-993"><newline/>Calculate the following probabilities using the tree diagram:<newline count="2"/></para><exercise id="element-366">
+<para id="element-993"><newline/>Calculate the following probabilities using the tree diagram:<newline count="2"/></para><exercise id="element-366">
 <problem id="id47078429">
   <para id="element-452">a. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RR</emphasis>) = ________</para></problem>
 <solution id="id47078452">
@@ -546,7 +546,7 @@
 </m:math></para>
 </problem>
 <solution id="id47078597" print-placement="end">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm21770224">b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis> OR <emphasis effect="italics">BR</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">BR</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> on 1st) <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> on 2nd) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> on 1st) <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> on 2nd) = <m:math>
+  <para id="fs-idm21770224">b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis> OR <emphasis effect="italics">BR</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">BR</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> on 1st) <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> on 2nd) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> on 1st) <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> on 2nd) = <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -742,7 +742,7 @@
  </m:mrow>
 </m:math>.</para></solution>
 </exercise>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-47">If we are using probabilities, we can label the tree in the following general way:</para><media id="id46086747" alt="This is a tree diagram for a two-step experiment. The first branch shows first outcome: P(B) and P(R). The second branch has a set of 2 lines for each line of the first branch: the probability of B given B = P(BB), the probability of R given B = P(RB), the probability of B given R = P(BR), and the probability of R given R = P(RR)." display="block">
+<para id="element-47">If we are using probabilities, we can label the tree in the following general way:</para><media id="id46086747" alt="This is a tree diagram for a two-step experiment. The first branch shows first outcome: P(B) and P(R). The second branch has a set of 2 lines for each line of the first branch: the probability of B given B = P(BB), the probability of R given B = P(RB), the probability of B given R = P(BR), and the probability of R given R = P(RR)." display="block">
 <image src="../../media/fig-ch03_07_03N.jpg" mime-type="image/jpg" width="400"/></media>
 <list id="element-425" list-type="bulleted">
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">R</emphasis>) here means <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> on 2nd|<emphasis effect="italics">R</emphasis> on 1st)</item>
@@ -754,7 +754,7 @@
 <exercise id="fs-idp40630704"><problem id="fs-idp516608">
 <para id="fs-idp47082864">In a standard deck, there are 52 cards. Twelve cards are face cards (<emphasis effect="italics">F</emphasis>) and 40 cards are not face cards (<emphasis effect="italics">N</emphasis>). Draw two cards, one at a time, without replacement. The tree diagram is labeled with all possible probabilities.</para>
 <figure id="eip-idm127200928"><media id="fs-idp88881552" alt="This is a tree diagram with branches showing frequencies of each draw. The first branch shows 2 lines: F 12/52 and N 40/52. The second branch has a set of 2 lines (F 11/52 and N 40/51) for each line of the first branch. Multiply along each line to find FF 121/2652, FN 480/2652, NF 480/2652, and NN 1560/2652." display="block"><image src="../../media/CNX_Stats_C03_M07_tryit002.jpg" mime-type="image/jpg" width="400" print-width="4in"/></media></figure>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm44947616" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">FN</emphasis> OR <emphasis effect="italics">NF</emphasis>).</item>
+<list id="fs-idm44947616" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">FN</emphasis> OR <emphasis effect="italics">NF</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">F</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(at most one face card).
 <newline/>Hint: <emphasis effect="italics">At most one face card</emphasis> means zero or one face card.</item>
@@ -870,7 +870,7 @@
 <para id="fs-idp43271504"><media id="fs-idp49760160" alt="This is a tree diagram with branches showing probabilities of kitten choices. The first branch shows two lines: T 4/9 and B 5/9. The second branch has a set of 2 lines for each first branch line. Below T 4/9 are T 3/8 and B 5/8. Below B 5/9 are T 4/8 and B 4/8. Multiply along each line to find probabilities of possible combinations." display="block"><image src="../../media/CNX_Stats_C03_M07_001N.jpg" mime-type="image/jpg" width="400" print-width="4in"/></media></para>
 <exercise id="fs-idp40987552">
 <problem id="fs-idp44496224">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm1310240" list-type="enumerated" number-style="lower-alpha"><item>Which shows the probability that both kittens are tabby?
+<list id="fs-idm1310240" list-type="enumerated" number-style="lower-alpha"><item>Which shows the probability that both kittens are tabby?
 <newline count="2"/><m:math>
  <m:mrow>
   <m:mrow><m:mtext>a.</m:mtext><m:mo>(</m:mo>
@@ -1111,7 +1111,7 @@
 <item>What is the probability of choosing two kittens of the same color?</item>
 </list></problem>
 <solution id="fs-idm2776368">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp7489584">a. <m:math>
+<para id="fs-idp7489584">a. <m:math>
  <m:semantics>
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
@@ -1261,7 +1261,7 @@
 
 <section id="eip-922">
 <title>Venn Diagram</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="delete_me">A <term>Venn diagram</term> is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space <emphasis effect="italics">S</emphasis> together with circles or ovals. The circles or ovals represent events.</para><example id="element-513"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-756">Suppose an experiment has the outcomes 1, 2, 3, . . . , 12 where each outcome has an equal chance of occurring. Let event <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5, 6} and event <emphasis effect="italics">B</emphasis> = {6, 7, 8, 9}. Then <emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis> = {6} and <emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8, 9}.  The Venn diagram is as follows:</para><figure id="eip-idm17287840"><media id="id18119489" alt="Image shows a Venn diagram consisting of two overlapping ovals inside a rectangle. The left oval is labeled A and the right is labeled B. The rectangle is labeled S. Annotations explain that Every outcome in the sample space is listed in the box. The shaded, overlapping area contains any outcome that appears in both events. This area contains six. All outcomes in A are listed in the oval labeled A. The values one, two, three, four, and five lie inside A, but outside the overlapping region. All outcomes in B are listed in the oval labeled B. The values seven, eight, and nine lie inside B, but outside the overlapping region. The outcomes ten, eleven, and twelve are in the sample space, but not in the events A or B, so these are listed in the region inside the rectangle and outside the ovals." display="block">
+<para id="delete_me">A <term>Venn diagram</term> is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space <emphasis effect="italics">S</emphasis> together with circles or ovals. The circles or ovals represent events.</para><example id="element-513"><para id="element-756">Suppose an experiment has the outcomes 1, 2, 3, . . . , 12 where each outcome has an equal chance of occurring. Let event <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5, 6} and event <emphasis effect="italics">B</emphasis> = {6, 7, 8, 9}. Then <emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis> = {6} and <emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8, 9}.  The Venn diagram is as follows:</para><figure id="eip-idm17287840"><media id="id18119489" alt="Image shows a Venn diagram consisting of two overlapping ovals inside a rectangle. The left oval is labeled A and the right is labeled B. The rectangle is labeled S. Annotations explain that Every outcome in the sample space is listed in the box. The shaded, overlapping area contains any outcome that appears in both events. This area contains six. All outcomes in A are listed in the oval labeled A. The values one, two, three, four, and five lie inside A, but outside the overlapping region. All outcomes in B are listed in the oval labeled B. The values seven, eight, and nine lie inside B, but outside the overlapping region. The outcomes ten, eleven, and twelve are in the sample space, but not in the events A or B, so these are listed in the region inside the rectangle and outside the ovals." display="block">
 <image src="../../media/fig-ch03_06_01.jpg" mime-type="image/png" width="380"/></media>
 </figure></example><note id="fs-idp42923984" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idp129832272"><problem id="fs-idp89658416">
@@ -1271,7 +1271,7 @@
 <figure id="eip-idp39366912"><media id="fs-idp117955072" alt="A venn diagram is shown, with two circles slightly overlapping each other horizontally. To the left of these circles are the words blank, white, and orange. The left circle is labeled C and contains green and purple. The right circle is labeled P and contains red and yellow. The space between the two circles contains blue.">
 <image src="../../media/CNX_Stats_C03_M06_tryit001.jpg" mime-type="image/png" width="400"/></media>
 </figure></solution>
-</exercise></note><example id="element-872"><para id="element-491">Flip two fair coins. Let <emphasis effect="italics">A</emphasis> = tails on the first coin. Let <emphasis effect="italics">B</emphasis> = tails on the second coin. Then <emphasis effect="italics">A</emphasis> = {<emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">TH</emphasis>} and <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">HT</emphasis>}. Therefore, <emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>}. <emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis> =  {<emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">HT</emphasis>}.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-245">The sample space when you flip two fair coins is <emphasis effect="italics">X</emphasis> = {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. The outcome <emphasis effect="italics">HH</emphasis> is in NEITHER <emphasis effect="italics">A</emphasis> NOR <emphasis effect="italics">B</emphasis>. The Venn diagram is as follows:</para><figure id="eip-idm154602320"><media id="id18154607" alt="This is a venn diagram. An oval representing set A contains Tails + Heads and Tails + Tails. An oval representing set B also contains Tails + Tails, along with Heads + Tails. The universe S contains Heads + Heads, but this value is not contained in either set A or B." display="block">
+</exercise></note><example id="element-872"><para id="element-491">Flip two fair coins. Let <emphasis effect="italics">A</emphasis> = tails on the first coin. Let <emphasis effect="italics">B</emphasis> = tails on the second coin. Then <emphasis effect="italics">A</emphasis> = {<emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">TH</emphasis>} and <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">HT</emphasis>}. Therefore, <emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis> = {<emphasis effect="italics">TT</emphasis>}. <emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis> =  {<emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>, <emphasis effect="italics">HT</emphasis>}.</para><para id="element-245">The sample space when you flip two fair coins is <emphasis effect="italics">X</emphasis> = {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. The outcome <emphasis effect="italics">HH</emphasis> is in NEITHER <emphasis effect="italics">A</emphasis> NOR <emphasis effect="italics">B</emphasis>. The Venn diagram is as follows:</para><figure id="eip-idm154602320"><media id="id18154607" alt="This is a venn diagram. An oval representing set A contains Tails + Heads and Tails + Tails. An oval representing set B also contains Tails + Tails, along with Heads + Tails. The universe S contains Heads + Heads, but this value is not contained in either set A or B." display="block">
 <image src="../../media/fig-ch03_06_02.jpg" mime-type="image/jpg" width="400"/></media>
 </figure></example><note id="fs-idm20878064" class="statistics try"><label/><title>Try It</title>
 <exercise id="eip-idm77418224">
@@ -1283,7 +1283,7 @@
 <image src="../../media/CNX_Stats_C03_M06_tryit002.jpg" mime-type="image/jpg" width="400"/></media>
 </figure></solution>
 </exercise>
-</note><example xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-554"><exercise id="eip-idm224271632"><problem id="eip-idm224271504"><para id="element-383"><emphasis>Forty percent</emphasis> of the students at a local college belong to a club and <emphasis>50 percent</emphasis> work part time. <emphasis>Five percent</emphasis> of the students work part time and belong to a club. Draw a Venn diagram showing the relationships. Let <emphasis effect="italics">C</emphasis> = student belongs to a club and <emphasis effect="italics">PT</emphasis> = student works part time.</para>
+</note><example id="element-554"><exercise id="eip-idm224271632"><problem id="eip-idm224271504"><para id="element-383"><emphasis>Forty percent</emphasis> of the students at a local college belong to a club and <emphasis>50 percent</emphasis> work part time. <emphasis>Five percent</emphasis> of the students work part time and belong to a club. Draw a Venn diagram showing the relationships. Let <emphasis effect="italics">C</emphasis> = student belongs to a club and <emphasis effect="italics">PT</emphasis> = student works part time.</para>
 <para id="fs-id1164564521916">Start by drawing a rectangle to represent the sample space. Then draw two circles or ovals inside the rectangle to represent the events of interest: belonging to a club (<emphasis effect="italics">C</emphasis>) and working part time (<emphasis effect="italics">PT</emphasis>). Always draw overlapping shapes to represent outcomes that are in both events.</para>
 <figure id="fs-idp1123328"><media id="id18154697" alt="Image shows a Venn diagram consisting of two overlapping circles inside a rectangle. The left oval is labeled C and the right is labeled PT. The rectangle is labeled S. The overlapping region is labeled C and PT and contains the probability five hundredths. The region inside C, but outside the overlapping region, contains the probability thirty-five hundredths. The region inside B, but outside the overlapping region, contains the probability forty-five hundredths. The probability fifteen hundredths is listed in the region inside the rectangle and outside the ovals.">
 <image src="../../media/fig-ch03_06_03N.jpg" mime-type="image/jpg" width="400"/>
@@ -1319,7 +1319,7 @@
 </m:math></para><para id="eip-idm492315424"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis> OR <emphasis effect="italics">PT</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">PT</emphasis>) − <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">C</emphasis> AND <emphasis effect="italics">PT</emphasis>) = .40 + .50 − .05 = .85</para></solution></exercise></example><note id="fs-idm55345616" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idp89579120">
 <problem id="fs-idp89636640">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp120162528">Fifty percent of the workers at a factory work a second job, 25 percent have a spouse who also works, and 5 percent work a second job and have a spouse who also works. Draw a Venn diagram showing the relationships. Let <emphasis effect="italics">W</emphasis> = works a second job and <emphasis effect="italics">S</emphasis> = spouse also works.</para></problem>
+<para id="fs-idp120162528">Fifty percent of the workers at a factory work a second job, 25 percent have a spouse who also works, and 5 percent work a second job and have a spouse who also works. Draw a Venn diagram showing the relationships. Let <emphasis effect="italics">W</emphasis> = works a second job and <emphasis effect="italics">S</emphasis> = spouse also works.</para></problem>
 <solution id="fs-idp91665296">
 <label/>
 <figure id="fs-idp77159920"><media id="fs-idp135208336" display="block" alt="This is a venn diagram with one set containing students in clubs and another set containing students working  part-time. Both sets share students who are members of clubs and also work part-time.">
@@ -1327,7 +1327,7 @@
 </media></figure></solution>
 </exercise>
 </note><example id="fs-idp87467600">
-<exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp88064048"><problem id="fs-idp115024704">
+<exercise id="fs-idp88064048"><problem id="fs-idp115024704">
 <para id="fs-idp199220464">A person with type O blood and a negative Rh factor (Rh–) can donate blood to any person with any blood type. Four percent of African Americans have type O blood and a negative Rh factor, 5−10 percent of African Americans have the Rh– factor, and 51 percent have type O blood.</para><figure id="fs-idp143600032">
 <media id="fs-idp78366192" alt="This is an empty Venn diagram showing two overlapping circles. The left circle is labeled O and the right circle is labeled RH-.">
 <image src="../../media/CNX_Stats_C03_M06_001f.jpg" mime-type="image/jpg" width="400"/></media></figure>
@@ -1349,7 +1349,7 @@
 <label/>
 <title>Try It</title>
 <exercise id="fs-idp85340096"><problem id="fs-idp129244656">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp200572912">In a bookstore, the probability that the customer buys a novel is .6, and the probability that the customer buys a nonfiction book is .4. Suppose that the probability that the customer buys both is .2.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp93717888" list-type="enumerated" number-style="lower-alpha"><item>Draw a Venn diagram representing the situation.</item>
+<para id="fs-idp200572912">In a bookstore, the probability that the customer buys a novel is .6, and the probability that the customer buys a nonfiction book is .4. Suppose that the probability that the customer buys both is .2.</para><list id="fs-idp93717888" list-type="enumerated" number-style="lower-alpha"><item>Draw a Venn diagram representing the situation.</item>
 <item>Find the probability that the customer buys either a novel or a nonfiction book.</item>
 <item>In the Venn diagram, describe the overlapping area using a complete sentence.</item>
 <item>Suppose that some customers buy only compact disks. Draw an oval in your Venn diagram representing this event.</item>
@@ -1390,7 +1390,7 @@
 
 <para id="fs-id1164968574051">The Roper Center for Public Opinion Research. (2013). <emphasis effect="italics">Search for datasets</emphasis>. Retrieved from http://www.ropercenter.uconn.edu/data_access/data/search_for_datasets.html</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164968682969"><emphasis effect="italics">USA Today</emphasis>. (n.d.). Retrieved from https://www.usatoday.com/</para><para id="fs-id1164968632634">U.S. Census Bureau. (n.d.). Retrieved from https://www.census.gov/</para>
+<para id="fs-id1164968682969"><emphasis effect="italics">USA Today</emphasis>. (n.d.). Retrieved from https://www.usatoday.com/</para><para id="fs-id1164968632634">U.S. Census Bureau. (n.d.). Retrieved from https://www.census.gov/</para>
 
 <para id="fs-id1164966290704">World Bank Group. (2013). <emphasis effect="italics">Environment</emphasis>. Available online at http://data.worldbank.org/topic/environment</para>
 
@@ -1405,7 +1405,7 @@
 <section id="fs-idp14696688" class="practice">
 <title/>
 <exercise id="element-750"><problem id="id43570745">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-88">The probability that a man develops some form of cancer in his lifetime is 0.4567. The probability that a man has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Let <emphasis effect="italics">C</emphasis> = a man develops cancer in his lifetime; <emphasis effect="italics">P</emphasis> = a man has at least one false-positive test. Construct a tree diagram of the situation.</para></problem>
+<para id="element-88">The probability that a man develops some form of cancer in his lifetime is 0.4567. The probability that a man has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Let <emphasis effect="italics">C</emphasis> = a man develops cancer in his lifetime; <emphasis effect="italics">P</emphasis> = a man has at least one false-positive test. Construct a tree diagram of the situation.</para></problem>
 <solution id="fs-idp133440112">
 <figure id="eip-idm83918928"><media id="fs-idp90548816" alt="This is a tree diagram with two branches. The first branch, labeled Cancer, shows two lines: 0.4567 C and 0.5433 C'. The second branch is labeled False Positive. From C, there are two lines: 0 P and 1 P'. From C', there are two lines: 0.51 P and 0.49 P'." display="block">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C03_M07_101N.jpg" width="380"/>
@@ -1417,7 +1417,7 @@
 
 <section id="fs-idp43118896" class="free-response">
 <title>Homework</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp132890032"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (<emphasis effect="italics">R</emphasis>), four yellow (<emphasis effect="italics">Y</emphasis>), and five blue (<emphasis effect="italics">B</emphasis>) beads. For the coin, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">H</emphasis>) = <m:math>
+<para id="fs-idp132890032"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (<emphasis effect="italics">R</emphasis>), four yellow (<emphasis effect="italics">Y</emphasis>), and five blue (<emphasis effect="italics">B</emphasis>) beads. For the coin, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">H</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -1434,7 +1434,7 @@
 
  </m:mrow>
 </m:math> where <emphasis effect="italics">H</emphasis> is heads and <emphasis effect="italics">T</emphasis> is tails.</para><figure id="id43573084"><media id="id43573089" alt="Tree diagram with 2 branches. The first branch consists of 2 lines of H=2/3 and T=1/3. The second branch consists of 2 sets of 3 lines each with the both sets containing R=3/12, Y=4/12, and B=5/12."><image src="../../media/fig-ch03_11_01N.jpg" mime-type="image/jpg" width="180"/></media></figure><exercise id="element-92"><problem id="id43573133">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-4">Find <emphasis effect="italics">P</emphasis>(tossing a head on the coin AND a red bead).</para><list id="element-67" list-type="enumerated" number-style="lower-alpha">
+  <para id="element-4">Find <emphasis effect="italics">P</emphasis>(tossing a head on the coin AND a red bead).</para><list id="element-67" list-type="enumerated" number-style="lower-alpha">
 <item><m:math>
  <m:mrow>
   <m:mfrac>
@@ -1473,7 +1473,7 @@
 </list>
 </problem>
 </exercise><exercise id="element-684"><problem id="id43573398">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-573">Find <emphasis effect="italics">P</emphasis>(blue bead).</para><list id="element-161" list-type="enumerated" number-style="lower-alpha">
+  <para id="element-573">Find <emphasis effect="italics">P</emphasis>(blue bead).</para><list id="element-161" list-type="enumerated" number-style="lower-alpha">
 <item><m:math>
  <m:mrow>
   <m:mfrac>
@@ -1533,7 +1533,7 @@
 </exercise>
 <exercise id="eip-346"><problem id="eip-id1171744729232">
   <para id="eip-id1171737024994">A box of cookies contains three chocolate and seven butter cookies. Miguel randomly selects a cookie and eats it. Then he randomly selects another cookie and eats it. How many cookies did he take?</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1171740927516" list-type="enumerated" number-style="lower-alpha"><item>Draw the tree that represents the possibilities for the cookie selections. Write the probabilities along each branch of the tree.</item>
+<list id="eip-id1171740927516" list-type="enumerated" number-style="lower-alpha"><item>Draw the tree that represents the possibilities for the cookie selections. Write the probabilities along each branch of the tree.</item>
 <item>Are the probabilities for the flavor of the second cookie that Miguel selects independent of his first selection? Explain.</item>
 <item>For each complete path through the tree, write the event it represents and find the probabilities.</item>
 <item>Let <emphasis effect="italics">S</emphasis> be the event that both cookies selected were the same flavor. Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">S</emphasis>).</item>
@@ -1559,7 +1559,7 @@
 <item>Are <emphasis effect="italics">G</emphasis><sub>2</sub> and <emphasis effect="italics">G</emphasis><sub>1</sub> independent events?  Explain why or why not.</item>
 </list></problem>
 <solution id="fs-idp20236912">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp23896432" list-type="enumerated" number-style="lower-alpha"><item><figure id="eip-idp101566032">
+<list id="fs-idp23896432" list-type="enumerated" number-style="lower-alpha"><item><figure id="eip-idp101566032">
 <media id="fs-idp99953792" alt="This is a tree diagram with branches showing probabilities of each draw. The first branch shows two lines: 5/8 Green and 3/8 Yellow. The second branch has a set of two lines (5/8 Green and 3/8 Yellow) for each line of the first branch." display="block">
 <image mime-type="image/jpg" width="380" src="../../media/CNX_Stats_C03_M07_100.jpg"/>
 </media></figure>
@@ -1672,9 +1672,9 @@
 <item>Are <emphasis effect="italics">G<sub>2</sub></emphasis> and <emphasis effect="italics">G<sub>1</sub></emphasis> independent events? Explain why or why not.</item>
 </list>
 </problem>
-</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp143517536"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The percent of licensed U.S. drivers (from a recent year) who are female is 48.60. Of the females, 5.03 percent are age 19 and under; 81.36 percent are age 20–64; 13.61 percent are age 65 or over. Of the licensed U.S. male drivers, 5.04 percent are age 19 and under; 81.43 percent are age 20–64; 13.53 percent are age 65 or over.</para><exercise id="element-950">
+</exercise><para id="fs-idp143517536"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The percent of licensed U.S. drivers (from a recent year) who are female is 48.60. Of the females, 5.03 percent are age 19 and under; 81.36 percent are age 20–64; 13.61 percent are age 65 or over. Of the licensed U.S. male drivers, 5.04 percent are age 19 and under; 81.43 percent are age 20–64; 13.53 percent are age 65 or over.</para><exercise id="element-950">
 <problem id="eip-idm29557008">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-591">Complete the following:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-290" list-type="enumerated" number-style="lower-alpha"><item>Construct a table or a tree diagram of the situation.</item>
+  <para id="element-591">Complete the following:</para><list id="element-290" list-type="enumerated" number-style="lower-alpha"><item>Construct a table or a tree diagram of the situation.</item>
 <item>Find <emphasis effect="italics">P</emphasis>(driver is female).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(driver is age 65 or over|driver is female).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(driver is age 65 or over AND female).</item>
@@ -1793,14 +1793,14 @@
 </list></solution>
 </exercise>
 <exercise id="eip-272"><problem id="eip-944">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-216">When the euro coin was introduced in 2002, two math professors had their statistics students test whether the Belgian one euro-coin was a fair coin. They spun the coin rather than tossing it and found that out of 250 spins, 140 showed a head (event <emphasis effect="italics">H</emphasis>) while 110 showed a tail (event <emphasis effect="italics">T</emphasis>). On that basis, they claimed that it is not a fair coin.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp132357088" list-type="enumerated" number-style="lower-alpha"><item>Based on the given data, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">H</emphasis>) and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis>).</item>
+  <para id="eip-216">When the euro coin was introduced in 2002, two math professors had their statistics students test whether the Belgian one euro-coin was a fair coin. They spun the coin rather than tossing it and found that out of 250 spins, 140 showed a head (event <emphasis effect="italics">H</emphasis>) while 110 showed a tail (event <emphasis effect="italics">T</emphasis>). On that basis, they claimed that it is not a fair coin.</para><list id="eip-idp132357088" list-type="enumerated" number-style="lower-alpha"><item>Based on the given data, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">H</emphasis>) and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis>).</item>
 <item>Use a tree to find the probabilities of each possible outcome for the experiment of spinning the coin twice.</item>
 <item>Use the tree to find the probability of obtaining exactly one head in two spins of the coin.</item>
 <item>Use the tree to find the probability of obtaining at least one head.</item>
 </list></problem>
 </exercise><exercise id="element-456">
 <problem id="eip-idp1286960">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm23436880"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The following are real data from Santa Clara County, California. As of a certain time, there had been a total of 3,059 documented cases of a disease in the county. They were grouped into the following categories, with risk factors of becoming ill with the disease labeled as Methods A, B, and C and Other:
+  <para id="fs-idm23436880"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The following are real data from Santa Clara County, California. As of a certain time, there had been a total of 3,059 documented cases of a disease in the county. They were grouped into the following categories, with risk factors of becoming ill with the disease labeled as Methods A, B, and C and Other:
 <table id="element-436" summary="This table presents data of documented cases of AIDS with risk factor by gender. The first row lists the female values and the second row lists the male values. The first column lists the gender, the second column lists homosexual/bisexual, the third column lists IV drug user, the fourth column lists heterosexual contact, and the fifth column lists other.">
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
@@ -1848,7 +1848,7 @@
 </tgroup>
 <!--<caption>* includes homosexual/bisexual IV drug users</caption>-->
 </table></para><para id="element-406">Suppose a person with a disease in Santa Clara County is randomly selected.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-232" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(Person is female).</item>
+<list id="element-232" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(Person is female).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(Person has a risk factor of method C).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(Person is female OR has a risk factor of method B).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(Person is female AND has a risk factor of method A).</item>
@@ -1857,7 +1857,7 @@
 <item>Construct a Venn diagram. Make one group females and the other group method C.</item>
 </list></problem>
 <solution id="id43568576">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-436p">The completed contingency table is as follows:</para><table id="element-436s" summary="This table is similar to above except all blank values are now filled in.">
+<para id="element-436p">The completed contingency table is as follows:</para><table id="element-436s" summary="This table is similar to above except all blank values are now filled in.">
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>

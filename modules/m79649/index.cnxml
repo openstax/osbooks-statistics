@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>The Central Limit Theorem for Sums (Optional)</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79649</md:content-id>
   <md:title>The Central Limit Theorem for Sums (Optional)</md:title>
   <md:abstract/>
@@ -21,7 +21,7 @@
    <m:mi>n</m:mi>
   </m:msqrt>
  </m:mrow>
-</m:math>)(<emphasis effect="italics">σ<sub>Χ</sub></emphasis>)].</para><para id="element-603"><emphasis>The</emphasis> <term>central limit theorem for sums</term> says that if you keep drawing larger and larger samples and taking their sums, the sums form their own normal distribution (the sampling distribution), which approaches a normal distribution as the sample size increases. <emphasis effect="italics">The normal distribution has a mean equal to the original mean multiplied by the sample size and a standard deviation equal to the original standard deviation multiplied by the square root of the sample size.</emphasis></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-7">The random variable Σ<emphasis effect="italics">X</emphasis> has the following <emphasis effect="italics">z</emphasis>-score associated with it:</para><list id="element-434" list-type="enumerated" number-style="lower-alpha"><item>Σ<emphasis effect="italics">x</emphasis> is one sum.</item>
+</m:math>)(<emphasis effect="italics">σ<sub>Χ</sub></emphasis>)].</para><para id="element-603"><emphasis>The</emphasis> <term>central limit theorem for sums</term> says that if you keep drawing larger and larger samples and taking their sums, the sums form their own normal distribution (the sampling distribution), which approaches a normal distribution as the sample size increases. <emphasis effect="italics">The normal distribution has a mean equal to the original mean multiplied by the sample size and a standard deviation equal to the original standard deviation multiplied by the square root of the sample size.</emphasis></para><para id="element-7">The random variable Σ<emphasis effect="italics">X</emphasis> has the following <emphasis effect="italics">z</emphasis>-score associated with it:</para><list id="element-434" list-type="enumerated" number-style="lower-alpha"><item>Σ<emphasis effect="italics">x</emphasis> is one sum.</item>
 <item><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mtext> = </m:mtext><m:mfrac>
@@ -68,7 +68,7 @@
 </item>
 	</list></item></list><note id="fs-idm172522384" class="statistics calculator">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp42629152">To find probabilities for sums on the calculator, follow these steps:</para><para id="fs-idm146409264">2<sup>nd</sup> <code>DISTR</code>
+<para id="fs-idp42629152">To find probabilities for sums on the calculator, follow these steps:</para><para id="fs-idm146409264">2<sup>nd</sup> <code>DISTR</code>
 <newline/>2:<code>normalcdf</code>
 <newline/><code>normalcdf</code>(lower value of the area, upper value of the area, (<emphasis effect="italics">n</emphasis>)(mean), (<m:math>
  <m:mrow>
@@ -213,7 +213,7 @@
 
 <note id="fs-idm133155984" class="statistics calculator">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm82544544">To find percentiles for sums on the calculator, follow these steps:</para><para id="fs-idm25568352">2<sup>nd</sup> DIStR
+<para id="fs-idm82544544">To find percentiles for sums on the calculator, follow these steps:</para><para id="fs-idm25568352">2<sup>nd</sup> DIStR
 <newline/>3:invNorm
 <newline/><emphasis effect="italics">k</emphasis> = invNorm (area to the left of <emphasis effect="italics">k</emphasis>, (<emphasis effect="italics">n</emphasis>)(mean), <m:math>
  <m:mrow>
@@ -483,7 +483,7 @@
  </m:mrow>
 </m:math>)(<emphasis effect="italics">σ<sub>x</sub></emphasis>)]<newline/></para>
 <para id="fs-idp90486256">Mean for sums (<emphasis effect="italics">∑X</emphasis>): (<emphasis effect="italics">n</emphasis>)(<emphasis effect="italics">μ<sub>x</sub></emphasis>)<newline/></para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm105675120">Central limit theorem for sums <emphasis effect="italics">z</emphasis>-score and standard deviation for sums: <m:math>
+<para id="fs-idm105675120">Central limit theorem for sums <emphasis effect="italics">z</emphasis>-score and standard deviation for sums: <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mspace width=".30em"/><m:mtext> for the sample mean = </m:mtext><m:mfrac>
    <m:mrow>
@@ -608,7 +608,7 @@
 </exercise>
 
 <exercise id="eip-718"><problem id="eip-127">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-143">Find the probability that the sum of the 100 values falls between the numbers you found in <link target-id="eip-311" document=""/> (16) and <link target-id="eip-886" document=""/> (17).</para></problem>
+  <para id="eip-143">Find the probability that the sum of the 100 values falls between the numbers you found in <link target-id="eip-311" document=""/> (16) and <link target-id="eip-886" document=""/> (17).</para></problem>
 
 <!-- <solution id="eip-908">
   <para id="eip-459">0.5433</para>
@@ -635,7 +635,7 @@
 </solution>
 </exercise>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-93"><newline/><emphasis effect="italics">Use the following information to answer the next four exercises:</emphasis> An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let <emphasis effect="italics">X</emphasis> = the object of interest.</para><exercise id="eip-175"><problem id="eip-37">
+<para id="eip-93"><newline/><emphasis effect="italics">Use the following information to answer the next four exercises:</emphasis> An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let <emphasis effect="italics">X</emphasis> = the object of interest.</para><exercise id="eip-175"><problem id="eip-37">
   <para id="eip-591">What is the mean of <emphasis effect="italics">ΣX</emphasis>?</para>
 </problem>
 
@@ -709,7 +709,7 @@
 <!-- <solution id="eip-88">
   <para id="eip-507">800</para>
 </solution> -->
-</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-622"><emphasis effect="italics"><newline/>Use the following information to answer the next three exercises:</emphasis> A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. She samples 400 customers.</para><exercise id="eip-626"><problem id="eip-496">
+</exercise><para id="eip-622"><emphasis effect="italics"><newline/>Use the following information to answer the next three exercises:</emphasis> A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. She samples 400 customers.</para><exercise id="eip-626"><problem id="eip-496">
   <para id="eip-744">What is the <emphasis effect="italics">z</emphasis>-score for <emphasis effect="italics">Σx</emphasis> = 840?</para>
 </problem>
 
@@ -718,7 +718,7 @@
 </exercise>
 
 <exercise id="eip-224"><problem id="eip-562">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-268">What is the <emphasis effect="italics">z</emphasis>-score for <emphasis effect="italics">Σx</emphasis> = 1,186?</para></problem>
+  <para id="eip-268">What is the <emphasis effect="italics">z</emphasis>-score for <emphasis effect="italics">Σx</emphasis> = 1,186?</para></problem>
 
 <!-- <solution id="eip-729">
   <para id="eip-395">&#8211;1</para></solution> -->
@@ -771,7 +771,7 @@
 <problem id="id6533195">
   <para id="element-950">Suppose that the duration of a particular type of criminal trial is known to have a mean of 21 days and a standard deviation of seven days. We randomly sample nine trials.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-645" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">ΣX</emphasis> = ______________.</item>
+<list id="element-645" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">ΣX</emphasis> = ______________.</item>
 <item><emphasis effect="italics">ΣX</emphasis> ~ _____(_____, _____)</item>
 <item>Find the probability that the total length of the nine trials is at least 225 days.</item>
 <item>Ninety percent of the total of nine of these types of trials will last at least how long?</item>
@@ -787,7 +787,7 @@
 
 <exercise id="element-797"><problem id="id6532824">
   <para id="element-935">Suppose that the weight of open boxes of cereal in a home with children is uniformly distributed from two to six pounds with a mean of four pounds and standard deviation of 1.1547. We randomly survey 64 homes with children.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-173" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">X</emphasis> = _____________.</item>
+<list id="element-173" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">X</emphasis> = _____________.</item>
 <item>The distribution is _______.</item>
 <item>In words, <emphasis effect="italics">ΣX</emphasis> = _______________.</item>
 <item><emphasis effect="italics">ΣX</emphasis> ~ _____(_____, _____)</item>
@@ -808,7 +808,7 @@
 <problem id="id6535223">
   <para id="element-245">Salaries for entry-level managers at a restaurant chain are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey 10 managers from these restaurants.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm127251264" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">X</emphasis> = ______________.</item>
+<list id="fs-idm127251264" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">X</emphasis> = ______________.</item>
 <item><emphasis effect="italics">X</emphasis> ~ _____(_____, _____)</item>
 <item>In words, <emphasis effect="italics">ΣX</emphasis> = _____________.</item>
 <item><emphasis effect="italics">ΣX</emphasis> ~ _____(_____, _____)</item>

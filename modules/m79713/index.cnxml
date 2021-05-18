@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" class="appendix" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
 
 <title>Group and Partner Projects</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79713</md:content-id>
   <md:title>Group and Partner Projects</md:title>
   <md:abstract/>
@@ -26,7 +26,7 @@
 <newline/>____ Conduct your survey.  <emphasis>Your data size must be at least 30.</emphasis>
 <newline/>____ Summarize your data in a chart with columns showing <emphasis>data value, frequency, relative frequency and cumulative relative frequency.</emphasis>
 <newline/>Answer the following (rounded to two decimal places):
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm192589760" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+<list id="eip-idm192589760" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -68,14 +68,14 @@
 <newline/>____ Define (in words) the random variable for your data. <emphasis effect="italics">X</emphasis> = _______
 <newline/>____ Create two lists of your data: (1) unordered data, (2) in order of smallest to largest.
 <newline/>____ Find the sample mean and the sample standard deviation (rounded to two decimal places).
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-168" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+<list id="list-168" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> = ______</item>
 <item><emphasis effect="italics">s</emphasis> = ______</item>
-</list></para></section><section id="element-747"><title>Part II: Possible Distributions</title><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-156">____ Suppose that <emphasis effect="italics">X</emphasis> followed the following theoretical distributions. Set up each distribution using the appropriate information from your data.
+</list></para></section><section id="element-747"><title>Part II: Possible Distributions</title><para id="eip-156">____ Suppose that <emphasis effect="italics">X</emphasis> followed the following theoretical distributions. Set up each distribution using the appropriate information from your data.
 <newline/>____ Uniform: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> ____________ Use the lowest and highest values as <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>.
 <newline/>____ Normal: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis> ____________ Use <m:math>
 <m:mover accent="true">
@@ -93,7 +93,7 @@
 </m:math> + (1.75)<emphasis effect="italics">s</emphasis>
 <newline/>____ Determine the relative frequencies (<emphasis effect="italics">RF</emphasis>) rounded to four decimal places. 
 </para><note id="eip-354"><label/><title>Note</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm12100736"><m:math>
+<para id="eip-idm12100736"><m:math>
 <m:mrow>
 <m:mi>R</m:mi><m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -117,7 +117,7 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">k</emphasis>) = ______</item>
 </list>
 ____ Compare the relative frequencies to the corresponding probabilities.  Are the values close?
-<newline/>____ Does it appear that the data fit the distribution well?  Justify your answer by comparing the probabilities to the relative frequencies, and the histograms to the theoretical graphs.</para></section><section id="element-442"><title>Part III: CLT Experiments</title><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-159">______ From your original data (before ordering), use a random number generator to pick 40 samples of size five.  For each sample, calculate the average.
+<newline/>____ Does it appear that the data fit the distribution well?  Justify your answer by comparing the probabilities to the relative frequencies, and the histograms to the theoretical graphs.</para></section><section id="element-442"><title>Part III: CLT Experiments</title><para id="eip-159">______ From your original data (before ordering), use a random number generator to pick 40 samples of size five.  For each sample, calculate the average.
 <newline/>______ On a separate page, attached to the summary, include the 40 samples of size five, along with the 40 sample averages.
 <newline/>______ List the 40 averages in order from smallest to largest.
 <newline/>______ Define the random variable, <m:math>
@@ -280,7 +280,7 @@ comparing the <m:math><m:mi>X</m:mi></m:math> or <m:math>
 
 <section id="element-253">
 <title>Assignment Checklist</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-22">Turn in the following typed (12 point) and stapled packet for your final project:
+<para id="element-22">Turn in the following typed (12 point) and stapled packet for your final project:
 <newline/>____<emphasis>Cover sheet</emphasis> containing your name(s), class time, and the name of your study
 <newline/>____<emphasis>Summary</emphasis>, which includes all items listed on summary checklist
 <newline/>____<emphasis>Solution sheet</emphasis> neatly and completely filled out.  The solution sheet does not need to be typed.
@@ -314,7 +314,7 @@ ____On a separate sheet of paper construct a scatter plot of the data.  Label an
 <newline/>____Does the regression line seem to fit the data? Why or why not? If the data does not seem to be linear, explain if any other model seems to fit the data better.
 <newline/>____Are there any outliers?  If so, what are they?  Show your work in how you used the potential outlier formula in the Linear Regression and Correlation chapter (since you have bivariate data) to determine whether or not any pairs might be outliers.
 </para></section><section id="element-645"><title>Part II: Univariate Data</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-325">In this section, you will use the data for <emphasis>ONE</emphasis> variable only.  Pick the variable that is more interesting to analyze.  For example:  if your independent variable is sequential data such as year with 30 years and one piece of data per year, your <emphasis effect="italics">x</emphasis>-values might be 1971, 1972, 1973, 1974, ..., 2000. This would not be interesting to analyze. In that case, choose to use the dependent variable to analyze for this part of the project.
+<para id="element-325">In this section, you will use the data for <emphasis>ONE</emphasis> variable only.  Pick the variable that is more interesting to analyze.  For example:  if your independent variable is sequential data such as year with 30 years and one piece of data per year, your <emphasis effect="italics">x</emphasis>-values might be 1971, 1972, 1973, 1974, ..., 2000. This would not be interesting to analyze. In that case, choose to use the dependent variable to analyze for this part of the project.
 <newline/>_____Summarize your data in a chart with columns showing data value, frequency, relative frequency, and cumulative relative frequency.
 <newline/>_____Answer the following question, rounded to two decimal places:
 <list id="eip-idp79349232" list-type="enumerated" number-style="lower-alpha">

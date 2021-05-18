@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Two Basic Rules of Probability</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79614</md:content-id>
   <md:title>Two Basic Rules of Probability</md:title>
   <md:abstract/>
@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164564782747">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp70908880">In calculating probability, there are two rules to consider when you are determining if two events are independent or dependent and if they are mutually exclusive or not.</para></section>
+<para id="fs-idp70908880">In calculating probability, there are two rules to consider when you are determining if two events are independent or dependent and if they are mutually exclusive or not.</para></section>
 <section id="element-860">
 <title>The Multiplication Rule</title>
 <para id="element-288">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are two events defined on a <term>sample space</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>).</para>
@@ -19,7 +19,7 @@
 <!--<para id="element-800">(The probability of <emphasis effect="italics">A</emphasis> given <emphasis effect="italics">B</emphasis> equals the probability of <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> divided by the probability of <emphasis effect="italics">B</emphasis>.)</para>-->
 <para id="element-607">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term>independent</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>). In this special case, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) becomes <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
 <para id="fs-id1164567874293">A bag contains four green marbles, three red marbles, and two yellow marbles. Mark draws two marbles from the bag without replacement. The probability that he draws a yellow marble and then a green marble is</para>
-<equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" class="unnumbered" id="fs-id1164566354380"><label/><m:math>
+<equation class="unnumbered" id="fs-id1164566354380"><label/><m:math>
  <m:semantics>
   <m:mtable>
    <m:mtr>
@@ -265,7 +265,7 @@
 </problem>
 <solution id="id20946912">
 <para id="element-639s">a. The problem is asking you to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>). Since <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">A</emphasis>) = .90: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">A</emphasis>) <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = (.90)(.65) = .585.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm26792640">Carlos makes the first and second goals with probability .585.<newline count="2"/></para></solution>
+<para id="fs-idm26792640">Carlos makes the first and second goals with probability .585.<newline count="2"/></para></solution>
 </exercise>
 
 <exercise id="element-101">
@@ -320,7 +320,7 @@
 <para id="element-201p">a. What is the probability that the member is a novice swimmer?</para>
 </problem>
 <solution id="id21150108">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-201s">a. There are <emphasis>150</emphasis> members; 75 of these are advanced, and 47 of these are intermediate swimmers. So there are 150 − 75 − 47 = <emphasis>28</emphasis> novice swimmers. The probability that a randomly selected swimmer is a novice is <m:math><m:mfrac><m:mn>28</m:mn><m:mn>150</m:mn></m:mfrac><m:mtext>.</m:mtext></m:math><newline count="2"/></para></solution>
+<para id="element-201s">a. There are <emphasis>150</emphasis> members; 75 of these are advanced, and 47 of these are intermediate swimmers. So there are 150 − 75 − 47 = <emphasis>28</emphasis> novice swimmers. The probability that a randomly selected swimmer is a novice is <m:math><m:mfrac><m:mn>28</m:mn><m:mn>150</m:mn></m:mfrac><m:mtext>.</m:mtext></m:math><newline count="2"/></para></solution>
 </exercise>
 
 <exercise id="element-202">
@@ -365,7 +365,7 @@
 
 <exercise id="element-204">
 <problem id="id21150254">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-204p">d. What is the probability that a member is an advanced swimmer and an intermediate swimmer? Are being an advanced swimmer and being an intermediate swimmer mutually exclusive? Why or why not?</para></problem>
+<para id="element-204p">d. What is the probability that a member is an advanced swimmer and an intermediate swimmer? Are being an advanced swimmer and being an intermediate swimmer mutually exclusive? Why or why not?</para></problem>
 <solution id="id21150274">
 <para id="element-204s">d. <emphasis effect="italics">P</emphasis>(advanced AND intermediate) = 0, so these are mutually exclusive events. A swimmer cannot be an advanced swimmer and an intermediate swimmer at the same time.<newline count="2"/></para></solution>
 </exercise>
@@ -386,7 +386,7 @@
 <title>Try It</title>
 <exercise id="fs-idm36460112">
 <problem id="fs-idm11280848">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp1767312">A school has 200 seniors of whom 140 will be going to college next year. Forty will be going directly to work. The remainder are taking a gap year. Fifty of the seniors going to college are on their school's sports teams. Thirty of the seniors going directly to work are on their school's sports teams. Five of the seniors taking a gap year are on their schools sports teams. What is the probability that a senior is taking a gap year?</para></problem>
+<para id="fs-idp1767312">A school has 200 seniors of whom 140 will be going to college next year. Forty will be going directly to work. The remainder are taking a gap year. Fifty of the seniors going to college are on their school's sports teams. Thirty of the seniors going directly to work are on their school's sports teams. Five of the seniors taking a gap year are on their schools sports teams. What is the probability that a senior is taking a gap year?</para></problem>
 <solution id="fs-idm57500720" class="solutions">
 <label/>
 <para id="fs-idm40178064"><m:math>
@@ -440,7 +440,7 @@
 <title>Try It</title>
 <exercise id="fs-idm68914864">
 <problem id="fs-idm57353328">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm50508672">A student goes to the library. Let events <emphasis effect="italics">B</emphasis> = the student checks out a book and <emphasis effect="italics">D</emphasis> = the student checks out a DVD. Suppose that <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = .40, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = .30, and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>|<emphasis effect="italics">B</emphasis>) = .5.</para><list id="fs-idm35504336" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">D</emphasis>).</item>
+<para id="fs-idm50508672">A student goes to the library. Let events <emphasis effect="italics">B</emphasis> = the student checks out a book and <emphasis effect="italics">D</emphasis> = the student checks out a DVD. Suppose that <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = .40, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = .30, and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>|<emphasis effect="italics">B</emphasis>) = .5.</para><list id="fs-idm35504336" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">D</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> OR <emphasis effect="italics">D</emphasis>).</item>
 </list></problem>
 <solution id="fs-idm8804848">
@@ -451,7 +451,7 @@
 </note>
 
 <example id="example5">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-472">Researchers are studying one particular type of disease that affects women more often than men. Studies show that about one woman in seven (approximately 14.3 percent) who live to be 90 will develop the disease. Suppose that of those women who develop this disease, a test is negative 2 percent of the time. Also suppose that in the general population of women, the test for the disease is negative about 85 percent of the time. Let <emphasis effect="italics">B</emphasis> = woman develops the disease and let <emphasis effect="italics">N</emphasis> = tests negative. Suppose one woman is selected at random.</para><exercise id="element-301">
+<para id="element-472">Researchers are studying one particular type of disease that affects women more often than men. Studies show that about one woman in seven (approximately 14.3 percent) who live to be 90 will develop the disease. Suppose that of those women who develop this disease, a test is negative 2 percent of the time. Also suppose that in the general population of women, the test for the disease is negative about 85 percent of the time. Let <emphasis effect="italics">B</emphasis> = woman develops the disease and let <emphasis effect="italics">N</emphasis> = tests negative. Suppose one woman is selected at random.</para><exercise id="element-301">
 <problem id="id21164153">
 <para id="element-301p">a. What is the probability that the woman develops the disease? What is the probability that woman tests negative?</para>
 </problem>
@@ -495,7 +495,7 @@
 <note id="fs-idp45632144" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm57543872">
 <problem id="fs-idm69233152">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm39897552">A school has 200 seniors of whom 140 will be going to college next year. Forty will be going directly to work. The remainder are taking a gap year. Fifty of the seniors going to college are on their school's sports teams. Thirty of the seniors going directly to work are on their school's sports teams. Five of the seniors taking a gap year are on their school's sports teams. What is the probability that a senior is going to college and plays sports?</para></problem>
+<para id="fs-idm39897552">A school has 200 seniors of whom 140 will be going to college next year. Forty will be going directly to work. The remainder are taking a gap year. Fifty of the seniors going to college are on their school's sports teams. Thirty of the seniors going directly to work are on their school's sports teams. Five of the seniors taking a gap year are on their school's sports teams. What is the probability that a senior is going to college and plays sports?</para></problem>
 <solution id="fs-idm36466384">
 <label/>
 <para id="fs-idm50385984">Let <emphasis effect="italics">A</emphasis> = student is a senior going to college.</para>
@@ -564,7 +564,7 @@
 <exercise id="fs-idm109502304">
 <problem id="fs-idm59824144">
 <para id="fs-idm8914880">Refer to the information in <link target-id="example5" document=""/>. <emphasis effect="italics">P</emphasis> = tests positive.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm51077952" list-type="enumerated" number-style="lower-alpha"><item>Given that a woman develops the disease, what is the probability that she tests positive? Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">P</emphasis>|<emphasis effect="italics">B</emphasis>) = 1 − <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>).</item>
+<list id="fs-idm51077952" list-type="enumerated" number-style="lower-alpha"><item>Given that a woman develops the disease, what is the probability that she tests positive? Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">P</emphasis>|<emphasis effect="italics">B</emphasis>) = 1 − <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>).</item>
 <item>What is the probability that a woman develops the disease and tests positive? Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">P</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">P</emphasis>|<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</item>
 <item>What is the probability that a woman does not develop the disease? Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B′</emphasis>) = 1 − <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</item>
 <item>What is the probability that a woman tests positive for the disease? Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">P</emphasis>) = 1 − <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>).</item></list></problem>
@@ -578,7 +578,7 @@
 <note id="fs-idm25110496" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idp6951808">
 <problem id="fs-idm846464">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm37086800">A student goes to the library. Let events <emphasis effect="italics">B</emphasis> = the student checks out a book and <emphasis effect="italics">D</emphasis> = the student checks out a DVD. Suppose that <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = .40, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = .30, and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>|<emphasis effect="italics">B</emphasis>) = .5.</para><list id="fs-idm40366288" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B′</emphasis>).</item>
+<para id="fs-idm37086800">A student goes to the library. Let events <emphasis effect="italics">B</emphasis> = the student checks out a book and <emphasis effect="italics">D</emphasis> = the student checks out a DVD. Suppose that <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = .40, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = .30, and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>|<emphasis effect="italics">B</emphasis>) = .5.</para><list id="fs-idm40366288" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B′</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> AND <emphasis effect="italics">B</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">D</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> AND <emphasis effect="italics">B′</emphasis>).</item>
@@ -647,13 +647,13 @@
 
 <para id="fs-id1164965262626">Baseball Almanac. (2013). Retrieved from www.baseball-almanac.com</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164965234423">DiCamillo, Mark, and Field, M. The file poll. <emphasis effect="italics">Field Research Corporation</emphasis>. Retrieved from http://www.field.com/fieldpollonline/subscribers/Rls2443.pdf</para><para id="fs-id1164967805196">Field Research Corporation. (n.d.). Retrieved from www.field.com/fieldpollonline</para>
+<para id="fs-id1164965234423">DiCamillo, Mark, and Field, M. The file poll. <emphasis effect="italics">Field Research Corporation</emphasis>. Retrieved from http://www.field.com/fieldpollonline/subscribers/Rls2443.pdf</para><para id="fs-id1164967805196">Field Research Corporation. (n.d.). Retrieved from www.field.com/fieldpollonline</para>
 
 <para id="fs-id1164967846104">Forum Research. (n.d.). <emphasis effect="italics">Mayors approval down</emphasis>. Retrieved from http://www.forumresearch.com/forms/News Archives/News Releases/74209_TO_Issues_-_Mayoral_Approval_%28Forum_Research%29%2820130320%29.pdf</para>
 
 <para id="fs-id1164967573409">Rider, D. (2011, Sept. 14). Ford support plummeting, poll suggests. <emphasis effect="italics">The Star</emphasis>. Retrieved from http://www.thestar.com/news/gta/2011/09/14/ford_support_plummeting_poll_suggests.html</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164967693988">Shin, H. B., and Kominski, R. A. (2010 April). Language use in the United States: 2007 (American Community Survey Reports, ACS-12). Washington, DC: United States Census Bureau. Retrieved from http://www.census.gov/hhes/socdemo/language/data/acs/ACS-12.pdf</para><para id="fs-id1164967398644">The Roper Center for Public Opinion Research. (n.d.). <emphasis effect="italics">Archives</emphasis>. Retrieved from http://www.ropercenter.uconn.edu/</para>
+<para id="fs-id1164967693988">Shin, H. B., and Kominski, R. A. (2010 April). Language use in the United States: 2007 (American Community Survey Reports, ACS-12). Washington, DC: United States Census Bureau. Retrieved from http://www.census.gov/hhes/socdemo/language/data/acs/ACS-12.pdf</para><para id="fs-id1164967398644">The Roper Center for Public Opinion Research. (n.d.). <emphasis effect="italics">Archives</emphasis>. Retrieved from http://www.ropercenter.uconn.edu/</para>
 
 <para id="fs-id1164967910873"><emphasis effect="italics">The Wall Street Journal</emphasis>. (n.d.). Retrieved from https://www.wsj.com/</para>
 
@@ -674,8 +674,8 @@
 </section>
 
 <section id="fs-idm40455392" class="practice">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-475"><emphasis effect="italics">Use the following information to answer the next 10 exercises.</emphasis> Forty-eight percent of all voters of a certain state prefer life in prison without parole over the death penalty for a person convicted of first-degree murder. Among Latino registered voters in this state, 55 percent prefer life in prison without parole over the death penalty for a person convicted of first-degree murder. Of all citizens in this state, 37.6 percent are Latino.</para><para id="element-40">In this problem, let
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-448" list-type="bulleted"><item><emphasis effect="italics">C</emphasis> = citizens of a certain state (registered voters) preferring life in prison without parole over the death penalty for a person convicted of first-degree murder.</item>
+<para id="eip-475"><emphasis effect="italics">Use the following information to answer the next 10 exercises.</emphasis> Forty-eight percent of all voters of a certain state prefer life in prison without parole over the death penalty for a person convicted of first-degree murder. Among Latino registered voters in this state, 55 percent prefer life in prison without parole over the death penalty for a person convicted of first-degree murder. Of all citizens in this state, 37.6 percent are Latino.</para><para id="element-40">In this problem, let
+<list id="element-448" list-type="bulleted"><item><emphasis effect="italics">C</emphasis> = citizens of a certain state (registered voters) preferring life in prison without parole over the death penalty for a person convicted of first-degree murder.</item>
 <item><emphasis effect="italics">L</emphasis> = registered voters  of the state who are Latino.</item>
 </list></para>
 <para id="element-198">Suppose that one citizen is randomly selected.</para><exercise id="exercise1"><problem id="id13144382">
@@ -729,7 +729,7 @@
 </section>
 
 <section id="fs-idm12466720" class="free-response"><title>Homework</title><exercise id="eip-265"><problem id="eip-293">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1164603274351">On February 28, 2013, a Field Poll Survey reported that 61 percent of California registered voters approved of a law that was about to be passed. Among 18- to 39-year olds (California registered voters), the approval rating was 78 percent. Six in 10 California registered voters said that the upcoming Supreme Courts ruling about the constitutionality of the law  was either very or somewhat important to them. Out of those registered voters who supported the law, 75 percent say the ruling is important to them.</para><para id="eip-id1170640566743">In this problem, let</para>
+<para id="eip-id1164603274351">On February 28, 2013, a Field Poll Survey reported that 61 percent of California registered voters approved of a law that was about to be passed. Among 18- to 39-year olds (California registered voters), the approval rating was 78 percent. Six in 10 California registered voters said that the upcoming Supreme Courts ruling about the constitutionality of the law  was either very or somewhat important to them. Out of those registered voters who supported the law, 75 percent say the ruling is important to them.</para><para id="eip-id1170640566743">In this problem, let</para>
 
 <list id="eip-156">
 <item><emphasis effect="italics">C</emphasis> = California registered voters who supported the law,</item>
@@ -971,7 +971,7 @@
 </table>
 <exercise id="fs-id1170309366538">
 <problem id="fs-id1170309605349">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309605351" list-type="enumerated" number-style="lower-alpha"><item>List the sample space of the possible items that are on the menu.</item>
+<list id="fs-id1170309605351" list-type="enumerated" number-style="lower-alpha"><item>List the sample space of the possible items that are on the menu.</item>
 <item>Find <emphasis effect="italics">P</emphasis>(you will get a 17-oz. piece of meat).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(you will get a pork chop).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(you will get a 17-oz. pork chop).</item>
@@ -980,7 +980,7 @@
 <item>Are the events <emphasis effect="italics">getting 17 oz. of meat</emphasis> and <emphasis effect="italics">getting a pork chop</emphasis> independent?</item>
 </list></problem>
 <solution id="fs-id1170309268259">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170308525435" list-type="enumerated" number-style="lower-alpha"><item>yes; <emphasis effect="italics">P</emphasis>(getting a pork chop) = <emphasis effect="italics">P</emphasis>(not getting a chicken breast)</item>
+<list id="fs-id1170308525435" list-type="enumerated" number-style="lower-alpha"><item>yes; <emphasis effect="italics">P</emphasis>(getting a pork chop) = <emphasis effect="italics">P</emphasis>(not getting a chicken breast)</item>
 <item>getting a pork chop and getting a chicken breast</item>
 <item>no</item>
 </list></solution>
@@ -988,7 +988,7 @@
 <exercise id="fs-id1170307042252">
 <problem id="fs-id1170307042255">
 <para id="fs-id1170309353532">Compute the probabilities.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170307042240" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(you will get a chicken breast)</item>
+<list id="fs-id1170307042240" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(you will get a chicken breast)</item>
 <item><emphasis effect="italics">P</emphasis>(you will get a 17-oz. chicken breast)</item>
 <item><emphasis effect="italics">P</emphasis>(you will get a chicken breast <term>or</term> you will not get a 17-oz. pork chop)</item>
 <item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term>and</term> you will get an 18-oz. pork chop)</item>
@@ -1011,7 +1011,7 @@
 <exercise id="fs-id1170309434914">
 <problem id="fs-id1170309358201">
 <para id="fs-id1170309358204">Compute the probabilities:</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309274299" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(you will not get a pork chop)</item>
+<list id="fs-id1170309274299" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(you will not get a pork chop)</item>
 <item><emphasis effect="italics">P</emphasis>(you will get a 20-oz. pork chop)</item>
 <item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term>or</term> you will not get an 18-oz. pork chop)</item>
 <item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term>and</term> you will not get an 18-oz. pork chop)</item>
@@ -1261,7 +1261,7 @@
 </solution>
 </exercise>
 <exercise id="element-143"><problem id="id43570907">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-623">In 1994, the U.S. government held a lottery to issue 55,000 licenses of a certain type. Renate Deutsch, from Germany, was one of approximately 6.5 million people who entered this lottery. Let <emphasis effect="italics">G</emphasis> = won license.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-897" list-type="enumerated" number-style="lower-alpha"><item>What was Renate’s chance of winning one of the licenses? Write your answer as a probability statement.</item>
+<para id="element-623">In 1994, the U.S. government held a lottery to issue 55,000 licenses of a certain type. Renate Deutsch, from Germany, was one of approximately 6.5 million people who entered this lottery. Let <emphasis effect="italics">G</emphasis> = won license.</para><list id="element-897" list-type="enumerated" number-style="lower-alpha"><item>What was Renate’s chance of winning one of the licenses? Write your answer as a probability statement.</item>
 <item>In the summer of 1994, Renate received a letter stating she was one of 110,000 finalists chosen. Once the finalists were chosen, assuming that each finalist had an equal chance to win, what was Renate’s chance of winning one of the licenses? Write your answer as a conditional probability statement. Let <emphasis effect="italics">F</emphasis> = was a finalist.</item>
 <item>Are <emphasis effect="italics">G</emphasis> and <emphasis effect="italics">F</emphasis> independent or dependent events? Justify your answer numerically and also explain why.</item>
 <item>Are <emphasis effect="italics">G</emphasis> and <emphasis effect="italics">F</emphasis> mutually exclusive events? Justify your answer numerically and explain why.</item>
@@ -1269,7 +1269,7 @@
 </exercise><exercise id="element-652"><problem id="id43571209">
 <para id="element-384">Three professors at George Washington University did an experiment to determine if economists are more likely to return found money than other people. They dropped 64 stamped, addressed envelopes with $10 cash in different classrooms on the George Washington campus. Forty-four  percent were returned overall. From the economics classes 56 percent of the envelopes were returned. From the business, psychology, and history classes 31 percent were returned.</para>
 <para id="element-650">Let <emphasis effect="italics">R</emphasis> = money returned; <emphasis effect="italics">E</emphasis> = economics classes; and <emphasis effect="italics">O</emphasis> = other classes.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-323" list-type="enumerated" number-style="lower-alpha"><item>Write a probability statement for the overall percentage of money returned.</item>
+<list id="element-323" list-type="enumerated" number-style="lower-alpha"><item>Write a probability statement for the overall percentage of money returned.</item>
 <item>Write a probability statement for the percentage of money returned out of the economics classes.</item>
 <item>Write a probability statement for the percentage of money returned out of the other classes.</item>
 <item>Is money being returned independent of the class? Justify your answer numerically and explain it.</item>
@@ -1344,7 +1344,7 @@
 </tbody>
 </tgroup>
 </table>
-<para id="fs-idm14793216">Are <emphasis effect="italics">the hit being made by Hank Aaron</emphasis> and <emphasis effect="italics">the hit being a double</emphasis> independent events?</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm49744624" list-type="enumerated" number-style="lower-alpha"><item>Yes, because <emphasis effect="italics">P</emphasis>(hit by Hank Aaron|hit is a double) = <emphasis effect="italics">P</emphasis>(hit by Hank Aaron)</item>
+<para id="fs-idm14793216">Are <emphasis effect="italics">the hit being made by Hank Aaron</emphasis> and <emphasis effect="italics">the hit being a double</emphasis> independent events?</para><list id="fs-idm49744624" list-type="enumerated" number-style="lower-alpha"><item>Yes, because <emphasis effect="italics">P</emphasis>(hit by Hank Aaron|hit is a double) = <emphasis effect="italics">P</emphasis>(hit by Hank Aaron)</item>
 <item>No, because <emphasis effect="italics">P</emphasis>(hit by Hank Aaron|hit is a double) ≠ <emphasis effect="italics">P</emphasis>(hit is a double)</item>
 <item>No, because <emphasis effect="italics">P</emphasis>(hit is by Hank Aaron|hit is a double) ≠ <emphasis effect="italics">P</emphasis>(hit by Hank Aaron)</item>
 <item>Yes, because <emphasis effect="italics">P</emphasis>(hit is by Hank Aaron|hit is a double) = <emphasis effect="italics">P</emphasis>(hit is a double)</item>
@@ -1352,7 +1352,7 @@
 </exercise><exercise id="eip-8">
 <problem id="eip-874">
 <para id="eip-492">United Blood Services is a blood bank that serves more than 500 hospitals in 18 states. According to their website, a person with type O blood and a negative Rh factor (Rh–) can donate blood to any person with any bloodtype. Their data show that 43 percent of people have type O blood and 15 percent of people have Rh– factor; 52 percent of people have type O or Rh– factor.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm79628432" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that a person has both type O blood and the Rh– factor.</item>
+<list id="eip-idm79628432" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that a person has both type O blood and the Rh– factor.</item>
 <item>Find the probability that a person does <emphasis effect="bold">not</emphasis> have both type O blood and the Rh– factor.</item>
 </list></problem>
 <solution id="eip-999">
@@ -1390,7 +1390,7 @@
 </list></solution>
 </exercise>
 <exercise id="eip-126"><problem id="eip-id1164258184377">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1164261703387">A college finds that 10 percent of students have taken a distance learning class and that 40 percent of students are part-time students. Of the part-time students, 20 percent have taken a distance learning class. Let <emphasis effect="italics">D</emphasis> = event that a student takes a distance learning class and <emphasis effect="italics">E</emphasis> = event that a student is a part-time student.</para><list id="eip-id4894720" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> AND <emphasis effect="italics">E</emphasis>).</item>
+<para id="eip-id1164261703387">A college finds that 10 percent of students have taken a distance learning class and that 40 percent of students are part-time students. Of the part-time students, 20 percent have taken a distance learning class. Let <emphasis effect="italics">D</emphasis> = event that a student takes a distance learning class and <emphasis effect="italics">E</emphasis> = event that a student is a part-time student.</para><list id="eip-id4894720" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> AND <emphasis effect="italics">E</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">E</emphasis>|<emphasis effect="italics">D</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis> OR <emphasis effect="italics">E</emphasis>).</item>
 <item>Using an appropriate test, show whether <emphasis effect="italics">D</emphasis> and <emphasis effect="italics">E</emphasis> are independent.</item>

@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml">
 
 <title>Hypothesis Testing of a Single Mean and Single Proportion</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79666</md:content-id>
   <md:title>Hypothesis Testing of a Single Mean and Single Proportion</md:title>
   <md:abstract/>
@@ -28,7 +28,7 @@
 </item>
 <item>Do you or do you not reject the null hypothesis? Why?</item>
 <item>Write a clear conclusion using a complete sentence.</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-40a"><title>Language Survey</title>About 42.3 percent of Californians and 19.6 percent of all Americans over age five speak a language other than English at home. Using your class as the sample, conduct a hypothesis test to determine if the percentage of the students at your school who speak a language other than English at home is different from 42.3 percent.</para><list id="list-2349867965" mark-suffix="." list-type="enumerated"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: ___________</item>
+</list><para id="element-40a"><title>Language Survey</title>About 42.3 percent of Californians and 19.6 percent of all Americans over age five speak a language other than English at home. Using your class as the sample, conduct a hypothesis test to determine if the percentage of the students at your school who speak a language other than English at home is different from 42.3 percent.</para><list id="list-2349867965" mark-suffix="." list-type="enumerated"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: ___________</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: ___________</item>
 <item>In words, define the random variable. __________ = _______________</item>
 <item> The distribution to use for the test is ________________.</item>
@@ -41,7 +41,7 @@
 </item>
 <item> Do you or do you not reject the null hypothesis? Why?</item>
 <item> Write a clear conclusion using a complete sentence.</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-479"><title>Jeans Survey</title>You've read in an article that young adults own an average of three pairs of jeans. Survey eight people from your class to determine if the average is higher than three. Assume the population is normal.</para><list id="list-234876875" mark-suffix="." list-type="enumerated"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: _____________</item>
+</list><para id="element-479"><title>Jeans Survey</title>You've read in an article that young adults own an average of three pairs of jeans. Survey eight people from your class to determine if the average is higher than three. Assume the population is normal.</para><list id="list-234876875" mark-suffix="." list-type="enumerated"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: _____________</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: _____________</item>
 <item>In words, define the random variable. __________ = ______________________</item>
 <item>The distribution to use for the test is _______________________.</item>

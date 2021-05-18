@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Normal Distribution—Lap Times</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79644</md:content-id>
   <md:title>Normal Distribution—Lap Times</md:title>
   <md:abstract/>
@@ -13,7 +13,7 @@
 <note id="fs-id8352229" class="statistics lab"><label/><title>Normal Distribution (Lap Times) </title>
 
 <list id="id3819098" list-type="bulleted"><title>Student Learning Outcome</title><item>The student will compare and contrast empirical data and a theoretical distribution to determine if Terry Vogel's lap times fit a continuous distribution. </item>
-</list><para id="element-295"><title>Directions</title>Round the relative frequencies and probabilities to four decimal places. Carry all other decimal answers to two places.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-23435" list-type="labeled-item"><title id="CollectData">Collect the Data</title><item>Use the data from <link document="m79712"/>. Use a stratified sampling method by lap races 1 to 20 and a random number generator to pick six lap times from each stratum. Record the lap times below for laps two to seven.<newline/>
+</list><para id="element-295"><title>Directions</title>Round the relative frequencies and probabilities to four decimal places. Carry all other decimal answers to two places.</para><list id="list-23435" list-type="labeled-item"><title id="CollectData">Collect the Data</title><item>Use the data from <link document="m79712"/>. Use a stratified sampling method by lap races 1 to 20 and a random number generator to pick six lap times from each stratum. Record the lap times below for laps two to seven.<newline/>
 <table id="element-2352564535" summary="Blank table with 36 empty cells.">
 <tgroup cols="6">
 <tbody>

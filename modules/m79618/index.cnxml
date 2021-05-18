@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml">
 
 <title>Probability Topics</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79618</md:content-id>
   <md:title>Probability Topics</md:title>
   <md:abstract/>
@@ -15,7 +15,7 @@
 <list id="element-180" list-type="bulleted"><item>The student will use theoretical and empirical methods to estimate probabilities.</item>
 <item>The student will appraise the differences between the two estimates.</item>
 <item>The student will demonstrate an understanding of long-term relative frequencies.</item></list>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-410"><title>Do the Experiment</title>Count out 40 mixed-color candies, which is approximately one small bag’s worth. Record the number of each color in <link target-id="M05_ch03-tbl009"/>. Use the information from this table to complete <link target-id="M05_ch03-tbl010"/>. Next, put the candies in a cup. The experiment is to pick two candies, one at a time. Do <emphasis>not</emphasis> look into the cup as you pick them. The first time through, replace the first candy before picking the second one. Record the results in the With Replacement column of <link target-id="M05_ch03-tbl011"/>. Do this 24 times. The second time through, after picking the first candy, do <emphasis>not</emphasis> replace it before picking the second one. Then, pick the second one. Record the results in the Without Replacement column section of <link target-id="M05_ch03-tbl012"/>. After you record the pick, put <emphasis>both</emphasis> candies back. Do this a total of 24 times, also. Use the data from <link target-id="M05_ch03-tbl012"/> to calculate the empirical probability questions. Leave your answers in unreduced fractional form. Do <emphasis>not</emphasis> multiply out any fractions.
+<para id="element-410"><title>Do the Experiment</title>Count out 40 mixed-color candies, which is approximately one small bag’s worth. Record the number of each color in <link target-id="M05_ch03-tbl009"/>. Use the information from this table to complete <link target-id="M05_ch03-tbl010"/>. Next, put the candies in a cup. The experiment is to pick two candies, one at a time. Do <emphasis>not</emphasis> look into the cup as you pick them. The first time through, replace the first candy before picking the second one. Record the results in the With Replacement column of <link target-id="M05_ch03-tbl011"/>. Do this 24 times. The second time through, after picking the first candy, do <emphasis>not</emphasis> replace it before picking the second one. Then, pick the second one. Record the results in the Without Replacement column section of <link target-id="M05_ch03-tbl012"/>. After you record the pick, put <emphasis>both</emphasis> candies back. Do this a total of 24 times, also. Use the data from <link target-id="M05_ch03-tbl012"/> to calculate the empirical probability questions. Leave your answers in unreduced fractional form. Do <emphasis>not</emphasis> multiply out any fractions.
 </para><table id="M05_ch03-tbl009" summary="Partially filled theoretical data table. The first column lists the color (6 rows) and the blank second column lists the quantity values.">
 <title>Population</title>
 <tgroup cols="2"><thead>
@@ -101,7 +101,7 @@
 </tgroup>
 </table>
 <note id="fs-idp15354112"><label/><title>Note</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp27436528"><emphasis effect="italics">G</emphasis><sub>2</sub> = green on second pick, <emphasis effect="italics">R</emphasis><sub>1</sub> = red on first pick, <emphasis effect="italics">B</emphasis><sub>1</sub> = brown on first pick, <emphasis effect="italics">B</emphasis><sub>2</sub> = brown on second pick, <newline/>doubles = both picks are the same color.</para></note><table id="M05_ch03-tbl011" summary="Blank empirical results table with the first column designated for with replacement and the second column listed for without replacement. 24 empty cells.">
+<para id="fs-idp27436528"><emphasis effect="italics">G</emphasis><sub>2</sub> = green on second pick, <emphasis effect="italics">R</emphasis><sub>1</sub> = red on first pick, <emphasis effect="italics">B</emphasis><sub>1</sub> = brown on first pick, <emphasis effect="italics">B</emphasis><sub>2</sub> = brown on second pick, <newline/>doubles = both picks are the same color.</para></note><table id="M05_ch03-tbl011" summary="Blank empirical results table with the first column designated for with replacement and the second column listed for without replacement. 24 empty cells.">
 <title>Empirical Results</title>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -214,7 +214,7 @@
 </table>
 <para id="fs-idp8995504">
 <title>Discussion Questions</title></para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-148" list-type="enumerated"><item>Why are the With Replacement and Without Replacement probabilities different?</item>
+<list id="element-148" list-type="enumerated"><item>Why are the With Replacement and Without Replacement probabilities different?</item>
 <item>Convert <emphasis effect="italics">P</emphasis>(no yellows) to decimal format for both Theoretical With Replacement and for Empirical With Replacement.  Round to four decimal places.
 <list id="sublist1" list-type="enumerated" number-style="lower-alpha"><item>Theoretical <emphasis effect="italics">With Replacement</emphasis>: <emphasis effect="italics">P</emphasis>(no yellows) = _______</item>
 <item>Empirical With Replacement: <emphasis effect="italics">P</emphasis>(no yellows) = _______</item>

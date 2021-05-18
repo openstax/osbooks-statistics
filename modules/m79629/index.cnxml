@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Discrete Distribution (Lucky Dice Experiment)</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79629</md:content-id>
   <md:title>Discrete Distribution (Lucky Dice Experiment)</md:title>
   <md:abstract/>
@@ -193,10 +193,10 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 2) =  ________</item>
 </list></para>
 <para id="element-872568354">Use the data from the <link target-id="OrgData2" document="">Organize the Data</link> section to calculate the following answers. Round your answers to four decimal places.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-997" list-type="enumerated"><item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> = 3) =  ________</item>
+<list id="element-997" list-type="enumerated"><item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> = 3) =  ________</item>
 <item><emphasis effect="italics">RF</emphasis>(0 &lt; <emphasis effect="italics">x</emphasis> &lt; 3) =  ________</item>
 <item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 2) =  ________</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-508"><title>Discussion Question</title>For Questions 1 and 2, consider the graphs, the probabilities, the relative frequencies, the means, and the standard deviations.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-2359768725" list-type="enumerated"><item id="q01">Knowing that data vary, describe three similarities between the graphs and distributions of the theoretical and empirical distributions. Use complete sentences.</item>
+</list><para id="element-508"><title>Discussion Question</title>For Questions 1 and 2, consider the graphs, the probabilities, the relative frequencies, the means, and the standard deviations.</para><list id="list-2359768725" list-type="enumerated"><item id="q01">Knowing that data vary, describe three similarities between the graphs and distributions of the theoretical and empirical distributions. Use complete sentences.</item>
 
 <item id="q02">Describe the three most significant differences between the graphs or distributions of the theoretical and empirical distributions.</item>
 

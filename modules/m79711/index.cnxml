@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" class="appendix" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
 <title>Appendix B Practice Tests (1–4) and Final Exams</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79711</md:content-id>
   <md:title>Appendix B Practice Tests (1–4) and Final Exams</md:title>
   <md:abstract/>
@@ -17,10 +17,10 @@
 <item>statistic</item>
 <item>variable</item>
 <item>data</item>
-</list><newline/></para><para id="fs-idp64051776"><emphasis>2</emphasis>. What kind of data is <emphasis effect="italics">amount of money spent on produce per visit</emphasis>?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm40274432" list-type="enumerated" number-style="upper-alpha"><item>Qualitative</item>
+</list><newline/></para><para id="fs-idp64051776"><emphasis>2</emphasis>. What kind of data is <emphasis effect="italics">amount of money spent on produce per visit</emphasis>?<list id="fs-idm40274432" list-type="enumerated" number-style="upper-alpha"><item>Qualitative</item>
 <item>Quantitative-continuous</item>
 <item>Quantitative-discrete</item>
-</list><newline/></para><para id="fs-idm89022320"><emphasis>3</emphasis>. The study finds that the mean amount spent on produce per visit by the customers in the sample is $12.84. This is an example of a<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp18266512" list-type="enumerated" number-style="upper-alpha"><item>Population</item>
+</list><newline/></para><para id="fs-idm89022320"><emphasis>3</emphasis>. The study finds that the mean amount spent on produce per visit by the customers in the sample is $12.84. This is an example of a<list id="fs-idp18266512" list-type="enumerated" number-style="upper-alpha"><item>Population</item>
 <item>Sample</item>
 <item>Parameter</item>
 <item>Statistic</item>
@@ -29,18 +29,18 @@
 
 <section id="fs-idp77463008"><title>1.2: Data, Sampling, and Variation in Data and Sampling</title><para id="eip-420"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> A health club is interested in knowing how many times a typical member uses the club in a week. They decide to ask every tenth customer on a specified day to complete a short survey, including information about how many times they have visited the club in the past week.</para>
 
-<para id="fs-idp55313008"><emphasis>4</emphasis>. What kind of a sampling design is this?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp36414400" list-type="enumerated" number-style="upper-alpha"><item>Cluster</item>
+<para id="fs-idp55313008"><emphasis>4</emphasis>. What kind of a sampling design is this?<list id="fs-idp36414400" list-type="enumerated" number-style="upper-alpha"><item>Cluster</item>
 <item>Stratified</item>
 <item>Simple random</item>
 <item>Systematic</item>
-</list><newline/></para><para id="fs-idp30847568"><emphasis>5</emphasis>. <emphasis effect="italics">Number of visits per week</emphasis> is what kind of data?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp60317184" list-type="enumerated" number-style="upper-alpha"><item>Qualitative</item>
+</list><newline/></para><para id="fs-idp30847568"><emphasis>5</emphasis>. <emphasis effect="italics">Number of visits per week</emphasis> is what kind of data?<list id="fs-idp60317184" list-type="enumerated" number-style="upper-alpha"><item>Qualitative</item>
 <item>Quantitative-continuous</item>
 <item>Quantitative-discrete</item>
-</list><newline/></para><para id="fs-idm11545808"><emphasis>6</emphasis>. Describe a situation in which you would calculate a parameter, rather than a statistic.<newline/></para><para id="fs-idp12975856"><emphasis>7</emphasis>. The U.S. federal government conducts a survey of high school seniors concerning their plans for future education and employment. One question asks whether they are planning to attend a four-year college or university in the following year. Fifty percent answer yes to this question. That 50 percent is a<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp53885392" list-type="enumerated" number-style="upper-alpha"><item>Parameter</item>
+</list><newline/></para><para id="fs-idm11545808"><emphasis>6</emphasis>. Describe a situation in which you would calculate a parameter, rather than a statistic.<newline/></para><para id="fs-idp12975856"><emphasis>7</emphasis>. The U.S. federal government conducts a survey of high school seniors concerning their plans for future education and employment. One question asks whether they are planning to attend a four-year college or university in the following year. Fifty percent answer yes to this question. That 50 percent is a<list id="fs-idp53885392" list-type="enumerated" number-style="upper-alpha"><item>Parameter</item>
 <item>Statistic </item>
 <item>Variable</item>
 <item>Data</item>
-</list><newline/></para><para id="fs-idm140768528"><emphasis>8</emphasis>. Imagine that the U.S. federal government had the means to survey all high school seniors in the United States concerning their plans for future education and employment, and found that 50 percent were planning to attend a four-year college or university in the following year. This 50 percent is an example of a<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm117906800" list-type="enumerated" number-style="upper-alpha"><item>Parameter</item>
+</list><newline/></para><para id="fs-idm140768528"><emphasis>8</emphasis>. Imagine that the U.S. federal government had the means to survey all high school seniors in the United States concerning their plans for future education and employment, and found that 50 percent were planning to attend a four-year college or university in the following year. This 50 percent is an example of a<list id="fs-idm117906800" list-type="enumerated" number-style="upper-alpha"><item>Parameter</item>
 <item>Dtatistic </item>
 <item>Variable</item>
 <item>Data</item>
@@ -82,7 +82,7 @@
 </tgroup>
 </table>
 
-<para id="fs-idm21973424"><emphasis>10</emphasis>. What proportion of nurses have five or more years of experience?</para><para id="fs-idm74432608"><emphasis>11</emphasis>. What proportion of nurses have 10 or fewer years of experience?</para><para id="fs-idm56549120"><emphasis>12</emphasis>. Describe how you might draw a random sample of 30 students from a lecture class of 200 students.</para><para id="fs-idm86564112"><emphasis>13</emphasis>. Describe how you might draw a stratified sample of students from a college, where the strata are the students’ class standing (freshman, sophomore, junior, or senior).</para><para id="fs-idm106954912"><emphasis>14</emphasis>. A manager wants to draw a sample, without replacement, of 30 employees from a workforce of 150. Describe how the chance of being selected will change over the course of drawing the sample.</para><para id="fs-idm71122784"><emphasis>15</emphasis>. The manager of a department store decides to measure employee satisfaction by selecting four departments at random, and conducting interviews with all the employees in those four departments. What type of survey design is this?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp65603104" list-type="enumerated" number-style="upper-alpha"><item>Cluster</item>
+<para id="fs-idm21973424"><emphasis>10</emphasis>. What proportion of nurses have five or more years of experience?</para><para id="fs-idm74432608"><emphasis>11</emphasis>. What proportion of nurses have 10 or fewer years of experience?</para><para id="fs-idm56549120"><emphasis>12</emphasis>. Describe how you might draw a random sample of 30 students from a lecture class of 200 students.</para><para id="fs-idm86564112"><emphasis>13</emphasis>. Describe how you might draw a stratified sample of students from a college, where the strata are the students’ class standing (freshman, sophomore, junior, or senior).</para><para id="fs-idm106954912"><emphasis>14</emphasis>. A manager wants to draw a sample, without replacement, of 30 employees from a workforce of 150. Describe how the chance of being selected will change over the course of drawing the sample.</para><para id="fs-idm71122784"><emphasis>15</emphasis>. The manager of a department store decides to measure employee satisfaction by selecting four departments at random, and conducting interviews with all the employees in those four departments. What type of survey design is this?<list id="fs-idp65603104" list-type="enumerated" number-style="upper-alpha"><item>Cluster</item>
 <item>Stratified</item>
 <item>Simple random</item>
 <item>Systematic</item>
@@ -122,12 +122,12 @@
 </figure><para id="fs-idp15363888"><emphasis>41</emphasis>. What is the median for this data, and how do you know?</para><para id="fs-idm65953536"><emphasis>42</emphasis>. What are the first and third quartiles for this data, and how do you know?</para><para id="fs-idp4726000"><emphasis>43</emphasis>. What is the interquartile range for this data?</para><para id="fs-idm14404592"><emphasis>44</emphasis>. What is the range for this data?</para></section>
 <section id="fs-idp79012576"><title>2.5: Measures of the Center of the Data</title><para id="fs-idp43418944"><emphasis>45</emphasis>. In a marathon, the median finishing time was 3:35:04 (three hours, 35 minutes, and four seconds). You finished in 3:34:10. Interpret the meaning of the median time, and discuss your time in relation to it.</para><para id="fs-idp66838592"><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> The values, in thousands of dollars, for houses on a block, are 45; 47; 47.5; 51; 53.5; 125.</para>
 
-<para id="fs-idp106075088"><emphasis>46</emphasis>. Calculate the mean for this data.</para><para id="fs-idm19918736"><emphasis>47</emphasis>. Calculate the median for this data.</para><para id="fs-idp38813520"><emphasis>48</emphasis>. Which do you think better reflects the average value of the homes on this block?</para></section><section id="fs-idp76944256"><title>2.6: Skewness and the Mean, Median, and Mode</title><para id="fs-idm98483200"><emphasis>49</emphasis>. In a left-skewed distribution, which is greater?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm91855312" list-type="enumerated" number-style="upper-alpha"><item>The mean</item>
+<para id="fs-idp106075088"><emphasis>46</emphasis>. Calculate the mean for this data.</para><para id="fs-idm19918736"><emphasis>47</emphasis>. Calculate the median for this data.</para><para id="fs-idp38813520"><emphasis>48</emphasis>. Which do you think better reflects the average value of the homes on this block?</para></section><section id="fs-idp76944256"><title>2.6: Skewness and the Mean, Median, and Mode</title><para id="fs-idm98483200"><emphasis>49</emphasis>. In a left-skewed distribution, which is greater?<list id="fs-idm91855312" list-type="enumerated" number-style="upper-alpha"><item>The mean</item>
 <item>The media</item>
 <item>The mode</item>
 </list></para>
 
-<para id="fs-idp66436112"><emphasis>50</emphasis>. In a right-skewed distribution, which is greater?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp146366352" list-type="enumerated" number-style="upper-alpha"><item>The mean</item>
+<para id="fs-idp66436112"><emphasis>50</emphasis>. In a right-skewed distribution, which is greater?<list id="fs-idp146366352" list-type="enumerated" number-style="upper-alpha"><item>The mean</item>
 <item>The median</item>
 <item>The mode</item>
 </list></para>
@@ -214,12 +214,12 @@
 <item>variable: the expenditure on produce for each visit</item>
 <item>data: the dollar amounts spent on produce; for instance, $15.40, $11.53, etc.</item>
 </list>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp105768000"><emphasis>2. C</emphasis></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp76659008"><emphasis>3. D</emphasis></para></section>
+</para><para id="fs-idp105768000"><emphasis>2. C</emphasis></para><para id="fs-idp76659008"><emphasis>3. D</emphasis></para></section>
 
 <section id="fs-idp17477936">
 <title>1.2: Data, Sampling, and Variation in Data and Sampling</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp13909776"><emphasis>4. D</emphasis></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp9093680"><emphasis>5. C</emphasis></para><para id="fs-idp45789488"><emphasis>6</emphasis>. Answers will vary.
-<newline/>Sample Answer: Any solution in which you use data from the entire population is acceptable. For instance, a professor might calculate the average exam score for her class: Because the scores of all members of the class were used in the calculation, the average is a parameter.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp164316736"><emphasis>7. B</emphasis></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp186482976"><emphasis>8. A</emphasis></para><para id="fs-idp15623168"><emphasis>9</emphasis>.
+<para id="fs-idp13909776"><emphasis>4. D</emphasis></para><para id="fs-idp9093680"><emphasis>5. C</emphasis></para><para id="fs-idp45789488"><emphasis>6</emphasis>. Answers will vary.
+<newline/>Sample Answer: Any solution in which you use data from the entire population is acceptable. For instance, a professor might calculate the average exam score for her class: Because the scores of all members of the class were used in the calculation, the average is a parameter.</para><para id="fs-idp164316736"><emphasis>7. B</emphasis></para><para id="fs-idp186482976"><emphasis>8. A</emphasis></para><para id="fs-idp15623168"><emphasis>9</emphasis>.
 <table id="fs-idp43286224" summary="A four column, four row table is shown. The header row contains the following column titles: # of years, frequency, relative frequency, and cumulative relative frequency. The first data row contains less than 5, 25, 0.25, and 0.25. The second data row contains 5 to 10, 30, 0.30, and 0.55. The final data row contains greater than 10, 45, 0.45, and 1.00.">
 <title/>
 <tgroup cols="4">
@@ -258,7 +258,7 @@
 </tgroup>
 </table>
 </para><para id="fs-idp41207088"><emphasis>10</emphasis>. 0.75</para><para id="fs-idm9259792"><emphasis>11</emphasis>. 0.55</para><para id="fs-idp37745120"><emphasis>12</emphasis>. Answers will vary.
-<newline/>Sample Answer: One possibility is to obtain the class roster and assign each student a number from 1 to 200. Then, use a random number generator or table of random number to generate 30 numbers between 1 and 200, and select the students matching the random numbers. It would also be acceptable to write each student’s name on a card, shuffle them in a box, and draw 30 names at random.</para><para id="fs-idp95765936"><emphasis>13</emphasis>. One possibility would be to obtain a roster of students enrolled in the college, including the class standing for each student. Then, you would draw a proportionate random sample from within each class. For instance, if 30 percent of the students in the college are freshman, then 30 percent of your sample would be drawn from the freshman class.</para><para id="fs-idp96026704"><emphasis>14</emphasis>. For the first person picked, the chance of any individual being selected is one in 150. For the second person, it is one in 149, for the third it is one in 148, and so on. For the 30th person selected, the chance of selection is one in 121.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp97965952"><emphasis>15. A</emphasis></para><para id="fs-idm93997376"><emphasis>16</emphasis>. No. There are at least two chances for bias. First, the viewers of this particular program may not be representative of American football fans as a whole. Second, the sample will be self-selected, because people have to make a phone call in order to take part, and those people are probably not representative of the American football fan population as a whole.</para><para id="fs-idm28328464"><emphasis>17</emphasis>. These results (84 percent in one sample, 86 percent in the other) are probably due to sampling variability. Each researcher drew a different sample of children, and you would not expect them to get exactly the same result, although you would expect the results to be similar, as they are in this case.</para><para id="fs-idm26622256"><emphasis>18</emphasis>. No. The improvement could also be due to self-selection: Only motivated students were willing to sign the contract, and they would have done well even in a school with 6.5 hour days. Because both changes were implemented at the same time, it is not possible to separate out their influence.</para><para id="fs-idm52915424"><emphasis>19</emphasis>. At least two aspects of this poll are troublesome. The first is that it was conducted by a group who would benefit by the result—almond sales are likely to increase if people believe that eating almonds will make them happier. The second is that this poll found that almond consumption and life satisfaction are correlated, but it does not establish that eating almonds causes satisfaction. It is equally possible, for instance, that people with higher incomes are more likely to eat almonds and are also more satisfied with their lives.</para><para id="fs-idp43279904"><emphasis>20</emphasis>. You want the sample of people who take part in a survey to be representative of the population from which they are drawn. People who refuse to take part in a survey often have different views than those who do participate, and so even a random sample may produce biased results if a large percentage of those selected refuse to participate in a survey.</para></section>
+<newline/>Sample Answer: One possibility is to obtain the class roster and assign each student a number from 1 to 200. Then, use a random number generator or table of random number to generate 30 numbers between 1 and 200, and select the students matching the random numbers. It would also be acceptable to write each student’s name on a card, shuffle them in a box, and draw 30 names at random.</para><para id="fs-idp95765936"><emphasis>13</emphasis>. One possibility would be to obtain a roster of students enrolled in the college, including the class standing for each student. Then, you would draw a proportionate random sample from within each class. For instance, if 30 percent of the students in the college are freshman, then 30 percent of your sample would be drawn from the freshman class.</para><para id="fs-idp96026704"><emphasis>14</emphasis>. For the first person picked, the chance of any individual being selected is one in 150. For the second person, it is one in 149, for the third it is one in 148, and so on. For the 30th person selected, the chance of selection is one in 121.</para><para id="fs-idp97965952"><emphasis>15. A</emphasis></para><para id="fs-idm93997376"><emphasis>16</emphasis>. No. There are at least two chances for bias. First, the viewers of this particular program may not be representative of American football fans as a whole. Second, the sample will be self-selected, because people have to make a phone call in order to take part, and those people are probably not representative of the American football fan population as a whole.</para><para id="fs-idm28328464"><emphasis>17</emphasis>. These results (84 percent in one sample, 86 percent in the other) are probably due to sampling variability. Each researcher drew a different sample of children, and you would not expect them to get exactly the same result, although you would expect the results to be similar, as they are in this case.</para><para id="fs-idm26622256"><emphasis>18</emphasis>. No. The improvement could also be due to self-selection: Only motivated students were willing to sign the contract, and they would have done well even in a school with 6.5 hour days. Because both changes were implemented at the same time, it is not possible to separate out their influence.</para><para id="fs-idm52915424"><emphasis>19</emphasis>. At least two aspects of this poll are troublesome. The first is that it was conducted by a group who would benefit by the result—almond sales are likely to increase if people believe that eating almonds will make them happier. The second is that this poll found that almond consumption and life satisfaction are correlated, but it does not establish that eating almonds causes satisfaction. It is equally possible, for instance, that people with higher incomes are more likely to eat almonds and are also more satisfied with their lives.</para><para id="fs-idp43279904"><emphasis>20</emphasis>. You want the sample of people who take part in a survey to be representative of the population from which they are drawn. People who refuse to take part in a survey often have different views than those who do participate, and so even a random sample may produce biased results if a large percentage of those selected refuse to participate in a survey.</para></section>
 
 <section id="eip-215"><title>1.3: Frequency, Frequency Tables, and Levels of Measurement</title>
 <para id="fs-idm69861856"><emphasis>21</emphasis>. 13.2</para></section>
@@ -343,7 +343,7 @@
 
 <section id="eip-id1168065416003">
 <title>2.6: Skewness and the Mean, Median, and Mode</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp80673888"><emphasis>49. C</emphasis></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp114267568"><emphasis>50. A</emphasis></para><para id="fs-idm68150752"><emphasis>51</emphasis>. They will all be fairly close to one another.</para></section>
+<para id="fs-idp80673888"><emphasis>49. C</emphasis></para><para id="fs-idp114267568"><emphasis>50. A</emphasis></para><para id="fs-idm68150752"><emphasis>51</emphasis>. They will all be fairly close to one another.</para></section>
 
 <section id="eip-id1168071310533">
 <title>2.7: Measures of the Spread of the Data</title>
@@ -3327,7 +3327,7 @@
 <title>11.6: Test of a Single Variance</title>
 
 <para id="fs-idp76278144"><emphasis>88</emphasis>. <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> ≤ 5
-<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 5</para></section></section><section id="eip-137"><title>Practice Test 4</title><section id="fs-idm36554224"><title>12.1 Linear Equations</title><para id="fs-idm44590912"><emphasis>1</emphasis>. Which of the following equations is/are linear?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm161222288" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">y</emphasis> = –3<emphasis effect="italics">x</emphasis></item>
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 5</para></section></section><section id="eip-137"><title>Practice Test 4</title><section id="fs-idm36554224"><title>12.1 Linear Equations</title><para id="fs-idm44590912"><emphasis>1</emphasis>. Which of the following equations is/are linear?<list id="fs-idm161222288" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">y</emphasis> = –3<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">y</emphasis> = 0.2 + 0.74<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">y</emphasis> = –9.4 – 2<emphasis effect="italics">x</emphasis></item>
 <item>A and B</item>
@@ -3475,7 +3475,7 @@
 <newline/>Each sample includes 100 students, and the final exam scores have a range of zero–100. Assuming the samples are independent and randomly selected, have the requirements for conducting a one-way ANOVA been met? Explain why or why not for each assumption.</para><para id="fs-idm197290528"><emphasis>32</emphasis>. You conduct a study comparing the effectiveness of four types of fertilizer to increase crop yield on wheat farms. When examining the sample results, you find that two of the samples have an approximately normal distribution, and two have an approximately uniform distribution. Is this a violation of the assumptions for conducting a one-way ANOVA?</para></section>
 <section id="fs-idm62385104"><title>13.2: The <emphasis effect="italics">F</emphasis> Distribution</title><para id="fs-idm177838624"><emphasis effect="italics">Use the following information to answer the next seven exercises.</emphasis> You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are differences in the mean weight for the four groups.</para><para id="fs-idm165994288"><emphasis>33</emphasis>. What is <emphasis effect="italics">SS<sub>within</sub></emphasis> in this experiment, and what does it mean?</para><para id="fs-idm83692768"><emphasis>34</emphasis>. What is <emphasis effect="italics">SS<sub>between</sub></emphasis> in this experiment, and what does it mean?</para><para id="fs-idm163082704"><emphasis>35</emphasis>. What are <emphasis effect="italics">k</emphasis> and <emphasis effect="italics">i</emphasis> for this experiment?</para><para id="fs-idm201172880"><emphasis>36</emphasis>. If <emphasis effect="italics">SS<sub>within</sub></emphasis> = 374.5 and <emphasis effect="italics">SS<sub>total</sub></emphasis> = 621.4 for this data, what is <emphasis effect="italics">SS<sub>between</sub></emphasis>?</para><para id="fs-idm24192464"><emphasis>37</emphasis>. What are <emphasis effect="italics">MS<sub>between</sub></emphasis>, and <emphasis effect="italics">MS<sub>within</sub></emphasis> for this experiment?</para><para id="fs-idm66174000"><emphasis>38</emphasis>. What is the <emphasis effect="italics">F</emphasis> statistic for this data? </para><para id="fs-idp26419456"><emphasis>39</emphasis>. If there had been 35 calves in each group, instead of 30, with the sums of squares remaining the same, would the <emphasis effect="italics">F</emphasis> statistic be larger or smaller?</para></section><section id="fs-idm178058688">
 <title>13.3: Facts About the <emphasis effect="italics">F</emphasis> Distribution</title>
-<para id="fs-idm495968"><emphasis>40</emphasis>. Which of the following numbers are possible <emphasis effect="italics">F</emphasis> statistics?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm158058704" list-type="enumerated" number-style="upper-alpha"><item>2.47</item>
+<para id="fs-idm495968"><emphasis>40</emphasis>. Which of the following numbers are possible <emphasis effect="italics">F</emphasis> statistics?<list id="fs-idm158058704" list-type="enumerated" number-style="upper-alpha"><item>2.47</item>
 <item>5.95</item>
 <item>–3.61</item>
 <item>7.28</item>
@@ -3871,12 +3871,12 @@
   <item> Let Event <emphasis effect="italics">B</emphasis> = both dice show a number greater than eight</item>
 </list></para>
 
-  <para id="element-907"><emphasis>1</emphasis>. Events <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id5218790" list-type="enumerated" number-style="upper-alpha"><item>Mutually exclusive</item>
+  <para id="element-907"><emphasis>1</emphasis>. Events <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are<list id="id5218790" list-type="enumerated" number-style="upper-alpha"><item>Mutually exclusive</item>
         <item>Independent</item>
         <item>Mutually exclusive and independent</item>
         <item>Neither mutually exclusive nor independent</item>
       </list></para><para id="element-613"><emphasis>2</emphasis>. Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>).
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id3671315" list-type="enumerated" number-style="upper-alpha"><item><m:math>
+  <list id="id3671315" list-type="enumerated" number-style="upper-alpha"><item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -3919,7 +3919,7 @@
 
  </m:mrow>
 </m:math></item>
- </list></para><para id="element-522"><emphasis>3</emphasis>. Which of the following are TRUE when we perform a hypothesis test on matched or paired samples?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6318323" list-type="enumerated" number-style="upper-alpha"><item>Sample sizes are almost never small.</item>
+ </list></para><para id="element-522"><emphasis>3</emphasis>. Which of the following are TRUE when we perform a hypothesis test on matched or paired samples?<list id="id6318323" list-type="enumerated" number-style="upper-alpha"><item>Sample sizes are almost never small.</item>
 <item>Two measurements are drawn from the same pair of individuals or objects.</item>
 <item>Two sample means are compared to each other.</item>
 <item>Answer choices b and c are both true.</item>
@@ -3956,7 +3956,7 @@
 </table></para>
 
   <para id="element-35"><emphasis>4</emphasis>. Find the probability that a randomly chosen student is male or has a bedroom painted with light colors.
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9293163" list-type="enumerated" number-style="upper-alpha"><item><m:math>
+<list id="id9293163" list-type="enumerated" number-style="upper-alpha"><item><m:math>
  <m:mfrac>
     <m:mn>10</m:mn>
     <m:mn>118</m:mn>
@@ -3984,7 +3984,7 @@
   </m:mfrac>
   <m:mtext/>
 </m:math></item>
-</list></para><para id="element-326"><emphasis>5</emphasis>. Find the probability that a randomly chosen student is male given the student’s bedroom is painted with dark colors.<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8128401" list-type="enumerated" number-style="upper-alpha"><item><m:math>
+</list></para><para id="element-326"><emphasis>5</emphasis>. Find the probability that a randomly chosen student is male given the student’s bedroom is painted with dark colors.<list id="id8128401" list-type="enumerated" number-style="upper-alpha"><item><m:math>
  <m:mfrac>
     <m:mn>30</m:mn>
     <m:mn>118</m:mn>
@@ -4081,7 +4081,7 @@
 
 </tgroup>
 </table>
-  <para id="element-278"><emphasis>6</emphasis>. Find the probability that a teenager is reminded two times.<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-29" list-type="enumerated" number-style="upper-alpha"><item>8</item>
+  <para id="element-278"><emphasis>6</emphasis>. Find the probability that a teenager is reminded two times.<list id="element-29" list-type="enumerated" number-style="upper-alpha"><item>8</item>
 <item><m:math>
  <m:mfrac>
     <m:mn>8</m:mn>
@@ -4096,40 +4096,40 @@
   </m:mfrac>
   <m:mtext/>
 </m:math></item>
-<item>2</item></list></para><para id="element-293"><emphasis>7</emphasis>. Find the expected number of times a teenager is reminded to do his or her chores.<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7219651" list-type="enumerated" number-style="upper-alpha"><item>15</item>
+<item>2</item></list></para><para id="element-293"><emphasis>7</emphasis>. Find the expected number of times a teenager is reminded to do his or her chores.<list id="id7219651" list-type="enumerated" number-style="upper-alpha"><item>15</item>
 <item>2.78</item>
 <item>1.0</item>
 <item>3.13</item>
       </list></para><para id="element-680"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> On any given day, approximately 37.5 percent of the cars parked in the De Anza parking garage are parked crookedly. We randomly survey 22 cars. We are interested in the number of cars that are parked crookedly.</para>
 
   <para id="element-531"><emphasis>8</emphasis>. For every 22 cars, how many would you expect to be parked crookedly, on average?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id5368990" list-type="enumerated" number-style="upper-alpha"><item>8.25</item>
+  <list id="id5368990" list-type="enumerated" number-style="upper-alpha"><item>8.25</item>
         <item>11</item>
         <item>18</item>
         <item>7.5</item>
 
       </list></para><para id="element-72"><emphasis>9</emphasis>. What is the probability that at least 10 of the 22 cars are parked crookedly?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9884974" list-type="enumerated" number-style="upper-alpha"><item>0.1263</item>
+  <list id="id9884974" list-type="enumerated" number-style="upper-alpha"><item>0.1263</item>
         <item>0.1607</item>
         <item>0.2870</item>
         <item>0.8393</item>
-</list></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-25"><emphasis>10</emphasis>. Using a sample of 15 Stanford-Binet IQ scores, we wish to conduct a hypothesis test. Our claim is that the mean IQ score on the Stanford-Binet IQ test is more than 100. It is known that the standard deviation of all Stanford-Binet IQ scores is 15 points. Which of the following is the correct distribution to use for the hypothesis test?
+</list></para><para id="element-25"><emphasis>10</emphasis>. Using a sample of 15 Stanford-Binet IQ scores, we wish to conduct a hypothesis test. Our claim is that the mean IQ score on the Stanford-Binet IQ test is more than 100. It is known that the standard deviation of all Stanford-Binet IQ scores is 15 points. Which of the following is the correct distribution to use for the hypothesis test?
   <list id="id9882820" list-type="enumerated" number-style="upper-alpha"><item>Binomial</item>
         <item>Student's <emphasis effect="italics">t</emphasis></item>
         <item>Normal</item>
         <item>Uniform</item>
       </list></para><para id="element-289"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> De Anza College keeps statistics on the pass rate of students who enroll in math classes.  In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B. </para>
   <para id="element-739"><emphasis>11</emphasis>. If you were to conduct an appropriate hypothesis test, the alternate hypothesis would be
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8816942" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
+<list id="id8816942" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> &gt; <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
 <item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> ≠ <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
- </list></para><para id="element-493"><emphasis>12</emphasis>. The Type I error is to<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8828449" list-type="enumerated" number-style="upper-alpha"><item>conclude that the pass rate for Math 1A is the same as the pass rate for Math 1B when, in fact, the pass rates are different.</item>
+ </list></para><para id="element-493"><emphasis>12</emphasis>. The Type I error is to<list id="id8828449" list-type="enumerated" number-style="upper-alpha"><item>conclude that the pass rate for Math 1A is the same as the pass rate for Math 1B when, in fact, the pass rates are different.</item>
 <item>conclude that the pass rate for Math 1A is different than the pass rate for Math 1B when, in fact, the pass rates are the same.</item>
 <item>conclude that the pass rate for Math 1A is greater than the pass rate for Math 1B when, in fact, the pass rate for Math 1A is less than the pass rate for Math 1B.</item>
 <item>conclude that the pass rate for Math 1A is the same as the pass rate for Math 1B when, in fact, they are the same.</item>
 </list></para><para id="element-210"><emphasis>13</emphasis>. The correct decision is to
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-766" list-type="enumerated" number-style="upper-alpha"><item>reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</item>
+  <list id="element-766" list-type="enumerated" number-style="upper-alpha"><item>reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</item>
 <item>not reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</item>
 <item>There is not enough information given to conduct the hypothesis test.</item>
 </list></para><para id="element-77">Kia, Alejandra, and Iris are runners on the track teams at three different schools. Their running times, in minutes, and the statistics for the track teams at their respective schools, for a one mile run, are given in the table below:</para>
@@ -4174,30 +4174,30 @@
 </table>
 
   <para id="element-325"><emphasis>14</emphasis>. Which student is the BEST when compared to the other runners at her school?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8194170" list-type="enumerated" number-style="upper-alpha"><item>Kia</item>
+  <list id="id8194170" list-type="enumerated" number-style="upper-alpha"><item>Kia</item>
         <item>Alejandra</item>
         <item>Iris</item>
         <item>Impossible to determine</item>
       </list></para><para id="element-865"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The following adult ski sweater prices are from the Gorsuch Ltd. Winter catalog: $212, $292, $278, $199, $280, $236.</para><para id="element-288"><newline/>Assume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.</para>
 
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-676"><emphasis>15</emphasis>. Which of the following is the correct distribution to use for the hypothesis test?<list id="id8012671" list-type="enumerated" number-style="upper-alpha"><item>Normal</item>
+  <para id="element-676"><emphasis>15</emphasis>. Which of the following is the correct distribution to use for the hypothesis test?<list id="id8012671" list-type="enumerated" number-style="upper-alpha"><item>Normal</item>
 <item>Binomial</item>
 <item>Student's <emphasis effect="italics">t</emphasis></item>
 <item>Exponential</item>
 </list></para><para id="element-752"><emphasis>16</emphasis>. The hypothesis test
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8145201" list-type="enumerated" number-style="upper-alpha"><item>is two-tailed.</item>
+  <list id="id8145201" list-type="enumerated" number-style="upper-alpha"><item>is two-tailed.</item>
         <item>is left-tailed.</item>
         <item>is right-tailed.</item>
         <item>has no tails.</item>
-</list></para><para id="element-345"><emphasis>17</emphasis>. Sara, a statistics student, wanted to determine the mean number of books that college professors have in their office. She randomly selected two buildings on campus and asked each professor in the selected buildings how many books are in his or her office. Sara surveyed 25 professors. The type of sampling selected is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8122312" list-type="enumerated" number-style="upper-alpha"><item>simple random sampling.</item>
+</list></para><para id="element-345"><emphasis>17</emphasis>. Sara, a statistics student, wanted to determine the mean number of books that college professors have in their office. She randomly selected two buildings on campus and asked each professor in the selected buildings how many books are in his or her office. Sara surveyed 25 professors. The type of sampling selected is<list id="id8122312" list-type="enumerated" number-style="upper-alpha"><item>simple random sampling.</item>
         <item>systematic sampling.</item>
         <item>cluster sampling.</item>
         <item>stratified sampling.</item>
-      </list></para><para id="element-301"><emphasis>18</emphasis>. A clothing store would use which measure of the center of data when placing orders for the typical <emphasis effect="italics">middle</emphasis> customer?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6909128" list-type="enumerated" number-style="upper-alpha"><item>Mean</item>
+      </list></para><para id="element-301"><emphasis>18</emphasis>. A clothing store would use which measure of the center of data when placing orders for the typical <emphasis effect="italics">middle</emphasis> customer?<list id="id6909128" list-type="enumerated" number-style="upper-alpha"><item>Mean</item>
 <item>Median</item>
 <item>Mode</item>
 <item>IQR</item>
-</list></para><para id="element-968"><emphasis>19</emphasis>. In a hypothesis test, the <emphasis effect="italics">p</emphasis>-value is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9379715" list-type="enumerated" number-style="upper-alpha"><item>the probability that an outcome of the data will happen purely by chance when the null hypothesis is true.</item>
+</list></para><para id="element-968"><emphasis>19</emphasis>. In a hypothesis test, the <emphasis effect="italics">p</emphasis>-value is<list id="id9379715" list-type="enumerated" number-style="upper-alpha"><item>the probability that an outcome of the data will happen purely by chance when the null hypothesis is true.</item>
         <item>called the preconceived alpha.</item>
         <item>compared to beta to decide whether to reject or not reject the null hypothesis.</item>
         <item>Answer choices A and B are both true.</item>
@@ -4262,17 +4262,17 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 </tgroup>
 </table></para>
   <para id="element-150"><emphasis>20</emphasis>. Combined with convenience sampling, what other sampling technique did Maria use?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8121459" list-type="enumerated" number-style="upper-alpha"><item>Simple random </item>
+  <list id="id8121459" list-type="enumerated" number-style="upper-alpha"><item>Simple random </item>
         <item>Systematic </item>
         <item>Cluster </item>
         <item>Stratified </item>
-      </list></para><para id="element-5"><emphasis>21</emphasis>. How many students come to campus for classes four days a week?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7476698" list-type="enumerated" number-style="upper-alpha"><item>49</item>
+      </list></para><para id="element-5"><emphasis>21</emphasis>. How many students come to campus for classes four days a week?<list id="id7476698" list-type="enumerated" number-style="upper-alpha"><item>49</item>
         <item>25</item>
         <item>30</item>
         <item>13</item>
 
       </list></para><para id="element-140"><emphasis>22</emphasis>. What is the 60<sup>th</sup> percentile for this data?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8039976" list-type="enumerated" number-style="upper-alpha"><item>2</item>
+  <list id="id8039976" list-type="enumerated" number-style="upper-alpha"><item>2</item>
         <item>3</item>
         <item>4</item>
         <item>5</item>
@@ -4312,40 +4312,40 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 </tgroup>
 </table></para>
   <para id="element-248"><emphasis>23</emphasis>. Construct a 95 percent confidence interval for the true population mean number of dependents of reservists called to active duty to increase security at California airports.
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8136375" list-type="enumerated" number-style="upper-alpha"><item>(1.85, 2.32)</item>
+<list id="id8136375" list-type="enumerated" number-style="upper-alpha"><item>(1.85, 2.32)</item>
         <item>(1.80, 2.36)</item>
         <item>(1.97, 2.46)</item>
         <item>(1.92, 2.50)</item>
 
       </list></para><para id="element-373"><emphasis>24</emphasis>. The 95 percent confidence interval above means:
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9524835" list-type="enumerated" number-style="upper-alpha"><item>Five percent of confidence intervals constructed this way will not contain the true population aveage number of dependents.</item>
+  <list id="id9524835" list-type="enumerated" number-style="upper-alpha"><item>Five percent of confidence intervals constructed this way will not contain the true population aveage number of dependents.</item>
 <item>We are 95 percent confident the true population mean number of dependents falls in the interval.</item>
 <item>Both of the above answer choices are correct.</item>
 <item>None of the above.</item>
 
       </list></para><para id="element-593"><emphasis>25</emphasis>. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(4, 10). Find the 30<sup>th</sup> percentile.
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8091779" list-type="enumerated" number-style="upper-alpha"><item>0.3000</item>
+  <list id="id8091779" list-type="enumerated" number-style="upper-alpha"><item>0.3000</item>
         <item>3</item>
         <item>5.8</item>
         <item>6.1</item>
 
-      </list></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-287"><emphasis>26</emphasis>. If <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Ex</emphasis>p(0.8), then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">μ</emphasis>) = —
+      </list></para><para id="element-287"><emphasis>26</emphasis>. If <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Ex</emphasis>p(0.8), then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">μ</emphasis>) = —
   <list id="id9432521" list-type="enumerated" number-style="upper-alpha"><item>0.3679</item>
         <item>0.4727</item>
         <item>0.6321</item>
         <item>cannot be determined</item>
 
       </list></para><para id="element-770"><emphasis>27</emphasis>. The lifetime of a computer circuit board is normally distributed with a mean of 2,500 hours and a standard deviation of 60 hours. What is the probability that a randomly chosen board will last at most 2,560 hours?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8076571" list-type="enumerated" number-style="upper-alpha"><item>0.8413</item>
+  <list id="id8076571" list-type="enumerated" number-style="upper-alpha"><item>0.8413</item>
         <item>0.1587</item>
         <item>0.3461</item>
         <item>0.6539</item>
         </list></para><para id="element-481"><emphasis>28</emphasis>. A survey of 123 reservists called to active duty as a result of the September 11, 2001, attacks was conducted to determine the proportion that were married. Eighty-six reported being married. Construct a 98 percent confidence interval for the true population proportion of reservists called to active duty that are married.
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8739438" list-type="enumerated" number-style="upper-alpha"><item>(0.6030, 0.7954)</item>
+  <list id="id8739438" list-type="enumerated" number-style="upper-alpha"><item>(0.6030, 0.7954)</item>
         <item>(0.6181, 0.7802)</item>
         <item>(0.5927, 0.8057)</item>
         <item>(0.6312, 0.7672)</item>
-      </list></para><para id="element-236"><emphasis>29</emphasis>. Winning times in 26 mile marathons run by world class runners average 145 minutes with a standard deviation of 14 minutes. A sample of the last 10 marathon winning times is collected. Let <emphasis effect="italics">x</emphasis> = mean winning times for 10 marathons. The distribution for <emphasis effect="italics">x</emphasis> is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9528948" list-type="enumerated" number-style="upper-alpha"><item><m:math>
+      </list></para><para id="element-236"><emphasis>29</emphasis>. Winning times in 26 mile marathons run by world class runners average 145 minutes with a standard deviation of 14 minutes. A sample of the last 10 marathon winning times is collected. Let <emphasis effect="italics">x</emphasis> = mean winning times for 10 marathons. The distribution for <emphasis effect="italics">x</emphasis> is<list id="id9528948" list-type="enumerated" number-style="upper-alpha"><item><m:math>
  <m:mrow>
   <m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -4399,7 +4399,7 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
  </m:mrow>
 </m:math></item>
 </list></para><para id="element-106"><emphasis>30</emphasis>. Suppose that Phi Beta Kappa honors the top 1 percent of college and university seniors. Assume that grade point means (GPA) at a certain college are normally distributed with a 2.5 mean and a standard deviation of 0.5. What would be the minimum GPA needed to become a member of Phi Beta Kappa at that college?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8128823" list-type="enumerated" number-style="upper-alpha"><item>3.99</item>
+  <list id="id8128823" list-type="enumerated" number-style="upper-alpha"><item>3.99</item>
         <item>1.34</item>
         <item>3.00</item>
         <item>3.66</item>
@@ -4445,15 +4445,15 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
   <m:mo>^</m:mo>
  </m:mover>
 </m:math>
- = 1166.93 – 0.5868<emphasis effect="italics">x</emphasis>. What was the expected farm population in millions of persons for 1980?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm139287632" list-type="enumerated" number-style="upper-alpha"><item>7.2</item>
+ = 1166.93 – 0.5868<emphasis effect="italics">x</emphasis>. What was the expected farm population in millions of persons for 1980?<list id="fs-idm139287632" list-type="enumerated" number-style="upper-alpha"><item>7.2</item>
 <item>5.1</item>
 <item>6</item>
 <item>8</item>
-</list></para><para id="element-217"><emphasis>32</emphasis>. In linear regression, which is the best possible <emphasis effect="italics">SSE</emphasis>?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9952065" list-type="enumerated" number-style="upper-alpha"><item>13.46</item>
+</list></para><para id="element-217"><emphasis>32</emphasis>. In linear regression, which is the best possible <emphasis effect="italics">SSE</emphasis>?<list id="id9952065" list-type="enumerated" number-style="upper-alpha"><item>13.46</item>
         <item>18.22</item>
         <item>24.05</item>
         <item>16.33</item>
-      </list></para><para id="element-138"><emphasis>33</emphasis>. In regression analysis, if the correlation coefficient is close to one, what can be said about the best fit line?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6648760" list-type="enumerated" number-style="upper-alpha"><item>It is a horizontal line. Therefore, we cannot use it.</item>
+      </list></para><para id="element-138"><emphasis>33</emphasis>. In regression analysis, if the correlation coefficient is close to one, what can be said about the best fit line?<list id="id6648760" list-type="enumerated" number-style="upper-alpha"><item>It is a horizontal line. Therefore, we cannot use it.</item>
         <item>There is a strong linear pattern. Therefore, it is most likely a good model to be used.</item>
         <item>The coefficient correlation is close to the limit. Therefore, it is hard to make a decision.</item>
         <item>We do not have the equation. Therefore, we cannot say anything about it.</item>
@@ -4493,7 +4493,7 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 <caption>Does the data suggest that there is a relationship between the gender of students and their choice of major?</caption>
 </table>
 
-  <para id="element-349"><emphasis>34</emphasis>. The distribution for the test is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9895880" list-type="enumerated" number-style="upper-alpha"><item><m:math>
+  <para id="element-349"><emphasis>34</emphasis>. The distribution for the test is<list id="id9895880" list-type="enumerated" number-style="upper-alpha"><item><m:math>
   <m:msub>
     <m:msup>
       <m:mi>Chi</m:mi>
@@ -4530,25 +4530,25 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 <m:mtext>.</m:mtext>
   </m:mrow>
 </m:math></item>
-      </list></para><para id="element-402"><emphasis>35</emphasis>. The expected number of females who choose finance is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9311204" list-type="enumerated" number-style="upper-alpha"><item>37.</item>
+      </list></para><para id="element-402"><emphasis>35</emphasis>. The expected number of females who choose finance is<list id="id9311204" list-type="enumerated" number-style="upper-alpha"><item>37.</item>
         <item>61.</item>
         <item>60.</item>
         <item>70.</item>
       </list></para><para id="element-119"><emphasis>36</emphasis>. The <emphasis effect="italics">p</emphasis>-value is 0.0127 and the level of significance is 0.05.  The conclusion to the test is:
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7683405" list-type="enumerated" number-style="upper-alpha"><item>there is insufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.</item>
+<list id="id7683405" list-type="enumerated" number-style="upper-alpha"><item>there is insufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.</item>
         <item>there is sufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.</item>
         <item>there is sufficient evidence to conclude that students find economics very hard.</item>
         <item>there is in sufficient evidence to conclude that more females prefer administration than males.</item>
 
       </list></para><para id="element-843"><emphasis>37</emphasis>. An agency reported that the work force nationwide is composed of 10 percent professional, 10 percent clerical, 30 percent skilled, 15 percent service, and 35 percent semiskilled laborers. A random sample of 100 San Jose residents indicated 15 professional, 15 clerical, 40 skilled, 10 service, and 20 semiskilled laborers. At <emphasis effect="italics">α</emphasis> = 0.10, does the work force in San Jose appear to be consistent with the agency report for the nation? Which kind of test is it?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8874154" list-type="enumerated" number-style="upper-alpha"><item>Chi<sup>2</sup> goodness of fit</item>
+  <list id="id8874154" list-type="enumerated" number-style="upper-alpha"><item>Chi<sup>2</sup> goodness of fit</item>
 
 <item>Chi<sup>2</sup> test of independence</item>
 
 <item>Independent groups proportions</item>
 
 <item>Unable to determine</item>
-      </list></para></section><section id="eip-571"><title>Practice Final Exam 1 Solutions</title><section xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm43734672"><title>Solutions</title><para id="eip-idp94061264"><emphasis>1. B</emphasis> independent</para>
+      </list></para></section><section id="eip-571"><title>Practice Final Exam 1 Solutions</title><section id="fs-idm43734672"><title>Solutions</title><para id="eip-idp94061264"><emphasis>1. B</emphasis> independent</para>
 <para id="eip-idm59727456"><emphasis>2. C</emphasis> <m:math>
 <m:mfrac>
 <m:mn>4</m:mn>
@@ -4634,7 +4634,7 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 <m:mn>2</m:mn>
 </m:msup>
 </m:math> goodness-of-fit</para></section></section><section id="eip-779"><title>Practice Final Exam 2</title><para id="element-62"><emphasis>1</emphasis>. A study was done to determine the proportion of teenagers that own a car. The population proportion of teenagers that own a car is the
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id5746626" list-type="enumerated" number-style="upper-alpha"><item>statistic.</item>
+  <list id="id5746626" list-type="enumerated" number-style="upper-alpha"><item>statistic.</item>
         <item>parameter.</item>
         <item>population.</item>
         <item>variable.</item>
@@ -4671,16 +4671,16 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 
 </tgroup>
 </table>
-  <para id="eip-id1168813982765"><emphasis>2</emphasis>. The box plot for the data is</para><figure id="eip-idp120765168"><media id="eip-idp120765296" alt="This shows 4 boxplots, each over a number line scaled from 0 - 6. Boxplot (a) has left whisker from 0 to 2, box from 2 to 3, and right whisker from 3 to 6. Boxplot (b) has left whisker from 0 to 1, box from 1 to 4 with a dashed line at 3, and right whisker from 4 to 6. Boxplot (c) has box from 0 to 4 with a dashed line at 3 and right whisker from 4 to 6. Boxplot (d) has left whisker from 0 to 1, box from 1 to 3 with a dashed line at 2, and right whisker from 3 to 6."><image src="../../media/CNX_Stats_AppendixB_ART_abcdN.jpg" mime-type="image/jpg"/></media></figure><para id="element-183"><emphasis>3</emphasis>. If six were added to each value of the data in the table, the 15th percentile of the new list of values is would be<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6873752" list-type="enumerated" number-style="upper-alpha"><item>six</item>
+  <para id="eip-id1168813982765"><emphasis>2</emphasis>. The box plot for the data is</para><figure id="eip-idp120765168"><media id="eip-idp120765296" alt="This shows 4 boxplots, each over a number line scaled from 0 - 6. Boxplot (a) has left whisker from 0 to 2, box from 2 to 3, and right whisker from 3 to 6. Boxplot (b) has left whisker from 0 to 1, box from 1 to 4 with a dashed line at 3, and right whisker from 4 to 6. Boxplot (c) has box from 0 to 4 with a dashed line at 3 and right whisker from 4 to 6. Boxplot (d) has left whisker from 0 to 1, box from 1 to 3 with a dashed line at 2, and right whisker from 3 to 6."><image src="../../media/CNX_Stats_AppendixB_ART_abcdN.jpg" mime-type="image/jpg"/></media></figure><para id="element-183"><emphasis>3</emphasis>. If six were added to each value of the data in the table, the 15th percentile of the new list of values is would be<list id="id6873752" list-type="enumerated" number-style="upper-alpha"><item>six</item>
         <item>one</item>
         <item>seven</item>
         <item>eight</item>
       </list></para><para id="element-671"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> Suppose that the probability of a drought in any independent year is 20 percent. Out of those years in which a drought occurs, the probability of water rationing is 10 percent. However, in any year, the probability of water rationing is 5 percent.</para>
-  <para id="element-147"><emphasis>4</emphasis>. What is the probability of both a drought and water rationing occurring?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7039865" list-type="enumerated" number-style="upper-alpha"><item>0.05</item>
+  <para id="element-147"><emphasis>4</emphasis>. What is the probability of both a drought and water rationing occurring?<list id="id7039865" list-type="enumerated" number-style="upper-alpha"><item>0.05</item>
         <item>0.01</item>
         <item>0.02</item>
         <item>0.30</item>
-      </list></para><para id="element-984"><emphasis>5</emphasis>. Which of the following is true?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6905387" list-type="enumerated" number-style="upper-alpha"><item>Drought and water rationing are independent events.</item>
+      </list></para><para id="element-984"><emphasis>5</emphasis>. Which of the following is true?<list id="id6905387" list-type="enumerated" number-style="upper-alpha"><item>Drought and water rationing are independent events.</item>
         <item>Drought and water rationing are mutually exclusive events.</item>
         <item>None of the above.</item>
       </list></para><para id="element-932"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> Suppose that a survey yielded the following data:
@@ -4718,7 +4718,7 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 </para>
 
 
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-347"><emphasis>6</emphasis>. Suppose that one individual is randomly chosen. The probability that the person’s favorite pie is apple or the person is male is —<list id="id7656746" list-type="enumerated" number-style="upper-alpha"><item><m:math>
+  <para id="element-347"><emphasis>6</emphasis>. Suppose that one individual is randomly chosen. The probability that the person’s favorite pie is apple or the person is male is —<list id="id7656746" list-type="enumerated" number-style="upper-alpha"><item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -4774,16 +4774,16 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
  </m:mrow>
 </m:math>
 </item>
-      </list></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-635"><emphasis>7</emphasis>. Suppose <emphasis effect="italics">H<sub>0</sub></emphasis> is favorite pie and gender are independent. The <emphasis effect="italics">p</emphasis>-value is —<list id="id7443667" list-type="enumerated" number-style="upper-alpha"><item>≈ 0</item>
+      </list></para><para id="element-635"><emphasis>7</emphasis>. Suppose <emphasis effect="italics">H<sub>0</sub></emphasis> is favorite pie and gender are independent. The <emphasis effect="italics">p</emphasis>-value is —<list id="id7443667" list-type="enumerated" number-style="upper-alpha"><item>≈ 0</item>
 <item>1</item>
 <item>0.05</item>
 <item>Cannot be determined</item>
 </list></para><para id="element-884"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.</para>
-  <para id="element-247"><emphasis>8</emphasis>. Which of the following statements is FALSE?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id5801192" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(14 0.60)</item>
+  <para id="element-247"><emphasis>8</emphasis>. Which of the following statements is FALSE?<list id="id5801192" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(14 0.60)</item>
 <item>The values for <emphasis effect="italics">x</emphasis> are {1, 2, 3, . . . 14}.</item>
 <item><emphasis effect="italics">μ</emphasis> = 8.4</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 5) = 0.0408</item>
-</list></para><para id="eip-id1168797877641"><emphasis>9</emphasis>. Find the probability that at least six adults watch the news at least once per week.<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8039037" list-type="enumerated" number-style="upper-alpha"><item><m:math>
+</list></para><para id="eip-id1168797877641"><emphasis>9</emphasis>. Find the probability that at least six adults watch the news at least once per week.<list id="id8039037" list-type="enumerated" number-style="upper-alpha"><item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>6</m:mn>
@@ -4800,24 +4800,24 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
       </list></para><para id="element-536"><emphasis>10</emphasis>. The following histogram is most likely to be a result of sampling from which distribution?
  <figure id="fs-idm4512176"><media id="id21491726" alt="This graph is an unlabeled histogram. The distribution is roughly symmetric. There is a single peak in the center of the graph and heights of bars decrease from that point toward each end of the graph.">
 <image src="../../media/CNX_Stats_AppendixB_Figure_1pt12.jpg" mime-type="image/jpg"/></media>
-</figure><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7702485" list-type="enumerated" number-style="upper-alpha"><item>Chi-square with <emphasis effect="italics">df</emphasis> = 6</item>
+</figure><list id="id7702485" list-type="enumerated" number-style="upper-alpha"><item>Chi-square with <emphasis effect="italics">df</emphasis> = 6</item>
 <item>Exponential</item>
 <item>Uniform</item>
 <item>Binomial</item>
-</list></para><para id="fs-idp162697872"><emphasis>11</emphasis>. The ages of campus day and evening students is known to be normally distributed. A sample of six campus day and evening students reported their ages (in years) as {18, 35, 27, 45, 20, 20}. What is the error bound for the 90 percent confidence interval of the true average age?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp227486464" list-type="enumerated" number-style="upper-alpha"><item>11.2</item>
+</list></para><para id="fs-idp162697872"><emphasis>11</emphasis>. The ages of campus day and evening students is known to be normally distributed. A sample of six campus day and evening students reported their ages (in years) as {18, 35, 27, 45, 20, 20}. What is the error bound for the 90 percent confidence interval of the true average age?<list id="fs-idp227486464" list-type="enumerated" number-style="upper-alpha"><item>11.2</item>
 <item>22.3</item>
 <item>17.5</item>
 <item>8.7</item>
-</list></para><para id="element-18"><emphasis>12</emphasis>. If a normally distributed random variable has <emphasis effect="italics">µ</emphasis> = 0 and <emphasis effect="italics">σ</emphasis> = 1, then 97.5 percent of the population values lie above<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id4960914" list-type="enumerated" number-style="upper-alpha"><item>–1.96</item>
+</list></para><para id="element-18"><emphasis>12</emphasis>. If a normally distributed random variable has <emphasis effect="italics">µ</emphasis> = 0 and <emphasis effect="italics">σ</emphasis> = 1, then 97.5 percent of the population values lie above<list id="id4960914" list-type="enumerated" number-style="upper-alpha"><item>–1.96</item>
 <item>1.96</item>
 <item>1</item>
 <item>–1</item>
       </list></para><para id="element-656"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.</para>
-  <para id="element-514"><emphasis>13</emphasis>. What is the probability that one customer spends less than $72 in one trip to the supermarket?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id4424194" list-type="enumerated" number-style="upper-alpha"><item>0.6321</item>
+  <para id="element-514"><emphasis>13</emphasis>. What is the probability that one customer spends less than $72 in one trip to the supermarket?<list id="id4424194" list-type="enumerated" number-style="upper-alpha"><item>0.6321</item>
 <item>0.5000</item>
 <item>0.3714</item>
 <item>1</item>
-</list></para><para id="element-591"><emphasis>14</emphasis>. How much money altogether would you expect the next five customers to spend in one trip to the supermarket (in dollars)?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7752467" list-type="enumerated" number-style="upper-alpha"><item>72</item>
+</list></para><para id="element-591"><emphasis>14</emphasis>. How much money altogether would you expect the next five customers to spend in one trip to the supermarket (in dollars)?<list id="id7752467" list-type="enumerated" number-style="upper-alpha"><item>72</item>
 <item><m:math>
  <m:mrow>
   <m:mfrac>
@@ -4837,7 +4837,7 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 </m:math></item>
 <item>5184</item>
 <item>360</item>
-      </list></para><para id="element-727"><emphasis>15</emphasis>. If you want to find the probability that the mean amount of money 50 customers spend in one trip to the supermarket is less than $60, the distribution to use is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id3684438" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">N</emphasis>(72, 72) </item>
+      </list></para><para id="element-727"><emphasis>15</emphasis>. If you want to find the probability that the mean amount of money 50 customers spend in one trip to the supermarket is less than $60, the distribution to use is<list id="id3684438" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">N</emphasis>(72, 72) </item>
 <item><m:math>
  <m:mrow>
   <m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
@@ -4877,7 +4877,7 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
  </m:mrow>
 </m:math></item>
       </list></para><para id="element-597"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to 10 minutes.</para>
-  <para id="element-66"><emphasis>16</emphasis>. What is the probability that a randomly chosen fourth grader takes more than seven minutes to take out the trash?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id3684038" list-type="enumerated" number-style="upper-alpha"><item><m:math>
+  <para id="element-66"><emphasis>16</emphasis>. What is the probability that a randomly chosen fourth grader takes more than seven minutes to take out the trash?<list id="id3684038" list-type="enumerated" number-style="upper-alpha"><item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>3</m:mn>
@@ -4925,31 +4925,31 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 </item>
 </list></para><para id="element-218"><emphasis>17</emphasis>. Which graph best shows the probability that a randomly chosen fourth grader takes more than six minutes to take out the trash, given that he or she has already taken more than three minutes?</para><figure id="fs-idm1291472"><media id="id21492908" alt="There are 4 uniform distribution graphs. Graph (a) shows a Uniform Distribution from x = 2 to x =  9 with a height of 1/7. The area between x = 6 and x = 9 is shaded. Graph (b) shows a Uniform Distribution from x = 1 to x =  9 with a height of 1/9. The area between x = 6 and x = 9 is shaded. Graph (c) shows a Uniform Distribution from x = 3 to x =  9 with a height of 1/9. The area between x = 6 and x = 9 is shaded. Graph (d) shows a Uniform Distribution from x = 3 to x =  9 with a height of 1/7. The area between x = 6 and x = 9 is shaded.">
 <image src="../../media/CNX_Stats_Appendix_ART_3.jpg" mime-type="image/png" width="380"/>
-</media></figure><para id="element-822"><emphasis>18</emphasis>. We should expect a fourth grader to take how many minutes to take out the trash?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id4564238" list-type="enumerated" number-style="upper-alpha"><item>4.5</item>
+</media></figure><para id="element-822"><emphasis>18</emphasis>. We should expect a fourth grader to take how many minutes to take out the trash?<list id="id4564238" list-type="enumerated" number-style="upper-alpha"><item>4.5</item>
 <item>5.5</item>
 <item>5</item>
 <item>10</item>
       </list></para><para id="element-878"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5  minutes.</para>
-  <para id="element-435"><emphasis>19</emphasis>. What is the 90th percentile of waiting times in minutes?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6873434" list-type="enumerated" number-style="upper-alpha"><item>1.28</item>
+  <para id="element-435"><emphasis>19</emphasis>. What is the 90th percentile of waiting times in minutes?<list id="id6873434" list-type="enumerated" number-style="upper-alpha"><item>1.28</item>
 <item>90 </item>
 <item>7.47</item>
-<item>6.92</item></list></para><para id="element-847"><emphasis>20</emphasis>. The median waiting time in minutes for one student is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id3755447" list-type="enumerated" number-style="upper-alpha"><item>5</item>
+<item>6.92</item></list></para><para id="element-847"><emphasis>20</emphasis>. The median waiting time in minutes for one student is<list id="id3755447" list-type="enumerated" number-style="upper-alpha"><item>5</item>
 <item>50</item>
 <item>2.5</item>
 <item>1.5</item></list></para><para id="element-96"><emphasis>21</emphasis>. Find the probability that the average wait time for ten students is at most 5.5 minutes.
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9259968" list-type="enumerated" number-style="upper-alpha"><item>0.6301</item>
+  <list id="id9259968" list-type="enumerated" number-style="upper-alpha"><item>0.6301</item>
 <item>0.8541</item>
 <item>0.3694</item>
 <item>0.1459</item>
-      </list></para><para id="element-251"><emphasis>22</emphasis>. A sample of 80 software engineers in Silicon Valley is taken, and it is found that 20 percent of them earn approximately $50,000 per year. A point estimate for the true proportion of engineers in Silicon Valley who earn $50,000 per year is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7905590" list-type="enumerated" number-style="upper-alpha"><item>16</item>
+      </list></para><para id="element-251"><emphasis>22</emphasis>. A sample of 80 software engineers in Silicon Valley is taken, and it is found that 20 percent of them earn approximately $50,000 per year. A point estimate for the true proportion of engineers in Silicon Valley who earn $50,000 per year is<list id="id7905590" list-type="enumerated" number-style="upper-alpha"><item>16</item>
 <item>0.2</item>
 <item>1</item>
 <item>0.95</item>
-</list></para><para id="element-63"><emphasis>23</emphasis>. If <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Z</emphasis> &lt; <emphasis effect="italics">z<sub>α</sub></emphasis>) = 0.1587 where <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1), then <emphasis effect="italics">α</emphasis> is equal to<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id3684744" list-type="enumerated" number-style="upper-alpha"><item>–1</item>
+</list></para><para id="element-63"><emphasis>23</emphasis>. If <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Z</emphasis> &lt; <emphasis effect="italics">z<sub>α</sub></emphasis>) = 0.1587 where <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1), then <emphasis effect="italics">α</emphasis> is equal to<list id="id3684744" list-type="enumerated" number-style="upper-alpha"><item>–1</item>
 <item>0.1587</item>
 <item>0.8413</item>
 <item>1</item></list></para><para id="element-507"><emphasis>24</emphasis>. A professor tested 35 students to determine their entering skills. At the end of the term, after completing the course, the same test was administered to the same 35 students to study their improvement. This would be a test of
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id3743579" list-type="enumerated" number-style="upper-alpha"><item>independent groups</item>
+  <list id="id3743579" list-type="enumerated" number-style="upper-alpha"><item>independent groups</item>
 <item>two proportions</item>
 <item>matched pairs, dependent groups</item>
 <item>exclusive groups</item></list></para><para id="element-723">A math exam was given to all the third-grade children attending ABC School. Two random samples of scores were taken.</para>
@@ -4989,18 +4989,18 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 </tbody>
 </tgroup>
 </table>
- <para id="id8119822"><emphasis>25</emphasis>. Which of the following correctly describes the results of a hypothesis test of the claim, “There is a difference between the mean scores obtained by third-grade girls and boys at the 5 percent level of significance”?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6920754" list-type="enumerated" number-style="upper-alpha"><item>Do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>. There is insufficient evidence to conclude that there is a difference in the mean scores.</item>
+ <para id="id8119822"><emphasis>25</emphasis>. Which of the following correctly describes the results of a hypothesis test of the claim, “There is a difference between the mean scores obtained by third-grade girls and boys at the 5 percent level of significance”?<list id="id6920754" list-type="enumerated" number-style="upper-alpha"><item>Do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>. There is insufficient evidence to conclude that there is a difference in the mean scores.</item>
 <item>Do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>. There is sufficient evidence to conclude that there is a difference in the mean scores.</item>
 <item>Reject <emphasis effect="italics">H<sub>0</sub></emphasis>. There is insufficient evidence to conclude that there is no difference in the mean scores.</item>
 <item>Reject <emphasis effect="italics">H<sub>0</sub></emphasis>. There is sufficient evidence to conclude that there is a difference in the mean scores.</item>
-      </list></para><para id="element-222"><emphasis>26</emphasis>. In a survey of 80 males, 45 had played an organized sport growing up. Of the 70 females surveyed, 25 had played an organized sport growing up. We are interested in whether the proportion for males is higher than the proportion for females. The correct conclusion is that<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7702404" list-type="enumerated" number-style="upper-alpha"><item>There is insufficient information to conclude that the proportion for males is the same as the proportion for females.</item>
+      </list></para><para id="element-222"><emphasis>26</emphasis>. In a survey of 80 males, 45 had played an organized sport growing up. Of the 70 females surveyed, 25 had played an organized sport growing up. We are interested in whether the proportion for males is higher than the proportion for females. The correct conclusion is that<list id="id7702404" list-type="enumerated" number-style="upper-alpha"><item>There is insufficient information to conclude that the proportion for males is the same as the proportion for females.</item>
 <item>There is insufficient information to conclude that the proportion for males is not the same as the proportion for females.</item>
 <item>There is sufficient evidence to conclude that the proportion for males is higher than the proportion for females.</item>
 <item>There is not enough information to make a conclusion.</item>
-</list></para><para id="element-889"><emphasis>27</emphasis>. From past experience, a statistics teacher has found that the average score on a midterm is 81, with a standard deviation of 5.2. This term, a class of 49 students had a standard deviation of 5 on the midterm. Do the data indicate that we should reject the teacher’s claim that the standard deviation is 5.2? Use <emphasis effect="italics">α</emphasis> = 0.05.<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9307208" list-type="enumerated" number-style="upper-alpha"><item>Yes</item>
+</list></para><para id="element-889"><emphasis>27</emphasis>. From past experience, a statistics teacher has found that the average score on a midterm is 81, with a standard deviation of 5.2. This term, a class of 49 students had a standard deviation of 5 on the midterm. Do the data indicate that we should reject the teacher’s claim that the standard deviation is 5.2? Use <emphasis effect="italics">α</emphasis> = 0.05.<list id="id9307208" list-type="enumerated" number-style="upper-alpha"><item>Yes</item>
 <item>No</item>
 <item>Not enough information given to solve the problem</item>
-</list></para><para id="element-125"><emphasis>28</emphasis>. Three loading machines are being compared. Ten samples were taken for each machine.  Machine I took an average of 31 minutes to load packages, with a standard deviation of two minutes. Machine II took an average of 28 minutes to load packages, with a standard deviation of 1.5 minutes. Machine III took an average of 29 minutes to load packages, with a standard deviation of one minute. Find the <emphasis effect="italics">p</emphasis>-value when testing that the average loading times are the same.<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id5273784" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">p</emphasis>-value is close to zero</item>
+</list></para><para id="element-125"><emphasis>28</emphasis>. Three loading machines are being compared. Ten samples were taken for each machine.  Machine I took an average of 31 minutes to load packages, with a standard deviation of two minutes. Machine II took an average of 28 minutes to load packages, with a standard deviation of 1.5 minutes. Machine III took an average of 29 minutes to load packages, with a standard deviation of one minute. Find the <emphasis effect="italics">p</emphasis>-value when testing that the average loading times are the same.<list id="id5273784" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">p</emphasis>-value is close to zero</item>
 <item><emphasis effect="italics">p</emphasis>-value is close to one</item>
 <item>Not enough information given to solve the problem</item>
       </list></para><para id="element-47"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:
@@ -5040,14 +5040,14 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 
 </tgroup>
 </table></para>  <para id="element-605"><emphasis>29</emphasis>. Is the correlation between the number of employees and the number of bathrooms significant?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9316490" list-type="enumerated" number-style="upper-alpha"><item>Yes</item>
+  <list id="id9316490" list-type="enumerated" number-style="upper-alpha"><item>Yes</item>
 <item>No</item>
 <item>Not enough information to answer question</item>
-</list></para><para id="element-199"><emphasis>30</emphasis>. The linear regression equation is<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id4461108" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">ŷ</emphasis> = 0.0094 − 79.96<emphasis effect="italics">x</emphasis></item>
+</list></para><para id="element-199"><emphasis>30</emphasis>. The linear regression equation is<list id="id4461108" list-type="enumerated" number-style="upper-alpha"><item><emphasis effect="italics">ŷ</emphasis> = 0.0094 − 79.96<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">ŷ</emphasis> = 79.96 + 0.0094<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">ŷ</emphasis> = 79.96 − 0.0094<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">ŷ</emphasis> = −0.0094 + 79.96<emphasis effect="italics">x</emphasis></item>
-      </list></para><para id="element-476"><emphasis>31</emphasis>. If a site has 1,150 employees, approximately how many bathrooms should it have?<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7553690" list-type="enumerated" number-style="upper-alpha"><item>69</item>
+      </list></para><para id="element-476"><emphasis>31</emphasis>. If a site has 1,150 employees, approximately how many bathrooms should it have?<list id="id7553690" list-type="enumerated" number-style="upper-alpha"><item>69</item>
 <item>91</item>
 <item>91,954</item>
 <item>We should not be estimating here.</item>
@@ -5102,16 +5102,16 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 </tgroup>
 </table>
 
-<para id="element-50"><emphasis>33</emphasis>. Conduct an appropriate test to determine if the distribution is uniform.<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id9269030" list-type="enumerated" number-style="upper-alpha"><item>The <emphasis effect="italics">p</emphasis>-value is &gt; 0.10. There is insufficient information to conclude that the distribution is not uniform.</item>
+<para id="element-50"><emphasis>33</emphasis>. Conduct an appropriate test to determine if the distribution is uniform.<list id="id9269030" list-type="enumerated" number-style="upper-alpha"><item>The <emphasis effect="italics">p</emphasis>-value is &gt; 0.10. There is insufficient information to conclude that the distribution is not uniform.</item>
 <item>The <emphasis effect="italics">p</emphasis>-value is &lt; 0.01. There is sufficient information to conclude the distribution is not uniform.</item>
 <item>The <emphasis effect="italics">p</emphasis>-value is between 0.01 and 0.10, but without alpha (<emphasis effect="italics">α</emphasis>) there is not enough information.</item>
 <item>There is no such test that can be conducted.</item>
 </list></para><para id="element-442"><emphasis>34</emphasis>. Which of the following statements is true when using one-way ANOVA?
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id8084616" list-type="enumerated" number-style="upper-alpha"><item>The populations from which the samples are selected have different distributions.</item>
+  <list id="id8084616" list-type="enumerated" number-style="upper-alpha"><item>The populations from which the samples are selected have different distributions.</item>
 <item>The sample sizes are large.</item>
 <item>The test is to determine if the different groups have the same means.</item>
 <item>There is a correlation between the factors of the experiment.</item>
-      </list></para></section><section id="eip-587"><title>Practice Final Exam 2 Solutions</title><section xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp69608016"><title>Solutions</title><para id="eip-idm218452048"><emphasis>1. B</emphasis> parameter.</para>
+      </list></para></section><section id="eip-587"><title>Practice Final Exam 2 Solutions</title><section id="fs-idp69608016"><title>Solutions</title><para id="eip-idm218452048"><emphasis>1. B</emphasis> parameter.</para>
 <para id="eip-idm179973968"><emphasis>2. A</emphasis></para>
 <para id="eip-idm140759456"><emphasis>3. C</emphasis> seven</para>
 <para id="eip-idm36161264"><emphasis>4. C</emphasis> 0.02</para>

@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Binomial Distribution (Optional)</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79624</md:content-id>
   <md:title>Binomial Distribution (Optional)</md:title>
   <md:abstract/>
@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164966556607">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-999">There are three characteristics of a <emphasis>binomial experiment</emphasis>:
+<para id="element-999">There are three characteristics of a <emphasis>binomial experiment</emphasis>:
 <list id="element-591" list-type="enumerated"><item>There are a fixed number of trials. Think of trials as repetitions of an experiment. The letter <emphasis effect="italics">n</emphasis> denotes the number of trials.</item>
 <item>There are only two possible outcomes, called <emphasis effect="italics">success</emphasis> and <emphasis effect="italics">failure</emphasis>, for each trial. The outcome that we are measuring is defined as a <emphasis effect="italics">success</emphasis>, while the other outcome is defined as a <emphasis effect="italics">failure</emphasis>. The letter <emphasis effect="italics">p</emphasis> denotes the probability of a success on one trial, and <emphasis effect="italics">q</emphasis> denotes the probability of a failure on one trial. <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1.</item>
 <item>The <emphasis effect="italics">n</emphasis> trials are independent and are repeated using identical conditions. Because the <emphasis effect="italics">n</emphasis> trials are independent, the outcome of one trial does not help in predicting the outcome of another trial. Another way of saying this is that for each individual trial, the probability, <emphasis effect="italics">p</emphasis>, of a success and probability, <emphasis effect="italics">q</emphasis>, of a failure remain the same. Let us look at several examples of a binomial experiment.<newline count="2"/>
@@ -160,7 +160,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
 
  </m:mrow>
 </m:math>.</para>-->
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565384429">There are shortcut formulas for calculating mean <emphasis effect="italics">μ</emphasis>, variance <emphasis effect="italics">σ</emphasis><sup>2</sup>, and standard deviation <emphasis effect="italics">σ</emphasis> of a binomial probability distribution. The formulas are given as below. The deriving of these formulas will not be discussed in this book.</para><equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164566030689" class="unnumbered"><label/><m:math>
+<para id="fs-id1164565384429">There are shortcut formulas for calculating mean <emphasis effect="italics">μ</emphasis>, variance <emphasis effect="italics">σ</emphasis><sup>2</sup>, and standard deviation <emphasis effect="italics">σ</emphasis> of a binomial probability distribution. The formulas are given as below. The deriving of these formulas will not be discussed in this book.</para><equation id="fs-id1164566030689" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>p</m:mi><m:mo>,</m:mo><m:msup>
@@ -179,7 +179,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
 <!--<para id="element-612">Any experiment that has characteristics two and three and where <emphasis effect="italics">n</emphasis> = 1 is called a <term>Bernoulli trial</term> (named after Jacob Bernoulli who, in the late 1600s, studied them extensively). A binomial experiment takes place when the number of successes is counted in one or more Bernoulli trials.</para>-->
 
 <example id="element-375">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-545">At ABC High School, the withdrawal rate from an elementary physics course is 30 percent for any given term. This implies that, for any given term, 70 percent of the students stay in the class for the entire term. The random variable <emphasis effect="italics">X</emphasis> = the number of students who withdraw from the randomly selected elementary physics class. Since we are measuring the number of students who withdrew, a <emphasis effect="italics">success</emphasis> is defined as an individual who withdrew.</para></example>
+<para id="element-545">At ABC High School, the withdrawal rate from an elementary physics course is 30 percent for any given term. This implies that, for any given term, 70 percent of the students stay in the class for the entire term. The random variable <emphasis effect="italics">X</emphasis> = the number of students who withdraw from the randomly selected elementary physics class. Since we are measuring the number of students who withdrew, a <emphasis effect="italics">success</emphasis> is defined as an individual who withdrew.</para></example>
 
 <note id="fs-idm41846320" class="statistics try"><label/><title>Try It</title>
 
@@ -192,7 +192,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
 </solution>
 </exercise>
 </note><example id="fs-idm62623744">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-284">Suppose you play a game that you can only either win or lose. The probability that you win any game is 55 percent, and the probability that you lose is 45 percent. Each game you play is independent. If you play the game 20 times, write the function that describes the probability that you win 15 of the 20 times. Here, if you define <emphasis effect="italics">X</emphasis> as the number of wins, then <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, . . ., 20. The probability of a success is <emphasis effect="italics">p</emphasis> = 0.55. The probability of a failure is <emphasis effect="italics">q</emphasis> = .45. The number of trials is <emphasis effect="italics">n</emphasis> = 20. The probability question can be stated mathematically as <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 15). If you define <emphasis effect="italics">X</emphasis> as the number of losses, then a <emphasis effect="italics">success</emphasis> is defined as a loss and a <emphasis effect="italics">failure</emphasis> is defined as a win. A <emphasis effect="italics">success</emphasis> does not necessarily represent a good outcome. It is simply the outcome that you are measuring. <emphasis effect="italics">X</emphasis> still takes on the values of 0, 1, 2, 3, . . ., 20. The probability of a success is <m:math>
+<para id="element-284">Suppose you play a game that you can only either win or lose. The probability that you win any game is 55 percent, and the probability that you lose is 45 percent. Each game you play is independent. If you play the game 20 times, write the function that describes the probability that you win 15 of the 20 times. Here, if you define <emphasis effect="italics">X</emphasis> as the number of wins, then <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, . . ., 20. The probability of a success is <emphasis effect="italics">p</emphasis> = 0.55. The probability of a failure is <emphasis effect="italics">q</emphasis> = .45. The number of trials is <emphasis effect="italics">n</emphasis> = 20. The probability question can be stated mathematically as <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 15). If you define <emphasis effect="italics">X</emphasis> as the number of losses, then a <emphasis effect="italics">success</emphasis> is defined as a loss and a <emphasis effect="italics">failure</emphasis> is defined as a win. A <emphasis effect="italics">success</emphasis> does not necessarily represent a good outcome. It is simply the outcome that you are measuring. <emphasis effect="italics">X</emphasis> still takes on the values of 0, 1, 2, 3, . . ., 20. The probability of a success is <m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>.45</m:mn>
@@ -217,14 +217,14 @@ More examples of binomial and non-binomial experiments will be discussed in this
 </exercise>
 </note><example id="element-167"><exercise id="fs-idm61431456">
 <problem id="fs-idm3565248">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-104">A fair coin is flipped 15 times. Each flip is independent. What is the probability of getting more than 10 heads? Let <emphasis effect="italics">X</emphasis> = the number of heads in 15 flips of the fair coin. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, . . ., 15. Since the coin is fair, <emphasis effect="italics">p</emphasis> = .5 and <emphasis effect="italics">q</emphasis> = .5. The number of trials <emphasis effect="italics">n</emphasis> = 15. State the probability question mathematically.</para></problem>
+<para id="element-104">A fair coin is flipped 15 times. Each flip is independent. What is the probability of getting more than 10 heads? Let <emphasis effect="italics">X</emphasis> = the number of heads in 15 flips of the fair coin. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, . . ., 15. Since the coin is fair, <emphasis effect="italics">p</emphasis> = .5 and <emphasis effect="italics">q</emphasis> = .5. The number of trials <emphasis effect="italics">n</emphasis> = 15. State the probability question mathematically.</para></problem>
 <solution id="fs-idm23816272">
 <para id="fs-idm59406368"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 10)</para>
 </solution>
 </exercise>
 </example><note id="fs-idm26333440" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm77060880">
-<problem id="fs-idm123194928"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm39905824">A fair, six-sided die is rolled 10 times. Each roll is independent. You want to find the probability of rolling a one more than three times. State the probability question mathematically.</para></problem>
+<problem id="fs-idm123194928"><para id="fs-idm39905824">A fair, six-sided die is rolled 10 times. Each roll is independent. You want to find the probability of rolling a one more than three times. State the probability question mathematically.</para></problem>
 <solution id="fs-idm78565072" class="solutions">
 <label/>
 <para id="fs-idm53013760"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3)</para>
@@ -246,7 +246,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
 <exercise id="element-17530"><problem id="id5318085">
 <para id="element-732324">c. What values does <emphasis effect="italics">x</emphasis> take on?</para></problem>
 <solution id="id5318055">
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-23352">c. 0, 1, 2, . . ., 50<newline count="2"/></para></solution>
+ <para id="element-23352">c. 0, 1, 2, . . ., 50<newline count="2"/></para></solution>
 </exercise><exercise id="element-1753"><problem id="id5317581">
 <para id="element-7324">d. What is a <emphasis effect="italics">failure</emphasis>, in words?</para>
 </problem>
@@ -263,7 +263,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
 </exercise>
 
 <exercise id="element-13"><problem id="id5317006">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-70">f. The words <emphasis effect="italics">at least</emphasis> translate as what kind of inequality for the probability question <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ____ 40)?</para></problem>
+<para id="element-70">f. The words <emphasis effect="italics">at least</emphasis> translate as what kind of inequality for the probability question <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ____ 40)?</para></problem>
 <solution id="id5319380">
  <para id="element-23532">f. greater than or equal to (≥)
 <newline count="1"/>The probability question is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 40).</para></solution>
@@ -280,11 +280,11 @@ More examples of binomial and non-binomial experiments will be discussed in this
 </note>
 </section>
 <section id="element-501"><title>Notation for the Binomial: <emphasis effect="italics">B</emphasis> = Binomial Probability Distribution Function</title><para id="element-715"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>)</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-276">Read this as <emphasis effect="italics">X is a random variable with a binomial distribution</emphasis>. The parameters are <emphasis effect="italics">n</emphasis> and <emphasis effect="italics">p</emphasis>: <emphasis effect="italics">n</emphasis> = number of trials, <emphasis effect="italics">p</emphasis> = probability of a success on each trial.</para></section><example id="example5"><para id="fs-idp328960">It has been stated that about 41 percent of adult workers have a high school diploma but do not pursue any further education. If 20 adult workers are randomly selected, find the probability that at most 12 of them have a high school diploma but do not pursue any further education. How many adult workers do you expect to have a high school diploma but do not pursue any further education?</para>
+<para id="element-276">Read this as <emphasis effect="italics">X is a random variable with a binomial distribution</emphasis>. The parameters are <emphasis effect="italics">n</emphasis> and <emphasis effect="italics">p</emphasis>: <emphasis effect="italics">n</emphasis> = number of trials, <emphasis effect="italics">p</emphasis> = probability of a success on each trial.</para></section><example id="example5"><para id="fs-idp328960">It has been stated that about 41 percent of adult workers have a high school diploma but do not pursue any further education. If 20 adult workers are randomly selected, find the probability that at most 12 of them have a high school diploma but do not pursue any further education. How many adult workers do you expect to have a high school diploma but do not pursue any further education?</para>
 
 <para id="element-992">Let <emphasis effect="italics">X</emphasis> = the number of workers who have a high school diploma but do not pursue any further education.</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-570"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, . . ., 20 where <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = .41, and <emphasis effect="italics">q</emphasis> = 1 – .41 = .59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, .41)</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm48754320" class="finger">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). There is a formula to define the probability of a binomial distribution <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). We can use the formula to find <m:math>
+<para id="element-570"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, . . ., 20 where <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = .41, and <emphasis effect="italics">q</emphasis> = 1 – .41 = .59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, .41)</para><para id="fs-idm48754320" class="finger">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). There is a formula to define the probability of a binomial distribution <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). We can use the formula to find <m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>
@@ -302,7 +302,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
 <!--<para id="element-853"><emphasis>To calculate (<emphasis effect="italics">x</emphasis> = value): binompdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, number)</emphasis>
 if <emphasis effect="italics">number</emphasis> is left out, the result is the binomial probability table.
 <newline/><emphasis>To calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &#8804; value): binomcdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, number)</emphasis> if <emphasis effect="italics">number</emphasis> is left out, the result is the cumulative binomial probability table.</para>-->
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565774921"><emphasis>To calculate the probability of a value</emphasis> <m:math>
+<para id="fs-id1164565774921"><emphasis>To calculate the probability of a value</emphasis> <m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo>
@@ -384,7 +384,7 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
 <!--[art to come round 2]-->
 <!--<figure id="fs-idm42104448"><media id="id5403497" display="block" alt="This histogram shows a binomial probability distribution. It is made up of bars that are fairly normally distributed. The x-axis shows values from 0 to 20. The y-axis shows values from 0 to 0.2 in increments of 0.05."><image src="fig-ch04_05_01N.jpg" mime-type="image/jpg" width="450"/></media></figure>
 <para id="element-313">The <emphasis effect="italics">y</emphasis>-axis contains the probability of <emphasis effect="italics">x</emphasis>, where <emphasis effect="italics">X</emphasis> = the number of workers who have only a high school diploma.</para>-->
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-391"><media id="eip-idm327039312" alt="This is a probability distribution histogram, graphing X ~ B(20, .41)"><image mime-type="image/jpeg" src="../../media/fig-ch04_05_01.jpg"/></media></para><para id="fs-id1164567340374">The previous graph is called a probability distribution histogram. It is made of a series of vertical bars. The <emphasis effect="italics">x</emphasis>-axis of each bar is the value of <emphasis effect="italics">X</emphasis> = the number of workers who have only a high school diploma, and the height of that bar is the probability of that value occurring.</para>
+<para id="eip-391"><media id="eip-idm327039312" alt="This is a probability distribution histogram, graphing X ~ B(20, .41)"><image mime-type="image/jpeg" src="../../media/fig-ch04_05_01.jpg"/></media></para><para id="fs-id1164567340374">The previous graph is called a probability distribution histogram. It is made of a series of vertical bars. The <emphasis effect="italics">x</emphasis>-axis of each bar is the value of <emphasis effect="italics">X</emphasis> = the number of workers who have only a high school diploma, and the height of that bar is the probability of that value occurring.</para>
 <para id="element-363">The number of adult workers that you expect to have a high school diploma but not pursue any further education is the mean, <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = (20)(.41) = 8.2.</para>
 
 <para id="element-949">The formula for the variance is σ<sup>2</sup> = <emphasis effect="italics">npq</emphasis>. The standard deviation is <emphasis effect="italics">σ</emphasis> = <m:math>
@@ -416,7 +416,7 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
   </m:msqrt>
  </m:mrow>
 </m:math> = 2.20.</para></example>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164568078992">The following is the interpretation of the mean <m:math>
+<para id="fs-id1164568078992">The following is the interpretation of the mean <m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>8.2</m:mn>
@@ -442,7 +442,7 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
 <exercise id="fs-idm18828000"><problem id="fs-idm39970896">
 <para id="fs-idm52160320">A store releases a 560-page art supply catalog. Eight of the pages feature signature artists. Suppose we randomly sample 100 pages. Let <emphasis effect="italics">X</emphasis> = the number of pages that feature signature artists.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm60857344" list-type="enumerated" number-style="lower-alpha"><item>What values does <emphasis effect="italics">x</emphasis> take on?</item>
+<list id="fs-idm60857344" list-type="enumerated" number-style="lower-alpha"><item>What values does <emphasis effect="italics">x</emphasis> take on?</item>
 <item>What is the probability distribution? Find the following probabilities:
   <list id="fs-idm43999408" list-type="enumerated" number-style="lower-roman">
   <item>the probability that two pages feature signature artists</item>
@@ -453,7 +453,7 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
 <item>Using the formulas, calculate the (i) mean and (ii) standard deviation.</item>
 </list></problem>
 <solution id="fs-idm14196128">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm1096144" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, 4, 5, 6, 7, 8</item>
+<list id="fs-idm1096144" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, 4, 5, 6, 7, 8</item>
 <item>This is a binomial experiment since all three characteristics are met. Each page is a trial. Since we sample 100 pages, the number of trials is <emphasis effect="italics">n</emphasis> = 100. For each page, there are two possible outcomes, features signature artists or does not feature signature artists. Since we are measuring the number of pages that feature signature artists, a page that features signature artists is defined as a success and a page that does not feature signature artists is defined as a failure. There are 8 out of 560 pages that feature signature artists. Therefore the probability of a success <m:math>
  <m:semantics>
   <m:mrow>
@@ -689,7 +689,7 @@ We can use a graphing calculator to answer Parts i to iii.
 </list></problem>
 
 <solution id="fs-idm51888448">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm38311168" list-type="enumerated" number-style="lower-alpha"><item>This is a binomial experiment since all three characteristics are met. Each person is a trial. Since we sample 200 people, the number of trials is <emphasis effect="italics">n</emphasis> = 200. For each person, there are two possible outcomes: will develop the disease or not. Since we are measuring the number of people who will develop the disease, a person who will develop the disease is defined as a success and a person who will not develop the disease is defined as a failure. The risk of developing the disease is 1.28 percent. Therefore the probability of a success, <m:math><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1.28</m:mn></m:math> percent, <m:math><m:mn>.0128</m:mn></m:math>, and the probability of a failure, <m:math>
+<list id="fs-idm38311168" list-type="enumerated" number-style="lower-alpha"><item>This is a binomial experiment since all three characteristics are met. Each person is a trial. Since we sample 200 people, the number of trials is <emphasis effect="italics">n</emphasis> = 200. For each person, there are two possible outcomes: will develop the disease or not. Since we are measuring the number of people who will develop the disease, a person who will develop the disease is defined as a success and a person who will not develop the disease is defined as a failure. The risk of developing the disease is 1.28 percent. Therefore the probability of a success, <m:math><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1.28</m:mn></m:math> percent, <m:math><m:mn>.0128</m:mn></m:math>, and the probability of a failure, <m:math>
   <m:mrow>
    <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>.0128</m:mn><m:mo>=</m:mo><m:mn>.9872</m:mn>
   </m:mrow>
@@ -815,7 +815,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <note id="fs-idm127539840" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm74755088">
 <problem id="fs-idp7533680">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm63476304">A lacrosse team is selecting a captain. The names of all the seniors are put into a hat, and the first three that are drawn will be the captains. The names are not replaced once they are drawn (one person cannot be two captains). You want to see if the captains all play the same position. State whether this problem is binomial or not and state why.</para></problem>
+<para id="fs-idm63476304">A lacrosse team is selecting a captain. The names of all the seniors are put into a hat, and the first three that are drawn will be the captains. The names are not replaced once they are drawn (one person cannot be two captains). You want to see if the captains all play the same position. State whether this problem is binomial or not and state why.</para></problem>
 <solution id="fs-idp45334816" class="solutions">
 <label/>
 <para id="fs-idm35968928">This is not binomial because the names are not replaced, which means the probability changes for each time a name is drawn. This violates the condition of independence.</para></solution>
@@ -846,14 +846,14 @@ We can use a graphing calculator to answer Questions c and d.</item>
 
 <para id="fs-id1164965280059">Newport, F. (2013). Americans still enjoy saving rather than spending: Few demographic differences seen in these views other than by income. <emphasis effect="italics">GALLUP Economy</emphasis>. Retrieved from http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164965542293">Pryor, J. H., et al. (2011). <emphasis effect="italics">The American freshman: National norms fall 2011</emphasis>. Los Angeles, CA: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</para><para id="fs-id1164967482571">Wikipedia. (n.d.). <emphasis effect="italics">Distance education</emphasis>. Retrieved from http://en.wikipedia.org/wiki/Distance_education</para>
+<para id="fs-id1164965542293">Pryor, J. H., et al. (2011). <emphasis effect="italics">The American freshman: National norms fall 2011</emphasis>. Los Angeles, CA: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</para><para id="fs-id1164967482571">Wikipedia. (n.d.). <emphasis effect="italics">Distance education</emphasis>. Retrieved from http://en.wikipedia.org/wiki/Distance_education</para>
 
 <para id="fs-id1164965561396">World Bank Group. (2013). <emphasis effect="italics">Access to electricity (% of population)</emphasis>. Retrieved from http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?order=wbapi_data_value_2009%20wbapi_data_value%20wbapi_data_value-first&amp;sort=asc</para>
 
 </section>
 
 <section id="fs-idm59813888" class="summary"><title>Chapter Review</title><para id="fs-idp48275616">A statistical experiment can be classified as a binomial experiment if the following conditions are met:</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm159853952" list-type="enumerated"><item>There are a fixed number of trials, <emphasis effect="italics">n</emphasis></item>
+<list id="fs-idm159853952" list-type="enumerated"><item>There are a fixed number of trials, <emphasis effect="italics">n</emphasis></item>
 <item>There are only two possible outcomes, called <emphasis effect="italics">success</emphasis> and <emphasis effect="italics">failure</emphasis>, for each trial; the letter <emphasis effect="italics">p</emphasis> denotes the probability of a success on one trial and <emphasis effect="italics">q</emphasis> denotes the probability of a failure on one trial</item>
 <item>The <emphasis effect="italics">n</emphasis> trials are independent and are repeated using identical conditions</item>
 </list><para id="fs-idp5771264">The outcomes of a binomial experiment fit a binomial probability distribution. The random variable <emphasis effect="italics">X</emphasis> = the number of successes obtained in the <emphasis effect="italics">n</emphasis> independent trials. The mean of <emphasis effect="italics">X</emphasis> can be calculated using the formula <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis>, and the standard deviation is given by the formula σ = <m:math>
@@ -885,7 +885,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 
 <section id="fs-idp75382928" class="practice">
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm98093824"><emphasis effect="italics">Use the following information to answer the next eight exercises:</emphasis> Researchers collected data from 203,967 incoming first-time, full-time freshmen from 270 four-year colleges and universities in the United States. Of those students, 71.3 percent replied that, yes, they agreed with a recent federal law that was passed.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170308316303">Suppose that you randomly pick eight first-time, full-time freshmen from the survey. You are interested in the number who agreed with that law.</para><exercise id="exerciseone">
+<para id="fs-idm98093824"><emphasis effect="italics">Use the following information to answer the next eight exercises:</emphasis> Researchers collected data from 203,967 incoming first-time, full-time freshmen from 270 four-year colleges and universities in the United States. Of those students, 71.3 percent replied that, yes, they agreed with a recent federal law that was passed.</para><para id="fs-id1170308316303">Suppose that you randomly pick eight first-time, full-time freshmen from the survey. You are interested in the number who agreed with that law.</para><exercise id="exerciseone">
 <problem id="id8424885">
 <para id="prob_1">In words, define the random variable <emphasis effect="italics">X</emphasis>.</para>
 </problem>
@@ -1027,12 +1027,12 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <para id="element-88758232434">1.2795</para>
 </solution> --></exercise><exercise id="exerciseseven">
 <problem id="id8562271">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="prob_7">What is the probability that at most five of the freshmen reply yes?</para></problem>
+<para id="prob_7">What is the probability that at most five of the freshmen reply yes?</para></problem>
 <solution id="id8562288">
 <para id="element-88758232344">.4151</para></solution></exercise>
 
 <exercise id="exercisenine"><problem id="id8562314">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="prob_9">What is the probability that at least two of the freshmen reply yes?</para></problem>
+<para id="prob_9">What is the probability that at least two of the freshmen reply yes?</para></problem>
 
 <!-- <solution id="id8562331">
 <para id="element-88758233244">0.9990</para></solution> --></exercise></section>
@@ -1044,7 +1044,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <!-- <solution id="eip-idm92090528">
 <para id="eip-idm92090272">0.2709</para>
 </solution> -->
-</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-314"><emphasis effect="italics">Use the following information to answer the next four exercises</emphasis>: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that he or she truly has the flu (and not just a nasty cold) is only about 4 percent. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.</para><exercise id="eip-idm71407792">
+</exercise><para id="eip-314"><emphasis effect="italics">Use the following information to answer the next four exercises</emphasis>: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that he or she truly has the flu (and not just a nasty cold) is only about 4 percent. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.</para><exercise id="eip-idm71407792">
 <problem id="eip-idm71407536">
 <para id="eip-idm71406576">Define the random variable and list its possible values.</para>
 </problem>
@@ -1075,7 +1075,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <para id="eip-idm142934256">one</para>
 </solution> -->
 </exercise><exercise id="fs-idp24682912"><problem id="fs-idp24683040">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm1731712">People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given <link target-id="M04_Ch04_tbl005" document=""/>. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.</para><table id="M04_Ch04_tbl005" summary="The table lists the number of video rentals (1, 2, 3, 4, 5) and the respective probabilities.">
+  <para id="fs-idm1731712">People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given <link target-id="M04_Ch04_tbl005" document=""/>. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.</para><table id="M04_Ch04_tbl005" summary="The table lists the number of video rentals (1, 2, 3, 4, 5) and the respective probabilities.">
 <tgroup cols="2"><thead>
 <row>
 <entry><emphasis effect="italics">x</emphasis></entry>
@@ -1127,7 +1127,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <exercise id="element-885"><problem id="id18885508">
   <para id="element-423">A school newspaper reporter decides to randomly survey 12 students to see if they will attend Tet (Vietnamese New Year) festivities this year. Based on past years, she knows that 18 percent of students attend Tet festivities. We are interested in the number of students who will attend the festivities.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-942" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<list id="element-942" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item>List the values that <emphasis effect="italics">X</emphasis> may take on.</item>
 <item>Give the distribution of <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X ~ _____</emphasis>(_____,_____)</item>
 <item>How many of the 12 students do we expect to attend the festivities?</item>
@@ -1141,8 +1141,8 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <item>2.16</item>
 <item>0.9511</item>
 <item>0.3702</item></list></solution> -->
-</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm84170848"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> The probability that a local hockey team will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.</para><exercise id="eip-514"><problem id="eip-896">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-233">What is the expected number of wins for that upcoming month?</para><list id="eip-idm77891776" list-type="enumerated" number-style="lower-alpha"><item>1.67</item>
+</exercise><para id="fs-idm84170848"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> The probability that a local hockey team will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.</para><exercise id="eip-514"><problem id="eip-896">
+  <para id="eip-233">What is the expected number of wins for that upcoming month?</para><list id="eip-idm77891776" list-type="enumerated" number-style="lower-alpha"><item>1.67</item>
 <item>12</item>
 <item><m:math>
  <m:mrow>
@@ -1162,7 +1162,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
   <para id="eip-715">d. 4.43
   </para></solution>
 </exercise><para id="eip-490">Let <emphasis effect="italics">X</emphasis> = the number of games won in that upcoming month.</para><exercise id="element-861"><problem id="id18490769">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-374">What is the probability that the team wins six games in that upcoming month?</para><list id="element-877" list-type="enumerated" number-style="lower-alpha">
+  <para id="element-374">What is the probability that the team wins six games in that upcoming month?</para><list id="element-877" list-type="enumerated" number-style="lower-alpha">
 <item>.1476</item>
 <item>.2336</item>
 <item>.7664</item>
@@ -1175,7 +1175,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 </solution> -->
 </exercise><exercise id="element-408">
 <problem id="id13466783">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-757">What is the probability that the team wins at least five games in that upcoming month</para><list id="element-388" list-type="enumerated" number-style="lower-alpha">
+<para id="element-757">What is the probability that the team wins at least five games in that upcoming month</para><list id="element-388" list-type="enumerated" number-style="lower-alpha">
 <item>.3694</item>
 <item>.5266</item>
 <item>.4734</item>
@@ -1197,7 +1197,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <item>We are interested in AT LEAST 70% of ten questions correct. 70% of ten is seven. We want to find the probability that <emphasis effect="italics">X</emphasis> is greater than or equal to seven. The event "at least seven" is the complement of "less than or equal to six".</item>
 <item>Using your calculator's distribution menu: 1 &#8211; binomcdf(10, .5, 6) gives 0.171875</item>
 <item>The probability of getting at least 70% of the ten questions correct when randomly guessing is approximately 0.172.</item></list></solution> --></exercise><exercise id="eip-421"><problem id="eip-id1172769915831">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1172772751393">A student takes a 32-question multiple choice exam, but did not study and randomly guesses each answer. Each question has three possible choices for the answer. Find the probability that the student guesses <emphasis>more than</emphasis> 75 percent of the questions correctly.</para></problem>
+  <para id="eip-id1172772751393">A student takes a 32-question multiple choice exam, but did not study and randomly guesses each answer. Each question has three possible choices for the answer. Find the probability that the student guesses <emphasis>more than</emphasis> 75 percent of the questions correctly.</para></problem>
 
 <solution id="eip-id1172771134070">
   <list id="eip-id1172768406348" list-type="bulleted"><item><emphasis effect="italics">X</emphasis> = number of questions answered correctly</item>
@@ -1299,7 +1299,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 22) = 0.0280 (less than 3%) which is unusual</item>
 </list></solution> -->
 </exercise><exercise id="element-742"><problem id="id15848913">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-174">At the Fencing Center, 60 percent of the fencers use the foil as their main weapon. We randomly survey 25 fencers at the Fencing Center. We are interested in the number of fencers who do <emphasis>not</emphasis> use the foil as their main weapon.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-79" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+  <para id="element-174">At the Fencing Center, 60 percent of the fencers use the foil as their main weapon. We randomly survey 25 fencers at the Fencing Center. We are interested in the number of fencers who do <emphasis>not</emphasis> use the foil as their main weapon.</para><list id="element-79" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item>List the values that <emphasis effect="italics">X</emphasis> may take on.</item>
 <item>Give the distribution of <emphasis effect="italics">X</emphasis>. <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
 <item>How many are expected to <emphasis>not</emphasis> to use the foil as their main weapon?</item>
@@ -1332,7 +1332,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = 0.1873, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) = 0.1824. More likely to get four.</item>
 </list></solution> -->
 </exercise><exercise id="element-1"><problem id="id15835890">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-334">The chance of an IRS audit for a tax return reporting more than $25,000 in income is about 2 percent per year. We are interested in the expected number of audits a person with that income has in a 20-year period. Assume each year is independent.</para><list id="element-778" list-type="enumerated" number-style="lower-alpha">
+  <para id="element-334">The chance of an IRS audit for a tax return reporting more than $25,000 in income is about 2 percent per year. We are interested in the expected number of audits a person with that income has in a 20-year period. Assume each year is independent.</para><list id="element-778" list-type="enumerated" number-style="lower-alpha">
 <item>In words, define the random variable <emphasis effect="italics">X</emphasis>.
 </item>
 <item>List the values that <emphasis effect="italics">X</emphasis> may take on.</item>
@@ -1412,7 +1412,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 </list></solution></exercise>
 
 <exercise id="fs-idm40828128"><problem id="fs-idm51462656">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp72203552">According to the World Bank, only 9 percent of the population of Uganda had access to electricity as of 2009. Suppose we randomly sample 150 people in Uganda. Let <emphasis effect="italics">X</emphasis> = the number of people who have access to electricity.</para><list id="fs-idm81777984" list-type="enumerated" number-style="lower-alpha"><item>What is the probability distribution for <emphasis effect="italics">X</emphasis>?</item>
+<para id="fs-idp72203552">According to the World Bank, only 9 percent of the population of Uganda had access to electricity as of 2009. Suppose we randomly sample 150 people in Uganda. Let <emphasis effect="italics">X</emphasis> = the number of people who have access to electricity.</para><list id="fs-idm81777984" list-type="enumerated" number-style="lower-alpha"><item>What is the probability distribution for <emphasis effect="italics">X</emphasis>?</item>
 <item>Using the formulas, calculate the mean and standard deviation of <emphasis effect="italics">X</emphasis>.</item>
 <item>Use your calculator to find the probability that 15 people in the sample have access to electricity.</item>
 <item>Find the probability that at most 10 people in the sample have access to electricity.</item>
@@ -1450,7 +1450,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 </list></solution> -->
 </exercise><exercise id="fs-idm104093808">
 <problem id="fs-idp20161024">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp99891040">The literacy rate for a nation measures the proportion of people age 15 and over who can read and write. The literacy rate in Afghanistan is 28.1 percent. Suppose you choose 15 people in Afghanistan at random. Let <emphasis effect="italics">X</emphasis> = the number of people who are literate.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm37302880" list-type="enumerated" number-style="lower-alpha"><item>Sketch a graph of the probability distribution of <emphasis effect="italics">X</emphasis>.</item>
+<para id="fs-idp99891040">The literacy rate for a nation measures the proportion of people age 15 and over who can read and write. The literacy rate in Afghanistan is 28.1 percent. Suppose you choose 15 people in Afghanistan at random. Let <emphasis effect="italics">X</emphasis> = the number of people who are literate.</para><list id="fs-idm37302880" list-type="enumerated" number-style="lower-alpha"><item>Sketch a graph of the probability distribution of <emphasis effect="italics">X</emphasis>.</item>
 <item>Using the formulas, calculate the (i) mean and (ii) standard deviation of <emphasis effect="italics">X</emphasis>.</item>
 <item>Find the probability that more than five people in the sample are literate. Is it more likely that three people or four people are literate?</item>
 </list></problem>

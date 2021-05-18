@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>The Uniform Distribution</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79633</md:content-id>
   <md:title>The Uniform Distribution</md:title>
   <md:abstract/>
@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<section id="fs-id1164563152762"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-957">The uniform distribution is a continuous probability distribution and is concerned with events that are equally likely to occur. When working out problems that have a uniform distribution, be careful to note if the data are inclusive or exclusive of endpoints.</para><example id="element-229">
+<section id="fs-id1164563152762"><para id="eip-957">The uniform distribution is a continuous probability distribution and is concerned with events that are equally likely to occur. When working out problems that have a uniform distribution, be careful to note if the data are inclusive or exclusive of endpoints.</para><example id="element-229">
 <para id="element-444">The data in <link target-id="element-41"/> are 55 smiling times, in seconds, of an eight-week-old baby.</para>
 <table id="element-41" summary="A table with 11 columns and 5 rows is shown. The first row contains the following values: 10.4, 19.6, 18.8, 13.9, 17.8, 16.8, 21.6, 17.9, 12.5, 11.1, 4.9. The second row contains the following values: 12.8, 14.8, 22.8, 20.0, 15.9, 16.3, 13.4, 17.1, 14.5, 19.0, 22.8. The third row contains the following values: 1.3, 0.7, 8.9, 11.9, 10.9, 7.3, 5.9, 3.7, 17.9, 19.2, 9.8.. The fourth row contains the following: 5.8, 6.9, 2.6, 5.8, 21.7, 11.8, 3.4, 2.1, 4.5, 6.3, 10.7. The fifth row contains the following: 8.9, 9.4, 9.4, 7.6, 10.0, 3.3, 6.7, 7.8, 11.6, 13.8, 18.6.">
 <tgroup cols="11">
@@ -243,7 +243,7 @@
 </table>
 </problem>
 <solution id="fs-idp4710688">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp111364752"><emphasis effect="italics">a</emphasis> is zero, <emphasis effect="italics">b</emphasis> is 14, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0, 14), <emphasis effect="italics">μ</emphasis> = 7 passengers, <emphasis effect="italics">σ</emphasis> = 4.04 passengers</para></solution>
+<para id="fs-idp111364752"><emphasis effect="italics">a</emphasis> is zero, <emphasis effect="italics">b</emphasis> is 14, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0, 14), <emphasis effect="italics">μ</emphasis> = 7 passengers, <emphasis effect="italics">σ</emphasis> = 4.04 passengers</para></solution>
 </exercise>
 
 </note>
@@ -337,8 +337,8 @@
 <problem id="id9694925">
 <para id="element-503">c. Find the probability that a random eight-week-old baby smiles more than 12 seconds <emphasis effect="italics">knowing</emphasis> that the baby smiles <emphasis effect="italics">more than eight seconds</emphasis>.</para></problem>
 <solution id="id15390803">
-<para id="fs-idp106518000">c. This probability question is a <emphasis>conditional</emphasis>. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <emphasis effect="italics">already know</emphasis> the baby has smiled for more than eight seconds.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-836">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12|<emphasis effect="italics">x</emphasis> &gt; 8) There are two ways to do the problem. <emphasis effect="italics">For the first way</emphasis>, use the fact that this is a conditional and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</para><para id="element-838">for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-837"><emphasis effect="italics">Write a new</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
+<para id="fs-idp106518000">c. This probability question is a <emphasis>conditional</emphasis>. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <emphasis effect="italics">already know</emphasis> the baby has smiled for more than eight seconds.</para><para id="element-836">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12|<emphasis effect="italics">x</emphasis> &gt; 8) There are two ways to do the problem. <emphasis effect="italics">For the first way</emphasis>, use the fact that this is a conditional and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</para><para id="element-838">for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para>
+<para id="element-837"><emphasis effect="italics">Write a new</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -390,7 +390,7 @@
 <image src="../../media/fig-ch05_03_03N.jpg" mime-type="image/jpg" width="380"/>
 </media>
 </figure>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-961"><emphasis effect="italics">For the second way</emphasis>, use the conditional formula from <link document="m79609">Probability Topics</link> with the original distribution.</para><para id="element-445"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <m:math>
+</para><para id="element-961"><emphasis effect="italics">For the second way</emphasis>, use the conditional formula from <link document="m79609">Probability Topics</link> with the original distribution.</para><para id="element-445"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -467,9 +467,9 @@
 <title>Try It</title>
 <exercise id="fs-idp178484384">
 <problem id="fs-idp81255648">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp10982640">A distribution is given as <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 20). What is <emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18)? Find the 90<sup>th</sup> percentile.</para></problem>
+<para id="fs-idp10982640">A distribution is given as <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 20). What is <emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18)? Find the 90<sup>th</sup> percentile.</para></problem>
 <solution id="fs-idp73604432">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp3862896"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = 0.8, 90<sup>th</sup> percentile = 18</para></solution>
+<para id="fs-idp3862896"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = 0.8, 90<sup>th</sup> percentile = 18</para></solution>
 </exercise>
 
 </note>
@@ -512,7 +512,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </m:mrow>
 <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.8333</m:mn>
 </m:mrow>
-</m:math></equation><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-748">The probability a person waits fewer than 12.5 minutes is 0.8333.</para><figure id="eip-idp99340768">
+</m:math></equation><para id="element-748">The probability a person waits fewer than 12.5 minutes is 0.8333.</para><figure id="eip-idp99340768">
 <media id="id17238530" alt="This shows the graph of the function f(x) = 1/15. A horiztonal line ranges from the point (0, 1/15) to the point (15, 1/15). A vertical line extends from the x-axis to the end of the line at point (15, 1/15) creating a rectangle. A region is shaded inside the rectangle from x = 0 to x = 12.5."><image src="../../media/fig-ch05_03_05N.jpg" mime-type="image/jpg" width="380"/></media>
 </figure>
 </solution>
@@ -557,7 +557,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </exercise>
 <exercise id="element-375">
 <problem id="id14859813">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?
+<para id="element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?
 <note id="id15337317" type="Note"><label>Note</label>This question asks for the 90<sup>th</sup> percentile.</note></para></problem>
 <solution id="id15337330">
 <para id="element-12">c. Find the 90<sup>th</sup> percentile. Draw a graph. Let <emphasis effect="italics">k</emphasis> = the 90<sup>th</sup> percentile.
@@ -635,15 +635,15 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </exercise>
 
 </note>
-<example id="element-321"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <emphasis effect="italics">X</emphasis> = the time, in minutes, it takes a nine-year-old child to eat a doughnut. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0.5, 4).<newline/></para><exercise id="eip-idp102263568"><label/>
+<example id="element-321"><para id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <emphasis effect="italics">X</emphasis> = the time, in minutes, it takes a nine-year-old child to eat a doughnut. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0.5, 4).<newline/></para><exercise id="eip-idp102263568"><label/>
 <problem id="eip-idp95256048">
 <label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp95256304">a. The probability that a randomly selected nine-year-old child eats a doughnut in at least two minutes is _______.</para></problem>
+<para id="eip-idp95256304">a. The probability that a randomly selected nine-year-old child eats a doughnut in at least two minutes is _______.</para></problem>
 <solution id="eip-idp95256944">
 <para id="eip-idp95257200">a. 0.5714<newline/></para></solution>
 </exercise><exercise id="eip-idp95257840">
 <problem id="eip-idp95258096">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-546">b. Find the probability that a different nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-938">The second question has a <term>conditional probability</term>. You are asked to find the probability that a nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <link target-id="example-170"/>). You must reduce the sample space. <emphasis effect="italics">First way</emphasis>: Since you know the child has already been eating the doughnut for more than 1.5 minutes, you are no longer starting at <emphasis effect="italics">a</emphasis> = 0.5 minutes. Your starting point is 1.5 minutes.</para><para id="element-69"><emphasis effect="italics">Write a new <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>):</emphasis></para>
+<para id="element-546">b. Find the probability that a different nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes.</para><para id="element-938">The second question has a <term>conditional probability</term>. You are asked to find the probability that a nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <link target-id="example-170"/>). You must reduce the sample space. <emphasis effect="italics">First way</emphasis>: Since you know the child has already been eating the doughnut for more than 1.5 minutes, you are no longer starting at <emphasis effect="italics">a</emphasis> = 0.5 minutes. Your starting point is 1.5 minutes.</para><para id="element-69"><emphasis effect="italics">Write a new <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>):</emphasis></para>
 <equation class="unnumbered" id="fs-id1164566880095"><label/><m:math>
  <m:semantics>
   <m:mrow>
@@ -690,7 +690,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 <para id="eip-idp15120208">b. <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math>
 </para></solution>
 </exercise>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math>.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm39713200"><emphasis effect="italics">Second way:</emphasis> Draw the original graph for <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0.5, 4). Use the conditional formula</para><equation class="unnumbered" id="fs-id1164566947548"><label/><m:math>
+<para id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math>.</para><para id="eip-idm39713200"><emphasis effect="italics">Second way:</emphasis> Draw the original graph for <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0.5, 4). Use the conditional formula</para><equation class="unnumbered" id="fs-id1164566947548"><label/><m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi> </m:mi><m:mo>&gt;</m:mo><m:mi> </m:mi><m:mn>2</m:mn><m:mo>|</m:mo><m:mi>x</m:mi><m:mi> </m:mi><m:mo>&gt;</m:mo><m:mi> </m:mi><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mo> </m:mo><m:mfrac>
@@ -745,14 +745,14 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 
 <exercise id="fs-idp177663840">
 <problem id="fs-idp7455808">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp125513712">Suppose the time it takes a student to finish a quiz is uniformly distributed between six and 15 minutes, inclusive. Let <emphasis effect="italics">X</emphasis> = the time, in minutes, it takes a student to finish a quiz. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(6, 15).</para><para id="fs-idp133097024">Find the probability that a randomly selected student needs at least eight minutes to complete the quiz. Then find the probability that a different student needs at least eight minutes to finish the quiz given that she has already taken more than seven minutes.</para></problem>
+<para id="fs-idp125513712">Suppose the time it takes a student to finish a quiz is uniformly distributed between six and 15 minutes, inclusive. Let <emphasis effect="italics">X</emphasis> = the time, in minutes, it takes a student to finish a quiz. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(6, 15).</para><para id="fs-idp133097024">Find the probability that a randomly selected student needs at least eight minutes to complete the quiz. Then find the probability that a different student needs at least eight minutes to finish the quiz given that she has already taken more than seven minutes.</para></problem>
 <solution id="fs-idp15790000">
 <para id="fs-idp80578768"><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &gt; 8) = 0.7778</para>
 <para id="fs-idp63181504"><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &gt; 8 | x &gt; 7) = 0.875</para>
 </solution>
 </exercise>
 </note>
-<example id="eip-323"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1170213489898">Ace Heating and Air Conditioning Service finds that the amount of time a repairman needs to fix a furnace is uniformly distributed between 1.5 and four hours. Let <emphasis effect="italics">x</emphasis> = the time needed to fix a furnace. Then <emphasis effect="italics">x</emphasis> ~ <emphasis effect="italics">U</emphasis>(1.5, 4).</para><exercise id="eip-idm8252240"><label/>
+<example id="eip-323"><para id="eip-id1170213489898">Ace Heating and Air Conditioning Service finds that the amount of time a repairman needs to fix a furnace is uniformly distributed between 1.5 and four hours. Let <emphasis effect="italics">x</emphasis> = the time needed to fix a furnace. Then <emphasis effect="italics">x</emphasis> ~ <emphasis effect="italics">U</emphasis>(1.5, 4).</para><exercise id="eip-idm8252240"><label/>
 <problem id="eip-idp126490560">
 <label/>
 <list id="eip-id1170199222063" list-type="enumerated" number-style="lower-alpha">
@@ -791,7 +791,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </figure>
 </solution>
 <solution id="eip-idm39955136">
-<para id="fs-idp16376400">b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) = (base)(height) = (3 – 1.5)(0.4) = 0.6</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm70722128">The graph of the rectangle showing the entire distribution would remain the same. However the graph should be shaded between <emphasis effect="italics">x</emphasis> = 1.5 and <emphasis effect="italics">x</emphasis> = 3. Note that the shaded area starts at <emphasis effect="italics">x</emphasis> = 1.5 rather than at <emphasis effect="italics">x</emphasis> = 0. Because <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1.5, 4), <emphasis effect="italics">x</emphasis> cannot be less than 1.5.</para><figure id="fs-idm70679104">
+<para id="fs-idp16376400">b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) = (base)(height) = (3 – 1.5)(0.4) = 0.6</para><para id="fs-idm70722128">The graph of the rectangle showing the entire distribution would remain the same. However the graph should be shaded between <emphasis effect="italics">x</emphasis> = 1.5 and <emphasis effect="italics">x</emphasis> = 3. Note that the shaded area starts at <emphasis effect="italics">x</emphasis> = 1.5 rather than at <emphasis effect="italics">x</emphasis> = 0. Because <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1.5, 4), <emphasis effect="italics">x</emphasis> cannot be less than 1.5.</para><figure id="fs-idm70679104">
 <media id="fs-idm6304128" alt="This shows the graph of the function f(x) = 0.4. A horiztonal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 1.5 to x = 3.">
 <image src="../../media/fig-ch05_03_09N.jpg" mime-type="image/jpeg" width="380"/>
 </media>
@@ -980,7 +980,7 @@ hours and <m:math>
 <para id="fs-idm34434992">The probability <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">c</emphasis> &lt; <emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">d</emphasis>) may be found by computing the area under <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>), between <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>. Since the corresponding area is a rectangle, the area may be found simply by multiplying the width and the height.</para></section>
 <section id="fs-idp29641328" class="formula-review">
 <title>Formula Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="delete_me"><emphasis effect="italics">X</emphasis> = a real number between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> (in some instances, <emphasis effect="italics">X</emphasis> can take on the values <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>). <emphasis effect="italics">a</emphasis> = smallest <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">b</emphasis> = largest <emphasis effect="italics">X</emphasis> </para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-912"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>)</para><para id="element-429">The mean is <m:math>
+<para id="delete_me"><emphasis effect="italics">X</emphasis> = a real number between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> (in some instances, <emphasis effect="italics">X</emphasis> can take on the values <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>). <emphasis effect="italics">a</emphasis> = smallest <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">b</emphasis> = largest <emphasis effect="italics">X</emphasis> </para><para id="element-912"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>)</para><para id="element-429">The mean is <m:math>
 <m:mrow>
 <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -1030,7 +1030,7 @@ hours and <m:math>
 <m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>X</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi>
 </m:mrow>
 </m:math></para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-636"><emphasis>Area to the left of <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">a</emphasis>)<m:math>
+<para id="element-636"><emphasis>Area to the left of <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">a</emphasis>)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1044,7 +1044,7 @@ hours and <m:math>
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-84"><emphasis>Area to the right of <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">b</emphasis> – <emphasis effect="italics">x</emphasis>)<m:math>
+</m:math></para><para id="element-84"><emphasis>Area to the right of <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">b</emphasis> – <emphasis effect="italics">x</emphasis>)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1058,7 +1058,7 @@ hours and <m:math>
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math></para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-315"><emphasis>Area between <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">c</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">d</emphasis>) = (base)(height) = (<emphasis effect="italics">d</emphasis> – <emphasis effect="italics">c</emphasis>)<m:math>
+</m:math></para><para id="element-315"><emphasis>Area between <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">c</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">d</emphasis>) = (base)(height) = (<emphasis effect="italics">d</emphasis> – <emphasis effect="italics">c</emphasis>)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1152,7 +1152,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 </section>
 
 <section id="fs-idp174729104" class="practice">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp8065584"><emphasis effect="italics">Use the following information to answer the next 10 questions.</emphasis> The data that follow are the square footage (in 1,000 feet squared) of 28 homes:</para><table id="fs-idp58203216" summary="A table with 7 columns and four rows is shown. Row one contains the following values: 1.5, 2.4, 3.6, 2.6, 1.6, 2.4, and 2.0. Row two contains the following values: 3.5, 2.5, 1.8, 2.4, 2.5, 3.5, and 4.0. Row three contains the following values: 2.6, 1.6, 2.2, 1.8, 3.8, 2.5, and 1.5. Row four contains the following values: 2.8, 1.8, 4.5, 1.9, 1.9, 3.1, and 1.6.">
+<para id="fs-idp8065584"><emphasis effect="italics">Use the following information to answer the next 10 questions.</emphasis> The data that follow are the square footage (in 1,000 feet squared) of 28 homes:</para><table id="fs-idp58203216" summary="A table with 7 columns and four rows is shown. Row one contains the following values: 1.5, 2.4, 3.6, 2.6, 1.6, 2.4, and 2.0. Row two contains the following values: 3.5, 2.5, 1.8, 2.4, 2.5, 3.5, and 4.0. Row three contains the following values: 2.6, 1.6, 2.2, 1.8, 3.8, 2.5, and 1.5. Row four contains the following values: 2.8, 1.8, 4.5, 1.9, 1.9, 3.1, and 1.6.">
 <tgroup cols="7">
 <tbody>
 <row>
@@ -1324,7 +1324,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 </solution>
 </exercise>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-537"><newline/><emphasis effect="italics">Use the following information to answer the next 12 exercises.</emphasis> The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.</para><exercise id="fs-idp73318288">
+<para id="eip-537"><newline/><emphasis effect="italics">Use the following information to answer the next 12 exercises.</emphasis> The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.</para><exercise id="fs-idp73318288">
 <problem id="fs-idp14811216">
 <para id="fs-idp52562736">What is being measured here?</para>
 </problem>
@@ -1580,7 +1580,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 <exercise id="eip-994"><problem id="fs-idp69073824">
 <para id="fs-idp126144656">According to a study by Dr. John McDougall of his live-in weight loss program, the people who follow his program lose between six and 15 pounds a month until they approach trim body weight. Let’s suppose that the weight loss is uniformly distributed. We are interested in the weight loss of a randomly selected individual following the program for one month.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp80387648" list-type="enumerated" number-style="lower-alpha"><item>Define the random variable. <emphasis effect="italics">X</emphasis> = _________</item>
+<list id="fs-idp80387648" list-type="enumerated" number-style="lower-alpha"><item>Define the random variable. <emphasis effect="italics">X</emphasis> = _________</item>
 <item><emphasis effect="italics">X</emphasis> ~ _________</item>
 <item>Graph the probability distribution.</item>
 <item><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = _________</item>
@@ -1595,7 +1595,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 <exercise id="eip-106">
 <problem id="fs-idp116073984">
 <para id="fs-idp116074240">A subway train arrives every eight minutes during rush hour. We are interested in the length of time a commuter must wait for a train to arrive. The time follows a uniform distribution.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp85264" list-type="enumerated" number-style="lower-alpha"><item>Define the random variable. <emphasis effect="italics">X</emphasis> = _______</item>
+<list id="fs-idp85264" list-type="enumerated" number-style="lower-alpha"><item>Define the random variable. <emphasis effect="italics">X</emphasis> = _______</item>
 <item><emphasis effect="italics">X</emphasis> ~ _______</item>
 <item>Graph the probability distribution.</item>
 <item><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = _______</item>
@@ -1707,7 +1707,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
   </m:mfrac>
 
  </m:mrow>
-</m:math> where <emphasis effect="italics">x</emphasis> goes from 25 to 45 minutes.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm12672944" list-type="enumerated" number-style="lower-alpha"><item>Define the random variable. <emphasis effect="italics">X</emphasis> = ________</item>
+</m:math> where <emphasis effect="italics">x</emphasis> goes from 25 to 45 minutes.</para><list id="fs-idm12672944" list-type="enumerated" number-style="lower-alpha"><item>Define the random variable. <emphasis effect="italics">X</emphasis> = ________</item>
 <item><emphasis effect="italics">X</emphasis> ~ ________</item>
 <item>Graph the probability distribution.</item>
 <item>The distribution is ______________ (name of distribution). It is _____________ (discrete or continuous).</item>
@@ -1724,7 +1724,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 
 <exercise id="fs-idm19928432">
 <problem id="fs-idm19928176"><para id="fs-idm19928048">Suppose that the value of a stock varies each day from $16 to $25 with a uniform distribution.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp52534224" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that the value of the stock is more than $19.</item>
+<list id="fs-idp52534224" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that the value of the stock is more than $19.</item>
 <item>Find the probability that the value of the stock between $19 and $22.</item>
 <item>Find the upper quartile — 25 percent of all days the stock is above what value? Draw the graph.</item>
 <item>Given that the stock is greater than $18, find the probability that the stock is more than $21.</item>
@@ -1911,7 +1911,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 
 <exercise id="fs-idp90929648">
 <problem id="fs-idp90929904"><para id="fs-idp100719504">A fireworks show is designed so that the time between fireworks is between one and five seconds, and follows a uniform distribution.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp100720032" list-type="enumerated" number-style="lower-alpha"><item>Find the average time between fireworks.</item>
+<list id="fs-idp100720032" list-type="enumerated" number-style="lower-alpha"><item>Find the average time between fireworks.</item>
 <item>Find the probability that the time between fireworks is greater than four seconds.</item>
 </list></problem>
 </exercise>
@@ -1919,7 +1919,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 <exercise id="fs-idp96470224">
 <problem id="fs-idp96470480">
 <para id="fs-idp182386192">The number of miles driven by a truck driver falls between 300 and 700, and follows a uniform distribution.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp182386704" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that the truck driver goes more than 650 miles in a day.</item>
+<list id="fs-idp182386704" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that the truck driver goes more than 650 miles in a day.</item>
 <item>Find the probability that the truck driver goes between 400 and 650 miles in a day.</item>
 <item>At least how many miles does the truck driver travel on the 10 percent of days with the highest mileage?</item>
 </list></problem>

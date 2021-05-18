@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7" class="introduction">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
 <title>Introduction</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79653</md:content-id>
   <md:title>Introduction</md:title>
   <md:abstract/>
@@ -8,18 +8,18 @@
 </metadata>
 
 <content>
-<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp38862000" class="splash"><media id="fs-idm31074784" alt="This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown.">
+<figure id="fs-idp38862000" class="splash"><media id="fs-idm31074784" alt="This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown.">
 <image src="../../media/CNX_Stats_C08_CO.jpg" width="500" mime-type="image/jpeg"/></media>
 
 <caption>Have you ever wondered what the average number of chocolate candies in a bag at the grocery store is? You can use confidence intervals to answer this question. (credit: comedy_nose/flickr)</caption></figure><note id="fs-idp115342032" class="chapter-objectives"><label/><title>Chapter Objectives</title>
 <para id="element-281">By the end of this chapter, the student should be able to do the following:</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list12315"><item>Calculate and interpret confidence intervals for estimating a population mean and a population proportion</item>
+<list id="list12315"><item>Calculate and interpret confidence intervals for estimating a population mean and a population proportion</item>
 <item>Interpret the Student's <emphasis effect="italics">t</emphasis> probability distribution as the sample size changes</item>
 <item>Discriminate between problems applying the normal and the Student's <emphasis effect="italics">t</emphasis>-distributions</item>
 <item>Calculate the sample size required to estimate a population mean and a population proportion, given a desired confidence level and margin of error</item>
 </list></note><para id="delete_me">Suppose you were trying to determine the mean rent of a two-bedroom apartment in your town. You might look in the classified section of the newspaper, write down several rents listed, and average them together. You would have obtained a point estimate of the true mean. If you are trying to determine the percentage of times you make a basket when shooting a basketball, you might count the number of shots you make and divide that by the number of shots you attempt. In this case, you would have obtained a point estimate for the true proportion.</para>
 <para id="element-550">We use sample data to make generalizations about an unknown population. This part of statistics is called <term>inferential statistics</term>.  <emphasis effect="italics">The sample data help us to make an estimate of a population <term>parameter</term></emphasis>. We realize that the point estimate is most likely not the exact value of the population parameter, but close to it. After calculating point estimates, we construct interval estimates, called <emphasis effect="italics">confidence intervals</emphasis>.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-667">In this chapter, you will learn to construct and interpret confidence intervals. You will also learn a new distribution, the Student's-<emphasis effect="italics">t</emphasis>, and how it is used with those intervals. Throughout the chapter, it is important to keep in mind that the confidence interval is a random variable. It is the population parameter that is fixed.</para><para id="element-560">If you worked in the marketing department of an entertainment company, you might be interested in the mean number of songs a consumer downloads a month from an internet music store. If so, you could conduct a survey and calculate the sample mean, <m:math>
+<para id="element-667">In this chapter, you will learn to construct and interpret confidence intervals. You will also learn a new distribution, the Student's-<emphasis effect="italics">t</emphasis>, and how it is used with those intervals. Throughout the chapter, it is important to keep in mind that the confidence interval is a random variable. It is the population parameter that is fixed.</para><para id="element-560">If you worked in the marketing department of an entertainment company, you might be interested in the mean number of songs a consumer downloads a month from an internet music store. If so, you could conduct a survey and calculate the sample mean, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -38,7 +38,7 @@
  </m:mover>
  
 </m:math>, is the <term>point estimate</term> for the population mean, <emphasis effect="italics">μ</emphasis>. The sample standard deviation, <emphasis effect="italics">s</emphasis>, is the point estimate for the population standard deviation, <emphasis effect="italics">σ</emphasis>.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-65">Each instance of <m:math>
+<para id="eip-65">Each instance of <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -72,7 +72,7 @@
 <m:mtext>.</m:mtext>
  </m:mrow>
 </m:math></equation>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-730">The <term>empirical rule</term>, which applies to bell-shaped distributions, says that in approximately 95 percent of the samples, the sample mean, <m:math>
+<para id="element-730">The <term>empirical rule</term>, which applies to bell-shaped distributions, says that in approximately 95 percent of the samples, the sample mean, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -174,7 +174,7 @@ of <m:math>
   </m:mrow>
  </m:semantics>
 </m:math>.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164563452758">Suppose that from the sample of 100 internet music customers, we compute a sample mean download of <m:math>
+<para id="fs-id1164563452758">Suppose that from the sample of 100 internet music customers, we compute a sample mean download of <m:math>
  <m:semantics>
   <m:mrow>
    <m:mover accent="true">
@@ -207,7 +207,7 @@ of <m:math>
    <m:mo>=</m:mo><m:mn>0.1</m:mn>
   </m:mrow>
  </m:semantics>
-</m:math>.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564841116">We know that there is a 95 percent chance that the true population mean value <emphasis effect="italics">μ</emphasis> is between two standard deviations from the sample mean. That is, with 95 percent confidence we can say that <emphasis effect="italics">μ</emphasis> is between <m:math>
+</m:math>.</para><para id="fs-id1164564841116">We know that there is a 95 percent chance that the true population mean value <emphasis effect="italics">μ</emphasis> is between two standard deviations from the sample mean. That is, with 95 percent confidence we can say that <emphasis effect="italics">μ</emphasis> is between <m:math>
  <m:semantics>
     <m:mrow>
    <m:mover accent="true">
@@ -245,7 +245,7 @@ of <m:math>
    
   </m:mrow>
  </m:semantics>
-</m:math>.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164566885665">Replacing the symbols for their values in this example, we say that we are <emphasis>95 percent confident</emphasis> that the true average number of songs downloaded from an internet music store per month is between <m:math>
+</m:math>.</para><para id="fs-id1164566885665">Replacing the symbols for their values in this example, we say that we are <emphasis>95 percent confident</emphasis> that the true average number of songs downloaded from an internet music store per month is between <m:math>
  <m:semantics>
   <m:mrow>
    <m:mover accent="true">
@@ -307,19 +307,19 @@ of <m:math>
 
  </m:semantics>
 </m:math></equation></para><para id="fs-id1164564919894"><emphasis>The 95 percent confidence interval for</emphasis> <emphasis effect="italics">μ</emphasis> <emphasis>is (1.8, 2.2)</emphasis>.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-484">The 95 percent confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean, <emphasis effect="italics">μ</emphasis>, or our sample produced an <m:math>
+<para id="element-484">The 95 percent confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean, <emphasis effect="italics">μ</emphasis>, or our sample produced an <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
  
-</m:math> that is not within 0.2 units of the true mean <emphasis effect="italics">μ</emphasis>. The second possibility happens for only 5 percent of all the samples (95–100 percent).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-39">Remember that a confidence interval is created for an unknown population parameter like the population mean, <emphasis effect="italics">μ</emphasis>. Confidence intervals for some parameters have the form</para><para id="element-75"><emphasis>(point estimate – margin of error, point estimate + </emphasis> <term>margin of error</term><emphasis>)</emphasis>.</para><para id="element-485">The margin of error depends on the confidence level or percentage of confidence and the standard error of the mean.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-255">When you read newspapers and journals, you might notice that some reports use the phrase <emphasis effect="italics">margin of error</emphasis>. Other reports will not use that phrase, but include a confidence interval as the point estimate plus or minus the margin of error. Those are two ways of expressing the same concept.</para><note id="eip-882"><label/><title>Note</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm127604736">Although the text covers only symmetrical confidence intervals, there are non-symmetrical confidence intervals (for example, a confidence interval for the standard deviation).</para></note><note id="fs-idp47490208" class="statistics collab">
+</m:math> that is not within 0.2 units of the true mean <emphasis effect="italics">μ</emphasis>. The second possibility happens for only 5 percent of all the samples (95–100 percent).</para><para id="element-39">Remember that a confidence interval is created for an unknown population parameter like the population mean, <emphasis effect="italics">μ</emphasis>. Confidence intervals for some parameters have the form</para><para id="element-75"><emphasis>(point estimate – margin of error, point estimate + </emphasis> <term>margin of error</term><emphasis>)</emphasis>.</para><para id="element-485">The margin of error depends on the confidence level or percentage of confidence and the standard error of the mean.</para>
+<para id="eip-255">When you read newspapers and journals, you might notice that some reports use the phrase <emphasis effect="italics">margin of error</emphasis>. Other reports will not use that phrase, but include a confidence interval as the point estimate plus or minus the margin of error. Those are two ways of expressing the same concept.</para><note id="eip-882"><label/><title>Note</title>
+<para id="eip-idm127604736">Although the text covers only symmetrical confidence intervals, there are non-symmetrical confidence intervals (for example, a confidence interval for the standard deviation).</para></note><note id="fs-idp47490208" class="statistics collab">
 <label/>
 <title>Collaborative Exercise</title>
 <para id="element-906">Have your instructor record the number of meals each student in your class eats out in a week. Assume that the standard deviation is known to be three meals. Construct an approximate 95 percent confidence interval for the true mean number of meals students eat out each week.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-997" list-type="enumerated"><item>Calculate the sample mean.</item>
+<list id="element-997" list-type="enumerated"><item>Calculate the sample mean.</item>
 <item>Let <emphasis effect="italics">σ</emphasis> = 3 and <emphasis effect="italics">n</emphasis> = the number of students surveyed.</item>
 <item>Construct the interval. <m:math display="block">
  <m:semantics>

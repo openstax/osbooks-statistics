@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Measures of the Spread of the Data</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79606</md:content-id>
   <md:title>Measures of the Spread of the Data</md:title>
   <md:abstract/>
@@ -20,12 +20,12 @@
 
 
 <section id="fs-idm34509216">
-<title xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute">The standard deviation provides a measure of the overall variation in a data set.</title><para id="fs-idm111390400">The standard deviation is always positive or zero. The standard deviation is small when all the data are concentrated close to the mean, exhibiting little variation or spread. The standard deviation is larger when the data values are more spread out from the mean, exhibiting more variation.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-419">Suppose that we are studying the amount of time customers wait in line at the checkout at Supermarket A and Supermarket B. The average wait time at both supermarkets is five minutes. At Supermarket A, the standard deviation for the wait time is two minutes; at Supermarket B, the standard deviation for the wait time is four minutes.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm8407856">Because Supermarket B has a higher standard deviation, we know that there is more variation in the wait times at Supermarket B. Overall, wait times at Supermarket B are more spread out from the average whereas wait times at  Supermarket A are more concentrated near the average.</para></section>
+<title>The standard deviation provides a measure of the overall variation in a data set.</title><para id="fs-idm111390400">The standard deviation is always positive or zero. The standard deviation is small when all the data are concentrated close to the mean, exhibiting little variation or spread. The standard deviation is larger when the data values are more spread out from the mean, exhibiting more variation.</para><para id="eip-419">Suppose that we are studying the amount of time customers wait in line at the checkout at Supermarket A and Supermarket B. The average wait time at both supermarkets is five minutes. At Supermarket A, the standard deviation for the wait time is two minutes; at Supermarket B, the standard deviation for the wait time is four minutes.</para><para id="fs-idm8407856">Because Supermarket B has a higher standard deviation, we know that there is more variation in the wait times at Supermarket B. Overall, wait times at Supermarket B are more spread out from the average whereas wait times at  Supermarket A are more concentrated near the average.</para></section>
 
 <section id="fs-idm58314928">
 <title>The standard deviation can be used to determine whether a data value is close to or far from the mean.</title>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm19508768">Suppose that both Rosa and Binh shop at Supermarket A. Rosa waits at the checkout counter for seven minutes, and Binh waits for one minute. At Supermarket A, the mean waiting time is five minutes, and the standard deviation is two minutes. The standard deviation can be used to determine whether a data value is close to or far from the mean. A <emphasis effect="italics">z</emphasis>-score is a standardized score that lets us compare data sets. It tells us how many standard deviations a data value is from the mean and is calculated as the ratio of the difference in a particular score and the population mean to the population standard deviation.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164562357364">We can use the given information to create the table below.</para><table id="fs-id1164566539785" summary="Table 1 shoes a four column chart with the titles Supermarket, Population Standard Deviation, Individual Score, and population mean. For Supermarket A the population standard Deviation is 2 minuets, the individual score is 7,1, and the population mean 5. Supermarket B the population standard deviation is 4 minuets, the individual score is blank and the population mean is 5.">
+<para id="fs-idm19508768">Suppose that both Rosa and Binh shop at Supermarket A. Rosa waits at the checkout counter for seven minutes, and Binh waits for one minute. At Supermarket A, the mean waiting time is five minutes, and the standard deviation is two minutes. The standard deviation can be used to determine whether a data value is close to or far from the mean. A <emphasis effect="italics">z</emphasis>-score is a standardized score that lets us compare data sets. It tells us how many standard deviations a data value is from the mean and is calculated as the ratio of the difference in a particular score and the population mean to the population standard deviation.</para><para id="fs-id1164562357364">We can use the given information to create the table below.</para><table id="fs-id1164566539785" summary="Table 1 shoes a four column chart with the titles Supermarket, Population Standard Deviation, Individual Score, and population mean. For Supermarket A the population standard Deviation is 2 minuets, the individual score is 7,1, and the population mean 5. Supermarket B the population standard deviation is 4 minuets, the individual score is blank and the population mean is 5.">
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -54,7 +54,7 @@
 </row>
 </tbody></tgroup></table>
 <para id="fs-id1164566569936">Since Rosa and Binh only shop at Supermarket A, we can ignore the row for Supermarket B.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564820508">We need the values from the first row to determine the number of standard deviations above or below the mean each individual wait time is; we can do so by calculating two different <emphasis effect="italics">z</emphasis>-scores.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164563078992">Rosa waited for seven minutes, so the <emphasis effect="italics">z</emphasis>-score representing this deviation from the population mean may be calculated as</para><equation id="fs-id1164563446944">
+<para id="fs-id1164564820508">We need the values from the first row to determine the number of standard deviations above or below the mean each individual wait time is; we can do so by calculating two different <emphasis effect="italics">z</emphasis>-scores.</para><para id="fs-id1164563078992">Rosa waited for seven minutes, so the <emphasis effect="italics">z</emphasis>-score representing this deviation from the population mean may be calculated as</para><equation id="fs-id1164563446944">
 <m:math>
  <m:semantics>
   <m:mrow>
@@ -76,7 +76,7 @@
  </m:semantics>
 </m:math>
 </equation>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564763817">The <emphasis effect="italics">z</emphasis>-score of one tells us that Rosa’s wait time is one standard deviation above the mean wait time of five minutes.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164563487109">Binh waited for one minute, so the <emphasis effect="italics">z</emphasis>-score representing this deviation from the population mean may be calculated as</para><equation id="fs-id1164566948828">
+<para id="fs-id1164564763817">The <emphasis effect="italics">z</emphasis>-score of one tells us that Rosa’s wait time is one standard deviation above the mean wait time of five minutes.</para><para id="fs-id1164563487109">Binh waited for one minute, so the <emphasis effect="italics">z</emphasis>-score representing this deviation from the population mean may be calculated as</para><equation id="fs-id1164566948828">
 <m:math>
  <m:semantics>
   <m:mrow>
@@ -97,11 +97,11 @@
   </m:mrow>
  </m:semantics>
 </m:math></equation>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164566530861">The <emphasis effect="italics">z</emphasis>-score of −2 tells us that Binh’s wait time is two standard deviations below the mean wait time of five minutes.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164562348573">A data value that is two standard deviations from the average is just on the borderline for what many statisticians would consider to be far from the average. Considering data to be far from the mean if they are more than two standard deviations away is more of an approximate <emphasis effect="italics">rule of thumb</emphasis> than a rigid rule. In general, the shape of the distribution of the data affects how much of the data is farther away than two standard deviations. You will learn more about this in later chapters.</para><para id="element-517">The number line may help you understand standard deviation. If we were to put five and seven on a number line, seven is to the right of five. We say, then, that seven is <emphasis>one</emphasis> standard deviation to the <emphasis>right</emphasis> of five because 5 + (1)(2) = 7.</para><para id="fs-idm83232288">If one were also part of the data set, then one is <emphasis>two</emphasis> standard deviations to the <emphasis>left</emphasis> of five because 5 + (–2)(2) = 1.</para><figure id="fs-idm12176304"><media id="id7156187" alt="This shows a number line in intervals of 1 from 0 to 7."><image src="../../media/fig-ch02_09_01.jpg" mime-type="image/jpg" print-width="2.5in"/></media></figure><list id="eip-id1164316275630"><item>In general, a <emphasis>value = mean + (#ofSTDEV)(standard deviation)</emphasis></item>
+<para id="fs-id1164566530861">The <emphasis effect="italics">z</emphasis>-score of −2 tells us that Binh’s wait time is two standard deviations below the mean wait time of five minutes.</para><para id="fs-id1164562348573">A data value that is two standard deviations from the average is just on the borderline for what many statisticians would consider to be far from the average. Considering data to be far from the mean if they are more than two standard deviations away is more of an approximate <emphasis effect="italics">rule of thumb</emphasis> than a rigid rule. In general, the shape of the distribution of the data affects how much of the data is farther away than two standard deviations. You will learn more about this in later chapters.</para><para id="element-517">The number line may help you understand standard deviation. If we were to put five and seven on a number line, seven is to the right of five. We say, then, that seven is <emphasis>one</emphasis> standard deviation to the <emphasis>right</emphasis> of five because 5 + (1)(2) = 7.</para><para id="fs-idm83232288">If one were also part of the data set, then one is <emphasis>two</emphasis> standard deviations to the <emphasis>left</emphasis> of five because 5 + (–2)(2) = 1.</para><figure id="fs-idm12176304"><media id="id7156187" alt="This shows a number line in intervals of 1 from 0 to 7."><image src="../../media/fig-ch02_09_01.jpg" mime-type="image/jpg" print-width="2.5in"/></media></figure><list id="eip-id1164316275630"><item>In general, a <emphasis>value = mean + (#ofSTDEV)(standard deviation)</emphasis></item>
 <item>where #ofSTDEVs = the number of standard deviations</item>
 <item>#ofSTDEV does not need to be an integer</item>
 <item>One is <emphasis>two standard deviations less than the mean</emphasis> of five because 1 = 5 + (–2)(2).</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-922">The equation <emphasis>value = mean + (#ofSTDEVs)(standard deviation)</emphasis> can be expressed for a sample and for a population as follows:
+</list><para id="eip-922">The equation <emphasis>value = mean + (#ofSTDEVs)(standard deviation)</emphasis> can be expressed for a sample and for a population as follows:
 <list id="eip-id1164892626854"><item><emphasis>Sample:</emphasis>  <m:math>
  <m:mrow>
   <m:mi>x</m:mi><m:mtext> = </m:mtext><m:mover accent="true">
@@ -149,7 +149,7 @@ The symbol <m:math>
 
 <section id="fs-idm36483152">
 <title>Formulas for the Sample Standard Deviation</title>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1172772662272"><item> <m:math>
+<list id="eip-id1172772662272"><item> <m:math>
  <m:mrow>
   <m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt>
    <m:mrow>
@@ -262,21 +262,21 @@ The symbol <m:math>
 </section>
 <section id="fs-id1170308409172">
 <title>Types of Variability in Samples</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170308137258">When researchers study a population, they often use a sample, either for convenience or because it is not possible to access the entire population. <emphasis effect="italics">Variability</emphasis> is the term used to describe the differences that may occur in these outcomes. Common types of variability include the following:</para><list id="fs-id1170308140849">
+<para id="fs-id1170308137258">When researchers study a population, they often use a sample, either for convenience or because it is not possible to access the entire population. <emphasis effect="italics">Variability</emphasis> is the term used to describe the differences that may occur in these outcomes. Common types of variability include the following:</para><list id="fs-id1170308140849">
 <item>Observational or measurement variability</item>
 <item>Natural variability</item>
 <item>Induced variability</item>
 <item>Sample variability</item>
 </list>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170308205780">Here are some examples to describe each type of variability:</para><para id="fs-id1170308472575">Example 1: Measurement variability</para>
+<para id="fs-id1170308205780">Here are some examples to describe each type of variability:</para><para id="fs-id1170308472575">Example 1: Measurement variability</para>
 <para id="fs-id1170308148968">Measurement variability occurs when there are differences in the instruments used to measure or in the people using those instruments. If we are gathering data on how long it takes for a ball to drop from a height by having students measure the time of the drop with a stopwatch, we may experience measurement variability if the two stopwatches used were made by different manufacturers. For example, one stopwatch measures to the nearest second, whereas the other one measures to the nearest tenth of a second. We also may experience measurement variability because two different people are gathering the data. Their reaction times in pressing the button on the stopwatch may differ; thus, the outcomes will vary accordingly. The differences in outcomes may be affected by measurement variability.</para>
 <para id="fs-id1170308239816">Example 2: Natural variability</para>
 <para id="fs-id1170308266625">Natural variability arises from the differences that naturally occur because members of a population differ from each other. For example, if we have two identical corn plants and we expose both plants to the same amount of water and sunlight, they may still grow at different rates simply because they are two different corn plants. The difference in outcomes may be explained by natural variability.</para>
 <para id="fs-id1170308226728">Example 3: Induced variability</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170308219040">Induced variability is the counterpart to natural variability. This occurs because we have artificially induced an element of variation that, by definition, was not present naturally. For example, we assign people to two different groups to study memory, and we induce a variable in one group by limiting the amount of sleep they get. The difference in outcomes may be affected by induced variability.</para><para id="fs-id1170308249221">Example 4: Sample variability</para>
+<para id="fs-id1170308219040">Induced variability is the counterpart to natural variability. This occurs because we have artificially induced an element of variation that, by definition, was not present naturally. For example, we assign people to two different groups to study memory, and we induce a variable in one group by limiting the amount of sleep they get. The difference in outcomes may be affected by induced variability.</para><para id="fs-id1170308249221">Example 4: Sample variability</para>
 <para id="fs-id1170308496080">Sample variability occurs when multiple random samples are taken from the same population. For example, if I conduct four surveys of 50 people randomly selected from a given population, the differences in outcomes may be affected by sample variability.</para>
 </section>
-<section id="fs-idm60688208"><title>Sampling Variability of a Statistic</title><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm41862832">The statistic of a sampling distribution was discussed in <link document="m79604">Descriptive Statistics: Measures of the Center of the Data</link>. How much the statistic varies from one sample to another is known as the  <term>sampling variability of a statistic</term>. You typically measure the sampling variability of a statistic by its standard error. The <emphasis>standard error of the mean</emphasis> is an example of a standard error. The standard error is the standard deviation of the sampling distribution. In other words, it is the average standard deviation that results from repeated sampling. You will cover the standard error of the mean in the chapter <link document="m79647">The Central Limit Theorem</link> (not now). The notation for the standard error of the mean is <m:math>
+<section id="fs-idm60688208"><title>Sampling Variability of a Statistic</title><para id="fs-idm41862832">The statistic of a sampling distribution was discussed in <link document="m79604">Descriptive Statistics: Measures of the Center of the Data</link>. How much the statistic varies from one sample to another is known as the  <term>sampling variability of a statistic</term>. You typically measure the sampling variability of a statistic by its standard error. The <emphasis>standard error of the mean</emphasis> is an example of a standard error. The standard error is the standard deviation of the sampling distribution. In other words, it is the average standard deviation that results from repeated sampling. You will cover the standard error of the mean in the chapter <link document="m79647">The Central Limit Theorem</link> (not now). The notation for the standard error of the mean is <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mi>σ</m:mi>
@@ -290,9 +290,9 @@ The symbol <m:math>
 
  </m:mrow>
 </m:math>, where <emphasis effect="italics">σ</emphasis> is the standard deviation of the population and <emphasis effect="italics">n</emphasis> is the size of the sample.</para><note id="id7166567" class="finger"><label/><title>NOTE</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp582096"><emphasis>In practice, use a calculator or computer software to calculate the standard deviation. If you are using a TI-83, 83+, or 84+ calculator, you need to select the appropriate standard deviation <emphasis effect="italics">σ<sub>x</sub></emphasis> or <emphasis effect="italics">s<sub>x</sub></emphasis> from the summary statistics.</emphasis> We will concentrate on using and interpreting the information that the standard deviation gives us. However, you should study the following step-by-step example to help you understand how the standard deviation measures variation from the mean. The calculator instructions appear at the end of this example.</para></note><example id="element-655"><para id="element-440">In a fifth-grade class, the teacher was interested in the average age and the sample standard deviation of the ages of her students. The following data are the ages for a SAMPLE of <emphasis effect="italics">n</emphasis> = 20 fifth-grade students. The ages are rounded to the nearest half year.</para>
+<para id="eip-idp582096"><emphasis>In practice, use a calculator or computer software to calculate the standard deviation. If you are using a TI-83, 83+, or 84+ calculator, you need to select the appropriate standard deviation <emphasis effect="italics">σ<sub>x</sub></emphasis> or <emphasis effect="italics">s<sub>x</sub></emphasis> from the summary statistics.</emphasis> We will concentrate on using and interpreting the information that the standard deviation gives us. However, you should study the following step-by-step example to help you understand how the standard deviation measures variation from the mean. The calculator instructions appear at the end of this example.</para></note><example id="element-655"><para id="element-440">In a fifth-grade class, the teacher was interested in the average age and the sample standard deviation of the ages of her students. The following data are the ages for a SAMPLE of <emphasis effect="italics">n</emphasis> = 20 fifth-grade students. The ages are rounded to the nearest half year.</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-433">9, 9.5, 9.5, 10, 10, 10, 10, 10.5, 10.5, 10.5, 10.5, 11, 11, 11, 11, 11, 11, 11.5, 11.5, 11.5</para><equation class="unnumbered" id="element-320"><label/><m:math>
+<para id="element-433">9, 9.5, 9.5, 10, 10, 10, 10, 10.5, 10.5, 10.5, 10.5, 11, 11, 11, 11, 11, 11, 11.5, 11.5, 11.5</para><equation class="unnumbered" id="element-320"><label/><m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>
@@ -314,7 +314,7 @@ The symbol <m:math>
 
 <para id="element-442">The variance may be calculated by using a table. Then the standard deviation is calculated by taking the square root of the variance. We will explain the parts of the table after calculating <emphasis effect="italics">s</emphasis>.</para>
 
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-978" summary="This table presents the formulas and calculations of various values. The first column has the data, second column has frequency, third column has deviations, fourth column has deviations squared, fifth column has frequency times deviations squared. There are 6 rows of values.">
+<table id="element-978" summary="This table presents the formulas and calculations of various values. The first column has the data, second column has frequency, third column has deviations, fourth column has deviations squared, fifth column has frequency times deviations squared. There are 6 rows of values.">
 <tgroup cols="5"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -444,7 +444,7 @@ The symbol <m:math>
  </m:mrow>
 </m:math> which is rounded to two decimal places, <emphasis effect="italics">s</emphasis> = .72.</para><para id="eip-563"><emphasis>Typically, you do the calculation for the standard deviation on your calculator or computer</emphasis>. The intermediate results are not rounded.  This is done for accuracy.</para><exercise id="element-397"><problem id="id3262370">
     <para id="eip-idp3473760">
-    <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1171734426444"><item>For the following problems, recall that <emphasis>value = mean + (#ofSTDEVs)(standard deviation)</emphasis>. Verify the mean and standard deviation on a calculator or computer. Note that these formulas are derived by algebraically manipulating the <emphasis effect="italics">z</emphasis>-score formulas, given either parameters or statistics.</item>
+    <list id="eip-id1171734426444"><item>For the following problems, recall that <emphasis>value = mean + (#ofSTDEVs)(standard deviation)</emphasis>. Verify the mean and standard deviation on a calculator or computer. Note that these formulas are derived by algebraically manipulating the <emphasis effect="italics">z</emphasis>-score formulas, given either parameters or statistics.</item>
       <item>For a sample: <emphasis effect="italics">x</emphasis> = <m:math>
         <m:mover accent="true">
           <m:mi>x</m:mi>
@@ -462,7 +462,7 @@ The symbol <m:math>
       </m:math> + (#ofSTDEVs)(<emphasis effect="italics">s</emphasis>) because the data is from a sample</item>
     </list></para>
 
-    <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm60068992" list-type="enumerated" number-style="lower-alpha"><item>Verify the mean and standard deviation on your calculator or computer.</item>
+    <list id="eip-idm60068992" list-type="enumerated" number-style="lower-alpha"><item>Verify the mean and standard deviation on your calculator or computer.</item>
     <item>Find the value that is one standard deviation above the mean. Find (<m:math>
       <m:mover accent="true">
         <m:mi>x</m:mi>
@@ -482,7 +482,7 @@ The symbol <m:math>
     </list></problem>
 
     <solution id="id1167261579717">
-      <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm6421744" list-type="enumerated" number-style="lower-alpha"><item><note id="fs-idm22381712" class="statistics calculator finger"><label/>
+      <list id="eip-idm6421744" list-type="enumerated" number-style="lower-alpha"><item><note id="fs-idm22381712" class="statistics calculator finger"><label/>
         <list id="fs-idm96652896" list-type="bulleted">
           <item>Clear lists L1 and L2. Press STAT 4:ClrList. Enter 2<sup>nd</sup> 1 for L1, the comma (,), and
             2<sup>nd</sup> 2 for L2.</item>
@@ -536,7 +536,7 @@ The symbol <m:math>
 <label/><title>Try It</title>
 <exercise id="fs-idm106330688">
 <problem id="fs-idm106330432">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm116204608">On a baseball team, the ages of each of the players are as follows:</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm29758800">21, 21, 22, 23, 24, 24, 25, 25, 28, 29, 29, 31, 32, 33, 33, 34, 35, 36, 36, 36, 36, 38, 38, 38, 40
+<para id="fs-idm116204608">On a baseball team, the ages of each of the players are as follows:</para><para id="fs-idm29758800">21, 21, 22, 23, 24, 24, 25, 25, 28, 29, 29, 31, 32, 33, 33, 34, 35, 36, 36, 36, 36, 38, 38, 38, 40
 </para><para id="fs-idm46692272"><newline/>Use your calculator or computer to find the mean and standard deviation. Then find the value that is two standard deviations above the mean.</para></problem>
 <solution id="fs-idm112962464" class="solutions">
 <label/>
@@ -551,7 +551,7 @@ The symbol <m:math>
 </m:math> + 2<emphasis effect="italics">s</emphasis>) = 30.68 + (2)(6.09) = 42.86.</para></solution>
 </exercise></note>
 
-<section id="fs-idm66792288"><title>Explanation of the standard deviation calculation shown in the table</title><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-877">The deviations show how spread out the data are about the mean. The data value 11.5 is farther from the mean than is the data value 11, which is indicated by the deviations .97 and .47. A positive deviation occurs when the data value is greater than the mean, whereas a negative deviation occurs when the data value is less than the mean. The deviation is –1.525 for the data value nine. <emphasis>If you add the deviations, the sum is always zero</emphasis>. We can sum the products of the frequencies and deviations to show that the sum of the deviations is always zero. <m:math display="block">
+<section id="fs-idm66792288"><title>Explanation of the standard deviation calculation shown in the table</title><para id="element-877">The deviations show how spread out the data are about the mean. The data value 11.5 is farther from the mean than is the data value 11, which is indicated by the deviations .97 and .47. A positive deviation occurs when the data value is greater than the mean, whereas a negative deviation occurs when the data value is less than the mean. The deviation is –1.525 for the data value nine. <emphasis>If you add the deviations, the sum is always zero</emphasis>. We can sum the products of the frequencies and deviations to show that the sum of the deviations is always zero. <m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mn>1</m:mn><m:mrow><m:mo>(</m:mo>
@@ -586,11 +586,11 @@ The symbol <m:math>
 <para id="eip-880">Notice that instead of dividing by <emphasis effect="italics">n</emphasis> = 20, the calculation divided by <emphasis effect="italics">n</emphasis> – 1 = 20 – 1 = 19 because the data is a sample. For the <emphasis>sample</emphasis> variance, we divide by the sample size minus one (<emphasis effect="italics">n</emphasis> – 1). Why not divide by <emphasis effect="italics">n</emphasis>?  The answer has to do with the population variance. <emphasis>The sample variance is an estimate of the population variance.</emphasis> Based on the theoretical mathematics that lies behind these calculations, dividing by (<emphasis effect="italics">n</emphasis> – 1) gives a better estimate of the population variance.</para>
 
 <note id="eip-718" class="finger"><label/><title>NOTE</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp106491856">Your concentration should be on what the standard deviation tells us about the data. The standard deviation is a number that measures how far the data are spread from the mean. Let a calculator or computer do the arithmetic.</para></note><para id="eip-323">The standard deviation, <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis>, is either zero or larger than zero. Describing the data with reference to the spread is called <emphasis effect="italics">variability</emphasis>.  The variability in data depends on the method by which the outcomes are obtained, for example, by measuring or by random sampling. When the standard deviation is zero, there is no spread; that is, all the data values are equal to each other. The standard deviation is small when all the data are concentrated close to the mean and larger when the data values show more variation from the mean. When the standard deviation is a lot larger than zero, the data values are very spread out about the mean; outliers can make <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis> very large.</para><para id="element-789">The standard deviation, when first presented, can seem unclear.  By graphing your data, you can get a better <emphasis effect="italics">feel</emphasis> for the deviations and the standard deviation.  You will find that in symmetrical distributions, the standard deviation can be very helpful, but in skewed distributions, the standard deviation may not be much help. The reason is that the two sides of a skewed distribution have different spreads. In a skewed distribution, it is better to look at the first quartile, the median, the third quartile, the smallest value, and the largest value. Because numbers can be confusing, <emphasis>always graph your data</emphasis>. Display your data in a histogram or a box plot.</para>
+<para id="eip-idp106491856">Your concentration should be on what the standard deviation tells us about the data. The standard deviation is a number that measures how far the data are spread from the mean. Let a calculator or computer do the arithmetic.</para></note><para id="eip-323">The standard deviation, <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis>, is either zero or larger than zero. Describing the data with reference to the spread is called <emphasis effect="italics">variability</emphasis>.  The variability in data depends on the method by which the outcomes are obtained, for example, by measuring or by random sampling. When the standard deviation is zero, there is no spread; that is, all the data values are equal to each other. The standard deviation is small when all the data are concentrated close to the mean and larger when the data values show more variation from the mean. When the standard deviation is a lot larger than zero, the data values are very spread out about the mean; outliers can make <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis> very large.</para><para id="element-789">The standard deviation, when first presented, can seem unclear.  By graphing your data, you can get a better <emphasis effect="italics">feel</emphasis> for the deviations and the standard deviation.  You will find that in symmetrical distributions, the standard deviation can be very helpful, but in skewed distributions, the standard deviation may not be much help. The reason is that the two sides of a skewed distribution have different spreads. In a skewed distribution, it is better to look at the first quartile, the median, the third quartile, the smallest value, and the largest value. Because numbers can be confusing, <emphasis>always graph your data</emphasis>. Display your data in a histogram or a box plot.</para>
 
 <example id="element-649">
 <exercise id="exer2"><problem id="id6379302">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-592">Use the following data (first exam scores) from Susan Dean's spring precalculus class:</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-961">33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 94, 94, 94, 96, 100</para><list id="element-744" list-type="enumerated" number-style="lower-alpha"><item>Create a chart containing the data, frequencies, relative frequencies, and cumulative relative frequencies to three decimal places.</item>
+<para id="element-592">Use the following data (first exam scores) from Susan Dean's spring precalculus class:</para><para id="element-961">33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 94, 94, 94, 96, 100</para><list id="element-744" list-type="enumerated" number-style="lower-alpha"><item>Create a chart containing the data, frequencies, relative frequencies, and cumulative relative frequencies to three decimal places.</item>
 <item class="finger">Calculate the following to one decimal place using a TI-83+ or TI-84 calculator:
 <list id="element-9170" list-type="enumerated" number-style="lower-roman"><item>The sample mean</item>
 
@@ -602,7 +602,7 @@ The symbol <m:math>
 </list></item>
 <item>Construct a box plot and a histogram on the same set of axes. Make comments about the box plot, the histogram, and the chart.</item></list></problem>
 <solution id="id6379699">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list1" list-type="enumerated" number-style="lower-alpha"><item>See <link target-id="id6947804"/>.</item>
+<list id="list1" list-type="enumerated" number-style="lower-alpha"><item>See <link target-id="id6947804"/>.</item>
 
 <item>Entering the data values into a list in your graphing calculator and then selecting Stat, Calc, and 1-Var Stats will produce the one-variable statistics  you need.</item>
 <item>The <emphasis effect="italics">x</emphasis>-axis goes from 32.5 to 100.5; the <emphasis effect="italics">y</emphasis>-axis goes from –2.4 to 15 for the histogram. The number of intervals is 5, so the width of an interval is (100.5 – 32.5) divided by 5, equal to 13.6. Endpoints of the intervals are as follows: the starting point is 32.5, 32.5 + 13.6 = 46.1, 46.1 + 13.6 = 59.7, 59.7 + 13.6 = 73.3, 73.3 + 13.6 = 86.9, 86.9 + 13.6 = 100.5 = the ending value; no data values fall on an interval boundary.</item></list><figure id="id6380826"><media id="id6380831" alt="A hybrid image displaying both a histogram and box plot described in detail in the answer solution above.">
@@ -612,7 +612,7 @@ The symbol <m:math>
 </exercise>
 <para id="element-242">The long left whisker in the box plot is reflected in the left side of the histogram.  The spread of the exam scores in the lower 50 percent is greater (73 – 33 = 40) than the spread in the upper 50 percent (100 – 73 = 27).  The histogram, box plot, and chart all reflect this.  There are a substantial number of A and B grades (80s, 90s, and 100).  The histogram clearly shows this.  The box plot shows us that the middle 50 percent of the exam scores  (<emphasis effect="italics">IQR</emphasis> = 29) are Ds, Cs, and Bs. The box plot also shows us that the lower 25 percent of the exam scores are Ds and Fs.</para>
 </example>
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6947804" summary="This table presents the values listed above arranged with the data in the first column, frequency in the second column, relative frequency in the third column, and cumulative relative frequency in the fourth column.">
+<table id="id6947804" summary="This table presents the values listed above arranged with the data in the first column, frequency in the second column, relative frequency in the third column, and cumulative relative frequency in the fourth column.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -766,7 +766,7 @@ The symbol <m:math>
 </table><note id="fs-idp3274832" class="statistics try finger"><label/><title>Try It</title>
 <exercise id="fs-idm22220656">
 <problem id="fs-idm22220400">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm125056">The following data show the different types of pet food that stores in the area carry:
+<para id="fs-idm125056">The following data show the different types of pet food that stores in the area carry:
 <newline/>6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12
 <newline/>Calculate the sample mean and the sample standard deviation to one decimal place using a TI-83+ or TI-84 calculator.</para></problem>
 <solution id="fs-idm18412320" class="solutions">
@@ -786,7 +786,7 @@ The symbol <m:math>
    </m:math>
 
 <newline/>where <m:math>
-  <m:mrow><m:mi>f</m:mi><m:mo>=</m:mo></m:mrow></m:math> interval frequencies and <emphasis effect="italics">m</emphasis> = interval midpoints.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm98694272">Just as we could not find the exact mean, neither can we find the exact standard deviation. Remember that standard deviation describes numerically the expected deviation a data value has from the mean. In simple English, the standard deviation allows us to compare how <emphasis effect="italics">unusual</emphasis> individual data are when compared to the mean.</para><example id="fs-idm67331024"><para id="eip-897">Find the standard deviation for the data in <link target-id="fs-idm67330768"/>.</para><table id="fs-idm67330768" summary="">
+  <m:mrow><m:mi>f</m:mi><m:mo>=</m:mo></m:mrow></m:math> interval frequencies and <emphasis effect="italics">m</emphasis> = interval midpoints.</para><para id="fs-idm98694272">Just as we could not find the exact mean, neither can we find the exact standard deviation. Remember that standard deviation describes numerically the expected deviation a data value has from the mean. In simple English, the standard deviation allows us to compare how <emphasis effect="italics">unusual</emphasis> individual data are when compared to the mean.</para><example id="fs-idm67331024"><para id="eip-897">Find the standard deviation for the data in <link target-id="fs-idm67330768"/>.</para><table id="fs-idm67330768" summary="">
 <tgroup cols="7">
 <thead>
 <row>
@@ -888,7 +888,7 @@ The symbol <m:math>
 
 <para id="fs-idm108979264">You will see displayed both a population standard deviation, <emphasis effect="italics">σ<sub>x</sub></emphasis>, and the sample standard deviation, <emphasis effect="italics">s<sub>x</sub></emphasis>.</para></note></section><section id="fs-idm77326096">
 <title>Comparing Values from Different Data Sets</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-176">As explained before, a <emphasis effect="italics">z</emphasis>-score allows us to compare statistics from different data sets. If the data sets have different means and standard deviations, then comparing the data values directly can be misleading.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1170599203736"><item>For each data value, calculate how many standard deviations away from its mean the value is.</item>
+<para id="eip-176">As explained before, a <emphasis effect="italics">z</emphasis>-score allows us to compare statistics from different data sets. If the data sets have different means and standard deviations, then comparing the data values directly can be misleading.</para><list id="eip-id1170599203736"><item>For each data value, calculate how many standard deviations away from its mean the value is.</item>
 <item>In symbols, the formulas for calculating <emphasis effect="italics">z</emphasis>-scores become the following.
 
 <table id="eip-329" summary="The table shows the z-score formula.">
@@ -939,11 +939,11 @@ The symbol <m:math>
 
 </tgroup>
 </table></item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564967197">As shown in the table, when only a sample mean and sample standard deviation are given, the top formula is used. When the population mean and population standard deviation are given, the bottom formula is used.</para><example id="element-387"><exercise id="exer1">
+</list><para id="fs-id1164564967197">As shown in the table, when only a sample mean and sample standard deviation are given, the top formula is used. When the population mean and population standard deviation are given, the bottom formula is used.</para><example id="element-387"><exercise id="exer1">
 <problem id="id6380897">
 <para id="element-928">Two students, John and Ali, from different high schools, wanted to find out who had the highest GPA when compared to his school. Which student had the highest GPA when compared to his school?
 
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-798" summary="This table provides two students and their GPAs. The first row represents John and the second row represents Ali. The first column lists students, second column lists GPA, third column lists school mean GPA, and the fourth column list the school standard deviation.">
+<table id="element-798" summary="This table provides two students and their GPAs. The first row represents John and the second row represents Ali. The first column lists students, second column lists GPA, third column lists school mean GPA, and the fourth column list the school standard deviation.">
 <tgroup cols="4"><thead>
   <row>
     <entry>Student</entry>
@@ -991,7 +991,7 @@ The symbol <m:math>
 
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-378">For John, <m:math display="">
+</para><para id="element-378">For John, <m:math display="">
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>#</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -1004,7 +1004,7 @@ The symbol <m:math>
   <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.21</m:mn>
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-712">For Ali, <m:math>
+</para><para id="element-712">For Ali, <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>#</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -1017,12 +1017,12 @@ The symbol <m:math>
   <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.3</m:mn>
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-344">John has the better GPA when compared to his school because his GPA is 0.21 standard deviations <emphasis>below</emphasis> his school's mean, while Ali's GPA is .3 standard deviations <emphasis>below</emphasis> his school's mean.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp36263696">John's <emphasis effect="italics">z</emphasis>-score of –.21 is higher than Ali's <emphasis effect="italics">z</emphasis>-score of –.3. For GPA, higher values are  better, so we conclude that John has the better GPA when compared to his school. The <emphasis effect="italics">z</emphasis>-score representing John's score does not fall as far below the mean as the <emphasis effect="italics">z</emphasis>-score representing Ali's score.</para></solution>
+</para><para id="element-344">John has the better GPA when compared to his school because his GPA is 0.21 standard deviations <emphasis>below</emphasis> his school's mean, while Ali's GPA is .3 standard deviations <emphasis>below</emphasis> his school's mean.</para><para id="fs-idp36263696">John's <emphasis effect="italics">z</emphasis>-score of –.21 is higher than Ali's <emphasis effect="italics">z</emphasis>-score of –.3. For GPA, higher values are  better, so we conclude that John has the better GPA when compared to his school. The <emphasis effect="italics">z</emphasis>-score representing John's score does not fall as far below the mean as the <emphasis effect="italics">z</emphasis>-score representing Ali's score.</para></solution>
 </exercise></example><note id="fs-idm22007088" class="statistics try"><label/>
 <title>Try It</title>
 <exercise id="fs-idm30975248">
 <problem id="fs-idm30974992">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm30974736">Two swimmers, Angie and Beth, from different teams, wanted to find out who had the fastest time for the 50-meter freestyle when compared to her team. Which swimmer had the fastest time when compared to her team?</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm44209040" summary="Table 8 has four columns depicting Swimmer, Time (Seconds), Team Mean Time, as well as Team Standard Deviation. The first swimmer is Angie, her time is 26.2, her team mean time is 27.2 and her team standard deviation is 0.8. The second swimmer is Beth, her time is 27.3, her team mean time is 30.1, and her team standard deviation is 1.4.">
+<para id="fs-idm30974736">Two swimmers, Angie and Beth, from different teams, wanted to find out who had the fastest time for the 50-meter freestyle when compared to her team. Which swimmer had the fastest time when compared to her team?</para><table id="fs-idm44209040" summary="Table 8 has four columns depicting Swimmer, Time (Seconds), Team Mean Time, as well as Team Standard Deviation. The first swimmer is Angie, her time is 26.2, her team mean time is 27.2 and her team standard deviation is 0.8. The second swimmer is Beth, her time is 27.3, her team mean time is 30.1, and her team standard deviation is 1.4.">
 <tgroup cols="4"><thead><row><entry>Swimmer</entry><entry>Time (seconds)</entry><entry>Team Mean Time</entry>	<entry>Team Standard Deviation</entry></row></thead>
 <tbody>
 <row><entry>Angie</entry><entry>26.2</entry><entry>27.2</entry><entry>.8</entry></row>
@@ -1051,11 +1051,11 @@ The symbol <m:math>
  </m:mrow>
 </m:math> = –2</para></solution>
 </exercise></note><para id="eip-33">The following lists give a few facts that provide a little more insight into what the standard deviation tells us about the distribution of the data.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-303"><title>For <emphasis effect="italics">any</emphasis> data set, no matter what the distribution of the data is, the following are true:</title><item>At least 75 percent of the data is within two standard deviations of the mean.</item>
+<list id="eip-303"><title>For <emphasis effect="italics">any</emphasis> data set, no matter what the distribution of the data is, the following are true:</title><item>At least 75 percent of the data is within two standard deviations of the mean.</item>
 <item>At least 89 percent of the data is within three standard deviations of the mean.</item>
 <item>At least 95 percent of the data is within 4.5 standard deviations of the mean.</item>
 <item>This is known as Chebyshev's Rule.</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564845350">A bell-shaped distribution is one that is normal and symmetric, meaning the curve can be folded along a line of symmetry drawn through the median, and the left and right sides of the curve would fold on each other symmetrically.. With a bell-shaped distribution, the mean, median, and mode are all located at the same place.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-188"><title>For data having a distribution that is <emphasis effect="italics">bell-shaped</emphasis> and <emphasis effect="italics">symmetric</emphasis>, the following are true:</title><item>Approximately 68 percent of the data is within one standard deviation of the mean.</item>
+</list><para id="fs-id1164564845350">A bell-shaped distribution is one that is normal and symmetric, meaning the curve can be folded along a line of symmetry drawn through the median, and the left and right sides of the curve would fold on each other symmetrically.. With a bell-shaped distribution, the mean, median, and mode are all located at the same place.</para><list id="eip-188"><title>For data having a distribution that is <emphasis effect="italics">bell-shaped</emphasis> and <emphasis effect="italics">symmetric</emphasis>, the following are true:</title><item>Approximately 68 percent of the data is within one standard deviation of the mean.</item>
 <item>Approximately 95 percent of the data is within two standard deviations of the mean.</item>
 <item>More than 99 percent of the data is within three standard deviations of the mean.</item>
 <item>This is known as the Empirical Rule.</item>
@@ -1075,7 +1075,7 @@ The symbol <m:math>
 
 <section id="fs-idm30772592" class="summary">
 <title>Chapter Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm30771952">The standard deviation can help you calculate the spread of data. There are different equations to use if you are calculating the standard deviation of a sample or of a population. </para><list id="fs-idm41288176" list-type="bulleted">
+<para id="fs-idm30771952">The standard deviation can help you calculate the spread of data. There are different equations to use if you are calculating the standard deviation of a sample or of a population. </para><list id="fs-idm41288176" list-type="bulleted">
 <item>The standard deviation allows us to compare individual data or classes to the data set mean numerically.</item>
 <item><emphasis effect="italics">s</emphasis> = <m:math>
  <m:mrow>
@@ -1195,7 +1195,7 @@ The symbol <m:math>
 
 <section id="fs-idm71113376" class="formula-review">
 <title>Formula Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm727968"><m:math><m:mrow><m:msub><m:mi>s</m:mi>
+<para id="fs-idm727968"><m:math><m:mrow><m:msub><m:mi>s</m:mi>
     <m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow>
      <m:mfrac><m:mrow><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow>
          <m:mi>f</m:mi><m:msup><m:mi>m</m:mi><m:mn>2</m:mn>
@@ -1253,7 +1253,7 @@ The symbol <m:math>
 </exercise>
 <exercise id="fs-id1170308667668" class="finger">
 <problem id="fs-id1170308667671">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170308667673" class="finger">A pharmaceutical company randomly assigns participants to one of two groups: one is a control group receiving a placebo, and another is a treatment group receiving a new drug to lower blood pressure. The differences in outcomes may be attributed to which type of variability?</para></problem>
+<para id="fs-id1170308667673" class="finger">A pharmaceutical company randomly assigns participants to one of two groups: one is a control group receiving a placebo, and another is a treatment group receiving a new drug to lower blood pressure. The differences in outcomes may be attributed to which type of variability?</para></problem>
 <solution id="fs-id1170308667681">
 <para id="fs-id1170308667683">induced variability</para>
 </solution>
@@ -1273,7 +1273,7 @@ The symbol <m:math>
 <para id="fs-id1170308701363">natural variability</para>
 </solution>
 </exercise>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp12495840"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.
+<para id="fs-idp12495840"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.
 <newline/>29, 37, 38, 40, 58, 67, 68, 69, 76, 86, 87, 95, 96, 96, 99, 106, 112, 127, 145, 150</para><exercise id="fs-idm25484256" class="finger"><problem id="fs-idm25484000">
 <para id="fs-idm83184320" class="finger">Use a graphing calculator or computer to find the standard deviation and round to the nearest tenth.</para></problem>
 <solution id="fs-idm109784640">
@@ -1334,7 +1334,7 @@ The symbol <m:math>
 
 <exercise id="exercisefifteen">
 <problem id="id24167266">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="prob_15">Use <link target-id="fs-idm133764640"/> to find the value that is three standard deviations</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-012345" mark-suffix="." list-type="labeled-item"><item><label>a</label>above the mean, and</item>
+<para id="prob_15">Use <link target-id="fs-idm133764640"/> to find the value that is three standard deviations</para><list id="element-012345" mark-suffix="." list-type="labeled-item"><item><label>a</label>above the mean, and</item>
 <item><label>b</label>below the mean</item>
 </list></problem>
 </exercise>
@@ -1419,14 +1419,14 @@ The symbol <m:math>
       <item><emphasis effect="italics">n</emphasis> = 29 years</item>
     </list><exercise id="exercisetwenty">
       <problem id="id8123889">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="prob_20">A sample of 11 years is taken. About how many are expected to have an FTES of 1,014 or above? Explain how you determined your answer.</para></problem>
+        <para id="prob_20">A sample of 11 years is taken. About how many are expected to have an FTES of 1,014 or above? Explain how you determined your answer.</para></problem>
       <solution id="id8123906">
         <para id="element-236">The median value is the middle value in the ordered list of data values. The median value of a set of 11 will be the sixth number in order. Six years will have totals at or below the median.</para></solution>
     </exercise>
 
     <exercise id="exercisetwentyone">
       <problem id="id8123930">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="prob_21">Seventy-five percent of all years have an FTES
+        <para id="prob_21">Seventy-five percent of all years have an FTES
           <list id="element-123123" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>at or below ______.</item>
             <item>at or above ______.</item>
           </list></para></problem>
@@ -1442,7 +1442,7 @@ The symbol <m:math>
 
     <exercise id="exercisetwentythree">
       <problem id="id8181834">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="prob_23">What percentage of the FTES were from 528.5 to 1,447.5? How do you know?</para></problem>
+        <para id="prob_23">What percentage of the FTES were from 528.5 to 1,447.5? How do you know?</para></problem>
     </exercise>
 
     <exercise id="exercisetwentyfour">
@@ -1505,7 +1505,7 @@ The symbol <m:math>
       <problem id="eip-748">
         <para id="eip-507">Compare the  <emphasis effect="italics">IQR</emphasis> for the FTES for 1976–1977 through 2004–2005 with the <emphasis effect="italics">IQR</emphasis> for the FTES for 2005-2006 through 2010–2011.  Why do you suppose the <emphasis effect="italics">IQR</emphasis>s are so different?</para></problem>
       <solution id="eip-602">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-165">Hint: think about the number of years covered by each time period and what happened to higher education during those periods.</para></solution>
+        <para id="eip-165">Hint: think about the number of years covered by each time period and what happened to higher education during those periods.</para></solution>
     </exercise>
 
   <exercise id="element-844">
@@ -1551,14 +1551,14 @@ The symbol <m:math>
 </exercise>
 
 <exercise id="eip-207">
-<problem id="eip-290"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-327">A music school has budgeted to purchase three musical instruments. The school plans to purchase a piano costing $3,000, a guitar costing $550, and a drum set costing $600. The mean cost for a piano is $4,000 with a standard deviation of $2,500. The mean cost for a guitar is $500 with a standard deviation of $200. The mean cost for drums is $700 with a standard deviation of $100. Which cost is the lowest when compared to other instruments of the same type? Which cost is the highest when compared to other instruments of the same type? Justify your answer.</para></problem>
+<problem id="eip-290"><para id="eip-327">A music school has budgeted to purchase three musical instruments. The school plans to purchase a piano costing $3,000, a guitar costing $550, and a drum set costing $600. The mean cost for a piano is $4,000 with a standard deviation of $2,500. The mean cost for a guitar is $500 with a standard deviation of $200. The mean cost for drums is $700 with a standard deviation of $100. Which cost is the lowest when compared to other instruments of the same type? Which cost is the highest when compared to other instruments of the same type? Justify your answer.</para></problem>
 <solution id="eip-21">
 <para id="eip-740">For pianos, the cost of the piano is .4 standard deviations BELOW the mean.  For guitars, the cost of the guitar is 0.25 standard deviations ABOVE the mean. For drums, the cost of the drum set is 1.0 standard deviations BELOW the mean. Of the three, the drums cost the lowest in comparison to the cost of other instruments of the same type. The guitar costs the most in comparison to the cost of other instruments of the same type.</para>
 </solution>
 </exercise>
 
 <exercise id="element-799"><problem id="id6038456">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm25455232">An elementary school class ran one mile with a mean of 11 minutes and a standard deviation of three minutes. Rachel, a student in the class, ran one mile in eight minutes. A junior high school class ran one mile with a mean of nine minutes and a standard deviation of two minutes. Kenji, a student in the class, ran one mile in 8.5 minutes. A high school class ran one mile with a mean of seven minutes and a standard deviation of four minutes.  Nedda, a student in the class, ran one mile in eight minutes.</para><list id="element-895" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Why is Kenji considered a better runner than Nedda even though Nedda ran faster than he?</item>
+<para id="fs-idm25455232">An elementary school class ran one mile with a mean of 11 minutes and a standard deviation of three minutes. Rachel, a student in the class, ran one mile in eight minutes. A junior high school class ran one mile with a mean of nine minutes and a standard deviation of two minutes. Kenji, a student in the class, ran one mile in 8.5 minutes. A high school class ran one mile with a mean of seven minutes and a standard deviation of four minutes.  Nedda, a student in the class, ran one mile in eight minutes.</para><list id="element-895" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Why is Kenji considered a better runner than Nedda even though Nedda ran faster than he?</item>
 <item>Who is the fastest runner with respect to his or her class?  Explain why.</item>
 </list></problem>
 </exercise>
@@ -1635,7 +1635,7 @@ The symbol <m:math>
     <title>Bringing It Together</title>
 <exercise id="element-833">
 <problem id="id3776067">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-202">Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:</para><table id="element-681" summary="The table presents the number of movies 25 students watched in the previous week. The first column lists the number of movies from 0-4, the second column lists the frequency with the values of 5, 9, 6, 4, 1, the third column is for relative frequency and is blank, and the fourth column is for cumulative relative frequency and is blank.">
+<para id="element-202">Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:</para><table id="element-681" summary="The table presents the number of movies 25 students watched in the previous week. The first column lists the number of movies from 0-4, the second column lists the frequency with the values of 5, 9, 6, 4, 1, the third column is for relative frequency and is blank, and the fourth column is for cumulative relative frequency and is blank.">
 <tgroup cols="2"><thead>
  <row>
     <entry>Number of Movies</entry>
@@ -1683,7 +1683,7 @@ The symbol <m:math>
 </exercise>
 
 <exercise id="element-976"><problem id="id6006371">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-567">Forty randomly selected students were asked the number of pairs of sneakers they owned. Let <emphasis effect="italics">X</emphasis> = the number of pairs of sneakers owned. The results are as follows:</para><table id="element-130" summary="The table presents the number of pairs of sneakers forty students own. The first column lists the number of pairs of sneakers owned from 0-7, the second column lists the frequency, the third column is relative frequency and is blank, and the fourth column is cumulative relative frequency and is blank.">
+<para id="element-567">Forty randomly selected students were asked the number of pairs of sneakers they owned. Let <emphasis effect="italics">X</emphasis> = the number of pairs of sneakers owned. The results are as follows:</para><table id="element-130" summary="The table presents the number of pairs of sneakers forty students own. The first column lists the number of pairs of sneakers owned from 0-7, the second column lists the frequency, the third column is relative frequency and is blank, and the fourth column is cumulative relative frequency and is blank.">
 <tgroup cols="2"><thead>
 <row>
 <entry><emphasis effect="italics">X</emphasis></entry>
@@ -1722,7 +1722,7 @@ The symbol <m:math>
 </tbody>
 
 </tgroup>
-</table><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Find the sample mean, <m:math>
+</table><list id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Find the sample mean, <m:math>
 <m:apply>
   <m:conjugate/>
   <m:ci>x</m:ci>
@@ -1743,7 +1743,7 @@ The symbol <m:math>
 </exercise>
 
 <exercise id="element-324s"><problem id="id4231623">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm32869728">Following are the published weights (in pounds) of all of the football team members of the San Francisco 49ers from a previous year:</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-598">177, 205, 210, 210, 232, 205, 185, 185, 178, 210, 206, 212, 184, 174, 185, 242, 188, 212, 215, 247, 241, 223, 220, 260, 245, 259, 278, 270, 280, 295, 275, 285, 290, 272, 273, 280, 285, 286, 200, 215, 185, 230, 250, 241, 190, 260, 250, 302, 265, 290, 276, 228, 265</para><list id="fs-idm96948032" list-type="enumerated" number-style="lower-alpha">
+<para id="fs-idm32869728">Following are the published weights (in pounds) of all of the football team members of the San Francisco 49ers from a previous year:</para><para id="element-598">177, 205, 210, 210, 232, 205, 185, 185, 178, 210, 206, 212, 184, 174, 185, 242, 188, 212, 215, 247, 241, 223, 220, 260, 245, 259, 278, 270, 280, 295, 275, 285, 290, 272, 273, 280, 285, 286, 200, 215, 185, 230, 250, 241, 190, 260, 250, 302, 265, 290, 276, 228, 265</para><list id="fs-idm96948032" list-type="enumerated" number-style="lower-alpha">
 <item>Organize the data from smallest to largest value.</item>
 <item>Find the median.</item>
 <item>Find the first quartile.</item>
@@ -1753,14 +1753,14 @@ The symbol <m:math>
 <item>If our population were all professional football players, would the above data be a sample of weights or the population of weights?  Why?</item>
 <item>If our population included every team member who ever played for a California-based football team, would the above data be a sample of weights or the population of weights?  Why?</item>
 <item>Assume the population was a California-based football team.  Find
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="nestlist4" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>the population mean, <emphasis effect="italics">μ</emphasis>,</item>
+<list id="nestlist4" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>the population mean, <emphasis effect="italics">μ</emphasis>,</item>
 <item>the population standard deviation, <emphasis effect="italics">σ</emphasis>, and</item>
 <item>the weight that is two standard deviations below the mean.</item>
 <item>In addition, when the team's most famous quarterback, played football, he weighed 205 pounds.  Also find how many standard deviations above or below the mean was he?</item>
 </list></item>
 <item>That same year, the mean weight for a player from a Texas football team was 240.08 pounds with a standard deviation of 44.38 pounds.  One player weighed in at 209 pounds.  With respect to his team, who was lighter, the California quarterback or the Texas player?  How did you determine your answer?</item></list></problem>
 <solution id="id4782460">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-189" list-type="enumerated" number-style="lower-alpha"><item>174, 177, 178, 184, 185, 185, 185, 185, 188, 190, 200, 205, 205, 206, 210, 210, 210, 212, 212, 215, 215, 220, 223, 228, 230, 232, 241, 241, 242, 245, 247, 250, 250, 259, 260, 260, 265, 265, 270, 272, 273, 275, 276, 278, 280, 280, 285, 285, 286, 290, 290, 295, 302</item>
+<list id="element-189" list-type="enumerated" number-style="lower-alpha"><item>174, 177, 178, 184, 185, 185, 185, 185, 188, 190, 200, 205, 205, 206, 210, 210, 210, 212, 212, 215, 215, 220, 223, 228, 230, 232, 241, 241, 242, 245, 247, 250, 250, 259, 260, 260, 265, 265, 270, 272, 273, 275, 276, 278, 280, 280, 285, 285, 286, 290, 290, 295, 302</item>
 <item>241</item>
 <item>205.5</item>
 <item>272.5</item>
@@ -1782,16 +1782,16 @@ The symbol <m:math>
 
 <exercise id="element-211">
 <problem id="id4976485">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-353">One hundred teachers attended a seminar on mathematical problem solving. The attitudes of a representative sample of 12 of the teachers were measured before and after the seminar. A positive number for change in attitude indicates that a teacher's attitude toward math became more positive. The 12 change scores are as follows:</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-6236">3, 8, –1, 2, 0, 5, –3, 1, –1, 6, 5, –2</para><list id="element-217" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>What is the mean change score?</item>
+<para id="element-353">One hundred teachers attended a seminar on mathematical problem solving. The attitudes of a representative sample of 12 of the teachers were measured before and after the seminar. A positive number for change in attitude indicates that a teacher's attitude toward math became more positive. The 12 change scores are as follows:</para><para id="element-6236">3, 8, –1, 2, 0, 5, –3, 1, –1, 6, 5, –2</para><list id="element-217" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>What is the mean change score?</item>
 <item>What is the standard deviation for this population?</item>
 <item>What is the median change score?</item>
 <item>Find the change score that is 2.2 standard deviations below the mean.</item></list></problem>
 </exercise>
 
 <exercise id="element-314"><problem id="id6158752">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-223">Refer to <link target-id="fs-idm70725344"/> to determine which of the following are true and which are false. Explain your solution to each part in complete sentences.</para><figure id="fs-idm70725344"><media id="id4115299" alt="This shows three graphs. The first is a histogram with a mode of 3 and fairly symmetrical distribution between 1 (minimum value) and 5 (maximum value). The second graph is a histogram with peaks at 1 (minimum value) and 5 (maximum value) with 3 having the lowest frequency. The third graph is a box plot. The first whisker extends from 0 to 1. The box begins at the firs quartile, 1, and ends at the third quartile,6. A vertical, dashed line marks the median at 3. The second whisker extends from 6 on. " display="block"><image src="../../media/fig-ch02_13_05.jpg" mime-type="image/jpg" width="550"/></media>
+<para id="element-223">Refer to <link target-id="fs-idm70725344"/> to determine which of the following are true and which are false. Explain your solution to each part in complete sentences.</para><figure id="fs-idm70725344"><media id="id4115299" alt="This shows three graphs. The first is a histogram with a mode of 3 and fairly symmetrical distribution between 1 (minimum value) and 5 (maximum value). The second graph is a histogram with peaks at 1 (minimum value) and 5 (maximum value) with 3 having the lowest frequency. The third graph is a box plot. The first whisker extends from 0 to 1. The box begins at the firs quartile, 1, and ends at the third quartile,6. A vertical, dashed line marks the median at 3. The second whisker extends from 6 on. " display="block"><image src="../../media/fig-ch02_13_05.jpg" mime-type="image/jpg" width="550"/></media>
 </figure>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-25" list-type="enumerated" number-style="lower-alpha"><item>The medians for all three graphs are the same.</item>
+<list id="element-25" list-type="enumerated" number-style="lower-alpha"><item>The medians for all three graphs are the same.</item>
 <item>We cannot determine if any of the means for the three graphs are different.</item>
 <item>The standard deviation for Graph b is larger than the standard deviation for Graph a.</item>
 <item>We cannot determine if any of the third quartiles for the three graphs are different.</item></list></problem>
@@ -1820,7 +1820,7 @@ The symbol <m:math>
 </exercise>
 
 <exercise id="element-891"><problem id="id3671813">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-707">A survey of enrollment at 35 community colleges across the United States yielded the following figures:</para><para id="element-23455">6,414;  1,550; 2,109; 9,350; 21,828; 4,300;  5,944; 5,722; 2,825; 2,044; 5,481;  5,200; 5,853; 2,750; 10,012; 6,357;  27,000; 9,414; 7,681; 3,200; 17,500;  9,200; 7,380; 18,314; 6,557; 13,713;  17,768; 7,493; 2,771; 2,861; 1,263;  7,285; 28,165; 5,080; 11,622</para><list id="id12992735" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organize the data into a chart with five intervals of equal width. Label the two columns <emphasis effect="italics">Enrollment</emphasis> and <emphasis effect="italics">Frequency</emphasis>.</item>
+<para id="element-707">A survey of enrollment at 35 community colleges across the United States yielded the following figures:</para><para id="element-23455">6,414;  1,550; 2,109; 9,350; 21,828; 4,300;  5,944; 5,722; 2,825; 2,044; 5,481;  5,200; 5,853; 2,750; 10,012; 6,357;  27,000; 9,414; 7,681; 3,200; 17,500;  9,200; 7,380; 18,314; 6,557; 13,713;  17,768; 7,493; 2,771; 2,861; 1,263;  7,285; 28,165; 5,080; 11,622</para><list id="id12992735" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organize the data into a chart with five intervals of equal width. Label the two columns <emphasis effect="italics">Enrollment</emphasis> and <emphasis effect="italics">Frequency</emphasis>.</item>
 <item>Construct a histogram of the data.</item>
 <item>If you were to build a new community college, which piece of information would be more valuable: the mode or the mean?</item>
 <item>Calculate the sample mean.</item>
@@ -1850,7 +1850,7 @@ The symbol <m:math>
 <item>8,628.74</item>
 <item>6,943.88</item>
 <item>–0.09</item>
-</list></solution></exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-225"><newline/>
+</list></solution></exercise><para id="element-225"><newline/>
 <emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> <emphasis effect="italics">X</emphasis> = the number of days per week that 100 clients use a particular exercise facility.</para><table id="element-813" summary="This table presents the number of days a week clients use a particular exercise facility. The first column lists the number of days from 0-6 and the second column lists the frequency.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1902,7 +1902,7 @@ The symbol <m:math>
 
 <exercise id="element-867">
 <problem id="id4861412">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-793">The number that is 1.5 standard deviations <emphasis effect="bold">below</emphasis> the mean is approximately ________.</para><list id="ni5" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>0.7</item>
+<para id="element-793">The number that is 1.5 standard deviations <emphasis effect="bold">below</emphasis> the mean is approximately ________.</para><list id="ni5" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>0.7</item>
 <item>4.8</item>
 <item>–2.8</item>
 <item>cannot be determined</item>
@@ -1914,7 +1914,7 @@ The symbol <m:math>
 
 <exercise id="eip-961">
 <problem id="eip-175">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-902">Suppose that a publisher conducted a survey asking adult consumers the number of fiction paperback books they had purchased in the previous month. The results are summarized in <link target-id="table23"/>.</para><table id="table23" summary="Publisher B is the table with number of books in the first column, from 0-5, 7, 9, frequency in the second column, and relative frequency in the third column which is blank.">
+<para id="eip-902">Suppose that a publisher conducted a survey asking adult consumers the number of fiction paperback books they had purchased in the previous month. The results are summarized in <link target-id="table23"/>.</para><table id="table23" summary="Publisher B is the table with number of books in the first column, from 0-5, 7, 9, frequency in the second column, and relative frequency in the third column which is blank.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1942,7 +1942,7 @@ The symbol <m:math>
 </tbody>
 
 </tgroup>
-</table><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1170221803861" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Are there any outliers in the data? Use an appropriate numerical test involving the <emphasis effect="italics">IQR</emphasis> to identify outliers, if any, and clearly state your conclusion.</item>
+</table><list id="eip-id1170221803861" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Are there any outliers in the data? Use an appropriate numerical test involving the <emphasis effect="italics">IQR</emphasis> to identify outliers, if any, and clearly state your conclusion.</item>
 <item>If a data value is identified as an outlier, what should be done about it?</item>
 <item>Are any data values farther than two standard deviations away from the mean? In some situations, statisticians may use this criterion to identify data values that are unusual, compared to the other data values. Note that this criterion is most appropriate to use for data that is mound shaped and symmetric rather than for skewed data.</item>
 <item>Do Parts a and c of this problem give the same answer?</item>

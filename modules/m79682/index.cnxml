@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Test of a Single Variance</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79682</md:content-id>
   <md:title>Test of a Single Variance</md:title>
   <md:abstract/>
@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164564866218">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-194">A <term>test of a single variance</term> assumes that the underlying distribution is normal. The null and alternative hypotheses are stated in terms of the <term>population variance</term> or population standard deviation. The test statistic is</para><equation class="unnumbered" id="element-740"><label/><m:math>
+<para id="element-194">A <term>test of a single variance</term> assumes that the underlying distribution is normal. The null and alternative hypotheses are stated in terms of the <term>population variance</term> or population standard deviation. The test statistic is</para><equation class="unnumbered" id="element-740"><label/><m:math>
 <m:mfrac>
 <m:mrow>
 <m:mo>(</m:mo>
@@ -37,7 +37,7 @@
  <item id="element-646"><emphasis effect="italics">s</emphasis><sup>2</sup> = sample variance, and</item>
  <item id="element-502"><emphasis effect="italics">σ</emphasis><sup>2</sup> = population variance.</item>
 </list>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-416">You may think of <emphasis effect="italics">s</emphasis> as the random variable in this test. The number of degrees of freedom is <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1. A test of a single variance may be right-tailed, left-tailed, or two-tailed. <link target-id="element-174"/> will show you how to set up the null and alternative hypotheses. The null and alternative hypotheses contain statements about the population variance.</para><example id="element-174">
+ <para id="element-416">You may think of <emphasis effect="italics">s</emphasis> as the random variable in this test. The number of degrees of freedom is <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1. A test of a single variance may be right-tailed, left-tailed, or two-tailed. <link target-id="element-174"/> will show you how to set up the null and alternative hypotheses. The null and alternative hypotheses contain statements about the population variance.</para><example id="element-174">
   <exercise id="element-514">
    <problem id="id1168324983513">
 <para id="element-687">Math instructors are not only interested in how their students do on exams, on average, but how the exam scores vary. To many instructors, the variance, or standard deviation, may be more important than the average.</para>
@@ -61,7 +61,7 @@ best students thinks otherwise. The student claims that the standard deviation i
  <para id="eip-712"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 3<sup>2</sup> </para><para id="eip-idp38169856"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &lt; 3<sup>2</sup> </para></solution>
   </exercise>
  </note><example id="element-28"><exercise id="element-853"><problem id="id2871589"><para id="element-271">With individual lines at its various windows, a post office finds that the standard deviation for normally distributed waiting times for customers on Friday afternoon is 7.2 minutes. The post office experiments with a single, main waiting line and finds that for a random sample of 25 customers, the waiting times for customers have a standard deviation of 3.5 minutes.
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-677">With a significance level of 5 percent, test the claim that a single line causes lower variation
+</para><para id="element-677">With a significance level of 5 percent, test the claim that a single line causes lower variation
 among waiting times (shorter waiting times) for customers.
   </para></problem>
 <solution id="id1168321500398">
@@ -117,7 +117,7 @@ Let <emphasis effect="italics">s</emphasis> = standard deviation for the waiting
 </m:math></para><para id="element-801">where <emphasis effect="italics">n</emphasis> = 25, <emphasis effect="italics">s</emphasis> = 3.5, and <emphasis effect="italics">σ</emphasis> = 7.2.</para>
  <para id="element-607"><emphasis>Graph</emphasis></para>
  <figure id="fs-idp135015696"><media id="id1168325355960" alt="This is a nonsymmetrical chi-square curve with values of 0 and 5.67 labeled on the horizontal axis. The point 5.67 lies to the left of the peak of the curve. A vertical upward line extends from 5.67 to the curve and the region to the left of this line is shaded. The shaded area is equal to the p-value." display="block"><image src="../../media/figure-ch11_08_01.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-970"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis> ( <emphasis effect="italics">χ</emphasis><sup>2</sup> &lt; 5.67) = 0.000042</para>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-684"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis>
+ <para id="element-684"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis>
 
 <newline/><emphasis effect="italics">α</emphasis> = 0.05
 <newline/><emphasis effect="italics">p</emphasis>-value = 0.000042
@@ -133,7 +133,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
  <note id="fs-idp108749600" class="statistics try"><label/><title>Try It</title>
     <exercise id="eip-209">
    <problem id="eip-849">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-37">The FCC conducts broadband speed tests to measure how much data per second passes between a consumer’s computer and the internet. As of August 2012, the standard deviation of internet speeds across internet service providers (ISPs) was 12.2 percent. Suppose a sample of 15 ISPs is taken, and the standard deviation is 13.2. An analyst claims that the standard deviation of speeds is more than what was reported. State the null and alternative hypotheses, compute the degrees of freedom, calculate the test statistic, sketch the graph of the <emphasis effect="italics">p</emphasis>-value, and draw a conclusion. Test at the 1 percent significance level.</para></problem>
+  <para id="eip-37">The FCC conducts broadband speed tests to measure how much data per second passes between a consumer’s computer and the internet. As of August 2012, the standard deviation of internet speeds across internet service providers (ISPs) was 12.2 percent. Suppose a sample of 15 ISPs is taken, and the standard deviation is 13.2. An analyst claims that the standard deviation of speeds is more than what was reported. State the null and alternative hypotheses, compute the degrees of freedom, calculate the test statistic, sketch the graph of the <emphasis effect="italics">p</emphasis>-value, and draw a conclusion. Test at the 1 percent significance level.</para></problem>
 <solution id="eip-idp33472464">
 <label/>
  <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12.2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 12.2<sup>2</sup>
@@ -216,7 +216,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
 <item>The test may be left-, right-, or two-tailed.</item>
 </list></section>
  <section id="fs-idm13240448" class="practice">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp102579024"><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> An archer’s standard deviation for his hits is six, where the data are measured in distance from the center of the target. An observer claims the standard deviation is less than six.</para><exercise id="eip-432">
+<para id="eip-idp102579024"><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> An archer’s standard deviation for his hits is six, where the data are measured in distance from the center of the target. An observer claims the standard deviation is less than six.</para><exercise id="eip-432">
    <problem id="eip-192">
   <para id="eip-947">What type of test should be used?</para>
    </problem>
@@ -271,7 +271,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
 </exercise></section>
 <section id="fs-idm85852512" class="free-response">
 <title>Homework</title>
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-993"><emphasis effect="italics">Use the following information to answer the next 12 exercises.</emphasis> Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.
+ <para id="element-993"><emphasis effect="italics">Use the following information to answer the next 12 exercises.</emphasis> Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.
 </para><exercise id="element-377"><problem id="id47989189">
   <para id="element-321">Is the traveler disputing the claim about the average or about the variance?</para>
  </problem>
@@ -312,7 +312,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
   </solution>
  </exercise>
  <exercise id="fs-idm73610688"><problem id="fs-idm57687392">
-   <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm24034400">Let <emphasis effect="italics">α</emphasis> = 0.05<newline/>
+   <para id="fs-idm24034400">Let <emphasis effect="italics">α</emphasis> = 0.05<newline/>
     Decision: ________<newline/>
     Conclusion (write out in a complete sentence): ________</para></problem>
  </exercise><exercise id="eip-572"><problem id="eip-idp77356624">
@@ -329,8 +329,8 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
 </problem>
 <solution id="eip-idm10455136">
 <para id="eip-idm10454880">a student's <emphasis effect="italics">t</emphasis> or normal distribution</para></solution>
-</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-457"><emphasis effect="italics">For each word problem, use a solution sheet to solve the hypothesis test problem. Go to <link document="m79714"/> for the chi-square solution sheet. Round expected frequency to two decimal places.</emphasis></para><exercise id="fs-idp51794048"><problem id="fs-idp51794176">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm36035424">A plant manager is concerned her equipment may need recalibrating. It seems that the actual weight of the 15-ounce cereal boxes it fills has been fluctuating. The standard deviation should be at most 0.5 ounces. To determine if the machine needs to be recalibrated, 84 randomly selected boxes of cereal from the next day’s production were weighed. The standard deviation of the 84 boxes was 0.54. Does the machine need to be recalibrated?
+</exercise><para id="eip-457"><emphasis effect="italics">For each word problem, use a solution sheet to solve the hypothesis test problem. Go to <link document="m79714"/> for the chi-square solution sheet. Round expected frequency to two decimal places.</emphasis></para><exercise id="fs-idp51794048"><problem id="fs-idp51794176">
+  <para id="fs-idm36035424">A plant manager is concerned her equipment may need recalibrating. It seems that the actual weight of the 15-ounce cereal boxes it fills has been fluctuating. The standard deviation should be at most 0.5 ounces. To determine if the machine needs to be recalibrated, 84 randomly selected boxes of cereal from the next day’s production were weighed. The standard deviation of the 84 boxes was 0.54. Does the machine need to be recalibrated?
   </para></problem>
  </exercise><exercise id="element-377ab">
   <problem id="id21087432">
@@ -356,10 +356,10 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
     </item>   </list></solution>
  </exercise>
  <exercise id="fs-idm4701360"><problem id="id21087466">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-427">Isabella, an accomplished Bay-to-Breakers runner, claims that the standard deviation for her time to run the 7.5 mile race is at most 3 minutes. To test her claim, Isabella looks up five of her race times. They are 55 minutes, 61 minutes, 58 minutes, 63 minutes, and 57 minutes.
+  <para id="element-427">Isabella, an accomplished Bay-to-Breakers runner, claims that the standard deviation for her time to run the 7.5 mile race is at most 3 minutes. To test her claim, Isabella looks up five of her race times. They are 55 minutes, 61 minutes, 58 minutes, 63 minutes, and 57 minutes.
   </para></problem>
  </exercise><exercise id="element-691"><problem id="id21087604">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-776">Airline companies are interested in the consistency of the number of babies on each flight so that they have adequate safety equipment. They are also interested in the variation of the number of babies. Suppose that an airline executive believes the average number of babies on flights is six with a variance of nine at most. The airline conducts a survey. The results of the 18 flights surveyed give a sample average of 6.4 with a sample standard deviation of 3.9. Conduct a hypothesis test of the airline executive’s belief.
+  <para id="element-776">Airline companies are interested in the consistency of the number of babies on each flight so that they have adequate safety equipment. They are also interested in the variation of the number of babies. Suppose that an airline executive believes the average number of babies on flights is six with a variance of nine at most. The airline conducts a survey. The results of the 18 flights surveyed give a sample average of 6.4 with a sample standard deviation of 3.9. Conduct a hypothesis test of the airline executive’s belief.
   </para></problem>
   <solution id="fs-idp2191872">
    <list id="fs-idm74960368" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> ≤ 3</item>
@@ -380,7 +380,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
    </list></solution>
  </exercise>
  <exercise id="element-559"><problem id="id21087650">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-641">The number of births per woman in China is 1.6, down from 5.91 in 1966. This fertility rate has been attributed to the law passed in 1979 restricting births to one per woman. Suppose that a group of students studied whether the standard deviation of births per woman was greater than 0.75. They asked 50 women across China the number of births they had. The results are shown in <link target-id="id6106431"/>. Does the students’ survey indicate that the standard deviation is greater than 0.75?
+  <para id="element-641">The number of births per woman in China is 1.6, down from 5.91 in 1966. This fertility rate has been attributed to the law passed in 1979 restricting births to one per woman. Suppose that a group of students studied whether the standard deviation of births per woman was greater than 0.75. They asked 50 women across China the number of births they had. The results are shown in <link target-id="id6106431"/>. Does the students’ survey indicate that the standard deviation is greater than 0.75?
   </para><table id="id6106431" summary="The table has the number of births in the first column and the frequency in the second column. There are 4 rows.">
    <tgroup cols="2"><colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -431,7 +431,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
    </list></solution>
  </exercise>
  <exercise id="element-399"><problem id="id21088008">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp7606224">The manager of Frenchies is concerned that patrons are not consistently receiving the same amount of French fries with each order. The chef claims that the standard deviation for a 10-ounce order of fries is at most 1.5 ounces, but the manager thinks that it may be higher. He randomly weighs 49 orders of fries, which yields a mean of 11 ounces and a standard deviation of 2 ounces.
+  <para id="fs-idp7606224">The manager of Frenchies is concerned that patrons are not consistently receiving the same amount of French fries with each order. The chef claims that the standard deviation for a 10-ounce order of fries is at most 1.5 ounces, but the manager thinks that it may be higher. He randomly weighs 49 orders of fries, which yields a mean of 11 ounces and a standard deviation of 2 ounces.
   </para></problem>
  </exercise><exercise id="eip-340">
   <problem id="eip-90">
@@ -512,8 +512,8 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
     </m:math> </para><para id="fs-idp75024832"><newline/>Alpha: 0.05</para><para id="fs-idp120246432"><newline/>Decision: Do not reject the null hypothesis.</para><para id="fs-idp83140624"><newline/>Reason for decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</para><para id="fs-idp62506704"><newline/>Conclusion: At the 5 percent level, there is insufficient evidence to conclude that the variance is more than 625.</para></solution>
   </exercise>
   <exercise id="eip-idp39276048"><problem id="eip-idp39276176">
-   <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-574">A company packages apples by weight. One of the weight grades is Class A apples. Class A apples have a mean weight of 150 grams, and there is a maximum allowed weight tolerance of 5 percent above or below the mean for apples in the same consumer package. A batch of apples is selected to be included in a Class A apple package. Given the following apple weights of the batch, does the fruit comply with the Class A grade weight tolerance requirements? Conduct an appropriate hypothesis test.</para><para id="eip-idp93825408">(a) At the 5 percent significance level</para>
-   <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp25991408">(b) At the 1 percent significance level</para><para id="eip-idm53488240">Weights in selected apple batch (in grams): 158; 167; 149; 169; 164; 139; 154; 150; 157; 171; 152; 161; 141; 166; and 172.</para>
+   <para id="eip-574">A company packages apples by weight. One of the weight grades is Class A apples. Class A apples have a mean weight of 150 grams, and there is a maximum allowed weight tolerance of 5 percent above or below the mean for apples in the same consumer package. A batch of apples is selected to be included in a Class A apple package. Given the following apple weights of the batch, does the fruit comply with the Class A grade weight tolerance requirements? Conduct an appropriate hypothesis test.</para><para id="eip-idp93825408">(a) At the 5 percent significance level</para>
+   <para id="eip-idp25991408">(b) At the 1 percent significance level</para><para id="eip-idm53488240">Weights in selected apple batch (in grams): 158; 167; 149; 169; 164; 139; 154; 150; 157; 171; 152; 161; 141; 166; and 172.</para>
   </problem>
   </exercise></section>
  </content>

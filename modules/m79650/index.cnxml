@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Using the Central Limit Theorem</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79650</md:content-id>
   <md:title>Using the Central Limit Theorem</md:title>
   <md:abstract/>
@@ -49,7 +49,7 @@
 <example id="element-482">
 <para id="element-361">A study involving stress is conducted among the students on a college campus. <emphasis effect="italics">The stress scores follow a <term>uniform distribution</term></emphasis> with the lowest stress score equal to one and the highest equal to five. Using a sample of 75 students, find:</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp18838512" list-type="enumerated" number-style="lower-alpha"><item>the probability that the <emphasis effect="italics">mean stress score</emphasis> for the 75 students is less than 2</item>
+<list id="fs-idp18838512" list-type="enumerated" number-style="lower-alpha"><item>the probability that the <emphasis effect="italics">mean stress score</emphasis> for the 75 students is less than 2</item>
 <item>the 90<sup>th</sup> percentile for the <emphasis effect="italics">mean stress score</emphasis> for the 75 students</item>
 <item>the probability that the <emphasis effect="italics">total of the 75 stress scores</emphasis> is less than 200</item>
 <item>the 90<sup>th</sup> percentile for the <emphasis effect="italics">total stress score</emphasis> for the 75 students</item>
@@ -57,7 +57,7 @@
 
 <para id="element-632">Problems (a) and (b) ask you to find a probability or a percentile for a <term>mean</term>. Problems (c) and (d) ask you to find a probability or a percentile for a <emphasis>total or sum</emphasis>. The sample size, <emphasis effect="italics">n</emphasis>, is equal to 75.</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-494">Because the individual stress scores follow a uniform distribution, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1, 5) where <emphasis effect="italics">a</emphasis> = 1 and <emphasis effect="italics">b</emphasis> = 5 (see <link document="m79631">Continuous Random Variables</link> for an explanation of a uniform distribution),</para><equation id="fs-id1164567042229">
+<para id="element-494">Because the individual stress scores follow a uniform distribution, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1, 5) where <emphasis effect="italics">a</emphasis> = 1 and <emphasis effect="italics">b</emphasis> = 5 (see <link document="m79631">Continuous Random Variables</link> for an explanation of a uniform distribution),</para><equation id="fs-id1164567042229">
 <m:math>
  <m:semantics>
   <m:mrow>
@@ -465,7 +465,7 @@
 </list></problem>
 
 <solution id="eip-id1171181279568">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm166018016" list-type="enumerated" number-style="lower-alpha"><item>
+<list id="fs-idm166018016" list-type="enumerated" number-style="lower-alpha"><item>
 <para id="fs-idm154380928">Find: <emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
@@ -577,7 +577,7 @@ Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</empha
 
 <exercise id="eip-id1171180910907">
 <problem id="eip-id1171181151372">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-id1171180876381"><title><emphasis>Using the clt to find percentiles</emphasis></title><newline/>Find the 95<sup>th</sup> percentile for the <emphasis>sample mean excess time</emphasis> for a sample of 80 customers who exceed their basic contract time allowances. Draw a graph.</para></problem>
+<para id="eip-id1171180876381"><title><emphasis>Using the clt to find percentiles</emphasis></title><newline/>Find the 95<sup>th</sup> percentile for the <emphasis>sample mean excess time</emphasis> for a sample of 80 customers who exceed their basic contract time allowances. Draw a graph.</para></problem>
 
 <solution id="eip-id1171181126592">
   <para id="eip-id1171181699771">Let <emphasis effect="italics">k</emphasis> = the 95<sup>th</sup> percentile. Find <emphasis effect="italics">k</emphasis> where <emphasis effect="italics">P</emphasis>(<m:math>
@@ -613,7 +613,7 @@ Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</empha
 </media>
 </figure>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-987">The 95<sup>th</sup> percentile for the <emphasis effect="italics">sample mean excess time used</emphasis> is about 26.0 minutes for a random sample of 80 customers who exceed their contractual allowed time.</para><para id="eip-id1171181013130">95 percent of such samples would have means under 26 minutes; only five percent of such samples would have means above 26 minutes.</para></solution>
+<para id="element-987">The 95<sup>th</sup> percentile for the <emphasis effect="italics">sample mean excess time used</emphasis> is about 26.0 minutes for a random sample of 80 customers who exceed their contractual allowed time.</para><para id="eip-id1171181013130">95 percent of such samples would have means under 26 minutes; only five percent of such samples would have means above 26 minutes.</para></solution>
 </exercise>
 </example>
 
@@ -647,7 +647,7 @@ Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</empha
 </exercise></note>
 
 <example id="fs-idm153949776">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp5363584">U.S. scientists studying a certain medical condition discovered that a new person is diagnosed every two minutes, on average. Suppose the standard deviation is 0.5 minutes and the sample size is 100.</para><exercise id="fs-idm67039584">
+<para id="fs-idp5363584">U.S. scientists studying a certain medical condition discovered that a new person is diagnosed every two minutes, on average. Suppose the standard deviation is 0.5 minutes and the sample size is 100.</para><exercise id="fs-idm67039584">
 <problem id="fs-idm9526400">
 <list id="fs-idm184397680" list-type="enumerated" number-style="lower-alpha"><item>Find the median, the first quartile, and the third quartile for the sample mean time of diagnosis in the United States.</item>
 <item>Find the median, the first quartile, and the third quartile for the sum of sample times of diagnosis in the United States.</item>
@@ -746,7 +746,7 @@ Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</empha
 <title>Try It</title>
 <exercise id="fs-idm59759104">
 <problem id="fs-idm113132656">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm69144496">Based on data from the National Health Survey, women between the ages of 18 and 24 have an average systolic blood pressures (in mm Hg) of 114.8 with a standard deviation of 13.1. Systolic blood pressure for women between the ages of 18 to 24 follows a normal distribution.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm115059504" list-type="enumerated" number-style="lower-alpha"><item>If one woman from this population is randomly selected, find the probability that her systolic blood pressure is greater than 120.</item>
+<para id="fs-idm69144496">Based on data from the National Health Survey, women between the ages of 18 and 24 have an average systolic blood pressures (in mm Hg) of 114.8 with a standard deviation of 13.1. Systolic blood pressure for women between the ages of 18 to 24 follows a normal distribution.</para><list id="fs-idm115059504" list-type="enumerated" number-style="lower-alpha"><item>If one woman from this population is randomly selected, find the probability that her systolic blood pressure is greater than 120.</item>
 <item>If 40 women from this population are randomly selected, find the probability that their mean systolic blood pressure is greater than 120.</item>
 <item>If the sample was four women between the ages of 18–24 and we did not know the original distribution, could the central limit theorem be used?</item>
 </list></problem>
@@ -789,7 +789,7 @@ Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</empha
 <exercise id="fs-idm108732608">
 <problem id="fs-idm110483328">
 <para id="fs-idm753456">A study was done about a medical condition that affects a certain group of people. The age range of the people was 14–61. The mean age was 30.9 years with a standard deviation of nine years.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm45985568" list-type="enumerated" number-style="lower-alpha"><item>In a sample of 25 people, what is the probability that the mean age of the people is less than 35?</item>
+<list id="fs-idm45985568" list-type="enumerated" number-style="lower-alpha"><item>In a sample of 25 people, what is the probability that the mean age of the people is less than 35?</item>
 <item>Is it likely that the mean age of the sample group could be more than 50 years? Interpret the results.</item>
 <item>In a sample of 49 people, what is the probability that the sum of the ages is no less than 1,600?</item>
 <item>Is it likely that the sum of the ages of the 49 people are at most 1,595? Interpret the results.</item>
@@ -797,7 +797,7 @@ Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</empha
 <item>Find the 90<sup>th</sup> percentile for the sum of the ages of 65 people. Interpret the results.</item>
 </list></problem>
 <solution id="fs-idm138994048" class="finger">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm86323200" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<m:math>
+<list id="fs-idm86323200" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -824,7 +824,7 @@ Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</empha
 <title>Try It</title>
 <exercise id="fs-idm123966224">
 <problem id="fs-idm146706672">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm107433712">According to data from an aerospace company, the 757 airliner carries 200 passengers and has doors with a mean height of 72 inches. Assume for a certain population of men we have a mean of 69 inches inches and a standard deviation of 2.8 inches.</para><list id="fs-idm131956368" list-type="enumerated" number-style="lower-alpha"><item>What mean doorway height would allow 95 percent of men to enter the aircraft without bending?</item>
+<para id="fs-idm107433712">According to data from an aerospace company, the 757 airliner carries 200 passengers and has doors with a mean height of 72 inches. Assume for a certain population of men we have a mean of 69 inches inches and a standard deviation of 2.8 inches.</para><list id="fs-idm131956368" list-type="enumerated" number-style="lower-alpha"><item>What mean doorway height would allow 95 percent of men to enter the aircraft without bending?</item>
 <item>Assume that half of the 200 passengers are men. What mean doorway height satisfies the condition that there is a 0.95 probability that this height is greater than the mean height of 100 men?</item>
 <item>For engineers designing the 757, which result is more relevant: the height from part (a) or part (b)? Why?</item>
 </list></problem>
@@ -845,7 +845,7 @@ Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</empha
 <item>The outcomes of any trial are success or failure.</item>
 <item>Each trial has the same probability of a success, <emphasis effect="italics">p</emphasis>.</item>
 </list>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm101632">Recall that if <emphasis effect="italics">X</emphasis> is the binomial random variable, then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>). The shape of the binomial distribution needs to be
+<para id="fs-idm101632">Recall that if <emphasis effect="italics">X</emphasis> is the binomial random variable, then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>). The shape of the binomial distribution needs to be
 similar to the shape of the normal distribution. To ensure this, the quantities <emphasis effect="italics">np</emphasis>
 and <emphasis effect="italics">nq</emphasis> must both be greater than five (<emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; 5;  the approximation is better if they are both greater than or equal to 10. The product &gt;5 is more or less accepted as the norm here.). This is another accepted rule. So, for whatever value of <emphasis effect="italics">x</emphasis> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. Then the binomial can be approximated by the normal distribution with mean <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
@@ -856,19 +856,19 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   </m:msqrt>
 
  </m:mrow>
-</m:math>. Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="italics">p</emphasis>. In order to get the best approximation, add 0.5 to <emphasis effect="italics">x</emphasis> or subtract 0.5 from <emphasis effect="italics">x</emphasis> (use <emphasis effect="italics">x</emphasis> + 0.5 or <emphasis effect="italics">x</emphasis> – 0.5).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164967658002">This is another accepted rule. So, for whatever value of <emphasis effect="italics">x</emphasis> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. The number 0.5 is called the <term>continuity correction factor</term> and is used in the following example.</para></note><example id="eip-831">
+</m:math>. Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="italics">p</emphasis>. In order to get the best approximation, add 0.5 to <emphasis effect="italics">x</emphasis> or subtract 0.5 from <emphasis effect="italics">x</emphasis> (use <emphasis effect="italics">x</emphasis> + 0.5 or <emphasis effect="italics">x</emphasis> – 0.5).</para><para id="fs-id1164967658002">This is another accepted rule. So, for whatever value of <emphasis effect="italics">x</emphasis> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. The number 0.5 is called the <term>continuity correction factor</term> and is used in the following example.</para></note><example id="eip-831">
 <para id="eip-926">Suppose in a local kindergarten through 12<sup>th</sup> grade (K12) school district, 53 percent of the population favor a charter school for grades K through 5. A simple random sample of 300 is surveyed.</para><list id="eip-306" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that <emphasis effect="italics">at least 150</emphasis> favor a charter school.</item>
 <item>Find the probability that <emphasis effect="italics">at most 160</emphasis> favor a charter school.</item>
 <item>Find the probability that <emphasis effect="italics">more than 155</emphasis> favor a charter school.</item>
 <item>Find the probability that <emphasis effect="italics">fewer than 147</emphasis> favor a charter school.</item>
 <item>Find the probability that <emphasis effect="italics">exactly 175</emphasis> favor a charter school.</item>
- </list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-778">Let <emphasis effect="italics">X</emphasis> = the number that favor a charter school for grades K through 5. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>) where <emphasis effect="italics">n</emphasis> = 300 and <emphasis effect="italics">p</emphasis> = 0.53. Because <emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; 5, use the normal approximation to the binomial. The formulas for the mean and standard deviation are <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">σ</emphasis> = <m:math>
+ </list><para id="eip-778">Let <emphasis effect="italics">X</emphasis> = the number that favor a charter school for grades K through 5. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>) where <emphasis effect="italics">n</emphasis> = 300 and <emphasis effect="italics">p</emphasis> = 0.53. Because <emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; 5, use the normal approximation to the binomial. The formulas for the mean and standard deviation are <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow> <m:msqrt><m:mrow>
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math>. The mean is 159, and the standard deviation is 8.6447. The random variable for the normal distribution is <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159, 8.6447). See <link document="m79640">The Normal Distribution</link> for help with calculator instructions.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-214" class="finger">For Part (a), you <emphasis effect="italics">include 150</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) has a normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> ≥ 149.5) = 0.8641.</para><para id="eip-554"><code>normalcdf</code>(149.5,10^99,159,8.6447) = 0.8641.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-323">For Part (b), you <emphasis effect="italics">include 160</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) has a normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> ≤ 160.5) = 0.5689.</para><para id="eip-162"><code>normalcdf</code>(0,160.5,159,8.6447) = 0.5689</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-630">For Part (c), you <emphasis effect="italics">exclude 155</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis> &gt; 155.5) = 0.6572.</para><para id="eip-763"><code>normalcdf</code>(155.5,10^99,159,8.6447) = 0.6572.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-955">For Part (d), you <emphasis effect="italics">exclude 147</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> &lt; 146.5) = 0.0741.</para><para id="eip-555"><code>normalcdf</code>(0,146.5,159,8.6447) = 0.0741</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-788">For Part (e), <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) has normal approximation <emphasis effect="italics">P</emphasis>(174.5 &lt; <emphasis effect="italics">Y</emphasis> &lt; 175.5) = 0.0083.</para><para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0.0083</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-863" class="finger">Because of calculators and computer software that let you calculate binomial probabilities for large values of <emphasis effect="italics">n</emphasis> easily, it is not necessary to use the the normal approximation to the binomial distribution, provided that you have access to these technology tools. Most school labs have computer software that calculates binomial probabilities. Many students have access to calculators that calculate probabilities for binomial distribution. If you type in <emphasis effect="italics">binomial probability distribution calculation</emphasis> in an internet browser, you can find at least one online calculator for the binomial.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-251">For <link target-id="fs-idm153949776" document=""/>, the  probabilities are calculated using the following binomial distribution: (<emphasis effect="italics">n</emphasis> = 300 and <emphasis effect="italics">p</emphasis> = 0.53). Compare the binomial and normal distribution answers. See <link document="m79620">Discrete Random Variables</link> for help with calculator instructions for the binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 - binomialcdf</code>(300,0.53,149) = 0.8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0.5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) :<code>1 - binomialcdf</code>(300,0.53,155) = 0.6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0.0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) :(You use the binomial pdf.)<code>binomialpdf</code>(300,0.53,175) = 0.0083</para></example>
+</m:math>. The mean is 159, and the standard deviation is 8.6447. The random variable for the normal distribution is <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159, 8.6447). See <link document="m79640">The Normal Distribution</link> for help with calculator instructions.</para><para id="eip-214" class="finger">For Part (a), you <emphasis effect="italics">include 150</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) has a normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> ≥ 149.5) = 0.8641.</para><para id="eip-554"><code>normalcdf</code>(149.5,10^99,159,8.6447) = 0.8641.</para><para id="eip-323">For Part (b), you <emphasis effect="italics">include 160</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) has a normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> ≤ 160.5) = 0.5689.</para><para id="eip-162"><code>normalcdf</code>(0,160.5,159,8.6447) = 0.5689</para><para id="eip-630">For Part (c), you <emphasis effect="italics">exclude 155</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis> &gt; 155.5) = 0.6572.</para><para id="eip-763"><code>normalcdf</code>(155.5,10^99,159,8.6447) = 0.6572.</para><para id="eip-955">For Part (d), you <emphasis effect="italics">exclude 147</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> &lt; 146.5) = 0.0741.</para><para id="eip-555"><code>normalcdf</code>(0,146.5,159,8.6447) = 0.0741</para><para id="eip-788">For Part (e), <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) has normal approximation <emphasis effect="italics">P</emphasis>(174.5 &lt; <emphasis effect="italics">Y</emphasis> &lt; 175.5) = 0.0083.</para><para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0.0083</para><para id="eip-863" class="finger">Because of calculators and computer software that let you calculate binomial probabilities for large values of <emphasis effect="italics">n</emphasis> easily, it is not necessary to use the the normal approximation to the binomial distribution, provided that you have access to these technology tools. Most school labs have computer software that calculates binomial probabilities. Many students have access to calculators that calculate probabilities for binomial distribution. If you type in <emphasis effect="italics">binomial probability distribution calculation</emphasis> in an internet browser, you can find at least one online calculator for the binomial.</para><para id="eip-251">For <link target-id="fs-idm153949776" document=""/>, the  probabilities are calculated using the following binomial distribution: (<emphasis effect="italics">n</emphasis> = 300 and <emphasis effect="italics">p</emphasis> = 0.53). Compare the binomial and normal distribution answers. See <link document="m79620">Discrete Random Variables</link> for help with calculator instructions for the binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 - binomialcdf</code>(300,0.53,149) = 0.8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0.5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) :<code>1 - binomialcdf</code>(300,0.53,155) = 0.6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0.0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) :(You use the binomial pdf.)<code>binomialpdf</code>(300,0.53,175) = 0.0083</para></example>
 </section>
 </section>
 
@@ -876,7 +876,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 <label/>
 <title>Try It</title>
 <exercise id="fs-idm78234832"><problem id="fs-idm12123632">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm152181632">In a city, 46 percent of the population favors the incumbent, Dawn Morgan, for mayor. A simple random sample of 500 is taken. Using the continuity correction factor, find the probability that at least 250 favor Dawn Morgan for mayor.</para></problem>
+<para id="fs-idm152181632">In a city, 46 percent of the population favors the incumbent, Dawn Morgan, for mayor. A simple random sample of 500 is taken. Using the continuity correction factor, find the probability that at least 250 favor Dawn Morgan for mayor.</para></problem>
 <solution id="fs-idm92157744">
 <label/>
 <title>Solutions</title>
@@ -924,7 +924,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </exercise>
 
 <exercise id="fs-idm84240544"><problem id="fs-idp8363072">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm117442736">Draw the graph of <link target-id="exercise4" document=""/>.</para></problem>
+<para id="fs-idm117442736">Draw the graph of <link target-id="exercise4" document=""/>.</para></problem>
 
 <!-- <solution id="fs-idm124774096">
 <figure id="fs-idm129645712"><media id="fs-idm66137264" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. An arrow points to 25 showing P(x-bar &lt; 24.9).">
@@ -942,7 +942,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 
 
 <exercise id="fs-idm30735600"><problem id="fs-idm87184416">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm68751264">Draw the graph of <link target-id="exercise6" document=""/>.</para></problem>
+<para id="fs-idm68751264">Draw the graph of <link target-id="exercise6" document=""/>.</para></problem>
 
 <!-- <solution id="fs-idm90694544">
 <figure id="eip-idp936112">
@@ -962,7 +962,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 
 
 <exercise id="fs-idm167897040"><problem id="fs-idm61920032">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm111847536">Draw the graph of <link target-id="exercise8" document=""/>.</para></problem>
+<para id="fs-idm111847536">Draw the graph of <link target-id="exercise8" document=""/>.</para></problem>
 
 <!-- <solution id="fs-idm110267328">
 <figure id="eip-idp3873008"><media id="fs-idm113411344" alt="This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. A point, k, is labeled to the right of 25. A vertical line extends from k to the curve. An arrow points to 25 showing P(x-bar &lt; k) = 0.90.">
@@ -984,7 +984,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </exercise>
 
 <exercise id="exercise11"><problem id="fs-idm29117824">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm110263040">Draw the graph of <link target-id="exercise10" document=""/>.</para></problem>
+<para id="fs-idm110263040">Draw the graph of <link target-id="exercise10" document=""/>.</para></problem>
 
 <!-- <solution id="fs-idp11678144">
 <figure id="eip-idm64321520">
@@ -1001,7 +1001,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </exercise>
 
 <exercise id="fs-idm54084400"><problem id="fs-idm58526640">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp2153120">Draw the graph of <link target-id="exercise12" document=""/>.</para></problem>
+<para id="fs-idp2153120">Draw the graph of <link target-id="exercise12" document=""/>.</para></problem>
 
 <!-- <solution id="fs-idm17187952">
 <figure id="eip-idp76755600">
@@ -1105,7 +1105,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </problem>
 
 <!-- <solution id="fs-idm72677136"><para id="fs-idm12285840">205.05</para></solution> -->
-</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm65293824"><emphasis effect="italics"><newline/>Use the following information to answer the next six exercises:</emphasis> A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.</para><exercise id="fs-idm1612656">
+</exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use the following information to answer the next six exercises:</emphasis> A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.</para><exercise id="fs-idm1612656">
 <problem id="fs-idm47127360">
 <para id="fs-idm47127232">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 420).</para>
 </problem>
@@ -1146,7 +1146,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 <exercise id="element-941"><problem id="id6533927">
   <para id="element-918">The attention span of a two-year-old is exponentially distributed with a mean of about eight minutes. Suppose we randomly survey 60 two-year-olds.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-307" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">Χ</emphasis> = _______.</item>
+<list id="element-307" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">Χ</emphasis> = _______.</item>
 <item><emphasis effect="italics">Χ</emphasis> ~  _____(_____, _____)</item>
 <item>In words, <m:math>
  <m:mover accent="true">
@@ -1231,7 +1231,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </list></solution> -->
 </exercise><exercise id="element-897">
 <problem id="id6536735">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-790">The closing stock prices of 35 U.S. semiconductor manufacturers are given as follows:</para><table id="fs-id1169831699204" summary="">
+  <para id="element-790">The closing stock prices of 35 U.S. semiconductor manufacturers are given as follows:</para><table id="fs-id1169831699204" summary="">
 <tgroup cols="2">
 <thead>
 <row>
@@ -1384,7 +1384,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </tgroup>
 </table>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="madeup9" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">Χ</emphasis> = ______________.</item>
+<list id="madeup9" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">Χ</emphasis> = ______________.</item>
 	<item><list id="list234325" list-type="enumerated" number-style="lower-roman">
 <item><m:math>
  <m:mover accent="true">
@@ -1420,7 +1420,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </m:math> ~ _____(_____, ____).</item>
 </list></problem>
 <solution id="id6537488">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="madeup8" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the closing stock prices for U.S. semiconductor manufacturers</item>
+<list id="madeup8" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the closing stock prices for U.S. semiconductor manufacturers</item>
 <item>i. $20.71, ii. $17.31, iii. 35</item>
 <item/>
 <item>exponential distribution, <emphasis effect="italics">Χ ~ Exp</emphasis><m:math>
@@ -1469,7 +1469,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 
 
 <para id="fs-idm20388704"><emphasis effect="italics"><newline/>Use the following information to answer the next three exercises:</emphasis> Richard’s Furniture Company delivers furniture from 10 a.m. to 2 p.m. continuously and uniformly. We are interested in how long (in hours) past the 10 a.m. start time that individuals wait for their delivery.</para><exercise id="element-725"><problem id="id10684324">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-386"><emphasis effect="italics">Χ</emphasis> ~ _____(_____, _____)</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-596" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">U</emphasis>(0, 4)</item>
+  <para id="element-386"><emphasis effect="italics">Χ</emphasis> ~ _____(_____, _____)</para><list id="element-596" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">U</emphasis>(0, 4)</item>
 <item><emphasis effect="italics">U</emphasis>(10, 2)</item>
 <item><emphasis effect="italics">Eχp</emphasis>(2)</item>
 <item><emphasis effect="italics">N</emphasis>(2, 1)</item></list></problem>
@@ -1480,7 +1480,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </exercise><exercise id="element-407">
 <problem id="id11298063">
   <para id="element-498">The average wait time is:</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-143" list-type="enumerated" number-style="lower-alpha"><item>one hour</item>
+<list id="element-143" list-type="enumerated" number-style="lower-alpha"><item>one hour</item>
 <item>two hours</item>
 <item>two and a half hours</item>
 <item>four hours</item></list></problem>
@@ -1563,7 +1563,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <para id="element-59">a</para>
 </solution> -->
 </exercise><para id="fs-idm126595600"><emphasis effect="italics"><newline/>Use the following to answer the next two exercises:</emphasis> The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.</para><exercise id="element-644"><problem id="id6538784">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-163">What's the approximate probability that the average price for 16 gas stations is more than $4.69?</para><list id="element-390" list-type="enumerated" number-style="lower-alpha">
+  <para id="element-163">What's the approximate probability that the average price for 16 gas stations is more than $4.69?</para><list id="element-390" list-type="enumerated" number-style="lower-alpha">
 <item>almost zero</item>
 <item>0.1587</item>
 <item>0.0943</item>
@@ -1639,7 +1639,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 
 </m:math>, and find the probability.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-455" list-type="enumerated" number-style="lower-alpha"><item>Sketch the distributions of <emphasis effect="italics">X</emphasis> and
+<list id="element-455" list-type="enumerated" number-style="lower-alpha"><item>Sketch the distributions of <emphasis effect="italics">X</emphasis> and
 <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
@@ -1719,7 +1719,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </item></list></solution>
 </exercise><exercise id="element-666"><problem id="id6534247">
 <para id="element-660">Suppose that the length of research papers is uniformly distributed from 10 to 25 pages. We survey a class in which 55 research papers were turned in to a professor. The 55 research papers are considered a random collection of all papers. We are interested in the average length of the research papers.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-826" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">X</emphasis> = _____________.</item>
+<list id="element-826" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">X</emphasis> = _____________.</item>
 <item><emphasis effect="italics">X</emphasis> ~ _____(_____, _____)</item>
 <item><emphasis effect="italics">μ<sub>x</sub></emphasis> = _____</item>
 <item><emphasis effect="italics">σ<sub>x</sub></emphasis> = _____</item>
@@ -1788,7 +1788,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 
 <exercise id="element-566"><problem id="id6536038">
   <para id="element-798">The average length of a maternity stay in a U.S. hospital is said to be 2.4 days with a standard deviation of 0.9 days. We randomly survey 80 women who recently bore children in a U.S. hospital.</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="madeup" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">X</emphasis> = _____________.</item>
+<list id="madeup" list-type="enumerated" number-style="lower-alpha"><item>In words, <emphasis effect="italics">X</emphasis> = _____________.</item>
 <item>In words, <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
@@ -2185,7 +2185,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </exercise>
 
 <exercise id="fs-idp89909664"><problem id="fs-idp89909920">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp54889200">The Screw Right Company claims their <m:math>
+<para id="fs-idp54889200">The Screw Right Company claims their <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>3</m:mn>

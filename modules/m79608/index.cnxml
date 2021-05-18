@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Descriptive Statistics</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79608</md:content-id>
   <md:title>Descriptive Statistics</md:title>
   <md:abstract/>
@@ -11,13 +11,13 @@
 <content>
 <section id="fs-id1164562360289">
 <note id="fs-id1169266836319" class="statistics lab"><label/><title>Descriptive Statistics</title>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-397s" list-type="bulleted"><title>Student Learning Outcomes</title><item>The student will construct a histogram and a box plot.</item>
+<list id="element-397s" list-type="bulleted"><title>Student Learning Outcomes</title><item>The student will construct a histogram and a box plot.</item>
 <item>The student will calculate univariate statistics.</item>
 <item>The student will examine the graphs to interpret what the data imply.</item></list><para id="element-324">
 <title>Collect the Data</title>
 Record the number of pairs of shoes you own.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="listhioaasdfadsf" list-type="enumerated"><item>Randomly survey 30 classmates about the number of pairs of shoes they own. Record their values.
+<list id="listhioaasdfadsf" list-type="enumerated"><item>Randomly survey 30 classmates about the number of pairs of shoes they own. Record their values.
 <table id="element-30" summary="This is a blank table with 30 cells for recording values.">
 
 <title>Survey Results</title>
@@ -96,7 +96,7 @@ Record the number of pairs of shoes you own.</para>
 <item>Are there any potential outliers? List the value(s) that could be outliers. Use a formula to check the end values to determine if they are potential outliers.
 </item>
 
-</list><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list6798" list-type="enumerated"><title>Analyze the Data</title><item>Determine the following values:
+</list><list id="list6798" list-type="enumerated"><title>Analyze the Data</title><item>Determine the following values:
 <list id="eip-idp41229376" list-type="enumerated" number-style="lower-alpha">
 <item>Min = _____</item>
 <item><emphasis effect="italics">M</emphasis> = _____</item>

@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Goodness-of-Fit Test</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79675</md:content-id>
   <md:title>Goodness-of-Fit Test</md:title>
   <md:abstract/>
@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164561108845">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-112">In this type of hypothesis test, you determine whether the data fit a particular distribution. For example, you may suspect your unknown data fit a binomial distribution. You use a chi-square test, meaning the distribution for the hypothesis test is chi-square, to determine if there is a fit. The null and the alternative hypotheses for this test may be written in sentences or may be stated as equations or inequalities.</para><para id="element-908">The test statistic for a goodness-of-fit test is:</para>
+<para id="element-112">In this type of hypothesis test, you determine whether the data fit a particular distribution. For example, you may suspect your unknown data fit a binomial distribution. You use a chi-square test, meaning the distribution for the hypothesis test is chi-square, to determine if there is a fit. The null and the alternative hypotheses for this test may be written in sentences or may be stated as equations or inequalities.</para><para id="element-908">The test statistic for a goodness-of-fit test is:</para>
 <equation class="unnumbered" id="element-252"><label/><m:math>
  <m:mrow>
   <m:munder>
@@ -35,7 +35,7 @@
 <list id="fs-idm37230752" list-type="bulleted"><item><emphasis effect="italics">O</emphasis> = <term>observed values</term> (data),</item>
 <item id="element-481"><emphasis effect="italics">E</emphasis> = <term>expected values</term> (from theory), and</item>
 <item id="element-402"><emphasis effect="italics">k</emphasis> = the number of different data cells or categories.</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-512">The observed values are the data values, and the expected values are the values you would expect to get if the null hypothesis were true. There are <emphasis effect="italics">n</emphasis> terms of the form <m:math>
+</list><para id="element-512">The observed values are the data values, and the expected values are the values you would expect to get if the null hypothesis were true. There are <emphasis effect="italics">n</emphasis> terms of the form <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -51,7 +51,7 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math>.</para><para id="element-304">The number of degrees of freedom is <emphasis effect="italics">df</emphasis> = (number of categories – 1).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-838">The goodness-of-fit test is almost always right-tailed. If the observed values and the corresponding expected values are not close to each other, then the test statistic can get very large and will be way out in the right tail of the chi-square curve.</para><note id="eip-587"><label/><title>Note</title>
+</m:math>.</para><para id="element-304">The number of degrees of freedom is <emphasis effect="italics">df</emphasis> = (number of categories – 1).</para><para id="element-838">The goodness-of-fit test is almost always right-tailed. If the observed values and the corresponding expected values are not close to each other, then the test statistic can get very large and will be way out in the right tail of the chi-square curve.</para><note id="eip-587"><label/><title>Note</title>
 <para id="fs-idm98728224">The expected value for each cell needs to be at least five for you to use this test.</para></note><example id="element-719"><para id="element-615">Absenteeism of college students from math classes is a major concern to math instructors because missing class appears to increase the drop rate. Suppose that a study was done to determine if the actual student absenteeism rate follows faculty perception. The faculty expected that a group of 100 students would miss class according to <link target-id="M03_Ch03_tbl001"/>.</para><table id="M03_Ch03_tbl001" summary="The table consists of two columns with headings Number of absences and Expected number of students. There are 5 entries under each heading. Under Number of absences are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 50, 30, 12, 6, 2.">
 <tgroup cols="2"><thead>
   <row>
@@ -82,7 +82,7 @@
   </row>
 </tbody>
 </tgroup>
-</table><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-952">A random survey across all mathematics courses was then done to determine the number of observed absences in a course. <link target-id="M03_Ch03_tbl002"/> displays the results of that survey.
+</table><para id="eip-952">A random survey across all mathematics courses was then done to determine the number of observed absences in a course. <link target-id="M03_Ch03_tbl002"/> displays the results of that survey.
 <table id="M03_Ch03_tbl002" summary="The table consists of two columns with headings Number of absences per term and Actual number of students. There are 5 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 35, 40, 20, 1, 4">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -116,11 +116,11 @@
 </tbody>
 </tgroup>
 </table>
-<newline/>Determine the null and alternative hypotheses needed to conduct a goodness-of-fit test.</para><para id="element-846"><emphasis effect="italics">H<sub>0</sub></emphasis>: Student absenteeism <emphasis effect="italics">fits</emphasis> faculty perception.</para><para id="element-82"><newline/>The alternative hypothesis is the opposite of the null hypothesis.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-421"><emphasis effect="italics">H<sub>a</sub></emphasis>: Student absenteeism <emphasis effect="italics">does not fit</emphasis> faculty perception.</para><exercise id="fs-idp16583968">
+<newline/>Determine the null and alternative hypotheses needed to conduct a goodness-of-fit test.</para><para id="element-846"><emphasis effect="italics">H<sub>0</sub></emphasis>: Student absenteeism <emphasis effect="italics">fits</emphasis> faculty perception.</para><para id="element-82"><newline/>The alternative hypothesis is the opposite of the null hypothesis.</para><para id="element-421"><emphasis effect="italics">H<sub>a</sub></emphasis>: Student absenteeism <emphasis effect="italics">does not fit</emphasis> faculty perception.</para><exercise id="fs-idp16583968">
 <problem id="id6198828">
   <para id="element-451">a. Can you use the information as it appears in the charts to conduct the goodness-of-fit test? </para></problem>
 <solution id="id6198852">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-600">a. <emphasis>No.</emphasis> Notice that the expected number of absences for the 12+ entry is less than five; it is two. Combine that group with the 9–11 group to create new tables where the number of students for each entry is at least five. The new results are in <link target-id="M03_Ch03_tbl003"/> and <link target-id="M03_Ch03_tbl004"/>.
+  <para id="element-600">a. <emphasis>No.</emphasis> Notice that the expected number of absences for the 12+ entry is less than five; it is two. Combine that group with the 9–11 group to create new tables where the number of students for each entry is at least five. The new results are in <link target-id="M03_Ch03_tbl003"/> and <link target-id="M03_Ch03_tbl004"/>.
 <newline/>
 <table id="M03_Ch03_tbl003" summary="The new table consists of two columns with headings Number of absences per term and Expected number of students. There are 4 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9+ plus. Under Expected number of students are the entries 50, 30, 12, 8.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
@@ -186,7 +186,7 @@
 <problem id="id6198893">
   <para id="element-496">b. What is the number of degrees of freedom (<emphasis effect="italics">df</emphasis>)?</para></problem>
 <solution id="id6198915">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-601">b. There are four cells or categories in each of the new tables.</para><para id="element-6012"><emphasis effect="italics">df</emphasis> = number of cells – 1 = 4 – 1 = 3.</para></solution>
+  <para id="element-601">b. There are four cells or categories in each of the new tables.</para><para id="element-6012"><emphasis effect="italics">df</emphasis> = number of cells – 1 = 4 – 1 = 3.</para></solution>
 </exercise></example><note id="fs-idm289894560" class="statistics try"><label/><title>Try It</title>
 <exercise id="eip-31">
 <problem id="eip-864">
@@ -275,9 +275,9 @@
 </table>
 </problem>
 <solution id="id6215647">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-13">The null and alternative hypotheses are as follows:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-741" list-type="bulleted"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: The absent days occur with equal frequencies; that is, they fit a uniform distribution.</item>
+  <para id="element-13">The null and alternative hypotheses are as follows:</para><list id="element-741" list-type="bulleted"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: The absent days occur with equal frequencies; that is, they fit a uniform distribution.</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: The absent days occur with unequal frequencies; that is, they do not fit a uniform distribution.</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-71">If the absent days occur with equal frequencies, then, out of 60 absent days (the total in the sample: 15 + 12 + 9 + 9 + 15 = 60) there would be 12 absences on Monday, 12 on Tuesday, 12 on Wednesday, 12 on Thursday, and 12 on Friday. These numbers are the <emphasis effect="italics">expected</emphasis> (<emphasis effect="italics">E</emphasis>) values. The values in the table are the <emphasis effect="italics">observed</emphasis> (<emphasis effect="italics">O</emphasis>) values or data.</para><para id="element-489">This time, calculate the <emphasis effect="italics">χ</emphasis><sup>2</sup> test statistic by hand. Make a chart with the following headings  and fill in the columns:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-120" list-type="bulleted" bullet-style="none"><item>Expected (<emphasis effect="italics">E</emphasis>) values (12, 12, 12, 12, 12)</item>
+</list><para id="element-71">If the absent days occur with equal frequencies, then, out of 60 absent days (the total in the sample: 15 + 12 + 9 + 9 + 15 = 60) there would be 12 absences on Monday, 12 on Tuesday, 12 on Wednesday, 12 on Thursday, and 12 on Friday. These numbers are the <emphasis effect="italics">expected</emphasis> (<emphasis effect="italics">E</emphasis>) values. The values in the table are the <emphasis effect="italics">observed</emphasis> (<emphasis effect="italics">O</emphasis>) values or data.</para><para id="element-489">This time, calculate the <emphasis effect="italics">χ</emphasis><sup>2</sup> test statistic by hand. Make a chart with the following headings  and fill in the columns:</para><list id="element-120" list-type="bulleted" bullet-style="none"><item>Expected (<emphasis effect="italics">E</emphasis>) values (12, 12, 12, 12, 12)</item>
 <item>Observed (<emphasis effect="italics">O</emphasis>) values (15, 12, 9, 9, 15)</item>
 <item>(<emphasis effect="italics">O</emphasis> – <emphasis effect="italics">E</emphasis>)</item>
 <item>(<emphasis effect="italics">O</emphasis> – <emphasis effect="italics">E</emphasis>)<sup>2</sup>
@@ -300,12 +300,12 @@
  </m:mrow>
 </m:math></item>
 </list><para id="element-231">Now add (sum) the last column. The sum is three. This is the <emphasis effect="italics">χ<sup>2</sup></emphasis> test statistic.</para>
-<para id="element-290">To find the <emphasis effect="italics">p</emphasis>-value, calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> &gt; 3). This test is right-tailed. Use a computer or calculator to find the <emphasis effect="italics">p</emphasis>-value. You should get <emphasis effect="italics">p</emphasis>-value = 0.5578.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-894">The <emphasis effect="italics">df</emphasis>s are the number of cells – 1 = 5 – 1 = 4.</para><note id="fs-idm116498656" class="statistics calculator"><label/>
+<para id="element-290">To find the <emphasis effect="italics">p</emphasis>-value, calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> &gt; 3). This test is right-tailed. Use a computer or calculator to find the <emphasis effect="italics">p</emphasis>-value. You should get <emphasis effect="italics">p</emphasis>-value = 0.5578.</para><para id="element-894">The <emphasis effect="italics">df</emphasis>s are the number of cells – 1 = 5 – 1 = 4.</para><note id="fs-idm116498656" class="statistics calculator"><label/>
 <para id="fs-idm110710848">Press <code>2nd DISTR</code>. Arrow down to <code>χ<sup>2</sup>cdf</code>. Press <code>ENTER</code>. Enter <code>(3,10^99,4)</code>. Rounded to four decimal places, you should see .5578, which is the <emphasis effect="italics">p</emphasis>-value.</para></note><para id="element-724">Next, complete a graph like the following one with the proper labeling and shading. You should shade the right tail.</para>
 <figure id="eip-idm102621328"><media id="id6207852" alt="This is a blank nonsymmetrical chi-square curve for the test statistic of the days of the week absent." display="block"><image src="../../media/fig-ch11_04_01.jpg" mime-type="image/jpg" width="380"/></media></figure>
 <para id="element-545">The decision is not to reject the null hypothesis.</para>
 <para id="element-1000"><emphasis>Conclusion:</emphasis> At a 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the absent days do not occur with equal frequencies.</para><note id="fs-idm74937360" class="statistics calculator"><label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm210045248">TI-83+ and some TI-84 calculators do not have a special program for the test statistic for the goodness-of-fit test. The next example, <link target-id="example3"/>, has the calculator instructions. The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values—the data—into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>Calculate</code> or <code>Draw</code>. Make sure you clear any lists before you start. <emphasis>To Clear Lists in the calculators:</emphasis> Go into <code>STAT EDIT</code> and arrow up to the list name area of the particular list. Press <code>CLEAR</code> and then arrow down. The list will be cleared. Alternatively, you can press <code>STAT</code> and press 4 for <code>ClrList</code>. Enter the list name and press <code>ENTER</code>.</para></note></solution>
+<para id="fs-idm210045248">TI-83+ and some TI-84 calculators do not have a special program for the test statistic for the goodness-of-fit test. The next example, <link target-id="example3"/>, has the calculator instructions. The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values—the data—into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>Calculate</code> or <code>Draw</code>. Make sure you clear any lists before you start. <emphasis>To Clear Lists in the calculators:</emphasis> Go into <code>STAT EDIT</code> and arrow up to the list name area of the particular list. Press <code>CLEAR</code> and then arrow down. The list will be cleared. Alternatively, you can press <code>STAT</code> and press 4 for <code>ClrList</code>. Enter the list name and press <code>ENTER</code>.</para></note></solution>
 </exercise></example><note id="fs-idm3127168" class="statistics try"><label/><title>Try It</title>
 <exercise id="eip-723"><problem id="eip-375">
   <para id="eip-426">Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in <link target-id="M03_Ch03_tbl008"/>.</para><table id="M03_Ch03_tbl008" summary="A two row table is shown. The first row reads blank, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday. The second row reads Number of Students, 11, 8, 10, 7, 10, 5, 5.">
@@ -317,9 +317,9 @@
 <para id="eip-idm100475616">From the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?</para></problem>
 <solution id="eip-idm3076880">
   <para id="eip-475"><emphasis effect="italics">df</emphasis> = 6</para>
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp249187184"><emphasis effect="italics">p</emphasis>-value = 0.6093
+  <para id="eip-idp249187184"><emphasis effect="italics">p</emphasis>-value = 0.6093
 <newline/>We decline to reject the null hypothesis. There is not enough evidence to support that students do not do the majority of their homework equally throughout the week.</para></solution>
-</exercise></note><example id="example3"><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-59">One study indicates that the number of televisions that American families have is distributed (this is the <emphasis effect="italics">given</emphasis> distribution for the American population) as in <link target-id="M03_Ch03_tbl009"/>.</para><table id="M03_Ch03_tbl009" summary="This table presents the number of televisions that American families have is in the first column, and the expected percentage is in the second column.">
+</exercise></note><example id="example3"><para id="element-59">One study indicates that the number of televisions that American families have is distributed (this is the <emphasis effect="italics">given</emphasis> distribution for the American population) as in <link target-id="M03_Ch03_tbl009"/>.</para><table id="M03_Ch03_tbl009" summary="This table presents the number of televisions that American families have is in the first column, and the expected percentage is in the second column.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead valign="top">
@@ -353,7 +353,7 @@
 </tgroup>
 </table>
 <para id="element-23563">The table contains expected (<emphasis effect="italics">E</emphasis>) percents.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-236">A random sample of 600 families in the far western U.S. resulted in the data in <link target-id="M03_Ch03_tbl010"/>.</para><table id="M03_Ch03_tbl010" summary="This table presents the number of televisions that American families have is in the first column, and the observed frequency is in the second column.">
+<para id="element-236">A random sample of 600 families in the far western U.S. resulted in the data in <link target-id="M03_Ch03_tbl010"/>.</para><table id="M03_Ch03_tbl010" summary="This table presents the number of televisions that American families have is in the first column, and the observed frequency is in the second column.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -390,7 +390,7 @@
 </tbody>
 </tgroup>
 </table><para id="fs-idm95551856">The table contains observed (<emphasis effect="italics">O</emphasis>) frequency values.</para><exercise id="element-911"><problem id="id6229414">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-649">At the 1 percent significance level, does it appear that the distribution <emphasis effect="italics">number of televisions</emphasis> of far western U.S. families is different from the distribution for the American population as a whole?</para></problem>
+  <para id="element-649">At the 1 percent significance level, does it appear that the distribution <emphasis effect="italics">number of televisions</emphasis> of far western U.S. families is different from the distribution for the American population as a whole?</para></problem>
 <solution id="id6229434">
   <para id="element-538">This problem asks you to test whether the far western U.S. families distribution fits the distribution of the American families. This test is always right-tailed.</para>
 <para id="element-788">The first table contains expected percentages. To get expected (<emphasis effect="italics">E</emphasis>) frequencies, multiply the percentage by 600. The expected frequencies are shown in <link target-id="M03_Ch03_tbl011"/>.</para><table id="M03_Ch03_tbl011" summary="This table is the same as above except for an additional third column listing th expected frequencies.">
@@ -446,7 +446,7 @@
 <label/>
 <title>Note</title>
 <para id="fs-idm1659296"><emphasis effect="italics">df</emphasis> ≠ 600 – 1</para></note>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-65"><emphasis>Calculate the test statistic:</emphasis> <emphasis effect="italics">χ</emphasis><sup>2</sup> = 29.65</para><para id="element-280"><emphasis>Graph</emphasis></para>
+<para id="element-65"><emphasis>Calculate the test statistic:</emphasis> <emphasis effect="italics">χ</emphasis><sup>2</sup> = 29.65</para><para id="element-280"><emphasis>Graph</emphasis></para>
 <!--delete leading zero here correction in image page 9-->
 <figure id="eip-idm60132512">
 <media id="id6230034" alt="This is a nonsymmetric chi-square curve with values of 0, 4, and 29.65 labeled on the horizontal axis. The value 4 coincides with the peak of the curve. A vertical upward line extends from 29.65 to the curve, and the region to the right of this line is shaded. The shaded area is equal to the p-value." display="block">
@@ -457,13 +457,13 @@
 <item><emphasis effect="italics">p</emphasis>-value = 0.000006</item>
 </list>
 So, <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value.</para><para id="element-251"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>o</sub></emphasis>.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-717">This means you reject the hypothesis that the distribution for the far western states is the same as that of the American population as a whole.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-387"><emphasis>Conclusion:</emphasis> At the 1 percent significance level, from the data, there is sufficient evidence to conclude that the <emphasis effect="italics">number of televisions</emphasis> distribution for the far western United States is different from the <emphasis effect="italics">number of televisions</emphasis> distribution for the American population as a whole.</para><note id="fs-idm137892176" class="statistics calculator"><label/>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm136592240">Press <code>STAT</code> and <code>ENTER</code>. Make sure to clear lists <code>L1</code>, <code>L2</code>, and <code>L3</code> if they have data in them—see the note at the end of <link target-id="element-962"/>. Into <code>L1</code>, put the observed frequencies <code>66</code>, <code>119</code>, <code>349</code>, <code>60</code>, <code>15</code>. Into <code>L2</code>, put the expected frequencies <code>.10*600, .16*600</code>, <code>.55*600</code>, <code>.11*600</code>, <code>.08*600</code>. Arrow over to list <code>L3</code> and up to the name area <code>L3</code>. Enter <code>(L1-L2)^2/L2</code> and <code>ENTER</code>. Press <code>2nd QUIT</code>. Press <code>2nd LIST</code> and arrow over to <code>MATH</code>. Press <code>5</code>. You should see <code>sum (Enter L3)</code>. Rounded to two decimal places, you should see <code>29.65</code>. Press <code>2nd DISTR</code>. Press <code>7</code> or Arrow down to <code>7:χ2cdf</code> and press <code>ENTER</code>. Enter <code>(29.65,1E99,4)</code>. Rounded to four places, you should see <code>5.77E-6 = .000006</code> (rounded to six decimal places), which is the <emphasis effect="italics">p</emphasis>-value.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm63894800">The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values (the data) into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>Calculate</code> or <code>Draw</code>. Make sure you clear any lists before you start.</para></note></solution>
+<para id="element-717">This means you reject the hypothesis that the distribution for the far western states is the same as that of the American population as a whole.</para><para id="element-387"><emphasis>Conclusion:</emphasis> At the 1 percent significance level, from the data, there is sufficient evidence to conclude that the <emphasis effect="italics">number of televisions</emphasis> distribution for the far western United States is different from the <emphasis effect="italics">number of televisions</emphasis> distribution for the American population as a whole.</para><note id="fs-idm137892176" class="statistics calculator"><label/>
+<para id="fs-idm136592240">Press <code>STAT</code> and <code>ENTER</code>. Make sure to clear lists <code>L1</code>, <code>L2</code>, and <code>L3</code> if they have data in them—see the note at the end of <link target-id="element-962"/>. Into <code>L1</code>, put the observed frequencies <code>66</code>, <code>119</code>, <code>349</code>, <code>60</code>, <code>15</code>. Into <code>L2</code>, put the expected frequencies <code>.10*600, .16*600</code>, <code>.55*600</code>, <code>.11*600</code>, <code>.08*600</code>. Arrow over to list <code>L3</code> and up to the name area <code>L3</code>. Enter <code>(L1-L2)^2/L2</code> and <code>ENTER</code>. Press <code>2nd QUIT</code>. Press <code>2nd LIST</code> and arrow over to <code>MATH</code>. Press <code>5</code>. You should see <code>sum (Enter L3)</code>. Rounded to two decimal places, you should see <code>29.65</code>. Press <code>2nd DISTR</code>. Press <code>7</code> or Arrow down to <code>7:χ2cdf</code> and press <code>ENTER</code>. Enter <code>(29.65,1E99,4)</code>. Rounded to four places, you should see <code>5.77E-6 = .000006</code> (rounded to six decimal places), which is the <emphasis effect="italics">p</emphasis>-value.</para><para id="fs-idm63894800">The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values (the data) into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>Calculate</code> or <code>Draw</code>. Make sure you clear any lists before you start.</para></note></solution>
 </exercise></example><note id="fs-idm99666800" class="statistics try"><label/><title>Try It</title>
 
     <exercise id="eip-521">
       <problem id="eip-211">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-938">The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in <link target-id="fs-idm147763264"/>.</para><table id="fs-idm147763264" summary="A two column table is shown. The first row reads Number of Pets, Percent. The second row reads 0, 18. The third row reads 1, 25. The fourth row reads 2, 30. The fifth row reads 3, 18. The sixth row reads 4 plus, 9.">
+        <para id="eip-938">The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in <link target-id="fs-idm147763264"/>.</para><table id="fs-idm147763264" summary="A two column table is shown. The first row reads Number of Pets, Percent. The second row reads 0, 18. The third row reads 1, 25. The fourth row reads 2, 30. The fifth row reads 3, 18. The sixth row reads 4 plus, 9.">
 <tgroup cols="2">
 <thead><row><entry>Number of Pets</entry>	<entry>Percent</entry></row></thead>
 <tbody>
@@ -489,17 +489,17 @@ So, <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</
 </tbody>
 </tgroup>
 </table>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp27106912">At the 1 percent significance level, does it appear that the distribution <emphasis effect="italics">number of pets</emphasis> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <emphasis effect="italics">p</emphasis>-value?</para></problem>
+<para id="eip-idp27106912">At the 1 percent significance level, does it appear that the distribution <emphasis effect="italics">number of pets</emphasis> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <emphasis effect="italics">p</emphasis>-value?</para></problem>
 <solution id="eip-idm61016960">
 <label/>
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-64"><emphasis effect="italics">p</emphasis>-value = 0.0036</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp66134304">We reject the null hypothesis that the distributions are the same. There is sufficient evidence to conclude that the distribution for “number of pets” of students in the Eastern United States is different from the distribution for the U.S. student population as a whole.</para></solution>
+  <para id="eip-64"><emphasis effect="italics">p</emphasis>-value = 0.0036</para><para id="eip-idp66134304">We reject the null hypothesis that the distributions are the same. There is sufficient evidence to conclude that the distribution for “number of pets” of students in the Eastern United States is different from the distribution for the U.S. student population as a whole.</para></solution>
   </exercise>
 
   </note><example id="element-866">
     <exercise id="element-221"><problem id="id6230511">
   <para id="element-95">Suppose you flip two coins 100 times. The results are 20 <emphasis effect="italics">HH</emphasis>, 27 <emphasis effect="italics">HT</emphasis>, 30 <emphasis effect="italics">TH</emphasis>, and 23 <emphasis effect="italics">TT</emphasis>. Are the coins fair? Test at a 5 percent significance level.</para></problem>
 <solution id="id6230530">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-929">This problem can be set up as a goodness-of-fit problem. The sample space for flipping two fair coins is {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. Out of 100 flips, you would expect 25 <emphasis effect="italics">HH</emphasis>, 25 <emphasis effect="italics">HT</emphasis>, 25 <emphasis effect="italics">TH</emphasis>, and 25 <emphasis effect="italics">TT</emphasis>. This is the expected distribution. The question, “Are the coins fair?” is the same as saying, “Does the distribution of the coins (20 <emphasis effect="italics">HH</emphasis>, 27 <emphasis effect="italics">HT</emphasis>, 30 <emphasis effect="italics">TH</emphasis>, 23 <emphasis effect="italics">TT</emphasis>) fit the expected distribution?”</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-570"><emphasis>Random variable:</emphasis> Let <emphasis effect="italics">X</emphasis> = the number of heads in one flip of the two coins. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2. There are 0, 1, or 2 heads in the flip of two coins. Therefore, the number of cells is three. Since <emphasis effect="italics">X</emphasis> = the number of heads, the observed frequencies are 20 for two heads, 57 for one head, and 23 for zero heads or both tails. The expected frequencies are 25 for two heads, 50 for one head, and 25 for zero heads or both tails. This test is right-tailed.</para><para id="element-774"><emphasis><emphasis effect="italics">H<sub>0</sub></emphasis></emphasis>: The coins are fair.
+  <para id="element-929">This problem can be set up as a goodness-of-fit problem. The sample space for flipping two fair coins is {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. Out of 100 flips, you would expect 25 <emphasis effect="italics">HH</emphasis>, 25 <emphasis effect="italics">HT</emphasis>, 25 <emphasis effect="italics">TH</emphasis>, and 25 <emphasis effect="italics">TT</emphasis>. This is the expected distribution. The question, “Are the coins fair?” is the same as saying, “Does the distribution of the coins (20 <emphasis effect="italics">HH</emphasis>, 27 <emphasis effect="italics">HT</emphasis>, 30 <emphasis effect="italics">TH</emphasis>, 23 <emphasis effect="italics">TT</emphasis>) fit the expected distribution?”</para><para id="element-570"><emphasis>Random variable:</emphasis> Let <emphasis effect="italics">X</emphasis> = the number of heads in one flip of the two coins. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2. There are 0, 1, or 2 heads in the flip of two coins. Therefore, the number of cells is three. Since <emphasis effect="italics">X</emphasis> = the number of heads, the observed frequencies are 20 for two heads, 57 for one head, and 23 for zero heads or both tails. The expected frequencies are 25 for two heads, 50 for one head, and 25 for zero heads or both tails. This test is right-tailed.</para><para id="element-774"><emphasis><emphasis effect="italics">H<sub>0</sub></emphasis></emphasis>: The coins are fair.
  </para><para id="element-734"><emphasis><emphasis effect="italics">H<sub>a</sub></emphasis></emphasis>: The coins are not fair.
  </para><para id="element-136"><emphasis>Distribution for the test:</emphasis>
 <m:math>
@@ -522,7 +522,7 @@ where
 
   <note id="fs-idm114779376" class="statistics calculator"><label/>
 
-    <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm32430496">Press <code>STAT</code> and <code>ENTER</code>. Make sure you
+    <para id="eip-idm32430496">Press <code>STAT</code> and <code>ENTER</code>. Make sure you
 clear lists <code>L1</code>, <code>L2</code>, and <code>L3</code> if they have data in them. Into <code>L1</code>, put the observed
 frequencies <code>20</code>, <code>57</code>, <code>23</code>. Into <code>L2</code>, put the expected frequencies <code>25</code>, <code>50</code>, <code>25</code>. Arrow
 over to list <code>L3</code> and up to the name area <code>L3</code>. Enter <code>(L1-L2)^2/L2</code> and
@@ -530,13 +530,13 @@ over to list <code>L3</code> and up to the name area <code>L3</code>. Enter <cod
 <code>5</code>. You should see <code>sum</code>. Enter <code>L3</code>. Rounded to two decimal places, you
 should see <code>2.14</code>. Press <code>2nd DISTR</code>. Arrow down to <code>7:χ2cdf</code>—or press <code>7</code>. Press
 <code>ENTER</code>. Enter <code>2.14,1E99,2)</code>. Rounded to four places, you should see <code>.3430</code>, which
-is the <emphasis effect="italics">p</emphasis>-value.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp7978272">The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values—the data—into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>Calculate</code> or <code>Draw</code>. Make
+is the <emphasis effect="italics">p</emphasis>-value.</para><para id="eip-idp7978272">The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values—the data—into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>Calculate</code> or <code>Draw</code>. Make
 sure you clear any lists before you start.</para></note></solution>
     </exercise></example>
   <note id="fs-idm153122384" class="statistics try finger"><label/><title>Try It</title>
 
     <exercise id="eip-860"><problem id="eip-476">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-907">Students in a social studies class hypothesize that the literacy rates around the world for every region are 82 percent. <link target-id="fs-idm84960960"/> shows the actual literacy rates around the world broken down by region. What are the test statistic and the degrees of freedom?</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm84960960" summary="A two column table is shown. The first row reads MDG Region, Adult Literacy Rate in Percent. The second row reads Developed regions, 99.0. The third row reads Commonwealth of Independent States, 99.5. The fourth row reads Northern Africa, 67.3. The fifth row reads Sub-Saharan Africa, 62.5. The sixth row reads Latin American and the Caribbean, 91.0. The seventh row reads Eastern Asia, 93.8. The eighth row reads Southern Asia, 61.9. The ninth row reads South-Eastern Asia, 91.9. The tenth row reads Western Asia, 84.5. The eleventh row reads Oceania, 66.4.">
+        <para id="eip-907">Students in a social studies class hypothesize that the literacy rates around the world for every region are 82 percent. <link target-id="fs-idm84960960"/> shows the actual literacy rates around the world broken down by region. What are the test statistic and the degrees of freedom?</para><table id="fs-idm84960960" summary="A two column table is shown. The first row reads MDG Region, Adult Literacy Rate in Percent. The second row reads Developed regions, 99.0. The third row reads Commonwealth of Independent States, 99.5. The fourth row reads Northern Africa, 67.3. The fifth row reads Sub-Saharan Africa, 62.5. The sixth row reads Latin American and the Caribbean, 91.0. The seventh row reads Eastern Asia, 93.8. The eighth row reads Southern Asia, 61.9. The ninth row reads South-Eastern Asia, 91.9. The tenth row reads Western Asia, 84.5. The eleventh row reads Oceania, 66.4.">
 <tgroup cols="2"><thead>
 <row><entry>MDG Region</entry>	<entry>Adult Literacy Rate (%)</entry></row>
 </thead>
@@ -573,7 +573,7 @@ sure you clear any lists before you start.</para></note></solution>
 
 <para id="fs-id1164565383478">College Board. (n.d.). Retrieved from http://www.collegeboard.com</para>
 <para id="fs-id1164567209219">Ma, Y., et al. (2003). Association between eating patterns and obesity in a free-living US adult population. <emphasis effect="italics">American Journal of Epidemiology 158</emphasis>(1), 8592.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567950380">Ogden, C. L., et al. (2012, January). <emphasis effect="italics">Prevalence of obesity in the United States, 20092010</emphasis> (NCHS Data Brief No. 82). Hyattsville, MD: National Center for Health Statistics. Retrieved from http://www.cdc.gov/nchs/data/databriefs/db82.pdf</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565401427">Stevens, B. J. (n.d.). <emphasis effect="italics">Multi-family and commercial solid waste and recycling survey</emphasis>. Arlington County, VA. Retrieved from http://www.arlingtonva.us/departments/EnvironmentalServices/SW/file84429.pdf</para><para id="fs-id1164567488777">U.S. Census Bureau. (n.d.). <emphasis effect="italics">Current population reports</emphasis>. Retrieved from https://www.census.gov/main/www/cprs.html</para>
+<para id="fs-id1164567950380">Ogden, C. L., et al. (2012, January). <emphasis effect="italics">Prevalence of obesity in the United States, 20092010</emphasis> (NCHS Data Brief No. 82). Hyattsville, MD: National Center for Health Statistics. Retrieved from http://www.cdc.gov/nchs/data/databriefs/db82.pdf</para><para id="fs-id1164565401427">Stevens, B. J. (n.d.). <emphasis effect="italics">Multi-family and commercial solid waste and recycling survey</emphasis>. Arlington County, VA. Retrieved from http://www.arlingtonva.us/departments/EnvironmentalServices/SW/file84429.pdf</para><para id="fs-id1164567488777">U.S. Census Bureau. (n.d.). <emphasis effect="italics">Current population reports</emphasis>. Retrieved from https://www.census.gov/main/www/cprs.html</para>
 <para id="fs-id1164566342124">U.S. Census Bureau. (n.d). Retrieved from https://www.census.gov/</para>
 
 </section>
@@ -631,7 +631,7 @@ sure you clear any lists before you start.</para></note></solution>
 </exercise><exercise id="eip-89"><problem id="eip-452">
   <para id="eip-144">A personal trainer is putting together a weight-lifting program for her clients. For a 90-day program, she expects each client to lift a specific maximum weight each week. As she goes along, she records the actual maximum weights her clients lifted. She wants to know how well her expectations met with what was observed.</para>
 </problem>
-</exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-886"><emphasis effect="italics">Use the following information to answer the next five exercises.</emphasis> A teacher predicts the distribution of grades on the final exam. The predictions are shown in <link target-id="fs-idm120960208"/>.</para><table id="fs-idm120960208" summary="A two column table is shown. The first row reads Grade, Proportion. The second row reads A, 0.25. The third row reads B, 0.30. The fourth row reads C, 0.35. The fifth row reads D, 0.10.">
+</exercise><para id="eip-886"><emphasis effect="italics">Use the following information to answer the next five exercises.</emphasis> A teacher predicts the distribution of grades on the final exam. The predictions are shown in <link target-id="fs-idm120960208"/>.</para><table id="fs-idm120960208" summary="A two column table is shown. The first row reads Grade, Proportion. The second row reads A, 0.25. The third row reads B, 0.30. The fourth row reads C, 0.35. The fifth row reads D, 0.10.">
     <tgroup cols="2">
       <thead>
         <row>
@@ -694,7 +694,7 @@ sure you clear any lists before you start.</para></note></solution>
 <solution id="eip-841">
   <para id="eip-360">We decline to reject the null hypothesis. There is not enough evidence to suggest that the observed test scores are significantly different from the expected test scores.</para></solution>
 </exercise>
-  <para id="element-666"><newline/><emphasis effect="italics">Use the following information to answer the next nine exercises.</emphasis> The cumulative number of cases of a chronic disease reported for Santa Clara County is broken down by ethnicity as in <link target-id="element-974"/>.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-974" summary="This table shows the ethnicity in the first column and the number of cases in the second column. There are 5 rows.">
+  <para id="element-666"><newline/><emphasis effect="italics">Use the following information to answer the next nine exercises.</emphasis> The cumulative number of cases of a chronic disease reported for Santa Clara County is broken down by ethnicity as in <link target-id="element-974"/>.</para><table id="element-974" summary="This table shows the ethnicity in the first column and the number of cases in the second column. There are 5 rows.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -732,7 +732,7 @@ sure you clear any lists before you start.</para></note></solution>
 
 </tgroup>
 </table><para id="element-726">The percentage of each ethnic group in Santa Clara County is as in <link target-id="element-174"/>.</para>
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-174" summary="This is a partially filled table with ethnicity in the first column, percentage of total county population in the second column, and expected number in the third column. Only the first row of the third column is filled up.">
+<table id="element-174" summary="This is a partially filled table with ethnicity in the first column, percentage of total county population in the second column, and expected number in the third column. Only the first row of the third column is filled up.">
 <tgroup cols="3"><colspec colnum="1" colname="header_c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -817,19 +817,19 @@ sure you clear any lists before you start.</para></note></solution>
     <para id="element-947">Graph the situation. Label and scale the horizontal axis. Mark the mean and test statistic. Shade in the region corresponding to the <emphasis effect="italics">p</emphasis>-value.</para>
     <figure id="eip-idm27194112"><media id="id42755639" alt="This is a blank graph template. The vertical and horizontal axes are unlabeled." display="block"><image src="../../media/fig-ch11_10_01.jpg" mime-type="image/png" width="380"/></media></figure>
 
-    <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-996">Let <emphasis effect="italics">α</emphasis> = 0.05.</para><para id="element-369">Decision: ________________</para><para id="element-116">Reason for the decision: ________________</para><para id="fs-idp57373104">Conclusion (write out in complete sentences): ________________</para></problem>
+    <para id="element-996">Let <emphasis effect="italics">α</emphasis> = 0.05.</para><para id="element-369">Decision: ________________</para><para id="element-116">Reason for the decision: ________________</para><para id="fs-idp57373104">Conclusion (write out in complete sentences): ________________</para></problem>
 
     <solution id="fs-idm23466992">
 <para id="fs-idm23466736">Graph: Check student’s solution.</para>
 <para id="fs-idm57235728">Decision: Reject the null hypothesis.</para>
 <para id="fs-idm98787744">Reason for decision: <emphasis effect="italics">p</emphasis>-value &lt; alpha</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm33256704">Conclusion: The make-up of cases does not fit the ethnicities of the general population of Santa Clara County.</para></solution>
+<para id="fs-idm33256704">Conclusion: The make-up of cases does not fit the ethnicities of the general population of Santa Clara County.</para></solution>
   </exercise><exercise id="exerciseoneserd"><problem id="id42755737">
 <para id="element-493">Does it appear that the pattern of disease cases in Santa Clara County corresponds to the distribution of ethnic groups in this county? Why or why not?</para></problem>
 </exercise></section>
 <section id="fs-idp86765760" class="free-response">
 <title>Homework</title>
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-731"><emphasis effect="italics">For each problem, use a solution sheet to solve the hypothesis test problem. Go to <link document="m79714"/> for the chi-square solution sheet. Round expected frequency to two decimal places.</emphasis></para><exercise id="fs-idp12253472"><problem id="id20683006">
+  <para id="element-731"><emphasis effect="italics">For each problem, use a solution sheet to solve the hypothesis test problem. Go to <link document="m79714"/> for the chi-square solution sheet. Round expected frequency to two decimal places.</emphasis></para><exercise id="fs-idp12253472"><problem id="id20683006">
   <para id="element-662">A six-sided die is rolled 120 times. Fill in the expected frequency column. Then, conduct a hypothesis test to determine if the die is fair. The data in <link target-id="id6180063"/> are the result of the 120 rolls.</para><table id="id6180063" summary="This partially filled table presents face value in the first column, frequency in the second column, and relative frequency in the blank third column. There are 6 rows.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -915,7 +915,7 @@ sure you clear any lists before you start.</para></note></solution>
 
 </tgroup>
 </table>
-      <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7879714">Suppose that a random sample of 400 U.S. males, 18 to 24 years old, yielded the following frequency distribution. We are interested in whether this age group of males fits the distribution of the U.S. adult population. Calculate the frequency one would expect when surveying 400 people. Fill in <link target-id="id7856744"/>, rounding to two decimal places.</para><table id="id6962175" summary="A two column table is shown. The first row reads Marital Status, Frequency. The second row reads Never Married, 140. The third row reads Married, 238. The fourth row reads Widowed, 2. The fifth row reads Divorced slash separated, 20.">
+      <para id="id7879714">Suppose that a random sample of 400 U.S. males, 18 to 24 years old, yielded the following frequency distribution. We are interested in whether this age group of males fits the distribution of the U.S. adult population. Calculate the frequency one would expect when surveying 400 people. Fill in <link target-id="id7856744"/>, rounding to two decimal places.</para><table id="id6962175" summary="A two column table is shown. The first row reads Marital Status, Frequency. The second row reads Never Married, 140. The third row reads Married, 238. The fourth row reads Widowed, 2. The fifth row reads Divorced slash separated, 20.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <thead>
@@ -993,13 +993,13 @@ sure you clear any lists before you start.</para></note></solution>
 <item>0.0002</item>
 <item>Check student’s solution.</item>
 <item>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm204695968" list-type="enumerated" number-style="lower-roman"><item>Alpha = 0.05</item>
+<list id="eip-idm204695968" list-type="enumerated" number-style="lower-roman"><item>Alpha = 0.05</item>
 <item>Decision: Reject null hypothesis.</item>
 <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &lt; alpha</item>
 <item>Conclusion: Data do not fit the distribution.</item>
 </list></item></list></solution>
 </exercise>
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7851160"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The columns in <link target-id="id6962388"/> contain the Race/Ethnicity of U.S. Public Schools for a recent year,  the percentages for the Advanced Placement Examinee Population for that class, and the Overall Student Population. Suppose the right column contains the results of a survey of 1,000 local students from that year who took an AP exam.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6962388" summary="This table presents the Race/Ethnicity in the first column, AP Examinee Population in percentages in the second column, Overall Student Population in percentages in the third column, and Survey Frequency in the fourth column. There are six rows.">
+  <para id="id7851160"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The columns in <link target-id="id6962388"/> contain the Race/Ethnicity of U.S. Public Schools for a recent year,  the percentages for the Advanced Placement Examinee Population for that class, and the Overall Student Population. Suppose the right column contains the results of a survey of 1,000 local students from that year who took an AP exam.</para><table id="id6962388" summary="This table presents the Race/Ethnicity in the first column, AP Examinee Population in percentages in the second column, Overall Student Population in percentages in the third column, and Survey Frequency in the fourth column. There are six rows.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -1066,7 +1066,7 @@ sure you clear any lists before you start.</para></note></solution>
     <item><emphasis effect="italics">p</emphasis>-value = 0.0199</item>
     <item>Check student’s solution.</item>
     <item><para id="eip-idm161948400">
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm32767312" list-type="enumerated" number-style="lower-roman"><item>Alpha = 0.05</item>
+<list id="eip-idm32767312" list-type="enumerated" number-style="lower-roman"><item>Alpha = 0.05</item>
 <item>Decision: Reject null when <emphasis effect="italics">a</emphasis> = 0.05.</item>
 <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &lt; alpha</item>
 <item>Conclusion: Local data do not fit the AP examinee distribution.</item>
@@ -1078,7 +1078,7 @@ sure you clear any lists before you start.</para></note></solution>
 </exercise>
 
     <exercise id="element-371"><problem id="id19496210">
-      <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-268">The city of South Lake Tahoe, California, has an Asian population of 1,419 out of a total population of 23,609. Suppose that a survey of 1,419 self-reported Asians in the borough of Manhattan in the New York City area yielded the data in <link target-id="id7017535"/>. Conduct a goodness-of-fit test to determine if the self-reported subgroups of Asians in Manhattan fit that of the South Lake Tahoe area.</para><table id="id7017535" summary="The table shows race in the first column, Lake Tahoe frequency in the second column, and Manhattan frequency in the blank third column. There are 7 rows."><tgroup cols="3">
+      <para id="element-268">The city of South Lake Tahoe, California, has an Asian population of 1,419 out of a total population of 23,609. Suppose that a survey of 1,419 self-reported Asians in the borough of Manhattan in the New York City area yielded the data in <link target-id="id7017535"/>. Conduct a goodness-of-fit test to determine if the self-reported subgroups of Asians in Manhattan fit that of the South Lake Tahoe area.</para><table id="id7017535" summary="The table shows race in the first column, Lake Tahoe frequency in the second column, and Manhattan frequency in the blank third column. There are 7 rows."><tgroup cols="3">
         <colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -1131,11 +1131,11 @@ sure you clear any lists before you start.</para></note></solution>
 </table>
 </problem>
 </exercise>
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-715"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> UCLA conducted a survey of more than 263,000 college freshmen from 385 colleges in fall 2005. The results of students’ expected majors by gender were reported in <cite><cite-title>The Chronicle of Higher Education (2/2/2006)</cite-title></cite>. Suppose a survey of 5,000 graduating females and 5,000 graduating males was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for <link target-id="element-465"/> and <link target-id="element-100"/>. The second column in each table does not add to 100 percent because of rounding.</para><exercise id="element-465">
+  <para id="eip-715"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> UCLA conducted a survey of more than 263,000 college freshmen from 385 colleges in fall 2005. The results of students’ expected majors by gender were reported in <cite><cite-title>The Chronicle of Higher Education (2/2/2006)</cite-title></cite>. Suppose a survey of 5,000 graduating females and 5,000 graduating males was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for <link target-id="element-465"/> and <link target-id="element-100"/>. The second column in each table does not add to 100 percent because of rounding.</para><exercise id="element-465">
   <problem id="id20689459">
     <para id="fs-idm7756464">Conduct a goodness-of-fit test to determine if the actual college majors of graduating females fit the distribution of their expected majors.
   </para>
-    <table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id5962699" summary="The table consists of college majors in the first column, expected major percentages for women in the second column and the actual number of women that chose that major in the third column.">
+    <table id="id5962699" summary="The table consists of college majors in the first column, expected major percentages for women in the second column and the actual number of women that chose that major in the third column.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
@@ -1216,7 +1216,7 @@ sure you clear any lists before you start.</para></note></solution>
 <item><emphasis effect="italics">p</emphasis>-value = 0.3211</item>
 <item>Check student’s solution.</item>
 <item>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp78081520" list-type="enumerated" number-style="lower-roman"><item>Alpha = 0.05</item>
+<list id="eip-idp78081520" list-type="enumerated" number-style="lower-roman"><item>Alpha = 0.05</item>
 <item>Decision: Do not reject null hypothesis when <emphasis effect="italics">a</emphasis> = 0.05 and <emphasis effect="italics">a</emphasis> = 0.01.</item>
 <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
 <item>Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating females do not fit the distribution of their expected majors.</item>
@@ -1224,7 +1224,7 @@ sure you clear any lists before you start.</para></note></solution>
 </exercise>
 <exercise id="element-100"><problem id="id20689953">
   <para id="eip-idp76093152">Conduct a goodness-of-fit test to determine if the actual college majors of graduating males fit the distribution of their expected majors.</para>
- <table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id7788155" summary="The table consists of college majors in the first column, expected major percentages for men in the second column and the actual number of men that chose that major in the third column.">
+ <table id="id7788155" summary="The table consists of college majors in the first column, expected major percentages for men in the second column and the actual number of men that chose that major in the third column.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -1314,7 +1314,7 @@ sure you clear any lists before you start.</para></note></solution>
   </para>
 </problem>
 </exercise><exercise id="element-473"><problem id="id21088594">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm28021808">Use a goodness-of-fit test to determine if high school principals believe that students are absent equally during the week.
+  <para id="fs-idm28021808">Use a goodness-of-fit test to determine if high school principals believe that students are absent equally during the week.
   </para></problem>
 <solution id="id21088615">
   <para id="element-131">
@@ -1371,7 +1371,7 @@ sure you clear any lists before you start.</para></note></solution>
 
     </exercise><exercise id="eip-152">
       <problem id="eip-655">
-        <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-134"><link target-id="fs-idm106414640"/> contains information from a survey of 499 participants classified according to their age groups. The researchers making the survey wanted to find out how many people were diagnosed with a particular disease within the last year. The second column shows the percentage of people with the disease per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of people with the disease in the same age classes in the United States. Perform a hypothesis test at the 5 percent significance level to determine whether the survey participants are a representative sample of the people with the disease nationwide.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm106414640" summary="A three column table is shown. The first row reads Age Class in Years, People Diagnosed in percentage, Expected U S Average in percentage. The second row reads 20 through 30, 75.0, 32.6. The third row reads 31 through 40, 26.5, 32.6. The fourth row reads 41 through 50, 13.6, 36.6. The fifth row reads 51 through 60, 21.9, 36.6. The sixth row reads 61 through 70, 21.0, 39.7."><tgroup cols="4">
+        <para id="eip-134"><link target-id="fs-idm106414640"/> contains information from a survey of 499 participants classified according to their age groups. The researchers making the survey wanted to find out how many people were diagnosed with a particular disease within the last year. The second column shows the percentage of people with the disease per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of people with the disease in the same age classes in the United States. Perform a hypothesis test at the 5 percent significance level to determine whether the survey participants are a representative sample of the people with the disease nationwide.</para><table id="fs-idm106414640" summary="A three column table is shown. The first row reads Age Class in Years, People Diagnosed in percentage, Expected U S Average in percentage. The second row reads 20 through 30, 75.0, 32.6. The third row reads 31 through 40, 26.5, 32.6. The fourth row reads 41 through 50, 13.6, 36.6. The fifth row reads 51 through 60, 21.9, 36.6. The sixth row reads 61 through 70, 21.0, 39.7."><tgroup cols="4">
             <thead>
               <row>
                 <entry>Age Class (years)</entry>

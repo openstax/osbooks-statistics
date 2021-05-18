@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Distribution Needed for Hypothesis Testing</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79663</md:content-id>
   <md:title>Distribution Needed for Hypothesis Testing</md:title>
   <md:abstract/>
@@ -91,9 +91,9 @@
       </m:mrow>
     </m:math> where <emphasis effect="italics">x</emphasis> is the number of successes and <emphasis effect="italics">n</emphasis> is the sample size.</para>-->
 </section>
-<section id="fs-idp38268576"><title>Assumptions</title><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp18826944">When you perform <emphasis effect="italics">a hypothesis test of a single population mean <emphasis effect="italics">μ</emphasis></emphasis> using a
+<section id="fs-idp38268576"><title>Assumptions</title><para id="fs-idp18826944">When you perform <emphasis effect="italics">a hypothesis test of a single population mean <emphasis effect="italics">μ</emphasis></emphasis> using a
 <term>Student's <emphasis effect="italics">t</emphasis>-distribution</term> (often called a <emphasis effect="italics">t</emphasis>-test), there are fundamental assumptions that need to be met in order for the test to work properly. Your data should be a <term>simple random sample</term> that comes from a population that is approximately <term>normally distributed</term>. You use the sample <term>standard deviation</term> to approximate the population standard deviation. Note that if the sample size is sufficiently large, a <emphasis effect="italics">t</emphasis>-test will work even if the population is not approximately normally distributed.</para><para id="element-849">When you perform a <emphasis effect="italics">hypothesis test of a single population mean <emphasis effect="italics">μ</emphasis></emphasis> using a
-normal distribution (often called a <emphasis effect="italics">z</emphasis>-test), you take a simple random sample from the population. The population you are testing is normally distributed or your sample size is sufficiently large. You know the value of the population standard deviation which, in reality, is rarely known.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-395">When you perform a <emphasis effect="italics">hypothesis test of a single population proportion <emphasis effect="italics">p</emphasis></emphasis>, you
+normal distribution (often called a <emphasis effect="italics">z</emphasis>-test), you take a simple random sample from the population. The population you are testing is normally distributed or your sample size is sufficiently large. You know the value of the population standard deviation which, in reality, is rarely known.</para><para id="element-395">When you perform a <emphasis effect="italics">hypothesis test of a single population proportion <emphasis effect="italics">p</emphasis></emphasis>, you
   take a simple random sample from the population. You must meet the conditions for a <term>binomial distribution</term>, which are the following: there are a certain number <emphasis effect="italics">n</emphasis> of independent trials, the outcomes of any trial are success or failure, and each trial has the same probability of a success <emphasis effect="italics">p</emphasis>. The shape of the binomial distribution needs to be similar to the shape of the normal distribution. To ensure this, the quantities <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">nq</emphasis> must both be greater than five (<emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; 5). Then the binomial distribution of a sample (estimated) proportion can be approximated by the normal distribution with <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">p</emphasis> and <m:math>
     <m:mrow>
       <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
@@ -115,17 +115,17 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
   <title>Chapter Review</title>
   <para id="eip-948">In order for a hypothesis test’s results to be generalized to a population, certain requirements must be satisfied. </para>
   <para id="eip-996">When testing for a single population mean:</para>
-  <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp106869104" mark-suffix="." list-type="enumerated" number-style="arabic"><item>A Student's <emphasis effect="italics">t</emphasis>-test should be used if the data come from a simple, random sample and the population is approximately normally distributed, or the sample size is large, with an unknown standard deviation.</item>
+  <list id="eip-idp106869104" mark-suffix="." list-type="enumerated" number-style="arabic"><item>A Student's <emphasis effect="italics">t</emphasis>-test should be used if the data come from a simple, random sample and the population is approximately normally distributed, or the sample size is large, with an unknown standard deviation.</item>
     <item>The normal test will work if the data come from a simple, random sample and the population
       is approximately normally distributed, or the sample size is large, with a known standard
       deviation.</item>
-  </list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp12045392">When testing a single population proportion use a normal test for a single population proportion if the data come from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of success and the mean number of failures satisfy the conditions: <emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; <emphasis effect="italics">n</emphasis> where <emphasis effect="italics">n</emphasis> is the sample size, <emphasis effect="italics">p</emphasis> is the probability of a success, and <emphasis effect="italics">q</emphasis> is the probability of a failure.</para></section>
+  </list><para id="fs-idp12045392">When testing a single population proportion use a normal test for a single population proportion if the data come from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of success and the mean number of failures satisfy the conditions: <emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; <emphasis effect="italics">n</emphasis> where <emphasis effect="italics">n</emphasis> is the sample size, <emphasis effect="italics">p</emphasis> is the probability of a success, and <emphasis effect="italics">q</emphasis> is the probability of a failure.</para></section>
 
 
   <section id="eip-772" class="formula-review">
     <title>Formula Review</title>
   <para id="element-678">If there is no given preconceived <emphasis effect="italics">α</emphasis>, then use <emphasis effect="italics">α</emphasis> = 0.05.</para>
-    <list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-254" list-type="bulleted"><title>Types of Hypothesis Tests</title><item>Single population mean, <emphasis effect="italics">known</emphasis> population variance (or standard deviation): <emphasis>Normal
+    <list id="element-254" list-type="bulleted"><title>Types of Hypothesis Tests</title><item>Single population mean, <emphasis effect="italics">known</emphasis> population variance (or standard deviation): <emphasis>Normal
     test</emphasis>.</item>
     <item>Single population mean, <emphasis effect="italics">unknown</emphasis> population variance (or standard deviation): <emphasis>Student's <emphasis effect="italics">t</emphasis>-test</emphasis>.</item>
     <item>Single population proportion: <emphasis>Normal test</emphasis>.</item>
@@ -196,7 +196,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
 <solution id="eip-482">
   <para id="eip-665">A normal distribution or a Student’s <emphasis effect="italics">t</emphasis>-distribution</para></solution>
 </exercise><exercise id="eip-492"><problem id="eip-819">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-696">Which distribution do you use when the standard deviation is not known? Assume sample size is large.</para></problem></exercise><exercise id="eip-579">
+  <para id="eip-696">Which distribution do you use when the standard deviation is not known? Assume sample size is large.</para></problem></exercise><exercise id="eip-579">
     <problem id="eip-177">
   <para id="eip-756">Which distribution do you use when the standard deviation is not known and you are testing one population mean? Assume sample size is large.</para>
 </problem>
@@ -208,7 +208,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
   <para id="eip-204">A population mean is 13. The sample mean is 12.8, and the sample standard deviation is two. The sample size is 20. What distribution should you use to perform a hypothesis test? Assume the underlying population is normal.</para>
 </problem>  </exercise><exercise id="eip-917">
     <problem id="eip-265">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-995">A population has a mean of 25 and a standard deviation of five. The sample mean is 24, and the sample size is 108. What distribution should you use to perform a hypothesis test?</para></problem>
+  <para id="eip-995">A population has a mean of 25 and a standard deviation of five. The sample mean is 24, and the sample size is 108. What distribution should you use to perform a hypothesis test?</para></problem>
 
 <solution id="eip-953">
   <para id="eip-267">a normal distribution for a single population mean</para>

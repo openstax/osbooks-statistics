@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Normal Distribution—Pinkie Length</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79645</md:content-id>
   <md:title>Normal Distribution—Pinkie Length</md:title>
   <md:abstract/>
@@ -17,7 +17,7 @@
 <item>The student will compare empirical data and a theoretical distribution to determine if data from the experiment follow a continuous distribution. </item>
 </list>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-967"><title>Collect the Data</title>Measure the length of your pinkie finger, in centimeters.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-32487618725" list-type="enumerated"><item>Randomly survey 30 adults for their pinkie finger lengths. Round the lengths to the nearest 0.5 cm.<newline/>
+<para id="element-967"><title>Collect the Data</title>Measure the length of your pinkie finger, in centimeters.</para><list id="list-32487618725" list-type="enumerated"><item>Randomly survey 30 adults for their pinkie finger lengths. Round the lengths to the nearest 0.5 cm.<newline/>
 <table id="element-2352564535s" summary="Blank table with 30 blank cells.">
 <tgroup cols="5">
 <tbody>
@@ -83,14 +83,14 @@
 <item>Draw a smooth curve  through the top of the bars of the histogram. Write one to two complete sentences to describe the general shape of the curve. Keep it simple. Does the graph go straight across, does it have a V-shape, does it have a hump in the middle or at either end, and so on?</item>
 </list><para id="element-492"><title>Analyze the Distribution</title>
 Using your sample mean, sample standard deviation, and histogram, what was the approximate theoretical distribution of the data you collected?</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-2342345" list-type="bulleted"><item><emphasis effect="italics">X</emphasis> ~ _____ (_____, _____)</item>
+<list id="list-2342345" list-type="bulleted"><item><emphasis effect="italics">X</emphasis> ~ _____ (_____, _____)</item>
 <item>How does the histogram help you arrive at the approximate distribution?</item>
 </list><para id="element-298">
 <title id="DescData2">Describe the Data</title>
 Using the data you collected complete the following statements. HintOrder the data.</para>
 
 <note id="id5390377" type="Remember"><label/><title>Remember</title>
-<para id="eip-idp29979984">(<emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub>)</para></note><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-98723985" list-type="bulleted"><item><emphasis effect="italics">IQR</emphasis> = _______</item>
+<para id="eip-idp29979984">(<emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub>)</para></note><list id="list-98723985" list-type="bulleted"><item><emphasis effect="italics">IQR</emphasis> = _______</item>
 <item>The 15<sup>th</sup> percentile is _______.</item>
 <item>The 85<sup>th</sup> percentile is _______.</item>
 <item>Median is _______.</item>
@@ -100,7 +100,7 @@ Using the data you collected complete the following statements. HintOrder the 
 <title id="TheoDist2">Theoretical Distribution</title>
 Using the theoretical distribution, complete the following statements. Use a normal approximation based on the sample mean and standard deviation.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="list-98436723985" list-type="bulleted"><item><emphasis effect="italics">IQR</emphasis> = _______</item>
+<list id="list-98436723985" list-type="bulleted"><item><emphasis effect="italics">IQR</emphasis> = _______</item>
 <item>The 15<sup>th</sup> percentile is _______.</item>
 <item>The 85<sup>th</sup> percentile is _______.</item>
 <item>Median is _______.</item>

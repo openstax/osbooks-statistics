@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>The Standard Normal Distribution</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79641</md:content-id>
   <md:title>The Standard Normal Distribution</md:title>
   <md:abstract/>
@@ -15,7 +15,7 @@
 
 <para id="fs-idp8223296">The <emphasis effect="italics">z</emphasis>-score is three.</para>-->
 <section id="fs-id1164562165107">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164568044674">The standardized normal distribution is a type of normal distribution, with a mean of 0 and standard deviation of 1. It represents a distribution of standardized scores, called <emphasis effect="bold"><emphasis effect="italics">z</emphasis>-scores</emphasis>, as opposed to raw scores (the actual data values). A <emphasis><emphasis effect="italics">z</emphasis>-score</emphasis> indicates the number of standard deviation a score falls above or below the mean. <emphasis effect="italics">Z</emphasis>-scores allow for comparison of scores, occurring in different data sets, with different means and standard deviations. It would not make sense to compare apples and oranges. Likewise, it does not make sense to compare scores from two different samples that have different means and standard deviations. <emphasis effect="italics">Z</emphasis>-scores can be looked up in a <emphasis effect="italics">Z</emphasis>-Table of Standard Normal Distribution, in order to find the area under the standard normal curve, between a score and the mean, between two scores, or above or below a score. The standard normal distribution allows us to interpret standardized scores and provides us with one table that we may use, in order to compute areas under the normal curve, for an infinite number of data sets, no matter what the mean or standard deviation.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564360616">A <emphasis effect="italics">z</emphasis>-score is calculated as <m:math>
+<para id="fs-id1164568044674">The standardized normal distribution is a type of normal distribution, with a mean of 0 and standard deviation of 1. It represents a distribution of standardized scores, called <emphasis effect="bold"><emphasis effect="italics">z</emphasis>-scores</emphasis>, as opposed to raw scores (the actual data values). A <emphasis><emphasis effect="italics">z</emphasis>-score</emphasis> indicates the number of standard deviation a score falls above or below the mean. <emphasis effect="italics">Z</emphasis>-scores allow for comparison of scores, occurring in different data sets, with different means and standard deviations. It would not make sense to compare apples and oranges. Likewise, it does not make sense to compare scores from two different samples that have different means and standard deviations. <emphasis effect="italics">Z</emphasis>-scores can be looked up in a <emphasis effect="italics">Z</emphasis>-Table of Standard Normal Distribution, in order to find the area under the standard normal curve, between a score and the mean, between two scores, or above or below a score. The standard normal distribution allows us to interpret standardized scores and provides us with one table that we may use, in order to compute areas under the normal curve, for an infinite number of data sets, no matter what the mean or standard deviation.</para><para id="fs-id1164564360616">A <emphasis effect="italics">z</emphasis>-score is calculated as <m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -47,7 +47,7 @@
    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi>
   </m:mrow>
  </m:semantics>
-</m:math>.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565650015">Suppose we have a data set with a mean of 5 and standard deviation of 2. We want to determine the number of standard deviations the score of 11 falls above the mean. We can find this answer (or <emphasis effect="italics">z</emphasis>-score) by writing</para><equation id="fs-id1164567626656">
+</m:math>.</para><para id="fs-id1164565650015">Suppose we have a data set with a mean of 5 and standard deviation of 2. We want to determine the number of standard deviations the score of 11 falls above the mean. We can find this answer (or <emphasis effect="italics">z</emphasis>-score) by writing</para><equation id="fs-id1164567626656">
 <m:math>
  <m:semantics>
   <m:mrow>
@@ -111,7 +111,7 @@
   </m:mfrac>
  <m:mtext>.</m:mtext>
  </m:mrow>
-</m:math></equation><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-272">The <emphasis effect="italics">z</emphasis>-score tells you how many standard deviations the value <emphasis effect="italics">x</emphasis> is above, to the right of, or below, to the left of, the mean, <emphasis effect="italics">μ</emphasis>. Values of <emphasis effect="italics">x</emphasis> that are larger than the mean have positive <emphasis effect="italics">z</emphasis>-scores, and values of <emphasis effect="italics">x</emphasis> that are smaller than the mean have negative <emphasis effect="italics">z</emphasis>-scores. If <emphasis effect="italics">x</emphasis> equals the mean, then <emphasis effect="italics">x</emphasis> has a <emphasis effect="italics">z</emphasis>-score of zero.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164567633927">When determining the <emphasis effect="italics">z</emphasis>-score for an <emphasis effect="italics">x</emphasis>-value, for a normal distribution, with a given mean and standard deviation, the notation above for a normal distribution, will be given.</para><example id="element-49">
+</m:math></equation><para id="element-272">The <emphasis effect="italics">z</emphasis>-score tells you how many standard deviations the value <emphasis effect="italics">x</emphasis> is above, to the right of, or below, to the left of, the mean, <emphasis effect="italics">μ</emphasis>. Values of <emphasis effect="italics">x</emphasis> that are larger than the mean have positive <emphasis effect="italics">z</emphasis>-scores, and values of <emphasis effect="italics">x</emphasis> that are smaller than the mean have negative <emphasis effect="italics">z</emphasis>-scores. If <emphasis effect="italics">x</emphasis> equals the mean, then <emphasis effect="italics">x</emphasis> has a <emphasis effect="italics">z</emphasis>-score of zero.</para><para id="fs-id1164567633927">When determining the <emphasis effect="italics">z</emphasis>-score for an <emphasis effect="italics">x</emphasis>-value, for a normal distribution, with a given mean and standard deviation, the notation above for a normal distribution, will be given.</para><example id="element-49">
 <para id="element-161">Suppose <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(5, 6)</emphasis>. This equation says that <emphasis effect="italics">X</emphasis> is a normally distributed random variable with mean <emphasis effect="italics">μ</emphasis> = 5 and standard deviation <emphasis effect="italics">σ</emphasis> = 6. Suppose <emphasis effect="italics">x</emphasis> = 17. Then,</para>
 <equation class="unnumbered" id="element-160"><label/><m:math>
  <m:mrow>
@@ -152,14 +152,14 @@
   </m:mfrac>
 
  </m:mrow>
-</m:math> = –0.67, rounded to two decimal places.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-468"><emphasis effect="italics">This means that <emphasis effect="italics">x</emphasis> = 1 is 0.67 standard deviations (–0.67<emphasis effect="italics">σ</emphasis>) below or to the left of the mean <emphasis effect="italics">μ</emphasis> = 5.</emphasis> This <emphasis effect="italics">z</emphasis>-score shows that <emphasis effect="italics">x</emphasis> = 1 is less than 1 standard deviation below the mean of 5. Therefore, the score doesn't fall very far below the mean.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-588">Summarizing, when <emphasis effect="italics">z</emphasis> is positive, <emphasis effect="italics">x</emphasis> is above or to the right of <emphasis effect="italics">μ</emphasis>, and when <emphasis effect="italics">z</emphasis> is negative, <emphasis effect="italics">x</emphasis> is to the left of or below <emphasis effect="italics">μ</emphasis>. Or, when <emphasis effect="italics">z</emphasis> is positive, <emphasis effect="italics">x</emphasis> is greater than <emphasis effect="italics">μ</emphasis>, and when <emphasis effect="italics">z</emphasis> is negative, <emphasis effect="italics">x</emphasis> is less than <emphasis effect="italics">μ</emphasis>. The absolute value of <emphasis effect="italics">z</emphasis> indicates how far the score is from the mean, in either direction.</para></example>
+</m:math> = –0.67, rounded to two decimal places.</para><para id="element-468"><emphasis effect="italics">This means that <emphasis effect="italics">x</emphasis> = 1 is 0.67 standard deviations (–0.67<emphasis effect="italics">σ</emphasis>) below or to the left of the mean <emphasis effect="italics">μ</emphasis> = 5.</emphasis> This <emphasis effect="italics">z</emphasis>-score shows that <emphasis effect="italics">x</emphasis> = 1 is less than 1 standard deviation below the mean of 5. Therefore, the score doesn't fall very far below the mean.</para><para id="element-588">Summarizing, when <emphasis effect="italics">z</emphasis> is positive, <emphasis effect="italics">x</emphasis> is above or to the right of <emphasis effect="italics">μ</emphasis>, and when <emphasis effect="italics">z</emphasis> is negative, <emphasis effect="italics">x</emphasis> is to the left of or below <emphasis effect="italics">μ</emphasis>. Or, when <emphasis effect="italics">z</emphasis> is positive, <emphasis effect="italics">x</emphasis> is greater than <emphasis effect="italics">μ</emphasis>, and when <emphasis effect="italics">z</emphasis> is negative, <emphasis effect="italics">x</emphasis> is less than <emphasis effect="italics">μ</emphasis>. The absolute value of <emphasis effect="italics">z</emphasis> indicates how far the score is from the mean, in either direction.</para></example>
 
 
 <note id="fs-idp69782784" class="statistics try">
 <label/><title>Try It</title>
 <exercise id="eip-949">
 <problem id="eip-264">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-653">What is the <emphasis effect="italics">z</emphasis>-score of <emphasis effect="italics">x</emphasis>, when <emphasis effect="italics">x</emphasis> = 1 and <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(12, 3)?</para></problem>
+  <para id="eip-653">What is the <emphasis effect="italics">z</emphasis>-score of <emphasis effect="italics">x</emphasis>, when <emphasis effect="italics">x</emphasis> = 1 and <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(12, 3)?</para></problem>
 
 <solution id="eip-629">
 <label/>
@@ -232,7 +232,7 @@
 <exercise id="eip-24">
 <problem id="eip-151">
 <para id="eip-idm83673168">Fill in the blanks.</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-102">Jerome averages 16 points a game with a standard deviation of four points. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(16, 4). Suppose Jerome scores 10 points in a game. The <emphasis effect="italics">z</emphasis>-score when <emphasis effect="italics">x</emphasis> = 10 is –1.5. This score tells you that <emphasis effect="italics">x</emphasis> = 10 is _____ standard deviations to the ______ (right or left) of the mean______ (What is the mean?).</para></problem>
+<para id="eip-102">Jerome averages 16 points a game with a standard deviation of four points. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(16, 4). Suppose Jerome scores 10 points in a game. The <emphasis effect="italics">z</emphasis>-score when <emphasis effect="italics">x</emphasis> = 10 is –1.5. This score tells you that <emphasis effect="italics">x</emphasis> = 10 is _____ standard deviations to the ______ (right or left) of the mean______ (What is the mean?).</para></problem>
 
 <solution id="eip-393">
 <label/>
@@ -244,7 +244,7 @@
 
 <para id="eip-113">
 <title>The Empirical Rule</title> If <emphasis effect="italics">X</emphasis> is a random variable and has a normal distribution with mean <emphasis effect="italics">µ</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis>, then the <term>Empirical Rule</term> states the following:</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp54135840" list-type="bulleted"><item>About 68 percent of the <emphasis effect="italics">x</emphasis> values lie between –1<emphasis effect="italics">σ</emphasis> and +1<emphasis effect="italics">σ</emphasis> of the mean <emphasis effect="italics">µ</emphasis> (within one standard deviation of the mean).</item>
+<list id="fs-idp54135840" list-type="bulleted"><item>About 68 percent of the <emphasis effect="italics">x</emphasis> values lie between –1<emphasis effect="italics">σ</emphasis> and +1<emphasis effect="italics">σ</emphasis> of the mean <emphasis effect="italics">µ</emphasis> (within one standard deviation of the mean).</item>
 <item>About  95 percent of the <emphasis effect="italics">x</emphasis> values lie between –2<emphasis effect="italics">σ</emphasis> and +2<emphasis effect="italics">σ</emphasis> of the mean <emphasis effect="italics">µ</emphasis> (within two standard deviations of the mean).</item>
 
 <item>About 99.7 percent of the <emphasis effect="italics">x</emphasis> values lie between –3<emphasis effect="italics">σ</emphasis> and +3<emphasis effect="italics">σ</emphasis> of the mean <emphasis effect="italics">µ</emphasis> (within three standard deviations of the mean). Notice that almost all the <emphasis effect="italics">x</emphasis> values lie within three standard deviations of the mean.</item>
@@ -254,7 +254,7 @@
 <item>The <emphasis effect="italics">z</emphasis>-scores for +2<emphasis effect="italics">σ</emphasis>  and –2<emphasis effect="italics">σ</emphasis> are +2 and –2, respectively.</item>
 
 <item>The <emphasis effect="italics">z</emphasis>-scores for +3<emphasis effect="italics">σ</emphasis>  and –3<emphasis effect="italics">σ</emphasis> are +3 and –3, respectively.</item>
-</list><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164565573697">So, in other words, this is that about 68 percent of the values lie between <emphasis effect="italics">z</emphasis>-scores of –1 and 1, about 95% of the values lie between <emphasis effect="italics">z</emphasis>-scores of –2 and 2, and about 99.7 percent of the values lie between <emphasis effect="italics">z</emphasis>-scores of -3 and 3. These facts can be checked, by looking up the mean to <emphasis effect="italics">z</emphasis> area in a <emphasis effect="italics">z</emphasis>-table for each positive <emphasis effect="italics">z</emphasis>-score and multiplying by 2.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm22983328">The empirical rule is also known as the <emphasis effect="italics">68–95–99.7 rule</emphasis>.</para><figure id="fs-id1164562267461">
+</list><para id="fs-id1164565573697">So, in other words, this is that about 68 percent of the values lie between <emphasis effect="italics">z</emphasis>-scores of –1 and 1, about 95% of the values lie between <emphasis effect="italics">z</emphasis>-scores of –2 and 2, and about 99.7 percent of the values lie between <emphasis effect="italics">z</emphasis>-scores of -3 and 3. These facts can be checked, by looking up the mean to <emphasis effect="italics">z</emphasis> area in a <emphasis effect="italics">z</emphasis>-table for each positive <emphasis effect="italics">z</emphasis>-score and multiplying by 2.</para><para id="fs-idm22983328">The empirical rule is also known as the <emphasis effect="italics">68–95–99.7 rule</emphasis>.</para><figure id="fs-id1164562267461">
 <media id="empir_rule" alt="This graph shows a bell-shaped curve for the plot line. The highest point of the bell occurs at the following point on the x axis where a greek lowercase letter mu is found on the x axis. The next highest points at the bar coincide with negative 1 sigma to the left and 1 sigma to the right. These points comprise 68 percent of the total distribution of the bell curve. Moving out toward the next lowest points on the bell we find negative 2 sigma on the left and positive 2 sigma on the right. These points comprise 95 percent of the total distribution of the bell curve. Moving out to the outermost points on the bell we find negative 3 sigma to the extreme left and positive 3 sigma to the extreme right. These points comprise 99.7 percent of the total distribution of the bell curve.">
 <image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_06_01_02_01.jpg" width="300"/>
 </media>
@@ -263,16 +263,16 @@
 
 
 <example id="eip-736">
- <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-892">The mean height of 15-to 18-year-old males from Chile from 2009 to 2010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let <emphasis effect="italics">X</emphasis> = the height of a 15-to 18-year-old male from Chile in 20092010. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(170, 6.28).<newline count="2"/></para><exercise id="eip-231">
+ <para id="eip-892">The mean height of 15-to 18-year-old males from Chile from 2009 to 2010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let <emphasis effect="italics">X</emphasis> = the height of a 15-to 18-year-old male from Chile in 20092010. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(170, 6.28).<newline count="2"/></para><exercise id="eip-231">
 <problem id="eip-633">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp457728">a. Suppose a 15-to 18-year-old male from Chile was 168 cm tall in 20092010. The <emphasis effect="italics">z</emphasis>-score when <emphasis effect="italics">x</emphasis> = 168 cm is <emphasis effect="italics">z</emphasis> = _______. This <emphasis effect="italics">z</emphasis>-score tells you that <emphasis effect="italics">x</emphasis> = 168 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</para></problem>
+<para id="eip-idp457728">a. Suppose a 15-to 18-year-old male from Chile was 168 cm tall in 20092010. The <emphasis effect="italics">z</emphasis>-score when <emphasis effect="italics">x</emphasis> = 168 cm is <emphasis effect="italics">z</emphasis> = _______. This <emphasis effect="italics">z</emphasis>-score tells you that <emphasis effect="italics">x</emphasis> = 168 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</para></problem>
 <solution id="eip-518">
   <para id="eip-134">a. –0.32, 0.32, left, 170<newline count="2"/></para></solution>
 </exercise>
 
 <exercise id="eip-703">
 <problem id="eip-147">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-249">b. Suppose that the height of a 15-to 18-year-old male from Chile in 20092010 has a <emphasis effect="italics">z</emphasis>-score of <emphasis effect="italics">z</emphasis> = 1.27. What is the male’s height? The <emphasis effect="italics">z</emphasis>-score (<emphasis effect="italics">z</emphasis> = 1.27) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.</para></problem>
+  <para id="eip-249">b. Suppose that the height of a 15-to 18-year-old male from Chile in 20092010 has a <emphasis effect="italics">z</emphasis>-score of <emphasis effect="italics">z</emphasis> = 1.27. What is the male’s height? The <emphasis effect="italics">z</emphasis>-score (<emphasis effect="italics">z</emphasis> = 1.27) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.</para></problem>
 
 <solution id="eip-205">
   <para id="eip-741">b. 177.98 cm, 1.27, right</para></solution>
@@ -284,7 +284,7 @@
 <label/><title>Try It</title>
 <exercise id="eip-893">
 <problem id="eip-929">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp74289648">Use the information in <link target-id="eip-736" document=""/> to answer the following questions:</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm24917152" list-type="enumerated" number-style="lower-alpha"><item>Suppose a 15-to 18-year-old male from Chile was 176 cm tall from 20092010. The <emphasis effect="italics">z</emphasis>-score when <emphasis effect="italics">x</emphasis> = 176 cm is <emphasis effect="italics">z</emphasis> = _______. This <emphasis effect="italics">z</emphasis>-score tells you that <emphasis effect="italics">x</emphasis> = 176 cm is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</item>
+<para id="fs-idp74289648">Use the information in <link target-id="eip-736" document=""/> to answer the following questions:</para><list id="eip-idm24917152" list-type="enumerated" number-style="lower-alpha"><item>Suppose a 15-to 18-year-old male from Chile was 176 cm tall from 20092010. The <emphasis effect="italics">z</emphasis>-score when <emphasis effect="italics">x</emphasis> = 176 cm is <emphasis effect="italics">z</emphasis> = _______. This <emphasis effect="italics">z</emphasis>-score tells you that <emphasis effect="italics">x</emphasis> = 176 cm is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</item>
 
 <item>Suppose that the height of a 15-to 18-year-old male from Chile in 20092010 has a <emphasis effect="italics">z</emphasis>-score of <emphasis effect="italics">z</emphasis> = –2. What is the male’s height? The <emphasis effect="italics">z</emphasis>-score (<emphasis effect="italics">z</emphasis> = –2) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.</item>
 </list></problem>
@@ -322,7 +322,7 @@
 <example id="eip-953">
 <exercise id="eip-117">
 <problem id="eip-552">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-49">From 1984 to 1985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <emphasis effect="italics">Y</emphasis> = the height of 15-to 18-year-old males from 19841985, and <emphasis effect="italics">y</emphasis> = the height of one male from this group. Then <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(172.36, 6.34).</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-932">The mean height of 15-to 18-year-old males from Chile in 20092010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let <emphasis effect="italics">X</emphasis> = the height of a 15-to 18-year-old male from Chile in 20092010,  and <emphasis effect="italics">x</emphasis> = the height of one male from this group. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(170, 6.28).</para><para id="eip-329">Find the <emphasis effect="italics">z</emphasis>-scores for <emphasis effect="italics">x</emphasis> = 160.58 cm and <emphasis effect="italics">y</emphasis> = 162.85 cm. Interpret each <emphasis effect="italics">z</emphasis>-score. What can you say about <emphasis effect="italics">x</emphasis> = 160.58 cm and <emphasis effect="italics">y</emphasis> = 162.85 cm as they compare to their respective means and standard deviations?</para>
+<para id="eip-49">From 1984 to 1985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <emphasis effect="italics">Y</emphasis> = the height of 15-to 18-year-old males from 19841985, and <emphasis effect="italics">y</emphasis> = the height of one male from this group. Then <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(172.36, 6.34).</para><para id="eip-932">The mean height of 15-to 18-year-old males from Chile in 20092010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let <emphasis effect="italics">X</emphasis> = the height of a 15-to 18-year-old male from Chile in 20092010,  and <emphasis effect="italics">x</emphasis> = the height of one male from this group. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(170, 6.28).</para><para id="eip-329">Find the <emphasis effect="italics">z</emphasis>-scores for <emphasis effect="italics">x</emphasis> = 160.58 cm and <emphasis effect="italics">y</emphasis> = 162.85 cm. Interpret each <emphasis effect="italics">z</emphasis>-score. What can you say about <emphasis effect="italics">x</emphasis> = 160.58 cm and <emphasis effect="italics">y</emphasis> = 162.85 cm as they compare to their respective means and standard deviations?</para>
 </problem>
 
 <solution id="eip-526">
@@ -368,7 +368,7 @@
 <example id="eip-265">
 <exercise id="eip-327">
 <problem id="eip-801">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-819">From 19841985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <emphasis effect="italics">Y</emphasis> = the height of 15-to 18-year-old males in 19841985. Then <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(172.36, 6.34).</para><para id="eip-idp122625136">
+  <para id="eip-819">From 19841985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <emphasis effect="italics">Y</emphasis> = the height of 15-to 18-year-old males in 19841985. Then <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(172.36, 6.34).</para><para id="eip-idp122625136">
 <list id="eip-idp122625264" list-type="enumerated" number-style="lower-alpha"><item>About 68 percent of the <emphasis effect="italics">y</emphasis> values lie between what two values? These values are ________________. The <emphasis effect="italics">z</emphasis>-scores are ________________, respectively.</item>
 <item>About 95 percent of the <emphasis effect="italics">y</emphasis> values lie between what two values? These values are ________________. The <emphasis effect="italics">z</emphasis>-scores are ________________ respectively.</item>
 <item>About 99.7 percent of the <emphasis effect="italics">y</emphasis> values lie between what two values? These values are ________________. The <emphasis effect="italics">z</emphasis>-scores are ________________, respectively.</item>
@@ -440,7 +440,7 @@
 <para id="fs-idp58164384">
 <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1)</para>
 <para id="eip-155"><emphasis effect="italics">z</emphasis> = a standardized value (<emphasis effect="italics">z</emphasis>-score)</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-547">mean = 0, standard deviation = 1</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp101194144">To find the <emphasis effect="italics">k</emphasis><sup>th</sup> percentile of <emphasis effect="italics">X</emphasis> when the <emphasis effect="italics">z</emphasis>-score is known,<newline/><emphasis effect="italics">k</emphasis> = <emphasis effect="italics">μ</emphasis> + (<emphasis effect="italics">z</emphasis>)<emphasis effect="italics">σ</emphasis></para><para id="fs-idp50699312"><emphasis effect="italics">z</emphasis>-score: <emphasis effect="italics">z</emphasis> = <m:math>
+<para id="eip-547">mean = 0, standard deviation = 1</para><para id="fs-idp101194144">To find the <emphasis effect="italics">k</emphasis><sup>th</sup> percentile of <emphasis effect="italics">X</emphasis> when the <emphasis effect="italics">z</emphasis>-score is known,<newline/><emphasis effect="italics">k</emphasis> = <emphasis effect="italics">μ</emphasis> + (<emphasis effect="italics">z</emphasis>)<emphasis effect="italics">σ</emphasis></para><para id="fs-idp50699312"><emphasis effect="italics">z</emphasis>-score: <emphasis effect="italics">z</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -710,7 +710,7 @@
 </solution> -->
 </exercise><exercise id="fs-idm53172656">
 <problem id="fs-idp42925920">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm48779424">Suppose <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(–3, 1). Between what <emphasis effect="italics">x</emphasis> values does 95.45 percent of the data lie? The range of <emphasis effect="italics">x</emphasis> values is centered at the mean of the distribution (i.e., –3).</para></problem>
+<para id="fs-idm48779424">Suppose <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(–3, 1). Between what <emphasis effect="italics">x</emphasis> values does 95.45 percent of the data lie? The range of <emphasis effect="italics">x</emphasis> values is centered at the mean of the distribution (i.e., –3).</para></problem>
 <solution id="fs-idm77746640">
 <para id="fs-idp40669232">between –5 and –1</para></solution>
 </exercise>
@@ -744,7 +744,7 @@
 </exercise>
 
 <exercise id="fs-idp72804864"><problem id="fs-idp72805120">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp193808192">About what percent of <emphasis effect="italics">x</emphasis> values lie between the first and third standard deviations, both sides?</para></problem>
+<para id="fs-idp193808192">About what percent of <emphasis effect="italics">x</emphasis> values lie between the first and third standard deviations, both sides?</para></problem>
 
 <!-- <solution id="fs-idp56159920">
 <para id="fs-idp56160176">about 34.46%</para>
@@ -760,7 +760,7 @@
 </exercise>
 
 <exercise id="fs-idm119601152"><problem id="fs-idp13620608">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm125057376"><emphasis effect="italics">X</emphasis> ~ _____(_____, _____)</para></problem>
+  <para id="fs-idm125057376"><emphasis effect="italics">X</emphasis> ~ _____(_____, _____)</para></problem>
 
 <!-- <solution id="fs-idp89883200">
 <para id="fs-idp89883456"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(4.1, 1.3)</para>
@@ -801,7 +801,7 @@
 
 <exercise id="fs-idm62385744"><problem id="fs-idm56430320">
 <para id="eip-156">The length of time it takes to find a parking space at 9 a.m. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes. If the mean is significantly greater than the standard deviation, which of the following statements is true?</para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm68354864" list-type="enumerated" number-style="upper-roman"><item>The data cannot follow the uniform distribution.</item>
+<list id="fs-idm68354864" list-type="enumerated" number-style="upper-roman"><item>The data cannot follow the uniform distribution.</item>
 <item>The data cannot follow the exponential distribution.</item>
 <item>The data cannot follow the normal distribution.</item>
 </list><list id="fs-idm18019792" list-type="enumerated" number-style="lower-alpha">
@@ -816,7 +816,7 @@
   <para id="fs-idm77142128">b</para>
 </solution> -->
 </exercise><exercise id="eip-866"><problem id="eip-4">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idm112969632">The heights of the 430 basketball players were listed on team rosters at the start of the 2005–2006 season. The heights of basketball players have an approximate normal distribution with a mean, <emphasis effect="italics">µ</emphasis> = 79 inches, and a standard deviation, <emphasis effect="italics">σ</emphasis> = 3.89 inches. For each of the following heights, calculate the <emphasis effect="italics">z</emphasis>-score and interpret it using complete sentences:</para><list id="eip-idm156998368" list-type="enumerated" number-style="lower-alpha">
+<para id="eip-idm112969632">The heights of the 430 basketball players were listed on team rosters at the start of the 2005–2006 season. The heights of basketball players have an approximate normal distribution with a mean, <emphasis effect="italics">µ</emphasis> = 79 inches, and a standard deviation, <emphasis effect="italics">σ</emphasis> = 3.89 inches. For each of the following heights, calculate the <emphasis effect="italics">z</emphasis>-score and interpret it using complete sentences:</para><list id="eip-idm156998368" list-type="enumerated" number-style="lower-alpha">
 <item>77 inches</item>
 <item>85 inches</item>
 <item>If a player reported his height had a <emphasis effect="italics">z</emphasis>-score of 3.5, would you believe him? Explain your answer.</item>
@@ -887,7 +887,7 @@
 </list>
 </solution>
 </exercise><exercise id="eip-459"><problem id="eip-325">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-371">Height and weight are two measurements used to track a child’s development. The World Health Organization measures child development by comparing the weights of children who are the same height and same gender. In 2009, weights for all 80 cm girls in the reference population had a mean <emphasis effect="italics">µ</emphasis> = 10.2 kg and standard deviation <emphasis effect="italics">σ</emphasis> = 0.8 kg. Weights are normally distributed. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(10.2, 0.8). Calculate the <emphasis effect="italics">z</emphasis>-scores that correspond to the following weights and interpret them:
+  <para id="eip-371">Height and weight are two measurements used to track a child’s development. The World Health Organization measures child development by comparing the weights of children who are the same height and same gender. In 2009, weights for all 80 cm girls in the reference population had a mean <emphasis effect="italics">µ</emphasis> = 10.2 kg and standard deviation <emphasis effect="italics">σ</emphasis> = 0.8 kg. Weights are normally distributed. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(10.2, 0.8). Calculate the <emphasis effect="italics">z</emphasis>-scores that correspond to the following weights and interpret them:
 <list id="eip-idp79884128" list-type="enumerated" number-style="lower-alpha">
 <item>11 kg</item>
 <item>7.9 kg</item>
@@ -941,7 +941,7 @@
 <problem id="eip-574">
   <para id="eip-766">In 2005, 1,475,623 students heading to college took the SAT exam. The distribution of scores in the math section of the SAT follows a normal distribution with mean <emphasis effect="italics">µ</emphasis> = 520 and standard deviation <emphasis effect="italics">σ</emphasis> = 115.</para>
 
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp101733776" list-type="enumerated" number-style="lower-alpha"><item>Calculate the <emphasis effect="italics">z</emphasis>-score for an SAT score of 720. Interpret it using a complete sentence.</item>
+<list id="eip-idp101733776" list-type="enumerated" number-style="lower-alpha"><item>Calculate the <emphasis effect="italics">z</emphasis>-score for an SAT score of 720. Interpret it using a complete sentence.</item>
 <item>What math SAT score is 1.5 standard deviations above the mean? What can you say about this SAT score?</item>
 <item>For 2012, the SAT math test had a mean of 514 and standard deviation 117. The ACT math test is an alternative to the SAT math test, and is approximately normally distributed with mean 21 and standard deviation 5.3. If one person took the SAT math test and scored 700 and a second person took the ACT math test and scored 30, who did better with respect to the test that each person took?</item></list></problem>
 

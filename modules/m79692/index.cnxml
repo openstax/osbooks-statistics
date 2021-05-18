@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Prediction (Optional)</title>
-  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79692</md:content-id>
   <md:title>Prediction (Optional)</md:title>
   <md:abstract/>
@@ -9,9 +9,9 @@
 
 <content>
 <section id="fs-id1164563515442">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-775">Recall the <link document="m79689" target-id="element-22">third exam/final exam example</link>.</para><para id="eip-804">We found the equation of the best-fit line for the final exam grade as a function of the grade on the third exam. We can now use the least-squares regression line for prediction.</para>
+<para id="eip-775">Recall the <link document="m79689" target-id="element-22">third exam/final exam example</link>.</para><para id="eip-804">We found the equation of the best-fit line for the final exam grade as a function of the grade on the third exam. We can now use the least-squares regression line for prediction.</para>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-12498">Suppose you want to estimate, or predict, the mean final exam score of statistics students who received a 73 on the third exam. The exam scores (<emphasis effect="italics">x</emphasis> values) range from 65 to 75. Since 73 is between the <emphasis effect="italics">x</emphasis> values 65 and 75, substitute <emphasis effect="italics">x</emphasis> = 73 into the equation. Then,</para><equation xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" class="unnumbered" id="element-735"><label/><m:math>
+<para id="element-12498">Suppose you want to estimate, or predict, the mean final exam score of statistics students who received a 73 on the third exam. The exam scores (<emphasis effect="italics">x</emphasis> values) range from 65 to 75. Since 73 is between the <emphasis effect="italics">x</emphasis> values 65 and 75, substitute <emphasis effect="italics">x</emphasis> = 73 into the equation. Then,</para><equation class="unnumbered" id="element-735"><label/><m:math>
  <m:mrow>
 <m:mover>
    <m:mi>y</m:mi><m:mo>^</m:mo></m:mover>
@@ -22,7 +22,7 @@
 </equation><para id="fs-idm74881792">We predict that statistics students who earn a grade of 73 on the third exam will earn a grade of 179.08 on the final exam, on average.</para>
 
 <example id="element-438">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-546">Recall the <link document="m79689" target-id="element-22">third exam/final exam example</link>.<newline count="2"/></para><exercise id="element-770">
+<para id="element-546">Recall the <link document="m79689" target-id="element-22">third exam/final exam example</link>.<newline count="2"/></para><exercise id="element-770">
 <problem id="id1170592391444">
   <para id="element-464">a. What would you predict the final exam score to be for a student who scored a 66 on the third exam?  </para></problem>
 
@@ -37,7 +37,7 @@
   </para></problem>
 
 <solution id="id3981938" print-placement="end">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-380">b. The <emphasis effect="italics">x</emphasis> values in the data are between 65 and 75. 90 is outside the domain of the observed <emphasis effect="italics">x</emphasis> values in the data (independent variable), so you cannot reliably predict the final exam score for this student. Even though it is possible to enter 90 into the equation for <emphasis effect="italics">x</emphasis> and calculate a corresponding <emphasis effect="italics">y</emphasis> value, the <emphasis effect="italics">y</emphasis> value that you get will not be reliable.
+  <para id="element-380">b. The <emphasis effect="italics">x</emphasis> values in the data are between 65 and 75. 90 is outside the domain of the observed <emphasis effect="italics">x</emphasis> values in the data (independent variable), so you cannot reliably predict the final exam score for this student. Even though it is possible to enter 90 into the equation for <emphasis effect="italics">x</emphasis> and calculate a corresponding <emphasis effect="italics">y</emphasis> value, the <emphasis effect="italics">y</emphasis> value that you get will not be reliable.
 <newline/><newline/>
 
 To understand how unreliable the prediction can be outside the <emphasis effect="italics">x</emphasis> values observed in the data, make the substitution <emphasis effect="italics">x</emphasis> = 90 into the equation:
@@ -108,7 +108,7 @@ The final exam score is predicted to be 261.19.  The most points that can be awa
 
 <exercise id="eip-439"><problem id="eip-642">
   <para id="eip-412">What would you predict the sales to be on day 90?</para>
-</problem></exercise><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-756"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises</emphasis>. A landscaping company is hired to mow the grass for several large properties. The total area of the properties is 1,345 acres. The rate at which one person can mow is <emphasis effect="italics">ŷ</emphasis> = 1350 – 1.2<emphasis effect="italics">x</emphasis>, where <emphasis effect="italics">x</emphasis> is the number of hours and <emphasis effect="italics">ŷ</emphasis> represents the number of acres left to mow.</para><exercise id="eip-584">
+</problem></exercise><para id="eip-756"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises</emphasis>. A landscaping company is hired to mow the grass for several large properties. The total area of the properties is 1,345 acres. The rate at which one person can mow is <emphasis effect="italics">ŷ</emphasis> = 1350 – 1.2<emphasis effect="italics">x</emphasis>, where <emphasis effect="italics">x</emphasis> is the number of hours and <emphasis effect="italics">ŷ</emphasis> represents the number of acres left to mow.</para><exercise id="eip-584">
 <problem id="eip-780">
   <para id="eip-988">How many acres are left to mow after 20 hours of work?</para>
 </problem>
@@ -131,7 +131,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 </solution>
 </exercise>
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-532"><emphasis effect="italics">Use the following information to answer the next 14 exercises</emphasis>. <link target-id="element-806" document=""/> contains real data for the first two decades of flu reporting.</para><table id="element-806" summary="This table presents the year of reporting AIDS cases and deaths in the first column, number of AIDS cases diagnosed in the second column, and number of AIDS deaths in the third column.">
+<para id="element-532"><emphasis effect="italics">Use the following information to answer the next 14 exercises</emphasis>. <link target-id="element-806" document=""/> contains real data for the first two decades of flu reporting.</para><table id="element-806" summary="This table presents the year of reporting AIDS cases and deaths in the first column, number of AIDS cases diagnosed in the second column, and number of AIDS deaths in the third column.">
 
 <title>Adults and Adolescents Only, United States </title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
@@ -315,7 +315,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 <exercise id="element-578">
 <problem id="id3231872">
  <para id="element-632">Solve.
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-idp112356080" list-type="enumerated" number-style="lower-alpha"><item>When <emphasis effect="italics">x</emphasis> = 1985, <emphasis effect="italics">ŷ</emphasis> = _____.</item>
+<list id="eip-idp112356080" list-type="enumerated" number-style="lower-alpha"><item>When <emphasis effect="italics">x</emphasis> = 1985, <emphasis effect="italics">ŷ</emphasis> = _____.</item>
 <item>When <emphasis effect="italics">x</emphasis> = 1990, <emphasis effect="italics">ŷ</emphasis> = _____.</item>
 <item>When <emphasis effect="italics">x</emphasis> = 1970, <emphasis effect="italics">ŷ</emphasis> = _____. Why doesn’t this answer make sense?</item>
 </list></para></problem>
@@ -337,9 +337,9 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 </exercise>
 <exercise id="fs-id1164567881521">
 <problem id="fs-id1164567639173">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164568038151">Plot the two points on the graph. Then, connect the two points to form the regression line.</para></problem>
+<para id="fs-id1164568038151">Plot the two points on the graph. Then, connect the two points to form the regression line.</para></problem>
 <solution id="fs-id1164567283258">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564497816">Check student solution.</para></solution>
+<para id="fs-id1164564497816">Check student solution.</para></solution>
 </exercise>
 
 
@@ -356,7 +356,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 
 <exercise id="element-537">
 <problem id="id3371067">
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-803">Write the equation: <emphasis effect="italics">ŷ</emphasis> = ____________.</para></problem>
+  <para id="element-803">Write the equation: <emphasis effect="italics">ŷ</emphasis> = ____________.</para></problem>
 
 <solution id="id3238552">
   <para id="element-747"><m:math>
@@ -394,10 +394,10 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 
 <!-- From 12.7 MOVE to 12.8 -->
 <exercise id="fs-idp87876464"><problem id="fs-idm79455904">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-85">Graph <emphasis effect="italics">year</emphasis> vs. <emphasis effect="italics">number flu cases diagnosed</emphasis>. Do not include pre-1981. Label both axes with words. Scale both axes.</para></problem></exercise>
+<para id="element-85">Graph <emphasis effect="italics">year</emphasis> vs. <emphasis effect="italics">number flu cases diagnosed</emphasis>. Do not include pre-1981. Label both axes with words. Scale both axes.</para></problem></exercise>
 <exercise id="element-54"><problem id="id4187966">
 <para id="element-930">Enter your data into your calculator or computer. The pre-1981 data should not be included. Why is that so?</para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-935">Write the linear equation, rounding to four decimal places.</para></problem>
+<para id="eip-935">Write the linear equation, rounding to four decimal places.</para></problem>
 
 <solution id="fs-idp16730128">
 <para id="fs-idm46065584">We don’t know if the pre-1981 data were collected from a single year.  So, we don’t have an accurate <emphasis effect="italics">x</emphasis> value for this figure.</para><para id="fs-idm126049344">Regression equation: <emphasis effect="italics">ŷ</emphasis> (number of flu cases) = –3,448,225 + 1749.777 (year).</para>
@@ -432,7 +432,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 <exercise id="fs-id1164565598834">
 <problem id="fs-id1164567634364">
 <para id="fs-id1164565335197"><emphasis effect="italics">Calculate the following:</emphasis></para>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1164564841328"><item><emphasis effect="italics">a =</emphasis> _____</item>
+<list id="fs-id1164564841328"><item><emphasis effect="italics">a =</emphasis> _____</item>
 <item><emphasis effect="italics">b =</emphasis> _____</item>
 <item>correlation = _____</item>
 <item><emphasis effect="italics">n =</emphasis> _____</item>
@@ -452,7 +452,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 <section id="fs-idp66999104" class="free-response"><title>Homework</title><exercise id="element-401"><problem id="id44884447">
 <para id="element-292">Recently, the annual numbers of driver deaths per 100,000 people for the selected age groups are as follows:</para>
 
-<table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp87463888" summary="Table 3 is two columns with the headings of: Age (year) and Number of Driver Deaths (per 100,000 people). Row one: Age 16-19 and the number of deaths is 38. Row two: 20-24 the number of deaths is 36. Row three: 25-34 and the number of deaths is 24. Row four: 35-54 and the number of deaths is 30. Row five: 55-74 and the number of deaths is 18. And the final row 75+ and the number of deaths is 28.">
+<table id="fs-idp87463888" summary="Table 3 is two columns with the headings of: Age (year) and Number of Driver Deaths (per 100,000 people). Row one: Age 16-19 and the number of deaths is 38. Row two: 20-24 the number of deaths is 36. Row three: 25-34 and the number of deaths is 24. Row four: 35-54 and the number of deaths is 30. Row five: 55-74 and the number of deaths is 18. And the final row 75+ and the number of deaths is 28.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -491,7 +491,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 
 
 </tgroup>
-</table><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-119" list-type="enumerated" number-style="lower-alpha"><item>For each age group, pick the midpoint of the interval for the <emphasis effect="italics">x</emphasis> value. For the 75+ group, use 80.</item>
+</table><list id="element-119" list-type="enumerated" number-style="lower-alpha"><item>For each age group, pick the midpoint of the interval for the <emphasis effect="italics">x</emphasis> value. For the 75+ group, use 80.</item>
 <item>Using <emphasis effect="italics">age</emphasis> as the independent variable and <emphasis effect="italics">number of driver deaths per 100,000 people</emphasis> as the dependent variable, make a scatter plot of the data.</item>
 <item>Calculate the least-squares (best–fit) line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
 <item>Find the correlation coefficient. Is it significant?</item>
@@ -558,7 +558,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
         </tbody>
  </tgroup>
 </table>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-796" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
+<list id="element-796" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
 <item>Draw a scatter plot of the ordered pairs.</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
 <item>Find the correlation coefficient. Is it significant?</item>
@@ -621,7 +621,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
         </tbody>
 </tgroup>
 </table>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-86" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
+<list id="element-86" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
 <item>Draw a scatter plot of the ordered pairs.</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
 <item>Find the correlation coefficient. Is it significant?</item>
@@ -701,7 +701,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 
 </tgroup>
 </table>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-81" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
+<list id="element-81" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
 <item>Draw a scatter plot of the data.</item>
 <item>Does it appear from inspection that there is a relationship between the variables? Why or why not?</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
@@ -812,7 +812,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 
 </tgroup>
 </table>
-  <para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-336">We are interested in whether the number of letters in a state name depends on the year the state entered the Union.</para><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-0" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
+  <para id="element-336">We are interested in whether the number of letters in a state name depends on the year the state entered the Union.</para><list id="element-0" list-type="enumerated" number-style="lower-alpha"><item>Decide which variable should be the independent variable and which should be the dependent variable.</item>
 <item>Draw a scatter plot of the data.</item>
 <item>Does it appear from inspection that there is a relationship between the variables? Why or why not?</item>
 <item>Calculate the least-squares line. Put the equation in the form <emphasis effect="italics">ŷ</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.</item>
@@ -825,7 +825,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 <solution id="fs-idp67061424">
 <para id="fs-id1170309544149">a. Year is the independent or <emphasis effect="italics">x</emphasis> variable; the number of letters is the dependent or <emphasis effect="italics">y</emphasis> variable.<newline count="2"/></para>
 <para id="fs-id1170307163961">b. Check student’s solution.<newline count="2"/></para>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309254234">c. No.<newline count="2"/></para><para id="fs-id1170309476315">d. <emphasis effect="italics">ŷ</emphasis> = 47.03 – 0.0216<emphasis effect="italics">x</emphasis><newline count="2"/></para>
+<para id="fs-id1170309254234">c. No.<newline count="2"/></para><para id="fs-id1170309476315">d. <emphasis effect="italics">ŷ</emphasis> = 47.03 – 0.0216<emphasis effect="italics">x</emphasis><newline count="2"/></para>
 <para id="fs-id1170307019426">e. –0.4280. The <emphasis effect="italics">r</emphasis> value indicates that there is not a significant correlation between the year the state entered the Union and the number of letters in the name.<newline count="2"/></para>
 <para id="fs-id1170309548338">g. No. The relationship does not appear to be linear; the correlation is not significant.</para>
 </solution>

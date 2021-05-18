@@ -1,6 +1,6 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:cnxorg="http://cnx.rice.edu/system-info" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:bib="http://bibtexml.sf.net/" id="new" module-id="" cnxml-version="0.7">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79600</md:content-id>
   <md:title>Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs</md:title>
   <md:abstract/>
@@ -9,8 +9,8 @@
 
 <content>
 <section id="fs-id1164568036359">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="id6999853">One simple graph, the <emphasis>stem-and-leaf graph</emphasis> or <emphasis>stemplot</emphasis>, comes from the field of exploratory data analysis. It is a good choice when the data sets are small. To create the plot, divide each observation of data into a stem and a leaf. The stem consists of the leading digit(s), while the leaf consists of a <emphasis effect="bold">final significant digit</emphasis>. For example, 23 has stem two and leaf three. The number 432 has stem 43 and leaf two. Likewise, the number 5,432 has stem 543 and leaf two. The decimal 9.3 has stem nine and leaf three. Write the stems in a vertical line from smallest to largest. Draw a vertical line to the right of the stems. Then write the leaves in increasing order next to their corresponding stem. Make sure the leaves show a space between values, so that the exact data values may be easily determined. The frequency of data values for each stem provides information about the shape of the distribution.</para><example id="element-696">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-948">For Susan Dean's spring precalculus class, scores for the first exam were as follows (smallest to largest):
+<para id="id6999853">One simple graph, the <emphasis>stem-and-leaf graph</emphasis> or <emphasis>stemplot</emphasis>, comes from the field of exploratory data analysis. It is a good choice when the data sets are small. To create the plot, divide each observation of data into a stem and a leaf. The stem consists of the leading digit(s), while the leaf consists of a <emphasis effect="bold">final significant digit</emphasis>. For example, 23 has stem two and leaf three. The number 432 has stem 43 and leaf two. Likewise, the number 5,432 has stem 543 and leaf two. The decimal 9.3 has stem nine and leaf three. Write the stems in a vertical line from smallest to largest. Draw a vertical line to the right of the stems. Then write the leaves in increasing order next to their corresponding stem. Make sure the leaves show a space between values, so that the exact data values may be easily determined. The frequency of data values for each stem provides information about the shape of the distribution.</para><example id="element-696">
+<para id="element-948">For Susan Dean's spring precalculus class, scores for the first exam were as follows (smallest to largest):
 <newline/>
  33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 94, 94, 94, 96, 100</para><table id="element-185" summary="Table displaying stem in first column and leaf in second column for the values listed above."><title>Stem-and-Leaf Graph</title>
 <tgroup cols="2"><thead>
@@ -49,7 +49,7 @@
 
 
 </tgroup>
-</table><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-541">The stemplot shows that most scores fell in the 60s, 70s, 80s, and 90s.  Eight out of the 31 scores or approximately 26 percent <m:math>
+</table><para id="element-541">The stemplot shows that most scores fell in the 60s, 70s, 80s, and 90s.  Eight out of the 31 scores or approximately 26 percent <m:math>
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -70,7 +70,7 @@
 <title>Try It</title>
 <exercise id="fs-idp3142256">
 <problem id="fs-idm28250320">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp29192512">For the Park City basketball team, scores for the last 30 games were as follows (smallest to largest):
+<para id="fs-idp29192512">For the Park City basketball team, scores for the last 30 games were as follows (smallest to largest):
 <newline/>
  32, 32, 33, 34, 38, 40, 42, 42, 43, 44, 46, 47, 47, 48, 48, 48, 49, 50, 50, 51, 52, 52, 52, 53, 54, 56, 57, 57, 60, 61
 <newline/>Construct a stemplot for the data.</para></problem>
@@ -95,8 +95,8 @@
 </exercise></note>
 
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-522">The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term>outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <emphasis>extreme value.</emphasis> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes, for example, writing 50 instead of 500, while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</para><example id="element-798">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-534">The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data.
+<para id="eip-522">The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term>outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <emphasis>extreme value.</emphasis> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes, for example, writing 50 instead of 500, while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</para><example id="element-798">
+<para id="element-534">The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data.
 <newline/>1.1, 1.5, 2.3, 2.5, 2.7, 3.2, 3.3, 3.3, 3.5, 3.8, 4.0, 4.2, 4.5, 4.5, 4.7, 4.8, 5.5, 5.6, 6.5, 6.7, 12.3</para><exercise id="element-6923">
 <problem id="id8567884">
 <para id="fs-idp11807920">Do the data seem to have any concentration of values?</para>
@@ -163,7 +163,7 @@
 <title>Try It</title>
 <exercise id="fs-idm40603312">
 <problem id="fs-idm28790944">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp73770272">The data below show the distances (in miles) from the homes of high school students to the school. Create a stemplot using the following data and identify any outliers.</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp20460656">0.5, 0.7, 1.1, 1.2, 1.2, 1.3, 1.3, 1.5, 1.5, 1.7, 1.7, 1.8, 1.9, 2.0, 2.2, 2.5, 2.6, 2.8, 2.8, 2.8, 3.5, 3.8, 4.4, 4.8, 4.9, 5.2, 5.5, 5.7, 5.8, 8.0
+<para id="fs-idp73770272">The data below show the distances (in miles) from the homes of high school students to the school. Create a stemplot using the following data and identify any outliers.</para><para id="fs-idp20460656">0.5, 0.7, 1.1, 1.2, 1.2, 1.3, 1.3, 1.5, 1.5, 1.7, 1.7, 1.8, 1.9, 2.0, 2.2, 2.5, 2.6, 2.8, 2.8, 2.8, 3.5, 3.8, 4.4, 4.8, 4.9, 5.2, 5.5, 5.7, 5.8, 8.0
 </para></problem>
 <solution id="fs-idp22705856" class="solutions">
 <label/>
@@ -193,7 +193,7 @@
 </note>
 
 
-<example id="fs-idp11879648"><exercise xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp161531440"><problem id="fs-idp99219856">
+<example id="fs-idp11879648"><exercise id="fs-idp161531440"><problem id="fs-idp99219856">
 <para id="fs-idp93832256">A <emphasis>side-by-side stem-and-leaf plot</emphasis> allows a comparison of the two data sets in two columns. In a side-by-side stem-and-leaf plot, two sets of leaves share the same stem. The leaves are to the left and the right of the stems.  <link target-id="eip-idm247167280"/> and <link target-id="eip-idm204185072"/> show the ages of presidents at their inauguration and at their death. Construct a side-by-side stem-and-leaf plot using these data.</para>
 <table id="eip-idm247167280" summary="Table 6 shows the Presidental Ages at their Inauguration. They are as follows  Washington 57, J. Adams 61, Jefferson 57, Madison 57, Monroe 58, J.Q. Adams 57, Jackson 61, Van Buren 54, W.H. Harrison 68, Tyler 51, Polk 49, Taylor 64, Filmore 50, Pierce 48, Buchanan 65, Lincoln 52, A. Johnson 56, Grant 46, Hayes 54, Garfield 49, Arthur 51, Cleveland 47, B. Harrison 55, Cleveland 55, McKinley 54, T. Roosevelt 42, Taft 51, Wilson 56, Harding 55, Coolidge 51, Hoover 54, F. Roosevelt 51, Truman 60, Eisenhower 62, Kennedy 43, L. Johnson 55, Nixon 56, Ford 61, Carter 52, Reagan 69, G.H.W Bush 64, Clinton 47, G.W. Bush 54, Obama 47.">
 <title>Presidential Ages at Inauguration</title>
@@ -628,7 +628,7 @@ Teenager Is Reminded</entry>
 <para id="eip-136"><emphasis>Bar graphs</emphasis> consist of bars that are separated from each other. The bars can be rectangles, or they can be rectangular boxes, used in three-dimensional plots, and they can be vertical or horizontal. The <emphasis>bar graph</emphasis> shown in <link target-id="example5"/> has age-groups represented on the <emphasis><emphasis effect="italics">x</emphasis>-axis</emphasis> and proportions on the <emphasis><emphasis effect="italics">y</emphasis>-axis</emphasis>.</para><example id="example5">
 <exercise id="fs-idm7260336">
 <problem id="fs-idp99169968">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="eip-666">By the end of 2011, a social media site had more than 146 million users in the United States. <link target-id="M01_Ch02_tbl010"/> shows three age-groups, the number of users in each age-group, and the proportion (percentage) of users in each age-group. Construct a bar graph using this data.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="M01_Ch02_tbl010" summary="The information is from Facebook. The first row of the table displays age groups, the second row displays number of Facebook users and the third row displays percentages.">
+<para id="eip-666">By the end of 2011, a social media site had more than 146 million users in the United States. <link target-id="M01_Ch02_tbl010"/> shows three age-groups, the number of users in each age-group, and the proportion (percentage) of users in each age-group. Construct a bar graph using this data.</para><table id="M01_Ch02_tbl010" summary="The information is from Facebook. The first row of the table displays age groups, the second row displays number of Facebook users and the third row displays percentages.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -703,7 +703,7 @@ Teenager Is Reminded</entry>
 <example id="eip-708">
 <exercise id="fs-idm25526448">
 <problem id="fs-idm19535184">
-<para id="eip-655">The columns in <link target-id="M01_Ch02_tbl012"/> contain the race or ethnicity of students in U.S. public schools for the class of 2011, percentages for the Advanced Placement (AP) examinee population for that class, and percentages for the overall student population. Create a bar graph with the student race or ethnicity (qualitative data) on the <emphasis effect="italics">x</emphasis>-axis and the AP examinee population percentages on the <emphasis effect="italics">y</emphasis>-axis.</para><table xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="M01_Ch02_tbl012" summary="The table shows Race and Ethnicity in the first column, Advanced Placement Examinee Population in the second column and Overall Student Population in the third column.">
+<para id="eip-655">The columns in <link target-id="M01_Ch02_tbl012"/> contain the race or ethnicity of students in U.S. public schools for the class of 2011, percentages for the Advanced Placement (AP) examinee population for that class, and percentages for the overall student population. Create a bar graph with the student race or ethnicity (qualitative data) on the <emphasis effect="italics">x</emphasis>-axis and the AP examinee population percentages on the <emphasis effect="italics">y</emphasis>-axis.</para><table id="M01_Ch02_tbl012" summary="The table shows Race and Ethnicity in the first column, Advanced Placement Examinee Population in the second column and Overall Student Population in the third column.">
 <tgroup cols="3"><thead>
 <row>
 <entry>Race/Ethnicity</entry>
@@ -758,7 +758,7 @@ Teenager Is Reminded</entry>
 <exercise id="fs-idm43065520">
 <problem id="fs-idp3652336">
 
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp31379616">Park City is broken down into six voting districts. The table shows the percentage of the total registered voter population that lives in each district as well as the percentage of the entire population that lives in each district. Construct a bar graph that shows the registered voter population by district.</para><table id="M01_Ch02_tbl013" summary="Table 15 shows 6 districts split into two categories: Registered Voter Population and Overall City population. District 1 shows 15.5% are registered and 19.4% is the overall City Population. District 2 12.2% and 15.6%. District 3 9.8% and 9.0%. District 4 17.4% and 18.5%. District 5 shows 22.8% and 20.7%. District 6 shows 22.3% and 16.8%.">
+<para id="fs-idp31379616">Park City is broken down into six voting districts. The table shows the percentage of the total registered voter population that lives in each district as well as the percentage of the entire population that lives in each district. Construct a bar graph that shows the registered voter population by district.</para><table id="M01_Ch02_tbl013" summary="Table 15 shows 6 districts split into two categories: Registered Voter Population and Overall City population. District 1 shows 15.5% are registered and 19.4% is the overall City Population. District 2 12.2% and 15.6%. District 3 9.8% and 9.0%. District 4 17.4% and 18.5%. District 5 shows 22.8% and 20.7%. District 6 shows 22.3% and 16.8%.">
 <tgroup cols="3" align="left">
 <colspec colnum="1" colname="c1" align="center"/>
 <colspec colnum="2" colname="c2"/>
@@ -788,7 +788,7 @@ Teenager Is Reminded</entry>
 <example id="fs-id1170309417897">
 <exercise id="fs-id1170309302796">
 <problem id="fs-id1170309302799">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309297119"><link target-id="fs-id1170309297122"/> is a two-way table showing the types of pets owned by men and women.</para><table id="fs-id1170309297122" summary="This table has four columns labelled dogs, cats, fish, and total. It has three rows labelled men, women, and total. The men row indicates four dogs, two cats, and two fish for a total of eight pets. The women row indicates four dogs, six cats, and two fish for a total of 12 pets. The total row indicates eight dogs, eight cats, and four fish for a total of 20 pets.">
+<para id="fs-id1170309297119"><link target-id="fs-id1170309297122"/> is a two-way table showing the types of pets owned by men and women.</para><table id="fs-id1170309297122" summary="This table has four columns labelled dogs, cats, fish, and total. It has three rows labelled men, women, and total. The men row indicates four dogs, two cats, and two fish for a total of eight pets. The women row indicates four dogs, six cats, and two fish for a total of 12 pets. The total row indicates eight dogs, eight cats, and four fish for a total of 20 pets.">
 <tgroup cols="5"><thead>
 <row>
 <entry/>
@@ -826,22 +826,22 @@ Teenager Is Reminded</entry>
 <para id="fs-id1170309595576">Given these data, calculate the marginal distributions of pets for the people surveyed.</para>
 </problem>
 <solution id="fs-id1170309616072">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309336003"><m:math display="block">
+<para id="fs-id1170309336003"><m:math display="block">
  <m:mrow>
   <m:mtext>Dogs = 8/20 = </m:mtext><m:mtext>0.4</m:mtext>
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309336006"><m:math display="block">
+</para><para id="fs-id1170309336006"><m:math display="block">
  <m:mrow>
   <m:mtext>Cats = 8/20 = </m:mtext><m:mtext>0.4</m:mtext>
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309372562"><m:math display="block">
+</para><para id="fs-id1170309372562"><m:math display="block">
  <m:mrow>
   <m:mtext>Fish = 4/20 = </m:mtext><m:mtext>0.2</m:mtext>
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309372565">Note—The sum of all the marginal distributions must equal one. In this case, <m:math display="block">
+</para><para id="fs-id1170309372565">Note—The sum of all the marginal distributions must equal one. In this case, <m:math display="block">
  <m:mrow>
   <m:mn>0.4</m:mn><m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> </m:mtext><m:mn>0.4</m:mn><m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> </m:mtext><m:mn>0.2</m:mn><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>;</m:mo>
  </m:mrow>
@@ -851,7 +851,7 @@ Teenager Is Reminded</entry>
 <example id="fs-id1170309344760">
 <exercise id="fs-id1170309371933">
 <problem id="fs-id1170309254103">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309254105"><link target-id="fs-id1170309408457"/> is a two-way table showing the types of pets owned by men and women.</para><table id="fs-id1170309408457" summary="This table has four columns labelled dogs, cats, fish, and total. It has three rows labelled men, women, and total. The men row indicates four dogs, two cats, and two fish for a total of eight pets. The women row indicates four dogs, six cats, and two fish for a total of 12 pets. The total row indicates eight dogs, eight cats, and four fish for a total of 20 pets.">
+<para id="fs-id1170309254105"><link target-id="fs-id1170309408457"/> is a two-way table showing the types of pets owned by men and women.</para><table id="fs-id1170309408457" summary="This table has four columns labelled dogs, cats, fish, and total. It has three rows labelled men, women, and total. The men row indicates four dogs, two cats, and two fish for a total of eight pets. The women row indicates four dogs, six cats, and two fish for a total of 12 pets. The total row indicates eight dogs, eight cats, and four fish for a total of 20 pets.">
 <tgroup cols="5"><thead>
 <row>
 <entry/>
@@ -889,22 +889,22 @@ Teenager Is Reminded</entry>
 <para id="fs-id1170309702523">Given these data, calculate the conditional distributions for the subpopulation of men who own each pet type.</para>
 </problem>
 <solution id="fs-id1170309605435">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170307022445"><m:math display="block">
+<para id="fs-id1170307022445"><m:math display="block">
  <m:mrow>
   <m:mtext>Men who own dogs = 4/8 = </m:mtext><m:mtext>0.5</m:mtext>
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309470907"><m:math display="block">
+</para><para id="fs-id1170309470907"><m:math display="block">
  <m:mrow>
   <m:mtext>Men who own cats = 2/8 = </m:mtext><m:mtext>0.25</m:mtext>
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309350925"><m:math display="block">
+</para><para id="fs-id1170309350925"><m:math display="block">
  <m:mrow>
   <m:mtext>Men who own fish = 2/8 = </m:mtext><m:mtext>0.25</m:mtext>
  </m:mrow>
 </m:math>
-</para><para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1170309352038">Note—The sum of all the conditional distributions must equal one. In this case, <m:math display="block">
+</para><para id="fs-id1170309352038">Note—The sum of all the conditional distributions must equal one. In this case, <m:math display="block">
  <m:mrow>
   <m:mn>0.5</m:mn><m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> </m:mtext><m:mn>0.25</m:mn><m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> </m:mtext><m:mn>0.25</m:mn><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>;</m:mo>
  </m:mrow>
@@ -925,7 +925,7 @@ Teenager Is Reminded</entry>
 
 <section id="fs-idp18706816" class="summary">
 <title>Chapter Review</title>
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp5119792">A <emphasis>stem-and-leaf plot</emphasis> is a way to plot data and look at the distribution. In a stem-and-leaf plot, all data values within a class are visible. The advantage in a stem-and-leaf plot is that all values are listed, unlike a histogram, which gives classes of data values. A <emphasis>line graph</emphasis> is often used to represent a set of data values in which a quantity varies with time. These graphs are useful for finding trends, that is, finding a general pattern in data sets, including temperature, sales, employment, company profit, or cost, over a period of time. A <emphasis>bar graph</emphasis> is a chart that uses either horizontal or vertical bars to show comparisons among categories. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. Bar graphs are especially useful when categorical data are being used.</para></section>
+<para id="fs-idp5119792">A <emphasis>stem-and-leaf plot</emphasis> is a way to plot data and look at the distribution. In a stem-and-leaf plot, all data values within a class are visible. The advantage in a stem-and-leaf plot is that all values are listed, unlike a histogram, which gives classes of data values. A <emphasis>line graph</emphasis> is often used to represent a set of data values in which a quantity varies with time. These graphs are useful for finding trends, that is, finding a general pattern in data sets, including temperature, sales, employment, company profit, or cost, over a period of time. A <emphasis>bar graph</emphasis> is a chart that uses either horizontal or vertical bars to show comparisons among categories. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. Bar graphs are especially useful when categorical data are being used.</para></section>
 
 <section id="fs-idp51353072" class="practice">
 <title/>
@@ -933,7 +933,7 @@ Teenager Is Reminded</entry>
 
 <exercise id="fs-idp77965776">
 <problem id="fs-idp104599392">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp96747200">The miles-per-gallon ratings for 30 cars are shown below (lowest to highest):
+<para id="fs-idp96747200">The miles-per-gallon ratings for 30 cars are shown below (lowest to highest):
 <newline/>19, 19, 19, 20, 21, 21, 25, 25, 25, 26, 26, 28, 29, 31, 31, 32, 32, 33, 34, 35, 36, 37, 37, 38, 38, 38, 38, 41, 43, 43.</para></problem>
 <solution id="fs-idm37847504">
 <table id="fs-idp96212464" summary="The miles per gallon rating for 30 cars">
@@ -953,13 +953,13 @@ Teenager Is Reminded</entry>
 
 <exercise id="fs-idp69585968">
 <problem id="fs-idp5781504">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp7036560">The height in feet of 25 trees is shown below (lowest to highest):
+<para id="fs-idp7036560">The height in feet of 25 trees is shown below (lowest to highest):
 <newline/>25, 27, 33, 34, 34, 34, 35, 37, 37, 38, 39, 39, 39, 40, 41, 45, 46, 47, 49, 50, 50, 53, 53, 54, 54.</para></problem>
 </exercise>
 
 <exercise id="exercise8">
 <problem id="fs-idp105863648">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp8584400">The data are the prices of different laptops at an electronics store. Round each value to the nearest 10.
+<para id="fs-idp8584400">The data are the prices of different laptops at an electronics store. Round each value to the nearest 10.
 <newline/>249, 249, 260, 265, 265, 280, 299, 299, 309, 319, 325, 326, 350, 350, 350, 365, 369, 389, 409, 459, 489, 559, 569, 570, 610</para></problem>
 
 <solution id="fs-idp114380816">
@@ -985,7 +985,7 @@ Teenager Is Reminded</entry>
 
 <exercise id="fs-idp48193248">
 <problem id="fs-idp71330208">
-<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp71330464">The following data are daily high temperatures in a town for one month:
+<para id="fs-idp71330464">The following data are daily high temperatures in a town for one month:
 <newline/>61, 61, 62, 64, 66, 67, 67, 67, 68, 69, 70, 70, 70, 71, 71, 72, 74, 74, 74, 75, 75, 75, 76, 76, 77, 78, 78, 79, 79, 95.</para></problem>
 </exercise>
 

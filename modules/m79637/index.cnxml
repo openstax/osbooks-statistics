@@ -1,7 +1,7 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 
 <title>Continuous Distribution</title>
-<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m79637</md:content-id>
   <md:title>Continuous Distribution</md:title>
   <md:abstract/>
@@ -124,7 +124,7 @@
 </media>
 </figure></item>
 </list>
-<list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm6061312" list-type="enumerated"><title>Describe the Data</title><item>In two to three complete sentences, describe the shape of each graph. (Keep it simple. Does the graph go straight across, does it have a V shape, does it have a hump in the middle or at either end (and so on). One way to help you determine a shape is to draw a smooth curve roughly through the top of the bars.)</item>
+<list id="fs-idm6061312" list-type="enumerated"><title>Describe the Data</title><item>In two to three complete sentences, describe the shape of each graph. (Keep it simple. Does the graph go straight across, does it have a V shape, does it have a hump in the middle or at either end (and so on). One way to help you determine a shape is to draw a smooth curve roughly through the top of the bars.)</item>
 <item>Describe how changing the number of bars might change the shape.</item>
 </list><list id="fs-idm19839648" mark-suffix="." list-type="enumerated"><title>Theoretical Distribution</title><item> In words, <emphasis effect="italics">X</emphasis> = _____________________________________.</item>
 <item>The theoretical distribution of <emphasis effect="italics">X</emphasis> is <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0,1).</item>
@@ -138,9 +138,9 @@
 </list>
 </item>
 <item>Are the empirical values (the data) in the section titled <link target-id="fs-idp95550544">Collect the Data</link> close to the corresponding theoretical values? Why or why not?</item>
-</list><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idp170724832" list-type="enumerated"><title>Plot the Data</title><item>Construct a box plot of the data. Be sure to use a ruler to scale accurately and draw straight edges.</item>
+</list><list id="fs-idp170724832" list-type="enumerated"><title>Plot the Data</title><item>Construct a box plot of the data. Be sure to use a ruler to scale accurately and draw straight edges.</item>
 <item>Do you notice any potential outliers? If so, which values are they? Either way, justify your answer numerically. (Recall that any data that are less than <emphasis effect="italics">Q</emphasis><sub>1</sub> – 1.5(<emphasis effect="italics">IQR</emphasis>) or more than <emphasis effect="italics">Q</emphasis><sub>3</sub> + 1.5(<emphasis effect="italics">IQR</emphasis>) are potential outliers. <emphasis effect="italics">IQR</emphasis> means interquartile range.)</item>
-</list><list xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-idm63566320" list-type="enumerated"><title>Compare the Data</title><item>For each of the following parts, use a complete sentence to comment on how the value obtained from the data compares to the theoretical value you expected from the distribution in the section titled <link target-id="fs-idm19839648">Theoretical Distribution</link>:
+</list><list id="fs-idm63566320" list-type="enumerated"><title>Compare the Data</title><item>For each of the following parts, use a complete sentence to comment on how the value obtained from the data compares to the theoretical value you expected from the distribution in the section titled <link target-id="fs-idm19839648">Theoretical Distribution</link>:
 <list id="fs-idp53285248" list-type="enumerated" number-style="lower-alpha"><item>minimum value: _______</item>
 <item>first quartile: _______</item>
 <item>median: _______</item>
