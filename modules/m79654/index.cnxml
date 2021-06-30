@@ -26,7 +26,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math> as an estimate for <emphasis effect="italics">μ</emphasis>, and we need the margin of error. Here, the margin of error is called the <term>error bound for a population mean</term> (<emphasis effect="italics">EBM</emphasis>) is called the <term>margin of error for a population mean</term> (<emphasis><emphasis effect="italics">EBM</emphasis></emphasis>). The sample mean, <m:math>
+</m:math> as an estimate for <emphasis effect="italics">μ</emphasis>, and we need the margin of error. The margin of error for the population mean is called the <term>error bound for a population mean</term> (<emphasis effect="italics">EBM</emphasis>). The sample mean, <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>

@@ -837,8 +837,8 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <item>What fraction of the people surveyed commute 12 miles or more? Less than 12 miles? Between five and 13 miles (not including five and 13 miles)?</item></list></problem>
 
 	<solution id="id16928619">
-<list id="solution-list-2" list-type="enumerated" number-style="lower-alpha"><item>No. The frequency column sums to 18, not 19. Not all cumulative relative frequencies are correct.</item>
-<item>False. The frequency for three miles should be one; for two miles (left out), two. The cumulative relative frequency column should read 1052, 01579, 02105, 03684, 04737, 06316, 07368, 07895, 08421, 09474, 1.0000.</item>
+<list id="solution-list-2" list-type="enumerated" number-style="lower-alpha"><item>No. The frequency column sums to 18, not 19. Not all cumulative relative frequencies are correct. The table entries for data values 2, 3, 10, and 18 are incorrect. This affects cumulative relative frequency for most values.</item>
+<item>False. The frequency for three miles should be one; for two miles (left out), two. The cumulative relative frequency column should read 1052, .1579, .2105, .3684, .4737, .6316, .7368, .7895, .8421, .9474, 1.0000.</item>
 <item><m:math><m:mfrac><m:mn>5</m:mn><m:mn>19</m:mn></m:mfrac></m:math></item>
 <item><m:math>
 <m:mfrac><m:mn>7</m:mn><m:mn>19</m:mn></m:mfrac></m:math>, <m:math><m:mfrac><m:mn>12</m:mn><m:mn>19</m:mn></m:mfrac></m:math>, <m:math><m:mfrac><m:mn>7</m:mn><m:mn>19</m:mn></m:mfrac></m:math></item>
