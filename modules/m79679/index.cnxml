@@ -10,7 +10,7 @@
 
 <content>
 <section id="fs-id1164565046548">
-<para id="delete_me">You have seen the <emphasis effect="italics">χ</emphasis><sup>2</sup> test statistic used in three different circumstances. The following bulleted list is a summary that will help you decide which <emphasis effect="italics">χ</emphasis><sup>2</sup> test is the appropriate one to use.</para>
+<para id="eip-123456789">You have seen the <emphasis effect="italics">χ</emphasis><sup>2</sup> test statistic used in three different circumstances. The following bulleted list is a summary that will help you decide which <emphasis effect="italics">χ</emphasis><sup>2</sup> test is the appropriate one to use.</para>
 <list id="eip-id8185633"><item><emphasis>Goodness-of-Fit:</emphasis> Use the goodness-of-fit test to decide whether a population with an unknown distribution <emphasis effect="italics">fits</emphasis> a known distribution. In this case there will be a single qualitative survey question or a single outcome of an experiment from a single population. Goodness-of-fit is typically used to see if the population is uniform (all outcomes occur with equal frequency), the population is normal, or the population is the same as another population with a known distribution. The null and alternative hypotheses are as follows:
 <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: The population fits the given distribution.
 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: The population does not fit the given distribution.</item>

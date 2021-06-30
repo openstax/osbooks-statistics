@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164564612243">
-<para id="delete_me">Linear regression for two variables is based on a linear equation with one independent variable. The equation has the form</para>
+<para id="eip-123456789">Linear regression for two variables is based on a linear equation with one independent variable. The equation has the form</para>
 <equation class="unnumbered" id="element-987"><label/><m:math display="block">
 <m:mi>y</m:mi>
 <m:mo>=</m:mo>

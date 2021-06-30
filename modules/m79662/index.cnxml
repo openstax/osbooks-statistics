@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164565232863">
-<para id="delete_me">When you perform a hypothesis test, there are four possible outcomes depending on the actual truth, or falseness, of the null hypothesis <emphasis effect="italics">H<sub>0</sub></emphasis> and the decision to reject or not. The outcomes are summarized in the following table:</para>
+<para id="eip-123456789">When you perform a hypothesis test, there are four possible outcomes depending on the actual truth, or falseness, of the null hypothesis <emphasis effect="italics">H<sub>0</sub></emphasis> and the decision to reject or not. The outcomes are summarized in the following table:</para>
 
   <table id="element-689" summary="A 3 column table is shown. From left to right, the rows contain the following information. Header row: ACTION, H not IS ACTUALLY, ellipses. Second row: blank, true, false. Third row: Do not reject H not, Correct outcome, Type two error. Fourth row: Reject H not, Type one error, Correct outcome.">
 <tgroup cols="3"><thead>

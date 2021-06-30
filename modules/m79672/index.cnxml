@@ -18,7 +18,7 @@
 <item>The differences form the sample that is used for the hypothesis test.</item>
 <item>Either the matched pairs have differences that come from a population that is normal or the number of differences is sufficiently large so that distribution of the sample mean of differences is approximately normal.</item>
 </list>
-<para id="delete_me">In a hypothesis test for matched or paired samples, subjects are matched in pairs and differences are calculated. The differences are the data. The population mean for the differences, <emphasis effect="italics">μ<sub>d</sub></emphasis>, is then tested using a Student’s-<emphasis effect="italics">t</emphasis> test for a single population mean with <emphasis effect="italics">n</emphasis> – 1 degrees of freedom, where <emphasis effect="italics">n</emphasis> is the number of differences.</para><para id="fs-id1164564313321">The test statistic (<emphasis effect="italics">t</emphasis>-score) is</para>
+<para id="eip-123456789">In a hypothesis test for matched or paired samples, subjects are matched in pairs and differences are calculated. The differences are the data. The population mean for the differences, <emphasis effect="italics">μ<sub>d</sub></emphasis>, is then tested using a Student’s-<emphasis effect="italics">t</emphasis> test for a single population mean with <emphasis effect="italics">n</emphasis> – 1 degrees of freedom, where <emphasis effect="italics">n</emphasis> is the number of differences.</para><para id="fs-id1164564313321">The test statistic (<emphasis effect="italics">t</emphasis>-score) is</para>
 <equation id="element-403">
 <m:math>
 <m:mrow>

@@ -16,7 +16,7 @@
 </list></item>
 </list><para id="fs-idm119151424">
 <note id="fs-idm107349216"><label>NOTE</label> The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch <emphasis effect="italics">t</emphasis>-test.  The degrees of freedom formula was developed by Aspin-Welch.</note></para>
-<para id="delete_me">The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. To account for the variation, we take the difference of the sample means,
+<para id="eip-123456789">The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. To account for the variation, we take the difference of the sample means,
 
 <m:math>
  <m:semantics>

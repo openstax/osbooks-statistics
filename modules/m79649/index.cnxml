@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164562341127">
-<para id="delete_me">Suppose <emphasis effect="italics">X</emphasis> is a random variable with a distribution that may be <emphasis>known or unknown</emphasis> (it can be any distribution) and suppose:</para>
+<para id="eip-123456789">Suppose <emphasis effect="italics">X</emphasis> is a random variable with a distribution that may be <emphasis>known or unknown</emphasis> (it can be any distribution) and suppose:</para>
 
 <list id="list-1" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">μ<sub>X</sub></emphasis> = the mean of <emphasis effect="italics">Χ</emphasis></item>
 <item><emphasis effect="italics">σ<sub>Χ</sub></emphasis> = the standard deviation of <emphasis effect="italics">X</emphasis></item>

@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164563512922">
-<para id="delete_me">Another use of the <emphasis effect="italics">F</emphasis> distribution is testing two variances. It is often desirable to compare two variances rather than two averages. For instance, college administrators would like two college professors grading exams to have the same variation in their grading. For a lid to fit a container, the variation in the lid and the container should be the same. A supermarket might be interested in the variability of check-out times for two checkers.</para><para id="element-114">To perform a <emphasis effect="italics">F</emphasis> test of two variances, it is important that the following are true:
+<para id="eip-123456789">Another use of the <emphasis effect="italics">F</emphasis> distribution is testing two variances. It is often desirable to compare two variances rather than two averages. For instance, college administrators would like two college professors grading exams to have the same variation in their grading. For a lid to fit a container, the variation in the lid and the container should be the same. A supermarket might be interested in the variability of check-out times for two checkers.</para><para id="element-114">To perform a <emphasis effect="italics">F</emphasis> test of two variances, it is important that the following are true:
 <list id="fs-id1164562306377">
 <item>The populations from which the two samples are drawn are normally distributed.</item>
 <item>The two populations are independent of each other.</item>

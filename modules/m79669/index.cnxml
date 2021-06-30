@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164565388110">
-<para id="delete_me">Even though this situation is not likely (knowing the population standard deviations), the following example illustrates hypothesis testing for independent means, known population standard deviations. The sampling distribution for the difference between the means is normal, and both populations must be normal. The random variable is
+<para id="eip-123456789">Even though this situation is not likely (knowing the population standard deviations), the following example illustrates hypothesis testing for independent means, known population standard deviations. The sampling distribution for the difference between the means is normal, and both populations must be normal. The random variable is
 
 
 <m:math>

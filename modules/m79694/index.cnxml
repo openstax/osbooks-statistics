@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164566957266">
-<!--<para id="delete_me">In some data sets, there are values <emphasis>(observed data points)</emphasis> called <term>outliers</term>. <emphasis>Outliers are observed data points that are far from the least squares line.</emphasis> They have large "errors", where the "error" or residual is the vertical distance from the line to the point. </para>
+<!--<para id="eip-123456789">In some data sets, there are values <emphasis>(observed data points)</emphasis> called <term>outliers</term>. <emphasis>Outliers are observed data points that are far from the least squares line.</emphasis> They have large "errors", where the "error" or residual is the vertical distance from the line to the point. </para>
 <para id="eip-502">Outliers need to be examined closely. Sometimes, for some reason or another, they should not be included in the analysis of the data. It is possible that an outlier is a result of erroneous data. Other times, an outlier may
 hold valuable information about the population under study and should remain included in the data. The key is to examine carefully what causes a data point to be an outlier.</para>-->
 <para id="fs-id1164567107088">In some data sets, there are values (observed data points) called <emphasis>outliers</emphasis>. Outliers are observed data points that are far from the least-squares line. They have large errors, where the error or residual is not very close to the best-fit line.</para><!--(insert a graph like figure 12.6 (b))-->
