@@ -46,7 +46,7 @@
  
 </m:math> and <emphasis effect="italics">s</emphasis> is called a <emphasis effect="italics">statistic</emphasis>.</para><para id="element-510">A <term>confidence interval</term> is another type of estimate but, instead of being just one number, it is an interval of numbers. The interval of numbers is a range of values calculated from a given set of sample data. The confidence interval is likely to include an unknown population parameter.</para>
 <para id="element-53">Suppose, for the internet music example, we do not know the population mean, <emphasis effect="italics">μ</emphasis>, but we do know that the population standard deviation is <emphasis effect="italics">σ</emphasis> = 1 and our sample size is 100. Then, by the central limit theorem, the standard deviation for the sample mean is</para>
-<equation class="unnumbered" id="fs-id1164562170064"><label/><m:math>
+<equation id="fs-id1164562170064" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mi>σ</m:mi>
@@ -245,9 +245,8 @@ of <m:math>
    
   </m:mrow>
  </m:semantics>
-</m:math>.</para><para id="fs-id1164566885665">Replacing the symbols for their values in this example, we say that we are <emphasis>95 percent confident</emphasis> that the true average number of songs downloaded from an internet music store per month is between <m:math>
- <m:semantics>
-  <m:mrow>
+</m:math>.</para><para id="fs-id1164566885665">Replacing the symbols for their values in this example, we say that we are <emphasis>95 percent confident</emphasis> that the true average number of songs downloaded from an internet music store per month is between <equation id="fs-id1164562059797" class="unnumbered"><m:math>
+   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
     <m:mo>¯</m:mo>
@@ -272,10 +271,9 @@ of <m:math>
      
     </m:mrow>
    </m:mfrac>
-   <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>.02</m:mn><m:mo>=</m:mo><m:mn>1.8</m:mn>
+   <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>0.2</m:mn><m:mo>=</m:mo><m:mn>1.8</m:mn><m:mo>,</m:mo> <m:mo>and</m:mo>
   </m:mrow>
- </m:semantics>
-</m:math>, and <equation class="unnumbered" id="fs-id1164562059797"><label/><m:math display="block">
+ </m:math></equation></para><equation id="eip-123"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mover accent="true">
@@ -302,11 +300,11 @@ of <m:math>
      
     </m:mrow>
    </m:mfrac>
-   <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>.02</m:mn><m:mo>=</m:mo><m:mn>2.2</m:mn><m:mo>.</m:mo>
+   <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>0.2</m:mn><m:mo>=</m:mo><m:mn>2.2</m:mn><m:mo>.</m:mo>
   </m:mrow>
 
  </m:semantics>
-</m:math></equation></para><para id="fs-id1164564919894"><emphasis>The 95 percent confidence interval for</emphasis> <emphasis effect="italics">μ</emphasis> <emphasis>is (1.8, 2.2)</emphasis>.</para>
+</m:math></equation><para id="fs-id1164564919894"><emphasis>The 95 percent confidence interval for</emphasis> <emphasis effect="italics">μ</emphasis> <emphasis>is (1.8, 2.2)</emphasis>.</para>
 <para id="element-484">The 95 percent confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean, <emphasis effect="italics">μ</emphasis>, or our sample produced an <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
