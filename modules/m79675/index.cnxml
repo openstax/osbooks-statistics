@@ -1371,39 +1371,39 @@ sure you clear any lists before you start.</para></note></solution>
 
     </exercise><exercise id="eip-152">
       <problem id="eip-655">
-        <para id="eip-134"><link target-id="fs-idm106414640"/> contains information from a survey of 499 participants classified according to their age groups. The researchers making the survey wanted to find out how many people were diagnosed with a particular disease within the last year. The second column shows the percentage of people with the disease per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of people with the disease in the same age classes in the United States. Perform a hypothesis test at the 5 percent significance level to determine whether the survey participants are a representative sample of the people with the disease nationwide.</para><table id="fs-idm106414640" summary="A three column table is shown. The first row reads Age Class in Years, People Diagnosed in percentage, Expected U S Average in percentage. The second row reads 20 through 30, 75.0, 32.6. The third row reads 31 through 40, 26.5, 32.6. The fourth row reads 41 through 50, 13.6, 36.6. The fifth row reads 51 through 60, 21.9, 36.6. The sixth row reads 61 through 70, 21.0, 39.7."><tgroup cols="4">
+        <para id="eip-134"><link target-id="fs-idm106414640"/> contains information from a survey of 499 participants classified according to their age groups. The second column shows the percentage of obese people per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of obese people in the same age classes in the United States. Perform a hypothesis test at the 5 percent significance level to determine whether the survey participants are a representative sample of the USA obese population.</para><table id="fs-idm106414640" summary="A three column table is shown. The first row reads Age Class in Years, People Diagnosed in percentage, Expected U S Average in percentage. The second row reads 20 through 30, 75.0, 32.6. The third row reads 31 through 40, 26.5, 32.6. The fourth row reads 41 through 50, 13.6, 36.6. The fifth row reads 51 through 60, 21.9, 36.6. The sixth row reads 61 through 70, 21.0, 39.7."><tgroup cols="4">
             <thead>
               <row>
                 <entry>Age Class (years)</entry>
-                <entry>% of People Diagnosed</entry>
-                <entry>% of Expected U.S. Average</entry>
+                <entry>Obese (Percentage)</entry>
+                <entry>Expected USA Average (Percentage)</entry>
               </row>
             </thead>
             <tbody>
               <row>
                 <entry><emphasis effect="bold">20–30</emphasis></entry>
-                <entry>75%</entry>
-                <entry>32.6%</entry>
+                <entry>75</entry>
+                <entry>32.6</entry>
               </row>
               <row>
                 <entry><emphasis effect="bold">31–40</emphasis></entry>
-                <entry>26.5%</entry>
-                <entry>32.6%</entry>
+                <entry>26.5</entry>
+                <entry>32.6</entry>
               </row>
               <row>
                 <entry><emphasis effect="bold">41–50</emphasis></entry>
-                <entry>13.6%</entry>
-                <entry>36.6%</entry>
+                <entry>13.6</entry>
+                <entry>36.6</entry>
               </row>
               <row>
                 <entry><emphasis effect="bold">51–60</emphasis></entry>
-                <entry>21.9%</entry>
-                <entry>36.6%</entry>
+                <entry>21.9</entry>
+                <entry>36.6</entry>
               </row>
               <row>
                 <entry><emphasis effect="bold">61–70</emphasis></entry>
-                <entry>21%</entry>
-                <entry>39.7%</entry>
+                <entry>21</entry>
+                <entry>39.7</entry>
               </row>
             </tbody>
           </tgroup>
