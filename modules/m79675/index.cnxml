@@ -10,7 +10,7 @@
 <content>
 <section id="fs-id1164561108845">
 <para id="element-112">In this type of hypothesis test, you determine whether the data fit a particular distribution. For example, you may suspect your unknown data fit a binomial distribution. You use a chi-square test, meaning the distribution for the hypothesis test is chi-square, to determine if there is a fit. The null and the alternative hypotheses for this test may be written in sentences or may be stated as equations or inequalities.</para><para id="element-908">The test statistic for a goodness-of-fit test is:</para>
-<equation class="unnumbered" id="element-252"><label/><m:math>
+<equation id="element-252" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:munder>
    <m:mi>Σ</m:mi>
@@ -1369,8 +1369,7 @@ sure you clear any lists before you start.</para></note></solution>
       </problem>
 
 
-    </exercise><exercise id="eip-152">
-      <problem id="eip-655">
+    </exercise><exercise id="eip-152"><problem id="eip-655">
         <para id="eip-134"><link target-id="fs-idm106414640"/> contains information from a survey of 499 participants classified according to their age groups. The second column shows the percentage of obese people per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of obese people in the same age classes in the United States. Perform a hypothesis test at the 5 percent significance level to determine whether the survey participants are a representative sample of the USA obese population.</para><table id="fs-idm106414640" summary="A three column table is shown. The first row reads Age Class in Years, People Diagnosed in percentage, Expected U S Average in percentage. The second row reads 20 through 30, 75.0, 32.6. The third row reads 31 through 40, 26.5, 32.6. The fourth row reads 41 through 50, 13.6, 36.6. The fifth row reads 51 through 60, 21.9, 36.6. The sixth row reads 61 through 70, 21.0, 39.7."><tgroup cols="4">
             <thead>
               <row>
@@ -1409,21 +1408,16 @@ sure you clear any lists before you start.</para></note></solution>
           </tgroup>
         </table></problem>
       <solution id="fs-idm107661440">
-        <list id="fs-idm17530432" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Surveyed individuals fit the distribution of expected patients.</item>
-          <item><emphasis effect="italics">H<sub>a</sub></emphasis>: The surveyed individuals do not fit the distribution of patients.</item>
-          <item><emphasis effect="italics">df</emphasis> = 4</item>
-          <item>chi-square distribution with <emphasis effect="italics">df</emphasis> = 4</item>
-          <item>test statistic = 54.01</item>
-          <item><emphasis effect="italics">p</emphasis>-value = 0</item>
-          <item>Check student’s solution.</item>
-          <item>
-            <list id="fs-idm108441232" list-type="enumerated" number-style="lower-roman"><item>Alpha: 0.05</item>
-              <item>Decision: Reject the null hypothesis.</item>
-              <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &lt; alpha</item>
-              <item>Conclusion: At the 5 percent level of significance from the data, there is sufficient evidence to conclude that the surveyed patients with the disease do not fit the distribution of expected patients.</item>
-            </list></item></list></solution>
-    </exercise>
-</section>
+      <para id="eip-idm577793920">The hypotheses for the goodness-of-fit test are:</para>
+        <list id="fs-idm17530432"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Surveyed obese fit the distribution of expected obese.</item>
+          <item><emphasis effect="italics">H<sub>a</sub></emphasis>: Surveyed obese do not fit the distribution of expected obese.</item></list>
+       <para id="eip-idm480213184">Use a chi-square distribution with <emphasis effect="italics">df</emphasis> = 4 to evaluate the data.</para>
+            <list id="fs-idm108441232"><item>The test statistic is <emphasis effect="italics">χ</emphasis><sup>2</sup> = 9.85</item>
+              <item>The <emphasis effect="italics">p</emphasis>-value = 0.0431</item>
+              <item>At the 5% significance level, <emphasis effect="italics">α</emphasis> = 0.05. For this data, <emphasis effect="italics">p</emphasis> &lt; <emphasis effect="italics">α</emphasis>.</item>
+              <item>At the 5% level of significance, from the data, there is sufficient evidence to conclude that the surveyed obese do not fit the distribution of expected obese.</item>
+            </list></solution>
+    </exercise></section>
  </content>
 
 </document>
