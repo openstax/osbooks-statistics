@@ -315,7 +315,7 @@ of <m:math>
 <para id="eip-255">When you read newspapers and journals, you might notice that some reports use the phrase <emphasis effect="italics">margin of error</emphasis>. Other reports will not use that phrase, but include a confidence interval as the point estimate plus or minus the margin of error. Those are two ways of expressing the same concept.</para><note id="eip-882"><label/><title>Note</title>
 <para id="eip-idm127604736">Although the text covers only symmetrical confidence intervals, there are non-symmetrical confidence intervals (for example, a confidence interval for the standard deviation).</para></note><note id="fs-idp47490208" class="statistics collab">
 <label/>
-<title>Collaborative Exercise</title>
+ 
 <para id="element-906">Have your instructor record the number of meals each student in your class eats out in a week. Assume that the standard deviation is known to be three meals. Construct an approximate 95 percent confidence interval for the true mean number of meals students eat out each week.</para>
 <list id="element-997" list-type="enumerated"><item>Calculate the sample mean.</item>
 <item>Let <emphasis effect="italics">σ</emphasis> = 3 and <emphasis effect="italics">n</emphasis> = the number of students surveyed.</item>

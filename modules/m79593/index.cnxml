@@ -11,7 +11,7 @@
 <section id="fs-id1164562274380">
 <title/><para id="id8112751">The science of <term>statistics</term> deals with the collection, analysis, interpretation, and presentation of <term>data</term>. We see and use data in our everyday lives. </para>
 
-<note id="fs-idm27544368" class="statistics collab"><label/><title>Collaborative Exercise</title>
+<note id="fs-idm27544368" class="statistics collab"><label/> 
 <para id="eip-34">In your classroom, try this exercise. Have class members write down the average time—in hours, to the nearest half-hour—they sleep per night. Your instructor will record the data. Then create a simple graph, called a dot plot, of the data. A dot plot consists of a number line and dots, or points, positioned above the number line. For example, consider the following data:</para><para id="eip-idm80945824">5, 5.5, 6, 6, 6, 6.5, 6.5, 6.5, 6.5, 7, 7, 8, 8, 9.</para><para id="eip-71">The dot plot for this data would be as follows:</para><figure id="eip-idp25549888"><media id="id44761709a" alt="This is a dot plot showing average hours of sleep. The number line is marked in intervals of 1 from 5 to 9. Dots above the line show 1 person reporting 5 hours, 1 with 5.5, 3 with 6, 4 with 6.5, 2 with 7, 2 with 8, and 1 with 9 hours." longdesc="m16020_DotPlot_description.html">
 <image src="../../media/fig-ch01_02_01n.png" mime-type="image/png" width="380">
 <param name="longdesc" value="m16020_DotPlot_description.html"/></image></media>
@@ -138,7 +138,7 @@ the sample who have been involved in a malpractice lawsuit.</para></problem>
 </exercise>
 </example>
 
-<note id="fs-idm62184048" class="statistics collab"><label/><title>Collaborative Exercise</title>
+<note id="fs-idm62184048" class="statistics collab"><label/> 
 <para id="fs-idp44556000">Do the following exercise collaboratively with up to four people per group. Find a population, a sample, the parameter, the statistic, a variable, and data for the following study: You want to determine the average—mean—number of glasses of milk college students drink per day. Suppose yesterday, in your English class, you asked five students how many glasses of milk they drank the day before. The answers were 1, 0, 1, 3, and 4 glasses of milk.</para>
 </note></section>
 

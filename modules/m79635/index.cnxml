@@ -173,7 +173,7 @@ The probability that a postal clerk spends four to five minutes with a randomly 
 </note>
 <note id="fs-idm48901520" class="statistics calculator">
 <label/>
-<title>Collaborative Exercise</title>
+ 
 <para id="fs-idm160482432">On the home screen, enter ln(1 – 0.50)/–0.25. Press the (–) for the negative.</para>
 </note>
 </solution>
@@ -202,7 +202,7 @@ The probability that a postal clerk spends four to five minutes with a randomly 
 </note>
 <note id="fs-idm13164528" class="statistics collab">
 <label/>
-<title>Collaborative Exercise</title>
+ 
 <para id="fs-idm38401216">Have each class member count the change he or she has in his or her pocket or purse. Your instructor will record the amounts in dollars and cents. Construct a histogram of the data taken by the class. Use five intervals. Draw a smooth curve through the bars. The graph should look approximately exponential. Then calculate the mean.</para>
 <para id="fs-idp24026224">Let <emphasis effect="italics">X</emphasis> = the amount of money a student in your class has in his or her pocket or purse.</para>
 <para id="fs-idm20762208">The distribution for <emphasis effect="italics">X</emphasis> is approximately exponential with mean, <emphasis effect="italics">μ</emphasis> = _______ and <emphasis effect="italics">m</emphasis>  = _______. The standard deviation, <emphasis effect="italics">σ</emphasis> = ________.</para>

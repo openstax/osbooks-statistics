@@ -35,7 +35,7 @@
 
 <note id="fs-idp37582368" class="statistics collab">
 <label/>
-<title>Collaborative Exercise</title>
+ 
 <para id="element-607">Toss a coin 10 times and record the number of heads. After all members of the class have completed the experiment (tossed a coin 10 times and counted the number of heads), fill in <link target-id="M01_Ch04_tbl001" document=""/>. Let <emphasis effect="italics">X</emphasis> = the number of heads in 10 tosses of the coin.</para>
 
 <table id="M01_Ch04_tbl001" summary="Table showing x, frequency of x and relative frequency of x. x = the number of heads in 10 tosses of a fair coin.">
