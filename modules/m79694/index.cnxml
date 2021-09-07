@@ -1237,7 +1237,7 @@ To determine whether a point is an outlier, do one of the following:
 </problem>
 <solution id="fs-idm6636208">
 <para id="fs-idp167245664">If we remove the two service academies (the tuition is $0.00), we construct a new regression equation of <emphasis effect="italics">y</emphasis> = –0.0009<emphasis effect="italics">x</emphasis> + 160, with a correlation coefficient of 0.71397 and a coefficient of determination of 0.50976. This allows us to say there is a fairly strong linear association between tuition costs and salaries if the service academies are removed from the data set.</para></solution>
-</exercise><section id="fs-idm85401472" class="bring-together-homework">
+</exercise></section><section id="fs-idm85401472" class="bring-together-homework">
 <title>Bring It Together</title>
 <exercise id="element-793"><problem id="id44885338">
   <para id="element-815">The average number of people in a family who attended college for various years is given in <link target-id="id1034sdfa0215"/>.</para><table id="id1034sdfa0215" summary="Table 2 shows two columns: Year and No. of Family Members Attending College. Row one: 1969 / 4.0. Row two: 1973 / 3.6. Row three: 1975 / 3.2. Row four: 1979 / 3.0 Row five: 1983 / 3.0. Row six: 1988 / 3.0 Row seven: 1991 / 2.9.">
@@ -1913,7 +1913,7 @@ To determine whether a point is an outlier, do one of the following:
 
 
 </section>
-</section>
+
    </content>
   <glossary>
 <definition id="outlier">
