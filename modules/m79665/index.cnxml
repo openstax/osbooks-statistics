@@ -431,7 +431,7 @@ different weights were (frequencies are in parentheses)
 </m:math> pounds (from the data).</para>
 <para id="element-864"><emphasis effect="italics">σ</emphasis> = 55 pounds. <emphasis effect="italics">Always use <emphasis effect="italics">σ</emphasis> if you know it.</emphasis> We assume <emphasis effect="italics">μ</emphasis> = 275 pounds unless our data shows us otherwise. </para>
 <!--<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-212">Calculate the <emphasis effect="italics">p</emphasis>-value using the normal distribution for a mean and using the sample mean as input (see <link document="m79717"/> for using the data as input):</para>-->
-<para id="fs-id1164564956322">First, we compute the sample mean:</para><equation class="unnumbered" id="fs-id1164562323036"><label/><m:math display="block">
+<para id="fs-id1164564956322">First, we compute the sample mean:</para><equation id="fs-id1164562323036" class="unnumbered"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mover accent="true">
@@ -450,7 +450,7 @@ different weights were (frequencies are in parentheses)
   </m:mrow>
  </m:semantics>
 </m:math></equation>
-<para id="fs-id1164562069535">Next, we compute the <emphasis effect="italics">z</emphasis>-test:</para><equation class="unnumbered" id="fs-id1164563046786"><label/><m:math display="block">
+<para id="fs-id1164562069535">Next, we compute the <emphasis effect="italics">z</emphasis>-test:</para><equation id="fs-id1164563046786" class="unnumbered"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
@@ -478,7 +478,7 @@ different weights were (frequencies are in parentheses)
 </m:mrow>
  </m:semantics>
 </m:math></equation><para id="fs-id1164564879307">Finally, the <emphasis effect="italics">p</emphasis>-value is the probability to the right tail of the <emphasis effect="italics">z</emphasis>-test, which we can compute from the table of <emphasis effect="italics">z</emphasis>-scores as 0.5 - 0.36650 = 0.1335.</para>
-<para id="element-457"><equation class="unnumbered" id="eip-idm5209jssj96416"><label/><m:math>
+<para id="element-457"><equation id="eip-idm5209jssj96416" class="unnumbered"><label/><m:math>
  <m:mrow><m:mi>p</m:mi><m:mtext>-value</m:mtext><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mover accent="true">
    <m:mi>x</m:mi>
    <m:mo>¯</m:mo>
@@ -487,14 +487,14 @@ different weights were (frequencies are in parentheses)
  </m:mrow>
 </m:math></equation></para><para id="element-508"><emphasis>Interpretation of the <emphasis effect="italics">p</emphasis>-value:</emphasis> If <emphasis effect="italics">H<sub>0</sub></emphasis> is true, then there is a 0.1331 probability, 13.23 percent, that the football players can lift a mean weight of 286.2 pounds or more. Because a 13.23 percent chance is large enough, a mean weight lift of 286.2 pounds or more is not a rare event.</para><figure id="hyptest11_ex3"><media id="id4317824" alt="Normal distribution curve of the average weight lifted by football players with values of 275 and 286.2 on the x-axis. A vertical upward line extends from 286.2 to the curve. The p-value points to the area to the right of 286.2."><image src="../../media/fig-ch09_11_03N.jpg" mime-type="image/jpg" width="380"/></media></figure>
 <para id="element-804">Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</para>
-<equation class="unnumbered" id="fs-id1164566487142"><label/><m:math>
+<equation id="fs-id1164566487142" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>α</m:mi><m:mtext> = 0</m:mtext><m:mtext>.025</m:mtext><m:mi> </m:mi>
   </m:mrow>
  </m:semantics>
 </m:math>
-</equation><equation class="unnumbered" id="eip-idm483845104"><label/><m:math>
+</equation><equation id="eip-idm483845104" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>p</m:mi><m:mtext>-value = 0</m:mtext><m:mtext>.1323</m:mtext>
@@ -534,7 +534,7 @@ different weights were (frequencies are in parentheses)
 
 </m:math> = average score on the first statistics test.</para>
 <para id="element-941"><emphasis> Distribution for the test:</emphasis> If you read the problem carefully, you will notice that there is
-<emphasis effect="italics">no population standard deviation given</emphasis>. You are only given <emphasis effect="italics">n</emphasis> = 10 sample data values. Notice also that the data come from a normal distribution. This means that the distribution for the test is a Student's <emphasis effect="italics">t</emphasis>-distribution.</para><para id="element-240">Use <emphasis effect="italics">t</emphasis>-distribution. Therefore, the distribution for the test is <emphasis effect="italics">t</emphasis> with nine degrees of freedom.</para><para id="element-169">Calculate the <emphasis effect="italics">p</emphasis>-value using the Student's <emphasis effect="italics">t</emphasis>-distribution:</para><para id="fs-id1164566538881">First, we compute the sample mean as</para><equation class="unnumbered" id="fs-id1164557673840"><label/><m:math display="block">
+<emphasis effect="italics">no population standard deviation given</emphasis>. You are only given <emphasis effect="italics">n</emphasis> = 10 sample data values. Notice also that the data come from a normal distribution. This means that the distribution for the test is a Student's <emphasis effect="italics">t</emphasis>-distribution.</para><para id="element-240">Use <emphasis effect="italics">t</emphasis>-distribution. Therefore, the distribution for the test is <emphasis effect="italics">t</emphasis> with nine degrees of freedom.</para><para id="element-169">Calculate the <emphasis effect="italics">p</emphasis>-value using the Student's <emphasis effect="italics">t</emphasis>-distribution:</para><para id="fs-id1164566538881">First, we compute the sample mean as</para><equation id="fs-id1164557673840" class="unnumbered"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mover accent="true">
@@ -553,7 +553,7 @@ different weights were (frequencies are in parentheses)
   </m:mrow>
  </m:semantics>
 </m:math></equation>
-<para id="fs-id1164559094924">Next, we compute the <emphasis effect="italics">t</emphasis>-test as</para><equation class="unnumbered" id="fs-id1164561181782"><label/><m:math display="block">
+<para id="fs-id1164559094924">Next, we compute the <emphasis effect="italics">t</emphasis>-test as</para><equation id="fs-id1164561181782" class="unnumbered"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mi>t</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
@@ -738,7 +738,7 @@ probability (3.96 percent) that the sample mean is 65 or more.</para><figure
   </m:mrow>
  </m:semantics>
 </m:math></para><para id="fs-id1164566911712">Next, the <emphasis effect="italics">z</emphasis>-test is given by</para>
-<equation class="unnumbered" id="fs-id1164566549107"><label/><m:math display="block">
+<equation id="fs-id1164566549107" class="unnumbered"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
@@ -796,7 +796,7 @@ probability (3.96 percent) that the sample mean is 65 or more.</para><figure
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>&gt;</m:mo><m:mn>0.6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>0</m:mtext><m:mtext>.2742531</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
  </m:semantics>
-</m:math> Finally, because this is a two-sided test of significance, we multiply this probability times two to account for the left tail, and obtain <equation class="unnumbered" id="eip-idm520996416"><label/><m:math>
+</m:math> Finally, because this is a two-sided test of significance, we multiply this probability times two to account for the left tail, and obtain <equation id="eip-idm520996416" class="unnumbered"><label/><m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>p</m:mi><m:mtext>-value</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>0.2742531</m:mn><m:mo>=</m:mo><m:mn>0.5485062</m:mn>
@@ -850,9 +850,14 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
 </media></figure><para id="eip-idp95887808">Because <emphasis effect="italics">p</emphasis> &gt; <emphasis effect="italics">α</emphasis>, we fail to reject the null hypothesis. There is not sufficient evidence to suggest that the proportion of students that want to go to the zoo is not 85 percent.</para>
 </solution>
 </exercise></note><example id="element-577">
-<exercise id="element-312">
-<problem id="id5318755">
-  <para id="element-451">Suppose a consumer group suspects that the proportion of households that have three cell phones is 30 percent. A cell phone company has reason to believe that the proportion  is not 30 percent. Before the cell phone company starts a big advertising campaign, it conducts a hypothesis test. The company's marketing people survey 150 households with the result that 43 of the households have three cell phones.</para></problem>
+<exercise id="element-312"><problem id="id5318755">
+  <para id="element-451">Suppose a consumer group suspects that the proportion of households that have three cell phones is 30 percent. A cell phone company has reason to believe that the proportion  is not 30 percent. Before the cell phone company starts a big advertising campaign, it conducts a hypothesis test. The company's marketing people survey 150 households with the result that 43 of the households have three cell phones.
+
+<list id="eip-idm463611808" list-type="enumerated" number-style="lower-alpha"><item>The value that helps determine the <emphasis effect="italics">p</emphasis>-value is <emphasis effect="italics">p′</emphasis>. Calculate <emphasis effect="italics">p′</emphasis>.</item>
+<item>What is a <emphasis effect="italics">success</emphasis> for this problem?</item>
+<item>What is the level of significance?</item>
+<item>Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.<newline/>Calculate the <emphasis effect="italics">p</emphasis>-value.</item>
+<item>Make a decision. _____________(Reject/Do not reject) <emphasis effect="italics">H<sub>0</sub></emphasis> because____________.</item></list></para></problem>
 
 <solution id="id4213559">
 
@@ -880,11 +885,8 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
   <m:mo>)</m:mo></m:mrow>
 <m:mtext>.</m:mtext>
  </m:mrow>
-</m:math><newline count="2"/></para><exercise id="element-945">
-<problem id="id4146441">
-  <para id="element-480">a. The value that helps determine the <emphasis effect="italics">p</emphasis>-value is <emphasis effect="italics">p′</emphasis>. Calculate <emphasis effect="italics">p′</emphasis>.</para></problem>
-<solution id="id4274849" print-placement="end">
-  <para id="element-322">a. <emphasis effect="italics">p′</emphasis> = <m:math>
+</m:math></para>
+<list id="eip-idm275565328" list-type="enumerated" number-style="lower-alpha"><item><para id="eip-idm197279808"><emphasis effect="italics">p′</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mi>x</m:mi>
@@ -892,14 +894,14 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
   </m:mfrac>
    </m:mrow>
 </m:math> where <emphasis effect="italics">x</emphasis> is the number of successes and <emphasis effect="italics">n</emphasis> is the total number in the sample.</para>
-<equation class="unnumbered" id="fs-id1169833188331"><label/><m:math display="block">
+<equation id="eip-idm628068080" class="unnumbered"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>43</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>150</m:mn>
   </m:mrow>
  </m:semantics>
 </m:math></equation>
-<equation class="unnumbered" id="fs-id1164565158488"><label/><m:math>
+<equation id="eip-idm200495056" class="unnumbered"><label/><m:math>
  <m:mrow>
 <m:mi>p</m:mi><m:mtext>′</m:mtext><m:mo>=</m:mo>
   <m:mfrac>
@@ -913,23 +915,10 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
   </m:mfrac>
    </m:mrow>
 </m:math>
-</equation></solution>
-</exercise><exercise id="element-574"><problem id="id5150803">
-  <para id="element-946"><newline count="2"/>b. What is a <emphasis effect="italics">success</emphasis> for this problem?</para></problem>
-<solution id="id5036464" print-placement="end">
-  <para id="element-869">b. A success is having three cell phones in a household.<newline count="2"/></para></solution>
-</exercise><exercise id="element-519"><problem id="id4292096">
-  <para id="element-781">c. What is the level of significance?</para></problem>
-
-<solution id="id5242701" print-placement="end">
-  <para id="element-10">c. The level of significance is the preset <emphasis effect="italics">α</emphasis>. Since <emphasis effect="italics">α</emphasis> is not given, assume that <emphasis effect="italics">α</emphasis> = 0.05.<newline count="2"/></para></solution>
-</exercise>
-<exercise id="element-969">
-<problem id="id4673389">
-  <para id="element-145">d. Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.<newline/>Calculate the <emphasis effect="italics">p</emphasis>-value.</para></problem>
-
-<solution id="id5212164" print-placement="end">
-  <para id="element-102">d. First we compute the sample proportion <m:math>
+</equation></item>
+<item>A success is having three cell phones in a household.</item>
+<item>The level of significance is the preset <emphasis effect="italics">α</emphasis>. Since <emphasis effect="italics">α</emphasis> is not given, assume that <emphasis effect="italics">α</emphasis> = 0.05.</item>
+<item><para id="eip-idm351355456">First we compute the sample proportion <m:math>
  <m:semantics>
   <m:mrow>
    <m:mover accent="true">
@@ -948,8 +937,8 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
   </m:mrow>
  </m:semantics>
 </m:math></para>
-<para id="fs-id1164564967264">Next, the <emphasis effect="italics">z</emphasis>-test is given by</para>
-<equation class="unnumbered" id="fs-id1164563171945"><label/><m:math display="block">
+<para id="eip-idm1047498960">Next, the <emphasis effect="italics">z</emphasis>-test is given by</para>
+<equation id="eip-idm820313088" class="unnumbered"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
@@ -1000,7 +989,7 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
   <m:mtext>.</m:mtext>
   </m:mrow>
  </m:semantics>
-</m:math></equation><para id="fs-id1164563570493">Since the <emphasis effect="italics">z</emphasis>-test is negative, we compute the area to the left tail of –0.36 in a normal distribution, <m:math>
+</m:math></equation><para id="eip-idm1035933632">Since the <emphasis effect="italics">z</emphasis>-test is negative, we compute the area to the left tail of –0.36 in a normal distribution, <m:math>
  <m:semantics>
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>0.36</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≈</m:mo><m:mtext>0</m:mtext><m:mtext>.3607902</m:mtext><m:mtext>.</m:mtext>
@@ -1012,17 +1001,9 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
    <m:mi>p</m:mi><m:mtext>-value</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>0.3607902</m:mn><m:mo>=</m:mo><m:mn>0.7215804</m:mn><m:mtext>.</m:mtext>
   </m:mrow>
  </m:semantics>
-</m:math></para></solution>
-</exercise><exercise id="element-547">
-<problem id="id5104601">
-  <para id="element-919">e. Make a decision. _____________(Reject/Do not reject) <emphasis effect="italics">H<sub>0</sub></emphasis> because____________.</para></problem>
-
-<solution id="id5137008" print-placement="end">
-  <para id="element-274">e. Assuming that <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value. The decision is <emphasis effect="italics">do not reject H<sub>0</sub></emphasis> because there is not sufficient evidence to conclude that the proportion of households that have three cell phones is not 30 percent.</para></solution>
-</exercise>
-</solution>
-</exercise>
-</example>
+</m:math></para></item>
+<item>Assuming that <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value. The decision is <emphasis effect="italics">do not reject H<sub>0</sub></emphasis> because there is not sufficient evidence to conclude that the proportion of households that have three cell phones is not 30 percent.</item></list></solution>
+</exercise></example>
 
 <note id="fs-idm14663600" class="statistics try">
 <label/>
@@ -1081,7 +1062,7 @@ Use the new shampoo or go without?</para></problem>
 </m:math> or <emphasis effect="italics">P′</emphasis> represents.</para><para id="fs-idp88897968"><emphasis effect="italics">P′</emphasis> = The proportion of fleas that are killed by the new shampoo</para>
 <para id="element-12">State the distribution to use for the test.</para>
 <para id="fs-id1164563541280"><emphasis>Normal:</emphasis></para>
-<equation class="unnumbered" id="fs-id1164563362620"><label/><m:math>
+<equation id="fs-id1164563362620" class="unnumbered"><label/><m:math>
  <m:mrow>
   <m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1107,7 +1088,7 @@ Use the new shampoo or go without?</para></problem>
 <para id="element-428">Calculate the <emphasis effect="italics">p</emphasis>-value using the normal distribution for proportions:</para>
 <para id="element-314"><emphasis effect="italics">p</emphasis>-value = 0.0103</para>-->
 <para id="fs-id1164566846037">The <emphasis effect="italics">z</emphasis>-test is given by</para>
-<equation class="unnumbered" id="fs-id1164565008771"><label/><m:math display="block">
+<equation id="fs-id1164565008771" class="unnumbered"><label/><m:math display="block">
  <m:semantics>
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
