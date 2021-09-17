@@ -1154,7 +1154,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
     </list>
     </solution>
     </exercise></example>
-    </section><note id="fs-idm35811600" class="statistics try">
+    <note id="fs-idm35811600" class="statistics try">
     <label/>
     <title>Try It</title>
     <exercise id="eip-847"><problem id="eip-565">
@@ -1163,7 +1163,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
     <label/>
     <para id="eip-145">(33.37, 38.63)</para>
     </solution>
-    </exercise></note>
+    </exercise></note></section>
 
     <example id="element-542"><para id="element-338">Suppose we change the original problem in <link target-id="eip-id1171257291379"/> to see what happens to the error bound if the sample size is changed.</para><exercise id="element-442">
     <problem id="id1164455008611">
@@ -1405,7 +1405,6 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
      </m:mrow>
     </m:math> = 68.</item>
     </list></example>
-    </section>
 
     <note id="fs-idm38498176" class="statistics try">
     <label/>
@@ -1420,7 +1419,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
     </solution>
     </exercise>
     </note>
-
+</section>
     <section id="eip-865">
     <title>Calculating the Sample Size <emphasis effect="italics">n</emphasis></title>
     <para id="eip-630">If researchers desire a specific margin of error, then they can use the error bound formula to calculate the required sample size. In this situation, we are given the desired margin of error, <emphasis effect="italics">EBM</emphasis>, and we need to compute the sample size <emphasis effect="italics">n</emphasis>.</para><!--<para id="eip-517">The error bound formula for a population mean when the population standard deviation is known is <newline/><emphasis effect="italics">EBM</emphasis> = <m:math>
