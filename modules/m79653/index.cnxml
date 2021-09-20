@@ -30,20 +30,20 @@
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
- 
+
 </m:math> to estimate the population mean and <emphasis effect="italics">s</emphasis> to estimate the population standard deviation. The sample mean, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
- 
+
 </m:math>, is the <term>point estimate</term> for the population mean, <emphasis effect="italics">μ</emphasis>. The sample standard deviation, <emphasis effect="italics">s</emphasis>, is the point estimate for the population standard deviation, <emphasis effect="italics">σ</emphasis>.</para>
 <para id="eip-65">Each instance of <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
- 
+
 </m:math> and <emphasis effect="italics">s</emphasis> is called a <emphasis effect="italics">statistic</emphasis>.</para><para id="element-510">A <term>confidence interval</term> is another type of estimate but, instead of being just one number, it is an interval of numbers. The interval of numbers is a range of values calculated from a given set of sample data. The confidence interval is likely to include an unknown population parameter.</para>
 <para id="element-53">Suppose, for the internet music example, we do not know the population mean, <emphasis effect="italics">μ</emphasis>, but we do know that the population standard deviation is <emphasis effect="italics">σ</emphasis> = 1 and our sample size is 100. Then, by the central limit theorem, the standard deviation for the sample mean is</para>
 <equation id="fs-id1164562170064" class="unnumbered"><label/><m:math>
@@ -54,7 +54,7 @@
     <m:msqrt>
      <m:mi>n</m:mi>
     </m:msqrt>
-    
+
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -65,19 +65,19 @@
       <m:mn>100</m:mn>
      </m:mrow>
     </m:msqrt>
-    
+
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mn>0.1</m:mn>
 <m:mtext>.</m:mtext>
  </m:mrow>
 </m:math></equation>
-<para id="element-730">The <term>empirical rule</term>, which applies to bell-shaped distributions, says that in approximately 95 percent of the samples, the sample mean, <m:math>
+<para id="element-730">The <term>Empirical Rule</term>, which applies to bell-shaped distributions, says that in approximately 95 percent of the samples, the sample mean, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
- 
+
 </m:math>, will be within two standard deviations of the population mean, <emphasis effect="italics">μ</emphasis>. For our internet music example, two standard deviations would be calculated as (2)(0.1) = 0.2. The sample mean, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
@@ -89,14 +89,14 @@
   <m:mi>x</m:mi>
   <m:mo>&#175;</m:mo>
  </m:mover>
- 
+
 </m:math> is within 0.2 units of <emphasis effect="italics">&#956;</emphasis>, which is unknown, then <emphasis effect="italics">&#956;</emphasis> is likely to be within 0.2 units
 of <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>&#175;</m:mo>
  </m:mover>
- 
+
 </m:math> in 95 percent of the samples. The population mean <emphasis effect="italics">&#956;</emphasis> is contained in an interval whose lower number is calculated by taking the sample mean and subtracting two standard deviations (2)(0.1) and whose upper number is calculated by taking the sample mean and adding two standard deviations. In other words, <emphasis effect="italics">&#956;</emphasis> is between <m:math>
  <m:mrow>
   <m:mover accent="true">
@@ -201,7 +201,7 @@ of <m:math>
        <m:mn>100</m:mn>
       </m:mrow>
      </m:msqrt>
-     
+
     </m:mrow>
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>0.1</m:mn>
@@ -220,10 +220,10 @@ of <m:math>
      <m:msqrt>
       <m:mi>n</m:mi>
      </m:msqrt>
-     
+
     </m:mrow>
    </m:mfrac>
-   
+
   </m:mrow>
  </m:semantics>
 </m:math> and <m:math>
@@ -239,10 +239,10 @@ of <m:math>
      <m:msqrt>
       <m:mi>n</m:mi>
      </m:msqrt>
-     
+
     </m:mrow>
    </m:mfrac>
-   
+
   </m:mrow>
  </m:semantics>
 </m:math>.</para><para id="fs-id1164566885665">Replacing the symbols for their values in this example, we say that we are <emphasis>95 percent confident</emphasis> that the true average number of songs downloaded from an internet music store per month is between <equation id="fs-id1164562059797" class="unnumbered"><m:math>
@@ -257,7 +257,7 @@ of <m:math>
      <m:msqrt>
       <m:mi>n</m:mi>
      </m:msqrt>
-     
+
     </m:mrow>
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mfrac>
@@ -268,7 +268,7 @@ of <m:math>
        <m:mn>100</m:mn>
       </m:mrow>
      </m:msqrt>
-     
+
     </m:mrow>
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>0.2</m:mn><m:mo>=</m:mo><m:mn>1.8</m:mn><m:mo>,</m:mo> <m:mo>and</m:mo>
@@ -286,7 +286,7 @@ of <m:math>
      <m:msqrt>
       <m:mi>n</m:mi>
      </m:msqrt>
-     
+
     </m:mrow>
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mfrac>
@@ -297,7 +297,7 @@ of <m:math>
        <m:mn>100</m:mn>
       </m:mrow>
      </m:msqrt>
-     
+
     </m:mrow>
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>0.2</m:mn><m:mo>=</m:mo><m:mn>2.2</m:mn><m:mo>.</m:mo>
@@ -310,12 +310,12 @@ of <m:math>
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
- 
+
 </m:math> that is not within 0.2 units of the true mean <emphasis effect="italics">μ</emphasis>. The second possibility happens for only 5 percent of all the samples (95–100 percent).</para><para id="element-39">Remember that a confidence interval is created for an unknown population parameter like the population mean, <emphasis effect="italics">μ</emphasis>. Confidence intervals for some parameters have the form</para><para id="element-75"><emphasis>(point estimate – margin of error, point estimate + </emphasis> <term>margin of error</term><emphasis>)</emphasis>.</para><para id="element-485">The margin of error depends on the confidence level or percentage of confidence and the standard error of the mean.</para>
 <para id="eip-255">When you read newspapers and journals, you might notice that some reports use the phrase <emphasis effect="italics">margin of error</emphasis>. Other reports will not use that phrase, but include a confidence interval as the point estimate plus or minus the margin of error. Those are two ways of expressing the same concept.</para><note id="eip-882"><label/><title>Note</title>
 <para id="eip-idm127604736">Although the text covers only symmetrical confidence intervals, there are non-symmetrical confidence intervals (for example, a confidence interval for the standard deviation).</para></note><note id="fs-idp47490208" class="statistics collab">
 <label/>
- 
+
 <para id="element-906">Have your instructor record the number of meals each student in your class eats out in a week. Assume that the standard deviation is known to be three meals. Construct an approximate 95 percent confidence interval for the true mean number of meals students eat out each week.</para>
 <list id="element-997" list-type="enumerated"><item>Calculate the sample mean.</item>
 <item>Let <emphasis effect="italics">σ</emphasis> = 3 and <emphasis effect="italics">n</emphasis> = the number of students surveyed.</item>
@@ -336,10 +336,10 @@ of <m:math>
          <m:msqrt>
           <m:mi>n</m:mi>
          </m:msqrt>
-         
+
         </m:mrow>
        </m:mfrac>
-       
+
       </m:mrow>
      <m:mo>)</m:mo></m:mrow>
     </m:mrow>
@@ -357,10 +357,10 @@ of <m:math>
          <m:msqrt>
           <m:mi>n</m:mi>
          </m:msqrt>
-         
+
         </m:mrow>
        </m:mfrac>
-       
+
       </m:mrow>
      <m:mo>)</m:mo></m:mrow>
     </m:mrow>
@@ -378,7 +378,7 @@ of <m:math>
 <glossary>
 <definition id="coninter">
 <term>confidence interval (<emphasis effect="italics">CI</emphasis>)</term>
-<meaning id="id20495395">an interval estimate for an unknown population parameter. <newline/>This depends on the following: 
+<meaning id="id20495395">an interval estimate for an unknown population parameter. <newline/>This depends on the following:
 <list id="confint1" list-type="bulleted">
 <item>the desired confidence level,</item>
 <item>information that is known about the  distribution (for example, known standard deviation), and</item>
