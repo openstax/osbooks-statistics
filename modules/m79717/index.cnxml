@@ -21,32 +21,32 @@
   </list></para>
   <para id="fs-id14248473"><title>To adjust the contrast</title>Press <media id="fs-id14772600" display="inline" alt="2nd key">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-2nd.eps"/>
+   
             </media>, then hold <media id="fs-id13797489" display="inline" alt="arrow up">
               <image mime-type="image/png" src="../../media/ti83-dir-up.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-dir-up.eps"/>
+              
             </media> to increase the contrast or <media id="fs-id12745418" display="inline" alt="arrow down">
               <image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-dir-down.eps"/>
+              
             </media> to decrease the contrast.
   </para><para id="fs-id15738732"><title>To capitalize letters and words</title>Press <media id="fs-id15336309" display="inline" alt="alpha key">
               <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-alpha.eps"/>
+              
             </media> to get one capital letter, or press <media id="fs-id15256555" display="inline" alt="2nd key">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-2nd.eps"/>
+             
             </media>, then <media id="fs-id14248475" display="inline" alt="alpha key">
               <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-alpha.eps"/>
+             
             </media> to set all button presses to capital letters.
 			You can return to the top-level button values by pressing
 			<media id="fs-id13796242" display="inline" alt="alpha key">
               <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-alpha.eps"/>
+             
             </media> again.
   </para><para id="fs-id15448816"><title>To correct a mistake</title>If you hit a wrong button, press <media id="fs-id15674844" display="inline" alt="clear key">
               <image mime-type="image/png" src="../../media/ti83-clear.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-clear.eps"/>
+             
             </media> and start again.
   </para><para id="fs-id8629783"><title>To write in scientific notation</title>Numbers in scientific notation are expressed on the TI-83, 83+, 84, and 84+ using E notation, such that...
   <list id="fs-id12894103"><item>4.321 E 4 = <m:math>
@@ -77,29 +77,29 @@
    </list></para><para id="fs-id14327214"><title>To transfer programs or equations from one calculator to another</title><emphasis>Both calculators:</emphasis> Insert your respective end of the link cable cable
 and press <media id="fs-id15384266" display="inline" alt="2nd key">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-2nd.eps"/>
+           
             </media>, then <code>[LINK]</code>.
   </para><para id="eip-607"><title>Calculator receiving information</title><list id="fs-id15504626" list-type="enumerated" number-style="arabic" class="stepwise"><item>Use the arrows to navigate to and select <code>&lt;RECEIVE&gt;</code>. </item>
 <item>Press <media id="fs-id14419024" display="inline" alt="enter key">
               <image mime-type="image/png" src="../../media/ti83-enter.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-enter.eps"/>
+              
             </media>.</item>
 </list></para><para id="eip-442"><title>Calculator sending information</title><list id="fs-id13666196" list-type="enumerated" number-style="arabic" class="stepwise"><item>Press the appropriate number or letter.</item>
 <item>Use the up and down arrows to access the appropriate item.</item>
 <item>Press <media id="fs-id14358160" display="inline" alt="enter key">
               <image mime-type="image/png" src="../../media/ti83-enter.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-enter.eps"/>
+             
             </media> to select the item to transfer.</item>
 <item>Press the right arrow to navigate to and select <code>&lt;TRANSMIT&gt;</code>.</item>
 <item>Press <media id="fs-id15557080" display="inline" alt="enter key">
               <image mime-type="image/png" src="../../media/ti83-enter.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-enter.eps"/>
+              
             </media>.</item>
 </list></para><note id="eip-623"><label/><title>Note</title>
 <para id="eip-idp123049456">ERROR 35 LINK generally means that the cables have not been inserted far enough.</para>
 </note><para id="eip-432">Both calculators—Insert your respective end of the link cable, press <media id="fs-id4481246" display="inline" alt="2nd key">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
-              <image for="pdf" mime-type="application/postscript" src="ti83-2nd.eps"/>
+           
             </media>, then <code>[QUIT]</code> to exit when done.</para></section>
     <section id="eip-367">
       <title>Manipulating One-Variable Statistics</title>
@@ -1166,7 +1166,7 @@ If <code>[L1]</code> is not selected, press
 <item>Compare the absolute value of each residual value in <code>[L3]</code> to 7.64. If the absolute value is greater than 7.64, then the (<emphasis effect="italics">x, y</emphasis>) corresponding point is an outlier. In this case, none of the points is an outlier.</item></list></para><para id="fs-id14035082"><title>To obtain estimates of <emphasis effect="italics">y</emphasis> for various <emphasis effect="italics">x</emphasis>-values</title>There are various ways to determine estimates for "<emphasis effect="italics">y.</emphasis>" One way is to substitute values for "<emphasis effect="italics">x</emphasis>" in the equation. Another way is to use the
           <media id="fs-id4485078" display="inline" alt="trace key">
             <image mime-type="image/png" src="../../media/ti83-trace.png"/>
-            <image for="pdf" mime-type="application/postscript" src="ti83-trace.eps"/>
+            
           </media> on the graph of the regression line.
         </para></section>
     </section>
