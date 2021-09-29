@@ -212,16 +212,11 @@ included in every experiment. To eliminate lurking variables, subjects must be a
 </exercise><exercise id="eip-624"><problem id="fs-idp75882352">
 <para id="fs-idp66601184">An advertisement for Acme Investments displays the two graphs in <link target-id="fs-idp81996208" document=""/> to show
 the value of Acme’s product in comparison with the Other Guy’s product. Describe the potentially
-misleading visual effect of these comparison graphs. How can this be corrected?</para><figure id="fs-idp81996208" orient="horizontal"><subfigure id="fs-idp51320352">
-<media id="fs-idp79724992" alt="This is a line graph titled Acme Investments. The line graph shows a dramatic increase; neither the x-axis nor y-axis are labeled.">
-<image mime-type="image/jpg" src="../../media/CNX_Stats_C01_M11_001.jpg" width="300"/>
+misleading visual effect of these comparison graphs. How can this be corrected?</para>
+<figure id="fs-idp81996208">
+<media id="fs-idp79724992" alt="(a) This is a line graph titled Acme Investments. The line graph shows a dramatic increase; neither the x-axis nor y-axis are labeled. (b) This is a line graph titled Other Guy's Investments. The line graph shows a modest increase; neither the x-axis nor y-axis are labeled.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_Figure_01_98_invstgraph.jpg" width="300"/>
 </media>
-</subfigure>
-<subfigure id="fs-idp16753840">
-<media id="fs-idp64067856" alt="This is a line graph titled Other Guy's Investments. The line graph shows a modest increase; neither the x-axis nor y-axis are labeled.">
-<image mime-type="image/jpg" src="../../media/CNX_Stats_C01_M11_002.jpg" width="300"/>
-</media>
-</subfigure>
 <caption>As the graphs show, Acme consistently outperforms the Other Guys!</caption></figure></problem>
 <!-- <solution id="eip-idm37639696">
 <para id="eip-idp9699152">The graphs do not show scales of values. We do not know the period of time each graph represents; they may show data from different years. We also do not know if the vertical scales on each graph are equivalent. The scales may have been adjusted to exaggerate or minimize trends. There is no reliable information to be gleaned from these graphs, and setting them up as examples of performance is misleading.</para>
