@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164566387137">
-<para id="eip-123456789">The actual test begins by considering two <term>hypotheses</term>. They are called the <term>null hypothesis</term> and the <term>alternative hypothesis</term>. These hypotheses contain opposing viewpoints.</para>
+<para id="eip-123456789">The actual test begins by considering two <term id="term-00001">hypotheses</term>. They are called the <term id="term-00002">null hypothesis</term> and the <term id="term-00003">alternative hypothesis</term>. These hypotheses contain opposing viewpoints.</para>
 <para id="element-619"><emphasis effect="italics">H<sub>0</sub></emphasis>, the <emphasis>null hypothesis:</emphasis> a statement of no difference between sample means or proportions or no difference between a sample mean or proportion and a population mean or proportion. In other words, the difference equals 0.</para><para id="element-320"><emphasis effect="italics">H<sub>a</sub></emphasis>, the <emphasis>alternative hypothesis:</emphasis> a claim about the population that is contradictory to <emphasis effect="italics">H<sub>0</sub></emphasis> and what we conclude when we reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-478">Since the null and alternative hypotheses are contradictory, you must examine evidence to decide if you have enough evidence to reject the null hypothesis or not. The evidence is in the form of sample data.</para><para id="element-862">After you have determined which hypothesis the sample supports, you make a <emphasis>decision.</emphasis>
 There are two options for a decision. They are <emphasis effect="italics">reject</emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis> if the sample information favors the alternative hypothesis or <emphasis effect="italics">do not reject</emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis> or <emphasis effect="italics">decline to reject</emphasis> <emphasis effect="italics">H<sub>0</sub></emphasis> if the sample information is insufficient to reject the null hypothesis.</para><para id="element-689">Mathematical Symbols Used in <emphasis effect="italics">H<sub>0</sub></emphasis> and <emphasis effect="italics">H<sub>a</sub></emphasis>:
 
@@ -24,7 +24,7 @@ There are two options for a decision. They are <emphasis effect="italics">reject
 <tbody>
 <row>
 <entry>equal (=)</entry>
-<entry>not equal (≠) <emphasis>or</emphasis> greater than (&gt;) <emphasis>or</emphasis> less than (&lt;)</entry>
+<entry>not equal (≠) <emphasis>or</emphasis> greater than (>) <emphasis>or</emphasis> less than (&lt;)</entry>
 </row>
 <row>
 <entry>greater than or equal to (≥)</entry>
@@ -32,17 +32,17 @@ There are two options for a decision. They are <emphasis effect="italics">reject
 </row>
 <row>
 <entry>less than or equal to (≤)</entry>
-<entry>more than (&gt;)</entry>
+<entry>more than (>)</entry>
 </row>
 </tbody>
 </tgroup>
 </table>
 </para><note id="id1168218302693"><label/><title>Note</title>
-<para id="eip-idp37732128"><emphasis effect="italics">H<sub>0</sub></emphasis> always has a symbol with an equal in it. <emphasis effect="italics">H<sub>a</sub></emphasis> never has a symbol with an equal in it. The choice of symbol depends on the wording of the hypothesis test. However, be aware that many researchers use = in the null hypothesis, even with &gt; or &lt; as the symbol in the alternative hypothesis. This practice is acceptable because we only make the decision to reject or not reject the null hypothesis.</para></note>
+<para id="eip-idp37732128"><emphasis effect="italics">H<sub>0</sub></emphasis> always has a symbol with an equal in it. <emphasis effect="italics">H<sub>a</sub></emphasis> never has a symbol with an equal in it. The choice of symbol depends on the wording of the hypothesis test. However, be aware that many researchers use = in the null hypothesis, even with > or &lt; as the symbol in the alternative hypothesis. This practice is acceptable because we only make the decision to reject or not reject the null hypothesis.</para></note>
 
 <example id="element-183">
 <para id="element-283"><emphasis effect="italics">H<sub>0</sub></emphasis>: No more than 30 percent of the registered voters in Santa Clara County voted in the primary election. <emphasis effect="italics">p</emphasis> ≤ 30
-<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: More than 30 percent of the registered voters in Santa Clara County voted in the primary election. <emphasis effect="italics">p</emphasis> &gt; 30</para></example>
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: More than 30 percent of the registered voters in Santa Clara County voted in the primary election. <emphasis effect="italics">p</emphasis> > 30</para></example>
 <note id="fs-idp10178800" class="statistics try">
 <label/>
 <title>Try It</title>
@@ -70,7 +70,7 @@ There are two options for a decision. They are <emphasis effect="italics">reject
 <title>Try It</title>
 <exercise id="fs-idm576512">
 <problem id="fs-idm16416">
-<para id="eip-247">We want to test whether the mean height of eighth graders is 66 inches. State the null and alternative hypotheses. Fill in the correct symbol (=, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
+<para id="eip-247">We want to test whether the mean height of eighth graders is 66 inches. State the null and alternative hypotheses. Fill in the correct symbol (=, ≠, ≥, &lt;, ≤, >) for the null and alternative hypotheses.
 <list id="eip-idm122826912" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 66</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 66</item>
 </list></para></problem>
@@ -91,7 +91,7 @@ There are two options for a decision. They are <emphasis effect="italics">reject
 <title>Try It</title>
 <exercise id="fs-idm2856320">
 <problem id="fs-idp126181968">
-<para id="eip-414">We want to test if it takes fewer than 45 minutes to teach a lesson plan. State the null and alternative hypotheses. Fill in the correct symbol ( =, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
+<para id="eip-414">We want to test if it takes fewer than 45 minutes to teach a lesson plan. State the null and alternative hypotheses. Fill in the correct symbol ( =, ≠, ≥, &lt;, ≤, >) for the null and alternative hypotheses.
 <list id="eip-idm84545584" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 45</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> __ 45</item>
 </list></para>
@@ -105,14 +105,14 @@ There are two options for a decision. They are <emphasis effect="italics">reject
 <example id="element-410">
 <para id="fs-idm30028400">An article on school standards stated that about half of all students in France, Germany, and Israel take advanced placement exams and a third of the students pass. The same article stated that 6.6 percent of U.S. students take advanced placement exams and 4.4 percent pass. Test if the percentage of U.S. students who take advanced placement exams is more than 6.6 percent. State the null and alternative hypotheses.
 <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0.066
-<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0.066
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0.066
 </para></example>
 <note id="fs-idm2566848" class="statistics try">
 <label/>
 <title>Try It</title>
 <exercise id="fs-idm126344352">
 <problem id="fs-idm54604944">
-<para id="fs-idm131727840">On a state driver’s test, about 40 percent pass the test on the first try. We want to test if more than 40 percent pass on the first try. Fill in the correct symbol (=, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
+<para id="fs-idm131727840">On a state driver’s test, about 40 percent pass the test on the first try. We want to test if more than 40 percent pass on the first try. Fill in the correct symbol (=, ≠, ≥, &lt;, ≤, >) for the null and alternative hypotheses.
 <list id="eip-idp142654064" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> __ 0.40</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> __ 0.40</item>
@@ -121,7 +121,7 @@ There are two options for a decision. They are <emphasis effect="italics">reject
 </problem>
 <solution id="fs-idm46325088">
 <list id="eip-idp10451920" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0.40</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0.40</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0.40</item>
 </list></solution>
 </exercise>
 </note>
@@ -136,7 +136,7 @@ There are two options for a decision. They are <emphasis effect="italics">reject
 
 <list id="eip-idp72518864" list-type="enumerated" number-style="arabic"><item>Evaluate the <emphasis>null hypothesis</emphasis>, typically denoted with <emphasis effect="italics">H<sub>0</sub></emphasis>. The null is not rejected unless the hypothesis test shows otherwise. The null statement must always contain some form of equality (=, ≤, or ≥).</item>
 
-<item>Always write the <emphasis>alternative hypothesis</emphasis>, typically denoted with <emphasis effect="italics">H<sub>a</sub></emphasis> or <emphasis effect="italics">H<sub>1</sub></emphasis>, using less than, greater than, or not equals symbols, i.e., (≠, &gt;, or &lt;).</item>
+<item>Always write the <emphasis>alternative hypothesis</emphasis>, typically denoted with <emphasis effect="italics">H<sub>a</sub></emphasis> or <emphasis effect="italics">H<sub>1</sub></emphasis>, using less than, greater than, or not equals symbols, i.e., (≠, >, or &lt;).</item>
 
 <item>If we reject the null hypothesis, then we can assume there is enough evidence to support the alternative hypothesis.</item>
 
@@ -156,14 +156,14 @@ There are two options for a decision. They are <emphasis effect="italics">reject
 </row>
 <row>
 <entry><emphasis>then <emphasis effect="italics">H<sub>a</sub></emphasis> has:</emphasis></entry>
-<entry>not equal (≠) <emphasis>or</emphasis> greater than (&gt;) <emphasis>or</emphasis> less than (&lt;)</entry>
+<entry>not equal (≠) <emphasis>or</emphasis> greater than (>) <emphasis>or</emphasis> less than (&lt;)</entry>
 <entry>less than (&lt;)</entry>
-<entry>greater than (&gt;)</entry>
+<entry>greater than (>)</entry>
 </row>
 </tbody>
 
 </tgroup>
-</table><para id="element-987">If <emphasis effect="italics">α</emphasis> ≤ <emphasis effect="italics">p</emphasis>-value, then do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-43">If <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, then reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-305"><emphasis effect="italics">α</emphasis> is preconceived. Its value is set before the hypothesis test starts. The <emphasis effect="italics">p</emphasis>-value is calculated from the data.</para></section>
+</table><para id="element-987">If <emphasis effect="italics">α</emphasis> ≤ <emphasis effect="italics">p</emphasis>-value, then do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-43">If <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, then reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-305"><emphasis effect="italics">α</emphasis> is preconceived. Its value is set before the hypothesis test starts. The <emphasis effect="italics">p</emphasis>-value is calculated from the data.</para></section>
 
 
 <section id="fs-idm15064784" class="practice">
@@ -258,7 +258,7 @@ A sociologist claims the probability that a person picked at random in Times Squ
 <solution id="id9205906">
 <list id="fs-idm3759984" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 34; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≠ 34</item>
 
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0.60; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0.60</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0.60; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0.60</item>
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 100,000; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 100,000</item>
 
@@ -266,14 +266,14 @@ A sociologist claims the probability that a person picked at random in Times Squ
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0.05; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &lt; 0.05</item>
 
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 10; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 10</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 10; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 10</item>
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0.50; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≠ 0.50</item>
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 6; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≠ 6</item>
 
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≥ 0.11; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &lt; 0.11</item>
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 20,000; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 20,000</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 20,000; <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 20,000</item>
 </list></solution>
 </exercise>
 
@@ -282,13 +282,13 @@ A sociologist claims the probability that a person picked at random in Times Squ
 <item><emphasis effect="italics">p</emphasis> &lt; 0.30</item>
 <item><emphasis effect="italics">p</emphasis> ≤ 0.30 </item>
 <item><emphasis effect="italics">p</emphasis> ≥ 0.30 </item>
-<item><emphasis effect="italics">p</emphasis> &gt; 0.30 </item>
+<item><emphasis effect="italics">p</emphasis> > 0.30 </item>
 </list>
 </problem>
 </exercise><exercise id="exer13"><problem id="id8184432">
 <para id="eip-idp133963488">A statistics instructor believes that fewer than 20 percent of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 attended the midnight showing. An appropriate alternative hypothesis is as follows:</para><list id="id8618736" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">p</emphasis> = 0.20</item>
-<item><emphasis effect="italics">p</emphasis> &gt; 0.20</item>
+<item><emphasis effect="italics">p</emphasis> > 0.20</item>
 <item><emphasis effect="italics">p</emphasis> &lt; 0.20</item>
 <item><emphasis effect="italics">p</emphasis> ≤ 0.20</item>
 </list>
@@ -307,10 +307,10 @@ A sociologist claims the probability that a person picked at random in Times Squ
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> &gt; 4.5</item>
+</m:math> > 4.5</item>
 <item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 4.5, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 4.5</item>
-<item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 4.75, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 4.75</item>
-<item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 4.5, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 4.5</item>
+<item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 4.75, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 4.75</item>
+<item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 4.5, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 4.5</item>
 </list></problem></exercise></section>
 
 <section id="fs-idm48036544" class="references">

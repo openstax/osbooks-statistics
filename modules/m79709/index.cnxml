@@ -328,7 +328,7 @@
 </m:math>, 3 ≤ <emphasis effect="italics">x</emphasis> ≤ 13</item>
 <item>There is no mode.</item>
 <item>The median is less than the mean.</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 6)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 6)</item>
 </list><newline/></para>
 
 <para id="fs-idp72328976"><emphasis>42.</emphasis> Calculate
@@ -449,7 +449,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math><list id="fs-idp275532752" list-type="enumerated" number-style="upper-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1).</item>
+</m:math><list id="fs-idp275532752" list-type="enumerated" number-style="upper-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1).</item>
 <item>Calculate the minimum value for the upper quartile.</item>
 <item>Find <emphasis effect="italics">P</emphasis><m:math>
 <m:mrow>
@@ -929,7 +929,7 @@ minutes.<list id="fs-idp13227984" list-type="enumerated" number-style="upper-alp
 <para id="fs-idp7039328"><emphasis>86.</emphasis> Six different brands of Italian salad dressing were randomly selected at a supermarket. The grams of fat per serving are 7, 7, 9, 6, 8, and 5. Assume that the underlying distribution is normal. Calculate a 95 percent confidence interval for the population mean grams of fat per serving of Italian salad dressing sold in supermarkets.</para>
 
 <para id="fs-idp84121392"><emphasis>87.</emphasis> Given: uniform, exponential, normal distributions. Match each to a statement below.<list id="fs-idm16052880" list-type="enumerated" number-style="upper-alpha"><item>mean = median ≠ mode</item>
-<item>mean &gt; median &gt; mode</item>
+<item>mean > median > mode</item>
 <item>mean = median = mode</item>
 </list><newline/></para></section>
 <section id="fs-idm150557568">
@@ -1207,7 +1207,7 @@ is normal with the same mean but a smaller standard deviation than the distribut
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math>. Sketch the graph that depicts: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1).
+</m:math>. Sketch the graph that depicts: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1).
 </para><para id="fs-idp110758256"><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the mean amount of money a customer spends in one trip to the supermarket is $72.</para>
 
 

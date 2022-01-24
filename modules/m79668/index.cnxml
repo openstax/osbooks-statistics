@@ -44,7 +44,7 @@
 
   </m:mrow>
  </m:semantics>
-</m:math>, and divide by the standard error to standardize the difference. The result is a <emphasis effect="italics">t</emphasis>-score test statistic.</para><para id="element-254">Because we do not know the population standard deviations, we estimate them using the two sample standard deviations from our independent samples. For the hypothesis test, we calculate the estimated <term>standard deviation</term>, or <term>standard error</term>, of the difference in sample means,
+</m:math>, and divide by the standard error to standardize the difference. The result is a <emphasis effect="italics">t</emphasis>-score test statistic.</para><para id="element-254">Because we do not know the population standard deviations, we estimate them using the two sample standard deviations from our independent samples. For the hypothesis test, we calculate the estimated <term id="term-00001">standard deviation</term>, or <term id="term-00002">standard error</term>, of the difference in sample means,
 <m:math>
  <m:semantics>
   <m:mrow>
@@ -228,7 +228,7 @@ and
 are the sample means, and </item>
 <item><emphasis effect="italics">μ</emphasis><sub>1</sub> and <emphasis effect="italics">μ</emphasis><sub>2</sub> are the population means.</item>
 </list></para>
-<para id="element-256" class="finger">The number of <term>degrees of freedom (<emphasis effect="italics">df</emphasis>)</term> requires a somewhat complicated calculation. However, a computer or calculator calculates it easily. The <emphasis effect="italics">df</emphasis> are not always a whole number. The test statistic calculated previously is approximated by the Student’s <emphasis effect="italics">t</emphasis>-distribution with <emphasis effect="italics">df</emphasis> as follows:</para><para id="fs-id1164562359716">Degrees of freedom</para>
+<para id="element-256" class="finger">The number of <term id="term-00003">degrees of freedom (<emphasis effect="italics">df</emphasis>)</term> requires a somewhat complicated calculation. However, a computer or calculator calculates it easily. The <emphasis effect="italics">df</emphasis> are not always a whole number. The test statistic calculated previously is approximated by the Student’s <emphasis effect="italics">t</emphasis>-distribution with <emphasis effect="italics">df</emphasis> as follows:</para><para id="fs-id1164562359716">Degrees of freedom</para>
 <equation id="eq_df" class="unnumbered"><label/><m:math display="block">
  <m:mrow>
   <m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -426,7 +426,7 @@ are the sample means, and </item>
 <para id="element-939">Is there a difference in the mean amount of time boys and girls aged 7 to 11 play sports each day? Test at the 5 percent level of significance.</para></problem>
 <solution id="id21329984">
   <para id="element-296"><emphasis>The population standard deviations are not known</emphasis>. Let <emphasis effect="italics">g</emphasis> be the subscript for girls and <emphasis effect="italics">b</emphasis> be the subscript for boys. Then, <emphasis effect="italics">μ<sub>g</sub></emphasis> is the population mean for girls and <emphasis effect="italics">μ<sub>b</sub></emphasis> is the population mean for boys. This is a test of two <emphasis>independent groups</emphasis>, two population <emphasis>means</emphasis>.</para>
-<para id="element-221"><term>Random variable</term>:
+<para id="element-221"><term id="term-00004">Random variable</term>:
   <m:math display="">
  <m:mrow>
   <m:msub>
@@ -512,7 +512,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
  </m:mrow>
 </m:math> = 2 – 3.2 = –1.2
-<newline/>Half the <emphasis effect="italics">p</emphasis>-value is below –1.2, and half is above 1.2.</para><para id="element-823"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. This means you reject <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. The means are different.</para><note id="fs-idp61535456" class="statistics calculator">
+<newline/>Half the <emphasis effect="italics">p</emphasis>-value is below –1.2, and half is above 1.2.</para><para id="element-823"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. This means you reject <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. The means are different.</para><note id="fs-idp61535456" class="statistics calculator">
 <label/>
 <para id="fs-idp144406384">Press <code>STAT</code>. Arrow over to <code>TESTS</code> and press <code>4:2-SampTTest</code>. Arrow over to <code>Stats</code> and press <code>ENTER</code>. Arrow down and enter <code>2</code> for the first sample mean, <code>0.866</code> for Sx1, <code>9</code> for n1, <code>3.2</code> for the second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow down to <code>μ1:</code> and arrow to <code>does not equal</code> μ2. Press <code>ENTER</code>. Arrow down to <code>Pooled:</code> and <code>No</code>. Press <code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>. The <emphasis effect="italics">p</emphasis>-value is <emphasis effect="italics">p</emphasis> = 0.0054, the <emphasis effect="italics">df</emphasis>s are approximately 18.8462, and the test statistic is –3.14. Do the procedure again, but instead of <code>Calculate</code> do <code>Draw</code>.</para></note>
 
@@ -568,7 +568,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <note id="fs-idm50414208">
 <label/>
 <title>NOTE</title>
-<para id="fs-idm204425680">When the sum of the sample sizes is larger than 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> &gt; 30), you can use the normal distribution to approximate the Student’s <emphasis effect="italics">t</emphasis>.</para></note>
+<para id="fs-idm204425680">When the sum of the sample sizes is larger than 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> > 30), you can use the normal distribution to approximate the Student’s <emphasis effect="italics">t</emphasis>.</para></note>
 
 <example id="element-968"><para id="element-980">A study is done by a community group in two neighboring colleges to determine which one graduates students with more math classes. College A samples 11 graduates. Their average is 4 math classes with a standard deviation of 1.5 math classes. College B samples nine graduates. Their average is 3.5 math classes with a standard deviation of 1 math class. The community group believes that a student who graduates from College A <emphasis effect="italics">has taken more math classes,</emphasis> on average. Both populations have a normal distribution. Test at a 1 percent significance level. Answer the following questions:<newline count="2"/></para><exercise id="fs-idm178911728"><problem id="fs-idm177203296">
 <para id="fs-idm171395200">a. Is this a test of two means or two proportions?</para>
@@ -645,7 +645,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
         <m:mi>μ</m:mi>
         <m:mi>A</m:mi>
       </m:msub>
-      <m:mo>&gt;</m:mo><m:msub>
+      <m:mo>></m:mo><m:msub>
         <m:mi>μ</m:mi>
         <m:mi>B</m:mi>
       </m:msub>
@@ -839,7 +839,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </list></solution>
 </exercise>
 </example>
-<para id="eip-358"><title>Cohen’s Standards for Small, Medium, and Large Effect Sizes</title><term>Cohen’s <emphasis effect="italics">d</emphasis></term> is a measure of effect size based on the differences between two means. Cohen’s <emphasis effect="italics">d</emphasis>, named for U.S. statistician Jacob Cohen, measures the relative strength of the differences between the means of two populations based on sample data. The calculated value of effect size is then compared to Cohen’s standards of small, medium, and large effect sizes.</para><table id="fs-idp93235584" summary="A two column table is shown. The first row reads Size of effect, d. The second row reads Small, 0.2. The third row reads medium, 0.5. The fourth row reads Large, 0.8."><title>Cohen’s Standard Effect Sizes</title>
+<para id="eip-358"><title>Cohen’s Standards for Small, Medium, and Large Effect Sizes</title><term id="term-00005">Cohen’s <emphasis effect="italics">d</emphasis></term> is a measure of effect size based on the differences between two means. Cohen’s <emphasis effect="italics">d</emphasis>, named for U.S. statistician Jacob Cohen, measures the relative strength of the differences between the means of two populations based on sample data. The calculated value of effect size is then compared to Cohen’s standards of small, medium, and large effect sizes.</para><table id="fs-idp93235584" summary="A two column table is shown. The first row reads Size of effect, d. The second row reads Small, 0.2. The third row reads medium, 0.5. The fourth row reads Large, 0.8."><title>Cohen’s Standard Effect Sizes</title>
 <tgroup cols="2"><thead>
 <row>
 <entry>Size of Effect</entry>
@@ -1834,7 +1834,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
       <list id="fs-idp113692848" list-type="enumerated" number-style="lower-roman">
         <item>Alpha: 0.05</item>
         <item>Decision: Do not reject.</item>
-        <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
+        <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
         <item>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the mean enrollment at four-year colleges is higher than at two-year colleges.</item>
       </list>
     </item>
@@ -1926,7 +1926,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
     <item>
     <list id="fs-idp3469344" list-type="enumerated" number-style="lower-roman"><item>Alpha: 0.05</item>
       <item>Decision: Do not reject the null hypothesis.</item>
-      <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
+      <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
       <item>Conclusion: At the 5 percent significance level, there is insufficient evidence to conclude that the mean entry-level salaries of mechanical engineers is lower than that of electrical engineers.</item>
     </list></item>
   </list></solution>
@@ -2081,30 +2081,21 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm81478720">
       <problem id="fs-idp12884432">
-        <para id="fs-idp12884688">Researchers interviewed people in a certain industry in Canada and the United States. The mean age of the 100 Canadians upon entering this industry was 18 with a standard deviation of 6. The mean age of the 130 Americans upon entering this industry was 20 with a standard deviation of 8. Is the mean age of entering this industry in Canada lower than the mean age in the United States? Test at a 1 percent significance level.</para></problem>
+        <para id="fs-idp12884688">Elijah wants to know whether textbook costs are different for different courses of study. He selects a random sample of 33 sociology textbooks offered on a popular online site. The mean price of his sample is $74.64 with a standard deviation of $49.36. He then selects a random sample of 33 math and science textbooks from the same site. The mean price of this sample is $111.56 with a standard deviation of $66.90. Is the mean price of a sociology textbook lower than the mean price of a math or science textbook? Test at a 1% significance level.</para></problem>
       <solution id="fs-idm189266736">
-        <para id="fs-idm189266480">Test: two independent sample means, population standard deviations unknown.</para>
-        <para id="fs-idm7792944">Random variable: <m:math display="block">
- <m:mrow>
-  <m:msub>
-   <m:mover accent="true">
-    <m:mi>X</m:mi>
-    <m:mo>¯</m:mo>
-   </m:mover>
-
-   <m:mn>1</m:mn>
-  </m:msub>
-  <m:mo>−</m:mo><m:msub>
-   <m:mover accent="true">
-    <m:mi>X</m:mi>
-    <m:mo>¯</m:mo>
-   </m:mover>
-
-   <m:mn>2</m:mn>
-  </m:msub>
-
- </m:mrow>
-</m:math></para>
+        <para id="fs-idm189266480">Test: two independent sample means, population standard deviations unknown.</para><list id="list-00001">
+          <item><emphasis effect="italics">µ</emphasis><sub>1</sub> = the mean price of a sociology text on the selected site</item>
+          <item><emphasis effect="italics">µ</emphasis><sub>2</sub> = the mean price of a math/science text on the selected site</item></list>
+        <para id="fs-idm7792944">Random variable: 
+          <m:math><m:mrow><m:msub><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub>
+          <m:mo>−</m:mo>
+          <m:msub><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:mrow></m:math> = the difference in the sample mean textbook price between sociology texts and math/science texts.</para>
+        <para id="para-00001">Hypotheses: <m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>:</m:mtext><m:mspace width="0.3em"/><m:mrow><m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>−</m:mo><m:mrow><m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:math>,
+        <m:math><m:mspace width="0.6em"/><m:mrow><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:mrow><m:mtext>:</m:mtext><m:mspace width="0.3em"/><m:mrow><m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>−</m:mo><m:mrow><m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:math>, which can be expressed as <m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mtext>:</m:mtext><m:mspace width="0.3em"/><m:mrow><m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>=</m:mo><m:mrow><m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:mrow><m:mtext>:</m:mtext><m:mspace width="0.3em"/><m:mrow><m:msub><m:mi>µ</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>&lt;</m:mo><m:mrow><m:msub><m:mi>µ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</para>
+        <para id="para-00002">Distribution for the test: Use <emphasis effect="italics">t<sub>df </sub></emphasis>, because each sample has more than 30 observations, <m:math><m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mspace width="0.3em"/><m:mrow><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>+</m:mo><m:mrow><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>33</m:mn><m:mo>+</m:mo><m:mn>33</m:mn><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>64</m:mn></m:math>.</para>
+        <para id="para-00003">Estimate the critical value on the <emphasis effect="italics">t</emphasis>-table using the nearest available degrees of freedom, 60. The critical value, 2.660, is found in the .0005 column.</para>
+        <para id="para-00004">Calculate the test statistic: .</para>
+        <para id="para-00005">Using a calculator with <emphasis effect="italics">t<sub><emphasis effect="italics">c</emphasis></sub></emphasis> = –2.55 and <emphasis effect="italics">df</emphasis> = 64, the left-tailed <emphasis effect="italics">p</emphasis>-value: 0.0066. Decision: Reject <emphasis effect="italics">H</emphasis><sub>0</sub>. Conclusion: At the 1% level of significance, from the sample data, there is sufficient evidence to conclude that the mean price of sociology textbooks is less than the mean price of textbooks for math/science.</para>
 
 <para id="fs-idm96995296">Distribution: <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub>, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> &lt; <emphasis effect="italics">μ</emphasis><sub>2</sub> <newline/> The mean age of entering the industry in Canada is lower than the mean age in the United States.</para><figure id="fs-idm122708400"><media id="fs-idm5558192" alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0157.">
           <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M02_005anno.jpg" width="380"/>
@@ -2122,7 +2113,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
     <exercise id="eip-17">
       <problem id="eip-334">
         <para id="eip-853">Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. She takes random samples from each of the populations. The mean and standard deviation for 35 statistics day students were 75.86 and 16.91, respectively. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The <emphasis effect="italics">day</emphasis> subscript refers to the statistics day students. The <emphasis effect="italics">night</emphasis> subscript refers to the statistics night students. An appropriate alternative hypothesis for the hypothesis test is</para><list id="eip-idp47881856" list-type="enumerated" number-style="lower-alpha">
-          <item><emphasis effect="italics">μ</emphasis><sub>day</sub> &gt; <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
+          <item><emphasis effect="italics">μ</emphasis><sub>day</sub> > <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> &lt; <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> = <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> ≠ <emphasis effect="italics">μ</emphasis><sub>night</sub></item>

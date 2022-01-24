@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164565456340">
-<para id="fs-idm10364336">The purpose of a one-way ANOVA test is to determine the existence of a statistically significant difference among several group means. The test uses <term>variances</term> to help determine if the means are equal or not. To perform a one-way ANOVA test, there are five basic assumptions to be fulfilled:</para><list id="fs-id1164567130081">
+<para id="fs-idm10364336">The purpose of a one-way ANOVA test is to determine the existence of a statistically significant difference among several group means. The test uses <term id="term-00001">variances</term> to help determine if the means are equal or not. To perform a one-way ANOVA test, there are five basic assumptions to be fulfilled:</para><list id="fs-id1164567130081">
 <item>Each population from which a sample is taken is assumed to be normal.</item>
 <item>All samples are randomly selected and independent.</item>
 <item>The populations are assumed to have equal standard deviations (or variances).</item>

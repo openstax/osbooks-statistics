@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164564866218">
-<para id="element-194">A <term>test of a single variance</term> assumes that the underlying distribution is normal. The null and alternative hypotheses are stated in terms of the <term>population variance</term> or population standard deviation. The test statistic is</para><equation class="unnumbered" id="element-740"><label/><m:math>
+<para id="element-194">A <term id="term-00001">test of a single variance</term> assumes that the underlying distribution is normal. The null and alternative hypotheses are stated in terms of the <term id="term-00002">population variance</term> or population standard deviation. The test statistic is</para><equation class="unnumbered" id="element-740"><label/><m:math>
 <m:mfrac>
 <m:mrow>
 <m:mo>(</m:mo>
@@ -47,7 +47,7 @@ best students thinks otherwise. The student claims that the standard deviation i
   <para id="element-219">Even though we are given the population standard deviation, we can set up the test using the population variance as follows:</para>
 <list id="element-660" list-type="bulleted"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 5<sup>2</sup>
  </item>
- <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 5<sup>2</sup></item>
+ <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 5<sup>2</sup></item>
  </list></solution>
 </exercise>
  </example>
@@ -121,7 +121,7 @@ Let <emphasis effect="italics">s</emphasis> = standard deviation for the waiting
 
 <newline/><emphasis effect="italics">α</emphasis> = 0.05
 <newline/><emphasis effect="italics">p</emphasis>-value = 0.000042
-<newline/><emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value</para><para id="element-726"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. This means that you reject <emphasis effect="italics">σ</emphasis><sup>2</sup> = 7.2<sup>2</sup>. In other words, you do not think the variation in waiting times is 7.2 minutes; you think the variation in waiting times is less.</para><para id="element-952"><emphasis>Conclusion:</emphasis> At a 5 percent level of significance, from the data, there is sufficient evidence to
+<newline/><emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value</para><para id="element-726"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. This means that you reject <emphasis effect="italics">σ</emphasis><sup>2</sup> = 7.2<sup>2</sup>. In other words, you do not think the variation in waiting times is 7.2 minutes; you think the variation in waiting times is less.</para><para id="element-952"><emphasis>Conclusion:</emphasis> At a 5 percent level of significance, from the data, there is sufficient evidence to
 conclude that a single line causes a lower variation among the waiting times <emphasis effect="italics">or</emphasis> with a single
 line, the customer waiting times vary less than 7.2 minutes.</para>
  <note id="fs-idm81061344" class="statistics calculator"><label/>
@@ -136,7 +136,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
   <para id="eip-37">The FCC conducts broadband speed tests to measure how much data per second passes between a consumer’s computer and the internet. As of August 2012, the standard deviation of internet speeds across internet service providers (ISPs) was 12.2 percent. Suppose a sample of 15 ISPs is taken, and the standard deviation is 13.2. An analyst claims that the standard deviation of speeds is more than what was reported. State the null and alternative hypotheses, compute the degrees of freedom, calculate the test statistic, sketch the graph of the <emphasis effect="italics">p</emphasis>-value, and draw a conclusion. Test at the 1 percent significance level.</para></problem>
 <solution id="eip-idp33472464">
 <label/>
- <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12.2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 12.2<sup>2</sup>
+ <para id="eip-546"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 12.2<sup>2</sup></para><para id="eip-idm82917168"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 12.2<sup>2</sup>
 <newline/><emphasis effect="italics">df</emphasis> = 14
 <newline/>chi<sup>2</sup> test statistic = 16.39</para>
 <figure id="fs-idp135068032">
@@ -243,7 +243,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
   </para>
 </problem>
 <solution id="eip-401">
- <para id="eip-306"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 0.81<sup>2</sup>;</para><para id="eip-idm138366848"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 0.81<sup>2</sup> </para></solution>
+ <para id="eip-306"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> = 0.81<sup>2</sup>;</para><para id="eip-idm138366848"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 0.81<sup>2</sup> </para></solution>
   </exercise>
   <exercise id="eip-179"><problem id="eip-132">
     <para id="eip-957"><emphasis effect="italics">df</emphasis> = ________</para></problem>
@@ -340,7 +340,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
  </problem>
   <solution id="fs-idp8292400">
    <list id="fs-idm38743456" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> = 15</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> &gt; 15</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> > 15</item>
 <item><emphasis effect="italics">df</emphasis> = 42</item>
 <item>chi-square with <emphasis effect="italics">df</emphasis> = 42</item>
 <item>test statistic = 26.88</item>
@@ -350,7 +350,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
      <list id="fs-idp14221792" list-type="enumerated" number-style="lower-roman">
       <item>Alpha = 0.05</item>
       <item>Decision: Do not reject null hypothesis.</item>
-      <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
+      <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
       <item>Conclusion: There is insufficient evidence to conclude that the standard deviation is greater than 15.</item>
      </list>
     </item>   </list></solution>
@@ -363,7 +363,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
   </para></problem>
   <solution id="fs-idp2191872">
    <list id="fs-idm74960368" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> ≤ 3</item>
-    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> &gt; 3</item>
+    <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> > 3</item>
     <item><emphasis effect="italics">df</emphasis> = 17</item>
     <item>chi-square distribution with <emphasis effect="italics">df</emphasis> = 17</item>
     <item>test statistic = 28.73</item>
@@ -440,7 +440,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
    <solution id="fs-idp46489456">
     <para id="fs-idp77058224">The sample standard deviation is $34.29.</para>
     <para id="fs-idp77058608"><emphasis effect="italics">H<sub>0</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> = 25<sup>2</sup><newline/>
-     <emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 25<sup>2</sup></para><para id="fs-idp53015088"><newline/><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 7</para><para id="fs-idp75015024"><newline/>Test statistic: <m:math>
+     <emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">σ</emphasis><sup>2</sup> > 25<sup>2</sup></para><para id="fs-idp53015088"><newline/><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 7</para><para id="fs-idp75015024"><newline/>Test statistic: <m:math>
  <m:mrow>
   <m:msup>
    <m:mi>x</m:mi>
@@ -496,7 +496,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
          <m:mn>7</m:mn>
          <m:mn>2</m:mn>
         </m:msubsup>
-        <m:mo>&gt;</m:mo><m:mn>13.169</m:mn>
+        <m:mo>></m:mo><m:mn>13.169</m:mn>
        </m:mrow>
        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
         <m:mrow>
@@ -509,7 +509,7 @@ line, the customer waiting times vary less than 7.2 minutes.</para>
         </m:mrow>
         <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>.0681</m:mn>
      </m:mrow>
-    </m:math> </para><para id="fs-idp75024832"><newline/>Alpha: 0.05</para><para id="fs-idp120246432"><newline/>Decision: Do not reject the null hypothesis.</para><para id="fs-idp83140624"><newline/>Reason for decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</para><para id="fs-idp62506704"><newline/>Conclusion: At the 5 percent level, there is insufficient evidence to conclude that the variance is more than 625.</para></solution>
+    </m:math> </para><para id="fs-idp75024832"><newline/>Alpha: 0.05</para><para id="fs-idp120246432"><newline/>Decision: Do not reject the null hypothesis.</para><para id="fs-idp83140624"><newline/>Reason for decision: <emphasis effect="italics">p</emphasis>-value > alpha</para><para id="fs-idp62506704"><newline/>Conclusion: At the 5 percent level, there is insufficient evidence to conclude that the variance is more than 625.</para></solution>
   </exercise>
   <exercise id="eip-idp39276048"><problem id="eip-idp39276176">
    <para id="eip-574">A company packages apples by weight. One of the weight grades is Class A apples. Class A apples have a mean weight of 150 grams, and there is a maximum allowed weight tolerance of 5 percent above or below the mean for apples in the same consumer package. A batch of apples is selected to be included in a Class A apple package. Given the following apple weights of the batch, does the fruit comply with the Class A grade weight tolerance requirements? Conduct an appropriate hypothesis test.</para><para id="eip-idp93825408">(a) At the 5 percent significance level</para>

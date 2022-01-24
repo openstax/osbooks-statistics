@@ -333,7 +333,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 <para id="fs-idp59562368">What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the United States?</para>
 </problem>
 <solution id="fs-idp63232128">
-<para id="fs-idm19062048">Also, the correlation <emphasis effect="italics">r</emphasis> = 0.4526.  If <emphasis effect="italics">r</emphasis> is compared with the value in the 95 Percent Critical Values of the Sample Correlation Coefficient Table, because <emphasis effect="italics">r</emphasis> &gt; 0.423, <emphasis effect="italics">r</emphasis> is significant, and you would think that the line could be used for prediction. But, the scatter plot indicates otherwise.</para></solution>
+<para id="fs-idm19062048">Also, the correlation <emphasis effect="italics">r</emphasis> = 0.4526.  If <emphasis effect="italics">r</emphasis> is compared with the value in the 95 Percent Critical Values of the Sample Correlation Coefficient Table, because <emphasis effect="italics">r</emphasis> > 0.423, <emphasis effect="italics">r</emphasis> is significant, and you would think that the line could be used for prediction. But, the scatter plot indicates otherwise.</para></solution>
 </exercise>
 <exercise id="fs-id1164567881521">
 <problem id="fs-id1164567639173">

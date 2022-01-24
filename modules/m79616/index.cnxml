@@ -9,7 +9,7 @@
 
 <content>
 <section id="fs-id1164567287600">
-<para id="element-864">A <term>two-way table</term> provides a way of portraying data that can facilitate calculating probabilities. When used to calculate probabilities, a two-way table is often called a <term>contingency table</term>. The table helps in determining conditional probabilities quite easily. The table displays sample values in relation to two different variables that may be dependent or contingent on one another. We used two-way tables in Chapters 1 and 2 to calculate marginal and conditional distributions. These tables organize data in a way that supports the calculation of relative frequency and, therefore, experimental (empirical) probability. Later on, we will use contingency tables again, but in another manner.</para>
+<para id="element-864">A <term id="term-00001">two-way table</term> provides a way of portraying data that can facilitate calculating probabilities. When used to calculate probabilities, a two-way table is often called a <term id="term-00002">contingency table</term>. The table helps in determining conditional probabilities quite easily. The table displays sample values in relation to two different variables that may be dependent or contingent on one another. We used two-way tables in Chapters 1 and 2 to calculate marginal and conditional distributions. These tables organize data in a way that supports the calculation of relative frequency and, therefore, experimental (empirical) probability. Later on, we will use contingency tables again, but in another manner.</para>
 <example id="element-775">
 <para id="element-557">Suppose a study of speeding violations and drivers who use cell phones produced the following fictional data:
 <table id="element-838" summary="A study of speeding violations">
@@ -1602,7 +1602,7 @@
 </section>
 <section id="fs-idm32828224" class="bring-together-exercises">
 <title>Bringing It Together</title>
-<para id="element-12">Use the following information to answer the next seven exercises. An article in the <cite><cite-title>New England Journal of Medicine</cite-title></cite>, reported about a study of people who use a product in California and Hawaii. In one part of the report, the self-reported ethnicity and using the product levels per day were given. Of the people using the product at most 10 times a day, there were 9,886 African Americans, 2,745 Native Hawaiians, 12,831 Latinos, 8,378 Japanese Americans, and 7,650 whites. Of the people using the product 11 to 20 times per day, there were 6,514 African Americans, 3,062 Native Hawaiians, 4,932 Latinos, 10,680 Japanese Americans, and 9,877 whites. Of the people using the product 21 to 30 times per day, there were 1,671 African Americans, 1,419 Native Hawaiians, 1,406 Latinos, 4,715 Japanese Americans, and 6,062 Whites. Of the people using the product at least 31 times per day, there were 759 African Americans, 788 Native Hawaiians, 800 Latinos, 2,305 Japanese Americans, and 3,970 whites.</para><exercise id="element-841"><problem id="id24840283">
+<para id="element-12">Use the following information to answer the next seven exercises. An article in the <cite id="cite-00001"><cite-title>New England Journal of Medicine</cite-title></cite>, reported about a study of people who use a product in California and Hawaii. In one part of the report, the self-reported ethnicity and using the product levels per day were given. Of the people using the product at most 10 times a day, there were 9,886 African Americans, 2,745 Native Hawaiians, 12,831 Latinos, 8,378 Japanese Americans, and 7,650 whites. Of the people using the product 11 to 20 times per day, there were 6,514 African Americans, 3,062 Native Hawaiians, 4,932 Latinos, 10,680 Japanese Americans, and 9,877 whites. Of the people using the product 21 to 30 times per day, there were 1,671 African Americans, 1,419 Native Hawaiians, 1,406 Latinos, 4,715 Japanese Americans, and 6,062 Whites. Of the people using the product at least 31 times per day, there were 759 African Americans, 788 Native Hawaiians, 800 Latinos, 2,305 Japanese Americans, and 3,970 whites.</para><exercise id="element-841"><problem id="id24840283">
 <para id="element-2314">Complete the table using the data provided. Suppose that one person from the study is randomly selected. Find the probability that person used the product 11 to 20 times a day.</para><table id="element-762" summary="Partially filled ethnicity by smoking level table with the first column listing the smoking levels (4 rows plus the total), the blank second column lists African American values, blank third column for Native Hawaiians, blank fourth column for Latinos, blank fifth column for Japanese Americans, blank sixth column for Whites, and blank seventh column for the Total."><title>Product Use by Ethnicity</title>
 <tgroup cols="7"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -2102,7 +2102,7 @@
 </list>
 </solution>
 </exercise>-->
-<para id="element-686"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The table of data obtained from <cite><cite-title>www.baseball-almanac.com</cite-title></cite> shows hit information for four well-known baseball players. Suppose that one hit from the table is randomly selected.</para><table id="element-695" summary="This table presents data based on type of hit by baseball player. The first column lists the names of the baseball player, second column lists single hits, third column lists double, fourth column is triple, fifth column is home run, and sixth column is total hits. The first row is Babe Ruth, the second row is Jackie Robinson, third row is Ty Cobb, fourth row is Hank Aaron, and Total is in the fifth row.">
+<para id="element-686"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The table of data obtained from <cite id="cite-00002"><cite-title>www.baseball-almanac.com</cite-title></cite> shows hit information for four well-known baseball players. Suppose that one hit from the table is randomly selected.</para><table id="element-695" summary="This table presents data based on type of hit by baseball player. The first column lists the names of the baseball player, second column lists single hits, third column lists double, fourth column is triple, fifth column is home run, and sixth column is total hits. The first row is Babe Ruth, the second row is Jackie Robinson, third row is Ty Cobb, fourth row is Hank Aaron, and Total is in the fifth row.">
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -2351,7 +2351,7 @@
 <entry>≤ 210</entry>
 <entry>211–250</entry>
 <entry>251–290</entry>
-<entry>&gt; 290</entry>
+<entry>> 290</entry>
 </row>
 </thead>
 <tbody>

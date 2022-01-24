@@ -27,8 +27,8 @@
 
 <para id="fs-idm72636976"><emphasis>Draw a graph that shows the <emphasis effect="italics">p</emphasis>-value. The hypothesis test is easier to perform if you use a graph because you see the problem more clearly.</emphasis></para>-->
 
-<para id="fs-id1164566900386">After you collect data and obtain the test statistic (the sample mean, sample proportion, or other test statistic), you can determine the probability of obtaining that test statistic when the null hypothesis is true. This probability is called the <term><emphasis effect="italics">p</emphasis>-value</term>.</para><para id="fs-id1164564928212">When the <emphasis effect="italics">p</emphasis>-value is very small, it means that the observed test statistic is very unlikely to happen if the null hypothesis is true. This gives significant evidence to suggest that the null hypothesis is false, and to reject it in favor of the alternative hypothesis. In practice, to reject the null hypothesis we want the <emphasis effect="italics">p</emphasis>-value to be smaller than 0.05 (5 percent) or sometimes even smaller than 0.01 (1 percent).</para><example id="element-804">
-<para id="element-842">Suppose a baker claims that his bread height is more than 15 cm, on average. Several of his customers do not believe him. To persuade his customers that he is right, the baker decides to do a hypothesis test. He bakes 10 loaves of bread. The mean height of the sample loaves is 17 cm. The baker knows from baking hundreds of loaves of bread that the <term>standard deviation</term> for the height is 0.5 cm and the distribution of heights is normal. </para><para id="element-369">The null hypothesis could be <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 15. The alternate hypothesis is <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 15.</para><para id="element-850">The words <emphasis effect="italics">is more than</emphasis> translates as a "&gt;" so "<emphasis effect="italics">μ</emphasis> &gt; 15" goes into the alternate hypothesis. The null hypothesis must contradict the alternate hypothesis.</para><para id="element-863">Since <emphasis effect="italics">σ is known</emphasis> (<emphasis effect="italics">σ</emphasis> = 0.5 cm), the distribution for the population is known to be normal with mean <emphasis effect="italics">μ</emphasis> = 15 and standard deviation <m:math>
+<para id="fs-id1164566900386">After you collect data and obtain the test statistic (the sample mean, sample proportion, or other test statistic), you can determine the probability of obtaining that test statistic when the null hypothesis is true. This probability is called the <term id="term-00001"><emphasis effect="italics">p</emphasis>-value</term>.</para><para id="fs-id1164564928212">When the <emphasis effect="italics">p</emphasis>-value is very small, it means that the observed test statistic is very unlikely to happen if the null hypothesis is true. This gives significant evidence to suggest that the null hypothesis is false, and to reject it in favor of the alternative hypothesis. In practice, to reject the null hypothesis we want the <emphasis effect="italics">p</emphasis>-value to be smaller than 0.05 (5 percent) or sometimes even smaller than 0.01 (1 percent).</para><example id="element-804">
+<para id="element-842">Suppose a baker claims that his bread height is more than 15 cm, on average. Several of his customers do not believe him. To persuade his customers that he is right, the baker decides to do a hypothesis test. He bakes 10 loaves of bread. The mean height of the sample loaves is 17 cm. The baker knows from baking hundreds of loaves of bread that the <term id="term-00002">standard deviation</term> for the height is 0.5 cm and the distribution of heights is normal. </para><para id="element-369">The null hypothesis could be <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 15. The alternate hypothesis is <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 15.</para><para id="element-850">The words <emphasis effect="italics">is more than</emphasis> translates as a ">" so "<emphasis effect="italics">μ</emphasis> > 15" goes into the alternate hypothesis. The null hypothesis must contradict the alternate hypothesis.</para><para id="element-863">Since <emphasis effect="italics">σ is known</emphasis> (<emphasis effect="italics">σ</emphasis> = 0.5 cm), the distribution for the population is known to be normal with mean <emphasis effect="italics">μ</emphasis> = 15 and standard deviation <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mi>σ</m:mi>
@@ -60,7 +60,7 @@
 <m:mo>¯</m:mo>
 </m:mover>
 
-</m:math> &gt; 17), which is approximately zero.</para><!--<para id="element-710">A <emphasis effect="italics">p</emphasis>-value of approximately zero tells us that it is highly unlikely that a loaf of bread rises no more than 15 cm, on average. That is, almost 0 percent of all loaves of bread would be at least as high as 17 cm. <emphasis>purely by CHANCE</emphasis> had the population mean height really been 15 cm.  Because the outcome of 17 cm. is so <emphasis>unlikely (meaning it is happening NOT by chance alone)</emphasis>, we conclude that the evidence is strongly against the null hypothesis (the mean height is at most 15 cm.). There is sufficient evidence that the true mean height for the population of the baker's loaves of bread is greater than 15 cm.</para>-->
+</m:math> > 17), which is approximately zero.</para><!--<para id="element-710">A <emphasis effect="italics">p</emphasis>-value of approximately zero tells us that it is highly unlikely that a loaf of bread rises no more than 15 cm, on average. That is, almost 0 percent of all loaves of bread would be at least as high as 17 cm. <emphasis>purely by CHANCE</emphasis> had the population mean height really been 15 cm.  Because the outcome of 17 cm. is so <emphasis>unlikely (meaning it is happening NOT by chance alone)</emphasis>, we conclude that the evidence is strongly against the null hypothesis (the mean height is at most 15 cm.). There is sufficient evidence that the true mean height for the population of the baker's loaves of bread is greater than 15 cm.</para>-->
 <para id="fs-id1164566939387">Because the <emphasis effect="italics">p</emphasis>-value is almost 0, we conclude that obtaining a sample height of 17 cm or higher from 10 loaves of bread is very unlikely if the true mean height is 15 cm. We reject the null hypothesis and conclude that there is sufficient evidence to claim that the true population mean height of the baker’s loaves of bread is higher than 15 cm.</para></example>
 
 <note id="fs-idm19107408" class="statistics try">
@@ -70,7 +70,7 @@
 <exercise id="eip-440"><problem id="eip-747">
 <para id="eip-293">A normal distribution has a standard deviation of 1. We want to verify a claim that the mean is greater than 12. A sample of 36 is taken with a sample mean of 12.5.</para>
 <para id="eip-idp83058144"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 12
-<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 12
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 12
 <newline/>The <emphasis effect="italics">p</emphasis>-value is 0.0013.
 <newline/>Draw a graph that shows the <emphasis effect="italics">p</emphasis>-value.</para></problem>
 <solution id="eip-679">
@@ -84,8 +84,8 @@
 <section id="fs-idp139727505143696">
 <title>Decision and Conclusion</title>
 
-<para id="fs-idp169707568">A systematic way to make a decision of whether to reject or not reject the <term>null hypothesis</term>
-is to compare the <emphasis effect="italics">p</emphasis>-value and a preset or preconceived <emphasis effect="italics">α</emphasis>, also called the <term>level of significance of the test</term>. A preset <emphasis effect="italics">α</emphasis> is the probability of a <term>Type I error</term> (rejecting the null hypothesis when the null hypothesis is true). It may or may not be given to you at the beginning of the problem.</para><para id="element-259">When you make a <emphasis effect="italics">decision</emphasis> to reject or not reject <emphasis effect="italics">H<sub>0</sub></emphasis>, do as follows:
+<para id="fs-idp169707568">A systematic way to make a decision of whether to reject or not reject the <term id="term-00003">null hypothesis</term>
+is to compare the <emphasis effect="italics">p</emphasis>-value and a preset or preconceived <emphasis effect="italics">α</emphasis>, also called the <term id="term-00004">level of significance of the test</term>. A preset <emphasis effect="italics">α</emphasis> is the probability of a <term id="term-00005">Type I error</term> (rejecting the null hypothesis when the null hypothesis is true). It may or may not be given to you at the beginning of the problem.</para><para id="element-259">When you make a <emphasis effect="italics">decision</emphasis> to reject or not reject <emphasis effect="italics">H<sub>0</sub></emphasis>, do as follows:
 <list id="list-1" list-type="bulleted"><item>If <emphasis effect="italics">p</emphasis>-value <m:math>
  <m:semantics>
   <m:mrow>
@@ -122,7 +122,7 @@ is to compare the <emphasis effect="italics">p</emphasis>-value and a preset or 
 
 <exercise id="eip-437">
 <problem id="eip-594">
-<para id="eip-860">It’s a Boy Genetics Labs, a genetics company, claims their procedures improve the chances of a boy being born. The results for a test of a single population proportion are as follows:</para><para id="eip-idm34336112"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0.50, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0.50</para><para id="eip-idp6354960"><emphasis effect="italics">α</emphasis> = 0.01</para><para id="eip-idp119018688"><emphasis effect="italics">p</emphasis>-value = 0.025</para><para id="eip-idm52481600">Interpret the results and state a conclusion in simple, nontechnical terms.</para></problem>
+<para id="eip-860">It’s a Boy Genetics Labs, a genetics company, claims their procedures improve the chances of a boy being born. The results for a test of a single population proportion are as follows:</para><para id="eip-idm34336112"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> = 0.50, <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0.50</para><para id="eip-idp6354960"><emphasis effect="italics">α</emphasis> = 0.01</para><para id="eip-idp119018688"><emphasis effect="italics">p</emphasis>-value = 0.025</para><para id="eip-idm52481600">Interpret the results and state a conclusion in simple, nontechnical terms.</para></problem>
 <solution id="eip-934">
 <para id="eip-77">Since the <emphasis effect="italics">p</emphasis>-value is greater than the established alpha value (the <emphasis effect="italics">p</emphasis>-value is high), we do not reject the null hypothesis. There is not enough evidence to support It’s a Boy Genetics Labs' stated claim that their procedures improve the chances of a boy being born.
 </para></solution>
@@ -137,7 +137,7 @@ is to compare the <emphasis effect="italics">p</emphasis>-value and a preset or 
 <title>Chapter Review</title>
 
 <para id="fs-idp139727500433648">When the probability of an event occurring is low, and it happens, it is called a rare event. Rare events are important to consider in hypothesis testing because they can inform your willingness not to reject or to reject a null hypothesis. To test a null hypothesis, find the <emphasis effect="italics">p</emphasis>-value for the sample data and graph the results. When deciding whether or not to reject the null the hypothesis, keep these two parameters in mind:
-<list id="fs-idp139727498090720" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, reject the null hypothesis.</item>
+<list id="fs-idp139727498090720" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, reject the null hypothesis.</item>
 <item><emphasis effect="italics">α</emphasis> ≤ <emphasis effect="italics">p</emphasis>-value, do not reject the null hypothesis.</item>
 </list></para></section>
 
@@ -160,7 +160,7 @@ is to compare the <emphasis effect="italics">p</emphasis>-value and a preset or 
 <problem id="fs-idp139727500456576">
 <para id="fs-idp139727500456832">It is believed that the mean height of high school students who play basketball on the school team is 73 inches with a standard deviation of 1.8 inches. A random sample of 40 players is chosen. The sample mean was 71 inches, and the sample standard deviation was 1.5 inches. Do the data support the claim that the mean height is less than 73 inches? The <emphasis effect="italics">p</emphasis>-value is almost zero. State the null and alternative hypotheses and interpret the <emphasis effect="italics">p</emphasis>-value.</para></problem>
 <solution id="fs-idp139727500328080">
-<para id="eip-idp77616272"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; = 73
+<para id="eip-idp77616272"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > = 73
 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 73
 <newline/>The <emphasis effect="italics">p</emphasis>-value is almost zero, which means there is sufficient data to conclude that the mean height of high school students who play basketball on the school team is less than 73 inches at the 5 percent level.  The data do support the claim.</para></solution>
 </exercise>
@@ -173,7 +173,7 @@ is to compare the <emphasis effect="italics">p</emphasis>-value and a preset or 
 <para id="fs-idp139727500212560">The shaded region shows a low <emphasis effect="italics">p</emphasis>-value.</para></solution>
 </exercise>
 <exercise id="fs-idp139727500213504"><problem id="fs-idp139727500319104">
-<para id="fs-idp139727500319360">What should you do when <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value?</para></problem></exercise><exercise id="fs-idp139727500288288">
+<para id="fs-idp139727500319360">What should you do when <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value?</para></problem></exercise><exercise id="fs-idp139727500288288">
 <problem id="fs-idp139727500288544">
 <para id="fs-idp139727506518704">What should you do if <emphasis effect="italics">α</emphasis> = <emphasis effect="italics">p</emphasis>-value?</para></problem>
 <solution id="fs-idp139727506519216">

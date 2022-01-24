@@ -12,12 +12,12 @@
 <para id="fs-idp70908880">In calculating probability, there are two rules to consider when you are determining if two events are independent or dependent and if they are mutually exclusive or not.</para></section>
 <section id="element-860">
 <title>The Multiplication Rule</title>
-<para id="element-288">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are two events defined on a <term>sample space</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>).</para>
+<para id="element-288">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are two events defined on a <term id="term-00001">sample space</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>).</para>
 
 <para id="element-423">This equation can be rewritten as <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>), the multiplication rule.</para>
 
 <!--<para id="element-800">(The probability of <emphasis effect="italics">A</emphasis> given <emphasis effect="italics">B</emphasis> equals the probability of <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> divided by the probability of <emphasis effect="italics">B</emphasis>.)</para>-->
-<para id="element-607">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term>independent</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>). In this special case, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) becomes <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
+<para id="element-607">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term id="term-00002">independent</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>). In this special case, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) becomes <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
 <para id="fs-id1164567874293">A bag contains four green marbles, three red marbles, and two yellow marbles. Mark draws two marbles from the bag without replacement. The probability that he draws a yellow marble and then a green marble is</para>
 <equation class="unnumbered" id="fs-id1164566354380"><label/><m:math>
  <m:semantics>
@@ -174,7 +174,7 @@
 </m:math>
 
 </equation>
-<para id="element-212">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term>mutually exclusive</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = 0. Then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) − <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) becomes <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
+<para id="element-212">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term id="term-00003">mutually exclusive</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = 0. Then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) − <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) becomes <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
 <para id="fs-id1164567307413">Draw one card from a standard deck of playing cards. Let <emphasis effect="italics">H</emphasis> = the card is a heart and <emphasis effect="italics">S</emphasis> = the card is a spade. These events are mutually exclusive because a card cannot be a heart and a spade at the same time. The probability that the card is a heart or a spade is</para>
 <equation id="fs-id1164564518927">
 <m:math display="block">
@@ -901,7 +901,7 @@
 </list>
 </problem>
 </exercise>-->
-<para id="fs-id1170309364064"><term><emphasis effect="italics">Use the following information to answer the next three exercises</emphasis></term>.  A local restaurant sells pork chops and chicken breasts.  The given values below are the weights (in ounces) of pork chops and chicken breasts listed on the menu.  Your server will randomly select one piece of meat (pork chop or chicken breast) that you will be served.</para>
+<para id="fs-id1170309364064"><term id="term-00004"><emphasis effect="italics">Use the following information to answer the next three exercises</emphasis></term>.  A local restaurant sells pork chops and chicken breasts.  The given values below are the weights (in ounces) of pork chops and chicken breasts listed on the menu.  Your server will randomly select one piece of meat (pork chop or chicken breast) that you will be served.</para>
 <table id="fs-id1170309442421" summary="This shows a table with eleven columns and four rows. The first two rows are shaded gray. The last two rows are white. ‘Pork Chops” is written in column one, rows one and two. “Chicken Breasts” is written in column one, rows three and four. Read from top the bottom the column values are as follows: The values in column two are 17, 20, 17, and 20. Column three values are 20, 19, 19, and 17. Column four values are 21, 21, 17, and 20. Column five values are 18, 20, 21, and 18. Column six values 20, 18, 17, and 19. Column seven values 20, 20, 21, and 20. Column eight values 20, 20, 18 and 20. Column nine values 18, 19, 21, and 17. Column 10 values 19, 18, 19, and 21. Column 11 values 19, 19, 21, and 20.">
 <tgroup cols="11">
 <colspec colnum="1" colname="c1"/>
@@ -990,11 +990,11 @@
 <para id="fs-id1170309353532">Compute the probabilities.</para>
 <list id="fs-id1170307042240" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(you will get a chicken breast)</item>
 <item><emphasis effect="italics">P</emphasis>(you will get a 17-oz. chicken breast)</item>
-<item><emphasis effect="italics">P</emphasis>(you will get a chicken breast <term>or</term> you will not get a 17-oz. pork chop)</item>
-<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term>and</term> you will get an 18-oz. pork chop)</item>
+<item><emphasis effect="italics">P</emphasis>(you will get a chicken breast <term id="term-00005">or</term> you will not get a 17-oz. pork chop)</item>
+<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term id="term-00006">and</term> you will get an 18-oz. pork chop)</item>
 <item><emphasis effect="italics">P</emphasis>(you will get a piece of meat that is not 21 oz.)</item>
 <item><emphasis effect="italics">P</emphasis>(you will get a piece of chicken that is not 21 oz.)</item>
-<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term>and</term> you will not get a pork chop)</item>
+<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term id="term-00007">and</term> you will not get a pork chop)</item>
 </list></problem>
 <solution id="fs-id1170307059833">
 <list id="fs-id1170307059836" list-type="enumerated" number-style="lower-alpha">
@@ -1013,10 +1013,10 @@
 <para id="fs-id1170309358204">Compute the probabilities:</para>
 <list id="fs-id1170309274299" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(you will not get a pork chop)</item>
 <item><emphasis effect="italics">P</emphasis>(you will get a 20-oz. pork chop)</item>
-<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term>or</term> you will not get an 18-oz. pork chop)</item>
-<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term>and</term> you will not get an 18-oz. pork chop)</item>
+<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term id="term-00008">or</term> you will not get an 18-oz. pork chop)</item>
+<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term id="term-00009">and</term> you will not get an 18-oz. pork chop)</item>
 <item><emphasis effect="italics">P</emphasis>(you will get a pork chop that is not 21 oz.)</item>
-<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term>or</term> you will not get a pork chop)</item>
+<item><emphasis effect="italics">P</emphasis>(you will not get a chicken breast <term id="term-00010">or</term> you will not get a pork chop)</item>
 </list></problem>
 <solution id="fs-id1170309263383">
 <para id="fs-id1170309530449">Compute the probabilities.</para>
@@ -1280,7 +1280,7 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">E</emphasis>) = .56</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">O</emphasis>) = .31</item>
 <item>No, whether the money is returned is not independent of which class the money was placed in. There are several ways to justify this mathematically, but one is that the money placed in economics classes is not returned at the same overall rate; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">E</emphasis>) ≠ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
-<item>No, this study definitely does not support that notion; in fact, it suggests the opposite. The money placed in the economics classrooms was returned at a higher rate than the money place in all classes collectively; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">E</emphasis>) &gt; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
+<item>No, this study definitely does not support that notion; in fact, it suggests the opposite. The money placed in the economics classrooms was returned at a higher rate than the money place in all classes collectively; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">E</emphasis>) > <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
 </list></solution>
 </exercise><exercise id="fs-idm127904"><problem id="fs-idm56833280">
 <para id="fs-idm27818464">The following table of data obtained from www.baseball-almanac.com shows hit information for four players. Suppose that one hit from the table is randomly selected.</para><table id="fs-idp54590480" summary="A six column, six row table is shown. The header row contains the following column titles: Name, Single, Double, Triple, Home Run, and Total Hits. The first data row contains Babe Ruth, 1517, 506, 136, 714, and 2873. The second data row contains Jackie Robinson, 1054, 273, 54, 137, and 1518. The third data row contains Ty Cobb, 3603, 174, 295, 114, and 4189. The fourth data row contains Hank Aaron, 2294, 624, 98, 755, and 3771. The final data row contains Total, 8471, 1577, 583, 1720, and 12,351.">

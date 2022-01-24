@@ -440,7 +440,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
   <m:mtext>.</m:mtext>
  </m:mrow>
 </m:math></para>
-<para id="element-215">This is called the <term>sum of squared errors (SSE)</term>.</para><para id="element-640">Using calculus, you can determine the values of <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> that make the SSE a minimum. When you make the SSE a minimum, you have determined the points that are on the line of best fit. It turns out that the line of best fit has the equation
+<para id="element-215">This is called the <term id="term-00001">sum of squared errors (SSE)</term>.</para><para id="element-640">Using calculus, you can determine the values of <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> that make the SSE a minimum. When you make the SSE a minimum, you have determined the points that are on the line of best fit. It turns out that the line of best fit has the equation
 </para>
 
 <equation class="unnumbered" id="element-710"><label/><m:math>
@@ -794,7 +794,7 @@ A strong correlation does not suggest that <emphasis effect="italics">x</emphasi
 
 <section id="eip-117">
 <title>The Coefficient of Determination</title>
-<para id="eip-458">The variable <emphasis effect="italics">r</emphasis><sup>2</sup> is called the <term>coefficient of determination</term> and it is the square of the correlation coefficient, but it is usually stated as a percentage, rather than in decimal form. It has an interpretation in the context of the data:</para><list id="eip-728"><item><m:math>
+<para id="eip-458">The variable <emphasis effect="italics">r</emphasis><sup>2</sup> is called the <term id="term-00002">coefficient of determination</term> and it is the square of the correlation coefficient, but it is usually stated as a percentage, rather than in decimal form. It has an interpretation in the context of the data:</para><list id="eip-728"><item><m:math>
 <m:msup>
 <m:mi>r</m:mi>
 <m:mn>2</m:mn>

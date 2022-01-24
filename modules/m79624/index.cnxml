@@ -149,7 +149,7 @@ This is not a binomial experiment since the third characteristic is not met. The
 Example 6: Toss a fair coin until a head appears. <newline count="2"/>
 This is not a binomial experiment since the first characteristic is not met. The number of trials <emphasis effect="italics">n</emphasis> is not fixed. <emphasis effect="italics">n</emphasis> could be 1 if a head appears from the first toss. <emphasis effect="italics">n</emphasis> could be 2 if the first toss is a tail and the second toss is a head. So on and so forth.<newline count="2"/>
 More examples of binomial and non-binomial experiments will be discussed in this section later.</item>
-</list></para><para id="element-229">The outcomes of a binomial experiment fit a <term>binomial probability distribution</term>. The random variable <emphasis effect="italics">X</emphasis> = the number of successes obtained in the <emphasis effect="italics">n</emphasis> independent trials.</para>
+</list></para><para id="element-229">The outcomes of a binomial experiment fit a <term id="term-00001">binomial probability distribution</term>. The random variable <emphasis effect="italics">X</emphasis> = the number of successes obtained in the <emphasis effect="italics">n</emphasis> independent trials.</para>
 <!--<para id="element-108">The mean, <emphasis effect="italics">&#956;</emphasis>, and variance, <emphasis effect="italics">&#963;</emphasis><sup>2</sup>, for the binomial probability distribution are <emphasis effect="italics">&#956;</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">&#963;</emphasis><sup>2</sup> = <emphasis effect="italics">npq</emphasis>. The standard deviation, <emphasis effect="italics">&#963;</emphasis>, is then <emphasis effect="italics">&#963;</emphasis> = <m:math>
  <m:mrow>
   <m:msqrt>
@@ -219,7 +219,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
 <problem id="fs-idm3565248">
 <para id="element-104">A fair coin is flipped 15 times. Each flip is independent. What is the probability of getting more than 10 heads? Let <emphasis effect="italics">X</emphasis> = the number of heads in 15 flips of the fair coin. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, . . ., 15. Since the coin is fair, <emphasis effect="italics">p</emphasis> = .5 and <emphasis effect="italics">q</emphasis> = .5. The number of trials <emphasis effect="italics">n</emphasis> = 15. State the probability question mathematically.</para></problem>
 <solution id="fs-idm23816272">
-<para id="fs-idm59406368"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 10)</para>
+<para id="fs-idm59406368"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 10)</para>
 </solution>
 </exercise>
 </example><note id="fs-idm26333440" class="statistics try"><label/><title>Try It</title>
@@ -227,7 +227,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
 <problem id="fs-idm123194928"><para id="fs-idm39905824">A fair, six-sided die is rolled 10 times. Each roll is independent. You want to find the probability of rolling a one more than three times. State the probability question mathematically.</para></problem>
 <solution id="fs-idm78565072" class="solutions">
 <label/>
-<para id="fs-idm53013760"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3)</para>
+<para id="fs-idm53013760"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3)</para>
 </solution>
 </exercise>
 </note><example id="element-807">
@@ -363,7 +363,7 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
   <m:mrow>
 <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
-     <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi>
+     <m:mi>x</m:mi><m:mo>></m:mo><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi>
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -376,7 +376,7 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
 <emphasis>For this problem: After you are in 2<sup>nd</sup> DISTR, arrow down to binomcdf. Press ENTER. Enter 20,.41,12). The result is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = .9738.</emphasis></para></note><note id="id5442988">
 <label/>
 <title>NOTE</title>
-<para id="fs-idm93661872">If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), use the pdf (binompdf). If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12), use 1 − binomcdf(20,.41,12).</para></note>
+<para id="fs-idm93661872">If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), use the pdf (binompdf). If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12), use 1 − binomcdf(20,.41,12).</para></note>
 
 <para id="element-442">The probability that at most 12 workers have a high school diploma but do not pursue any further education is .9738.</para>
 
@@ -535,7 +535,7 @@ We can use a graphing calculator to answer Parts i to iii.
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = .9994</item>
-  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – binomcdf<m:math>
+  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -647,7 +647,7 @@ We can use a graphing calculator to answer Parts i to iii.
 <item>Using the TI-83, 83+, 84 calculator with instructions as provided in <link target-id="example5" document=""/>:
   <list id="eip-idp12666800" list-type="enumerated" number-style="lower-roman"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 25) = binompdf(50, 0.6, 25) = 0.0405</item>
   <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 20) = binomcdf(50, 0.6, 20) = 0.0034</item>
-  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 30) = 1 - binomcdf(50, 0.6, 30) = 1 – 0.5535 = 0.4465</item>
+  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 30) = 1 - binomcdf(50, 0.6, 30) = 1 – 0.5535 = 0.4465</item>
   </list></item>
 <item>
 <list id="eip-idm26380880" list-type="enumerated" number-style="lower-roman"><item>mean = <emphasis effect="italics">np</emphasis> = 50(0.6) = 30</item>
@@ -729,7 +729,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) = binompdf(200, .0128, 5) = .0707
 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 6) = binompdf(200, .0128, 6) = .0298
-<newline/>So <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) &gt; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 6); it is more likely that five people will develop the disease than six.</item>
+<newline/>So <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) > <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 6); it is more likely that five people will develop the disease than six.</item>
 </list></solution>
 </exercise>
 </example>
@@ -770,7 +770,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 </list></item>
 <item>Using the TI-83, 83+, 84 calculator with instructions as provided in <link target-id="example5" document=""/>:
 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 60) = binompdf(80, 0.613, 60) = 0.0036</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 50) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 50) = 1 – binomcdf(80, 0.613, 50) = 1 – 0.6282 = 0.3718</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 50) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 50) = 1 – binomcdf(80, 0.613, 50) = 1 – 0.6282 = 0.3718</item>
 </list></solution>
 </exercise>
 </note><example id="element-678">
@@ -1214,7 +1214,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item>We are interested in MORE THAN 75 percent of 32 questions correct. 75 percent of 32 is 24. We want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 24). The event <emphasis effect="italics">more than 24</emphasis> is the complement of <emphasis effect="italics">less than or equal to 24</emphasis>.</item>
+<item>We are interested in MORE THAN 75 percent of 32 questions correct. 75 percent of 32 is 24. We want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 24). The event <emphasis effect="italics">more than 24</emphasis> is the complement of <emphasis effect="italics">less than or equal to 24</emphasis>.</item>
 <item>Using your calculator's distribution menu: 1 – binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -1228,7 +1228,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 24) = 0</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 24) = 0</item>
 <item>The probability of getting more than 75 percent of the 32 questions correct when randomly guessing is very small and practically zero.</item>
 </list></solution>
 </exercise>
@@ -1480,7 +1480,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
  </m:mrow>
 </m:math> = 1.7409</item>
 </list></item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 1 – binomcdf(15, .281, 5) = 1 – 0.7754 = .2246
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 1 – binomcdf(15, .281, 5) = 1 – 0.7754 = .2246
 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = binompdf(15, .281, 3) = .1927
 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = binompdf(15, .281, 4) = .2259
 <newline/>It is more likely that four people are literate than three people are.</item>

@@ -95,9 +95,9 @@
 
 <figure id="fs-idm71243968"><media id="eip-idp67270848" alt="This graph shows a nonsymmetrical F distribution curve. The horizontal axis extends from 0 - 5, and the vertical axis ranges from 0 - 0.7. The curve is strongly skewed to the right.">
 <image src="../../media/CNX_Stats_C13_M04_001.jpg" mime-type="image/jpeg" width="380"/>
-</media></figure><para id="eip-idm4421376"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 4.481) = 0.0248</para>
+</media></figure><para id="eip-idm4421376"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 4.481) = 0.0248</para>
 
-<para id="eip-idm4421120"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">p</emphasis>-value = 0.0248</para><para id="eip-idm141674128"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, we reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="eip-idm156731472"><emphasis>Conclusion:</emphasis> At the 5 percent significance level, we have reasonably strong evidence that differences in mean yields for slicing tomato plants grown under different mulching conditions are unlikely to be due to chance alone.  We may conclude that at least some of the mulches led to different mean yields.</para><note id="fs-idm170385984" class="statistics calculator">
+<para id="eip-idm4421120"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">p</emphasis>-value = 0.0248</para><para id="eip-idm141674128"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, we reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="eip-idm156731472"><emphasis>Conclusion:</emphasis> At the 5 percent significance level, we have reasonably strong evidence that differences in mean yields for slicing tomato plants grown under different mulching conditions are unlikely to be due to chance alone.  We may conclude that at least some of the mulches led to different mean yields.</para><note id="fs-idm170385984" class="statistics calculator">
 <label/>
 <para id="fs-idp101537296">To find these results on the calculator:</para>
 <para id="eip-idm156731216">Press <code>STAT</code>. Press <code>1:EDIT</code>. Put the data into the lists <code>L1,L2,L3,L4,L5</code>.</para><para id="eip-idp71266096">Press <code>STAT</code>, arrow over to <code>TESTS</code>, and arrow down to <code>ANOVA</code>. Press ENTER, and then enter (<code>L1,L2,L3,L4,L5</code>). Press <code>ENTER</code>. You will see that the values in the foregoing ANOVA table are easily produced by the calculator, including the test statistic and the <emphasis effect="italics">p</emphasis>-value of the test.</para><para id="fs-idm160236288">The calculator displays:
@@ -227,9 +227,9 @@
 <figure id="fig000"><media id="eip-idp176119744" alt="This graph shows a nonsymmetrical F distribution curve. The curve is skewed to the right. A vertical upward line extends from 0.6649 to the curve. This line is just to the right of the graph's peak and the region to the right of the line is shaded to represent the p-value.">
 <image src="../../media/CNX_Stats_C13_M04_004.jpg" mime-type="image/jpeg" width="380"/></media></figure><para id="eip-idp119760"><emphasis>Distribution for the test:</emphasis> <emphasis effect="italics">F</emphasis><sub>4,10</sub></para>
 
-<para id="eip-idp2526368"><emphasis>Probability Statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 0.6099) = 0.6649.</para>
+<para id="eip-idp2526368"><emphasis>Probability Statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 0.6099) = 0.6649.</para>
 
-<para id="eip-idp2527424"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">p</emphasis>-value = 0.669, <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value</para><para id="eip-idp3984016"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, we do not reject <emphasis effect="italics">H</emphasis><sub>0</sub>.</para>
+<para id="eip-idp2527424"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">p</emphasis>-value = 0.669, <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value</para><para id="eip-idp3984016"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, we do not reject <emphasis effect="italics">H</emphasis><sub>0</sub>.</para>
 
 <para id="eip-idm35735392"><emphasis>Conclusion:</emphasis> At the 5% significance level, there is insufficient evidence from these data that different levels of tryptone will cause a significant difference in the mean number of bacterial colonies formed.</para>
 </solution>
@@ -306,7 +306,7 @@ sororities?  </para></problem>
 
 <para id="element-964"><emphasis>Graph</emphasis></para>
 
-<figure id="fs-idm73326896"><media id="id4765799" alt="This graph shows a nonsymmetrical F distribution curve with values of 0 and 2.23 on the x-axis representing the test statistic of sorority grade averages. The curve is slightly skewed to the right, but is approximately normal. A vertical upward line extends from 2.23 to the curve and the area to the right of this is shaded to represent the p-value."><image src="../../media/fig-ch13_04_02N.jpg" mime-type="image/png" width="380"/></media></figure><para id="element-484"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 2.23) = 0.1241</para><para id="element-849"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.01<newline/> <emphasis effect="italics">p</emphasis>-value = 0.1241<newline/> <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value</para><para id="element-119"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value, we cannot reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-483"><emphasis>Conclusion:</emphasis> There is not sufficient evidence to conclude that there is a difference among the mean grades for the sororities.</para>
+<figure id="fs-idm73326896"><media id="id4765799" alt="This graph shows a nonsymmetrical F distribution curve with values of 0 and 2.23 on the x-axis representing the test statistic of sorority grade averages. The curve is slightly skewed to the right, but is approximately normal. A vertical upward line extends from 2.23 to the curve and the area to the right of this is shaded to represent the p-value."><image src="../../media/fig-ch13_04_02N.jpg" mime-type="image/png" width="380"/></media></figure><para id="element-484"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 2.23) = 0.1241</para><para id="element-849"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">α</emphasis> = 0.01<newline/> <emphasis effect="italics">p</emphasis>-value = 0.1241<newline/> <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value</para><para id="element-119"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value, we cannot reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-483"><emphasis>Conclusion:</emphasis> There is not sufficient evidence to conclude that there is a difference among the mean grades for the sororities.</para>
 
 <note id="fs-idm12292144" class="statistics calculator">
 <label/>
@@ -570,7 +570,7 @@ sororities?  </para></problem>
 
 <para id="element-81">The <emphasis effect="italics">df</emphasis>s for the numerator = the number of groups – 1 = 3 – 1 = 2.</para><para id="element-691">The <emphasis effect="italics">df</emphasis>s for the denominator = the total number of samples – the number of groups = 15 – 3 = 12.</para><para id="element-174">The distribution for the test is <emphasis effect="italics">F</emphasis><sub>2,12</sub> and the <emphasis effect="italics">F</emphasis> statistic is <emphasis effect="italics">F</emphasis> = 0.134.</para>
 
-<para id="element-351">The <emphasis effect="italics">p</emphasis>-value is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 0.134) = 0.8759. </para>
+<para id="element-351">The <emphasis effect="italics">p</emphasis>-value is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 0.134) = 0.8759. </para>
 
 <para id="element-528"><emphasis>Decision:</emphasis> Since <emphasis effect="italics">α</emphasis> = 0.03 and the <emphasis effect="italics">p</emphasis>-value = 0.8759, we do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>. Why?</para><para id="element-886"><emphasis>Conclusion:</emphasis> With a 3 percent level of significance from the sample data, the evidence is not sufficient to conclude that the mean heights of the bean plants are  different.</para><note id="fs-idm97032400" class="statistics calculator">
 <label/>
@@ -1230,7 +1230,7 @@ East
 <item>
 <list id="eip-idm119829920" list-type="enumerated" number-style="lower-roman"><item>Alpha: 0.05</item>
 <item>Decision: Do not reject the null hypothesis.</item>
-<item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
+<item>Reason for decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
 <item>Conclusion: The mean scores of different class delivery are not different.</item>
 </list></item>
 </list>
@@ -1354,7 +1354,7 @@ East
 <list id="eip-idm129088112" list-type="enumerated" number-style="lower-roman">
 <item>Alpha: 0.05</item>
 <item>Decision: Do not reject the null hypothesis.</item>
-<item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
+<item>Reason for decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
 <item>Conclusion: There is not sufficient evidence  to conclude that the mean numbers of daily visitors are different.</item>
 </list>
 </item>
@@ -1416,7 +1416,7 @@ East
 <item><emphasis effect="italics">df(num)</emphasis> = __________, <emphasis effect="italics">df(denom)</emphasis> = ___________</item>
 <item>Number of groups _______</item>
 <item>Number of observations _______</item>
-<item><emphasis effect="italics">p</emphasis>-value = __________ (<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; _______) = __________)</item>
+<item><emphasis effect="italics">p</emphasis>-value = __________ (<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > _______) = __________)</item>
 <item>Graph the <emphasis effect="italics">p</emphasis>-value.</item>
 <item>Decision: _______________________</item>
 <item>Conclusion: _______________________________________________________________</item>
