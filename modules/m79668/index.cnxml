@@ -1118,7 +1118,6 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <para id="fs-idp26924704">&#8220;List of current United States Senators by Age.&#8221; Wikipedia. Available online at http://en.wikipedia.org/wiki/List_of_current_United_States_Senators_by_age (accessed June 17, 2013).</para>
 
 <para id="fs-idp67778720">&#8220;Sectoring by Industry Groups.&#8221; Nasdaq. Available online at http://www.nasdaq.com/markets/barchart-sectors.aspx?page=sectors&amp;base=industry (accessed June 17, 2013).</para>
-<para id="fs-idp92967520">&#8220;Strip Clubs: Where Prostitution and Trafficking Happen.&#8221; Prostitution Research and Education, 2013. Available online at www.prostitutionresearch.com/ProsViolPosttrauStress.html (accessed June 17, 2013).</para>
 <para id="fs-idp130720928">&#8220;World Series History.&#8221; Baseball-Almanac, 2013. Available online at http://www.baseball-almanac.com/ws/wsmenu.shtml (accessed June 17, 2013).</para>-->
 <para id="fs-id1164563166440">Baseball-Almanac. (2013). <emphasis effect="italics">World series history</emphasis>. Retrieved from http://www.baseball-almanac.com/ws/wsmenu.shtml</para>
 
@@ -2086,7 +2085,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
         <para id="fs-idm189266480">Test: two independent sample means, population standard deviations unknown.</para><list id="list-00001">
           <item><emphasis effect="italics">µ</emphasis><sub>1</sub> = the mean price of a sociology text on the selected site</item>
           <item><emphasis effect="italics">µ</emphasis><sub>2</sub> = the mean price of a math/science text on the selected site</item></list>
-        <para id="fs-idm7792944">Random variable: 
+        <para id="fs-idm7792944">Random variable:
           <m:math><m:mrow><m:msub><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub>
           <m:mo>−</m:mo>
           <m:msub><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:mrow></m:math> = the difference in the sample mean textbook price between sociology texts and math/science texts.</para>
