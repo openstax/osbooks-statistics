@@ -104,9 +104,9 @@ machines. What type of data is this?</para>
 <note id="fs-idm89068416" class="statistics try"><label/><title>Try It</title>
 
 <exercise id="fs-idm140347520"><problem id="fs-idm111614288">
-<para id="fs-id1164563448311">A large school district keeps data of the number of students who receive test scores on an end of the year standardized exam. The data he collects are summarized in the histogram. The class boundaries are 50 to less than 60, 60 to less than 70, 70 to less than 80, 80 to less than 90, and 90 to less than 100.
+<para id="fs-id1164563448311">A large school district keeps data of the scores students earn on an end of the year standardized exam. The data he collects are summarized in the histogram. The class boundaries are 50 to less than 60, 60 to less than 70, 70 to less than 80, 80 to less than 90, and 90 to less than 100.
 <newline/>
-<figure id="ch01_mod02_fig002"><media id="fs-idm92736960" alt="This histogram consists of 5 bars with the x-axis marked at intervals of 3 from 10 - 25, and the y-axis in increments of 100 from 0 - 800. The height of bars shows the number of students in each interval.">
+<figure id="ch01_mod02_fig002"><media id="fs-idm92736960" alt="This histogram consists of 5 bars with the x-axis marked at intervals of 3 from 50 - 100, and the y-axis in increments of 100 from 0 - 800. The height of bars shows the number of students in each interval.">
 <image src="../../media/CNX_Stats_C01_M05_002.png" mime-type="image/jpeg" width="380"/>
 </media></figure><newline/>
 </para></problem>
