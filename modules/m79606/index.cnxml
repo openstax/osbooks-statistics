@@ -56,7 +56,7 @@
 <para id="fs-id1164566569936">Since Rosa and Binh only shop at Supermarket A, we can ignore the row for Supermarket B.</para>
 <para id="fs-id1164564820508">We need the values from the first row to determine the number of standard deviations above or below the mean each individual wait time is; we can do so by calculating two different <emphasis effect="italics">z</emphasis>-scores.</para><para id="fs-id1164563078992">Rosa waited for seven minutes, so the <emphasis effect="italics">z</emphasis>-score representing this deviation from the population mean may be calculated as</para><equation id="fs-id1164563446944">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -73,12 +73,12 @@
    <m:mo>=</m:mo><m:mn>1</m:mn>
   <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <para id="fs-id1164564763817">The <emphasis effect="italics">z</emphasis>-score of one tells us that Rosa’s wait time is one standard deviation above the mean wait time of five minutes.</para><para id="fs-id1164563487109">Binh waited for one minute, so the <emphasis effect="italics">z</emphasis>-score representing this deviation from the population mean may be calculated as</para><equation id="fs-id1164566948828">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -95,7 +95,7 @@
    <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
   <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 <para id="fs-id1164566530861">The <emphasis effect="italics">z</emphasis>-score of −2 tells us that Binh’s wait time is two standard deviations below the mean wait time of five minutes.</para><para id="fs-id1164562348573">A data value that is two standard deviations from the average is just on the borderline for what many statisticians would consider to be far from the average. Considering data to be far from the mean if they are more than two standard deviations away is more of an approximate <emphasis effect="italics">rule of thumb</emphasis> than a rigid rule. In general, the shape of the distribution of the data affects how much of the data is farther away than two standard deviations. You will learn more about this in later chapters.</para><para id="element-517">The number line may help you understand standard deviation. If we were to put five and seven on a number line, seven is to the right of five. We say, then, that seven is <emphasis>one</emphasis> standard deviation to the <emphasis>right</emphasis> of five because 5 + (1)(2) = 7.</para><para id="fs-idm83232288">If one were also part of the data set, then one is <emphasis>two</emphasis> standard deviations to the <emphasis>left</emphasis> of five because 5 + (–2)(2) = 1.</para><figure id="fs-idm12176304"><media id="id7156187" alt="This shows a number line in intervals of 1 from 0 to 7."><image src="../../media/fig-ch02_09_01.jpg" mime-type="image/jpg" print-width="2.5in"/></media></figure><list id="eip-id1164316275630"><item>In general, a <emphasis>value = mean + (#ofSTDEV)(standard deviation)</emphasis></item>
 <item>where #ofSTDEVs = the number of standard deviations</item>
@@ -552,7 +552,7 @@ The symbol <m:math>
 </exercise></note>
 
 <section id="fs-idm66792288"><title>Explanation of the standard deviation calculation shown in the table</title><para id="element-877">The deviations show how spread out the data are about the mean. The data value 11.5 is farther from the mean than is the data value 11, which is indicated by the deviations .97 and .47. A positive deviation occurs when the data value is greater than the mean, whereas a negative deviation occurs when the data value is less than the mean. The deviation is –1.525 for the data value nine. <emphasis>If you add the deviations, the sum is always zero</emphasis>. We can sum the products of the frequencies and deviations to show that the sum of the deviations is always zero. <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>1</m:mn><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -580,7 +580,7 @@ The symbol <m:math>
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> For <link target-id="element-655"/>, there are <emphasis effect="italics">n</emphasis> = 20 deviations. So you cannot simply add the deviations to get the spread of the data. By squaring the deviations, you make them positive numbers, and the sum will also be positive. The variance, then, is the average squared deviation.</para><para id="element-969">The variance is a squared measure and does not have the same units as the data. Taking the square root solves the problem. The standard deviation measures the spread in the same units as the data.</para>
 
 <para id="eip-880">Notice that instead of dividing by <emphasis effect="italics">n</emphasis> = 20, the calculation divided by <emphasis effect="italics">n</emphasis> – 1 = 20 – 1 = 19 because the data is a sample. For the <emphasis>sample</emphasis> variance, we divide by the sample size minus one (<emphasis effect="italics">n</emphasis> – 1). Why not divide by <emphasis effect="italics">n</emphasis>?  The answer has to do with the population variance. <emphasis>The sample variance is an estimate of the population variance.</emphasis> Based on the theoretical mathematics that lies behind these calculations, dividing by (<emphasis effect="italics">n</emphasis> – 1) gives a better estimate of the population variance.</para>
@@ -991,7 +991,7 @@ The symbol <m:math>
 
  </m:mrow>
 </m:math>
-</para><para id="element-378">For John, <m:math display="">
+</para><para id="element-378">For John, <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>#</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -1212,7 +1212,7 @@ The symbol <m:math>
      </m:mover><m:mtext> = sample mean</m:mtext>
     </m:mtd></m:mtr></m:mtable></m:math>
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -1223,9 +1223,9 @@ The symbol <m:math>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -1236,7 +1236,7 @@ The symbol <m:math>
 
    <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </para></section>
 

@@ -97,8 +97,8 @@
 <para id="element-895"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 16.43  <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 16.43</para><para id="element-241">For Jeffrey to swim faster, his time will be less than 16.43 seconds. The "&lt;" tells you this is left-tailed.</para>
 
 <para id="element-496">Determine the distribution needed:</para>
-<para id="element-67"><emphasis>Random variable: </emphasis><m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> = the mean time to swim the 25-yard freestyle.</para>
-<para id="element-58"><emphasis> Distribution for the test: </emphasis> <m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> is normal (population standard deviation is known: <emphasis effect="italics">σ</emphasis> = 0.8)</para><!--<para id="element-325"><m:math>
+<para id="element-67"><emphasis>Random variable: </emphasis><m:math><m:mi>X</m:mi></m:math> = the mean time to swim the 25-yard freestyle.</para>
+<para id="element-58"><emphasis> Distribution for the test: </emphasis> <m:math><m:mi>X</m:mi></m:math> is normal (population standard deviation is known: <emphasis effect="italics">σ</emphasis> = 0.8)</para><!--<para id="element-325"><m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>X</m:mi>
@@ -154,13 +154,13 @@ Therefore, <m:math>
  </m:mrow>
 </m:math></para>-->
 <para id="fs-id1164564870450">with mean <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>16.43</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and standard error of <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -177,7 +177,7 @@ Therefore, <m:math>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>;</para><para id="element-681"><emphasis effect="italics">μ</emphasis> = 16.43 comes from <emphasis effect="italics">H<sub>0</sub></emphasis> and not the data. <emphasis effect="italics">σ</emphasis> = 0.8, and <emphasis effect="italics">n</emphasis> = 15.</para>
 <!--<para id="element-770">Calculate the <emphasis effect="italics">p</emphasis>-value using the normal distribution for a mean:</para>-->
 <para id="fs-id1164563183611">Using a table or a calculator, we can calculate the <emphasis effect="italics">p</emphasis>-value as the area to the left of 16 under the normal curve:</para><para id="element-706"><emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<m:math>
@@ -190,7 +190,7 @@ Therefore, <m:math>
 <figure id="hyptest11_ex1"><media id="id4282005" alt="Normal distribution curve for the average time to swim the 25-yard freestyle with values 16, as the sample mean, and 16.43 on the x-axis. A vertical upward line extends from 16 on the x-axis to the curve. An arrow points to the left tail of the curve."><image src="../../media/fig-ch09_11_01N.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-172"><emphasis effect="italics">μ</emphasis> = 16.43 comes from <emphasis effect="italics">H<sub>0</sub></emphasis>. Our assumption is <emphasis effect="italics">μ</emphasis> = 16.43.</para><para id="element-751"><emphasis>Interpretation of the <emphasis effect="italics">p</emphasis>-value:</emphasis> <emphasis effect="italics">If <emphasis effect="italics">H<sub>0</sub></emphasis> is true</emphasis>, there is a 0.0187 probability (1.87 percent), that Jeffrey's mean time to swim the 25-yard freestyle is 16 seconds or less. Because a 1.87 percent chance is small, the mean time of 16 seconds or less is unlikely to have happened randomly. It is a rare event.</para><para id="element-748">Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</para><para id="element-890"><emphasis effect="italics">α</emphasis> = 0.05   <emphasis effect="italics">p</emphasis>-value = 0.0187   <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value</para><para id="element-543"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
 <!-- CONTINUE HERE -->
 <para id="fs-id1164561091460">An alternative approach is to find the <emphasis effect="italics">z</emphasis>-test corresponding to the sample mean <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -198,9 +198,9 @@ Therefore, <m:math>
    </m:mover>
    <m:mo>=</m:mo><m:mn>16.</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> This is <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -256,7 +256,7 @@ Therefore, <m:math>
    </m:mfrac>
    <m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2.081729</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><para id="fs-id1164561057936">The critical <emphasis effect="italics">z</emphasis>-value = –1.645 for this test has probability 0.05 to its left tail, according to the Normal Table (see Appendices). Because the <emphasis effect="italics">z</emphasis>-test is <emphasis effect="italics">to the left</emphasis> of the critical <emphasis effect="italics">z</emphasis>-value, we reject the null hypothesis.</para><para id="element-826">This means that you reject <emphasis effect="italics">μ</emphasis> = 16.43. In other words, you do not think Jeffrey swims the 25-yard freestyle in 16.43 seconds but instead that he swims faster with the new goggles.</para><para id="element-942"><emphasis>Conclusion:</emphasis> At the 5 percent significance level, we conclude that Jeffrey swims faster using the new goggles. The sample data show there is sufficient evidence that Jeffrey's mean time to swim the 25-yard freestyle is less than 16.43 seconds.</para>
 <para id="element-252">The <emphasis effect="italics">p</emphasis>-value can easily be calculated.</para><note id="fs-idm31641280" class="statistics calculator">
 <label/>
@@ -432,7 +432,7 @@ different weights were (frequencies are in parentheses)
 <para id="element-864"><emphasis effect="italics">σ</emphasis> = 55 pounds. <emphasis effect="italics">Always use <emphasis effect="italics">σ</emphasis> if you know it.</emphasis> We assume <emphasis effect="italics">μ</emphasis> = 275 pounds unless our data shows us otherwise. </para>
 <!--<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="element-212">Calculate the <emphasis effect="italics">p</emphasis>-value using the normal distribution for a mean and using the sample mean as input (see <link document="m79717"/> for using the data as input):</para>-->
 <para id="fs-id1164564956322">First, we compute the sample mean:</para><equation id="fs-id1164562323036" class="unnumbered"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -448,10 +448,10 @@ different weights were (frequencies are in parentheses)
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>286.2.</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 <para id="fs-id1164562069535">Next, we compute the <emphasis effect="italics">z</emphasis>-test:</para><equation id="fs-id1164563046786" class="unnumbered"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -476,7 +476,7 @@ different weights were (frequencies are in parentheses)
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>1.115362</m:mn>
 </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><para id="fs-id1164564879307">Finally, the <emphasis effect="italics">p</emphasis>-value is the probability to the right tail of the <emphasis effect="italics">z</emphasis>-test, which we can compute from the table of <emphasis effect="italics">z</emphasis>-scores as 0.5 - 0.36650 = 0.1335.</para>
 <para id="element-457"><equation id="eip-idm5209jssj96416" class="unnumbered"><label/><m:math>
  <m:mrow><m:mi>p</m:mi><m:mtext>-value</m:mtext><m:mo>=</m:mo><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mover accent="true">
@@ -488,18 +488,18 @@ different weights were (frequencies are in parentheses)
 </m:math></equation></para><para id="element-508"><emphasis>Interpretation of the <emphasis effect="italics">p</emphasis>-value:</emphasis> If <emphasis effect="italics">H<sub>0</sub></emphasis> is true, then there is a 0.1331 probability, 13.23 percent, that the football players can lift a mean weight of 286.2 pounds or more. Because a 13.23 percent chance is large enough, a mean weight lift of 286.2 pounds or more is not a rare event.</para><figure id="hyptest11_ex3"><media id="id4317824" alt="Normal distribution curve of the average weight lifted by football players with values of 275 and 286.2 on the x-axis. A vertical upward line extends from 286.2 to the curve. The p-value points to the area to the right of 286.2."><image src="../../media/fig-ch09_11_03N.jpg" mime-type="image/jpg" width="380"/></media></figure>
 <para id="element-804">Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</para>
 <equation id="fs-id1164566487142" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>α</m:mi><m:mtext> = 0</m:mtext><m:mtext>.025</m:mtext><m:mi> </m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><equation id="eip-idm483845104" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi><m:mtext>-value = 0</m:mtext><m:mtext>.1323</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 <para id="element-849"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value, do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-898"><emphasis>Conclusion:</emphasis> At the 2.5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the true mean weight lifted is more than 275 pounds.</para>
 <para id="element-625">The <emphasis effect="italics">p</emphasis>-value can easily be calculated.</para><note id="fs-idm79549936" class="statistics calculator">
@@ -535,7 +535,7 @@ different weights were (frequencies are in parentheses)
 </m:math> = average score on the first statistics test.</para>
 <para id="element-941"><emphasis> Distribution for the test:</emphasis> If you read the problem carefully, you will notice that there is
 <emphasis effect="italics">no population standard deviation given</emphasis>. You are only given <emphasis effect="italics">n</emphasis> = 10 sample data values. Notice also that the data come from a normal distribution. This means that the distribution for the test is a Student's <emphasis effect="italics">t</emphasis>-distribution.</para><para id="element-240">Use <emphasis effect="italics">t</emphasis>-distribution. Therefore, the distribution for the test is <emphasis effect="italics">t</emphasis> with nine degrees of freedom.</para><para id="element-169">Calculate the <emphasis effect="italics">p</emphasis>-value using the Student's <emphasis effect="italics">t</emphasis>-distribution:</para><para id="fs-id1164566538881">First, we compute the sample mean as</para><equation id="fs-id1164557673840" class="unnumbered"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -551,10 +551,10 @@ different weights were (frequencies are in parentheses)
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>67.</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 <para id="fs-id1164559094924">Next, we compute the <emphasis effect="italics">t</emphasis>-test as</para><equation id="fs-id1164561181782" class="unnumbered"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>t</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -610,7 +610,7 @@ different weights were (frequencies are in parentheses)
    </m:mfrac>
    <m:mo>≈</m:mo><m:mtext>1</m:mtext><m:mtext>.98</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><para id="fs-id1164562221896">The <emphasis effect="italics">p</emphasis>-value is the probability to the right tail of 1.98 in a <emphasis effect="italics">t</emphasis>-distribution with nine degrees of freedom.</para><para id="element-334"><emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
@@ -695,13 +695,13 @@ probability (3.96 percent) that the sample mean is 65 or more.</para><figure
  <m:mo>)</m:mo></m:mrow>
 </m:math></para>-->
 <para id="fs-id1164562188273"><emphasis effect="italics">P′</emphasis> follows a normal distribution with mean value <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>,</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and standard error <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
     <m:mrow>
@@ -716,11 +716,11 @@ probability (3.96 percent) that the sample mean is 65 or more.</para><figure
    </m:msqrt>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para><para id="fs-idm107085552">In our example, <emphasis effect="italics">p</emphasis> = <emphasis effect="italics">q</emphasis> = 0.5, and <emphasis effect="italics">n</emphasis> = 100, <newline/>where <emphasis effect="italics">p</emphasis> = 0.50, <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="italics">p</emphasis> = 0.50, and <emphasis effect="italics">n</emphasis> = 100.</para><para id="fs-idp14246672">Calculate the <emphasis effect="italics">p</emphasis>-value using the normal distribution for proportions:</para>
 <!--<para id="element-518"><emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">p&#8242;</emphasis> &lt; 0.47 or <emphasis effect="italics">p&#8242;</emphasis> &gt; 0.53) = 0.5485</para>-->
 <para id="fs-id1164566543563">First, we compute the sample proportion as <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>p</m:mi>
@@ -736,10 +736,10 @@ probability (3.96 percent) that the sample mean is 65 or more.</para><figure
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>0.53.</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para><para id="fs-id1164566911712">Next, the <emphasis effect="italics">z</emphasis>-test is given by</para>
 <equation id="fs-id1164566549107" class="unnumbered"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -788,20 +788,20 @@ probability (3.96 percent) that the sample mean is 65 or more.</para><figure
    <m:mo>=</m:mo><m:mn>0.6</m:mn>
   <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><para id="fs-id1164562292427">Since the <emphasis effect="italics">z</emphasis>-test is positive, we compute the area to the right tail of 0.6 in a normal distribution, <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>></m:mo><m:mn>0.6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>0</m:mtext><m:mtext>.2742531</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> Finally, because this is a two-sided test of significance, we multiply this probability times two to account for the left tail, and obtain <equation id="eip-idm520996416" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi><m:mtext>-value</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>0.2742531</m:mn><m:mo>=</m:mo><m:mn>0.5485062</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation></para><para id="fs-idp133040416">where <emphasis effect="italics">x</emphasis> = 53, <emphasis effect="italics">p′</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -895,11 +895,11 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
    </m:mrow>
 </m:math> where <emphasis effect="italics">x</emphasis> is the number of successes and <emphasis effect="italics">n</emphasis> is the total number in the sample.</para>
 <equation id="eip-idm628068080" class="unnumbered"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>43</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>150</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 <equation id="eip-idm200495056" class="unnumbered"><label/><m:math>
  <m:mrow>
@@ -919,7 +919,7 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
 <item>A success is having three cell phones in a household.</item>
 <item>The level of significance is the preset <emphasis effect="italics">α</emphasis>. Since <emphasis effect="italics">α</emphasis> is not given, assume that <emphasis effect="italics">α</emphasis> = 0.05.</item>
 <item><para id="eip-idm351355456">First we compute the sample proportion <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>p</m:mi>
@@ -935,11 +935,11 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
    </m:mfrac>
    <m:mo>=</m:mo><m:mtext>0</m:mtext><m:mtext>.287</m:mtext><m:mo>.</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para>
 <para id="eip-idm1047498960">Next, the <emphasis effect="italics">z</emphasis>-test is given by</para>
 <equation id="eip-idm820313088" class="unnumbered"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -988,19 +988,19 @@ the graph in <link target-id="hyptest11_ex5" document=""/>).</para><figure id="h
    <m:mo>≈</m:mo><m:mn>–0.36</m:mn>
   <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><para id="eip-idm1035933632">Since the <emphasis effect="italics">z</emphasis>-test is negative, we compute the area to the left tail of –0.36 in a normal distribution, <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>0.36</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≈</m:mo><m:mtext>0</m:mtext><m:mtext>.3607902</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> Finally, because this is a two-sided test of significance, we multiply this probability times two to account for the right tail, and obtain <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi><m:mtext>-value</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>0.3607902</m:mn><m:mo>=</m:mo><m:mn>0.7215804</m:mn><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para></item>
 <item>Assuming that <emphasis effect="italics">α</emphasis> = 0.05, <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value. The decision is <emphasis effect="italics">do not reject H<sub>0</sub></emphasis> because there is not sufficient evidence to conclude that the proportion of households that have three cell phones is not 30 percent.</item></list></solution>
 </exercise></example>
@@ -1089,7 +1089,7 @@ Use the new shampoo or go without?</para></problem>
 <para id="element-314"><emphasis effect="italics">p</emphasis>-value = 0.0103</para>-->
 <para id="fs-id1164566846037">The <emphasis effect="italics">z</emphasis>-test is given by</para>
 <equation id="fs-id1164565008771" class="unnumbered"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mtext>-test</m:mtext><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -1129,13 +1129,13 @@ Use the new shampoo or go without?</para></problem>
    </m:mfrac>
    <m:mo>≈</m:mo><m:mn>2.316834</m:mn><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><para id="fs-id1164564790806">Because this is a hypothesis test one-sided to the right, we compute the  <emphasis effect="italics">p</emphasis>-value as the area to the right tail of the <emphasis effect="italics">z</emphasis>-test in a standard normal distribution, <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo>></m:mo><m:mn>3.32</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≈</m:mo><m:mtext>0</m:mtext><m:mtext>.0103</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para><para id="element-9">In one to two complete sentences, explain what the <emphasis effect="italics">p</emphasis>-value means for this problem.</para>
 <para id="element-688">If the null hypothesis is true (the proportion is 0.25), then there is a 0.0103 probability that the sample (estimated) proportion is 0.4048 <m:math><m:mo>(</m:mo><m:mfrac><m:mn>17</m:mn><m:mn>42</m:mn></m:mfrac><m:mo>)</m:mo></m:math> or more.</para>
 <para id="element-698">Use the previous information to sketch a picture of this situation. <emphasis effect="italics">Clearly</emphasis> label and scale the horizontal axis and
@@ -1968,7 +1968,7 @@ Draw the graph of a two-tailed test.
 <solution id="fs-idm11266464">
 <list id="fs-idm126211024" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 69,110</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 69,110</item>
-<item>Let <m:math display="">
+<item>Let <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>

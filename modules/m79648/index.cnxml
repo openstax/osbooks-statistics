@@ -12,7 +12,7 @@
 <para id="fs-idm47553248">Suppose <emphasis effect="italics">X</emphasis> is a random variable with a distribution that may be known or unknown (it can be any distribution). Using a subscript that matches the random variable, suppose</para>
 <list id="list-1" list-type="enumerated" number-style="lower-alpha">
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>μ</m:mi>
@@ -20,11 +20,11 @@
    </m:msub>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
  = the mean of <emphasis effect="italics">X</emphasis></item>
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>σ</m:mi>
@@ -33,7 +33,7 @@
 
   </m:mrow>
 
- </m:semantics>
+ 
 </m:math>
  = the standard deviation of <emphasis effect="italics">X</emphasis></item>
 </list>
@@ -46,7 +46,7 @@
 
 <equation id="fs-id1164561129806">
 <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>X</m:mi>
@@ -77,7 +77,7 @@
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 
@@ -223,7 +223,7 @@
 </m:math> = the mean of a sample of size 25. Because <emphasis effect="italics">μ</emphasis><sub><emphasis effect="italics">x</emphasis></sub> = 90, <emphasis effect="italics">σ<sub>x</sub></emphasis> = 15, and <emphasis effect="italics">n</emphasis> = 25, </para>
 
 <equation class="unnumbered" id="fs-id1169828375551"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>X</m:mi>
@@ -254,7 +254,7 @@
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 
 </equation>
@@ -294,7 +294,7 @@
 
 <equation id="fs-id1164564482613">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>85</m:mn><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mover accent="true">
     <m:mi>x</m:mi>
@@ -302,7 +302,7 @@
    </m:mover>
    <m:mo>&lt;</m:mo><m:mo> </m:mo><m:mn>92</m:mn><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0.6997</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <note id="fs-idm146534448" class="statistics calculator">
@@ -348,7 +348,7 @@
 <solution id="id5864961">
 <para id="element-91">b. To find the value that is two standard deviations above the expected value 90, use the following formula</para>
 <equation class="unnumbered" id="fs-id1164565651913"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>value</m:mtext><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:msub>
     <m:mi>µ</m:mi>
@@ -375,9 +375,9 @@
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><equation class="unnumbered" id="fs-id1164567235158"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtext>value = 90 + 2 </m:mtext><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -398,7 +398,7 @@
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>96</m:mn><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <para id="element-564">The value that is two standard deviations above the expected value is 96.</para>
@@ -521,7 +521,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 </m:math> &lt; 2.3). Draw a graph.</para>
 
 <equation class="unnumbered" id="fs-id1164568069289"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1.8</m:mn><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mover accent="true">
     <m:mi>x</m:mi>
@@ -529,7 +529,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
    </m:mover>
    <m:mo>&lt;</m:mo><m:mo> </m:mo><m:mn>2.3</m:mn><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0.9977</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 
 <para id="fs-id1164567990589"><code>normalcdf</code><equation class="unnumbered" id="fs-id1164564476808"><label/><m:math>
@@ -605,7 +605,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 <newline/>3:invNorm</para>
 
 <equation class="unnumbered" id="fs-id1164565417550"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>k</m:mi><m:mtext> = invNorm</m:mtext><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -626,7 +626,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
-   </m:semantics>
+   
 </m:math></equation><para id="fs-idm74111040">where
 <list id="fs-idm74110784" list-type="bulleted"><item><emphasis effect="italics">k</emphasis> = the <emphasis effect="italics">k</emphasis><sup>th</sup> percentile</item>
 <item><emphasis effect="italics">mean</emphasis> is the mean of the original distribution</item>
@@ -647,7 +647,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 </list></problem>
 <solution id="fs-idp42522512">
 <list id="fs-idm50017008" list-type="enumerated" number-style="lower-alpha"><item>Because the sample mean tends to target the population mean, we have <emphasis effect="italics">μ<sub>χ</sub></emphasis> = <emphasis effect="italics">μ</emphasis> = 34. The sample standard deviation is given by <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mtext>σ</m:mtext>
@@ -655,7 +655,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
    </m:msub>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math> = <m:math>
 <m:mrow>
 <m:mfrac>
@@ -774,7 +774,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 <item>Find the probability that the sample mean is between eight minutes and 8.5 minutes.</item>
 </list></problem>
 <solution id="fs-idp4823088">
-<list id="fs-idm38233840" list-type="enumerated" number-style="lower-alpha"><item><m:math display="">
+<list id="fs-idm38233840" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 <m:mrow>
 <m:msub>
 <m:mi>μ</m:mi>

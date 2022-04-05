@@ -33,7 +33,7 @@
 <para id="element-995">The median is seven. Half of the values are smaller than seven and half of the values are larger than seven.</para>
 <para id="element-308"><term id="term-00005">Quartiles</term> are numbers that separate the data into quarters. Quartiles may or may not be part of the data. To find the quartiles, first find the median, or second, quartile. The first quartile, <emphasis effect="italics">Q</emphasis><sub>1</sub>, is the middle value of the lower half of the data, and the third quartile, <emphasis effect="italics">Q</emphasis><sub>3</sub>, is the middle value, or median, of the upper half of the data. To get the idea, consider the same data set:
 <newline/>1, 1, 2, 2, 4, 6, 6.8, 7.2, 8, 8.3, 9, 10, 10, 11.5</para><para id="fs-id1164564733885">The data set has an even number of values (14 data values), so the median will be the average of the two middle values (the average of 6.8 and 7.2), which is calculated as <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -43,10 +43,10 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and equals 7.</para>
 <para id="fs-id1164563046843">So, the median, or second quartile (<m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>Q</m:mi>
@@ -54,10 +54,10 @@
    </m:msub>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math>), is 7.</para>
 <para id="fs-id1164566481253">The first quartile is the median of the lower half of the data, so if we divide the data into seven values in the lower half and seven values in the upper half, we can see that we have an odd number of values in the lower half. Thus, the median of the lower half, or the first quartile (<m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>Q</m:mi>
@@ -65,9 +65,9 @@
    </m:msub>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math>) will be the middle value, or 2. Using the same procedure, we can see that the median of the upper half, or the third quartile (<m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>Q</m:mi>
@@ -75,11 +75,11 @@
    </m:msub>
 
   </m:mrow>
-   </m:semantics>
+   
 </m:math>) will be the middle value of the upper half, or 9.</para>
 <para id="fs-id1164563200826">The quartiles are illustrated below:</para><!-- <equation id="fs-id1164566561705">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>Q</m:mi><m:mn>2</m:mn><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -89,7 +89,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation> -->
 <figure id="fs-id1164563168227">

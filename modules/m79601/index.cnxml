@@ -17,7 +17,7 @@
 </list>
 <para id="element-700">then
 <equation class="unnumbered" id="element-1000"><label/><m:math>
-<m:semantics>
+
 <m:mrow>
 <m:mstyle fontsize="12pt">
 <m:mrow>
@@ -46,7 +46,7 @@
 <m:mrow/>
 <m:mtext>.</m:mtext>
 </m:mrow>
-</m:semantics>
+
 </m:math>
 </equation></para>
 

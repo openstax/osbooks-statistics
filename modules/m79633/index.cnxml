@@ -109,7 +109,7 @@
 </m:mrow>
 </m:math> for 0 ≤ <emphasis effect="italics">X</emphasis> ≤ 23.</para><para id="element-771">Formulas for the theoretical mean and standard deviation are</para>
 <equation class="unnumbered" id="fs-id1164563448999"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -139,11 +139,11 @@
 
   </m:mrow>
 
- </m:semantics>
+ 
 </m:math>
 </equation><para id="element-729">For this problem, the theoretical mean and standard deviation are</para>
 <equation class="unnumbered" id="fs-id1164563492190"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mtext> = </m:mtext><m:mfrac>
     <m:mrow>
@@ -172,7 +172,7 @@
    </m:msqrt>
    <m:mtext> = 6</m:mtext><m:mtext>.64 seconds</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <para id="element-919">Notice that the theoretical mean and standard deviation are close to the sample mean and standard deviation in this example.</para>
@@ -253,7 +253,7 @@
 <problem id="id10265850">
 <para id="element-170">a. Refer to <link target-id="element-229"/>. What is the probability that a randomly chosen eight-week-old baby smiles between two and 18 seconds?</para></problem>
 <solution id="id10265871">
-<para id="element-178"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = (base)(height) = (18 – 2)<m:math display="">
+<para id="element-178"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = (base)(height) = (18 – 2)<m:math>
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -266,7 +266,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mrow>
 <m:mrow>
@@ -338,7 +338,7 @@
 <para id="element-503">c. Find the probability that a random eight-week-old baby smiles more than 12 seconds <emphasis effect="italics">knowing</emphasis> that the baby smiles <emphasis effect="italics">more than eight seconds</emphasis>.</para></problem>
 <solution id="id15390803">
 <para id="fs-idp106518000">c. This probability question is a <emphasis>conditional</emphasis>. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <emphasis effect="italics">already know</emphasis> the baby has smiled for more than eight seconds.</para><para id="element-836">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">x</emphasis> > 8) There are two ways to do the problem. <emphasis effect="italics">For the first way</emphasis>, use the fact that this is a conditional and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</para><para id="element-838">for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para>
-<para id="element-837"><emphasis effect="italics">Write a new</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
+<para id="element-837"><emphasis effect="italics">Write a new</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -347,7 +347,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -356,7 +356,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math>  for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23.</para><para id="element-400"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">x</emphasis> > 8) = (23 − 12)<m:math display="">
+</m:math>  for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23.</para><para id="element-400"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">x</emphasis> > 8) = (23 − 12)<m:math>
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -369,7 +369,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mrow>
 <m:mrow>
@@ -478,7 +478,7 @@
 <para id="element-447">a. What is the probability that a person waits fewer than 12.5 minutes?</para></problem>
 <solution id="id12074926">
 <para id="element-438">a. Let <emphasis effect="italics">X</emphasis> = the number of minutes a person must wait for a bus. <emphasis effect="italics">a</emphasis> = 0 and <emphasis effect="italics">b</emphasis> = 15.
-<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15). Write the probability density function. <emphasis effect="italics">f</emphasis> (<emphasis effect="italics">x</emphasis>) = <m:math display="">
+<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15). Write the probability density function. <emphasis effect="italics">f</emphasis> (<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -487,7 +487,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> = <m:math display="">
+</m:math> = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -645,7 +645,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 <problem id="eip-idp95258096">
 <para id="element-546">b. Find the probability that a different nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes.</para><para id="element-938">The second question has a <term id="term-00001">conditional probability</term>. You are asked to find the probability that a nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <link target-id="example-170"/>). You must reduce the sample space. <emphasis effect="italics">First way</emphasis>: Since you know the child has already been eating the doughnut for more than 1.5 minutes, you are no longer starting at <emphasis effect="italics">a</emphasis> = 0.5 minutes. Your starting point is 1.5 minutes.</para><para id="element-69"><emphasis effect="italics">Write a new <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>):</emphasis></para>
 <equation class="unnumbered" id="fs-id1164566880095"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mfrac>
     <m:mn>1</m:mn>
@@ -659,7 +659,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
    </m:mfrac>
    <m:mtext> for 1</m:mtext><m:mtext>.5 </m:mtext><m:mo>≤</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mi> </m:mi><m:mo>≤</m:mo><m:mi> </m:mi><m:mn>4.</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><para id="eip-idm60988032">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2|<emphasis effect="italics">x</emphasis> > 1.5). Draw a graph.</para>
 <para id="eip-idp116156944"><figure id="eip-idp101580400">
 <media id="id13790135" alt="f(X)=2/5 graph displaying a boxed region consisting of a horizontal line extending to the right from point 2/5 on the y-axis, a vertical upward line from points 1.5 and 4 on the x-axis, and the x-axis. A shaded region from points 2-4 occurs within this area.">
@@ -667,7 +667,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </media>
 </figure></para>
 <equation class="unnumbered" id="fs-id1164564967560"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi> </m:mi><m:mo>></m:mo><m:mi> </m:mi><m:mn>2</m:mn><m:mo>|</m:mo><m:mi>x</m:mi><m:mi> </m:mi><m:mo>></m:mo><m:mi> </m:mi><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> = (base)(new height) = (4 – 2)</m:mtext><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -683,7 +683,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation></problem>
 <solution id="eip-idp15119952">
@@ -691,7 +691,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </para></solution>
 </exercise>
 <para id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math>.</para><para id="eip-idm39713200"><emphasis effect="italics">Second way:</emphasis> Draw the original graph for <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0.5, 4). Use the conditional formula</para><equation class="unnumbered" id="fs-id1164566947548"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi> </m:mi><m:mo>></m:mo><m:mi> </m:mi><m:mn>2</m:mn><m:mo>|</m:mo><m:mi>x</m:mi><m:mi> </m:mi><m:mo>></m:mo><m:mi> </m:mi><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:mo> </m:mo><m:mfrac>
     <m:mrow>
@@ -737,7 +737,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation></example><note id="fs-idp42235264" class="statistics try">
 <label/>
@@ -857,12 +857,11 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </m:msqrt>
 </m:mrow>
 </m:math>
-<newline/><m:math><m:reln><m:eq/>
-<m:reln><m:eq/>
+<newline/><m:math>
 <m:mrow><m:mi>μ</m:mi></m:mrow>
 <m:mrow><m:mfrac><m:mrow><m:mn>1.5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
-<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:reln>
-<m:mrow><m:mn>2.75</m:mn></m:mrow></m:reln>
+<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow>
+<m:mrow><m:mn>2.75</m:mn></m:mrow>
 </m:math>
 hours and <m:math>
  <m:mrow>
@@ -1550,7 +1549,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
  </m:mrow>
 </m:math>
 </item>
-<item><m:math display="">
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1564,7 +1563,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
  </m:mrow>
 </m:math>
 </item>
-<item><m:math display="">
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -1949,7 +1948,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 
  </m:mrow>
 </m:math> = 0.125.</item>
-<item><emphasis effect="italics">P</emphasis>(400 &lt; <emphasis effect="italics">X</emphasis> &lt; 650) = <m:math display="">
+<item><emphasis effect="italics">P</emphasis>(400 &lt; <emphasis effect="italics">X</emphasis> &lt; 650) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>

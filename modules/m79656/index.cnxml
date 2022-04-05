@@ -146,7 +146,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
  </m:mrow>
 </m:math></para>-->
 <para id="fs-id1164567231322"><emphasis>How do you know you are dealing with a proportion problem?</emphasis> First, the data that you are collecting is categorical, consisting of two categories: Success or Failure, Yes or No. Examples of situations where you are the following trying to estimate the true population proportion are the following: What proportion of the population smoke? What proportion of the population will vote for candidate A? What proportion of the population has a college-level education?</para><para id="fs-id1164566243109">The distribution of the sample proportions (based on samples of size <emphasis effect="italics">n</emphasis>) is denoted by <emphasis effect="italics">P′</emphasis> (read “P prime”).</para><para id="fs-id1164565431840">The central limit theorem for proportions asserts that the sample proportion distribution <emphasis effect="italics">P′</emphasis> follows a normal distribution with mean value <emphasis effect="italics">p</emphasis>, and standard deviation <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msqrt>
     <m:mrow>
@@ -161,10 +161,10 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
    </m:msqrt>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, where <emphasis effect="italics">p</emphasis> is the population proportion and <emphasis effect="italics">q</emphasis> = 1 - <emphasis effect="italics">p</emphasis>.</para><para id="element-716">The confidence interval has the form (<emphasis effect="italics">p′</emphasis> – <emphasis effect="italics">EBP</emphasis>, <emphasis effect="italics">p′</emphasis> + <emphasis effect="italics">EBP</emphasis>). <emphasis effect="italics">EBP</emphasis> is error bound for the proportion.</para>
  <equation id="fs-id1164565775223" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi>
 <m:mo>′</m:mo>
@@ -174,7 +174,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
  </equation><para id="element-142"><emphasis effect="italics">p′</emphasis> = the <emphasis effect="italics">estimated proportion</emphasis> of successes (<emphasis effect="italics">p′</emphasis> is a <emphasis effect="italics">point estimate</emphasis> for <emphasis effect="italics">p</emphasis>, the true proportion.)</para>
 
@@ -292,7 +292,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
 <para id="element-685">In the error bound formula, the <emphasis effect="italics">sample proportions <emphasis effect="italics">p′</emphasis> and <emphasis effect="italics">q′</emphasis>, are estimates of the unknown population proportions <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis></emphasis>. The estimated proportions <emphasis effect="italics">p′</emphasis> and <emphasis effect="italics">q′</emphasis> are used because <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> are not known. The sample proportions <emphasis effect="italics">p′</emphasis> and <emphasis effect="italics">q′</emphasis> are calculated from the data: <emphasis effect="italics">p′</emphasis> is the estimated proportion of successes, and <emphasis effect="italics">q′</emphasis> is the estimated proportion of failures.</para>
 
  <para id="eip-711">The confidence interval can be used only if the number of successes <emphasis effect="italics">np′</emphasis> and the number of failures <emphasis effect="italics">nq′</emphasis> are both greater than five.</para><para id="fs-id1164565321432">That is, in order to use the formula for confidence intervals for proportions, you need to verify that both <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>n</m:mi><m:msup>
     <m:mi>p</m:mi>
@@ -300,9 +300,9 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
    </m:msup>
    <m:mo>≥</m:mo><m:mn>5</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>n</m:mi><m:msup>
     <m:mi>q</m:mi>
@@ -310,7 +310,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
    </m:msup>
    <m:mo>≥</m:mo><m:mn>5</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para>
 <!--<note id="id24362956"><label/>
 <title>Note</title>
@@ -421,11 +421,11 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
   </equation><para id="fs-idp54910160"><emphasis effect="italics">p′</emphasis> = 0.842 is the sample proportion; this is the point estimate of the population proportion.</para>
 
  <equation id="fs-id1164568020872" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>q</m:mi><m:mtext>′ = 1 – </m:mtext><m:mi>p</m:mi><m:mtext>′ = 1 – 0</m:mtext><m:mtext>.842 = 0</m:mtext><m:mtext>.158</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><para id="element-239">Because <emphasis effect="italics">CL</emphasis> = 0.95, then <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0.95 = 0.05 <m:math>
  <m:mrow>
@@ -572,11 +572,11 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 </list>
   <para id="fs-id1164567130813"><title>Solution A</title></para>
        <equation id="fs-id1164567567465" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>300</m:mn><m:mtext> </m:mtext><m:mi>a</m:mi><m:mi>n</m:mi><m:mi>d</m:mi><m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>500</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
  <equation id="fs-id1164556615654" class="unnumbered"><label/><m:math>
@@ -628,7 +628,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
 </m:math> = 0.05.
 </para>
 <equation id="fs-id1164567871580" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>z</m:mi>
@@ -648,7 +648,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
    </m:msub>
    <m:mtext> = 1</m:mtext><m:mtext>.645</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
  <para id="element-803" class="finger">Use the TI-83, 83+, or 84+ calculator command invNorm(0.95,0,1) to find <emphasis effect="italics">z</emphasis><sub>0.05</sub>. Remember that the area to the right of <emphasis effect="italics">z</emphasis><sub>0.05</sub> is 0.05, and the area to the left of <emphasis effect="italics">z</emphasis><sub>0.05</sub> is 0.95. This can also be found using appropriate commands on other calculators, using a computer, or using a standard normal probability table.</para><equation id="fs-id1164564320358" class="unnumbered"><label/><m:math>
  <m:mrow>
@@ -995,7 +995,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
  </m:mrow>
 </m:math></equation>
  <equation id="fs-id1164567152972" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mtable columnalign="left">
    <m:mtr>
     <m:mtd>
@@ -1009,7 +1009,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
    </m:mtr>
   </m:mtable>
 
- </m:semantics>
+ 
 </m:math>
 </equation><para id="eip-idm46666976">We are 95 percent confident that the true proportion of all statistics students who use the product is between 0.113 and 0.439.</para>
 </solution>
@@ -1282,7 +1282,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
  </m:mrow>
 </m:math></equation>
 <equation id="fs-id1164567885422" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mtable columnalign="left">
    <m:mtr>
     <m:mtd>
@@ -1295,7 +1295,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
     </m:mtd>
    </m:mtr>
   </m:mtable>
- </m:semantics>
+ 
 </m:math>
 </equation><para id="eip-idp61146144">We are 90 percent confident that between 17.8 percent and 37.8 percent of all teens would report having more than 500 friends on a social media site.</para></solution>
 <solution id="fs-idp141579680">
@@ -1486,7 +1486,7 @@ If researchers desire a specific margin of error, then they can use the error bo
  </m:mrow>
 </m:math></item>-->
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>P</m:mi><m:mo>=</m:mo><m:msub>
     <m:mi>z</m:mi>
@@ -1511,7 +1511,7 @@ If researchers desire a specific margin of error, then they can use the error bo
    </m:msqrt>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, where <emphasis effect="italics">p′</emphasis> is the sample proportion, <emphasis effect="italics">q′</emphasis> = 1 – <emphasis effect="italics">p′</emphasis>, and <emphasis effect="italics">n</emphasis> is the sample size.</item>
 <item>Solving for <emphasis effect="italics">n</emphasis> gives you an equation for the sample size.</item>
 <item>
@@ -1560,11 +1560,11 @@ If researchers desire a specific margin of error, then they can use the error bo
 
  </m:mrow>
 </m:math>. This formula tells us that we can compute the sample size <emphasis effect="italics">n</emphasis> required for a confidence level of <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>C</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>α</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> by taking the square of the critical value <m:math>
 <m:msub>
   <m:mi>z</m:mi>
@@ -1598,7 +1598,7 @@ If researchers desire a specific margin of error, then they can use the error bo
    </m:math> <emphasis effect="italics">z</emphasis><sub>0.05</sub> = 1.645 because the confidence level is 90 percent.</para>
 <para id="eip-35"><!--However, in order to find <emphasis effect="italics">n</emphasis>, we need to know the estimated (sample) proportion <emphasis effect="italics">p</emphasis>&#8242;. Remember that <emphasis effect="italics">q</emphasis>&#8242; = 1 &#8211; <emphasis effect="italics">p</emphasis>&#8242;. But, we do not know <emphasis effect="italics">p</emphasis>&#8242; yet. Since we multiply <emphasis effect="italics">p</emphasis>&#8242; and <emphasis effect="italics">q</emphasis>&#8242; together, we make them both equal to 0.5 because <emphasis effect="italics">p</emphasis>&#8242;<emphasis effect="italics">q</emphasis>&#8242; = (0.5)(0.5) = 0.25 results in the largest possible product. (Try other products: (0.6)(0.4) = 0.24; (0.3)(0.7) = 0.21; (0.2)(0.8) = 0.16 and so on). The largest possible product gives us the largest <emphasis effect="italics">n</emphasis>. This gives us a large enough sample so that we can be 90 percent confident that we are within three percentage points of the true population proportion.--> To calculate the sample size <emphasis effect="italics">n</emphasis>, use the formula and make the substitutions.</para>
   <equation id="fs-id1164567450132" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -1646,7 +1646,7 @@ If researchers desire a specific margin of error, then they can use the error bo
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>751.7</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><para id="eip-979">Round the answer to the next higher value. The sample size should be 752 cell phone customers ages 50+ in order to be 90 percent  confident that the estimated (sample) proportion is within 3 percentage points of the true population proportion of all customers ages 50+ who use text messaging on their cell phones.
 </para></solution>
@@ -1689,7 +1689,7 @@ If researchers desire a specific margin of error, then they can use the error bo
 
   <para id="eip-idm15657536">Let <emphasis effect="italics">p′</emphasis> represent the sample proportion, <emphasis effect="italics">x/n</emphasis>, where <emphasis effect="italics">x</emphasis> represents the number of successes, and <emphasis effect="italics">n</emphasis> represents the sample size. Let <emphasis effect="italics">q′</emphasis> = 1 – <emphasis effect="italics">p′</emphasis>. Then the confidence interval for a population proportion is given by the following formula:</para>
 <para id="fs-id1164566323014">(lower bound, upper bound) <m:math>
- <m:semantics>
+ 
   <m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msup>
     <m:mi>p</m:mi>
     <m:mo>′</m:mo>
@@ -1747,7 +1747,7 @@ If researchers desire a specific margin of error, then they can use the error bo
    <m:mo stretchy="false">)</m:mo>
 <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </para><para id="eip-idp146455680">The <emphasis effect="bold">plus–four method</emphasis> for calculating confidence intervals is an attempt to balance the error introduced by using estimates of the population proportion when calculating the standard deviation of the sampling distribution. Simply imagine four additional trials in the study; two are successes and two are failures. Calculate <m:math>
  <m:mrow>
@@ -1768,11 +1768,11 @@ If researchers desire a specific margin of error, then they can use the error bo
 </m:math>, and proceed to find the confidence interval. When sample sizes are small, this method has been demonstrated to provide more accurate confidence intervals than the standard formula used for larger samples.</para></section><section id="eip-826" class="formula-review">
 <title>Formula Review</title>
  <para id="eip-idm44244000"><emphasis effect="italics">p′ = x/n</emphasis>, where <emphasis effect="italics">x</emphasis> represents the number of successes and <emphasis effect="italics">n</emphasis> represents the sample size. The variable <emphasis effect="italics">p</emphasis>′ is the sample proportion and serves as the point estimate for the true population proportion.</para><equation id="fs-id1169833202523" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>q</m:mi><m:mtext>′ = 1 – </m:mtext><m:mi>p</m:mi><m:mtext>′</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><para id="eip-idm163551632"><m:math>
  <m:mrow>
@@ -1798,7 +1798,7 @@ If researchers desire a specific margin of error, then they can use the error bo
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> The variable <emphasis effect="italics">p′</emphasis> has a <emphasis effect="bold">binomial distribution</emphasis> that can be approximated with the normal distribution shown here,</para><equation id="fs-id1164565461564" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>P</m:mi><m:mtext> = the error bound for a proportion = </m:mtext><m:msub>
     <m:mi>z</m:mi>
@@ -1831,7 +1831,7 @@ If researchers desire a specific margin of error, then they can use the error bo
    </m:msqrt>
    <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
  <para id="eip-idm140522368"><emphasis effect="bold">Confidence interval for a proportion:</emphasis></para><para id="eip-idm140521984"><m:math>

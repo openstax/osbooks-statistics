@@ -49,7 +49,7 @@
 <para id="element-449">Draw a graph.</para>
 <para id="fs-id1164567139524">Calculate the <emphasis effect="italics">z</emphasis>-score:</para><equation id="fs-id1164567939812">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -69,15 +69,15 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.40</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 <para id="fs-id1164567850211">The <emphasis effect="italics">z</emphasis>-table shows that the area to the left of <emphasis effect="italics">z</emphasis> is 0.6554. Subtracting this area from 1 gives 0.3446.</para><para id="element-389">Then, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 65).</para>
 <equation class="unnumbered" id="fs-id1164565529537"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mtext>(</m:mtext><m:mi>x</m:mi><m:mtext> > 65) = 0</m:mtext><m:mtext>.3446</m:mtext>
   </m:mrow>
-   </m:semantics>
+   
 </m:math></equation>
 
 <figure id="fs-idm5159232">
@@ -143,7 +143,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <para id="element-582"><emphasis>Let <emphasis effect="italics">k</emphasis> = the 90<sup>th</sup> percentile.</emphasis> The variable <emphasis effect="italics">k</emphasis> is located on the <emphasis effect="italics">x</emphasis>-axis. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) is the area to the left of <emphasis effect="italics">k</emphasis>. The 90<sup>th</sup> percentile <emphasis effect="italics">k</emphasis> separates the exam scores into those that are the same or lower than <emphasis effect="italics">k</emphasis> and those that are the same or higher. Ninety percent of the test scores are the same or lower than <emphasis effect="italics">k</emphasis>, and 10 percent are the same or higher. The variable <emphasis effect="italics">k</emphasis> is often called a <term id="term-00001">critical value</term>.</para>
 <para id="fs-id1164567030472">We know the mean, standard deviation, and area under the normal curve. We need to find the <emphasis effect="italics">z</emphasis>-score that corresponds to the area of 0.9 and then substitute it with the mean and standard deviation, into our <emphasis effect="italics">z</emphasis>-score formula. The <emphasis effect="italics">z</emphasis>-table shows a <emphasis effect="italics">z</emphasis>-score of approximately 1.28, for an area under the normal curve to the left of <emphasis effect="italics">z</emphasis> (larger portion) of approximately 0.9. Thus, we can write the following:</para><para id="fs-id1164567146038">
 <equation class="unnumbered" id="fs-id1164567410180"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>1.28</m:mn><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -153,31 +153,31 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation></para>
 <para id="fs-id1164566134144">Multiplying each side of the equation by 5 gives</para>
 <para id="fs-id1164565488357"><equation class="unnumbered" id="fs-id1164566104845"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>6.4</m:mn><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>63</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation></para>
 <para id="fs-id1164568076983">Adding 63 to both sides of the equation gives</para>
 <para id="fs-id1164566069712"><equation class="unnumbered" id="fs-id1164564306673"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>69.4</m:mn><m:mo>=</m:mo><m:mi>x.</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation></para>
 <para id="fs-id1164567632734">Thus, our score, <emphasis effect="italics">k</emphasis>, is 69.4.</para>
 <equation class="unnumbered" id="fs-id1164566043763"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>k</m:mi><m:mtext> = 69</m:mtext><m:mtext>.4</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 
 <figure id="fs-idm38798848"><media id="id1168986688569" alt="This is a normal distribution curve. The peak of the curve coincides with the point 63 on the horizontal axis. A point, k, is labeled to the right of 63. A vertical line extends from k to the curve. The area under the curve to the left of k is shaded. This represents the probability that x is less than k: P(x &lt; k) = 0.90">
@@ -226,7 +226,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <!--<para id="element-618">The probability for which you are looking is the area <emphasis>between</emphasis> <emphasis effect="italics">x</emphasis> = 1.8 and <emphasis effect="italics">x</emphasis> = 2.75. <emphasis effect="italics">P</emphasis>(1.8 &lt; <emphasis effect="italics">x</emphasis> &lt; 2.75) = 0.5886</para>-->
 <para id="fs-id1164567077320">First, calculate the <emphasis effect="italics">z</emphasis>-scores for each <emphasis effect="italics">x</emphasis>-value.</para>
 <para id="fs-id1164564347614"><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtable columnalign="left">
     <m:mtr columnalign="left">
@@ -278,15 +278,15 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 
    </m:mtable>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </para>
 <para id="fs-id1164567326421">Now, use the <emphasis effect="italics">Z</emphasis>-table to locate the area under the normal curve to the left of each of these <emphasis effect="italics">z</emphasis>-scores.</para><para id="fs-id1164567578875">The area to the left of the <emphasis effect="italics">z</emphasis>-score of −0.40 is 0.3446. The area to the left of the <emphasis effect="italics">z</emphasis>-score of 1.5 is 0.9332. The area between these scores will be the difference in the two areas, or <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>0.9332</m:mn><m:mo>−</m:mo><m:mn>0.3446</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, which equals 0.5886.</para><figure id="fs-idm13004032"><media id="id1168986736293" alt="This is a normal distribution curve. The peak of the curve coincides with the point 2 on the horizontal axis. The values 1.8 and 2.75 are also labeled on the x-axis. Vertical lines extend from 1.8 and 2.75 to the curve. The area between the lines is shaded.">
 <image src="../../media/fig-ch06_05_03.jpg" mime-type="image/png" width="450"/>
 </media>
@@ -329,7 +329,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <solution id="eip-idm151027840">
 <para id="eip-idm169219344">a. normalcdf(23,64.7,36.9,13.9) = 0.8186</para>
 <para id="fs-id1164567982439">The <emphasis effect="italics">z</emphasis>-scores are calculated as</para><para id="fs-id1164567820855"><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtable columnalign="left">
     <m:mtr columnalign="left">
@@ -381,7 +381,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 
    </m:mtable>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </para>
 <para id="fs-id1164565354390">The <emphasis effect="italics">Z</emphasis>-table shows the area to the left of a z-score with an absolute value of 1 to be 0.1587. It shows the area to the left of a <emphasis effect="italics">z</emphasis>-score of 2 to be 0.9772. The difference in the two areas is 0.8185.</para><para id="fs-id1164567936622">This is slightly different than the area given by the calculator, due to rounding.</para>
@@ -1198,7 +1198,7 @@ approximation.</item>
 <item>more than 64 wins</item>
 </list></problem>
 <solution id="eip-916">
-<list id="xeip" list-type="labeled-item"><item><emphasis effect="italics">n</emphasis> = 190; <emphasis effect="italics">p</emphasis> = <m:math display="">
+<list id="xeip" list-type="labeled-item"><item><emphasis effect="italics">n</emphasis> = 190; <emphasis effect="italics">p</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>

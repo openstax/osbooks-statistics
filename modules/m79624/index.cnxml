@@ -17,7 +17,7 @@ Example 1: Toss a fair coin once and record the result.<newline count="2"/>
 This is a binomial experiment since it meets all three characteristics. The number of trials <emphasis effect="italics">n</emphasis> = 1. There are only two outcomes, a head or a tail, of each trial. We can define a head as a success if we are measuring number of heads. For a fair coin, the probabilities of getting head or tail are both .5. So, <emphasis effect="italics">p</emphasis> = <emphasis effect="italics">q</emphasis> − .5. Both <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> remain the same from trial to trial. This experiment is also called a <emphasis>Bernoulli trial</emphasis>, named after Jacob Bernoulli who, in the late 1600s, studied such trials extensively. Any experiment that has characteristics two and three and where <emphasis effect="italics">n</emphasis> = 1 is called a <emphasis>Bernoulli trial</emphasis>. A binomial experiment takes place when the number of successes is counted in one or more Bernoulli trials.<newline count="2"/>
 Example 2: Randomly guess a multiple choice question has A, B, C and D four options.<newline count="2"/>
 This is a binomial experiment since it meets all three characteristics. The number of trials <emphasis effect="italics">n</emphasis> = 1. There are only two outcomes, guess correctly or guess wrong, of each trial. We can define guess correctly as a success. For a random guess (you have no clue at all), the probability of guessing correct should be <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>1</m:mn>
@@ -25,9 +25,9 @@ This is a binomial experiment since it meets all three characteristics. The numb
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> because there are four options and only one option is correct. So,  and <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mn>1</m:mn>
@@ -35,9 +35,9 @@ This is a binomial experiment since it meets all three characteristics. The numb
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
     <m:mn>1</m:mn>
@@ -49,13 +49,13 @@ This is a binomial experiment since it meets all three characteristics. The numb
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. Both <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> remain the same from trial to trial. This experiment is also a Bernoulli trial. It meets the characteristics two and three and <emphasis effect="italics">n</emphasis> = 1.<newline count="2"/>
 Example 3: Toss a fair coin five times and record the result. <newline count="2"/>
 This is a binomial experiment since it meets all three characteristics. The number of trials <emphasis effect="italics">n</emphasis> = 5. There are only two outcomes, head or tail, of each trial. If we define head as a success, then <emphasis effect="italics">p</emphasis> = <emphasis effect="italics">q</emphasis> = 0.5. Both <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> remain the same for each trial. Since n = 5, this experiment is not a Bernoulli trial although it meets the characteristics two and three.<newline count="2"/>
 Example 4: Randomly guess 10 multiple choice questions in an exam. Each question has A, B, C and D four options. <newline count="2"/>
 This is a binomial experiment since it meets all three characteristics. The number of trials <emphasis effect="italics">n</emphasis> = 10. There are only two outcomes, guess correctly or guess wrong, of each trial. We can define guess correctly as a success. As we explained in example 2, <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mn>1</m:mn>
@@ -63,9 +63,9 @@ This is a binomial experiment since it meets all three characteristics. The numb
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and  <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
     <m:mn>1</m:mn>
@@ -77,12 +77,12 @@ This is a binomial experiment since it meets all three characteristics. The numb
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. Both <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> remain the same for each guess. Since <emphasis effect="italics">n</emphasis> = 10, this experiment is not a Bernoulli trial.<newline count="2"/>
 The next two experiments are not binomial experiments.<newline count="2"/>
 Example 5: Randomly select two balls from a jar with five red balls and five blue balls without replacement. This means we select the first ball, and then without returning the selected ball into the jar, we will select the second ball.<newline count="2"/>
 This is not a binomial experiment since the third characteristic is not met. The number of trials <emphasis effect="italics">n</emphasis> = 2. There are only two outcomes, a red ball or a blue ball, of each trial. If we define selecting a red ball as a success, then selecting a blue ball is a failure. The probability of getting the first ball red is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>5</m:mn>
@@ -92,9 +92,9 @@ This is not a binomial experiment since the third characteristic is not met. The
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> since there are five red balls out of 10 balls. So, <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mn>5</m:mn>
@@ -104,9 +104,9 @@ This is not a binomial experiment since the third characteristic is not met. The
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo> </m:mo><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
     <m:mn>5</m:mn>
@@ -122,9 +122,9 @@ This is not a binomial experiment since the third characteristic is not met. The
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. However, <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> do not remain the same for the second trial. If the first ball selected is red, then the probability of getting the second ball red is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>4</m:mn>
@@ -133,9 +133,9 @@ This is not a binomial experiment since the third characteristic is not met. The
 
   </m:mrow>
 
- </m:semantics>
+ 
 </m:math> since there are only four red balls out of nine balls. But if the first ball selected is blue, then the probability of getting the second ball red is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>5</m:mn>
@@ -144,7 +144,7 @@ This is not a binomial experiment since the third characteristic is not met. The
 
   </m:mrow>
 
- </m:semantics>
+ 
 </m:math> since there are still five red balls out of nine balls. <newline count="2"/>
 Example 6: Toss a fair coin until a head appears. <newline count="2"/>
 This is not a binomial experiment since the first characteristic is not met. The number of trials <emphasis effect="italics">n</emphasis> is not fixed. <emphasis effect="italics">n</emphasis> could be 1 if a head appears from the first toss. <emphasis effect="italics">n</emphasis> could be 2 if the first toss is a tail and the second toss is a head. So on and so forth.<newline count="2"/>
@@ -161,7 +161,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
  </m:mrow>
 </m:math>.</para>-->
 <para id="fs-id1164565384429">There are shortcut formulas for calculating mean <emphasis effect="italics">μ</emphasis>, variance <emphasis effect="italics">σ</emphasis><sup>2</sup>, and standard deviation <emphasis effect="italics">σ</emphasis> of a binomial probability distribution. The formulas are given as below. The deriving of these formulas will not be discussed in this book.</para><equation id="fs-id1164566030689" class="unnumbered"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mi>p</m:mi><m:mo>,</m:mo><m:msup>
     <m:mi>σ</m:mi>
@@ -174,7 +174,7 @@ More examples of binomial and non-binomial experiments will be discussed in this
    </m:msqrt>
    <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><para id="fs-id1164566973554">Here <emphasis effect="italics">n</emphasis> is the number of trials, <emphasis effect="italics">p</emphasis> is the probability of a success, and <emphasis effect="italics">q</emphasis> is the probability of a failure.</para>
 <!--<para id="element-612">Any experiment that has characteristics two and three and where <emphasis effect="italics">n</emphasis> = 1 is called a <term>Bernoulli trial</term> (named after Jacob Bernoulli who, in the late 1600s, studied them extensively). A binomial experiment takes place when the number of successes is counted in one or more Bernoulli trials.</para>-->
 
@@ -193,17 +193,17 @@ More examples of binomial and non-binomial experiments will be discussed in this
 </exercise>
 </note><example id="fs-idm62623744">
 <para id="element-284">Suppose you play a game that you can only either win or lose. The probability that you win any game is 55 percent, and the probability that you lose is 45 percent. Each game you play is independent. If you play the game 20 times, write the function that describes the probability that you win 15 of the 20 times. Here, if you define <emphasis effect="italics">X</emphasis> as the number of wins, then <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, . . ., 20. The probability of a success is <emphasis effect="italics">p</emphasis> = 0.55. The probability of a failure is <emphasis effect="italics">q</emphasis> = .45. The number of trials is <emphasis effect="italics">n</emphasis> = 20. The probability question can be stated mathematically as <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 15). If you define <emphasis effect="italics">X</emphasis> as the number of losses, then a <emphasis effect="italics">success</emphasis> is defined as a loss and a <emphasis effect="italics">failure</emphasis> is defined as a win. A <emphasis effect="italics">success</emphasis> does not necessarily represent a good outcome. It is simply the outcome that you are measuring. <emphasis effect="italics">X</emphasis> still takes on the values of 0, 1, 2, 3, . . ., 20. The probability of a success is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>.45</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. The probability of a failure is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>.55</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para></example>
 
 <note id="fs-idm55323584" class="statistics try"><label/><title>Try It</title>
@@ -285,17 +285,17 @@ More examples of binomial and non-binomial experiments will be discussed in this
 <para id="element-992">Let <emphasis effect="italics">X</emphasis> = the number of workers who have a high school diploma but do not pursue any further education.</para>
 
 <para id="element-570"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, . . ., 20 where <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = .41, and <emphasis effect="italics">q</emphasis> = 1 – .41 = .59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, .41)</para><para id="fs-idm48754320" class="finger">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). There is a formula to define the probability of a binomial distribution <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). We can use the formula to find <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. But the calculation is tedious and time consuming, and people usually use a graphing calculator, software, or binomial table to get the answer. Use a graphing calculator, you can get <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>.9738</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. The instruction of TI-83, 83+, 84, 84+ is given below.</para><note id="fs-idm73072400" class="statistics calculator"><label/>
 <para id="element-224">Go into 2<sup>nd</sup> DISTR. The syntax for the instructions are as follows:</para>
 
@@ -303,13 +303,13 @@ More examples of binomial and non-binomial experiments will be discussed in this
 if <emphasis effect="italics">number</emphasis> is left out, the result is the binomial probability table.
 <newline/><emphasis>To calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &#8804; value): binomcdf(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>, number)</emphasis> if <emphasis effect="italics">number</emphasis> is left out, the result is the cumulative binomial probability table.</para>-->
 <para id="fs-id1164565774921"><emphasis>To calculate the probability of a value</emphasis> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>: <emphasis>use binompdf(<emphasis effect="italics">n, p</emphasis>, number)</emphasis>. Here binompdf represents binomial probability density function. It is used to find the probability that a binomial random variable is equal to an exact value. n is the number of trials, p is the probability of a success, and number is the value. If <emphasis effect="italics">number</emphasis> is left out, which means use <emphasis>binompdf(n, p)</emphasis>, then all the probabilities <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -325,16 +325,16 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> will be calculated.<newline count="2"/>
 <emphasis>To calculate the cumulative probability</emphasis> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>: <emphasis>use binomcdf(<emphasis effect="italics">n, p</emphasis>, number)</emphasis>. Here binomcdf represents binomial cumulative distribution function. It is used to determine the probability of <emphasis effect="italics">at most</emphasis> type of problem, the probability that a binomial random variable is less than or equal to a value. n is the number of trials, p is the probability of a success, and number is the value. If <emphasis effect="italics">number</emphasis> is left out, all the cumulative probabilities <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -350,16 +350,16 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> will be calculated.<newline count="2"/>
 <emphasis>To calculate the cumulative probability</emphasis> <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>≥</m:mo><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>: <emphasis>use 1 - binomcdf(<emphasis effect="italics">n, p</emphasis>, number)</emphasis>. <emphasis effect="italics">n</emphasis> is the number of trials, <emphasis effect="italics">p</emphasis> is the probability of a success, and number is the value. TI calculators do not have a built-in function to find the probability that a binomial random variable is greater than a value. However, we can use the fact that <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
 <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -371,7 +371,7 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> to find the answer.<newline count="2"/>
 <emphasis>For this problem: After you are in 2<sup>nd</sup> DISTR, arrow down to binomcdf. Press ENTER. Enter 20,.41,12). The result is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = .9738.</emphasis></para></note><note id="id5442988">
 <label/>
@@ -417,17 +417,17 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
  </m:mrow>
 </m:math> = 2.20.</para></example>
 <para id="fs-id1164568078992">The following is the interpretation of the mean <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>8.2</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and standard deviation <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>2.20</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>:</para><para id="fs-id1164565518970">If you randomly select 20 adult workers, and do that over and over, you expect around eight adult workers out of 20 to have a high school diploma but do not pursue any further education on average. And you expect that to vary by about two workers on average.</para>
 
 <note id="fs-idm83776992" class="statistics try finger"><label/><title>Try It</title>
@@ -455,7 +455,7 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
 <solution id="fs-idm14196128">
 <list id="fs-idm1096144" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, 4, 5, 6, 7, 8</item>
 <item>This is a binomial experiment since all three characteristics are met. Each page is a trial. Since we sample 100 pages, the number of trials is <emphasis effect="italics">n</emphasis> = 100. For each page, there are two possible outcomes, features signature artists or does not feature signature artists. Since we are measuring the number of pages that feature signature artists, a page that features signature artists is defined as a success and a page that does not feature signature artists is defined as a failure. There are 8 out of 560 pages that feature signature artists. Therefore the probability of a success <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mn>8</m:mn>
@@ -465,9 +465,9 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and the probability of a failure <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
     <m:mn>8</m:mn>
@@ -485,10 +485,10 @@ if <emphasis effect="italics">number</emphasis> is left out, the result is the b
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.<newline count="2"/>
 Both <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> remain the same for each page. Therefore, <emphasis effect="italics">X</emphasis> is a binomial random variable, and it can be written as <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>X</m:mi><m:mo>~</m:mo><m:mi>B</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -502,7 +502,7 @@ Both <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</e
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.<newline count="2"/>
 We can use a graphing calculator to answer Parts i to iii.
 <list id="fs-idm2065488" list-type="enumerated" number-style="lower-roman"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = binompdf<m:math>
@@ -694,7 +694,7 @@ We can use a graphing calculator to answer Parts i to iii.
    <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>.0128</m:mn><m:mo>=</m:mo><m:mn>.9872</m:mn>
   </m:mrow>
 </m:math>. Both <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> remain the same for each person. Therefore, X is a binomial random variable and it can be written as <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>X</m:mi><m:mo>~</m:mo><m:mi>B</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -702,7 +702,7 @@ We can use a graphing calculator to answer Parts i to iii.
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.<newline count="2"/>
 We can use a graphing calculator to answer Questions c and d.</item>
 <item>
@@ -775,7 +775,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
 </exercise>
 </note><example id="element-678">
 <para id="element-532">The following example illustrates a problem that is <emphasis effect="italics">not</emphasis> binomial. It violates the condition of independence. ABC High School has a student advisory committee made up of 10 staff members and six students. The committee wishes to choose a chairperson and a recorder. What is the probability that the chairperson and recorder are both students? The names of all committee members are put into a box, and two names are drawn <emphasis effect="italics">without replacement</emphasis>. The first name drawn determines the chairperson and the second name the recorder. There are two trials. However, the trials are not independent because the outcome of the first trial affects the outcome of the second trial. The probability of a student on the first draw is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>6</m:mn>
@@ -785,9 +785,9 @@ We can use a graphing calculator to answer Questions c and d.</item>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> because there are six students out of 16 members (10 staff members + six students). If the first draw selects a student, then the probability of a student on the second draw is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>5</m:mn>
@@ -797,9 +797,9 @@ We can use a graphing calculator to answer Questions c and d.</item>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> because there are only five students out of 15 members. If the first draw selects a staff member, then the probability of a student on the second draw is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>6</m:mn>
@@ -809,7 +809,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> because there are still six students out of 15 members. The probability of drawing a student's name changes for each of the trials and, therefore, violates the condition of independence.</para></example>
 
 <note id="fs-idm127539840" class="statistics try"><label/><title>Try It</title>
@@ -1399,7 +1399,7 @@ We can use a graphing calculator to answer Questions c and d.</item>
  </m:mrow>
 </m:math></item>
 <item>In dollars: −1, 1, 2, 3</item>
-<item><m:math display="">
+<item><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>

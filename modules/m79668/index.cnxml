@@ -19,7 +19,7 @@
 <para id="eip-123456789">The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. To account for the variation, we take the difference of the sample means,
 
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mrow>
@@ -43,10 +43,10 @@
    </m:msub>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, and divide by the standard error to standardize the difference. The result is a <emphasis effect="italics">t</emphasis>-score test statistic.</para><para id="element-254">Because we do not know the population standard deviations, we estimate them using the two sample standard deviations from our independent samples. For the hypothesis test, we calculate the estimated <term id="term-00001">standard deviation</term>, or <term id="term-00002">standard error</term>, of the difference in sample means,
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mrow>
@@ -70,7 +70,7 @@
    </m:msub>
    <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para><para id="fs-id1164565009157">The standard error is calculated as follows:</para><equation id="std_err">
 <m:math>
 <m:msqrt>
@@ -427,7 +427,7 @@ are the sample means, and </item>
 <solution id="id21329984">
   <para id="element-296"><emphasis>The population standard deviations are not known</emphasis>. Let <emphasis effect="italics">g</emphasis> be the subscript for girls and <emphasis effect="italics">b</emphasis> be the subscript for boys. Then, <emphasis effect="italics">μ<sub>g</sub></emphasis> is the population mean for girls and <emphasis effect="italics">μ<sub>b</sub></emphasis> is the population mean for boys. This is a test of two <emphasis>independent groups</emphasis>, two population <emphasis>means</emphasis>.</para>
 <para id="element-221"><term id="term-00004">Random variable</term>:
-  <m:math display="">
+  <m:math>
  <m:mrow>
   <m:msub>
    <m:mrow>
@@ -1071,7 +1071,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
     <list id="fs-idp226249440" list-type="enumerated" number-style="lower-alpha"><item>two means</item>
     <item>unknown</item>
     <item>Student’s-<emphasis effect="italics">t</emphasis></item>
-      <item><m:math display="">
+      <item><m:math>
  <m:mrow>
   <m:msub>
    <m:mover accent="true">

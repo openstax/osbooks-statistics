@@ -37,7 +37,7 @@
   <para id="element-909">b. Calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RR</emphasis>).</para></problem>
 <solution id="id47069979">
   <para id="element-913">b. You can use the tree diagram. There are nine ways to draw two reds and 121 possible outcomes. So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RR</emphasis>) = <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -49,7 +49,7 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para>
 <para id="fs-id1164567112661">Each draw is independent, so you can also use the formula: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RR</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>) = <m:math>
  <m:mrow>
@@ -93,7 +93,7 @@
   <para id="element-865">c. Calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis> OR <emphasis effect="italics">BR</emphasis>).</para></problem>
 <solution id="id47070067">
   <para id="element-968">c. The tree diagram shows that there are 24 ways to draw <emphasis effect="italics">RB</emphasis> and 24 ways to draw <emphasis effect="italics">BR</emphasis>. There are 121 possible outcomes, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis> or <emphasis effect="italics">BR</emphasis>) = <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -112,7 +112,7 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><para id="fs-id1164567349218">The events <emphasis effect="italics">RB</emphasis> and <emphasis effect="italics">BR</emphasis> are mutually exclusive, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis> OR <emphasis effect="italics">BR</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">BR</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>) = <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -182,7 +182,7 @@
 </problem>
 <solution id="id46124822">
   <para id="element-989">d. Follow the path on the tree. There are three ways to get a red marble on the first draw and eight ways to get a blue on the second draw. There are 3 × 8 = 24 ways to draw red then blue, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis>) = <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -193,7 +193,7 @@
     </m:mrow>
    </m:mfrac>
 </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><para id="fs-id1164567426819">Can you think of another way to find this probability? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> on 1st draw AND <emphasis effect="italics">B</emphasis> on 2nd draw) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">RB</emphasis>) = <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -242,7 +242,7 @@
 <figure id="fs-id1164565500213"><media id="fs-id1164567994971" alt="Image shows a tree diagram with two levels the first level shows two branches. The first level represents the first draw of a marble. The left branch is labeled eight B and the right branch is labeled three R. The second level represents the second draw, two additional branches extend from the end of first level’s branches. The left branch of each is labeled eight B and the right branch is labeled three R">
 <image src="../../media/prob_tpcs_treedia2.png" mime-type="image/png" width="380"/></media>
 </figure><para id="fs-id1164565791549"><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -260,10 +260,10 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para><para id="fs-id1164567814108">You can also use the formula</para>
 <equation class="unnumbered" id="fs-id1164567792899"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -330,7 +330,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation></solution>
 </exercise>
@@ -611,7 +611,7 @@
 <exercise id="element-921">
 <problem id="id46086278">
   <para id="element-8295">c. Because this is a conditional probability, we restrict the sample space to consider only those outcomes that have a blue marble in the first draw. Look at the second level of the tree to see that <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis> on 2nd|<emphasis effect="italics">B</emphasis> on 1st) = <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>3</m:mn>
@@ -621,7 +621,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </para>
 </problem>
@@ -916,7 +916,7 @@
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
   </m:math>      <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mtext>c.</m:mtext><m:mo>(</m:mo>
     <m:mrow>
@@ -940,9 +940,9 @@
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
-   </m:semantics>
+   
 </m:math>      <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mtext>d.</m:mtext><m:mo>(</m:mo>
     <m:mrow>
@@ -966,7 +966,7 @@
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
-   </m:semantics>
+   
 </m:math></item>
 <item>What is the probability that one kitten of each coloring is selected?
 <newline count="2"/><m:math>
@@ -1112,7 +1112,7 @@
 </list></problem>
 <solution id="fs-idm2776368">
 <para id="fs-idp7489584">a. <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1136,7 +1136,7 @@
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
-   </m:semantics>
+   
 </m:math>, b. <m:math>
    <m:mrow>
    <m:mrow><m:mo>(</m:mo>

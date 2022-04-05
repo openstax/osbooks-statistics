@@ -387,7 +387,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
 <meaning id="fs-id1164559085753">
 <para id="fs-id1164564969890">a bell-shaped continuous random variable <emphasis effect="italics">X</emphasis>, with center at the mean value (<emphasis effect="italics">μ</emphasis>) and distance from the center to the inflection points of the bell curve given by the standard deviation (<emphasis effect="italics">σ</emphasis>)
 <newline/>We write <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>X</m:mi><m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -395,7 +395,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. If the mean value is 0 and the standard deviation is 1, the random variable is called the standard normal distribution, and it is denoted with the letter <emphasis effect="italics">Z</emphasis>.</para>
 </meaning>
   </definition>

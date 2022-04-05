@@ -287,7 +287,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
  </m:mrow>
 </m:math>.</para>-->
 <para id="fs-id1164564894312">The slope can be calculated using the formula <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo> </m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mfrac>
     <m:mrow>
@@ -315,9 +315,9 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
    </m:mfrac>
    <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> Substituting the median <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> values from the first and third groups gives <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -329,17 +329,17 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
    </m:mfrac>
    <m:mtext>,</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> which simplifies to <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>m</m:mi><m:mo>≈</m:mo><m:mtext> </m:mtext><m:mn>6.9</m:mn>
 <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para>
 <para id="fs-id1164566859749">The <emphasis effect="italics">y</emphasis>-intercept may be found using the formula <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -349,9 +349,9 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, which means the quantity of the sum of the median <emphasis effect="italics">y</emphasis> values minus the slope times the sum of the median <emphasis effect="italics">x</emphasis> values divided by three.</para><para id="fs-id1164564843422">The sum of the median <emphasis effect="italics">x</emphasis> values is 206.5, and the sum of the median <emphasis effect="italics">y</emphasis> values is 476. Substituting these sums and the slope into the formula gives <m:math>
- <m:semantics>
+ 
   <m:mrow>
 <m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -360,21 +360,21 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
     <m:mn>3</m:mn>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, which simplifies to <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>b</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>316.3</m:mn>
 <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para><para id="fs-id1164566948826">The line of best fit is represented as <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
 <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para>
 <para id="fs-id1164562476525">Thus, the equation can be written as <emphasis effect="italics">y</emphasis> = 6.9<emphasis effect="italics">x</emphasis> − 316.3.</para>
 <para id="fs-id1170308141980">The median–median line may also be found using your graphing calculator. You can enter the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> values into two separate lists; choose Stat, Calc, Med-Med, and press Enter. The slope, <emphasis effect="italics">a</emphasis>, and <emphasis effect="italics">y</emphasis>-intercept, <emphasis effect="italics">b</emphasis>, will be provided. The calculator shows a slight deviation from the previous manual calculation as a result of rounding. Rounding to the nearest tenth, the calculator gives the median-median line of <m:math>
@@ -494,7 +494,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
 </m:math>.</para>-->
 <para id="fs-id1164564830109">where</para>
 <para id="fs-id1164566504168"><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>a</m:mi><m:mo>=</m:mo><m:mover accent="true">
     <m:mi>y</m:mi>
@@ -506,10 +506,10 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
    </m:mover>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para>
 <para id="fs-id1164564832447">and <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -551,7 +551,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><para id="element-153">The sample means of the <emphasis effect="italics">x</emphasis> values and the <emphasis effect="italics">y</emphasis> values are <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>

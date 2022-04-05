@@ -87,18 +87,18 @@
 <para id="fs-idp169707568">A systematic way to make a decision of whether to reject or not reject the <term id="term-00003">null hypothesis</term>
 is to compare the <emphasis effect="italics">p</emphasis>-value and a preset or preconceived <emphasis effect="italics">α</emphasis>, also called the <term id="term-00004">level of significance of the test</term>. A preset <emphasis effect="italics">α</emphasis> is the probability of a <term id="term-00005">Type I error</term> (rejecting the null hypothesis when the null hypothesis is true). It may or may not be given to you at the beginning of the problem.</para><para id="element-259">When you make a <emphasis effect="italics">decision</emphasis> to reject or not reject <emphasis effect="italics">H<sub>0</sub></emphasis>, do as follows:
 <list id="list-1" list-type="bulleted"><item>If <emphasis effect="italics">p</emphasis>-value <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo>&lt;</m:mo><m:mi>α</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. The results of the sample data are significant. There is sufficient evidence to conclude that <emphasis effect="italics">H<sub>0</sub></emphasis> is an incorrect belief and that the <emphasis>alternative hypothesis</emphasis>, <emphasis effect="italics">H<sub>a</sub></emphasis>, may be correct.</item>
 <item>If <emphasis effect="italics">p</emphasis>-value <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo>≥</m:mo><m:mi>α</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>. The results of the sample data are not significant.There is not sufficient evidence to conclude that the alternative hypothesis, <emphasis effect="italics">H<sub>a</sub></emphasis>, may be correct.</item>
 <item>When you <emphasis effect="italics">do not reject H<sub>0</sub></emphasis>, it does not mean that you should believe that <emphasis effect="italics">H<sub>0</sub></emphasis> is true. It simply means that the sample data have <emphasis effect="italics">failed</emphasis> to provide sufficient evidence to cast serious doubt about the truthfulness of <emphasis effect="italics">H<sub>0</sub></emphasis>.</item>
 </list></para>

@@ -16,7 +16,7 @@
 <para id="fs-idp8223296">The <emphasis effect="italics">z</emphasis>-score is three.</para>-->
 <section id="fs-id1164562165107">
 <para id="fs-id1164568044674">The standardized normal distribution is a type of normal distribution, with a mean of 0 and standard deviation of 1. It represents a distribution of standardized scores, called <emphasis effect="bold"><emphasis effect="italics">z</emphasis>-scores</emphasis>, as opposed to raw scores (the actual data values). A <emphasis><emphasis effect="italics">z</emphasis>-score</emphasis> indicates the number of standard deviation a score falls above or below the mean. <emphasis effect="italics">Z</emphasis>-scores allow for comparison of scores, occurring in different data sets, with different means and standard deviations. It would not make sense to compare apples and oranges. Likewise, it does not make sense to compare scores from two different samples that have different means and standard deviations. <emphasis effect="italics">Z</emphasis>-scores can be looked up in a <emphasis effect="italics">Z</emphasis>-Table of Standard Normal Distribution, in order to find the area under the standard normal curve, between a score and the mean, between two scores, or above or below a score. The standard normal distribution allows us to interpret standardized scores and provides us with one table that we may use, in order to compute areas under the normal curve, for an infinite number of data sets, no matter what the mean or standard deviation.</para><para id="fs-id1164564360616">A <emphasis effect="italics">z</emphasis>-score is calculated as <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -26,9 +26,9 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. The score itself can be found by using algebra and solving for <emphasis effect="italics">x</emphasis>. Multiplying both sides of the equation by <emphasis effect="italics">σ</emphasis> gives: <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
     <m:mi>z</m:mi>
@@ -36,9 +36,9 @@
     <m:mi>σ</m:mi>
    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. Adding <emphasis effect="italics">μ</emphasis> to both sides of the equation gives <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
     <m:mi>z</m:mi>
@@ -46,10 +46,10 @@
     <m:mi>σ</m:mi>
    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><para id="fs-id1164565650015">Suppose we have a data set with a mean of 5 and standard deviation of 2. We want to determine the number of standard deviations the score of 11 falls above the mean. We can find this answer (or <emphasis effect="italics">z</emphasis>-score) by writing</para><equation id="fs-id1164567626656">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -59,13 +59,13 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>3</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <para id="fs-id1164567944295">or</para>
 <equation id="fs-id1164567659068">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mn>5</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
     <m:mi>z</m:mi>
@@ -74,13 +74,13 @@
    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>11</m:mn>
 <m:mtext>,</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <para id="fs-id1164565678867">we can solve for <emphasis effect="italics">z</emphasis>.</para>
 <equation id="fs-id1164567944630">
 <m:math>
- <m:semantics>
+ 
   <m:mtable columnalign="left">
    <m:mtr>
     <m:mtd>
@@ -93,7 +93,7 @@
     </m:mtd>
    </m:mtr>
   </m:mtable>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <para id="fs-id1164565303332">We have determined that the score of 11 falls 3 standard deviations above the mean of 5.</para>

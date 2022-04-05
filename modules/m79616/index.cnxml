@@ -56,7 +56,7 @@
 <solution id="fs-id1164566435158">
 <para id="fs-id1164561134860">a. This is the same as the marginal distribution (<link document="m79594">Section 1.2</link>).</para><equation id="fs-id1164562359636">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -80,12 +80,12 @@
    </m:mfrac>
    <m:mo>≈</m:mo><m:mn>.4040</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
 <para id="fs-id1164563571475">b. The marginal distribution is</para>
 <equation id="fs-id1164561079953">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -110,13 +110,13 @@
    <m:mo>≈</m:mo><m:mn>.9073</m:mn>
 <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <para id="fs-id1164564987475">c. Find the number of participants who satisfy <emphasis effect="italics">both</emphasis> conditions.</para>
 <equation id="fs-id1164566551588">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtable>
     <m:mtr>
@@ -159,7 +159,7 @@
 
    </m:mtable>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 
 </equation>
@@ -221,7 +221,7 @@
 <para id="fs-id1164563562290">e. This is a conditional probability. You are <emphasis effect="italics">given</emphasis> that the person had no violation in the last year, so you need only consider the values in that column of data.</para>
 <equation id="fs-id1164566882739">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mtable>
     <m:mtr>
@@ -264,12 +264,12 @@
 
    </m:mtable>
   </m:mrow>
-  </m:semantics>
+  
 </m:math>
 </equation>
 <para id="fs-id1164565211399">f. For this conditional probability, consider only values in the row labeled Does not use a cell phone while driving.</para>
 <equation class="unnumbered" id="fs-id1164557684078"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -285,7 +285,7 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.9</m:mn>
   </m:mrow>
-</m:semantics>
+
 </m:math>
 </equation></solution>
 </exercise>
@@ -567,7 +567,7 @@
 </m:mrow>
 </m:math></item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> AND <emphasis effect="italics">P</emphasis>) = <m:math>
- <m:semantics>
+ 
   <m:mfrac>
    <m:mrow>
     <m:mtext>number of hikers that are both female AND prefers mountain peaks</m:mtext>
@@ -577,7 +577,7 @@
    </m:mrow>
   </m:mfrac>
 
- </m:semantics>
+ 
 </m:math> = <m:math>
 <m:mrow>
 <m:mfrac>
@@ -951,7 +951,7 @@
 <solution id="id41670452">
 <para id="element-63">c. This is a conditional probability, so consider only probabilities in the row labeled "Caught." Choosing Door One and choosing Door Two are mutually exclusive, so</para>
 <equation class="unnumbered" id="fs-id1164564765468"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -977,10 +977,10 @@
    </m:mfrac>
    <m:mtext>.</m:mtext>
   </m:mrow>
-</m:semantics>
+
 </m:math>
 </equation><para id="fs-id1164562417671">Use the formula for conditional probability <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -998,9 +998,9 @@
    </m:mfrac>
    <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></para><equation class="unnumbered" id="fs-id1164564812804"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1056,7 +1056,7 @@
    </m:mfrac>
    <m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation></solution>
 </exercise>
@@ -1135,7 +1135,7 @@
 </list></problem>
 <solution id="fs-idm46779568">
 <para id="fs-idm37451408">a. <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1146,9 +1146,9 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> = .0294, b. <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1159,9 +1159,9 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> = .1551, c. <emphasis effect="italics">P</emphasis>(2010 OR Crime B) = <emphasis effect="italics">P</emphasis>(2010) + <emphasis effect="italics">P</emphasis>(Crime B) – <emphasis effect="italics">P</emphasis>(2010 AND Crime B) = <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1172,9 +1172,9 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> + <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1185,9 +1185,9 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> − <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1198,9 +1198,9 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> = .7165, d. <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1211,9 +1211,9 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> = .2222, e. <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -1224,7 +1224,7 @@
     </m:mrow>
    </m:mfrac>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> = .2575</para></solution>
 </exercise>
 </example>

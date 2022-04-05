@@ -23,7 +23,7 @@
 <para id="eip-123456789">Two events <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term id="term-00001">independent events</term> if the knowledge that one occurred does not affect the chance the other occurs. For example, the outcomes of two roles of a fair die are independent events. The outcome of the first roll does not change the probability for the outcome of the second roll. To show two events are independent, you must show <emphasis>only one</emphasis> of the above conditions. If two events are <emphasis effect="bold">not</emphasis> independent, then we say that they are <emphasis>dependent events</emphasis>.</para><para id="element-405">Sampling may be done <emphasis>with</emphasis> <term id="term-00002">replacement</term> or <emphasis>without replacement</emphasis>.</para>
 <list id="fs-idm1341072" list-type="bulleted"><item><emphasis>With replacement</emphasis>: If each member of a population is replaced after it is picked, then that member has the possibility of being chosen more than once. When sampling is done with replacement, then events are considered to be independent, meaning the result of the first pick will not change the probabilities for the second pick.</item></list>
 <para id="fs-id1164565393344">A bag contains four blue and three white marbles. James draws one marble from the bag at random, records the color, and replaces the marble. The probability of drawing blue is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>4</m:mn>
@@ -31,9 +31,9 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. When James draws a marble from the bag a second time, the probability of drawing blue is still <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>4</m:mn>
@@ -41,7 +41,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. James replaced the marble after the first draw, so there are still four blue and three white marbles.</para>
 <figure id="fs-id1164565492567">
 <media id="fs-id1164567272562" alt="Drawing of a transparent drawstring bag containing four blue marbles and three white marbles.">
@@ -51,7 +51,7 @@
 <item><emphasis>Without replacement</emphasis>: When sampling is done without replacement, each member of a population may be chosen only once. In this case, the probabilities for the second pick are affected by the result of the first pick. The events are considered to be dependent or not independent.</item>
 </list>
 <para id="fs-id1164568060107">The bag still contains four blue and three white marbles. Maria draws one marble from the bag at random, records the color, and sets the marble aside. The probability of drawing blue on the first draw is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>4</m:mn>
@@ -59,9 +59,9 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. Suppose Maria draws a blue marble and sets it aside. When she draws a marble from the bag a second time, there are now <emphasis effect="italics">three</emphasis> blue and three white marbles. So, the probability of drawing blue is now <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mn>3</m:mn>
@@ -73,7 +73,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. Removing the first marble without replacing it influences the probabilities on the second draw.</para>
 <figure id="fs-id1164565980547">
 <media id="fs-id1164567569002" alt="Drawing of a transparent drawstring bag containing three blue marbles and three white marbles. One blue marble is shown to the side of the bag.">
@@ -555,7 +555,7 @@
 <item>Make a systematic list of possible outcomes. Start by listing all possible outcomes when the coin shows tails (<emphasis effect="italics">T</emphasis>). Then list the outcomes that are possible when the coin shows heads (<emphasis effect="italics">H</emphasis>): <emphasis effect="italics">T</emphasis>1, <emphasis effect="italics">T</emphasis>2, <emphasis effect="italics">T</emphasis>3, <emphasis effect="italics">T</emphasis>4, <emphasis effect="italics">T</emphasis>5, <emphasis effect="italics">T</emphasis>6, <emphasis effect="italics">H</emphasis>1, <emphasis effect="italics">H</emphasis>2, <emphasis effect="italics">H</emphasis>3, <emphasis effect="italics">H</emphasis>4, <emphasis effect="italics">H</emphasis>5, <emphasis effect="italics">H</emphasis>6</item>
 <item><emphasis effect="italics">A</emphasis> = {<emphasis effect="italics">H</emphasis>2, <emphasis effect="italics">H</emphasis>4, <emphasis effect="italics">H</emphasis>6}; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) =
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -567,7 +567,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> = <m:math><m:mrow>
   <m:mfrac>
    <m:mtext>3</m:mtext>

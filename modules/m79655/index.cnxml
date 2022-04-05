@@ -412,7 +412,7 @@
  </m:mrow>
 </m:math></equation>
 <equation class="unnumbered" id="fs-id1164565649522"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -420,11 +420,11 @@
    </m:mover>
    <m:mtext> </m:mtext><m:mo>–</m:mo><m:mtext> </m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = 8</m:mtext><m:mtext>.2267 – 0</m:mtext><m:mtext>.9240 = 7</m:mtext><m:mtext>.3</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <equation class="unnumbered" id="fs-id1164565629522"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -432,7 +432,7 @@
    </m:mover>
    <m:mo>+</m:mo><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = 8</m:mtext><m:mtext>.2267 + 0</m:mtext><m:mtext>.9240 = 9</m:mtext><m:mtext>.15</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><para id="eip-idm393833904">
 The 95 percent confidence interval is (7.30, 9.15).
 </para>
@@ -614,7 +614,7 @@ The 95 percent confidence interval is (7.30, 9.15).
   </para><para id="eip-idm186375552">By definition, the area to the right of <emphasis effect="italics">t</emphasis><sub>0.05</sub> is 0.05, and so the area to the left of <emphasis effect="italics">t</emphasis><sub>0.05</sub> is 1 – 0.05 = 0.95.</para>
 <para id="eip-idm38662128" class="finger">Use a table, calculator, or computer to find that <emphasis effect="italics">t</emphasis><sub>0.05</sub> = 1.729.</para>
  <equation class="unnumbered" id="fs-id1164556514502"><label/><m:math>
- <m:semantics>
+ 
   <m:mtable columnalign="left">
    <m:mtr>
     <m:mtd>
@@ -676,7 +676,7 @@ The 95 percent confidence interval is (7.30, 9.15).
     </m:mtd>
    </m:mtr>
   </m:mtable>
- </m:semantics>
+ 
 </m:math>
 </equation>
  <para id="eip-idm27533168">We estimate with 90 percent confidence that the mean number of all targeted industrial chemicals found in cord blood in the United States is between 117.412 and 137.488.</para>
@@ -2042,7 +2042,7 @@ flight.
     </meaning>-->
 <meaning id="fs-id1164565967655">a bell-shaped continuous random variable <emphasis effect="italics">X</emphasis>, with center at the mean value (<emphasis effect="italics">μ</emphasis>) and distance from the center to the inflection points of the bell curve given by the standard deviation (<emphasis effect="italics">σ</emphasis>).
 <newline/>We write <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>X</m:mi><m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -2050,7 +2050,7 @@ flight.
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>. If the mean value is 0 and the standard deviation is 1, the random variable is called the standard normal distribution, and it is denoted with the letter <emphasis effect="italics">Z</emphasis></meaning>
   </definition>
 <definition id="stddev">

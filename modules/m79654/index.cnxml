@@ -45,24 +45,24 @@
   <m:mtext>+</m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi>
  </m:mrow>
 </m:math>).</para><para id="eip-id1171253180187">The margin of error (<emphasis effect="italics">EBM</emphasis>) depends on the <term id="term-00002">confidence level</term> (<emphasis><emphasis effect="italics">CL</emphasis></emphasis>). The confidence level is often considered the probability that the calculated confidence interval estimate will contain the true population parameter. However, it is more accurate to state that the confidence level is the percentage of confidence intervals that contain the true population parameter when repeated samples are taken. Most often, the person constructing the confidence interval will choose a confidence level of 90 percent or higher, because that person wants to be reasonably certain of his or her conclusions.</para><para id="fs-id1164565293557">Another probability, which is called alpha <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mo stretchy="false">(</m:mo><m:mi>α</m:mi><m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> is related to the confidence level, <emphasis effect="italics">CL</emphasis>. Alpha is the probability that the confidence interval does not contain the unknown population parameter. Mathematically, alpha can be computed as <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>α</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>C</m:mi><m:mi>L</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><example id="eip-id1171253594561">
     <list id="eip-37" list-type="labeled-item">
     <item>Suppose we have collected data from a sample. We know the sample mean, but we do not know the mean for the entire population.</item>
     <item>The sample mean is seven, and the error bound for the mean is 2.5.</item>
     </list>
     <equation class="unnumbered" id="fs-id1164567244116"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -70,7 +70,7 @@
    </m:mover>
    <m:mtext> and </m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = 2</m:mtext><m:mtext>.5</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><para id="eip-id1171253247744"> The confidence interval is (7 – 2.5, 7 + 2.5), and calculating the values gives (4.5, 9.5).</para>
     <para id="eip-id1171248980360">If the confidence level is 95 percent, then we say, "We estimate with 95 percent confidence that the true value of the population mean is between 4.5 and 9.5."</para></example>
@@ -187,11 +187,11 @@
 </m:msub>
 
 </m:math>, and the sample size by <emphasis effect="italics">n</emphasis>, then the formula for the confidence interval with confidence level <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>C</m:mi><m:mi>l</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>α</m:mi>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, is given by <m:math>
 <m:mo stretchy="false">(</m:mo><m:mover accent="true">
   <m:mi>x</m:mi>
@@ -415,7 +415,7 @@
 </m:math>, and the <emphasis effect="italics">EBM</emphasis>.</para>
         <list id="eip-id1171249631187" list-type="bulleted" bullet-style="none"><item><equation id="fs-id1164564191114">
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -423,10 +423,10 @@
    </m:mover>
    <m:mtext> = 68</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><equation class="unnumbered" id="eip-234"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = </m:mtext><m:mo stretchy="false">(</m:mo><m:msub>
     <m:mi>z</m:mi>
@@ -449,28 +449,28 @@
    </m:mfrac>
    <m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><equation class="unnumbered" id="eip-454"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>σ</m:mi><m:mtext> = 3; </m:mtext><m:mspace width=".30em"/><m:mi>n</m:mi><m:mtext> = 36</m:mtext>
   </m:mrow>
- </m:semantics><m:mtext>;</m:mtext>
+ <m:mtext>;</m:mtext>
 </m:math>
 </equation></item>
 
     <item>
 The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0.90).</item>
     </list><equation class="unnumbered" id="fs-id1164566109397"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>C</m:mi><m:mi>L</m:mi><m:mtext> = 0</m:mtext><m:mtext>.90, so </m:mtext><m:mi>α</m:mi><m:mtext> = 1 – </m:mtext><m:mi>C</m:mi><m:mi>L</m:mi><m:mtext> = 1 – 0</m:mtext><m:mtext>.90 = 0</m:mtext><m:mtext>.10</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><equation class="unnumbered" id="fs-id1164567088948"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mi>α</m:mi>
@@ -494,7 +494,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
    </m:msub>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><para id="eip-id1171249710090">The area to the right of <emphasis effect="italics">z</emphasis><sub>0.05</sub> is 0.05 and the area to the left of <emphasis effect="italics">z</emphasis><sub>0.05</sub> is 1 – 0.05 = 0.95.</para><equation class="unnumbered" id="fs-id1164565532366"><label/><m:math>
      <m:mrow>
@@ -755,7 +755,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
      </m:mrow>
     </m:math>.</para>
     <equation class="unnumbered" id="fs-id1164568060623"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -763,10 +763,10 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
    </m:mover>
    <m:mtext> – </m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = 1</m:mtext><m:mtext>.024 – 0</m:mtext><m:mtext>.1431 = 0</m:mtext><m:mtext>.8809</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation>
     <equation class="unnumbered" id="fs-id1164567539147"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -774,7 +774,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
    </m:mover>
    <m:mtext> + </m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = 1</m:mtext><m:mtext>.024 + 0</m:mtext><m:mtext>.1431 = 1</m:mtext><m:mtext>.1671</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><para id="eip-idm89961264">We estimate with 98 percent confidence that the true SAR mean for the population of cell phones in the United States is between 0.8809 and 1.1671 watts per kilogram.</para>
     </solution>
     <solution id="eip-idm108144592">
@@ -998,7 +998,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
      </m:mover>
 
     </m:math>, and the <emphasis effect="italics">EBM</emphasis>.</para><list id="element-5" list-type="bulleted" bullet-style="none"><item><equation class="unnumbered" id="fs-id1164566229145"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -1006,9 +1006,9 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
    </m:mover>
    <m:mtext> = 68</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><equation class="unnumbered" id="eip-78"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = </m:mtext><m:mo stretchy="false">(</m:mo><m:msub>
     <m:mi>z</m:mi>
@@ -1031,21 +1031,21 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
    </m:mfrac>
    <m:mo stretchy="false">)</m:mo>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation><equation class="unnumbered" id="eip-405"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>σ</m:mi><m:mtext> = 3; </m:mtext><m:mspace width=".30em"/><m:mi>n</m:mi><m:mtext> = 36</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></equation></item>
 <item>The confidence level is 95 percent (<emphasis effect="italics">CL</emphasis> = 0.95).</item>
     </list><equation class="unnumbered" id="fs-id1164567224370"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>C</m:mi><m:mi>L</m:mi><m:mtext> = 0</m:mtext><m:mtext>.95, so </m:mtext><m:mi>α</m:mi><m:mtext> = 1 – </m:mtext><m:mi>C</m:mi><m:mi>L</m:mi><m:mtext> = 1 – 0</m:mtext><m:mtext>.95 = 0</m:mtext><m:mtext>.05</m:mtext><m:mtext>.</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation><equation class="unnumbered" id="fs-id1164565998027"><label/><m:math>
      <m:mrow>
@@ -1095,7 +1095,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
     </m:math></equation>
     <para id="fs-idm2686672" class="finger">when using invnorm(0.975,0,1) on the TI-83, 83+, or 84+ calculators. (This can also be found using appropriate commands on other calculators, using a computer, or using a probability table for the standard normal distribution.)</para>
 <equation class="unnumbered" id="fs-id1164567833526"><label/><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = (1</m:mtext><m:mtext>.96)</m:mtext><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1114,11 +1114,11 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mtext> = 0</m:mtext><m:mtext>.98</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
 <equation class="unnumbered" id="fs-id1164566133736"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -1126,11 +1126,11 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
    </m:mover>
    <m:mtext> – </m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = 68 – 0</m:mtext><m:mtext>.98 = 67</m:mtext><m:mtext>.02</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
     <equation class="unnumbered" id="fs-id1164567440810"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -1138,7 +1138,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
    </m:mover>
    <m:mtext> + </m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mtext> = 68 + 0</m:mtext><m:mtext>.98 = 68</m:mtext><m:mtext>.98</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </equation>
     <para id="fs-idp120322464">Notice that the <emphasis effect="italics">EBM</emphasis> is larger for a 95 percent confidence level in the original problem.</para>

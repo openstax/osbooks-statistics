@@ -326,7 +326,7 @@
 <item>Student answers may vary.</item>
 <item>Student answers may vary.</item>
 <item>The theoretical mean is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
     <m:mn>5</m:mn>
@@ -336,10 +336,8 @@
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2.5</m:mn>
   </m:mrow>
-  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=feaagyart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0de9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaeWaaeaacaaI1aaacaGLOaGaayzkaaWaaeWaaeaacaaIWaGaaiOlaiaaiwdaaiaawIcacaGLPaaacqGH9aqpcaaIYaGaaiOlaiaaiwdaaaa@3E95@</m:annotation>
- </m:semantics>
 </m:math>. The theoretical standard deviation is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msqrt>
     <m:mrow>
@@ -363,8 +361,7 @@
    </m:msqrt>
 
   </m:mrow>
-  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=feaagyart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0de9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaOaaaeaadaqadaqaaiaaiwdaaiaawIcacaGLPaaadaqadaqaaiaaicdacaGGUaGaaGynaaGaayjkaiaawMcaamaabmaabaGaaGimaiaac6cacaaI1aaacaGLOaGaayzkaaaaleqaaOGaeyypa0ZaaOaaaeaacaaIXaGaaiOlaiaaikdacaaI1aaaleqaaaaa@4344@</m:annotation>
- </m:semantics>
+ 
 </m:math>. </item>
 </list>
 </solution>

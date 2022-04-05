@@ -140,21 +140,21 @@ of <m:math>
 </m:math></para>
 <para id="element-567">We say that we are <emphasis>95 percent confident</emphasis> that the unknown population mean number of songs downloaded from iTunes per month is between 1.8 and 2.2. <emphasis>The 95 percent confidence interval is (1.8, 2.2).</emphasis></para>-->
 <para id="fs-id1164560823716">In this example, we do not know the true population mean <emphasis effect="italics">μ</emphasis> (because we do not have information from all the internet music users!), but we can compute the sample mean <m:math>
- <m:semantics>
+ 
   <m:mover accent="true">
    <m:mi>x</m:mi>
    <m:mo>¯</m:mo>
   </m:mover>
- </m:semantics>
+ 
 </m:math> based on our sample of 100 individuals. Because the sample mean is likely to be within 0.2 units of the true population mean 95 percent of the times that we take a sample of 100 users, we can say with 95 percent confidence that <emphasis effect="italics">μ</emphasis> is within 0.2 units of <m:math>
- <m:semantics>
+ 
   <m:mover accent="true">
    <m:mi>x</m:mi>
    <m:mo>¯</m:mo>
   </m:mover>
- </m:semantics>
+ 
 </m:math>. In other words, <emphasis effect="italics">μ</emphasis> is somewhere between <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -162,9 +162,9 @@ of <m:math>
    </m:mover>
    <m:mo>−</m:mo><m:mn>0.2</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -172,10 +172,10 @@ of <m:math>
    </m:mover>
    <m:mo>+</m:mo><m:mn>0.2</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para>
 <para id="fs-id1164563452758">Suppose that from the sample of 100 internet music customers, we compute a sample mean download of <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -183,15 +183,15 @@ of <m:math>
    </m:mover>
    <m:mo>=</m:mo><m:mn>2</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> songs per month. Since we know that the population standard deviation is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>σ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>, according to the central limit theorem, the standard deviation for the sample means is <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>σ</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mn>1</m:mn>
@@ -206,9 +206,9 @@ of <m:math>
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>0.1</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><para id="fs-id1164564841116">We know that there is a 95 percent chance that the true population mean value <emphasis effect="italics">μ</emphasis> is between two standard deviations from the sample mean. That is, with 95 percent confidence we can say that <emphasis effect="italics">μ</emphasis> is between <m:math>
- <m:semantics>
+ 
     <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -225,9 +225,9 @@ of <m:math>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> and <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -244,7 +244,7 @@ of <m:math>
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><para id="fs-id1164566885665">Replacing the symbols for their values in this example, we say that we are <emphasis>95 percent confident</emphasis> that the true average number of songs downloaded from an internet music store per month is between <equation id="fs-id1164562059797" class="unnumbered"><m:math>
    <m:mrow>
    <m:mover accent="true">
@@ -274,7 +274,7 @@ of <m:math>
    <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>0.2</m:mn><m:mo>=</m:mo><m:mn>1.8</m:mn><m:mo>,</m:mo> <m:mo>and</m:mo>
   </m:mrow>
  </m:math></equation></para><equation id="eip-123"><label/><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mover accent="true">
     <m:mi>x</m:mi>
@@ -303,7 +303,7 @@ of <m:math>
    <m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>0.2</m:mn><m:mo>=</m:mo><m:mn>2.2</m:mn><m:mo>.</m:mo>
   </m:mrow>
 
- </m:semantics>
+ 
 </m:math></equation><para id="fs-id1164564919894"><emphasis>The 95 percent confidence interval for</emphasis> <emphasis effect="italics">μ</emphasis> <emphasis>is (1.8, 2.2)</emphasis>.</para>
 <para id="element-484">The 95 percent confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean, <emphasis effect="italics">μ</emphasis>, or our sample produced an <m:math>
  <m:mover accent="true">
@@ -320,7 +320,7 @@ of <m:math>
 <list id="element-997" list-type="enumerated"><item>Calculate the sample mean.</item>
 <item>Let <emphasis effect="italics">σ</emphasis> = 3 and <emphasis effect="italics">n</emphasis> = the number of students surveyed.</item>
 <item>Construct the interval. <m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -366,8 +366,7 @@ of <m:math>
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
-  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=feaagyart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbba9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaamaabmaabaWaaCbiaeaacaWG4baaleqabaGaeyOeI0caaOGaeyOeI0IaaGOmamaabmaabaWaaSaaaeaacqaHdpWCaeaadaGcaaqaaiaad6gaaSqabaaaaaGccaGLOaGaayzkaaaacaGLOaGaayzkaaGaaiilamaabmaabaWaaCbiaeaacaWG4baaleqabaGaeyOeI0caaOGaey4kaSIaaGOmamaabmaabaWaaSaaaeaacqaHdpWCaeaadaGcaaqaaiaad6gaaSqabaaaaaGccaGLOaGaayzkaaaacaGLOaGaayzkaaaaaa@4A53@</m:annotation>
- </m:semantics>
+ 
 </m:math>
 </item>
 </list><para id="element-927">We say we are approximately 95 percent confident that the true mean number of meals that students eat out in a week is between __________ and ___________.</para>

@@ -67,43 +67,43 @@
 <row>
 <entry align="center"><emphasis>Set Notation</emphasis></entry>
 <entry align="center"><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>S</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
     <m:mi>H</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>T</m:mi>
    </m:mrow> <m:mo>}</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></entry>
 <entry align="center"><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>S</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
     <m:mi>H</m:mi><m:mi>H</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>H</m:mi><m:mi>T</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>T</m:mi><m:mi>H</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>T</m:mi><m:mi>T</m:mi>
    </m:mrow> <m:mo>}</m:mo></m:mrow>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></entry>
 </row>
 </tbody>
 </tgroup>
 </table>
 <para id="fs-id1164563567053">*We will investigate tree diagrams and Venn diagrams in Section 3.5.</para><para id="fs-id1164565220691">Note—when represented as a set, the sample space is denoted with an uppercase <emphasis effect="italics">S</emphasis>.</para><para id="fs-id1164562410467">An event is any combination of outcomes. It is a subset of the sample space, so uppercase letters like <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are commonly used to represent events. For example, if the experiment is to flip three fair coins, event <emphasis effect="italics">A</emphasis> might be getting at most one head.</para><para id="fs-id1164564729392">The probability of an event <emphasis effect="italics">A</emphasis> is written <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>), and <m:math display="block">
-   <m:semantics>
+   
       <m:mrow>
          <m:mo> </m:mo><m:mn>0</m:mn><m:mtext> </m:mtext><m:mo>≤</m:mo><m:mtext> </m:mtext><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
             <m:mi>A</m:mi>
          <m:mo>)</m:mo></m:mrow>
          <m:mtext> </m:mtext><m:mo>≤</m:mo><m:mtext> </m:mtext><m:mn>1.</m:mn><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>
       </m:mrow>
-   </m:semantics>
+   
 </m:math> means the event <emphasis effect="italics">A</emphasis> can never happen. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = 1 means the event <emphasis effect="italics">A</emphasis> always happens. <!-- MathType@Translator@5@5@MathML1.tdl@MathML 1.0@ -->
 <m:math display="block">
-   <m:semantics>
+   
       <m:mrow>
          <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0.5</m:mn>
       </m:mrow>
-   </m:semantics>
+   
 </m:math> means the event <emphasis effect="italics">A</emphasis> is <emphasis effect="bold">equally likely</emphasis> to occur or not to occur.</para><figure id="fs-id1164565359012">
 <media id="fs-id1164565354702" alt="Image shows a number line from zero to one with a tick and label at one half. Tick zero represents the probability of an impossible event. Tick one represents the probability of a certain event. Tick one half represents the probability of an event that is equally likely to happen or not. Above the number line, an arrow points from one half toward zero showing that as probability moves closer to zero events are less likely. An arrow points from one half toward one showing that as probability moves closer to one events are more likely.">
 <image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_05.jpg"/></media>
@@ -112,7 +112,7 @@
 <para id="fs-id1164559078705">To calculate the probability of an event <emphasis effect="italics">A</emphasis> when all outcomes in the sample space are equally likely, count the number of outcomes for event <emphasis effect="italics">A</emphasis> and divide by the total number of outcomes in the sample space. This is known as the theoretical probability of <emphasis effect="italics">A</emphasis>.</para><para id="fs-id1164564822497"><term id="term-00002">Theoretical Probability of Event A</term></para>
 <equation id="fs-id1164564824283">
 <m:math>
-   <m:semantics>
+   
       <m:mrow>
          <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
             <m:mrow>
@@ -124,11 +124,11 @@
          </m:mfrac>
 
       </m:mrow>
-   </m:semantics>
+   
 </m:math>
 </equation>
 <para id="fs-id1164562132816">For example, if you toss a fair dime and a fair nickel, the sample space is {<emphasis effect="italics">HH, TH, HT, TT</emphasis>} where <emphasis effect="italics">T</emphasis> = tails and <emphasis effect="italics">H</emphasis> = heads. The sample space has four outcomes. Let <emphasis effect="italics">A</emphasis> represent the outcome <emphasis effect="italics">getting one head.</emphasis> There are two outcomes that meet this condition {<emphasis effect="italics">HT, TH</emphasis>}, so <m:math display="block">
-   <m:semantics>
+   
       <m:mrow>
          <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.25em"/><m:mo>=</m:mo><m:mfrac>
             <m:mn>2</m:mn>
@@ -140,12 +140,12 @@
          </m:mfrac>
          <m:mo>=</m:mo><m:mn>.5.</m:mn>
       </m:mrow>
-         </m:semantics>
+         
 </m:math></para><para id="fs-id1164564901920">Theoretical probability is not sufficient in all situations, however. Suppose we want to calculate the probability that a randomly selected car will run a red light at a given intersection. In this case, we need to look at events that <emphasis effect="italics">have</emphasis> occurred, not theoretical possibilities. We could install a traffic camera and count the number of times that cars failed to stop when the light was red and the total number of cars that passed through the intersection for a period of time. These data will allow us to calculate the experimental, or empirical, probability that a car runs the red light.</para>
 <para id="fs-id1164565198180"><term id="term-00003">Experimental Probability of Event A</term></para>
 <equation id="fs-id1164565100022">
 <m:math>
-   <m:semantics>
+   
       <m:mrow>
          <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
             <m:mrow>
@@ -157,10 +157,10 @@
          </m:mfrac>
 
       </m:mrow>
-   </m:semantics>
+   
 </m:math></equation>
 <para id="fs-id1164566832711">While theoretical and experimental methods provide two different ways to calculate probability, these methods are closely related. If you flip one fair coin, there is one way to obtain heads and two possible outcomes. So, the theoretical probability of heads is <m:math>
-   <m:semantics>
+   
       <m:mrow>
          <m:mfrac>
             <m:mtext>1</m:mtext>
@@ -168,9 +168,9 @@
          </m:mfrac>
 
       </m:mrow>
-   </m:semantics>
+   
 </m:math>. Probability does not predict short-term results, however. If an experiment involves flipping a coin 10 times, you should not expect exactly five heads and five tails. The probability of any outcome measures the long-term relative frequency of that outcome. If you continue to flip the coin (from 20 to 2,000 to 20,000 times) the relative frequency of heads approaches .5 (the probability of heads).This important characteristic of probability experiments is known as the law of large numbers, which states that as the number of repetitions of an experiment is increased, the relative frequency obtained in the experiment tends to become closer and closer to the theoretical probability. Even though the outcomes do not happen according to any set pattern or order, overall, the long-term observed, or empirical, relative frequency will approach the theoretical probability.</para><para id="fs-id1164562412239">Suppose you roll one fair, six-sided die with the numbers {1, 2, 3, 4, 5, 6} on its faces. Let event <emphasis effect="italics">E</emphasis> = rolling a number that is at least five. There are two outcomes {5, 6}. <m:math display="block">
-   <m:semantics>
+   
       <m:mrow>
          <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>E</m:mi><m:mo stretchy="false">)</m:mo><m:mspace width="0.25em"/><m:mo>=</m:mo><m:mfrac>
             <m:mn>2</m:mn>
@@ -178,9 +178,9 @@
          </m:mfrac>
          <m:mo>.</m:mo>
       </m:mrow>
-   </m:semantics>
+   
 </m:math> If you were to roll the die only a few times, you would not be surprised if your observed results did not match the probability. If you were to roll the die a very large number of times, you would expect that, overall, <m:math>
-   <m:semantics>
+   
       <m:mrow>
          <m:mfrac>
             <m:mn>2</m:mn>
@@ -188,9 +188,9 @@
          </m:mfrac>
 
       </m:mrow>
-</m:semantics>
+
 </m:math> of the rolls would result in an outcome of <emphasis effect="italics">at least five</emphasis>. You would not expect exactly <m:math>
-   <m:semantics>
+   
       <m:mrow>
          <m:mfrac>
             <m:mn>2</m:mn>
@@ -198,9 +198,9 @@
          </m:mfrac>
 
       </m:mrow>
-</m:semantics>
+
 </m:math>, but the long-term relative frequency of obtaining this result would approach the theoretical probability of <m:math>
-   <m:semantics>
+   
       <m:mrow>
          <m:mfrac>
             <m:mn>2</m:mn>
@@ -208,7 +208,7 @@
          </m:mfrac>
 
       </m:mrow>
-</m:semantics>
+
 </m:math> as the number of repetitions grows larger and larger.</para><para id="eip-407">It is important to realize that in many situations, the outcomes are not equally likely. A coin or die may be <term id="term-00004">unfair</term>, or <emphasis>biased</emphasis>. Two math professors in Europe had their statistics students test the Belgian one-euro coin and discovered that in 250 trials, a head was obtained 56 percent of the time and a tail was obtained 44 percent of the time. The data seem to show that the coin is not a fair coin; more repetitions would be helpful to draw a more accurate conclusion about such bias. Some dice may be biased. Look at the dice in a game you have at home; the spots on each face are usually small holes carved out and then painted to make the spots visible. Your dice may or may not be biased; it is possible that the outcomes may be affected by the slight weight differences due to the different numbers of holes in the faces. Gambling casinos make a lot of money depending on outcomes from rolling dice, so casino dice are made differently to eliminate bias. Casino dice have flat faces; the holes are completely filled with paint having the same density as the material that the dice are made out of so that each face is equally likely to occur. Later we will learn techniques to use to work with probabilities for events that are not equally likely.<newline count="2"/></para><para id="element-189"><title>OR Event</title>An outcome is in the event <emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis> if the outcome is in <emphasis effect="italics">A</emphasis> or is in <emphasis effect="italics">B</emphasis> or is in both <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis>. For example, let <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5} and <emphasis effect="italics">B</emphasis> = {4, 5, 6, 7, 8}. <emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8}. Notice that 4 and 5 are <emphasis effect="bold">not</emphasis> listed twice.<newline count="2"/></para><para id="element-713"><title>AND Event</title>An outcome is in the event <emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis> if the outcome is in both <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> at the same time. For example, let <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> be <newline/>{1, 2, 3, 4, 5} and {4, 5, 6, 7, 8}, respectively. Then <emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis> = {4, 5}.</para>
 
 <para id="element-123">The <term id="term-00005">complement</term> of event <emphasis effect="italics">A</emphasis> is denoted <emphasis effect="italics">A′</emphasis> (read "<emphasis effect="italics">A</emphasis> prime"). <emphasis effect="italics">A′</emphasis> consists of all outcomes that are <emphasis effect="bold">not</emphasis> in <emphasis effect="italics">A</emphasis>. Notice that <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = 1. For example, let <emphasis effect="italics">S</emphasis> = {1, 2, 3, 4, 5, 6} and let <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4}. Then, <emphasis effect="italics">A′</emphasis> = {5, 6}. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math>, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math>, and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = <m:math>
@@ -234,7 +234,7 @@
   </m:mfrac>
  </m:mrow>
 	</m:math> where <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) is greater than zero.</para><para id="element-476">For example, suppose we toss one fair, six-sided die. The sample space <emphasis effect="italics">S</emphasis> = {1, 2, 3, 4, 5, 6}. Let <emphasis effect="italics">A</emphasis> = {2, 3} and <emphasis effect="italics">B</emphasis> = {2, 4, 6}. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) represents the probability that a randomly selected outcome is in <emphasis effect="italics">A given that</emphasis> it is in <emphasis effect="italics">B</emphasis>. We know that the outcome must lie in <emphasis effect="italics">B</emphasis>, so there are three possible outcomes. There is only one outcome in <emphasis effect="italics">B</emphasis> that also lies in <emphasis effect="italics">A</emphasis>, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <m:math>
-   <m:semantics>
+   
       <m:mrow>
          <m:mfrac>
             <m:mn>1</m:mn>
@@ -242,7 +242,7 @@
          </m:mfrac>
 
       </m:mrow>
-</m:semantics>
+
 </m:math>.</para><para id="eip-579">We get the same result by using the formula. Remember that <emphasis effect="italics">S</emphasis> has six outcomes.</para><para id="element-179"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -317,7 +317,7 @@
 <list id="fs-idp17343632" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">S</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}</item>
 <item><emphasis effect="italics">A</emphasis> = {2, 4, 6, 8, 10, 12, 14, 16, 18}, <emphasis effect="italics">B</emphasis> = {14, 15, 16, 17, 18, 19}</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -329,11 +329,11 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
  = <m:math><m:mrow><m:mfrac><m:mn>9</m:mn><m:mrow><m:mn>19</m:mn></m:mrow></m:mfrac>
  </m:mrow></m:math>, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -345,7 +345,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> = <m:math><m:mrow><m:mfrac>
    <m:mn>6</m:mn>
    <m:mrow>
@@ -574,7 +574,7 @@
 </list></problem>
 <solution id="fs-idp22590288">
 <list id="fs-idp47608624" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">T</emphasis> = {2}, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis>) = <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mfrac>
     <m:mrow>
@@ -586,7 +586,7 @@
    </m:mfrac>
 
   </m:mrow>
- </m:semantics>
+ 
 </m:math> = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></item>
 <item><emphasis effect="italics">A</emphasis> = {2, 4, 6}, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></item>
 <item><emphasis effect="italics">B</emphasis> = {1, 2, 3}, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> = <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></item>
@@ -656,7 +656,7 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>|<emphasis effect="italics">L</emphasis>) = 0.3077 (rounded to four decimal places)</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">L</emphasis>|<emphasis effect="italics">F</emphasis>) = 0.0833</item>-->
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -684,10 +684,10 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.52</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></item>
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -715,10 +715,10 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.48</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math></item>
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -746,11 +746,11 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.87</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -778,11 +778,11 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.13</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mtext> and </m:mtext><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -802,11 +802,11 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.43</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mtext> and </m:mtext><m:mi>L</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -824,11 +824,11 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.04</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mtext> or </m:mtext><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -856,11 +856,11 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>1</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mtext> or </m:mtext><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -888,11 +888,11 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.96</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mtext> or </m:mtext><m:mi>L</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -920,11 +920,11 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.57</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item><m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
     <m:mi>M</m:mi>
@@ -956,11 +956,11 @@
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>.48</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 </item>
 <item><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mo>|</m:mo><m:mi>M</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -980,11 +980,11 @@
    </m:mfrac>
    <m:mo>˜</m:mo><m:mn>=.8269</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> (rounded to four decimal places)
 </item>
 <item><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo>|</m:mo><m:mi>L</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -1004,10 +1004,10 @@
    </m:mfrac>
    <m:mo>˜</m:mo><m:mn>=.3077</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> (rounded to four decimal places)</item>
 <item><m:math display="block">
- <m:semantics>
+ 
   <m:mrow>
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>|</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -1027,7 +1027,7 @@
    </m:mfrac>
    <m:mo>˜</m:mo><m:mn>=.0833</m:mn>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> (rounded to four decimal places)</item>
 </list></solution>
 </exercise>
