@@ -626,7 +626,9 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <para id="fs-idm76738800">0.56 or 56%</para>
 </solution>
 </exercise>
-</note><example id="element-2398">
+</note>
+
+<example id="element-2398">
 <exercise id="element-987"><problem id="id16927407">
 <para id="element-266">From <link target-id="id9703284" document=""/>, find the percentage of heights that fall between 61.95 and 65.95 inches.
 </para></problem>
@@ -646,7 +648,9 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <label/><title>Try It Solutions</title>
 <para id="fs-idm72952848">0.30 + 0.16 + 0.18 = 0.64 or 64%</para>
 </solution>
-</exercise></note><example id="element-235235"><exercise id="element-994"><problem id="id16927469">
+</exercise></note>
+
+<example id="element-235235"><exercise id="element-994"><problem id="id16927469">
 		<para id="element-952">Use the heights of the 100 male semiprofessional soccer players in <link target-id="id9703284" document=""/>. Fill in the blanks and check your answers.
 		</para>
 <list id="element-162" list-type="enumerated" number-style="lower-alpha">

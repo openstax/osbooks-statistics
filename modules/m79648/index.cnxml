@@ -1191,7 +1191,7 @@ b. 3.5, 4.25, 0.2441</para></solution>
 </list></problem>
 <solution id="fs-idp10454080">
 <list id="fs-idm137132816" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">Χ</emphasis> = amount of change students carry</item>
-<item><emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">E</emphasis>(0.88, 0.88)</item>
+<item><emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(1/0.88) or approximately <emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(1.1364)</item>
 <item><m:math>
 <m:mover accent="true">
 <m:mi>X</m:mi>
@@ -1206,8 +1206,8 @@ b. 3.5, 4.25, 0.2441</para></solution>
 
 </m:math> ~ <emphasis effect="italics">N</emphasis>(0.88, 0.176)</item>
 <item>0.0819</item>
-<item>0.1882</item>
-<item>The distributions are different. Part (a) is exponential and part (b) is normal.</item>
+<item>0.4276</item>
+<item>The probability in part (e) represents the probability of an individual value. In part (f), the probability describes the mean of a sample of 25. Part (f) relies on the central limit theorem, so the distributions are different. Part (e) is exponential and part (f) is normal.</item>
 </list></solution>
 </exercise>
 

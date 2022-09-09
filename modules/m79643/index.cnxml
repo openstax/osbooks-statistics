@@ -113,16 +113,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 </solution>
 </exercise>
 
-<note id="fs-idm98690992" class="statistics calculator"><label/>
-<para id="fs-idm197852304">Calculate the <emphasis effect="italics">z</emphasis>-score</para>
-<para id="fs-idm20771216">*Press <code>2nd Distr</code>
-<newline/>*Press <code>3:invNorm</code>(
-<newline/>*Enter the area to the left of <emphasis effect="italics">z</emphasis> followed by )
-<newline/>*Press <code>ENTER</code>.
-<newline/>For this Example, the steps are
-<newline/><code>2nd Distr</code>
-<newline/><code>3:invNorm</code>(.6554) <code>ENTER</code>
-<newline/>The answer is 0.3999, which rounds to 0.4.</para></note><exercise id="element-243">
+<exercise id="element-243">
 <problem id="id1168986705169">
 <para id="element-950">b. Find the probability that a randomly selected student scored less than 85.</para>
 </problem>
