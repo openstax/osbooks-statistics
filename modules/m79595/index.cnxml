@@ -307,7 +307,17 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 </tgroup>
 </table><para id="id3561407">The last entry of the cumulative relative frequency column is one, indicating that one hundred percent of the data has been accumulated.</para>
 <note id="id16479556"><label/><title>NOTE</title>
-<para id="eip-idp27462880">Because of rounding, the relative frequency column may not always sum to one, and the last entry in the cumulative relative frequency column may not be one. However, they each should be close to one.</para></note><para id="element-305"><link target-id="id9703284" document=""/> represents the heights, in inches, of a sample of 100 male semiprofessional soccer players.</para><table id="id9703284" summary="This table presents a range of heights in inches in the first column, the number of students whose height falls within that range in the second column, the relative frequency of students in this range (expressed as both a fraction and a decimal) in the third column, and the cumulative relative frequency (expressed as a sum of current and previous relative frequency values) in the fourth column."><title>Frequency Table of Soccer Player Height</title>
+<para id="eip-idp27462880">Because of rounding, the relative frequency column may not always sum to one, and the last entry in the cumulative relative frequency column may not be one. However, they each should be close to one.</para></note>
+<para id="para-00001">The following data are the heights (in inches to the nearest half inch) of 100 male semiprofessional soccer players. The heights are <emphasis>continuous</emphasis> data since height is measured.
+  <newline/>60, 60.5, 61, 61, 61.5,
+  <newline/>63.5, 63.5, 63.5,
+  <newline/>64, 64, 64, 64, 64, 64, 64, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5,
+  <newline/>66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67.5, 67.5, 67.5, 67.5, 67.5, 67.5, 67.5,
+  <newline/>68, 68, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69.5, 69.5, 69.5, 69.5, 69.5,
+  <newline/>70, 70, 70, 70, 70, 70, 70.5, 70.5, 70.5, 71, 71, 71,
+  <newline/>72, 72, 72, 72.5, 72.5, 73, 73.5,
+  <newline/>74</para>
+<para id="element-305"><link target-id="id9703284" document=""/> summarizes the heights in this sample. Since heights are expressed in tenths, the frequency table will use labels measured in hundredths. This ensures that no data value will coincide with the upper or lower limit of an interval.</para><table id="id9703284" summary="This table presents a range of heights in inches in the first column, the number of students whose height falls within that range in the second column, the relative frequency of students in this range (expressed as both a fraction and a decimal) in the third column, and the cumulative relative frequency (expressed as a sum of current and previous relative frequency values) in the fourth column."><title>Frequency Table of Soccer Player Height</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
