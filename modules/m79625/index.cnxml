@@ -1257,7 +1257,7 @@ The number of people whom you would expect to ask until one says he or she has p
 <meaning id="fs-idm13336304">a statistical experiment with the following properties:
 <list id="fs-idm65008928" list-type="enumerated">
 <item>There are one or more Bernoulli trials with all failures except the last one, which is a success</item>
-<item>In theory, the number of trials could go on foreve; there must be at least one trial</item>
+<item>In theory, the number of trials could go on forever; there must be at least one trial</item>
 <item>The probability, <emphasis effect="italics">p</emphasis>, of a success and the probability, <emphasis effect="italics">q</emphasis>, of a failure do not change from trial to trial</item>
 </list>
 </meaning>
