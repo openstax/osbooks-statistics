@@ -369,7 +369,7 @@ number of successes divided by <emphasis effect="italics">n</emphasis>.)</para>
  </note>-->
 <example id="element-32">
 <exercise id="element-814"><problem id="id24363103">
-  <para id="element-687">Suppose that a market research firm is hired to estimate the percentage of adults living in a large city who have cell phones.  Five hundred randomly selected adult residents in this city are surveyed to determine whether they have cell phones. Of
+  <para id="element-687">Suppose that a market research firm is hired to estimate the percentage of adults living in a large city who have cell phones. Five hundred randomly selected adult residents in this city are surveyed to determine whether they have cell phones. Of
   the 500 people surveyed, 421 responded yes, they own cell phones. Using a 95 percent confidence level, compute a confidence interval estimate for the true proportion of adult residents of this city who have cell phones.</para>
 
 </problem>
@@ -2029,7 +2029,7 @@ Identify the following:
 </problem>
 <solution id="eip-208">
 <para id="eip-idp62067840">CI: (0.5321, 0.6679)</para>
-<figure id="fs-idp73910688"><media id="eip-idp62068224" alt="This is a normal distribution curve. The peak of the curve coincides with the point 0.6 on the horizontal axis.  A central region is shaded between points 0.5321 and 0.6679."><image src="../../media/CNX_Stats_C08_M04_item002annoN.jpg" mime-type="image/jpeg" width="380"/></media></figure>
+<figure id="fs-idp73910688"><media id="eip-idp62068224" alt="This is a normal distribution curve. The peak of the curve coincides with the point 0.6 on the horizontal axis. A central region is shaded between points 0.5321 and 0.6679."><image src="../../media/CNX_Stats_C08_M04_item002annoN.jpg" mime-type="image/jpeg" width="380"/></media></figure>
 <para id="eip-idp97751072"><emphasis effect="italics">EBM</emphasis>: 0.0679</para></solution>
 </exercise>
 
@@ -2053,7 +2053,7 @@ Identify the following:
 </problem>
 <solution id="eip-284">
 <para id="eip-idp28777568">CI: (0.19432, 0.33068)</para>
-<figure id="fs-idm39446528"><media id="eip-idp150796640" alt="This is a normal distribution curve. The peak of the curve coincides with the point 0.26 on the horizontal axis.  A central region is shaded between points 0.1943 and 0.3307."><image src="../../media/CNX_Stats_C08_M04_item002anno.jpg" mime-type="image/jpeg" width="380"/></media></figure>
+<figure id="fs-idm39446528"><media id="eip-idp150796640" alt="This is a normal distribution curve. The peak of the curve coincides with the point 0.26 on the horizontal axis. A central region is shaded between points 0.1943 and 0.3307."><image src="../../media/CNX_Stats_C08_M04_item002anno.jpg" mime-type="image/jpeg" width="380"/></media></figure>
 <para id="eip-idp173934176"><emphasis effect="italics">EBM</emphasis>: 0.0707</para>
 </solution>
 </exercise>
@@ -2204,7 +2204,7 @@ Calculate the following:
 </exercise><exercise id="element-478"><problem id="id9923031">
   <para id="element-717">Using the same <emphasis effect="italics">p</emphasis>′ and <emphasis effect="italics">n</emphasis> = 80, how would the error bound change if the confidence level were increased to 98 percent? Why?
   </para></problem>
-  <solution id="fs-idm19388800"><para id="fs-idm19388672">The error bound would increase.  Assuming all other variables are kept constant, as the confidence level increases, the area under the curve corresponding to the confidence level becomes larger, which creates a wider interval and thus a larger error.</para></solution>
+  <solution id="fs-idm19388800"><para id="fs-idm19388672">The error bound would increase. Assuming all other variables are kept constant, as the confidence level increases, the area under the curve corresponding to the confidence level becomes larger, which creates a wider interval and thus a larger error.</para></solution>
 </exercise><exercise id="element-154"><problem id="id3186484">
   <para id="element-588">If you decreased the allowable error bound, why would the minimum sample size increase (keeping the same level of confidence)?</para>
 </problem>
@@ -2390,7 +2390,7 @@ Calculate the following:
      </list>
     </item>
     <item>One way to lower the sampling error is to increase the sample size.</item>
-    <item>The stated <emphasis effect="italics">± 3 percent</emphasis> represents the maximum error bound.  This means that those doing the study are reporting a maximum error of 3 percent.  Thus, they estimate the percentage of adult Americans who the percentage of adult Americans who that crime is the main problem to be between 18 percent and 22 percent.</item>
+    <item>The stated <emphasis effect="italics">± 3 percent</emphasis> represents the maximum error bound. This means that those doing the study are reporting a maximum error of 3 percent. Thus, they estimate the percentage of adult Americans who the percentage of adult Americans who that crime is the main problem to be between 18 percent and 22 percent.</item>
   </list></solution>
 </exercise></para>
 <para id="id7660428"><exercise id="exerrrrcise1"><problem id="id5247798">
@@ -2631,7 +2631,7 @@ Calculate the following:
 </solution>
 </exercise>
 <exercise id="eip-701"><problem id="eip-710">
-  <para id="eip-439">In a recent poll, 9 of 48 respondents rated the likelihood of a certain event occurring in their community as <emphasis effect="italics">likely</emphasis> or <emphasis effect="italics">very likely</emphasis>. Use the plus-four method to create a 97 percent confidence interval for the proportion of American adults who believe that the event is likely or very likely. Explain what this confidence interval means in the context of the problem. A local poll in a New England town found that nine of 48 households think winter-proofing their cars is <emphasis effect="italics">very important</emphasis>.  Use the plus-four method to create a 97 percent confidence interval for the proportion of town residents who think winter-proofing their cars is <emphasis effect="italics">very important</emphasis>.  Explain what this confidence interval means in the context of this scenario.</para></problem>
+  <para id="eip-439">In a recent poll, 9 of 48 respondents rated the likelihood of a certain event occurring in their community as <emphasis effect="italics">likely</emphasis> or <emphasis effect="italics">very likely</emphasis>. Use the plus-four method to create a 97 percent confidence interval for the proportion of American adults who believe that the event is likely or very likely. Explain what this confidence interval means in the context of the problem. A local poll in a New England town found that nine of 48 households think winter-proofing their cars is <emphasis effect="italics">very important</emphasis>. Use the plus-four method to create a 97 percent confidence interval for the proportion of town residents who think winter-proofing their cars is <emphasis effect="italics">very important</emphasis>. Explain what this confidence interval means in the context of this scenario.</para></problem>
 </exercise></section>
  </content>
 <glossary>

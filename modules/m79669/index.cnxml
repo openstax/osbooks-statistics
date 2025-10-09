@@ -433,7 +433,7 @@ significance.</para></problem>
  <para id="fs-idm126341728">Do the data indicate that Democratic senators are older than Republican senators, on average? Test at a 5 percent level of significance.</para>
 </problem>
 <solution id="fs-idm81176960">
-<para id="fs-idm81176832">This is a test of two independent groups, two population means. The population standard deviations are unknown, but the sum of the sample sizes is 30 + 30 = 60, which is greater than 30, so we can use the normal approximation to the Student’s-<emphasis effect="italics">t</emphasis> distribution.  <newline/> Subscripts: 1: Democratic senators; 2: Republican senators</para><para id="fs-idm127611248"><emphasis>Random variable:</emphasis> <m:math>
+<para id="fs-idm81176832">This is a test of two independent groups, two population means. The population standard deviations are unknown, but the sum of the sample sizes is 30 + 30 = 60, which is greater than 30, so we can use the normal approximation to the Student’s-<emphasis effect="italics">t</emphasis> distribution. <newline/> Subscripts: 1: Democratic senators; 2: Republican senators</para><para id="fs-idm127611248"><emphasis>Random variable:</emphasis> <m:math>
   <m:mrow>
    <m:msub>
     <m:mover accent="true">
@@ -989,7 +989,7 @@ significance.</para></problem>
 </exercise>
 
   <exercise id="fs-idm126682256">
-   <problem id="fs-idm104577968"><para id="fs-idm104577840">A baseball fan wanted to know if there is a difference between the number of games played in a World Series when the American League won the series versus when the National League won the series. From 1922 to 2012, the population standard deviation of games won by the American League was 1.14, and the population standard deviation of games won by the National League was 1.11.  Of 19 randomly selected World Series games won by the American League, the mean number of games won was 5.76.  The mean number of 17 randomly selected games won by the National League was 5.42. Conduct a hypothesis test.</para></problem>
+   <problem id="fs-idm104577968"><para id="fs-idm104577840">A baseball fan wanted to know if there is a difference between the number of games played in a World Series when the American League won the series versus when the National League won the series. From 1922 to 2012, the population standard deviation of games won by the American League was 1.14, and the population standard deviation of games won by the National League was 1.11. Of 19 randomly selected World Series games won by the American League, the mean number of games won was 5.76. The mean number of 17 randomly selected games won by the National League was 5.42. Conduct a hypothesis test.</para></problem>
   </exercise>
 
 <exercise id="eip-267"><problem id="eip-idp3652144">

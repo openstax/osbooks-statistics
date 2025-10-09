@@ -396,7 +396,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
 
 </m:mrow>
 </m:math>  = the variance of the sample means</item>
-</list><para id="eip-580">Data is typically put into a table for easy viewing.  One-way ANOVA results are often displayed in this manner by computer software.
+</list><para id="eip-580">Data is typically put into a table for easy viewing. One-way ANOVA results are often displayed in this manner by computer software.
 
 <table id="eip-id1172021872456" summary="General One-Way ANOVA Table with 3 rows and 4 columns.">
 <tgroup cols="5">
@@ -440,7 +440,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
 </tgroup>
 </table></para>
 
-<example id="eip-546"><para id="eip-125">Three different diet plans are to be tested for mean weight loss.  The entries in the table are the weight losses for the different plans. The one-way ANOVA results are shown in <link target-id="eip-id2754369"/>.</para><table id="eip-id2754369" summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station.">
+<example id="eip-546"><para id="eip-125">Three different diet plans are to be tested for mean weight loss. The entries in the table are the weight losses for the different plans. The one-way ANOVA results are shown in <link target-id="eip-id2754369"/>.</para><table id="eip-id2754369" summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station.">
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -895,7 +895,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
 <item>Black plastic</item>
 <item>Straw</item>
 <item>Compost</item>
-</list><para id="fs-idm49310544">All plants grew under the same conditions and were the same variety.  Students recorded the weight in grams of tomatoes produced by each of the <emphasis effect="italics">n</emphasis> = 15 plants, as seen in <link target-id="fs-idm49309984"/>.</para><table id="fs-idm49309984" summary="Table four shows 5 columns. The first column title is Bare: n1 =3. From top to bottom the column reads: 2,625 2,997, 4,915. Column two reads from top to bottom: Ground Cover: n2 =3, 5,348 , 5,682 , 5,482. Column three reads from top to bottom: Plastic: n3 = 3: 6,583 , 8, 560 , 3,830. Column 4 reads from top to bottom: Straw: n4 = 3: 7,285 , 6,897 , 9,230. Column 4 reads from top to bottom Compost: n5 =3: 6,277 , 7,818, 8,677">
+</list><para id="fs-idm49310544">All plants grew under the same conditions and were the same variety. Students recorded the weight in grams of tomatoes produced by each of the <emphasis effect="italics">n</emphasis> = 15 plants, as seen in <link target-id="fs-idm49309984"/>.</para><table id="fs-idm49309984" summary="Table four shows 5 columns. The first column title is Bare: n1 =3. From top to bottom the column reads: 2,625 2,997, 4,915. Column two reads from top to bottom: Ground Cover: n2 =3, 5,348 , 5,682 , 5,482. Column three reads from top to bottom: Plastic: n3 = 3: 6,583 , 8, 560 , 3,830. Column 4 reads from top to bottom: Straw: n4 = 3: 7,285 , 6,897 , 9,230. Column 4 reads from top to bottom Compost: n5 =3: 6,277 , 7,818, 8,677">
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1031,7 +1031,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
 
 <section id="fs-idp65787616" class="summary">
 <title>Chapter Review</title>
-<para id="eip-18">Analysis of variance compares the means of a response variable for several groups. ANOVA compares the variation within each group to the variation of the mean of each group. The ratio of these two is the <emphasis effect="italics">F</emphasis> statistic from an <emphasis effect="italics">F</emphasis> distribution with (number of groups – 1) as the numerator degrees of freedom and (number of observations – number of groups) as the denominator degrees of freedom.  These statistics are summarized in the ANOVA table.
+<para id="eip-18">Analysis of variance compares the means of a response variable for several groups. ANOVA compares the variation within each group to the variation of the mean of each group. The ratio of these two is the <emphasis effect="italics">F</emphasis> statistic from an <emphasis effect="italics">F</emphasis> distribution with (number of groups – 1) as the numerator degrees of freedom and (number of observations – number of groups) as the denominator degrees of freedom. These statistics are summarized in the ANOVA table.
 </para>
 </section>
 

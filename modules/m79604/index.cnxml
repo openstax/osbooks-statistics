@@ -193,10 +193,10 @@ The two most widely used measures of the <emphasis effect="italics">center</emph
 <note id="fs-idp50763088" class="statistics calculator">
 <label/>
 <para id="fs-idp54507328">To find the mean and the median:</para>
-<para id="fs-idp87775312">Clear list L1.  Pres STAT 4:ClrList. Enter 2<sup>nd</sup> 1 for list L1. Press ENTER.</para>
-<para id="fs-idm47103392">Enter data into the list editor.  Press STAT 1:EDIT.</para>
+<para id="fs-idp87775312">Clear list L1. Pres STAT 4:ClrList. Enter 2<sup>nd</sup> 1 for list L1. Press ENTER.</para>
+<para id="fs-idm47103392">Enter data into the list editor. Press STAT 1:EDIT.</para>
 <para id="fs-idp45529696">Put the data values into list L1.</para>
-<para id="fs-idp33349200">Press STAT and arrow to CALC.  Press 1:1-VarStats. Press 2<sup>nd</sup> 1 for L1 and then ENTER.</para>
+<para id="fs-idp33349200">Press STAT and arrow to CALC. Press 1:1-VarStats. Press 2<sup>nd</sup> 1 for L1 and then ENTER.</para>
 <para id="fs-idp46064432">Press the down and up arrow keys to scroll.</para>
 <para id="fs-idp50820000"><m:math>
  <m:mover accent="true">
@@ -251,7 +251,7 @@ The two most widely used measures of the <emphasis effect="italics">center</emph
  </m:mrow>
 </m:math></para><para id="element-311"><emphasis effect="italics">M</emphasis> = 30,000
 </para><para id="element-831">There are 49 people who earn $30,000 and one person who earns $5,000,000.</para>
-<para id="element-564">The median is a better measure of the <emphasis effect="italics">center</emphasis> than the mean because 49 of  the values are 30,000 and one is 5,000,000.  The 5,000,000 is an outlier.  The 30,000 gives us a better sense of the middle of the data.</para>
+<para id="element-564">The median is a better measure of the <emphasis effect="italics">center</emphasis> than the mean because 49 of  the values are 30,000 and one is 5,000,000. The 5,000,000 is an outlier. The 30,000 gives us a better sense of the middle of the data.</para>
 </solution>
 </exercise>
 </example>
@@ -290,7 +290,7 @@ The two most widely used measures of the <emphasis effect="italics">center</emph
 <note id="eip-146"><label/><title>NOTE</title>
 <para id="fs-idm78257648">The mode can be calculated for qualitative data as well as for quantitative data. For example, if the data set is red, red, red, green, green, yellow, purple, black, blue, the mode is red.</para></note>
 
-<para id="element-660" class="finger">Statistical software will easily calculate the mean, the median, and the mode. Some graphing calculators can also make these calculations.  In the real world, people make these calculations using software.</para>
+<para id="element-660" class="finger">Statistical software will easily calculate the mean, the median, and the mode. Some graphing calculators can also make these calculations. In the real world, people make these calculations using software.</para>
 </example>
 
 <note id="fs-idp55881696" class="statistics try"><label/><title>Try It</title>
@@ -395,7 +395,7 @@ The two most widely used measures of the <emphasis effect="italics">center</emph
 
 </tgroup>
 </table><para id="eip-7"><emphasis>A relative frequency distribution includes the relative frequencies of a number of samples.</emphasis></para>
-<para id="eip-309">Recall that a <emphasis>statistic</emphasis> is a number calculated from a sample. Statistic examples include the mean, the median, and the mode as well as others.  The sample mean <m:math><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> is an example of a statistic that estimates the population mean <emphasis effect="italics">μ</emphasis>.</para></section>
+<para id="eip-309">Recall that a <emphasis>statistic</emphasis> is a number calculated from a sample. Statistic examples include the mean, the median, and the mode as well as others. The sample mean <m:math><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> is an example of a statistic that estimates the population mean <emphasis effect="italics">μ</emphasis>.</para></section>
 
 <section id="fs-idp28527728">
 <title>Calculating the Mean of Grouped Frequency Tables</title>
@@ -821,7 +821,7 @@ The two most widely used measures of the <emphasis effect="italics">center</emph
 </section><section id="fs-idm1725088" class="bring-together-homework"><title>Bringing It Together</title>
 <exercise id="element-832">
 <problem id="id6092616">
-<para id="JavErc">Javier and Ercilia are supervisors at a shopping mall. Each was given the task of estimating the mean distance that shoppers live from the mall. They each randomly surveyed 100 shoppers.  The samples yielded the following information.</para>
+<para id="JavErc">Javier and Ercilia are supervisors at a shopping mall. Each was given the task of estimating the mean distance that shoppers live from the mall. They each randomly surveyed 100 shoppers. The samples yielded the following information.</para>
 <table id="element-72" summary="This table presents two shopping mall supervisors and their estimations of the mean distance shoppers live from the mall. Javier's data is in the second column and Ercilia is in the third column. The first row is for sample means and the second row is for standard deviations.">
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
@@ -862,7 +862,7 @@ The two most widely used measures of the <emphasis effect="italics">center</emph
 <figure id="eip-idm218452576"><media id="id8387446" display="block" alt="This shows two histograms. The first histogram shows a fairly symmetrical distribution with a mode of 6. The second histogram shows a uniform distribution."><image src="../../media/fig-ch02_13_09.jpg" mime-type="image/jpg" width="450"/></media>
 </figure></item>
 <item>If the two box plots depict the distribution of values for each supervisor, which one depicts Ercilia’s sample?  How do you know?<newline/>
-<figure id="eip-idm179364784"><media id="id8629835" display="block" alt="This shows two horizontal boxplots. The first boxplot is graphed over a number line from 0 to 21. The first whisker extends from 0 to 1. The box begins at the first quartile, 1, and ends at the third quartile, 14. A vertical, dashed line marks the median at 6. The second whisker extends from the third quartile to the largest value, 21. The second boxplot is graphed over a number line from 0 to 12.  The first whisker extends from 0 to 4. The box begins at the first quartile, 4, and ends at the third quartile, 9. A vertical, dashed line marks the median at 6. The second whisker extends from the third quartile to the largest value, 12."><image src="../../media/fig-ch02_13_10.jpg" mime-type="image/jpg" width="450"/></media>
+<figure id="eip-idm179364784"><media id="id8629835" display="block" alt="This shows two horizontal boxplots. The first boxplot is graphed over a number line from 0 to 21. The first whisker extends from 0 to 1. The box begins at the first quartile, 1, and ends at the third quartile, 14. A vertical, dashed line marks the median at 6. The second whisker extends from the third quartile to the largest value, 21. The second boxplot is graphed over a number line from 0 to 12. The first whisker extends from 0 to 4. The box begins at the first quartile, 4, and ends at the third quartile, 9. A vertical, dashed line marks the median at 6. The second whisker extends from the third quartile to the largest value, 12."><image src="../../media/fig-ch02_13_10.jpg" mime-type="image/jpg" width="450"/></media>
 </figure></item></list>
 </problem>
 </exercise>

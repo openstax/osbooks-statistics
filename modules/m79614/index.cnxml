@@ -901,7 +901,7 @@
 </list>
 </problem>
 </exercise>-->
-<para id="fs-id1170309364064"><term id="term-00004"><emphasis effect="italics">Use the following information to answer the next three exercises</emphasis></term>.  A local restaurant sells pork chops and chicken breasts.  The given values below are the weights (in ounces) of pork chops and chicken breasts listed on the menu.  Your server will randomly select one piece of meat (pork chop or chicken breast) that you will be served.</para>
+<para id="fs-id1170309364064"><term id="term-00004"><emphasis effect="italics">Use the following information to answer the next three exercises</emphasis></term>. A local restaurant sells pork chops and chicken breasts. The given values below are the weights (in ounces) of pork chops and chicken breasts listed on the menu. Your server will randomly select one piece of meat (pork chop or chicken breast) that you will be served.</para>
 <table id="fs-id1170309442421" summary="This shows a table with eleven columns and four rows. The first two rows are shaded gray. The last two rows are white. ‘Pork Chops” is written in column one, rows one and two. “Chicken Breasts” is written in column one, rows three and four. Read from top the bottom the column values are as follows: The values in column two are 17, 20, 17, and 20. Column three values are 20, 19, 19, and 17. Column four values are 21, 21, 17, and 20. Column five values are 18, 20, 21, and 18. Column six values 20, 18, 17, and 19. Column seven values 20, 20, 21, and 20. Column eight values 20, 20, 18 and 20. Column nine values 18, 19, 21, and 17. Column 10 values 19, 18, 19, and 21. Column 11 values 19, 19, 21, and 20.">
 <tgroup cols="11">
 <colspec colnum="1" colname="c1"/>
@@ -1237,7 +1237,7 @@
 </row>
 <row>
 <entry>b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">E</emphasis>) =</entry>
-<entry>ii.  .623</entry>
+<entry>ii. .623</entry>
 </row>
 <row>
 <entry>c. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">S</emphasis> and <emphasis effect="italics">E′</emphasis>) =</entry>
@@ -1245,7 +1245,7 @@
 </row>
 <row>
 <entry>d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">S</emphasis>|<emphasis effect="italics">E′</emphasis>) =</entry>
-<entry>iv.  .1219</entry>
+<entry>iv. .1219</entry>
 </row>
 </tbody>
 </tgroup>

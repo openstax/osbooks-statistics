@@ -540,7 +540,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <para id="fs-id1164567608105">Wikipedia (2013). <emphasis effect="italics">Naegele's rule</emphasis>. Retrieved from http://en.wikipedia.org/wiki/Naegele's_rule</para><para id="fs-id1164565546996">Win at the Lottery. (2013). <emphasis effect="italics">Scratch-off lottery ticket playing tips</emphasis>. Retrieved  from www.winatthelottery.com/public/department40.cfm</para>
 </section><section id="eip-424" class="summary">
 <title>Chapter Review</title>
-<para id="eip-960">The normal distribution, which is continuous, is the most important of all the probability distributions. Its graph is bell-shaped. This bell-shaped curve is used in almost all disciplines. Since it is a continuous distribution, the total area under the curve is one.  The parameters of the normal are the mean <emphasis effect="italics">µ</emphasis> and the standard deviation <emphasis effect="italics">σ</emphasis>. A special normal distribution, called the standard normal distribution, is the distribution of <emphasis effect="italics">z</emphasis>-scores. Its mean is zero, and its standard deviation is one.</para></section>
+<para id="eip-960">The normal distribution, which is continuous, is the most important of all the probability distributions. Its graph is bell-shaped. This bell-shaped curve is used in almost all disciplines. Since it is a continuous distribution, the total area under the curve is one. The parameters of the normal are the mean <emphasis effect="italics">µ</emphasis> and the standard deviation <emphasis effect="italics">σ</emphasis>. A special normal distribution, called the standard normal distribution, is the distribution of <emphasis effect="italics">z</emphasis>-scores. Its mean is zero, and its standard deviation is one.</para></section>
 
 <section id="eip-108" class="formula-review">
 <title>Formula Review</title>
@@ -761,9 +761,9 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <!-- <solution id="id16763246">
 <para id="element-722">c</para>
 </solution> --></exercise><exercise id="eip-581"><problem id="id20593649">
-<para id="element-232">According to a study done by De Anza students, the height for Asian adult males is normally distributed with an average of 66 inches and a standard deviation of 2.5 inches.  Suppose one Asian adult male is randomly chosen.  Let <emphasis effect="italics">X</emphasis> = height of the individual.</para>
+<para id="element-232">According to a study done by De Anza students, the height for Asian adult males is normally distributed with an average of 66 inches and a standard deviation of 2.5 inches. Suppose one Asian adult male is randomly chosen. Let <emphasis effect="italics">X</emphasis> = height of the individual.</para>
 <list id="element-602" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____ (_____ ,_____)</item>
-<item>Find the probability that the person is between 65 and 69 inches.  Include a sketch of the graph, and write a probability statement.</item>
+<item>Find the probability that the person is between 65 and 69 inches. Include a sketch of the graph, and write a probability statement.</item>
 <item>Would you expect to meet many Asian adult males taller than 72 inches? Explain why or why not, and
 numerically justify your answer.</item>
 <item>The middle 40 percent of heights fall between what two values? Sketch the graph, and write the
@@ -774,7 +774,7 @@ probability statement.</item>
 <item>0.5404</item>
 <item>No, the probability that an Asian male is over 72 inches tall is 0.0082.</item>
 </list></solution></exercise><exercise id="eip-563"><problem id="id21466710">
-<para id="element-861">IQ is normally distributed with a mean of 100 and a standard deviation of 15.  Suppose one individual is randomly chosen.  Let <emphasis effect="italics">X</emphasis> =  IQ of an individual.</para>
+<para id="element-861">IQ is normally distributed with a mean of 100 and a standard deviation of 15. Suppose one individual is randomly chosen. Let <emphasis effect="italics">X</emphasis> =  IQ of an individual.</para>
 <list id="element-932" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____ (_____, _____)</item>
 <item>Find the probability that the person has an IQ greater than 120. Include a sketch of the graph, and write a probability statement.</item>
 <item>MENSA is an organization whose members have the top 2 percent of all IQs. Find the minimum IQ needed to qualify for the MENSA organization. Sketch the graph, and write the probability statement.</item>
@@ -787,7 +787,7 @@ probability statement.</item>
 <item>A person has to have an IQ over 130 to qualify for MENSA.</item>
 <item>The middle 50% of IQ scores falls between 89.95 and 110.05.</item>
 </list></solution> --></exercise><exercise id="eip-516"><problem id="id25415343">
-<para id="element-811">The percent of fat calories that a person in the United States consumes each day is normally distributed with a mean of about 36 and a standard deviation of 10.  Suppose that one individual is randomly chosen. Let <emphasis effect="italics">X</emphasis> = percentage of fat calories.</para><list id="element-993" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____ (_____, _____)</item>
+<para id="element-811">The percent of fat calories that a person in the United States consumes each day is normally distributed with a mean of about 36 and a standard deviation of 10. Suppose that one individual is randomly chosen. Let <emphasis effect="italics">X</emphasis> = percentage of fat calories.</para><list id="element-993" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____ (_____, _____)</item>
 <item>Find the probability that the percentage of fat calories a person consumes is more than 40. Graph the situation. Shade in the area to be determined.</item>
 <item>Find the maximum number for the lower quarter of percent of fat calories. Sketch the graph and write the probability statement.</item>
 </list></problem>
@@ -799,7 +799,7 @@ probability statement.</item>
 <para id="element-313">Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet.</para>
 <list id="element-107" list-type="enumerated" number-style="lower-alpha"><item>If <emphasis effect="italics">X</emphasis> = distance in feet for a fly ball, then <emphasis effect="italics">X</emphasis> ~ _____ (_____, _____)</item>
 <item>If one fly ball is randomly chosen from this distribution, what is the probability that this ball traveled less than 220 feet? Sketch the graph. Scale the horizontal axis <emphasis effect="italics">X</emphasis>. Shade the region corresponding to the probability. Find the probability.</item>
-<item>Find the 80<sup>th</sup> percentile of the distribution of fly balls.  Sketch the graph, and write the probability statement.</item>
+<item>Find the 80<sup>th</sup> percentile of the distribution of fly balls. Sketch the graph, and write the probability statement.</item>
 </list></problem>
 
 <!-- <solution id="eip-idp105794048">
@@ -807,7 +807,7 @@ probability statement.</item>
 <item>The probability that a fly ball travels less than 220 feet is 0.2743.</item>
 <item>Eighty percent of the fly balls will travel less than 292 feet.</item>
 </list></solution> --></exercise><exercise id="eip-930"><problem id="id16003321">
-<para id="element-842">In China, four-year-olds average three hours a day unsupervised.  Most of the unsupervised children live in rural areas, considered safe.  Suppose that the standard deviation is 1.5 hours and the amount of time spent alone is normally distributed.  We randomly select one Chinese four-year-old living in a rural area. We are interested in the amount of time that child spends alone per day.</para><list id="element-265" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<para id="element-842">In China, four-year-olds average three hours a day unsupervised. Most of the unsupervised children live in rural areas, considered safe. Suppose that the standard deviation is 1.5 hours and the amount of time spent alone is normally distributed. We randomly select one Chinese four-year-old living in a rural area. We are interested in the amount of time that child spends alone per day.</para><list id="element-265" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item><emphasis effect="italics">X</emphasis> ~ _____ (_____, _____)</item>
 <item>Find the probability that the child spends less than one hour per day unsupervised. Sketch the graph, and write the probability statement.</item>
 <item>What percentage of the children spend more than 10 hours per day unsupervised?</item>
@@ -820,7 +820,7 @@ probability statement.</item>
 <item>The probability that a child spends over 10 hours a day unsupervised is less than 0.0001.</item>
 <item>2.21 hours</item>
 </list></solution></exercise><exercise id="eip-698"><problem id="id19993022">
-<para id="element-366">In the 1992 presidential election, Alaska’s 40 election districts averaged 1,956.8 votes per district for a candidate.  The standard deviation was  572.3. There are only 40 election districts in Alaska. The distribution of the votes per district for the candidate was bell-shaped.  Let <emphasis effect="italics">X</emphasis> = number of votes for the candidate for an election district. </para>
+<para id="element-366">In the 1992 presidential election, Alaska’s 40 election districts averaged 1,956.8 votes per district for a candidate. The standard deviation was  572.3. There are only 40 election districts in Alaska. The distribution of the votes per district for the candidate was bell-shaped. Let <emphasis effect="italics">X</emphasis> = number of votes for the candidate for an election district. </para>
 <list id="element-780" list-type="enumerated" number-style="lower-alpha"><item>State the approximate distribution of <emphasis effect="italics">X</emphasis>.</item>
 <item>Is 1,956.8 a population mean or a sample mean? How do you know?</item>
 <item>Find the probability that a randomly selected district had fewer than 1,600 votes for the candidate. Sketch the graph, and write the probability statement.</item>
@@ -849,7 +849,7 @@ probability statement.</item>
 </list></solution></exercise>
 
 <exercise id="eip-335"><problem id="id24511113">
-<para id="element-695">Terri Vogel, an amateur motorcycle racer, averages 129.71 seconds per 2.5-mile lap, in a seven-lap race, with a standard deviation of 2.28 seconds. The distribution of her race times is normally distributed.  We are interested in one of her randomly selected laps. </para><list id="element-598" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<para id="element-695">Terri Vogel, an amateur motorcycle racer, averages 129.71 seconds per 2.5-mile lap, in a seven-lap race, with a standard deviation of 2.28 seconds. The distribution of her race times is normally distributed. We are interested in one of her randomly selected laps. </para><list id="element-598" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item><emphasis effect="italics">X</emphasis> ~ _____ (_____, _____)</item>
 <item>Find the percent of her laps that are completed in less than 130 seconds.</item>
 <item>The fastest 3 percent of her laps are under _____.</item>
@@ -970,7 +970,7 @@ probability statement.</item>
 <item>The answers to part f and part g are close, because a normal distribution is an excellent approximation when the sample size is greater than 30.</item>
 <item>The approximation would have been less accurate, because the smaller sample size means that the data does not fit a normal curve as well.</item>
 </list></solution></exercise><exercise id="eip-24"><problem id="id14371352">
-<para id="element-897">Suppose that Ricardo and Anita attend different colleges.  Ricardo’s GPA is the same as the average GPA at his school.  Anita’s GPA is 0.70 standard deviations above her school average. In complete sentences, explain why each of the following statements may be false:</para><list id="element-264" list-type="enumerated" number-style="lower-alpha">
+<para id="element-897">Suppose that Ricardo and Anita attend different colleges. Ricardo’s GPA is the same as the average GPA at his school. Anita’s GPA is 0.70 standard deviations above her school average. In complete sentences, explain why each of the following statements may be false:</para><list id="element-264" list-type="enumerated" number-style="lower-alpha">
 <item>Ricardo’s actual GPA is lower than Anita’s actual GPA.</item>
 <item>Ricardo is not passing because his <emphasis effect="italics">z</emphasis>-score is zero.</item>
 <item>Anita is in the 70<sup>th</sup> percentile of students at her college.</item>
@@ -982,7 +982,7 @@ probability statement.</item>
 the average for his school, which is typically a passing GPA.</item>
 <item>Anita&#8217;s percentile is higher than the 70<sup>th</sup> percentile.</item>
 </list></solution> --></exercise><exercise id="eip-67"><problem id="id20765694">
-<para id="element-557"><link target-id="element-666" document=""/> shows a sample of the maximum capacitymaximum number of spectatorsof sports stadiums.  The table does not include horse-racing or motor-racing stadiums.
+<para id="element-557"><link target-id="element-666" document=""/> shows a sample of the maximum capacitymaximum number of spectatorsof sports stadiums. The table does not include horse-racing or motor-racing stadiums.
 <table id="element-666" summary="The table is a sample of the capacity of 60 sports stadiums ordered by the maximum number of spectators. Horse racing and motor racing stadiums are not included.">
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1165,7 +1165,7 @@ approximation.</item>
 </m:math> = 3</item>
 </list><list id="eip-idm100993808" list-type="enumerated" number-style="lower-roman"><item><emphasis effect="italics">z</emphasis> = ±1:   <emphasis effect="italics">x<sub>1</sub></emphasis> = <emphasis effect="italics">µ</emphasis> + <emphasis effect="italics">zσ</emphasis> = 10 + 1(3) = 13  and  <emphasis effect="italics">x</emphasis>2 = <emphasis effect="italics">µ</emphasis> – <emphasis effect="italics">zσ</emphasis> = 10 – 1(3) = 7. 68 percent of the defective cars will fall between seven and 13</item>
 <item><emphasis effect="italics">z</emphasis> = ±2:   <emphasis effect="italics">x<sub>1</sub></emphasis> = <emphasis effect="italics">µ</emphasis> + <emphasis effect="italics">zσ</emphasis> = 10 + 2(3) = 16 and <emphasis effect="italics">x</emphasis>2 = <emphasis effect="italics">µ</emphasis> – <emphasis effect="italics">zσ</emphasis> = 10 – 2(3) = 4. 95 percent of the defective cars will fall between four and 16</item>
-<item><emphasis effect="italics">z</emphasis> = ±3:   <emphasis effect="italics">x<sub>1</sub></emphasis> = <emphasis effect="italics">µ</emphasis> + <emphasis effect="italics">zσ</emphasis> = 10 + 3(3) = 19 and  <emphasis effect="italics">x</emphasis>2 = <emphasis effect="italics">µ</emphasis> – <emphasis effect="italics">zσ</emphasis> = 10 – 3(3) = 1.  99.7 percent of the defective cars will fall between one and 19</item></list></solution>
+<item><emphasis effect="italics">z</emphasis> = ±3:   <emphasis effect="italics">x<sub>1</sub></emphasis> = <emphasis effect="italics">µ</emphasis> + <emphasis effect="italics">zσ</emphasis> = 10 + 3(3) = 19 and  <emphasis effect="italics">x</emphasis>2 = <emphasis effect="italics">µ</emphasis> – <emphasis effect="italics">zσ</emphasis> = 10 – 3(3) = 1. 99.7 percent of the defective cars will fall between one and 19</item></list></solution>
 </exercise>
 
 <exercise id="eip-35"><problem id="eip-299">
@@ -1224,7 +1224,7 @@ approximation.</item>
 </list></solution></exercise>
 
 <exercise id="eip-291"><problem id="eip-455">
-<para id="eip-630">A social media site provides a variety of statistics on its website that detail the growth and popularity of the site.</para><para id="eip-idp26662736">On average,  28 percent of 18- to 34-year-olds check their social media profiles before getting out of bed in the morning.  Suppose this percentage follows a normal distribution with a standard deviation of five percent.</para><list id="eip-idp160307472" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that the percentage of 18- to 34-year-olds who check the social media website before getting out of bed in the morning is at least 30.</item>
+<para id="eip-630">A social media site provides a variety of statistics on its website that detail the growth and popularity of the site.</para><para id="eip-idp26662736">On average,  28 percent of 18- to 34-year-olds check their social media profiles before getting out of bed in the morning. Suppose this percentage follows a normal distribution with a standard deviation of five percent.</para><list id="eip-idp160307472" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that the percentage of 18- to 34-year-olds who check the social media website before getting out of bed in the morning is at least 30.</item>
 <item>Find the 95<sup>th</sup> percentile,  and express it in a sentence.</item>
 </list></problem>
 

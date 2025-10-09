@@ -522,7 +522,7 @@
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M05_001N.jpg" width="380"/>
 </media>
 </figure></para>
-<para id="fs-idm45951248"><emphasis>Calculate the <emphasis effect="italics">p</emphasis>-value:</emphasis> The <emphasis effect="italics">p</emphasis>-value is 0.0716 (using the data directly).</para><para id="fs-idp16197920">Test statistic = 2.18.  <emphasis effect="italics">p</emphasis>-value = 0.0719 using <m:math>
+<para id="fs-idm45951248"><emphasis>Calculate the <emphasis effect="italics">p</emphasis>-value:</emphasis> The <emphasis effect="italics">p</emphasis>-value is 0.0716 (using the data directly).</para><para id="fs-idp16197920">Test statistic = 2.18. <emphasis effect="italics">p</emphasis>-value = 0.0719 using <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1176,7 +1176,7 @@
 
 <exercise id="fs-idp83186240">
 <problem id="fs-idp70867824">
-<para id="fs-idp70868080">A traveler wanted to know if the prices of hotels are different in the 10 cities that he visits the most often. The list of the cities with the corresponding prices for his two favorite hotel chains is in <link target-id="fs-idp126693504"/>.  Test at the 1 percent level of significance.</para><table id="fs-idp126693504" summary="A three column table is shown. The first row reads Cities, Hyatt Regency Prices in Dollars, Hilton prices in dollars. The second row reads Atlanta, 107, 169. The third row reads Boston, 358, 289. The fourth row reads Chicago, 209, 299. The fifth row reads Dallas, 209, 198. The sixth row reads Denver, 167, 169. The seventh row reads Indianapolis, 179, 214. The eighth row reads Los Angeles, 179, 169. The ninth row reads New York City, 625, 459. The tenth row reads Philadelphia, 179, 159. The eleventh row reads Washington DC, 245, 239.">
+<para id="fs-idp70868080">A traveler wanted to know if the prices of hotels are different in the 10 cities that he visits the most often. The list of the cities with the corresponding prices for his two favorite hotel chains is in <link target-id="fs-idp126693504"/>. Test at the 1 percent level of significance.</para><table id="fs-idp126693504" summary="A three column table is shown. The first row reads Cities, Hyatt Regency Prices in Dollars, Hilton prices in dollars. The second row reads Atlanta, 107, 169. The third row reads Boston, 358, 289. The fourth row reads Chicago, 209, 299. The fifth row reads Dallas, 209, 198. The sixth row reads Denver, 167, 169. The seventh row reads Indianapolis, 179, 214. The eighth row reads Los Angeles, 179, 169. The ninth row reads New York City, 625, 459. The tenth row reads Philadelphia, 179, 159. The eleventh row reads Washington DC, 245, 239.">
 <tgroup cols="3">
 <thead>
 <row>
@@ -1244,7 +1244,7 @@
 
 <exercise id="fs-idp111440192">
 <problem id="fs-idp111440448">
-<para id="fs-idp14986256">A politician asked his staff to determine whether the underemployment rate in the Northeast decreased from 2011 to 2012.  The results are in <link target-id="fs-idp10131504"/>.</para><table id="fs-idp10131504" summary="A three column table is shown. The first row reads Northeastern States, 2011, 2012. The second row reads Connecticut, 17.3, 16.4. The third row reads Delaware, 17.4, 13.7. The fourth row reads Maine, 19.3, 16.1. The fifth row reads Maryland, 16.0, 15.5. The sixth row reads Massachusetts, 17.6, 18.2. The seventh row reads New Hampshire, 15.4, 13.5. The eighth row reads New Jersey, 19.2, 18.7. The ninth row reads New York, 18.5, 18.7. The tenth row reads Ohio, 18.2, 18.8. The eleventh row reads Pennsylvania, 16.5, 16.9. The twelfth row reads Rhode Island, 20.7, 22.4. The thirteenth row reads Vermont, 14.7, 12.3. The fourteenth row reads West Virginia, 15.5, 17.3.">
+<para id="fs-idp14986256">A politician asked his staff to determine whether the underemployment rate in the Northeast decreased from 2011 to 2012. The results are in <link target-id="fs-idp10131504"/>.</para><table id="fs-idp10131504" summary="A three column table is shown. The first row reads Northeastern States, 2011, 2012. The second row reads Connecticut, 17.3, 16.4. The third row reads Delaware, 17.4, 13.7. The fourth row reads Maine, 19.3, 16.1. The fifth row reads Maryland, 16.0, 15.5. The sixth row reads Massachusetts, 17.6, 18.2. The seventh row reads New Hampshire, 15.4, 13.5. The eighth row reads New Jersey, 19.2, 18.7. The ninth row reads New York, 18.5, 18.7. The tenth row reads Ohio, 18.2, 18.8. The eleventh row reads Pennsylvania, 16.5, 16.9. The twelfth row reads Rhode Island, 20.7, 22.4. The thirteenth row reads Vermont, 14.7, 12.3. The fourteenth row reads West Virginia, 15.5, 17.3.">
 <tgroup cols="3">
 <thead>
 <row>
@@ -1339,7 +1339,7 @@
 </m:mrow>
 </m:math></para>
 <para id="fs-idm32460304">Distribution: <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> = 0 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>d</sub></emphasis> &lt; 0</para>
-<para id="fs-idp91580896">The mean of the differences of the rate of underemployment in the northeastern states between 2012 and 2011 is less than zero.  The underemployment rate went down from 2011 to 2012.</para>
+<para id="fs-idp91580896">The mean of the differences of the rate of underemployment in the northeastern states between 2012 and 2011 is less than zero. The underemployment rate went down from 2011 to 2012.</para>
 <para id="fs-idp91581472">Graph: left-tailed.
 <figure id="fs-idm60026752"><media id="fs-idm60026496" alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.1207.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M05_004annoN.jpg" width="380"/>

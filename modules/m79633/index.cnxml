@@ -825,7 +825,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 <newline/>−3.375 = −<emphasis effect="italics">k</emphasis>,
 <newline/>obtained by subtracting four from both sides: <emphasis><emphasis effect="italics">k</emphasis> = 3.375</emphasis>
 <newline/>The longest 25 percent of furnace repairs take at least 3.375 hours (3.375 hours or longer).
-<newline/><emphasis>Note:</emphasis> Since 25 percent of repair times are 3.375 hours or longer, that means that 75 percent of repair times are 3.375 hours or less.  3.375 hours is the <emphasis effect="italics">75<sup>th</sup> percentile</emphasis> of furnace repair times.</para></solution>
+<newline/><emphasis>Note:</emphasis> Since 25 percent of repair times are 3.375 hours or longer, that means that 75 percent of repair times are 3.375 hours or less. 3.375 hours is the <emphasis effect="italics">75<sup>th</sup> percentile</emphasis> of furnace repair times.</para></solution>
 <solution id="eip-idm5972976">
 <para id="fs-idp136143312">e. <m:math>
 <m:mrow>
@@ -1495,7 +1495,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 <item><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = _________</item>
 <item><emphasis effect="italics">μ</emphasis> = _________</item>
 <item>σ = _________</item>
-<item>Find the probability that a person is born at the exact moment week 19 starts.  That is, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 19) = _________</item>
+<item>Find the probability that a person is born at the exact moment week 19 starts. That is, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 19) = _________</item>
 <item><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 31) = _________</item>
 <item>Find the probability that a person is born after week 40.</item>
 <item><emphasis effect="italics">P</emphasis>(12 &lt; <emphasis effect="italics">x</emphasis>|<emphasis effect="italics">x</emphasis> &lt; 28) = _________</item>
@@ -1641,7 +1641,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 </exercise>
 
 <exercise id="eip-819"><problem id="fs-idp174184320">
-<para id="fs-idp125382704">The age of a first grader on September 1 at Garden Elementary School is uniformly distributed from 5.8 to 6.8 years.  We randomly select one first grader from the class.</para>
+<para id="fs-idp125382704">The age of a first grader on September 1 at Garden Elementary School is uniformly distributed from 5.8 to 6.8 years. We randomly select one first grader from the class.</para>
 <list id="fs-idp137837776" list-type="enumerated" number-style="lower-alpha"><item>Define the random variable. <emphasis effect="italics">X</emphasis> = _________</item>
 <item><emphasis effect="italics">X</emphasis> ~ _________</item>
 <item>Graph the probability distribution.</item>
@@ -1712,7 +1712,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 <item>The distribution is ______________ (name of distribution). It is _____________ (discrete or continuous).</item>
 <item><emphasis effect="italics">μ</emphasis> = ________</item>
 <item><emphasis effect="italics">σ</emphasis> = ________</item>
-<item>Find the probability that the time is at most 30 minutes. Sketch and label a graph of the distribution. Shade the area of interest.  Write the answer in a probability statement.</item>
+<item>Find the probability that the time is at most 30 minutes. Sketch and label a graph of the distribution. Shade the area of interest. Write the answer in a probability statement.</item>
 <item>Find the probability that the time is between 30 and 40 minutes. Sketch and label a graph of the distribution. Shade the area of interest. Write the answer in a probability statement.</item>
 <item><emphasis effect="italics">P</emphasis>(25 &lt; <emphasis effect="italics">x</emphasis> &lt; 55) = _________. State this result in a probability statement, similarly to Parts g and h, draw the picture, and find the probability.</item>
 <item>Find the 90<sup>th</sup> percentile. This means that 90 percent of the time, the time is less than _____ minutes.</item>
@@ -1824,9 +1824,9 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math>, so width = (0.25)(9) = 2.25. Thus, the value is 25 – 2.25 = 22.75.</item>
-<item>This is a conditional probability question.  P(x > 21| x > 18).  You can do this two ways:
+<item>This is a conditional probability question. P(x > 21| x > 18). You can do this two ways:
     <list id="fs-idp37941792" list-type="bulleted">
-<item>Draw the graph where a is now 18 and b is still 25.  The height is <m:math>
+<item>Draw the graph where a is now 18 and b is still 25. The height is <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>

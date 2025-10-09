@@ -164,7 +164,7 @@
     </m:math>.</item>
     <item><emphasis>When the population standard deviation <emphasis effect="italics">σ</emphasis> is known, we use a normal distribution to calculate the error bound.</emphasis></item>
     </list><section id="fs-idm57905968">
-<title>Calculating the Confidence Interval</title><para id="fs-idp100429424">To construct a confidence interval estimate for an unknown population mean, we need data from a random sample.  The steps to construct and interpret the confidence interval are as follows:</para><list id="eip-id1171253322089" list-type="bulleted"><item> Calculate the sample mean, <m:math>
+<title>Calculating the Confidence Interval</title><para id="fs-idp100429424">To construct a confidence interval estimate for an unknown population mean, we need data from a random sample. The steps to construct and interpret the confidence interval are as follows:</para><list id="eip-id1171253322089" list-type="bulleted"><item> Calculate the sample mean, <m:math>
      <m:mover accent="true">
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
@@ -1167,7 +1167,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
 
     <example id="element-542"><para id="element-338">Suppose we change the original problem in <link target-id="eip-id1171257291379"/> to see what happens to the error bound if the sample size is changed.</para><exercise id="element-442">
     <problem id="id1164455008611">
-    <para id="element-98">Leave everything the same except the sample size.  Use the original 90 percent confidence level. What happens to the error bound and the confidence interval if we increase the sample size and use <emphasis effect="italics">n</emphasis> = 100 instead of <emphasis effect="italics">n</emphasis> = 36?  What happens if we decrease the sample size to <emphasis effect="italics">n</emphasis> = 25 instead of <emphasis effect="italics">n</emphasis> = 36? </para>
+    <para id="element-98">Leave everything the same except the sample size. Use the original 90 percent confidence level. What happens to the error bound and the confidence interval if we increase the sample size and use <emphasis effect="italics">n</emphasis> = 100 instead of <emphasis effect="italics">n</emphasis> = 36?  What happens if we decrease the sample size to <emphasis effect="italics">n</emphasis> = 25 instead of <emphasis effect="italics">n</emphasis> = 36? </para>
     <list id="element-119" list-type="bulleted"><item><m:math>
      <m:mover accent="true">
       <m:mi>x</m:mi>
@@ -1358,7 +1358,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
 <title>Working Backward to Find the Error Bound or Sample Mean</title>
     <para id="eip-719">When we calculate a confidence interval, we find the sample mean, calculate the error bound, and use them to calculate the confidence interval. However, sometimes when we read statistical studies, the study may state the confidence interval only. If we know the confidence interval, we can work backward to find both the error bound and the sample mean.</para>
     <list id="eip-109"><title><emphasis>Finding the Error Bound</emphasis></title><item>From the upper value for the interval, subtract the sample mean,</item>
-    <item>Or, from the upper value for the interval, subtract the lower value.  Then divide the difference by 2.</item>
+    <item>Or, from the upper value for the interval, subtract the lower value. Then divide the difference by 2.</item>
     </list><list id="eip-364"><title><emphasis>Finding the Sample Mean</emphasis></title><item>Subtract the error bound from the upper value of the confidence interval,</item>
     <item>Or, average the upper and lower endpoints of the confidence interval.</item>
     </list><para id="eip-117">Notice that there are two methods to perform each calculation. You can choose the method that is easier to use with the information you know.</para>
@@ -1615,7 +1615,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
 
      </m:mrow>
     </m:math></para>
-    <para id="eip-974">Given a confidence interval, you can work backward to find the error bound (<emphasis effect="italics">EBM</emphasis>) or the sample mean. To find the error bound, find the difference of the upper bound of the interval and the mean. If you do not know the sample mean, you can find the error bound by calculating half of the difference of the upper and lower bounds.  To find the sample mean given a confidence interval, find the difference of the upper bound and the error bound. If the error bound is unknown, then average the upper and lower bounds of the confidence interval to find the sample mean.</para><para id="eip-211">Sometimes researchers know in advance that they want to estimate a population mean within a specific margin of error for a given level of confidence. In that case, solve the <emphasis effect="italics">EBM</emphasis> formula for <emphasis effect="italics">n</emphasis> to discover the size of the sample that is needed to achieve this goal:</para>
+    <para id="eip-974">Given a confidence interval, you can work backward to find the error bound (<emphasis effect="italics">EBM</emphasis>) or the sample mean. To find the error bound, find the difference of the upper bound of the interval and the mean. If you do not know the sample mean, you can find the error bound by calculating half of the difference of the upper and lower bounds. To find the sample mean given a confidence interval, find the difference of the upper bound and the error bound. If the error bound is unknown, then average the upper and lower bounds of the confidence interval to find the sample mean.</para><para id="eip-211">Sometimes researchers know in advance that they want to estimate a population mean within a specific margin of error for a given level of confidence. In that case, solve the <emphasis effect="italics">EBM</emphasis> formula for <emphasis effect="italics">n</emphasis> to discover the size of the sample that is needed to achieve this goal:</para>
     <equation class="unnumbered" id="fs-id1164565601122"><label/><m:math>
      <m:mrow>
       <m:mi>n</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
@@ -1951,7 +1951,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
     <solution id="eip-819">
     <para id="eip-16">CI: (7.9441, 8.4559)</para>
 <figure id="eip-idm5552576">
-      <media id="eip-idm128260720" alt="This is a normal distribution curve. The peak of the curve coincides with the point 8.2 on the horizontal axis.  A central region is shaded between points 7.94 and 8.46.">
+      <media id="eip-idm128260720" alt="This is a normal distribution curve. The peak of the curve coincides with the point 8.2 on the horizontal axis. A central region is shaded between points 7.94 and 8.46.">
     <image src="../../media/CNX_Stats_C08_M02_item002annoN.jpg" mime-type="image/jpg" width="380"/>
     </media>
 </figure>

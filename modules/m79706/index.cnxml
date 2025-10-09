@@ -720,7 +720,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 </problem>
 
 <solution id="fs-idm100096912">
-<para id="fs-idp53306832">The histograms are not as normal as one might like.  Plot them to verify.  However, we proceed with the test in any case.</para>
+<para id="fs-idp53306832">The histograms are not as normal as one might like. Plot them to verify. However, we proceed with the test in any case.</para>
 <para id="fs-idp32163648">Subscripts: T1= Tenor1 and B2 = Bass2.</para><para id="fs-idm128542192">The standard deviations of the samples are <emphasis effect="italics">s</emphasis><sub><emphasis effect="italics">T</emphasis>1</sub> = 3.3302 and <emphasis effect="italics">s</emphasis><sub><emphasis effect="italics">B</emphasis>2</sub> = 2.7208.</para>
 
 <para id="fs-idm112748448">The hypotheses are</para>
@@ -1580,7 +1580,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 
 <para id="eip-idp85002752">Did the silver content of the coins change over the course of Manuel’s reign?</para>
 
-<para id="eip-idm32834512">Here are the means and variances of each coinage.  The data are unbalanced.</para>
+<para id="eip-idm32834512">Here are the means and variances of each coinage. The data are unbalanced.</para>
 
 <table id="eip-idm32834000" summary="Table 9 has five columns. The headlines on the columns are: blank, First, Second, Third, and fourth. The first row from left to right: Mean, 6.7444, 8.2429, 4,875, 5.6143. The second row reads: Variance, 0.2953, 1.2025, 0.1314.">
 <tgroup cols="5">

@@ -56,7 +56,7 @@ To understand how unreliable the prediction can be outside the <emphasis effect=
 <m:mtext>.</m:mtext>
 </m:math>
 <newline/><newline/>
-The final exam score is predicted to be 261.19.  The most points that can be awarded for the final exam are 200.
+The final exam score is predicted to be 261.19. The most points that can be awarded for the final exam are 200.
 <newline/>
 <!--<note id="eip-id1168998191288"><label/><title>Note</title>
 <para id="eip-idp117960960">The process of predicting inside of the observed <emphasis effect="italics">x</emphasis> values observed in the data is called <term>interpolation</term>. The process of predicting outside of the observed <emphasis effect="italics">x</emphasis> values observed in the data is called <term>extrapolation</term>.</para></note>-->
@@ -282,10 +282,10 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 </table>
 
 <exercise id="fs-idm41333104"><problem id="fs-idp95587552">
-<para id="fs-idp149524096">Graph year versus number of flu cases diagnosed (plot the scatter plot).  Do not include pre-1981 data.</para>
+<para id="fs-idp149524096">Graph year versus number of flu cases diagnosed (plot the scatter plot). Do not include pre-1981 data.</para>
 </problem></exercise><exercise id="fs-idp60770720">
 <problem id="fs-idm63008624">
-<para id="fs-idp60410256">Perform a linear regression.  What is the linear equation?  Round to the nearest whole number. Find the following:<newline/>
+<para id="fs-idp60410256">Perform a linear regression. What is the linear equation?  Round to the nearest whole number. Find the following:<newline/>
 <!--<list id="fs-id1170308436392" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">a</emphasis> = ________</item>
 <item><emphasis effect="italics">b</emphasis> = ________</item>
@@ -333,7 +333,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 <para id="fs-idp59562368">What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the United States?</para>
 </problem>
 <solution id="fs-idp63232128">
-<para id="fs-idm19062048">Also, the correlation <emphasis effect="italics">r</emphasis> = 0.4526.  If <emphasis effect="italics">r</emphasis> is compared with the value in the 95 Percent Critical Values of the Sample Correlation Coefficient Table, because <emphasis effect="italics">r</emphasis> > 0.423, <emphasis effect="italics">r</emphasis> is significant, and you would think that the line could be used for prediction. But, the scatter plot indicates otherwise.</para></solution>
+<para id="fs-idm19062048">Also, the correlation <emphasis effect="italics">r</emphasis> = 0.4526. If <emphasis effect="italics">r</emphasis> is compared with the value in the 95 Percent Critical Values of the Sample Correlation Coefficient Table, because <emphasis effect="italics">r</emphasis> > 0.423, <emphasis effect="italics">r</emphasis> is significant, and you would think that the line could be used for prediction. But, the scatter plot indicates otherwise.</para></solution>
 </exercise>
 <exercise id="fs-id1164567881521">
 <problem id="fs-id1164567639173">
@@ -400,7 +400,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 <para id="eip-935">Write the linear equation, rounding to four decimal places.</para></problem>
 
 <solution id="fs-idp16730128">
-<para id="fs-idm46065584">We don’t know if the pre-1981 data were collected from a single year.  So, we don’t have an accurate <emphasis effect="italics">x</emphasis> value for this figure.</para><para id="fs-idm126049344">Regression equation: <emphasis effect="italics">ŷ</emphasis> (number of flu cases) = –3,448,225 + 1749.777 (year).</para>
+<para id="fs-idm46065584">We don’t know if the pre-1981 data were collected from a single year. So, we don’t have an accurate <emphasis effect="italics">x</emphasis> value for this figure.</para><para id="fs-idm126049344">Regression equation: <emphasis effect="italics">ŷ</emphasis> (number of flu cases) = –3,448,225 + 1749.777 (year).</para>
 <table id="fs-idm85288224" summary="Table two has a headline of coefficients. Row two lists: Intercept –3,448,225. The second row: x Variable 1 with a number of 1,749,777.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -634,7 +634,7 @@ How many hours does it take to mow all the lawns, or when is <emphasis effect="i
 <para id="fs-id1170308970272">a. We wonder if the better discounts appear earlier in the book, so we select page as <emphasis effect="italics">x</emphasis> and discount as <emphasis effect="italics">y</emphasis>.<newline count="2"/></para>
 <para id="fs-id1170308667762">b. Check student solution.<newline count="2"/></para>
 <para id="fs-id1170308350705">c. <emphasis effect="italics">ŷ</emphasis> = 17.21757 – 0.01412<emphasis effect="italics">x</emphasis><newline count="2"/></para>
-<para id="fs-id1170308556924">d. <emphasis effect="italics">r</emphasis> = – 0.2752 <newline/>For seven degrees of freedom and alpha = 0.05, LinRegTTest  gives a <emphasis effect="italics">p</emphasis> value = 0.4736,  so we do not reject; there is a not a significant linear relationship between page and discount.<newline/>Using the table of critical values for the correlation coefficient, with seven  gives degrees of freedom, the critical value is 0.666.  The correlation coefficient <emphasis effect="italics">xi</emphasis> = –0.2752 is not less than 0.666, so we do not reject.<newline count="2"/></para>
+<para id="fs-id1170308556924">d. <emphasis effect="italics">r</emphasis> = – 0.2752 <newline/>For seven degrees of freedom and alpha = 0.05, LinRegTTest  gives a <emphasis effect="italics">p</emphasis> value = 0.4736,  so we do not reject; there is a not a significant linear relationship between page and discount.<newline/>Using the table of critical values for the correlation coefficient, with seven  gives degrees of freedom, the critical value is 0.666. The correlation coefficient <emphasis effect="italics">xi</emphasis> = –0.2752 is not less than 0.666, so we do not reject.<newline count="2"/></para>
 <para id="fs-id1170308453164">f. There is not a significant linear correlation so it appears there is no relationship between the page and the amount of the discount.</para>
 <para id="fs-idp70584384">As the page number increases by one page, the discount decreases by $0.01412.</para>
 </solution>

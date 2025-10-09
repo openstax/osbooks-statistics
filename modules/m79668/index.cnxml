@@ -15,7 +15,7 @@
 <item>if the sample sizes are large, the distributions are not important (need not be normal)</item>
 </list></item>
 </list><para id="fs-idm119151424">
-<note id="fs-idm107349216"><label>NOTE</label> The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch <emphasis effect="italics">t</emphasis>-test.  The degrees of freedom formula was developed by Aspin-Welch.</note></para>
+<note id="fs-idm107349216"><label>NOTE</label> The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch <emphasis effect="italics">t</emphasis>-test. The degrees of freedom formula was developed by Aspin-Welch.</note></para>
 <para id="eip-123456789">The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. To account for the variation, we take the difference of the sample means,
 
 <m:math>
@@ -692,7 +692,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
   <item>The <emphasis effect="italics">p</emphasis>-value = 0.0878. At the 5 percent level of significance, there is insufficient evidence to conclude that the workers of Company A stay longer with the company.</item>
     </list></solution></exercise></note><example id="fs-idm22935408">
 
-<para id="fs-idm10086800">A professor at a large community college wanted to determine whether there is a difference in the means of final exam scores between students who took his statistics course online and the students who took his face-to-face statistics class.  He believed that the mean of the final exam scores for the online class would be lower than that of the face-to-face class.  Was the professor correct? The randomly selected 30 final exam scores from each group are listed in <link target-id="fs-idm34056944"/> and <link target-id="fs-idm124378288"/>.</para>
+<para id="fs-idm10086800">A professor at a large community college wanted to determine whether there is a difference in the means of final exam scores between students who took his statistics course online and the students who took his face-to-face statistics class. He believed that the mean of the final exam scores for the online class would be lower than that of the face-to-face class. Was the professor correct? The randomly selected 30 final exam scores from each group are listed in <link target-id="fs-idm34056944"/> and <link target-id="fs-idm124378288"/>.</para>
 
 <table id="fs-idm34056944" summary="A 3 row table is shown. The first row reads 67.6, 41.2, 85.3, 55.9, 82.4, 91.2, 73.5, 94.1, 64.7, 64.7. The second row reads 70.6, 38.2, 61.8, 88.2, 70.6, 58.8, 91.2, 73.5, 82.4, 35.5. The third row reads 94.1, 88.2, 64.7, 55.9, 88.2, 97.1, 85.3, 61.8, 79.4, 79.4.">
 <title>Online Class</title>
@@ -962,7 +962,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <exercise id="fs-idm163588752">
 <problem id="fs-idm118829104"><para id="fs-idm174261728">Calculate Cohen’s <emphasis effect="italics">d</emphasis> for <link target-id="fs-idm22935408"/>. Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.</para></problem>
 <solution id="fs-idm177693104">
-<para id="fs-idm86592608"><emphasis effect="italics">d</emphasis> = 0.834; large, because 0.834 is greater than Cohen’s 0.8 for a large effect size.  The size of the differences between the means of the final exam scores of online students and students in a face-to-face class is large, indicating a significant difference.</para></solution>
+<para id="fs-idm86592608"><emphasis effect="italics">d</emphasis> = 0.834; large, because 0.834 is greater than Cohen’s 0.8 for a large effect size. The size of the differences between the means of the final exam scores of online students and students in a face-to-face class is large, indicating a significant difference.</para></solution>
 </exercise>
 </example>
 
@@ -1106,7 +1106,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
     </media>
       </figure><emphasis effect="underline">5%</emphasis> level of significance, from the sample data, there <emphasis effect="underline">is not</emphasis> sufficient evidence to conclude that <emphasis effect="underline">the mean weighted alphas for the banks in the northeast and the west are different</emphasis>
     </item>
-     <item><emphasis effect="italics">d</emphasis> = 0.040; very small, because 0.040 is less than Cohen’s value of 0.2 for small effect size.  The size of the difference of the means of the weighted alphas for the two regions of banks is small indicating that there is not a significant difference between their trends in stocks.</item>
+     <item><emphasis effect="italics">d</emphasis> = 0.040; very small, because 0.040 is less than Cohen’s value of 0.2 for small effect size. The size of the difference of the means of the weighted alphas for the two regions of banks is small indicating that there is not a significant difference between their trends in stocks.</item>
     </list></solution>
 
 </exercise>
@@ -1599,7 +1599,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 </exercise>
 <exercise id="fs-idm120536064">
 <problem id="fs-idm68027168">
-<para id="fs-idm68026912">The known standard deviation in salary for all mid-level professionals in the financial industry is $11,000. Company A and Company B are in the financial industry. Suppose samples are taken of mid-level professionals from Company A and from Company B. The sample mean salary for mid-level professionals in Company A is $80,000. The sample mean salary for mid-level professionals in Company B is $96,000.  Company A and Company B management want to know if their mid-level professionals are paid differently, on average.</para>
+<para id="fs-idm68026912">The known standard deviation in salary for all mid-level professionals in the financial industry is $11,000. Company A and Company B are in the financial industry. Suppose samples are taken of mid-level professionals from Company A and from Company B. The sample mean salary for mid-level professionals in Company A is $80,000. The sample mean salary for mid-level professionals in Company B is $96,000. Company A and Company B management want to know if their mid-level professionals are paid differently, on average.</para>
 </problem>
 </exercise>
 
@@ -1619,14 +1619,14 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idp3576048">
 <problem id="fs-idm27505984">
-<para id="fs-idm27505728">It is believed that the average grade on an English essay in a particular school system is higher for females than for males.  A random sample of 31 females had a mean score of 82 with a standard deviation of 3, and a random sample of 25 males had a mean score of 76 with a standard deviation of 4.</para></problem>
+<para id="fs-idm27505728">It is believed that the average grade on an English essay in a particular school system is higher for females than for males. A random sample of 31 females had a mean score of 82 with a standard deviation of 3, and a random sample of 25 males had a mean score of 76 with a standard deviation of 4.</para></problem>
 <solution id="fs-idm27710704">
 <para id="fs-idm54785888">independent group means, population standard deviations and/or variances unknown</para>
 </solution>
 </exercise>
 <exercise id="fs-idm32687376">
 <problem id="fs-idm32687120">
-  <para id="fs-idm32686864">The league mean batting average is 0.280 with a known standard deviation of 0.06. The Rattlers and the Vikings belong to the league.  The mean batting average for a sample of eight Rattlers is 0.210, and the mean batting average for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers and 19 players on the Vikings. Are the batting averages of the Rattlers and Vikings statistically different?</para>
+  <para id="fs-idm32686864">The league mean batting average is 0.280 with a known standard deviation of 0.06. The Rattlers and the Vikings belong to the league. The mean batting average for a sample of eight Rattlers is 0.210, and the mean batting average for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers and 19 players on the Vikings. Are the batting averages of the Rattlers and Vikings statistically different?</para>
 </problem>
 </exercise>
 
@@ -1657,7 +1657,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 
 <exercise id="fs-idm155074576">
 <problem id="fs-idm187988384">
-<para id="fs-idm187988128">A sample of 12 in-state graduate school programs at School A has a mean tuition of $64,000 with a standard deviation of $8,000. At School B, a sample of 16 in-state graduate programs has a mean tuition of $80,000 with a standard deviation of $6,000.  On average, are the mean tuitions different?</para></problem>
+<para id="fs-idm187988128">A sample of 12 in-state graduate school programs at School A has a mean tuition of $64,000 with a standard deviation of $8,000. At School B, a sample of 16 in-state graduate programs has a mean tuition of $80,000 with a standard deviation of $6,000. On average, are the mean tuitions different?</para></problem>
 <solution id="fs-idm63313632">
 <para id="fs-idm86332592">independent group means, population standard deviations and/or variances unknown</para>
 </solution>
@@ -2137,7 +2137,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <definition id="variable">
 <term>variable (random variable)</term>
 <meaning id="id1167450448490">a characteristic of interest in a population being studied.
-<newline/>Common notation for variables are uppercase Latin letters <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">Y</emphasis>, <emphasis effect="italics">Z</emphasis>,...  Common notation for a specific value from the domain (set of all possible values of a variable) are lowercase Latin letters <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">z</emphasis>,.... For example, if <emphasis effect="italics">X</emphasis> is the number of children in a family, then <emphasis effect="italics">x</emphasis> represents a specific integer 0, 1, 2, 3, .... Variables in statistics differ from variables in intermediate algebra in two ways:
+<newline/>Common notation for variables are uppercase Latin letters <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">Y</emphasis>, <emphasis effect="italics">Z</emphasis>,... Common notation for a specific value from the domain (set of all possible values of a variable) are lowercase Latin letters <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">z</emphasis>,.... For example, if <emphasis effect="italics">X</emphasis> is the number of children in a family, then <emphasis effect="italics">x</emphasis> represents a specific integer 0, 1, 2, 3, .... Variables in statistics differ from variables in intermediate algebra in two ways:
     <list id="fs-idp40452080" list-type="bulleted">
       <item>The domain of the random variable (RV) is not necessarily a numerical set; the domain may be expressed in words; for example, if <emphasis effect="italics">X</emphasis> = hair color, then the domain is {black, blond, gray, green, orange}.</item>
     <item> We can tell what specific value <emphasis effect="italics">x</emphasis> of the random variable <emphasis effect="italics">X</emphasis> takes only after performing the experiment.</item>

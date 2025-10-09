@@ -22,7 +22,7 @@
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>  never has a symbol that contains an equal sign.</item>
 
 
-<item><emphasis effect="italics">Thinking about the meaning of the</emphasis> <term id="term-00002"><emphasis effect="italics">p</emphasis>-value</term>: A data analyst should have more confidence that he made the correct decision to reject the null hypothesis with a smaller <emphasis effect="italics">p</emphasis>-value (for example, 0.001 as opposed to 0.04) even if using the 0.05 level for alpha. Similarly, for a large <emphasis effect="italics">p</emphasis>-value such as 0.4, as opposed to a <emphasis effect="italics">p</emphasis>-value of 0.056 (alpha = 0.05 is less than either number), a data analyst should have more confidence that she made the correct decision in not rejecting the null hypothesis.  This makes the data analyst use judgment rather than mindlessly applying rules.</item></list><para id="fs-idp42898080">The following examples illustrate a left-, right-, and two-tailed test.</para>
+<item><emphasis effect="italics">Thinking about the meaning of the</emphasis> <term id="term-00002"><emphasis effect="italics">p</emphasis>-value</term>: A data analyst should have more confidence that he made the correct decision to reject the null hypothesis with a smaller <emphasis effect="italics">p</emphasis>-value (for example, 0.001 as opposed to 0.04) even if using the 0.05 level for alpha. Similarly, for a large <emphasis effect="italics">p</emphasis>-value such as 0.4, as opposed to a <emphasis effect="italics">p</emphasis>-value of 0.056 (alpha = 0.05 is less than either number), a data analyst should have more confidence that she made the correct decision in not rejecting the null hypothesis. This makes the data analyst use judgment rather than mindlessly applying rules.</item></list><para id="fs-idp42898080">The following examples illustrate a left-, right-, and two-tailed test.</para>
 
 <example id="fs-idp41487520">
 <para id="fs-idp41487648"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 5   <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 5</para><para id="element-343">Test of a single population mean. <emphasis effect="italics">H<sub>a</sub></emphasis> tells you the test is left-tailed. The picture of the <emphasis effect="italics">p</emphasis>-value is as follows:</para><figure id="fs-idm151356816"><media id="id14703034" alt="Normal distribution curve of a single population mean with a value of 5 on the x-axis and the p-value points to the area on the left tail of the curve."><image src="../../media/fig-ch09_09_01-02.jpg" mime-type="image/jpg" width="380"/></media></figure></example>
@@ -1386,7 +1386,7 @@ Draw the graph of a two-tailed test.
     </list></solution>
 </exercise>
     <exercise id="element-809"><problem id="id8395793">
-  <para id="element-138">In 2009, President Barack Obama announced a new national fuel economy and emissions policy for cars and light trucks.  It stated that the combined fleet fuel economy for an auto manufacturer of cars and light trucks will have to average 35.5 mpg or better by 2016.  From past studies on fuel economy, it is known that the standard deviation of a typical fleet is 7.6 mpg.  An auto manufacturer selects a random sample of 55 cars and light trucks and finds the sample mean fuel economy to be 34.6 mpg with a standard deviation of 10.3 mpg.  Can the manufacturer claim that their fleet meets the fuel economy standard in the 2016 policy at the 5 percent level?
+  <para id="element-138">In 2009, President Barack Obama announced a new national fuel economy and emissions policy for cars and light trucks. It stated that the combined fleet fuel economy for an auto manufacturer of cars and light trucks will have to average 35.5 mpg or better by 2016. From past studies on fuel economy, it is known that the standard deviation of a typical fleet is 7.6 mpg. An auto manufacturer selects a random sample of 55 cars and light trucks and finds the sample mean fuel economy to be 34.6 mpg with a standard deviation of 10.3 mpg. Can the manufacturer claim that their fleet meets the fuel economy standard in the 2016 policy at the 5 percent level?
   </para></problem>
 <solution id="fs-id1170308182669">
 <list id="fs-id1170308348798" list-type="enumerated" number-style="lower-alpha">
@@ -1783,7 +1783,7 @@ Draw the graph of a two-tailed test.
 <item>Alpha: 0.05</item>
 <item>Decision: Do not reject the null hypothesis.</item>
 <item>Reason for decision: The <emphasis effect="italics">p</emphasis>-value is greater than 0.05</item>
-<item>Conclusion: The mean cost could be $1, or less.  At the 5 percent significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.</item>
+<item>Conclusion: The mean cost could be $1, or less. At the 5 percent significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.</item>
 </list>
 </item>
 <item>(0.8291, 1.241)</item>
@@ -1904,7 +1904,7 @@ Draw the graph of a two-tailed test.
 <para id="eip-idm21423376">Of every class you nap and snore.</para>
 <para id="eip-idm21422944">The percentage being forty-four.”<newline count="1"/></para>
 <para id="eip-idm21422112">“My dear teacher I must confess,</para>
-<para id="eip-idm21421648">While sleeping is what I do best.  </para>
+<para id="eip-idm21421648">While sleeping is what I do best. </para>
 <para id="eip-idm21421216">The percentage, I think, must be less,</para>
 <para id="eip-idm21420784">A percentage less than forty-four.”</para>
 <para id="eip-idm57340704">This I said and nothing more.<newline count="1"/></para>
@@ -1995,7 +1995,7 @@ Draw the graph of a two-tailed test.
 <exercise id="element-50"><problem id="id9404155">
   <para id="element-702">La Leche League International reports that the mean age of weaning a child from breastfeeding is age four to five worldwide. In America, most nursing mothers wean their children much earlier. Suppose a random survey is conducted of 21 U.S. mothers who recently weaned their children. The mean weaning age was nine months (3/4 year) with a standard deviation of 4 months. Conduct a hypothesis test to determine if the mean weaning age in the United States is less than four years old.</para></problem></exercise><exercise id="exer12">
 <problem id="id8184194">
-<para id="id10291861">Harley Davidson motorcycles are the largest selling motorcycle in the United States, with 14 percent of all motorcycles sold in 2012.  Interestingly, a random sample of 1,945 stolen motorcycles was selected, and it was found that just 8 percent of them were Harleys.  Is there good evidence that the proportion of Harleys among stolen motorcycles is significantly less than their share of all motorcycles?  After conducting the test, what decision and conclusion would you make?</para><list id="id10291869" list-type="enumerated" number-style="lower-alpha"><item>Reject <emphasis effect="italics">H<sub>0</sub></emphasis>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</item>
+<para id="id10291861">Harley Davidson motorcycles are the largest selling motorcycle in the United States, with 14 percent of all motorcycles sold in 2012. Interestingly, a random sample of 1,945 stolen motorcycles was selected, and it was found that just 8 percent of them were Harleys. Is there good evidence that the proportion of Harleys among stolen motorcycles is significantly less than their share of all motorcycles?  After conducting the test, what decision and conclusion would you make?</para><list id="id10291869" list-type="enumerated" number-style="lower-alpha"><item>Reject <emphasis effect="italics">H<sub>0</sub></emphasis>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</item>
         <item>Do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>: There is not sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</item>
         <item>Do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</item>
         <item>Reject <emphasis effect="italics">H<sub>0</sub></emphasis>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</item></list></problem>
@@ -2071,7 +2071,7 @@ Draw the graph of a two-tailed test.
 <item>We would make the same conclusion if alpha was 1 percent because the <emphasis effect="italics">p</emphasis>-value is almost 0.</item>
 </list></solution>
 </exercise><exercise id="eip-717"><problem id="eip-444">
-  <para id="eip-807">A survey in the <emphasis effect="italics">New York Times Almanac</emphasis> finds the mean commute time (one way) is 25.4 minutes for the 15 largest US cities. The Austin, TX, chamber of commerce feels that Austin’s commute time is less and wants to publicize this fact.  The mean for 25 randomly selected commuters is 22.1 minutes with a standard deviation of 5.3 minutes. At the α = 0.10 level, is the Austin, TX, commute significantly less than the mean commute time for the 15 largest U.S. cities?</para></problem></exercise><exercise id="eip-192"><problem id="eip-426">
+  <para id="eip-807">A survey in the <emphasis effect="italics">New York Times Almanac</emphasis> finds the mean commute time (one way) is 25.4 minutes for the 15 largest US cities. The Austin, TX, chamber of commerce feels that Austin’s commute time is less and wants to publicize this fact. The mean for 25 randomly selected commuters is 22.1 minutes with a standard deviation of 5.3 minutes. At the α = 0.10 level, is the Austin, TX, commute significantly less than the mean commute time for the 15 largest U.S. cities?</para></problem></exercise><exercise id="eip-192"><problem id="eip-426">
   <para id="eip-326">A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals:<newline/><list list-type="labeled-item" item-sep="," display="inline" mark-suffix="" id="list-00001">
 <item>3</item>
 <item>2</item>

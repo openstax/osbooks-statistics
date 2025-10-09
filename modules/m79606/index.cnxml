@@ -138,8 +138,8 @@ The symbol <m:math>
   <m:mo>¯</m:mo>
  </m:mover>
 
-</m:math>.</para><para id="eip-45">The procedure to calculate the standard deviation depends on whether the numbers are the entire population or are data from a sample.  The calculations are similar but not identical.  Therefore, the symbol used to represent the standard deviation depends on whether it is calculated from a population or a sample. The lowercase letter <emphasis effect="italics">s</emphasis> represents the sample standard deviation and the Greek letter <emphasis effect="italics">σ</emphasis> (lowercase sigma) represents the population standard deviation. If the sample has the same characteristics as the population, then <emphasis effect="italics">s</emphasis> should be a good estimate of <emphasis effect="italics">σ</emphasis>.</para>
-<para id="eip-689">To calculate the standard deviation, we need to calculate the variance first.  The <term id="term-00002">variance</term> is the <emphasis>average of the squares of the deviations</emphasis> (the <emphasis effect="italics">x</emphasis> – <m:math>
+</m:math>.</para><para id="eip-45">The procedure to calculate the standard deviation depends on whether the numbers are the entire population or are data from a sample. The calculations are similar but not identical. Therefore, the symbol used to represent the standard deviation depends on whether it is calculated from a population or a sample. The lowercase letter <emphasis effect="italics">s</emphasis> represents the sample standard deviation and the Greek letter <emphasis effect="italics">σ</emphasis> (lowercase sigma) represents the population standard deviation. If the sample has the same characteristics as the population, then <emphasis effect="italics">s</emphasis> should be a good estimate of <emphasis effect="italics">σ</emphasis>.</para>
+<para id="eip-689">To calculate the standard deviation, we need to calculate the variance first. The <term id="term-00002">variance</term> is the <emphasis>average of the squares of the deviations</emphasis> (the <emphasis effect="italics">x</emphasis> – <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -442,7 +442,7 @@ The symbol <m:math>
   </m:msqrt>
   <m:mo>=</m:mo><m:mn>.715891</m:mn><m:mo>,</m:mo>
  </m:mrow>
-</m:math> which is rounded to two decimal places, <emphasis effect="italics">s</emphasis> = .72.</para><para id="eip-563"><emphasis>Typically, you do the calculation for the standard deviation on your calculator or computer</emphasis>. The intermediate results are not rounded.  This is done for accuracy.</para><exercise id="element-397"><problem id="id3262370">
+</m:math> which is rounded to two decimal places, <emphasis effect="italics">s</emphasis> = .72.</para><para id="eip-563"><emphasis>Typically, you do the calculation for the standard deviation on your calculator or computer</emphasis>. The intermediate results are not rounded. This is done for accuracy.</para><exercise id="element-397"><problem id="id3262370">
     <para id="eip-idp3473760">
     <list id="eip-id1171734426444"><item>For the following problems, recall that <emphasis>value = mean + (#ofSTDEVs)(standard deviation)</emphasis>. Verify the mean and standard deviation on a calculator or computer. Note that these formulas are derived by algebraically manipulating the <emphasis effect="italics">z</emphasis>-score formulas, given either parameters or statistics.</item>
       <item>For a sample: <emphasis effect="italics">x</emphasis> = <m:math>
@@ -586,7 +586,7 @@ The symbol <m:math>
 <para id="eip-880">Notice that instead of dividing by <emphasis effect="italics">n</emphasis> = 20, the calculation divided by <emphasis effect="italics">n</emphasis> – 1 = 20 – 1 = 19 because the data is a sample. For the <emphasis>sample</emphasis> variance, we divide by the sample size minus one (<emphasis effect="italics">n</emphasis> – 1). Why not divide by <emphasis effect="italics">n</emphasis>?  The answer has to do with the population variance. <emphasis>The sample variance is an estimate of the population variance.</emphasis> Based on the theoretical mathematics that lies behind these calculations, dividing by (<emphasis effect="italics">n</emphasis> – 1) gives a better estimate of the population variance.</para>
 
 <note id="eip-718" class="finger"><label/><title>NOTE</title>
-<para id="eip-idp106491856">Your concentration should be on what the standard deviation tells us about the data. The standard deviation is a number that measures how far the data are spread from the mean. Let a calculator or computer do the arithmetic.</para></note><para id="eip-323">The standard deviation, <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis>, is either zero or larger than zero. Describing the data with reference to the spread is called <emphasis effect="italics">variability</emphasis>.  The variability in data depends on the method by which the outcomes are obtained, for example, by measuring or by random sampling. When the standard deviation is zero, there is no spread; that is, all the data values are equal to each other. The standard deviation is small when all the data are concentrated close to the mean and larger when the data values show more variation from the mean. When the standard deviation is a lot larger than zero, the data values are very spread out about the mean; outliers can make <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis> very large.</para><para id="element-789">The standard deviation, when first presented, can seem unclear.  By graphing your data, you can get a better <emphasis effect="italics">feel</emphasis> for the deviations and the standard deviation.  You will find that in symmetrical distributions, the standard deviation can be very helpful, but in skewed distributions, the standard deviation may not be much help. The reason is that the two sides of a skewed distribution have different spreads. In a skewed distribution, it is better to look at the first quartile, the median, the third quartile, the smallest value, and the largest value. Because numbers can be confusing, <emphasis>always graph your data</emphasis>. Display your data in a histogram or a box plot.</para>
+<para id="eip-idp106491856">Your concentration should be on what the standard deviation tells us about the data. The standard deviation is a number that measures how far the data are spread from the mean. Let a calculator or computer do the arithmetic.</para></note><para id="eip-323">The standard deviation, <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis>, is either zero or larger than zero. Describing the data with reference to the spread is called <emphasis effect="italics">variability</emphasis>. The variability in data depends on the method by which the outcomes are obtained, for example, by measuring or by random sampling. When the standard deviation is zero, there is no spread; that is, all the data values are equal to each other. The standard deviation is small when all the data are concentrated close to the mean and larger when the data values show more variation from the mean. When the standard deviation is a lot larger than zero, the data values are very spread out about the mean; outliers can make <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis> very large.</para><para id="element-789">The standard deviation, when first presented, can seem unclear. By graphing your data, you can get a better <emphasis effect="italics">feel</emphasis> for the deviations and the standard deviation. You will find that in symmetrical distributions, the standard deviation can be very helpful, but in skewed distributions, the standard deviation may not be much help. The reason is that the two sides of a skewed distribution have different spreads. In a skewed distribution, it is better to look at the first quartile, the median, the third quartile, the smallest value, and the largest value. Because numbers can be confusing, <emphasis>always graph your data</emphasis>. Display your data in a histogram or a box plot.</para>
 
 <example id="element-649">
 <exercise id="exer2"><problem id="id6379302">
@@ -610,7 +610,7 @@ The symbol <m:math>
 </media></figure>
 </solution>
 </exercise>
-<para id="element-242">The long left whisker in the box plot is reflected in the left side of the histogram.  The spread of the exam scores in the lower 50 percent is greater (73 – 33 = 40) than the spread in the upper 50 percent (100 – 73 = 27).  The histogram, box plot, and chart all reflect this.  There are a substantial number of A and B grades (80s, 90s, and 100).  The histogram clearly shows this.  The box plot shows us that the middle 50 percent of the exam scores  (<emphasis effect="italics">IQR</emphasis> = 29) are Ds, Cs, and Bs. The box plot also shows us that the lower 25 percent of the exam scores are Ds and Fs.</para>
+<para id="element-242">The long left whisker in the box plot is reflected in the left side of the histogram. The spread of the exam scores in the lower 50 percent is greater (73 – 33 = 40) than the spread in the upper 50 percent (100 – 73 = 27). The histogram, box plot, and chart all reflect this. There are a substantial number of A and B grades (80s, 90s, and 100). The histogram clearly shows this. The box plot shows us that the middle 50 percent of the exam scores  (<emphasis effect="italics">IQR</emphasis> = 29) are Ds, Cs, and Bs. The box plot also shows us that the lower 25 percent of the exam scores are Ds and Fs.</para>
 </example>
 <table id="id6947804" summary="This table presents the values listed above arranged with the data in the first column, frequency in the second column, relative frequency in the third column, and cumulative relative frequency in the fourth column.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
@@ -1503,7 +1503,7 @@ The symbol <m:math>
 
     <exercise id="eip-975">
       <problem id="eip-748">
-        <para id="eip-507">Compare the  <emphasis effect="italics">IQR</emphasis> for the FTES for 1976–1977 through 2004–2005 with the <emphasis effect="italics">IQR</emphasis> for the FTES for 2005-2006 through 2010–2011.  Why do you suppose the <emphasis effect="italics">IQR</emphasis>s are so different?</para></problem>
+        <para id="eip-507">Compare the  <emphasis effect="italics">IQR</emphasis> for the FTES for 1976–1977 through 2004–2005 with the <emphasis effect="italics">IQR</emphasis> for the FTES for 2005-2006 through 2010–2011. Why do you suppose the <emphasis effect="italics">IQR</emphasis>s are so different?</para></problem>
       <solution id="eip-602">
         <para id="eip-165">Hint: think about the number of years covered by each time period and what happened to higher education during those periods.</para></solution>
     </exercise>
@@ -1553,12 +1553,12 @@ The symbol <m:math>
 <exercise id="eip-207">
 <problem id="eip-290"><para id="eip-327">A music school has budgeted to purchase three musical instruments. The school plans to purchase a piano costing $3,000, a guitar costing $550, and a drum set costing $600. The mean cost for a piano is $4,000 with a standard deviation of $2,500. The mean cost for a guitar is $500 with a standard deviation of $200. The mean cost for drums is $700 with a standard deviation of $100. Which cost is the lowest when compared to other instruments of the same type? Which cost is the highest when compared to other instruments of the same type? Justify your answer.</para></problem>
 <solution id="eip-21">
-<para id="eip-740">For pianos, the cost of the piano is .4 standard deviations BELOW the mean.  For guitars, the cost of the guitar is 0.25 standard deviations ABOVE the mean. For drums, the cost of the drum set is 1.0 standard deviations BELOW the mean. Of the three, the drums cost the lowest in comparison to the cost of other instruments of the same type. The guitar costs the most in comparison to the cost of other instruments of the same type.</para>
+<para id="eip-740">For pianos, the cost of the piano is .4 standard deviations BELOW the mean. For guitars, the cost of the guitar is 0.25 standard deviations ABOVE the mean. For drums, the cost of the drum set is 1.0 standard deviations BELOW the mean. Of the three, the drums cost the lowest in comparison to the cost of other instruments of the same type. The guitar costs the most in comparison to the cost of other instruments of the same type.</para>
 </solution>
 </exercise>
 
 <exercise id="element-799"><problem id="id6038456">
-<para id="fs-idm25455232">An elementary school class ran one mile with a mean of 11 minutes and a standard deviation of three minutes. Rachel, a student in the class, ran one mile in eight minutes. A junior high school class ran one mile with a mean of nine minutes and a standard deviation of two minutes. Kenji, a student in the class, ran one mile in 8.5 minutes. A high school class ran one mile with a mean of seven minutes and a standard deviation of four minutes.  Nedda, a student in the class, ran one mile in eight minutes.</para><list id="element-895" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Why is Kenji considered a better runner than Nedda even though Nedda ran faster than he?</item>
+<para id="fs-idm25455232">An elementary school class ran one mile with a mean of 11 minutes and a standard deviation of three minutes. Rachel, a student in the class, ran one mile in eight minutes. A junior high school class ran one mile with a mean of nine minutes and a standard deviation of two minutes. Kenji, a student in the class, ran one mile in 8.5 minutes. A high school class ran one mile with a mean of seven minutes and a standard deviation of four minutes. Nedda, a student in the class, ran one mile in eight minutes.</para><list id="element-895" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Why is Kenji considered a better runner than Nedda even though Nedda ran faster than he?</item>
 <item>Who is the fastest runner with respect to his or her class?  Explain why.</item>
 </list></problem>
 </exercise>
@@ -1612,7 +1612,7 @@ The symbol <m:math>
 
 <exercise id="fs-idm70000608">
 <problem id="fs-idm70000352">
-<para id="fs-idm116547040"><link target-id="fs-idm116546656"/> gives the percentage of children under age five diagnosed with a specific medical condition.</para><table id="fs-idm116546656" summary="Table 16 has two columns: Percentage of Children with the condition and Number of Countries.  Row one has 16-31.45 percent in 23 countries. Row two shoes 21.45-26.9 percent of children in 4 countries. Row three shows 26.9-32.35 percent of children in 9 countries. Row four shows 32.35-37.8 percent of children in 7 countries. Row five shoes 37.8-43.25 percent of children in 6 countries. And the last row has 43.25-48.7 percent of children in 1 countries.">
+<para id="fs-idm116547040"><link target-id="fs-idm116546656"/> gives the percentage of children under age five diagnosed with a specific medical condition.</para><table id="fs-idm116546656" summary="Table 16 has two columns: Percentage of Children with the condition and Number of Countries. Row one has 16-31.45 percent in 23 countries. Row two shoes 21.45-26.9 percent of children in 4 countries. Row three shows 26.9-32.35 percent of children in 9 countries. Row four shows 32.35-37.8 percent of children in 7 countries. Row five shoes 37.8-43.25 percent of children in 6 countries. And the last row has 43.25-48.7 percent of children in 1 countries.">
 <tgroup cols="2">
 <thead><row><entry>Percentage of Children with the Condition</entry>	<entry>Number of Countries</entry></row></thead>
 <tbody>
@@ -1752,13 +1752,13 @@ The symbol <m:math>
 <item>The middle 50 percent of the weights are from ________ to ________.</item>
 <item>If our population were all professional football players, would the above data be a sample of weights or the population of weights?  Why?</item>
 <item>If our population included every team member who ever played for a California-based football team, would the above data be a sample of weights or the population of weights?  Why?</item>
-<item>Assume the population was a California-based football team.  Find
+<item>Assume the population was a California-based football team. Find
 <list id="nestlist4" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>the population mean, <emphasis effect="italics">μ</emphasis>,</item>
 <item>the population standard deviation, <emphasis effect="italics">σ</emphasis>, and</item>
 <item>the weight that is two standard deviations below the mean.</item>
-<item>In addition, when the team's most famous quarterback, played football, he weighed 205 pounds.  Also find how many standard deviations above or below the mean was he?</item>
+<item>In addition, when the team's most famous quarterback, played football, he weighed 205 pounds. Also find how many standard deviations above or below the mean was he?</item>
 </list></item>
-<item>That same year, the mean weight for a player from a Texas football team was 240.08 pounds with a standard deviation of 44.38 pounds.  One player weighed in at 209 pounds.  With respect to his team, who was lighter, the California quarterback or the Texas player?  How did you determine your answer?</item></list></problem>
+<item>That same year, the mean weight for a player from a Texas football team was 240.08 pounds with a standard deviation of 44.38 pounds. One player weighed in at 209 pounds. With respect to his team, who was lighter, the California quarterback or the Texas player?  How did you determine your answer?</item></list></problem>
 <solution id="id4782460">
 <list id="element-189" list-type="enumerated" number-style="lower-alpha"><item>174, 177, 178, 184, 185, 185, 185, 185, 188, 190, 200, 205, 205, 206, 210, 210, 210, 212, 212, 215, 215, 220, 223, 228, 230, 232, 241, 241, 242, 245, 247, 250, 250, 259, 260, 260, 265, 265, 270, 272, 273, 275, 276, 278, 280, 280, 285, 285, 286, 290, 290, 295, 302</item>
 <item>241</item>
@@ -1946,7 +1946,7 @@ The symbol <m:math>
 <item>If a data value is identified as an outlier, what should be done about it?</item>
 <item>Are any data values farther than two standard deviations away from the mean? In some situations, statisticians may use this criterion to identify data values that are unusual, compared to the other data values. Note that this criterion is most appropriate to use for data that is mound shaped and symmetric rather than for skewed data.</item>
 <item>Do Parts a and c of this problem give the same answer?</item>
-<item>Examine the shape of the data.  Which part, a or c, of this question gives a more appropriate result for this data?</item>
+<item>Examine the shape of the data. Which part, a or c, of this question gives a more appropriate result for this data?</item>
 <item>Based on the shape of the data, which is the most appropriate measure of center for this data, mean, median, or mode?</item>
 </list></problem>
 </exercise>
