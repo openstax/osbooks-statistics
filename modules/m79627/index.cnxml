@@ -301,11 +301,13 @@
 <problem id="fs-idm63493200">
 <para id="fs-idm59600144">On May 13, 2013, starting at 4:30 p.m., the probability of low seismic activity for the next 48 hours in Alaska was reported as about 1.02 percent. Use this information for the next 200 days to find the probability that there will be low seismic activity in 10 of the next 200 days. Use both the binomial and Poisson distributions to calculate the probabilities. Are they close?</para></problem>
 <solution id="fs-idm57643184">
-<para id="fs-idm69654032">Let <emphasis effect="italics">X</emphasis> = the number of days with low seismic activity.</para><para id="fs-idm57624224">Using the binomial distribution
-  <list id="fs-idp4019536" list-type="bulleted" bullet-style="none"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = binompdf(200, .0102, 10) ≈ .000039</item></list></para>
+<para id="fs-idm69654032">Let <emphasis effect="italics">X</emphasis> = the number of days with low seismic activity. We are asked to find the probability over the next 200 days. Probability is given for a 48-hour period.</para>
+<list list-type="bulleted" bullet-style="none" id="list-00001"><item>n = 200 days = 100 48-hour periods</item></list>
+<para id="fs-idm57624224">Using the binomial distribution
+  <list id="fs-idp4019536" list-type="bulleted" bullet-style="none"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = binompdf(100, .0102, 10) ≈ .0000000076</item></list></para>
 <para id="fs-idm136827536">Using the Poisson distribution
-<list id="fs-idm9822304" list-type="bulleted" bullet-style="none"><item>Calculate <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = 200(.0102) ≈ 2.04</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = poissonpdf(2.04, 10) ≈ .000045</item>
+<list id="fs-idm9822304" list-type="bulleted" bullet-style="none"><item>Calculate <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> = 100(.0102) ≈ 1.02</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = poissonpdf(1.02, 10) ≈ .000000121</item>
 </list></para>
 <para id="fs-idm44106800">We expect the approximation to be good because <emphasis effect="italics">n</emphasis> is large (greater than 20) and <emphasis effect="italics">p</emphasis> is small (less than .05). The results are close—both probabilities reported are almost 0.</para></solution>
 </exercise>
