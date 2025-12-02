@@ -187,7 +187,7 @@ of <m:math>
 </m:math> songs per month. Since we know that the population standard deviation is <m:math>
  
   <m:mrow>
-   <m:mi>σ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+   <m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
   </m:mrow>
  
 </m:math>, according to the central limit theorem, the standard deviation for the sample means is <m:math>
@@ -214,7 +214,7 @@ of <m:math>
     <m:mi>x</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-   <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mfrac>
+   <m:mo>+</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mfrac>
     <m:mi>σ</m:mi>
     <m:mrow>
      <m:msqrt>
