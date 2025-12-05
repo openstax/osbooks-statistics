@@ -2422,7 +2422,7 @@ The confidence level is 90 percent (<emphasis effect="italics">CL</emphasis> = 0
 <m:mo>)</m:mo></m:mrow></m:math></para>
     </item>
         <item><list id="eip-id1172668181207" list-type="enumerated" number-style="lower-roman"><item>CI: (6.98, 8.82)</item>
-<item><figure id="eip-id1169152005093"><media id="eip-id1169152053385" alt=""><image src="../../media/CNX_Stats_C08_M01_item001.jpg" mime-type="image/png" width="400"/></media>
+<item><figure id="eip-id1169152005093"><media id="eip-id1169152053385" alt="Distribución normal con el área entre 6.98 y 8.82 resaltada en el eje de la media muestral X̄."><image src="../../media/CNX_Stats_C08_M01_item001.jpg" mime-type="image/png" width="400"/></media>
 </figure></item>
 <item><emphasis effect="italics">EBM</emphasis>: 0.92</item></list></item>
 <item>The error bound and confidence interval will decrease.</item></list></para>
