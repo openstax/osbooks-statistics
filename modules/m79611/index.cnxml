@@ -56,13 +56,13 @@
 </row>
 <row>
 <entry align="center"><emphasis>Tree Diagram*</emphasis></entry>
-<entry align="center"><figure id="fs-id1164564385217"><media id="fs-id1164565980547" alt=""><image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_01.jpg" width="100"/></media></figure></entry>
-<entry align="center"><figure id="fs-id1164567161729"><media id="fs-id1164565381165" alt=""><image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_02.jpg" width="100"/></media></figure></entry>
+<entry align="center"><figure id="fs-id1164564385217"><media id="fs-id1164565980547" alt="A simple tree diagram illustrates the two possible outcomes of flipping a coin: Heads or Tails, demonstrating a basic concept in probability."><image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_01.jpg" width="100"/></media></figure></entry>
+<entry align="center"><figure id="fs-id1164567161729"><media id="fs-id1164565381165" alt="A tree diagram illustrates the possible outcomes of flipping a coin two times. The outcomes are Heads-Heads (HH), Heads-Tails (HT), Tails-Heads (TH), and Tails-Tails (TT)."><image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_02.jpg" width="100"/></media></figure></entry>
 </row>
 <row>
 <entry align="center"><emphasis>Venn Diagram*</emphasis></entry>
-<entry align="center"><figure id="fs-id1164567837356"><media id="fs-id1164567436186" alt=""><image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_03.jpg" width="100"/></media></figure></entry>
-<entry align="center"><figure id="fs-id1164565375180"><media id="fs-id1164567246857" alt=""><image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_04.jpg" width="100"/></media></figure></entry>
+<entry align="center"><figure id="fs-id1164567837356"><media id="fs-id1164567436186" alt="A diagram illustrating the outcomes of a coin flip, with 'Heads' occupying a large circular region and 'Tails' represented by the smaller surrounding area."><image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_03.jpg" width="100"/></media></figure></entry>
+<entry align="center"><figure id="fs-id1164565375180"><media id="fs-id1164567246857" alt="A Venn diagram illustrates the outcomes of flipping two coins. The left circle represents 'Heads on Coin 1' (HT, HH), the right 'Heads on Coin 2' (TH, HH). The overlap (HH) shows heads on both. A legend clarifies HH, HT, TH, and TT."><image mime-type="image/jpg" src="../../media/OSX_HS_Statistics_Figure_03_01_02_04.jpg" width="100"/></media></figure></entry>
 </row>
 <row>
 <entry align="center"><emphasis>Set Notation</emphasis></entry>
