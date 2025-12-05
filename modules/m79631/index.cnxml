@@ -44,7 +44,7 @@
 </media>
 <caption>The graph shows a uniform distribution with the area between <emphasis effect="italics">x</emphasis> = 3 and <emphasis effect="italics">x</emphasis> = 6 shaded to represent the probability that the value of the random variable <emphasis effect="italics">X</emphasis> is in the interval between three and six.</caption>
 </figure>
-<figure id="id3243513"><media id="id1164323972015" alt="A graph illustrating an exponential distribution, where the shaded area under the curve between x=2 and x=4 represents the probability P(2 &lt; x &lt; 4).">
+<figure id="id3243513"><media id="id1164323972015" alt="">
 <image src="../../media/fig-ch05_01_02.jpg" mime-type="image/jpg" width="380"/>
 </media>
 <caption>The graph shows an exponential distribution with the area between <emphasis effect="italics">x</emphasis> = 2 and <emphasis effect="italics">x</emphasis> = 4 shaded to represent the probability that the value of the random variable <emphasis effect="italics">X</emphasis> is in the interval between two and four.</caption>

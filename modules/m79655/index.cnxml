@@ -1931,7 +1931,7 @@ flight.
    <list id="fs-idm144387520" list-type="enumerated" number-style="lower-alpha">
    <item>
     <list id="fs-idm104467472" list-type="enumerated" number-style="lower-roman"><item>CI: (7.64, 9.36)</item>
-     <item><figure id="fs-idm59520752"><media id="mmm3" alt="A bell curve showing a normal distribution with a shaded region from 7.64 to 9.36, centered at 8.5, often representing a confidence interval or probability."><image src="../../media/fig-ch08_12_01-7e54.jpg" mime-type="image/jpeg" width="380"/></media></figure></item>
+     <item><figure id="fs-idm59520752"><media id="mmm3" alt=""><image src="../../media/fig-ch08_12_01-7e54.jpg" mime-type="image/jpeg" width="380"/></media></figure></item>
    <item><emphasis effect="italics">EBM</emphasis>: 0.86</item>
     </list></item>
    <item>The sample should have been increased.</item>
