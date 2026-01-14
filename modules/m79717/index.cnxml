@@ -17,34 +17,34 @@
               <image mime-type="image/png" src="../../media/ti83-button.png"/>
             </media> represents a button press</item>
 			<item><code>[ ]</code> represents yellow command or green letter behind a key</item>
-			<item><code>&lt; ></code> represents items on the screen</item>
+			<item><code>&lt; &gt;</code> represents items on the screen</item>
   </list></para>
-  <para id="fs-id14248473"><title>To adjust the contrast</title>Press <media id="fs-id14772600" display="inline" alt="2nd key">
+  <para id="fs-id14248473"><title>To adjust the contrast</title>Press <media id="fs-id14772600" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
    
-            </media>, then hold <media id="fs-id13797489" display="inline" alt="arrow up">
+            </media>, then hold <media id="fs-id13797489" display="inline" alt="A white upward-pointing triangle is centered on a rounded rectangular blue button or icon, suggesting an 'up' action, 'upload', or 'collapse' function.">
               <image mime-type="image/png" src="../../media/ti83-dir-up.png"/>
               
-            </media> to increase the contrast or <media id="fs-id12745418" display="inline" alt="arrow down">
+            </media> to increase the contrast or <media id="fs-id12745418" display="inline" alt="A blue rectangular button with rounded corners features a prominent white downward-pointing triangle, typically indicating a dropdown menu, an expand function, or a scroll-down action.">
               <image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
               
             </media> to decrease the contrast.
-  </para><para id="fs-id15738732"><title>To capitalize letters and words</title>Press <media id="fs-id15336309" display="inline" alt="alpha key">
+  </para><para id="fs-id15738732"><title>To capitalize letters and words</title>Press <media id="fs-id15336309" display="inline" alt="A light green rectangular button or badge with the word 'ALPHA' in bold, white, capitalized letters, accompanied by a subtle drop shadow.">
               <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
               
-            </media> to get one capital letter, or press <media id="fs-id15256555" display="inline" alt="2nd key">
+            </media> to get one capital letter, or press <media id="fs-id15256555" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
              
-            </media>, then <media id="fs-id14248475" display="inline" alt="alpha key">
+            </media>, then <media id="fs-id14248475" display="inline" alt="A light green rectangular button or badge with the word 'ALPHA' in bold, white, capitalized letters, accompanied by a subtle drop shadow.">
               <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
              
             </media> to set all button presses to capital letters.
 			You can return to the top-level button values by pressing
-			<media id="fs-id13796242" display="inline" alt="alpha key">
+			<media id="fs-id13796242" display="inline" alt="A light green rectangular button or badge with the word 'ALPHA' in bold, white, capitalized letters, accompanied by a subtle drop shadow.">
               <image mime-type="image/png" src="../../media/ti83-alpha.png"/>
              
             </media> again.
-  </para><para id="fs-id15448816"><title>To correct a mistake</title>If you hit a wrong button, press <media id="fs-id15674844" display="inline" alt="clear key">
+  </para><para id="fs-id15448816"><title>To correct a mistake</title>If you hit a wrong button, press <media id="fs-id15674844" display="inline" alt="A rectangular gray button with a soft white glow around the edges features the word 'CLEAR' in bold, white, capital letters, suggesting a function to reset or remove content.">
               <image mime-type="image/png" src="../../media/ti83-clear.png"/>
              
             </media> and start again.
@@ -75,29 +75,29 @@
 </m:math>
 </item>
    </list></para><para id="fs-id14327214"><title>To transfer programs or equations from one calculator to another</title><emphasis>Both calculators:</emphasis> Insert your respective end of the link cable cable
-and press <media id="fs-id15384266" display="inline" alt="2nd key">
+and press <media id="fs-id15384266" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
            
             </media>, then <code>[LINK]</code>.
-  </para><para id="eip-607"><title>Calculator receiving information</title><list id="fs-id15504626" list-type="enumerated" number-style="arabic" class="stepwise"><item>Use the arrows to navigate to and select <code>&lt;RECEIVE></code>. </item>
-<item>Press <media id="fs-id14419024" display="inline" alt="enter key">
+  </para><para id="eip-607"><title>Calculator receiving information</title><list id="fs-id15504626" list-type="enumerated" number-style="arabic" class="stepwise"><item>Use the arrows to navigate to and select <code>&lt;RECEIVE&gt;</code>. </item>
+<item>Press <media id="fs-id14419024" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
               <image mime-type="image/png" src="../../media/ti83-enter.png"/>
               
             </media>.</item>
 </list></para><para id="eip-442"><title>Calculator sending information</title><list id="fs-id13666196" list-type="enumerated" number-style="arabic" class="stepwise"><item>Press the appropriate number or letter.</item>
 <item>Use the up and down arrows to access the appropriate item.</item>
-<item>Press <media id="fs-id14358160" display="inline" alt="enter key">
+<item>Press <media id="fs-id14358160" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
               <image mime-type="image/png" src="../../media/ti83-enter.png"/>
              
             </media> to select the item to transfer.</item>
-<item>Press the right arrow to navigate to and select <code>&lt;TRANSMIT></code>.</item>
-<item>Press <media id="fs-id15557080" display="inline" alt="enter key">
+<item>Press the right arrow to navigate to and select <code>&lt;TRANSMIT&gt;</code>.</item>
+<item>Press <media id="fs-id15557080" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
               <image mime-type="image/png" src="../../media/ti83-enter.png"/>
               
             </media>.</item>
 </list></para><note id="eip-623"><label/><title>Note</title>
 <para id="eip-idp123049456">ERROR 35 LINK generally means that the cables have not been inserted far enough.</para>
-</note><para id="eip-432">Both calculators—Insert your respective end of the link cable, press <media id="fs-id4481246" display="inline" alt="2nd key">
+</note><para id="eip-432">Both calculators—Insert your respective end of the link cable, press <media id="fs-id4481246" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
               <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
            
             </media>, then <code>[QUIT]</code> to exit when done.</para></section>
@@ -138,59 +138,59 @@ and press <media id="fs-id15384266" display="inline" alt="2nd key">
 </tgroup><caption>We are manipulating one-variable statistics.</caption>
 </table><para id="eip-653"><title>To begin</title><list id="eip-idm14073664" list-type="enumerated" number-style="arabic"><item>
 <para id="fs-id15582062">Turn on the calculator.<newline/>
-<media id="fs-id14420511" display="inline" alt="on key">
+<media id="fs-id14420511" display="inline" alt="A dark grey rectangular button with rounded corners displays the word 'ON' in bright white, bold capital letters, indicating an activated state or selection.">
 <image mime-type="image/png" src="../../media/ti83-on.png"/>
 </media></para></item>
 <item>
 <para id="fs-id10641750">Access statistics mode.<newline/>
-<media id="fs-id13748217" display="inline" alt="stat key">
+<media id="fs-id13748217" display="inline" alt="A dark gray rectangular button with rounded corners displays the word 'STAT' in prominent, glowing white capital letters, suggesting an urgent or immediate action.">
 <image mime-type="image/png" src="../../media/ti83-stat.png"/>
 </media>
 </para></item>
 <item>
-<para id="fs-id15437009">Select <code>&lt;4:ClrList></code> to clear data from lists, if desired.
-<newline/><media id="fs-id15649038" display="inline" alt="number 4 key">
+<para id="fs-id15437009">Select <code>&lt;4:ClrList&gt;</code> to clear data from lists, if desired.
+<newline/><media id="fs-id15649038" display="inline" alt="A light gray button featuring the number '4' in black text, against a dark gray background at the bottom. The button has softly rounded corners.">
 <image mime-type="image/png" src="../../media/ti83-four.png"/>
 </media>, then
-<media id="fs-id9695112" display="inline" alt="enter key">
+<media id="fs-id9695112" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para></item>
 <item><para id="fs-id13785018">Enter the list <code>[L1]</code> to be cleared.<newline/>
-<media id="fs-id13768754" display="inline" alt="2nd key">
+<media id="fs-id13768754" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L1]</code> ,
-<media id="fs-id14335493" display="inline" alt="enter key">
+<media id="fs-id14335493" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para></item>
 
 <item><para id="fs-id14419501">Display the last instruction.<newline/>
-<media id="fs-id14831640" display="inline" alt="2nd key">
+<media id="fs-id14831640" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[ENTRY]</code>.
 </para></item>
 
 <item><para id="fs-id14326768">Continue clearing any remaining lists in the same fashion, if desired.<newline/>
-<media id="fs-id14329997" display="inline" alt="arrow left key">
+<media id="fs-id14329997" display="inline" alt="A blue, rounded rectangular button features a white triangle pointing left, commonly used as a 'previous' or 'back' navigation icon.">
 <image mime-type="image/png" src="../../media/ti83-dir-left.png"/>
 </media> ,
-<media id="fs-id15742818" display="inline" alt="2nd key">
+<media id="fs-id15742818" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L2]</code> ,
-<media id="fs-id15395962" display="inline" alt="enter key">
+<media id="fs-id15395962" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para></item>
 
 <item><para id="fs-id14832244">Access statistics mode.<newline/>
-<media id="fs-id14891229" display="inline" alt="stat key">
+<media id="fs-id14891229" display="inline" alt="A dark gray rectangular button with rounded corners displays the word 'STAT' in prominent, glowing white capital letters, suggesting an urgent or immediate action.">
 <image mime-type="image/png" src="../../media/ti83-stat.png"/>
 </media>
 </para></item>
 
-<item><para id="fs-id10927723">Select <code>&lt;1:Edit . . .></code>.<newline/>
-<media id="fs-id15712626" display="inline" alt="enter key">
+<item><para id="fs-id10927723">Select <code>&lt;1:Edit . . .&gt;</code>.<newline/>
+<media id="fs-id15712626" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para></item>
@@ -198,13 +198,13 @@ and press <media id="fs-id15384266" display="inline" alt="2nd key">
 <item><para id="eip-idm96290832">Enter data. Data values go into <code>[L1]</code>. (You may need to arrow over to <code>[L1]</code>).
 <list id="fs-id15712194" list-type="bulleted" bullet-style="bullet">
 <item><para id="fs-id14421999">Type in a data value and enter it. For negative numbers, use the negate  key at the bottom of the keypad.<newline/>
-<media id="fs-id15478563" display="inline" alt="negative sign key">
+<media id="fs-id15478563" display="inline" alt="A close-up of a gray button or icon featuring a minus sign enclosed in parentheses, typically used to indicate collapsing, minimizing, or subtracting an item.">
 <image mime-type="image/png" src="../../media/ti83-negate.png"/>
 </media> ,
-<media id="fs-id15648786" display="inline" alt="number 9 key">
+<media id="fs-id15648786" display="inline" alt="A close-up shot of a rectangular grey button featuring the number 9 prominently displayed in its center.">
 <image mime-type="image/png" src="../../media/ti83-nine.png"/>
 </media> ,
-<media id="fs-id14357766" display="inline" alt="enter key">
+<media id="fs-id14357766" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para></item>
@@ -216,10 +216,10 @@ and press <media id="fs-id15384266" display="inline" alt="2nd key">
 <item><para id="eip-idm74059056">In <code>[L2]</code>, enter the frequencies for each data value in <code>[L1]</code>.
 <list id="fs-id4481227" list-type="bulleted" bullet-style="bullet">
 <item><para id="fs-id15505645">Type in a frequency and enter it. If a data value appears only once, the frequency is <emphasis effect="italics">1</emphasis>.<newline/>
-<media id="fs-id15710714" display="inline" alt="number 4 key">
+<media id="fs-id15710714" display="inline" alt="A light gray button featuring the number '4' in black text, against a dark gray background at the bottom. The button has softly rounded corners.">
 <image mime-type="image/png" src="../../media/ti83-four.png"/>
 </media> ,
-<media id="fs-id15650017" display="inline" alt="enter key">
+<media id="fs-id15650017" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para></item>
@@ -230,35 +230,35 @@ and press <media id="fs-id15384266" display="inline" alt="2nd key">
 </item>
 
 <item><para id="fs-id15743532">Access statistics mode.<newline/>
-<media id="fs-id14418553" display="inline" alt="stat key">
+<media id="fs-id14418553" display="inline" alt="A dark gray rectangular button with rounded corners displays the word 'STAT' in prominent, glowing white capital letters, suggesting an urgent or immediate action.">
 <image mime-type="image/png" src="../../media/ti83-stat.png"/>
 </media>
 </para></item>
 
-<item>Navigate to <code>&lt;CALC></code>.</item>
+<item>Navigate to <code>&lt;CALC&gt;</code>.</item>
 
-<item><para id="fs-id14357978">Access <code>&lt;1:1-var Stats></code>.<newline/>
+<item><para id="fs-id14357978">Access <code>&lt;1:1-var Stats&gt;</code>.<newline/>
 
-<media id="fs-id13797091" display="inline" alt="enter key">
+<media id="fs-id13797091" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para></item>
 
 <item><para id="fs-id13788979">Indicate that the data is in <code>[L1]</code>...<newline/>
 
-<media id="fs-id15374940" display="inline" alt="2nd key">
+<media id="fs-id15374940" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L1]</code> ,
-<media id="fs-id13776903" display="inline" alt="comma key">
+<media id="fs-id13776903" display="inline" alt="A dark gray rounded rectangular button features a single white comma symbol in its center, set against a dark background.">
 <image mime-type="image/png" src="../../media/ti83-comma.png"/>
 </media>
 ,</para></item>
 
 <item><para id="fs-id15665979">...and indicate that the frequencies are in <code>[L2]</code>.<newline/>
-<media id="fs-id15677570" display="inline" alt="2nd key">
+<media id="fs-id15677570" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L2]</code> ,
-<media id="fs-id15735160" display="inline" alt="enter key">
+<media id="fs-id15735160" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para></item>
@@ -270,24 +270,24 @@ and press <media id="fs-id15384266" display="inline" alt="2nd key">
 <para id="eip-idp35239360">We will assume that the data are already entered.</para></note><para id="fs-id15680349">We will construct two histograms with the built-in [STAT PLOT] application. In the first method, we will use the default ZOOM. The second method will involve customizing a new graph.</para>
       <list id="fs-id15742651" list-type="enumerated" number-style="arabic"><item>
 <para id="fs-id15419737">Access graphing mode.<newline/>
-<media id="fs-id15448652" display="inline" alt="2nd key">
+<media id="fs-id15448652" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[STAT PLOT]</code>.
 </para>
 </item>
 
 <item>
-<para id="fs-id15557620">Select <code>&lt;1:plot 1></code> to access plotting - first graph.<newline/>
-<media id="fs-id13682805" display="inline" alt="enter key">
+<para id="fs-id15557620">Select <code>&lt;1:plot 1&gt;</code> to access plotting - first graph.<newline/>
+<media id="fs-id13682805" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
 </item>
 
 <item>
-<para id="fs-id15739558">Use the arrows to navigate to <code>&lt;ON></code> to turn on Plot 1.<newline/>
-<code>&lt;ON></code> ,
-<media id="fs-id10512380" display="inline" alt="enter key">
+<para id="fs-id15739558">Use the arrows to navigate to <code>&lt;ON&gt;</code> to turn on Plot 1.<newline/>
+<code>&lt;ON&gt;</code> ,
+<media id="fs-id10512380" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -295,37 +295,37 @@ and press <media id="fs-id15384266" display="inline" alt="2nd key">
 
 <item>
 Use the arrows to go to the histogram picture and select the histogram.
-<media id="fs-id13783163" display="inline" alt="enter key">
+<media id="fs-id13783163" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </item>
 
-<item>Use the arrows to navigate to <code>&lt;Xlist></code>.</item>
+<item>Use the arrows to navigate to <code>&lt;Xlist&gt;</code>.</item>
 
 <item>
 <para id="fs-id14329150">If [L1] is not selected, select it.<newline/>
-<media id="fs-id15663891" display="inline" alt="2nd key">
+<media id="fs-id15663891" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L1]</code> ,
-<media id="fs-id14338110" display="inline" alt="enter key">
+<media id="fs-id14338110" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para></item>
 
-<item>Use the arrows to navigate to <code>&lt;Freq></code>.</item>
+<item>Use the arrows to navigate to <code>&lt;Freq&gt;</code>.</item>
 
 <item>
 <para id="fs-id14831268">Assign the frequencies to <code>[L2]</code>.<newline/>
-<media id="fs-id15664107" display="inline" alt="2nd key">
+<media id="fs-id15664107" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L2]</code> ,
-<media id="fs-id15681866" display="inline" alt="enter key">
+<media id="fs-id15681866" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para></item>
 
 <item><para id="fs-id15772224">Go back to access other graphs.<newline/>
-<media id="fs-id15861321" display="inline" alt="2nd key">
+<media id="fs-id15861321" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[STAT PLOT]</code>.
 </para></item>
@@ -334,37 +334,37 @@ Use the arrows to go to the histogram picture and select the histogram.
 
 <item><emphasis>Be sure to deselect or clear all equations before graphing.</emphasis></item>
       </list><para id="eip-907"><title>To deselect equations</title><list id="eip-idm66550672" list-type="enumerated" number-style="arabic"><item><para id="fs-id10677318">Access the list of equations.<newline/>
-<media id="fs-id14831127" display="inline" alt="Y= key">
+<media id="fs-id14831127" display="inline" alt="A blue button with rounded corners displaying the white, glowing text 'Y='.">
 <image mime-type="image/png" src="../../media/ti83-yequals.png"/>
 </media>
 </para></item>
 
 <item><para id="fs-id14360577">Select each equal sign (=).<newline/>
-<media id="fs-id15443354" display="inline" alt="arrow down key">
+<media id="fs-id15443354" display="inline" alt="A blue rectangular button with rounded corners features a prominent white downward-pointing triangle, typically indicating a dropdown menu, an expand function, or a scroll-down action.">
 <image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
 </media>
-<media id="fs-id15666036" display="inline" alt="arrow right key">
+<media id="fs-id15666036" display="inline" alt="A blue rectangular button features a prominent white triangular play icon, commonly used to initiate video or audio playback.">
 <image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
 </media>
-<media id="fs-id15685297" display="inline" alt="enter key">
+<media id="fs-id15685297" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para></item>
 
 <item>Continue until all equations are deselected.</item></list></para><para id="eip-556"><title>To clear equations</title><list id="eip-idp10993520" list-type="enumerated" number-style="arabic"><item><para id="fs-id15384255">Access the list of equations.<newline/>
-<media id="fs-id14831410" display="inline" alt="Y= key">
+<media id="fs-id14831410" display="inline" alt="A blue button with rounded corners displaying the white, glowing text 'Y='.">
 <image mime-type="image/png" src="../../media/ti83-yequals.png"/>
 </media>
 </para></item>
 
 <item><para id="fs-id4458420">Use the arrow keys to navigate to the right of each equal sign (=) and clear them.<newline/>
-<media id="fs-id15399911" display="inline" alt="arrow down key">
+<media id="fs-id15399911" display="inline" alt="A blue rectangular button with rounded corners features a prominent white downward-pointing triangle, typically indicating a dropdown menu, an expand function, or a scroll-down action.">
 <image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
 </media>
-<media id="fs-id15664574" display="inline" alt="arrow right key">
+<media id="fs-id15664574" display="inline" alt="A blue rectangular button features a prominent white triangular play icon, commonly used to initiate video or audio playback.">
 <image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
 </media>
-<media id="fs-id15392714" display="inline" alt="clear key">
+<media id="fs-id15392714" display="inline" alt="A rectangular gray button with a soft white glow around the edges features the word 'CLEAR' in bold, white, capital letters, suggesting a function to reset or remove content.">
 <image mime-type="image/png" src="../../media/ti83-clear.png"/>
 </media>
 .</para></item>
@@ -375,8 +375,8 @@ Use the arrows to go to the histogram picture and select the histogram.
 </media>
 </para></item>
 
-<item><para id="fs-id15743779">Select <code>&lt;9:ZoomStat></code>.<newline/>
-<media id="fs-id15676186" display="inline" alt="number 9 key">
+<item><para id="fs-id15743779">Select <code>&lt;9:ZoomStat&gt;</code>.<newline/>
+<media id="fs-id15676186" display="inline" alt="A close-up shot of a rectangular grey button featuring the number 9 prominently displayed in its center.">
 <image mime-type="image/png" src="../../media/ti83-nine.png"/>
 </media>
 </para></item>
@@ -481,64 +481,64 @@ Use the arrows to go to the histogram picture and select the histogram.
           </list>
 </item>
         <item>Access graphing mode to see the histogram.<newline/>
-<media id="fs-id14338525" display="inline" alt="graph key">
+<media id="fs-id14338525" display="inline" alt="A blue, rounded rectangular button with a slight shadow, featuring the word 'GRAPH' in bright, glowing white text. The text has a soft, diffused light effect against the blue background.">
             <image mime-type="image/png" src="../../media/ti83-graph.png"/>
           </media></item>
 </list></para><para id="eip-140"><title>To draw box plots</title><list id="eip-idp73874128" list-type="enumerated" number-style="arabic"><item><para id="fs-id13795663">Access graphing mode.<newline/>
-<media id="fs-id8283012" display="inline" alt="2nd key">
+<media id="fs-id8283012" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[STAT PLOT]</code>.
 </para>
 </item>
 
-<item><para id="fs-id15609035">Select <code>&lt;1:Plot 1></code> to access the first graph.<newline/>
+<item><para id="fs-id15609035">Select <code>&lt;1:Plot 1&gt;</code> to access the first graph.<newline/>
 
-<media id="fs-id15436944" display="inline" alt="enter key">
+<media id="fs-id15436944" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
 </item>
 
-<item><para id="fs-id10982525">Use the arrows to select <code>&lt;ON></code> and turn on Plot 1.<newline/>
-<media id="fs-id15407549" display="inline" alt="enter key">
+<item><para id="fs-id10982525">Use the arrows to select <code>&lt;ON&gt;</code> and turn on Plot 1.<newline/>
+<media id="fs-id15407549" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
 </item>
 
 <item><para id="fs-id14339453">Use the arrows to select the box plot picture and enable it.<newline/>
-<media id="fs-id15682750" display="inline" alt="enter key">
+<media id="fs-id15682750" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
 </item>
 
-<item>Use the arrows to navigate to <code>&lt;Xlist></code>.</item>
+<item>Use the arrows to navigate to <code>&lt;Xlist&gt;</code>.</item>
 
 <item><para id="fs-id12116579">If [L1] is not selected, select it.<newline/>
-<media id="fs-id13785172" display="inline" alt="2nd key">
+<media id="fs-id13785172" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L1]</code> ,
-<media id="fs-id13796670" display="inline" alt="enter key">
+<media id="fs-id13796670" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
 </item>
 
-<item>Use the arrows to navigate to <code>&lt;Freq></code>.</item>
+<item>Use the arrows to navigate to <code>&lt;Freq&gt;</code>.</item>
 
 <item><para id="fs-id14792157">Indicate that the frequencies are in <code>[L2]</code>.<newline/>
-<media id="fs-id14857230" display="inline" alt="2nd key">
+<media id="fs-id14857230" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L2]</code> ,
-<media id="fs-id15400636" display="inline" alt="enter key">
+<media id="fs-id15400636" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
 </item>
 
 <item><para id="fs-id15259023">Go back to access other graphs.<newline/>
-<media id="fs-id3301526" display="inline" alt="2nd key">
+<media id="fs-id3301526" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[STAT PLOT]</code>.
 </para>
@@ -547,7 +547,7 @@ Use the arrows to go to the histogram picture and select the histogram.
 <item><emphasis>Be sure to deselect or clear all equations before graphing</emphasis> using the method mentioned above.</item>
 
 <item><para id="fs-id15428121">View the box plot.<newline/>
-<media id="fs-id15743723" display="inline" alt="graph key">
+<media id="fs-id15743723" display="inline" alt="A blue, rounded rectangular button with a slight shadow, featuring the word 'GRAPH' in bright, glowing white text. The text has a soft, diffused light effect against the blue background.">
 <image mime-type="image/png" src="../../media/ti83-graph.png"/>
 </media> , <code>[STAT PLOT]</code>.
 </para>
@@ -615,7 +615,7 @@ Use the arrows to go to the histogram picture and select the histogram.
 
         <caption>By hand, verify the scatterplot above.</caption></figure><note id="fs-id15648837"><label/><title>Note</title>
 <para id="eip-idp56972304">The TI-83 has a built-in linear regression feature, which allows the data to be edited. The <emphasis effect="italics">x</emphasis>-values will be in <code>[L1]</code>; the <emphasis effect="italics">y</emphasis>-values in <code>[L2]</code>.</para></note><para id="eip-901"><title>To enter data and perform linear regression</title><list id="eip-idp244900032" list-type="enumerated" number-style="arabic"><item><para id="fs-id5077977">ON Turns calculator on.<newline/>
-<media id="fs-id7330302" display="inline" alt="on key">
+<media id="fs-id7330302" display="inline" alt="A dark grey rectangular button with rounded corners displays the word 'ON' in bright white, bold capital letters, indicating an activated state or selection.">
 <image mime-type="image/png" src="../../media/ti83-on.png"/>
 </media>
 </para>
@@ -624,17 +624,17 @@ Use the arrows to go to the histogram picture and select the histogram.
 <item>Before accessing this program, be sure to turn off all plots.
 <list id="fs-id14326364" list-type="bulleted" bullet-style="bullet">
 <item><para id="fs-id14859632">Access graphing mode.<newline/>
-<media id="fs-id13808044" display="inline" alt="2nd key">
+<media id="fs-id13808044" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[STAT PLOT]</code>.
 </para>
 </item>
 
 <item><para id="fs-id10740237">Turn off all plots.<newline/>
-<media id="fs-id14046599" display="inline" alt="number 4 key">
+<media id="fs-id14046599" display="inline" alt="A light gray button featuring the number '4' in black text, against a dark gray background at the bottom. The button has softly rounded corners.">
 <image mime-type="image/png" src="../../media/ti83-four.png"/>
 </media> ,
-<media id="fs-id13782731" display="inline" alt="enter key">
+<media id="fs-id13782731" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -645,18 +645,18 @@ Use the arrows to go to the histogram picture and select the histogram.
 <item>Round to three decimal places.
 <list id="fs-id13796521" list-type="bulleted" bullet-style="bullet">
 <item><para id="fs-id13815985">Access the mode menu.<newline/>
-<media id="fs-id15436477" display="inline" alt="mode key">
+<media id="fs-id15436477" display="inline" alt="A rectangular gray button with rounded corners, featuring the white, slightly blurred text 'MODE' centered on its surface.">
 <image mime-type="image/png" src="../../media/ti83-mode.png"/>
 </media> , <code>[STAT PLOT]</code>.
 </para>
 </item>
 
 <item>
-<para id="fs-id4472705">Navigate to <code>&lt;Float></code> and then to the right until you reach <code>&lt;3></code>.<newline/>
-<media id="fs-id12738760" display="inline" alt="arrow down key">
+<para id="fs-id4472705">Navigate to <code>&lt;Float&gt;</code> and then to the right until you reach <code>&lt;3&gt;</code>.<newline/>
+<media id="fs-id12738760" display="inline" alt="A blue rectangular button with rounded corners features a prominent white downward-pointing triangle, typically indicating a dropdown menu, an expand function, or a scroll-down action.">
 <image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
 </media>
-<media id="fs-id14332544" display="inline" alt="arrow right key">
+<media id="fs-id14332544" display="inline" alt="A blue rectangular button features a prominent white triangular play icon, commonly used to initiate video or audio playback.">
 <image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
 </media>
 .</para>
@@ -664,7 +664,7 @@ Use the arrows to go to the histogram picture and select the histogram.
 
 <item>
 <para id="fs-id14770838">All numbers will be rounded to three decimal places until changed.<newline/>
-<media id="fs-id14064149" display="inline" alt="enter key">
+<media id="fs-id14064149" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
@@ -674,10 +674,10 @@ Use the arrows to go to the histogram picture and select the histogram.
 
 <item>
 <para id="fs-id5168875">Enter statistics mode and clear lists <code>[L1]</code> and <code>[L2]</code>, as described previously.<newline/>
-<media id="fs-id13746924" display="inline" alt="stat key">
+<media id="fs-id13746924" display="inline" alt="A dark gray rectangular button with rounded corners displays the word 'STAT' in prominent, glowing white capital letters, suggesting an urgent or immediate action.">
 <image mime-type="image/png" src="../../media/ti83-stat.png"/>
 </media> ,
-<media id="fs-id14325808" display="inline" alt="number 4 key">
+<media id="fs-id14325808" display="inline" alt="A light gray button featuring the number '4' in black text, against a dark gray background at the bottom. The button has softly rounded corners.">
 <image mime-type="image/png" src="../../media/ti83-four.png"/>
 </media>
 .</para>
@@ -685,34 +685,34 @@ Use the arrows to go to the histogram picture and select the histogram.
 
 <item>
 <para id="fs-id15672446">Enter editing mode to insert values for <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>.<newline/>
-<media id="fs-id15871012" display="inline" alt="stat key">
+<media id="fs-id15871012" display="inline" alt="A dark gray rectangular button with rounded corners displays the word 'STAT' in prominent, glowing white capital letters, suggesting an urgent or immediate action.">
 <image mime-type="image/png" src="../../media/ti83-stat.png"/>
 </media> ,
-<media id="fs-id15414493" display="inline" alt="enter key">
+<media id="fs-id15414493" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
 </item>
 
 <item>Enter each value. Press
-<media id="fs-id15320435" display="inline" alt="enter key">
+<media id="fs-id15320435" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media> to continue.
 </item></list></para><para id="eip-909"><title>To display the correlation coefficient</title><list id="eip-idp108929536" list-type="enumerated" number-style="arabic"><item><para id="fs-id15415238">Access the catalog.<newline/>
-<media id="fs-id13748163" display="inline" alt="2nd key">
+<media id="fs-id13748163" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[CATALOG]</code>.
 </para>
 </item>
 
-<item><para id="fs-id13412820">Arrow down and select <code>&lt;DiagnosticOn></code>.<newline/>
-<media id="fs-id14419965" display="inline" alt="arrow down key">
+<item><para id="fs-id13412820">Arrow down and select <code>&lt;DiagnosticOn&gt;</code>.<newline/>
+<media id="fs-id14419965" display="inline" alt="A blue rectangular button with rounded corners features a prominent white downward-pointing triangle, typically indicating a dropdown menu, an expand function, or a scroll-down action.">
 <image mime-type="image/png" src="../../media/ti83-dir-down.png"/>
 </media>... ,
-<media id="fs-id14758720" display="inline" alt="enter key">
+<media id="fs-id14758720" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media> ,
-<media id="fs-id15298972" display="inline" alt="enter key">
+<media id="fs-id15298972" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -732,10 +732,10 @@ Use the arrows to go to the histogram picture and select the histogram.
 </item>
 
 <item><para id="fs-id15861386">Access linear regression.<newline/>
-<media id="fs-id14358803" display="inline" alt="stat key">
+<media id="fs-id14358803" display="inline" alt="A dark gray rectangular button with rounded corners displays the word 'STAT' in prominent, glowing white capital letters, suggesting an urgent or immediate action.">
 <image mime-type="image/png" src="../../media/ti83-stat.png"/>
 </media>
-<media id="fs-id15770182" display="inline" alt="arrow right key">
+<media id="fs-id15770182" display="inline" alt="A blue rectangular button features a prominent white triangular play icon, commonly used to initiate video or audio playback.">
 <image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
 </media>
 .</para>
@@ -743,10 +743,10 @@ Use the arrows to go to the histogram picture and select the histogram.
 
 <item>
 <para id="fs-id15677479">Select the form of <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>.<newline/>
-<media id="fs-id15413761" display="inline" alt="number 8 key">
+<media id="fs-id15413761" display="inline" alt="A light grey rectangular button or tab displays the number '8' in a darker shade of grey, possibly indicating a count or selection. The object has slightly rounded corners and a subtle shadow underneath, suggesting depth.">
 <image mime-type="image/png" src="../../media/ti83-eight.png"/>
 </media> ,
-<media id="fs-id14568976" display="inline" alt="enter key">
+<media id="fs-id14568976" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -766,24 +766,24 @@ Use the arrows to go to the histogram picture and select the histogram.
 <para id="fs-idm68992784"><title>To see the scatter plot</title>
 <list id="fs-id14860854" list-type="enumerated" number-style="arabic"><item>
 <para id="fs-id15375252">Access graphing mode.<newline/>
-<media id="fs-id14743415" display="inline" alt="2nd key">
+<media id="fs-id14743415" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[STAT PLOT]</code>.
 </para>
 </item>
 
 <item>
-<para id="fs-id13782813">Select <code>&lt;1:Plot 1></code> To access plotting - first graph.<newline/>
-<media id="fs-id13782817" display="inline" alt="enter key">
+<para id="fs-id13782813">Select <code>&lt;1:Plot 1&gt;</code> To access plotting - first graph.<newline/>
+<media id="fs-id13782817" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
 </item>
 
 <item>
-<para id="fs-id9642211">Navigate and select <code>&lt;ON></code> to turn on <code>&lt;1:Plot 1></code>.<newline/>
-<code>&lt;ON></code>
-<media id="fs-id15326624" display="inline" alt="enter key">
+<para id="fs-id9642211">Navigate and select <code>&lt;ON&gt;</code> to turn on <code>&lt;1:Plot 1&gt;</code>.<newline/>
+<code>&lt;ON&gt;</code>
+<media id="fs-id15326624" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -793,38 +793,38 @@ Use the arrows to go to the histogram picture and select the histogram.
 
 <item>
 <para id="fs-id14425261">Select the scatter plot.<newline/>
-<media id="fs-id14425265" display="inline" alt="enter key">
+<media id="fs-id14425265" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
 </item>
 
-<item>Navigate to <code>&lt;Xlist></code>.</item>
+<item>Navigate to <code>&lt;Xlist&gt;</code>.</item>
 
 <item>
 If <code>[L1]</code> is not selected, press
-<media id="fs-id15586352" display="inline" alt="2nd key">
+<media id="fs-id15586352" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , then <code>[L1]</code> to select it.
 </item>
 
 <item>
 <para id="fs-id13616594">Confirm that the data values are in <code>[L1]</code>.<newline/>
-<code>&lt;ON></code>,
-<media id="fs-id15674802" display="inline" alt="enter key">
+<code>&lt;ON&gt;</code>,
+<media id="fs-id15674802" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
 </item>
 
-<item>Navigate to <code>&lt;Ylist></code>.</item>
+<item>Navigate to <code>&lt;Ylist&gt;</code>.</item>
 
 <item>
 <para id="fs-id12292882">Select that the frequencies are in <code>[L2]</code>.<newline/>
-<media id="fs-id12292887" display="inline" alt="2nd key">
+<media id="fs-id12292887" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L2]</code> ,
-<media id="fs-id13027628" display="inline" alt="enter key">
+<media id="fs-id13027628" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
@@ -832,7 +832,7 @@ If <code>[L1]</code> is not selected, press
 
 <item>
 <para id="fs-id8794800">Go back to access other graphs.<newline/>
-<media id="fs-id15374874" display="inline" alt="2nd key">
+<media id="fs-id15374874" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[STAT PLOT]</code>
 </para>
@@ -942,7 +942,7 @@ If <code>[L1]</code> is not selected, press
 <item>Be sure to deselect or clear all equations before graphing, using the instructions above.</item>
 
 <item>Press  the graph button to see the scatter plot.
-<media id="fs-id11867940" display="inline" alt="graph key">
+<media id="fs-id11867940" display="inline" alt="A blue, rounded rectangular button with a slight shadow, featuring the word 'GRAPH' in bright, glowing white text. The text has a soft, diffused light effect against the blue background.">
 <image mime-type="image/png" src="../../media/ti83-graph.png"/>
 </media>
 </item></list></para>
@@ -951,14 +951,14 @@ If <code>[L1]</code> is not selected, press
 <title>To see the regression graph</title>
 <list id="fs-id15636297" list-type="enumerated" number-style="arabic"><item>
 <para id="fs-id14418754">Access the equation menu. The regression equation will be put into Y1.<newline/>
-<media id="fs-id12873704" display="inline" alt="Y= key">
+<media id="fs-id12873704" display="inline" alt="A blue button with rounded corners displaying the white, glowing text 'Y='.">
 <image mime-type="image/png" src="../../media/ti83-yequals.png"/>
 </media>
 </para>
 </item>
 
 <item>
-<para id="fs-id15318374">Access the vars menu and navigate to <code>&lt;5: Statistics></code>.<newline/>
+<para id="fs-id15318374">Access the vars menu and navigate to <code>&lt;5: Statistics&gt;</code>.<newline/>
 <media id="fs-id10268916" display="inline" alt="vars key">
 <image mime-type="image/png" src="../../media/ti83-vars.png"/>
 </media> ,
@@ -968,35 +968,35 @@ If <code>[L1]</code> is not selected, press
 .</para>
 </item>
 
-<item>Navigate to <code>&lt;EQ></code>.</item>
+<item>Navigate to <code>&lt;EQ&gt;</code>.</item>
 
 <item>
-<para id="fs-id14622106"><code>&lt;1: RegEQ></code> contains the regression equation which will be entered in Y1.<newline/>
-<media id="fs-id15667622" display="inline" alt="enter key">
+<para id="fs-id14622106"><code>&lt;1: RegEQ&gt;</code> contains the regression equation which will be entered in Y1.<newline/>
+<media id="fs-id15667622" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 </para>
 </item>
 
 <item>Press the graphing mode button. The regression line will be superimposed over the scatter plot.<newline/>
-<media id="fs-id15399739" display="inline" alt="graph key">
+<media id="fs-id15399739" display="inline" alt="A blue, rounded rectangular button with a slight shadow, featuring the word 'GRAPH' in bright, glowing white text. The text has a soft, diffused light effect against the blue background.">
 <image mime-type="image/png" src="../../media/ti83-graph.png"/>
 </media>
 </item></list></para>
         <para id="eip-385"><title>To see the residuals and use them to calculate the critical point for an outlier</title><list id="eip-idp57821472" list-type="enumerated" number-style="arabic"><item>
-<para id="fs-id14885511">Access the list. &lt;RESID> will be an item on the menu. Navigate to it.<newline/>
-<media id="fs-id15318284" display="inline" alt="2nd key">
+<para id="fs-id14885511">Access the list. &lt;RESID&gt; will be an item on the menu. Navigate to it.<newline/>
+<media id="fs-id15318284" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
-</media>, <code>[LIST]</code>, then <code>&lt;RESID></code>.
+</media>, <code>[LIST]</code>, then <code>&lt;RESID&gt;</code>.
 </para>
 </item>
 
 <item>
 <para id="fs-id15771552">Press enter twice to view the list of residuals. Use the arrows to select them.<newline/>
-<media id="fs-id13622621" display="inline" alt="enter key">
+<media id="fs-id13622621" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media> ,
-<media id="fs-id15558165" display="inline" alt="enter key">
+<media id="fs-id15558165" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -1047,13 +1047,13 @@ If <code>[L1]</code> is not selected, press
 
 <item>
 <para id="fs-id13856017">Store the residuals in <code>[L3]</code>.<newline/>
-<media id="fs-id13855071" display="inline" alt="store key">
+<media id="fs-id13855071" display="inline" alt="A dark gray button displaying the word 'STOP' next to a white play symbol, suggesting a media control or a stop/start function.">
 <image mime-type="image/png" src="../../media/ti83-sto.png"/>
 </media> ,
-<media id="fs-id15769062" display="inline" alt="2nd key">
+<media id="fs-id15769062" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L3]</code> ,
-<media id="fs-id15401211" display="inline" alt="enter key">
+<media id="fs-id15401211" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -1088,7 +1088,7 @@ If <code>[L1]</code> is not selected, press
 </m:apply>
 </m:math>
 .<newline/>
-<media id="fs-id15680372" display="inline" alt="2nd key">
+<media id="fs-id15680372" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L3]</code> ,
 <media id="fs-id15332654" display="inline" alt="x-squared key">
@@ -1097,7 +1097,7 @@ If <code>[L1]</code> is not selected, press
 <media id="fs-id15664227" display="inline" alt="division key">
 <image mime-type="image/png" src="../../media/ti83-divide.png"/>
 </media> , then
-<media id="fs-id15443531" display="inline" alt="number 8 key">
+<media id="fs-id15443531" display="inline" alt="A light grey rectangular button or tab displays the number '8' in a darker shade of grey, possibly indicating a count or selection. The object has slightly rounded corners and a subtle shadow underneath, suggesting depth.">
 <image mime-type="image/png" src="../../media/ti83-eight.png"/>
 </media>
 .</para>
@@ -1105,13 +1105,13 @@ If <code>[L1]</code> is not selected, press
 
 <item>
 <para id="fs-id15492779">Store this value in <code>[L4]</code>.<newline/>
-<media id="fs-id12493313" display="inline" alt="store key">
+<media id="fs-id12493313" display="inline" alt="A dark gray button displaying the word 'STOP' next to a white play symbol, suggesting a media control or a stop/start function.">
 <image mime-type="image/png" src="../../media/ti83-sto.png"/>
 </media> ,
-<media id="fs-id14857761" display="inline" alt="2nd key">
+<media id="fs-id14857761" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L4]</code> ,
-<media id="fs-id15330584" display="inline" alt="enter key">
+<media id="fs-id15330584" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -1119,34 +1119,34 @@ If <code>[L1]</code> is not selected, press
 
 <item>
 <para id="fs-id13799897">Calculate the critical value using the equation above.<newline/>
-<media id="fs-id15553710" display="inline" alt="number 1 key">
+<media id="fs-id15553710" display="inline" alt="A light gray, horizontally elongated rectangular button with softly rounded corners features a prominent dark gray numeral '1' centered on its surface. It resembles a counter, a step indicator, or a label.">
 <image mime-type="image/png" src="../../media/ti83-one.png"/>
 </media> ,
 <media id="fs-id13679088" display="inline" alt="decimal point key">
 <image mime-type="image/png" src="../../media/ti83-decimal.png"/>
 </media> ,
-<media id="fs-id15413832" display="inline" alt="number 9 key">
+<media id="fs-id15413832" display="inline" alt="A close-up shot of a rectangular grey button featuring the number 9 prominently displayed in its center.">
 <image mime-type="image/png" src="../../media/ti83-nine.png"/>
 </media> ,
-<media id="fs-id13632053" display="inline" alt="multiplication key">
+<media id="fs-id13632053" display="inline" alt="A close-up of a digitally rendered blue button with a soft glow, featuring a white 'X' symbol in the center, indicating a close or cancel function.">
 <image mime-type="image/png" src="../../media/ti83-multiply.png"/>
 </media> ,
-<media id="fs-id15673395" display="inline" alt="2nd key">
+<media id="fs-id15673395" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[V]</code> ,
-<media id="fs-id15682092" display="inline" alt="2nd key">
+<media id="fs-id15682092" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[LIST]</code>
-<media id="fs-id12746411" display="inline" alt="arrow right key">
+<media id="fs-id12746411" display="inline" alt="A blue rectangular button features a prominent white triangular play icon, commonly used to initiate video or audio playback.">
 <image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
 </media> ,
-<media id="fs-id15385301" display="inline" alt="arrow right key">
+<media id="fs-id15385301" display="inline" alt="A blue rectangular button features a prominent white triangular play icon, commonly used to initiate video or audio playback.">
 <image mime-type="image/png" src="../../media/ti83-dir-right.png"/>
 </media> ,
 <media id="fs-id14854303" display="inline" alt="number 5 key">
 <image mime-type="image/png" src="../../media/ti83-five.png"/>
 </media> ,
-<media id="fs-id15331426" display="inline" alt="2nd key">
+<media id="fs-id15331426" display="inline" alt="A rectangular yellow button or banner with a subtle gradient and shadow effect, displaying the text '2nd' in prominent, glowing white letters. The text has a slightly blurred or soft-focus appearance.">
 <image mime-type="image/png" src="../../media/ti83-2nd.png"/>
 </media> , <code>[L4]</code> ,
 <media id="fs-id14040973" display="inline" alt="closing parenthesis key">
@@ -1155,7 +1155,7 @@ If <code>[L1]</code> is not selected, press
 <media id="fs-id12262413" display="inline" alt="closing parenthesis key">
 <image mime-type="image/png" src="../../media/ti83-rightparenthesis.png"/>
 </media> , then
-<media id="fs-id8733928" display="inline" alt="enter key">
+<media id="fs-id8733928" display="inline" alt="A rectangular blue button with rounded corners features the word 'ENTER' in white, glowing capital letters. There's a subtle drop shadow beneath the button, giving it a three-dimensional effect.">
 <image mime-type="image/png" src="../../media/ti83-enter.png"/>
 </media>
 .</para>
@@ -1164,7 +1164,7 @@ If <code>[L1]</code> is not selected, press
 <item>Verify that the calculator displays 7.642669563. This is the critical value.</item>
 
 <item>Compare the absolute value of each residual value in <code>[L3]</code> to 7.64. If the absolute value is greater than 7.64, then the (<emphasis effect="italics">x, y</emphasis>) corresponding point is an outlier. In this case, none of the points is an outlier.</item></list></para><para id="fs-id14035082"><title>To obtain estimates of <emphasis effect="italics">y</emphasis> for various <emphasis effect="italics">x</emphasis>-values</title>There are various ways to determine estimates for "<emphasis effect="italics">y.</emphasis>" One way is to substitute values for "<emphasis effect="italics">x</emphasis>" in the equation. Another way is to use the
-          <media id="fs-id4485078" display="inline" alt="trace key">
+          <media id="fs-id4485078" display="inline" alt="A blue, rounded rectangular button with the word 'TRACE' in glowing white text, suggesting a digital control or function.">
             <image mime-type="image/png" src="../../media/ti83-trace.png"/>
             
           </media> on the graph of the regression line.
